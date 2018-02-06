@@ -17,14 +17,14 @@
  * specific language governing permissions and limitations
  * under the License.
  */
-namespace aliyun\core\Profile;
+namespace aliyun\office\core\Profile;
 
-use aliyun\core\Auth\Credential;
-use aliyun\core\Auth\ShaHmac1Signer;
-use aliyun\core\Regions\Endpoint;
-use aliyun\core\Regions\EndpointProvider;
-use aliyun\core\Regions\LocationService;
-use aliyun\core\Regions\ProductDomain;
+use aliyun\office\core\Auth\Credential;
+use aliyun\office\core\Auth\ShaHmac1Signer;
+use aliyun\office\core\Regions\Endpoint;
+use aliyun\office\core\Regions\EndpointProvider;
+use aliyun\office\core\Regions\LocationService;
+use aliyun\office\core\Regions\ProductDomain;
 
 class DefaultProfile implements IClientProfile
 {

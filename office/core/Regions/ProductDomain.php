@@ -17,7 +17,7 @@
  * specific language governing permissions and limitations
  * under the License.
  */
-namespace aliyun\core\Regions;
+namespace aliyun\office\core\Regions;
 
 class ProductDomain
 {

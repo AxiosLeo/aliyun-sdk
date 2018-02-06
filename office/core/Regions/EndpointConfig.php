@@ -53,12 +53,12 @@ foreach ($json_array["Endpoint"] as $json_endpoint) {
 
     $product_domains = array();
     foreach ($products as $product) {
-        $product_domain = new \aliyun\core\Regions\ProductDomain($product['ProductName'], $product['DomainName']);
+        $product_domain = new \aliyun\office\core\Regions\ProductDomain($product['ProductName'], $product['DomainName']);
         array_push($product_domains, $product_domain);
     }
 
-    $endpoint = new \aliyun\core\Regions\Endpoint($region_ids[0], $region_ids, $product_domains);
+    $endpoint = new \aliyun\office\core\Regions\Endpoint($region_ids[0], $region_ids, $product_domains);
     array_push($endpoints, $endpoint);
 }
 
-\aliyun\core\Regions\EndpointProvider::setEndpoints($endpoints);
+\aliyun\office\core\Regions\EndpointProvider::setEndpoints($endpoints);

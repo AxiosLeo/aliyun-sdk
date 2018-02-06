@@ -17,7 +17,7 @@
  * specific language governing permissions and limitations
  * under the License.
  */
-namespace aliyun\core\Auth;
+namespace aliyun\office\core\Auth;
 
 class Credential
 {

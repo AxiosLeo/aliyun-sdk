@@ -17,10 +17,10 @@
  * specific language governing permissions and limitations
  * under the License.
  */
-namespace aliyun\core;
+namespace aliyun\office\core;
 
-use aliyun\core\Auth\Credential;
-use aliyun\core\Auth\ISigner;
+use aliyun\office\core\Auth\Credential;
+use aliyun\office\core\Auth\ISigner;
 
 abstract class RpcAcsRequest extends AcsRequest
 {

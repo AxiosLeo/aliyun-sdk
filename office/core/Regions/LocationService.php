@@ -17,11 +17,11 @@
  * specific language governing permissions and limitations
  * under the License.
  */
-namespace aliyun\core\Regions;
+namespace aliyun\office\core\Regions;
 
-use aliyun\core\Http\HttpHelper;
-use aliyun\core\Profile\IClientProfile;
-use aliyun\core\RpcAcsRequest;
+use aliyun\office\core\Http\HttpHelper;
+use aliyun\office\core\Profile\IClientProfile;
+use aliyun\office\core\RpcAcsRequest;
 
 define("LOCATION_SERVICE_PRODUCT_NAME", "Location");
 define("LOCATION_SERVICE_DOMAIN", "location.aliyuncs.com");

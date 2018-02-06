@@ -17,14 +17,14 @@
  * specific language governing permissions and limitations
  * under the License.
  */
-namespace aliyun\core;
+namespace aliyun\office\core;
 
-use aliyun\core\Exception\ClientException;
-use aliyun\core\Exception\ServerException;
-use aliyun\core\Http\HttpHelper;
-use aliyun\core\Profile\IClientProfile;
-use aliyun\core\Regions\EndpointProvider;
-use aliyun\core\Regions\LocationService;
+use aliyun\office\core\Exception\ClientException;
+use aliyun\office\core\Exception\ServerException;
+use aliyun\office\core\Http\HttpHelper;
+use aliyun\office\core\Profile\IClientProfile;
+use aliyun\office\core\Regions\EndpointProvider;
+use aliyun\office\core\Regions\LocationService;
 
 class DefaultAcsClient implements IAcsClient
 {

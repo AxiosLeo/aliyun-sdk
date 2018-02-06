@@ -19,7 +19,7 @@
  */
 namespace vod\Request\V20170321;
 
-use aliyun\core\RpcAcsRequest;
+use aliyun\office\core\RpcAcsRequest;
 
 class ProduceEditingProjectVideoRequest extends RpcAcsRequest
 {

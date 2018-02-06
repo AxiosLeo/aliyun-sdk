@@ -17,6 +17,8 @@
  * specific language governing permissions and limitations
  * under the License.
  */
+namespace aliyun\office\core;
+
 spl_autoload_register("Autoloader::autoload");
 class Autoloader
 {

@@ -17,6 +17,7 @@
  * specific language governing permissions and limitations
  * under the License.
  */
+namespace aliyun\office\core;
 include_once 'Autoloader/Autoloader.php';
 include_once 'Regions/EndpointConfig.php';
 include_once 'Regions/LocationService.php';

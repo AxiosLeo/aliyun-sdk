@@ -17,9 +17,9 @@
  * specific language governing permissions and limitations
  * under the License.
  */
-namespace aliyun\core\Http;
+namespace aliyun\office\core\Http;
 
-use aliyun\core\Exception\ClientException;
+use aliyun\office\core\Exception\ClientException;
 
 class HttpHelper
 {

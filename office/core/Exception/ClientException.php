@@ -17,7 +17,7 @@
  * specific language governing permissions and limitations
  * under the License.
  */
-namespace aliyun\core\Exception;
+namespace aliyun\office\core\Exception;
 
 class ClientException extends \Exception
 {
