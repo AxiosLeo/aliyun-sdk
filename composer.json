@@ -1,0 +1,39 @@
+{
+  "name": "axios/aliyun-sdk",
+  "description": "SDK for aliyun service develop",
+  "version": "0.0.1",
+  "keywords": [
+    "aliyun",
+    "aliyun-service",
+    "aliyun-sdk"
+  ],
+  "homepage": "https://github.com/AxiosCros/aliyun-sdk",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "Axios",
+      "email": "axioscros@aliyun.com"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/AxiosCros/aliyun-sdk/issues"
+  },
+  "require": {
+    "php": ">=7.0",
+    "axios/tpr-framework": "^1.1"
+  },
+  "require-dev": {
+    "composer/composer": "1.0.*@dev",
+    "axios/aliyun-oss": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "aliyun\\sdk\\": "library",
+      "aliyun\\core\\":"office/core",
+      "vod\\":"office/vod"
+    },
+    "files":[
+      "help.php"
+    ]
+  }
+}
