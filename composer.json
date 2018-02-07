@@ -19,12 +19,12 @@
     "issues": "https://github.com/AxiosCros/aliyun-sdk/issues"
   },
   "require": {
-    "php": ">=7.0",
-    "axios/tpr-framework": "^1.1"
+    "php": ">=7.0"
   },
   "require-dev": {
     "composer/composer": "1.0.*@dev",
-    "axios/aliyun-oss": "^1.0"
+    "axios/aliyun-oss": "^1.0",
+    "axios/tpr-framework": "^1.1"
   },
   "autoload": {
     "psr-4": {
