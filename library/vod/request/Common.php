@@ -7,7 +7,7 @@
  * @datetime: 2018/2/5 17:34
  */
 
-namespace aliyun\sdk\vod;
+namespace aliyun\sdk\vod\request;
 
 use aliyun\sdk\core\http\Request;
 
@@ -15,10 +15,10 @@ class Common extends Request
 {
     public function __construct()
     {
-        parent::__construct();
         $this->product = "vod";
+        parent::__construct();
 
-        $this->version = "2017-03-21";
+        $this->setVersion("2017-03-21");
 
         $this->locationServiceCode = "vod";
 
