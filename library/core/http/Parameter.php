@@ -9,65 +9,57 @@
 
 namespace aliyun\sdk\core\http;
 
+use aliyun\sdk\Aliyun;
 
 class Parameter
 {
-    public $format = "JSON";
+    protected $param = [];
 
-    public $version;
-
-    public $access_key_id;
-
-    public $signature;
-
-    public $signature_method;
-
-    public $signature_version;
-
-    public $timestamp;
-
-    public $signature_nonce;
-
-    public $security_token;
-
-    public function commonParam()
+    public function __construct()
     {
-        return [
-            "Format"          => $this->format,
-            "Version"         => $this->version,
-            "AccessKeyId"     => $this->access_key_id,
-            "Signature"       => $this->signature,
-            "SignatureMethod" => $this->signature_method,
-            "SignatureVersion"=> $this->signature_version,
-            "Timestamp"       => $this->timestamp,
-            "SignatureNonce"  => $this->signature_nonce,
-        ];
+        $this->setFormat("JSON");
+        $this->setVersion("0000-00-00");
+        $this->setAccessKeyId(Aliyun::$access_key_id);
+        $this->setParam("SignatureMethod","HMAC-SHA1");
+        $this->setParam("SignatureVersion","1.0");
+        $this->setParam("SignatureNonce",md5("SignatureNonce".uniqid(md5(microtime(true)),true)));
+        $this->setParam("Timestamp",date("Y-m-d\TH:i:s\Z"));
+    }
+
+    public function param()
+    {
+        return $this->param;
     }
 
     /**
      * @param $format
-     * @return $this
      */
-    public function setFormat($format){
-        $this->format = $format;
-        return $this;
+    protected function setFormat($format){
+        $this->setParam('Format',$format);
     }
 
     /**
      * @param $version_date
-     * @return $this
      */
-    public function setVersion($version_date){
-        $this->version = $version_date;
-        return $this;
+    protected function setVersion($version_date){
+        $this->setParam('Version',$version_date);
     }
 
-    public function setAccessKeyId($access_key_id){
-        $this->access_key_id = $access_key_id;
-        return $this;
+    protected function setAccessKeyId($access_key_id){
+        $this->setParam('AccessKeyId',$access_key_id);
     }
 
-    public function setSignature($param){
+    protected function setSignature($signature){
+        $this->setParam("Signature",$signature);
+    }
 
+    protected function setParam($key , $value = ''){
+        if(is_array($key)){
+            foreach ($key as $k=>$v){
+                $this->param[$k] = $v;
+            }
+        }else{
+            $this->param[$key] = $value;
+        }
     }
 }
