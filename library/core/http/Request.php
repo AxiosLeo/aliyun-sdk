@@ -9,11 +9,18 @@
 
 namespace aliyun\sdk\core\http;
 
+use aliyun\sdk\Aliyun;
+use aliyun\sdk\core\Product;
+use aliyun\sdk\core\sign\HmacSHA1;
+
 class Request extends Parameter
 {
-    protected $action_name = "";
 
     protected $product = "";
+
+    protected $domain = "";
+
+    protected $region = "";
 
     protected $locationServiceCode = "";
 
@@ -21,6 +28,18 @@ class Request extends Parameter
 
     public function __construct()
     {
+        parent::__construct();
+        $this->region = Aliyun::$region_id;
+        $this->domain = Product::domain($this->product,$this->region);
+    }
 
+    public function setActionName($action_name){
+        $this->setParam("ActionName",$action_name);
+    }
+
+    public function request(){
+        $signature = HmacSHA1::create($this->param());
+        $this->setSignature($signature);
+        dump($this);
     }
 }
