@@ -34,7 +34,7 @@ class Aliyun
 
         self::$access_key_id = $accessKeyId;
         self::$access_secret = $accessSecret;
-        self::$security_token = $security_token;
+        self::$security_token = is_null($security_token) ? md5("SignatureNonce".uniqid(md5(microtime(true)),true)) : $security_token;
 
         if(empty(Endpoints::$endpoints)){
             $xml_file_content = file_get_contents(ALIYUN_SDK_PATH .'/endpoints.xml');
