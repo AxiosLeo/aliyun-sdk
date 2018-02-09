@@ -22,7 +22,7 @@ class Parameter
         $this->setAccessKeyId(Aliyun::$access_key_id);
         $this->setParam("SignatureMethod","HMAC-SHA1");
         $this->setParam("SignatureVersion","1.0");
-        $this->setParam("SignatureNonce",md5("SignatureNonce".uniqid(md5(microtime(true)),true)));
+        $this->setParam("SignatureNonce", Aliyun::$security_token);
         $this->setParam("Timestamp",date("Y-m-d\TH:i:s\Z"));
     }
 
