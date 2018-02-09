@@ -18,7 +18,7 @@ class Category extends Common
 
     public function create(){
         $this->setActionName("AddCategory");
-        return $this;
+        return $this->request();
     }
 
     public function read(){
@@ -28,12 +28,12 @@ class Category extends Common
 
     public function update(){
         $this->setActionName("UpdateCategory");
-        return $this;
+        return $this->request();
     }
 
     public function delete(){
         $this->setActionName("DeleteCategory");
-        return $this;
+        return $this->request();
     }
 
     public function setCateId($cate_id = -1){
