@@ -25,17 +25,15 @@ class Aliyun
     public static $instance;
 
     /**
-     * @param string $region_id
      * @param string $accessKeyId
      * @param string $accessSecret
      * @param null $security_token
      */
-    public static function auth($region_id , $accessKeyId = '', $accessSecret = '', $security_token = null){
+    public static function auth($accessKeyId = '', $accessSecret = '', $security_token = null){
         defined('ALIYUN_SDK_PATH') or define('ALIYUN_SDK_PATH',__DIR__);
         self::$access_key_id = $accessKeyId;
         self::$access_secret = $accessSecret;
         self::$security_token = $security_token;
-        self::$region_id = $region_id;
 
         if(empty(Endpoints::$endpoints)){
             $xml_file_content = file_get_contents(ALIYUN_SDK_PATH .'/endpoints.xml');
@@ -69,5 +67,9 @@ class Aliyun
 //        dump(Endpoints::productExist('cn-shanghai','vod'));
 //        dump(Product::select());
 //        dump(Product::domain('vod','cn-shanghai'));
+    }
+
+    public static function region($region_id){
+        self::$region_id = $region_id;
     }
 }
