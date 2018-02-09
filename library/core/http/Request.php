@@ -10,6 +10,7 @@
 namespace aliyun\sdk\core\http;
 
 use aliyun\sdk\Aliyun;
+use aliyun\sdk\core\help\HttpHelper;
 use aliyun\sdk\core\Product;
 use aliyun\sdk\core\sign\HmacSHA1;
 
@@ -26,6 +27,10 @@ class Request extends Parameter
 
     protected $locationEndpointType = "";
 
+    protected $request_method = "Get";
+
+    protected $header = [];
+
     public function __construct()
     {
         parent::__construct();
@@ -37,9 +42,23 @@ class Request extends Parameter
         $this->setParam("ActionName",$action_name);
     }
 
+    public function setRequestMethod($method){
+        $method = strtoupper($method);
+        if(in_array($method,["GET","POST"])){
+            $this->request_method = $method;
+        }
+    }
+
+    public function setRequestHeader($key,$value){
+        $this->header[$key] = $value;
+    }
+
+    /**
+     * @throws \aliyun\sdk\core\exception\ClientException
+     */
     public function request(){
         $signature = HmacSHA1::create($this->param());
         $this->setSignature($signature);
-        dump($this);
+        return HttpHelper::curl($this->domain,$this->request_method,$this->param,$this->header);
     }
 }

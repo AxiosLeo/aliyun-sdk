@@ -19,13 +19,21 @@
  */
 namespace aliyun\sdk\core\help;
 
-use aliyun\office\core\Exception\ClientException;
+use aliyun\sdk\core\exception\ClientException;
 
 class HttpHelper
 {
     public static $connectTimeout = 30;//30 second
     public static $readTimeout = 80;//80 second
-    
+
+    /**
+     * @param $url
+     * @param string $httpMethod
+     * @param null $postFields
+     * @param null $headers
+     * @return HttpResponse
+     * @throws ClientException
+     */
     public static function curl($url, $httpMethod = "GET", $postFields = null, $headers = null)
     {
         $ch = curl_init();
