@@ -10,7 +10,8 @@
 namespace aliyun\sdk\core\http;
 
 use aliyun\sdk\Aliyun;
-use aliyun\sdk\core\help\HttpHelper;
+use aliyun\sdk\core\auth\Credential;
+use aliyun\sdk\core\exception\ClientException;
 use aliyun\sdk\core\Product;
 use aliyun\sdk\core\sign\HmacSHA1;
 
@@ -27,7 +28,7 @@ class Request extends Parameter
 
     protected $locationEndpointType = "";
 
-    protected $request_method = "Get";
+    protected $request_method = "POST";
 
     protected $header = [];
 
@@ -39,7 +40,7 @@ class Request extends Parameter
     }
 
     public function setActionName($action_name){
-        $this->setParam("ActionName",$action_name);
+        $this->setParam("Action",$action_name);
     }
 
     public function setRequestMethod($method){
@@ -57,8 +58,51 @@ class Request extends Parameter
      * @throws \aliyun\sdk\core\exception\ClientException
      */
     public function request(){
-        $signature = HmacSHA1::create($this->param());
+        Credential::auth($this->product,$this->param('SignatureNonce'),$this->param('Timestamp'));
+        $signature = HmacSHA1::create($this->param(),$this->request_method);
         $this->setSignature($signature);
-        return HttpHelper::curl($this->domain,$this->request_method,$this->param,$this->header);
+        $response =  self::curl($this->domain,$this->param,$this->request_method,$this->header);
+        return $response;
+    }
+
+    public static function curl($url, $data = [], $method = "POST", $header = []){
+        $data = is_array($data) ? http_build_query($data) : $data;
+        curl_init();
+        $ch = curl_init();
+        curl_setopt($ch, CURLOPT_CUSTOMREQUEST, $method);
+        curl_setopt($ch, CURLOPT_URL, $url);
+        curl_setopt($ch, CURLOPT_FAILONERROR, false);
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+        curl_setopt($ch, CURLOPT_POSTFIELDS, $data);
+        curl_setopt($ch, CURLOPT_TIMEOUT, 30);
+        curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, 80);
+        if (strlen($url) > 5 && strtolower(substr($url, 0, 5)) == "https") {
+            curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+            curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false);
+        }
+        if (is_array($header) && 0 < count($header)) {
+            $httpHeaders =self::getHttpHeaders($header);
+            curl_setopt($ch, CURLOPT_HTTPHEADER, $httpHeaders);
+        }
+
+        $response = new Response();
+        $response->setbody(curl_exec($ch));
+        $response->setStatus(curl_getinfo($ch, CURLINFO_HTTP_CODE));
+        if (curl_errno($ch)) {
+            throw new ClientException("Server unreachable: Errno: " . curl_errno($ch) . " " . curl_error($ch), "SDK.ServerUnreachable");
+        }
+
+        curl_close($ch);
+
+        return $response;
+    }
+
+    public static function getHttpHeaders($headers)
+    {
+        $httpHeader = array();
+        foreach ($headers as $key => $value) {
+            array_push($httpHeader, $key.":".$value);
+        }
+        return $httpHeader;
     }
 }
