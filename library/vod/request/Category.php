@@ -41,7 +41,13 @@ class Category extends Common
         return $this;
     }
 
-    public function setCateName(){
+    public function setCateName($cate_name){
+        $this->setParam("CateName",$cate_name);
+        return $this;
+    }
 
+    public function setParentId($parent_id){
+        $this->setParam("ParentId",$parent_id);
+        return $this;
     }
 }
