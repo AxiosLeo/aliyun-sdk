@@ -26,8 +26,11 @@ class Parameter
         $this->setParam("Timestamp",date("Y-m-d\TH:i:s\Z"));
     }
 
-    public function param()
+    public function param($key = '')
     {
+        if(is_string($key) && isset($this->param[$key])){
+            return $this->param[$key];
+        }
         return $this->param;
     }
 
