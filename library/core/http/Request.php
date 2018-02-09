@@ -62,6 +62,7 @@ class Request extends Parameter
         $signature = HmacSHA1::create($this->param(),$this->request_method);
         $this->setSignature($signature);
         $response =  self::curl($this->domain,$this->param,$this->request_method,$this->header);
+        Aliyun::$response = $response;
         return $response;
     }
 
