@@ -13,6 +13,7 @@ use aliyun\sdk\vod\request\Category\GetCategories;
 use aliyun\sdk\vod\request\Video\DeleteVideo;
 use aliyun\sdk\vod\request\Video\GetPlayInfo;
 use aliyun\sdk\vod\request\Video\GetVideoInfo;
+use aliyun\sdk\vod\request\Video\GetVideoList;
 use aliyun\sdk\vod\request\Video\GetVideoPlayAuth;
 use aliyun\sdk\vod\request\Video\UpdateVideoInfo;
 use aliyun\sdk\vod\request\VideoUpload\CreateUploadVideo;
@@ -112,6 +113,19 @@ class Vod
     public static function DeleteVideo($video_ids){
         $request = new DeleteVideo();
         return $request->setVideoIds($video_ids);
+    }
+
+    /**
+     * 获取视频信息列表
+     * API Document : https://help.aliyun.com/document_detail/52838.html
+     * @return GetVideoList
+     */
+    public static function GetVideoList(){
+        return new GetVideoList();
+    }
+
+    public static function DeleteStream($video_id, $job_ids){
+
     }
 
     /********************************** Category **************************************************/
