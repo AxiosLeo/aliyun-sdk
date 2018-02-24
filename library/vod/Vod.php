@@ -13,6 +13,7 @@ use aliyun\sdk\vod\request\Category\GetCategories;
 use aliyun\sdk\vod\request\Video\GetPlayInfo;
 use aliyun\sdk\vod\request\Video\GetVideoInfo;
 use aliyun\sdk\vod\request\Video\GetVideoPlayAuth;
+use aliyun\sdk\vod\request\Video\UpdateVideoInfo;
 use aliyun\sdk\vod\request\VideoUpload\CreateUploadVideo;
 use aliyun\sdk\vod\request\VideoUpload\CreateUploadImage;
 use aliyun\sdk\vod\request\VideoUpload\RefreshUploadVideo;
@@ -87,6 +88,15 @@ class Vod
      */
     public static function GetVideoInfo($video_id){
         $request = new GetVideoInfo();
+        return $request->setVideoId($video_id);
+    }
+
+    /**
+     * @param $video_id
+     * @return UpdateVideoInfo
+     */
+    public static function UpdateVideoInfo($video_id){
+        $request = new UpdateVideoInfo();
         return $request->setVideoId($video_id);
     }
 
