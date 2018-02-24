@@ -37,7 +37,7 @@ class Parameter
     /**
      * @param $format
      */
-    protected function setFormat($format){
+    public function setFormat($format){
         $this->setParam('Format',$format);
     }
 
@@ -48,15 +48,25 @@ class Parameter
         $this->setParam('Version',$version_date);
     }
 
+    /**
+     * @param $access_key_id
+     */
     protected function setAccessKeyId($access_key_id){
         $this->setParam('AccessKeyId',$access_key_id);
     }
 
+    /**
+     * @param $signature
+     */
     protected function setSignature($signature){
         $this->setParam("Signature",$signature);
     }
 
-    protected function setParam($key , $value = ''){
+    /**
+     * @param string $key
+     * @param string $value
+     */
+    public function setParam($key , $value = ''){
         if(is_array($key)){
             foreach ($key as $k=>$v){
                 $this->param[$k] = $v;
