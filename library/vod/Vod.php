@@ -9,6 +9,7 @@
 
 namespace aliyun\sdk\vod;
 
+use aliyun\sdk\vod\request\Category\AddCategory;
 use aliyun\sdk\vod\request\Category\GetCategories;
 use aliyun\sdk\vod\request\Video\DeleteStream;
 use aliyun\sdk\vod\request\Video\DeleteVideo;
@@ -160,6 +161,17 @@ class Vod
     }
 
     /********************************** Category **************************************************/
+
+    /**
+     * 创建分类
+     * API Document : https://help.aliyun.com/document_detail/56401.html
+     * @param $cate_name
+     * @return AddCategory
+     */
+    public static function AddCategory($cate_name){
+        $request = new AddCategory();
+        return $request->setCateName($cate_name);
+    }
 
     public static function GetCategories(){
         $GetCategories = new GetCategories();
