@@ -11,7 +11,9 @@
 > 参考阿里云官方的php-sdk （[aliyun-openapi-php-sdk](https://github.com/aliyun/aliyun-openapi-php-sdk)）
 
 > 先重构官方的sdk(office目录)
+
 > 再逐步开发代码更加优雅的SDK功能
+
 > 最后会删除office目录下的官方sdk
 
 
@@ -45,6 +47,27 @@ dump($request->request()->getContent());
 
 ## 如何贡献
 > 参考library/vod下的代码实现
+
+* 接口请求代码示例
+
+```php
+namespace aliyun\sdk\vod\request\Category;
+
+use aliyun\sdk\core\traits\Request;
+use aliyun\sdk\vod\request\VodCommon;
+
+/**
+ * Class Get
+ * @package aliyun\sdk\vod\request\Category
+ * @method $this setCateId($cateId)
+ * @method $this setPageNo($page_no)
+ * @method $this setPageSize($page_size)
+ */
+class GetCategories extends VodCommon
+{
+    use Request;
+}
+```
 
 ## License
 licensed under the [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0.html)
