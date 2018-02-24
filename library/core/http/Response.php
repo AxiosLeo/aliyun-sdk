@@ -12,9 +12,15 @@ namespace aliyun\sdk\core\http;
 
 class Response
 {
+    public $header;
+
     public $body;
 
     public $status;
+
+    public function setHeader($header){
+        $this->header = $header;
+    }
 
     public function setBody($body){
         $this->body = $body;
