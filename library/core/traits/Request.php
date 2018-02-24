@@ -10,6 +10,14 @@ namespace aliyun\sdk\core\traits;
 
 trait Request
 {
+    public function __construct()
+    {
+        $temp = explode("\\",__CLASS__);
+        $action_name = $temp[count($temp)-1];
+        $this->setActionName($action_name);
+        parent::__construct();
+    }
+
     /**
      * @param $name
      * @param $arguments
