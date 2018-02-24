@@ -12,7 +12,7 @@ use aliyun\sdk\core\traits\Request;
 use aliyun\sdk\vod\request\VodCommon;
 
 /**
- * Class GetInfo
+ * Class GetVideoInfo
  * @package aliyun\sdk\vod\request\Video
  * @method $this setVideoId($video_id)
  */

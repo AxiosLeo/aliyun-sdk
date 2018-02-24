@@ -13,7 +13,7 @@ use aliyun\sdk\core\traits\Request;
 use aliyun\sdk\vod\request\VodCommon;
 
 /**
- * Class Get
+ * Class GetCategories
  * @package aliyun\sdk\vod\request\Category
  * @method $this setCateId($cateId)
  * @method $this setPageNo($page_no)

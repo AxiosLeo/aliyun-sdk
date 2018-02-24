@@ -12,7 +12,7 @@ use aliyun\sdk\core\traits\Request;
 use aliyun\sdk\vod\request\VodCommon;
 
 /**
- * Class Create
+ * Class CreateUploadVideo
  * @package aliyun\sdk\vod\request\VideoUpload
  * @method $this setTitle($title)
  * @method $this setFileName($file_name)

@@ -13,7 +13,7 @@ use aliyun\sdk\core\traits\Request;
 use aliyun\sdk\vod\request\VodCommon;
 
 /**
- * Class Image
+ * Class CreateUploadImage
  * @package aliyun\sdk\vod\request\VideoUpload
  * @method $this setImageType($image_type)
  * @method $this setImageExt($image_ext)
