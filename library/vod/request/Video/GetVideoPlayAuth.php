@@ -9,8 +9,16 @@
 
 namespace aliyun\sdk\vod\request\Video;
 
+use aliyun\sdk\core\traits\Request;
+use aliyun\sdk\vod\request\VodCommon;
 
-class GetVideoPlayAuth
+/**
+ * Class GetVideoPlayAuth
+ * @package aliyun\sdk\vod\request\Video
+ * @method $this setVideoId($video_id)
+ * @method $this setAuthInfoTimeout($auth_info_timeout)
+ */
+class GetVideoPlayAuth extends VodCommon
 {
-
+    use Request;
 }
