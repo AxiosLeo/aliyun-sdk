@@ -68,6 +68,13 @@ class Request extends Parameter
 
     public static function curl($url, $data = [], $method = "POST", $header = []){
         $data = is_array($data) ? http_build_query($data) : $data;
+        if($method == "GET"){
+            if(strpos($data,'?') === false){
+                $url = $url . "?";
+            }
+            $lastString = substr($data, -1);
+            $url = $lastString=="&" || $lastString=="?" ? $url . $data : $url . "&" . $data;
+        }
         curl_init();
         $ch = curl_init();
         curl_setopt($ch, CURLOPT_CUSTOMREQUEST, $method);
@@ -77,17 +84,20 @@ class Request extends Parameter
         curl_setopt($ch, CURLOPT_POSTFIELDS, $data);
         curl_setopt($ch, CURLOPT_TIMEOUT, 30);
         curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, 80);
+        curl_setopt($ch, CURLINFO_HEADER_OUT, true);
+
         if (strlen($url) > 5 && strtolower(substr($url, 0, 5)) == "https") {
             curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
             curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false);
         }
         if (is_array($header) && 0 < count($header)) {
-            $httpHeaders =self::getHttpHeaders($header);
+            $httpHeaders = self::getHttpHeaders($header);
             curl_setopt($ch, CURLOPT_HTTPHEADER, $httpHeaders);
         }
 
         $response = new Response();
         $response->setbody(curl_exec($ch));
+        $response->setHeader(curl_getinfo($ch, CURLINFO_HEADER_OUT));
         $response->setStatus(curl_getinfo($ch, CURLINFO_HTTP_CODE));
         if (curl_errno($ch)) {
             throw new ClientException("Server unreachable: Errno: " . curl_errno($ch) . " " . curl_error($ch), "SDK.ServerUnreachable");
@@ -100,9 +110,9 @@ class Request extends Parameter
 
     public static function getHttpHeaders($headers)
     {
-        $httpHeader = array();
+        $httpHeader = [];
         foreach ($headers as $key => $value) {
-            array_push($httpHeader, $key.":".$value);
+            array_push($httpHeader , $key.":".$value);
         }
         return $httpHeader;
     }
