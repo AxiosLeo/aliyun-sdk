@@ -10,6 +10,7 @@
 namespace aliyun\sdk\vod;
 
 use aliyun\sdk\vod\request\Category\GetCategories;
+use aliyun\sdk\vod\request\Video\DeleteVideo;
 use aliyun\sdk\vod\request\Video\GetPlayInfo;
 use aliyun\sdk\vod\request\Video\GetVideoInfo;
 use aliyun\sdk\vod\request\Video\GetVideoPlayAuth;
@@ -92,12 +93,25 @@ class Vod
     }
 
     /**
+     * 修改视频信息
+     * API Document : https://help.aliyun.com/document_detail/52836.html
      * @param $video_id
      * @return UpdateVideoInfo
      */
     public static function UpdateVideoInfo($video_id){
         $request = new UpdateVideoInfo();
         return $request->setVideoId($video_id);
+    }
+
+    /**
+     * 删除视频
+     * API Document : https://help.aliyun.com/document_detail/52837.html?
+     * @param $video_ids
+     * @return DeleteVideo
+     */
+    public static function DeleteVideo($video_ids){
+        $request = new DeleteVideo();
+        return $request->setVideoIds($video_ids);
     }
 
     /********************************** Category **************************************************/
