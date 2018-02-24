@@ -17,6 +17,7 @@ use aliyun\sdk\vod\request\Video\GetPlayInfo;
 use aliyun\sdk\vod\request\Video\GetVideoInfo;
 use aliyun\sdk\vod\request\Video\GetVideoList;
 use aliyun\sdk\vod\request\Video\GetVideoPlayAuth;
+use aliyun\sdk\vod\request\Video\ListLiveRecordVideo;
 use aliyun\sdk\vod\request\Video\UpdateVideoInfo;
 use aliyun\sdk\vod\request\VideoUpload\CreateUploadVideo;
 use aliyun\sdk\vod\request\VideoUpload\CreateUploadImage;
@@ -147,6 +148,15 @@ class Vod
     public static function GetMezzanineInfo($video_id){
         $request = new GetMezzanineInfo();
         return $request->setVideoId($video_id);
+    }
+
+    /**
+     * 获取直转点视频列表
+     * API Document : https://help.aliyun.com/document_detail/64050.html
+     * @return ListLiveRecordVideo
+     */
+    public static function ListLiveRecordVideo(){
+        return new ListLiveRecordVideo();
     }
 
     /********************************** Category **************************************************/
