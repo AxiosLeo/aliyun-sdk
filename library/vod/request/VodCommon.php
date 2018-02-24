@@ -11,11 +11,12 @@ namespace aliyun\sdk\vod\request;
 
 use aliyun\sdk\core\http\Request;
 
-class Common extends Request
+class VodCommon extends Request
 {
     public function __construct()
     {
         $this->product = "vod";
+
         parent::__construct();
 
         $this->setVersion("2017-03-21");
