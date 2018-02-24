@@ -10,7 +10,9 @@
 namespace aliyun\sdk\vod;
 
 use aliyun\sdk\vod\request\Category\GetCategories;
+use aliyun\sdk\vod\request\Video\DeleteStream;
 use aliyun\sdk\vod\request\Video\DeleteVideo;
+use aliyun\sdk\vod\request\Video\GetMezzanineInfo;
 use aliyun\sdk\vod\request\Video\GetPlayInfo;
 use aliyun\sdk\vod\request\Video\GetVideoInfo;
 use aliyun\sdk\vod\request\Video\GetVideoList;
@@ -124,8 +126,27 @@ class Vod
         return new GetVideoList();
     }
 
+    /**
+     * 删除媒体流
+     * API Document : https://help.aliyun.com/document_detail/62130.html
+     * @param $video_id
+     * @param $job_ids
+     * @return DeleteStream
+     */
     public static function DeleteStream($video_id, $job_ids){
+        $request = new DeleteStream();
+        return $request->setVideoId($video_id)->setJobIds($job_ids);
+    }
 
+    /**
+     * 获取源文件地址
+     * API Document : https://help.aliyun.com/document_detail/59624.html
+     * @param $video_id
+     * @return GetMezzanineInfo
+     */
+    public static function GetMezzanineInfo($video_id){
+        $request = new GetMezzanineInfo();
+        return $request->setVideoId($video_id);
     }
 
     /********************************** Category **************************************************/
