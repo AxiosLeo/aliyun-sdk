@@ -39,18 +39,18 @@ class Request extends Parameter
         $this->domain = Product::domain($this->product,$this->region);
     }
 
-    public function setActionName($action_name){
+    protected function setActionName($action_name){
         $this->setParam("Action",$action_name);
     }
 
-    public function setRequestMethod($method){
+    protected function setRequestMethod($method){
         $method = strtoupper($method);
         if(in_array($method,["GET","POST"])){
             $this->request_method = $method;
         }
     }
 
-    public function setRequestHeader($key,$value){
+    protected function setRequestHeader($key,$value){
         $this->header[$key] = $value;
     }
 
