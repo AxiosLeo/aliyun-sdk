@@ -11,6 +11,7 @@ namespace aliyun\sdk\vod;
 
 use aliyun\sdk\vod\request\Category\GetCategories;
 use aliyun\sdk\vod\request\Video\GetPlayInfo;
+use aliyun\sdk\vod\request\Video\GetVideoInfo;
 use aliyun\sdk\vod\request\Video\GetVideoPlayAuth;
 use aliyun\sdk\vod\request\VideoUpload\CreateUploadVideo;
 use aliyun\sdk\vod\request\VideoUpload\CreateUploadImage;
@@ -75,6 +76,17 @@ class Vod
      */
     public static function GetVideoPlayAuth($video_id){
         $request = new GetVideoPlayAuth();
+        return $request->setVideoId($video_id);
+    }
+
+    /**
+     * 获取视频信息
+     * API Document : https://help.aliyun.com/document_detail/52835.html
+     * @param $video_id
+     * @return GetVideoInfo
+     */
+    public static function GetVideoInfo($video_id){
+        $request = new GetVideoInfo();
         return $request->setVideoId($video_id);
     }
 

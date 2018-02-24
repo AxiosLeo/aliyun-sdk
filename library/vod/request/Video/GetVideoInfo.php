@@ -16,7 +16,7 @@ use aliyun\sdk\vod\request\VodCommon;
  * @package aliyun\sdk\vod\request\Video
  * @method $this setVideoId($video_id)
  */
-class GetInfo extends VodCommon
+class GetVideoInfo extends VodCommon
 {
     use Request;
 }
