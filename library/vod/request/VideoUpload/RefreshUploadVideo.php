@@ -20,10 +20,4 @@ use aliyun\sdk\vod\request\VodCommon;
 class RefreshUploadVideo extends VodCommon
 {
     use Request;
-
-    public function __construct()
-    {
-        $this->setActionName('RefreshUploadVideo');
-        parent::__construct();
-    }
 }

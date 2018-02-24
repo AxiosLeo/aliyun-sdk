@@ -23,10 +23,4 @@ use aliyun\sdk\vod\request\VodCommon;
 class CreateUploadImage extends VodCommon
 {
     use Request;
-
-    public function __construct()
-    {
-        $this->setActionName('CreateUploadImage');
-        parent::__construct();
-    }
 }
