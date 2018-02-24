@@ -21,6 +21,30 @@
 * MTS
 * ......
 
+## 代码示例
+```php
+
+require_once __DIR__. "/../vendor/autoload.php";
+
+$access_id = "testAccessKeyId";
+$access_secret = "testAccessKeySecret";
+
+//授权
+\aliyun\sdk\Aliyun::auth($access_id,$access_secret);
+
+//设置区域
+\aliyun\sdk\Aliyun::region('cn-shanghai');
+
+//设置请求参数
+$request = \aliyun\sdk\vod\Vod::GetCategories()->setCateId(-1);
+
+//获取回调内容
+dump($request->request()->getContent());
+
+```
+
+## 如何贡献
+> 参考library/vod下的代码实现
 
 ## License
 licensed under the [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0.html)
