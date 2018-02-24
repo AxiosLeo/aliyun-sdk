@@ -8,6 +8,7 @@
  */
 namespace aliyun\sdk\cdn;
 
+use aliyun\sdk\cdn\request\DomainConfig\DescribeDomainConfigs;
 use aliyun\sdk\cdn\request\DomainOperation\AddCdnDomain;
 use aliyun\sdk\cdn\request\DomainOperation\DeleteCdnDomain;
 use aliyun\sdk\cdn\request\DomainOperation\DescribeCdnDomainDetail;
@@ -130,5 +131,17 @@ class Cdn
     public static function DescribeDomainsBySource($sources){
         $request = new DescribeDomainsBySource();
         return $request->setSources($sources);
+    }
+
+    /********************************** DomainConfig **************************************************/
+
+    /**
+     * 查询域名配置
+     * https://help.aliyun.com/document_detail/27169.html
+     * @param $domain_name
+     * @return DescribeDomainConfigs
+     */
+    public static function DescribeDomainConfigs($domain_name){
+        return (new DescribeDomainConfigs())->setDomainName($domain_name);
     }
 }
