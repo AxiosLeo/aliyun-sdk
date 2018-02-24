@@ -16,6 +16,8 @@ use aliyun\sdk\vod\request\VodCommon;
  * Class Get
  * @package aliyun\sdk\vod\request\Category
  * @method $this setCateId($cateId)
+ * @method $this setPageNo($page_no)
+ * @method $this setPageSize($page_size)
  */
 class GetCategories extends VodCommon
 {

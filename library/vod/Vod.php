@@ -198,6 +198,11 @@ class Vod
         return $request->setCateId($cate_id);
     }
 
+    /**
+     * 获取分类及其子分类
+     * API Document : https://help.aliyun.com/document_detail/56406.html
+     * @return GetCategories
+     */
     public static function GetCategories(){
         $GetCategories = new GetCategories();
         return $GetCategories;
