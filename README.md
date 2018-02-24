@@ -8,14 +8,6 @@
 
 
 ## 开发计划
-> 参考阿里云官方的php-sdk （[aliyun-openapi-php-sdk](https://github.com/aliyun/aliyun-openapi-php-sdk)）
-
-> 先重构官方的sdk(office目录)
-
-> 再逐步开发代码更加优雅的SDK功能
-
-> 最后会删除office目录下的官方sdk
-
 
 * VOD 已完成
 * OSS
@@ -38,10 +30,14 @@ $access_secret = "testAccessKeySecret";
 \aliyun\sdk\Aliyun::region('cn-shanghai');
 
 //设置请求参数
-$request = \aliyun\sdk\vod\Vod::GetCategories()->setCateId(-1);
+$request = \aliyun\sdk\vod\Vod::GetCategories()
+    ->setCateId(-1)    //设置分类id
+    ->setPageNo(4)     //设置页数
+    ->setPageSize(10)  //设置每页显示个数
+    ->request();       //提交请求
 
 //获取回调内容
-dump($request->request()->getContent());
+dump($request->getContent());
 
 ```
 
