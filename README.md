@@ -17,7 +17,7 @@
 > 最后会删除office目录下的官方sdk
 
 
-* VOD
+* VOD 已完成
 * OSS
 * SMS
 * MTS
