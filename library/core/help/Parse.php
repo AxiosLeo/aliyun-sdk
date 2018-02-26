@@ -19,4 +19,8 @@ class Parse
         $values = json_decode(json_encode(simplexml_load_string($xml, 'SimpleXMLElement', LIBXML_NOCDATA)), true);
         return $values;
     }
+
+    public static function parseEnableParam($enable){
+        return in_array($enable,["1",1,"On","on","ON"]) ? "On":"Off";
+    }
 }
