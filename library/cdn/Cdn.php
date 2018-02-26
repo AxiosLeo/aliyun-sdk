@@ -46,6 +46,7 @@ use aliyun\sdk\core\help\Parse;
 
 /**
  * Class Cdn
+ * API Document : https://help.aliyun.com/document_detail/27155.html
  * @package aliyun\sdk\cdn
  */
 class Cdn
@@ -54,7 +55,6 @@ class Cdn
 
     /**
      * 开通CDN
-     * API Document : https://help.aliyun.com/document_detail/27157.html
      * @param $InternetChargeType
      * @return OpenCdnService
      */
@@ -64,7 +64,6 @@ class Cdn
 
     /**
      * 查询CDN状态
-     * API Document : https://help.aliyun.com/document_detail/27158.html
      * @return DescribeCdnService
      */
     public static function DescribeCdnService(){
@@ -73,7 +72,6 @@ class Cdn
 
     /**
      * 变更计费类型
-     * API Document : https://help.aliyun.com/document_detail/27159.html
      * @param $InternetChargeType
      * @return ModifyCdnService
      */
@@ -85,7 +83,6 @@ class Cdn
 
     /**
      * 查询域名列表
-     * API Document : https://help.aliyun.com/document_detail/27162.html
      * @return DescribeUserDomains
      */
     public static function DescribeUserDomains(){
@@ -94,7 +91,6 @@ class Cdn
 
     /**
      * 查询域名信息
-     * API Document : https://help.aliyun.com/document_detail/27163.html
      * @param $domain_name
      * @return DescribeCdnDomainDetail
      */
@@ -104,7 +100,6 @@ class Cdn
 
     /**
      * 添加加速域名
-     * https://help.aliyun.com/document_detail/27161.html
      * @param $domain_name
      * @param $cdn_type
      * @return AddCdnDomain
@@ -115,7 +110,6 @@ class Cdn
 
     /**
      * 启用已停用的域名
-     * https://help.aliyun.com/document_detail/27165.html
      * @param $domain_name
      * @return StartCdnDomain
      */
@@ -125,7 +119,6 @@ class Cdn
 
     /**
      * 停用某加速域名
-     * https://help.aliyun.com/document_detail/27166.html
      * @param $domain_name
      * @return StopCdnDomain
      */
@@ -135,7 +128,6 @@ class Cdn
 
     /**
      * 删除加速域名
-     * https://help.aliyun.com/document_detail/27167.html
      * @param $domain_name
      * @return DeleteCdnDomain
      */
@@ -145,7 +137,6 @@ class Cdn
 
     /**
      * 根据源站查域名
-     * https://help.aliyun.com/document_detail/50453.html
      * @param $sources
      * @return DescribeDomainsBySource
      */
@@ -157,7 +148,6 @@ class Cdn
 
     /**
      * 查询域名配置
-     * https://help.aliyun.com/document_detail/27169.html
      * @param $domain_name
      * @return DescribeDomainConfigs
      */
@@ -168,7 +158,6 @@ class Cdn
     /**
      * 设置页面优化
      * 文档中写的是DomaiName ，是写错了。实际服务端接收的还是DomainName
-     * https://help.aliyun.com/document_detail/27170.html
      * @param $domain_name
      * @param $enable
      * @return SetOptimizeConfig
@@ -181,7 +170,6 @@ class Cdn
     /**
      * 设置智能压缩
      * 文档依然后错误
-     * https://help.aliyun.com/document_detail/27171.html
      * @param $domain_name
      * @param $enable
      * @return SetPageCompressConfig
@@ -193,7 +181,6 @@ class Cdn
 
     /**
      * 设置过滤参数
-     * https://help.aliyun.com/document_detail/27172.html
      * @param $domain_name
      * @param $enable
      * @return SetIgnoreQueryStringConfig
@@ -205,7 +192,6 @@ class Cdn
 
     /**
      * 设置Range回源
-     * https://help.aliyun.com/document_detail/27173.html
      * @param $domain_name
      * @param $enable
      * @return SetRangeConfig
@@ -217,7 +203,6 @@ class Cdn
 
     /**
      * 设置拖拽播放
-     * https://help.aliyun.com/document_detail/27174.html
      * @param $domain_name
      * @param $enable
      * @return SetVideoSeekConfig
@@ -229,7 +214,6 @@ class Cdn
 
     /**
      * 设置回源HOST
-     * https://help.aliyun.com/document_detail/27175.html
      * @param $domain_name
      * @param $back_src_domain
      * @return SetSourceHostConfig
@@ -240,7 +224,6 @@ class Cdn
 
     /**
      * 设置404页面
-     * https://help.aliyun.com/document_detail/27176.html
      * @param $domain_name
      * @param $page_type
      * @return SetErrorPageConfig
@@ -251,7 +234,6 @@ class Cdn
 
     /**
      * 设置强制跳转
-     * https://help.aliyun.com/document_detail/27177.html
      * @param $domain_name
      * @param $redirect_type
      * @return SetForceRedirectConfig
@@ -262,7 +244,6 @@ class Cdn
 
     /**
      * 设置refer防盗链
-     * https://help.aliyun.com/document_detail/27178.html
      * @param string $domain_name
      * @param string $refer_type  block黑名单;allow白名单
      * @return SetRefererConfig
@@ -274,7 +255,6 @@ class Cdn
 
     /**
      * 设置文件类型缓存策略
-     * https://help.aliyun.com/document_detail/27179.html
      * @param $domain_name
      * @param $cache_content
      * @param $ttl
@@ -286,7 +266,6 @@ class Cdn
 
     /**
      * 设置路径缓存策略
-     * https://help.aliyun.com/document_detail/27180.html
      * @param $domain_name
      * @param $cache_content
      * @param $ttl
@@ -298,7 +277,6 @@ class Cdn
 
     /**
      * 修改文件类型缓存策略
-     * https://help.aliyun.com/document_detail/27181.html
      * @param $domain_name
      * @param $config_id
      * @param $cache_content
@@ -311,7 +289,6 @@ class Cdn
 
     /**
      * 修改路径缓存策略
-     * https://help.aliyun.com/document_detail/27182.html
      * @param $domain_name
      * @param $config_id
      * @param $cache_content
@@ -324,7 +301,6 @@ class Cdn
 
     /**
      * 删除缓存策略
-     * https://help.aliyun.com/document_detail/27183.html
      * @param $domain_name
      * @param $cache_type
      * @param $config_id
@@ -336,7 +312,6 @@ class Cdn
 
     /**
      * 设置鉴权
-     * https://help.aliyun.com/document_detail/27184.html
      * @param $domain_name
      * @param $auth_type
      * @return SetReqAuthConfig
@@ -347,7 +322,6 @@ class Cdn
 
     /**
      * 设置HTTP头信息
-     * https://help.aliyun.com/document_detail/27185.html
      * @param $domain_name
      * @param $header_key
      * @param $header_value
@@ -359,7 +333,6 @@ class Cdn
 
     /**
      * 修改HTTP头信息
-     * https://help.aliyun.com/document_detail/27186.html
      * @param $domain_name
      * @param $header_key
      * @param $header_value
@@ -372,7 +345,6 @@ class Cdn
 
     /**
      * 删除HTTP头信息
-     * https://help.aliyun.com/document_detail/27187.html
      * @param $domain_name
      * @param $config_id
      * @return DeleteHttpHeaderConfig
@@ -383,7 +355,6 @@ class Cdn
 
     /**
      * 设置证书
-     * https://help.aliyun.com/document_detail/45014.html
      * @param $domain_name
      * @param $cert_name
      * @param $server_certificate_status
@@ -398,7 +369,6 @@ class Cdn
 
     /**
      * 刷新缓存
-     * https://help.aliyun.com/document_detail/27200.html
      * @param $object_path
      * @return RefreshObjectCaches
      */
@@ -408,7 +378,6 @@ class Cdn
 
     /**
      * 预热
-     * https://help.aliyun.com/document_detail/27201.html
      * @param $object_path
      * @return PushObjectCache
      */
@@ -418,7 +387,6 @@ class Cdn
 
     /**
      * 查询刷新、预热状态
-     * https://help.aliyun.com/document_detail/27202.html
      * @return DescribeRefreshTasks
      */
     public static function DescribeRefreshTasks(){
@@ -427,10 +395,11 @@ class Cdn
 
     /**
      * 查询刷新预热次数限制和余量
-     * https://help.aliyun.com/document_detail/27203.html
      * @return DescribeRefreshQuota
      */
     public static function DescribeRefreshQuota(){
         return (new DescribeRefreshQuota());
     }
+
+    /********************************** Data **************************************************/
 }
