@@ -12,6 +12,7 @@ use aliyun\sdk\cdn\request\DomainConfig\DescribeDomainConfigs;
 use aliyun\sdk\cdn\request\DomainConfig\SetIgnoreQueryStringConfig;
 use aliyun\sdk\cdn\request\DomainConfig\SetOptimizeConfig;
 use aliyun\sdk\cdn\request\DomainConfig\SetPageCompressConfig;
+use aliyun\sdk\cdn\request\DomainConfig\SetRangeConfig;
 use aliyun\sdk\cdn\request\DomainOperation\AddCdnDomain;
 use aliyun\sdk\cdn\request\DomainOperation\DeleteCdnDomain;
 use aliyun\sdk\cdn\request\DomainOperation\DescribeCdnDomainDetail;
@@ -187,6 +188,19 @@ class Cdn
     public static function SetIgnoreQueryStringConfig($domain_name, $enable){
         $enable = Parse::parseEnableParam($enable);
         $request = new SetIgnoreQueryStringConfig();
+        return $request->setDomainName($domain_name)->setEnable($enable);
+    }
+
+    /**
+     * 设置Range回源
+     * https://help.aliyun.com/document_detail/27173.html
+     * @param $domain_name
+     * @param $enable
+     * @return SetRangeConfig
+     */
+    public static function SetRangeConfig($domain_name, $enable){
+        $enable = Parse::parseEnableParam($enable);
+        $request = new SetRangeConfig();
         return $request->setDomainName($domain_name)->setEnable($enable);
     }
 }
