@@ -10,6 +10,7 @@ namespace aliyun\sdk\cdn;
 
 use aliyun\sdk\cdn\request\DomainConfig\DescribeDomainConfigs;
 use aliyun\sdk\cdn\request\DomainConfig\SetErrorPageConfig;
+use aliyun\sdk\cdn\request\DomainConfig\SetForceRedirectConfig;
 use aliyun\sdk\cdn\request\DomainConfig\SetIgnoreQueryStringConfig;
 use aliyun\sdk\cdn\request\DomainConfig\SetOptimizeConfig;
 use aliyun\sdk\cdn\request\DomainConfig\SetPageCompressConfig;
@@ -240,7 +241,17 @@ class Cdn
      * @return SetErrorPageConfig
      */
     public static function SetErrorPageConfig($domain_name, $page_type){
-        $request = new SetErrorPageConfig();
-        return $request->setDomainName($domain_name)->setPageType($page_type);
+        return (new SetErrorPageConfig())->setDomainName($domain_name)->setPageType($page_type);
+    }
+
+    /**
+     * 设置强制跳转
+     * https://help.aliyun.com/document_detail/27177.html
+     * @param $domain_name
+     * @param $redirect_type
+     * @return SetForceRedirectConfig
+     */
+    public static function SetForceRedirectConfig($domain_name, $redirect_type){
+        return (new SetForceRedirectConfig())->setDomainName($domain_name)->setRedirectType($redirect_type);
     }
 }
