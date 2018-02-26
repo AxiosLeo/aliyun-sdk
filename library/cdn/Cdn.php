@@ -10,6 +10,7 @@ namespace aliyun\sdk\cdn;
 
 use aliyun\sdk\cdn\request\DomainConfig\DescribeDomainConfigs;
 use aliyun\sdk\cdn\request\DomainConfig\ModifyFileCacheExpiredConfig;
+use aliyun\sdk\cdn\request\DomainConfig\ModifyPathCacheExpiredConfig;
 use aliyun\sdk\cdn\request\DomainConfig\SetErrorPageConfig;
 use aliyun\sdk\cdn\request\DomainConfig\SetFileCacheExpiredConfig;
 use aliyun\sdk\cdn\request\DomainConfig\SetForceRedirectConfig;
@@ -297,4 +298,19 @@ class Cdn
     public static function ModifyFileCacheExpiredConfig($domain_name, $config_id , $cache_content , $ttl){
         return (new ModifyFileCacheExpiredConfig())->setDomainName($domain_name)->setConfigID($config_id)->setCacheContent($cache_content)->setTTL($ttl);
     }
+
+    /**
+     * 修改路径缓存策略
+     * https://help.aliyun.com/document_detail/27182.html
+     * @param $domain_name
+     * @param $config_id
+     * @param $cache_content
+     * @param $ttl
+     * @return ModifyPathCacheExpiredConfig
+     */
+    public static function ModifyPathCacheExpiredConfig($domain_name, $config_id , $cache_content , $ttl){
+        return (new ModifyPathCacheExpiredConfig())->setDomainName($domain_name)->setConfigID($config_id)->setCacheContent($cache_content)->setTTL($ttl);
+    }
+
+
 }
