@@ -15,6 +15,7 @@ use aliyun\sdk\cdn\request\DomainConfig\SetIgnoreQueryStringConfig;
 use aliyun\sdk\cdn\request\DomainConfig\SetOptimizeConfig;
 use aliyun\sdk\cdn\request\DomainConfig\SetPageCompressConfig;
 use aliyun\sdk\cdn\request\DomainConfig\SetRangeConfig;
+use aliyun\sdk\cdn\request\DomainConfig\SetRefererConfig;
 use aliyun\sdk\cdn\request\DomainConfig\SetSourceHostConfig;
 use aliyun\sdk\cdn\request\DomainConfig\SetVideoSeekConfig;
 use aliyun\sdk\cdn\request\DomainOperation\AddCdnDomain;
@@ -29,6 +30,10 @@ use aliyun\sdk\cdn\request\Service\ModifyCdnService;
 use aliyun\sdk\cdn\request\Service\OpenCdnService;
 use aliyun\sdk\core\help\Parse;
 
+/**
+ * Class Cdn
+ * @package aliyun\sdk\cdn
+ */
 class Cdn
 {
     /********************************** Service **************************************************/
@@ -239,5 +244,17 @@ class Cdn
      */
     public static function SetForceRedirectConfig($domain_name, $redirect_type){
         return (new SetForceRedirectConfig())->setDomainName($domain_name)->setRedirectType($redirect_type);
+    }
+
+    /**
+     * 设置refer防盗链
+     * https://help.aliyun.com/document_detail/27178.html
+     * @param string $domain_name
+     * @param string $refer_type  block黑名单;allow白名单
+     * @return SetRefererConfig
+     */
+    public static function SetRefererConfig($domain_name, $refer_type)
+    {
+        return (new SetRefererConfig())->setDomainName($domain_name)->setReferType($refer_type);
     }
 }
