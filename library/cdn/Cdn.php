@@ -15,6 +15,7 @@ use aliyun\sdk\cdn\request\DomainConfig\SetForceRedirectConfig;
 use aliyun\sdk\cdn\request\DomainConfig\SetIgnoreQueryStringConfig;
 use aliyun\sdk\cdn\request\DomainConfig\SetOptimizeConfig;
 use aliyun\sdk\cdn\request\DomainConfig\SetPageCompressConfig;
+use aliyun\sdk\cdn\request\DomainConfig\SetPathCacheExpiredConfig;
 use aliyun\sdk\cdn\request\DomainConfig\SetRangeConfig;
 use aliyun\sdk\cdn\request\DomainConfig\SetRefererConfig;
 use aliyun\sdk\cdn\request\DomainConfig\SetSourceHostConfig;
@@ -269,5 +270,17 @@ class Cdn
      */
     public static function SetFileCacheExpiredConfig($domain_name, $cache_content, $ttl){
         return (new SetFileCacheExpiredConfig())->setDomainName($domain_name)->setCacheContent($cache_content)->setTTL($ttl);
+    }
+
+    /**
+     * 设置路径缓存策略
+     * https://help.aliyun.com/document_detail/27180.html
+     * @param $domain_name
+     * @param $cache_content
+     * @param $ttl
+     * @return SetPathCacheExpiredConfig
+     */
+    public static function SetPathCacheExpiredConfig($domain_name, $cache_content, $ttl){
+        return (new SetPathCacheExpiredConfig())->setDomainName($domain_name)->setCacheContent($cache_content)->setTTL($ttl);
     }
 }
