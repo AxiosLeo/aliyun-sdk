@@ -9,6 +9,7 @@
 namespace aliyun\sdk\cdn;
 
 use aliyun\sdk\cdn\request\DomainConfig\DescribeDomainConfigs;
+use aliyun\sdk\cdn\request\DomainConfig\SetIgnoreQueryStringConfig;
 use aliyun\sdk\cdn\request\DomainConfig\SetOptimizeConfig;
 use aliyun\sdk\cdn\request\DomainConfig\SetPageCompressConfig;
 use aliyun\sdk\cdn\request\DomainOperation\AddCdnDomain;
@@ -173,6 +174,19 @@ class Cdn
     public static function SetPageCompressConfig($domain_name,$enable){
         $enable = Parse::parseEnableParam($enable);
         $request = new SetPageCompressConfig();
+        return $request->setDomainName($domain_name)->setEnable($enable);
+    }
+
+    /**
+     * 设置过滤参数
+     * https://help.aliyun.com/document_detail/27172.html
+     * @param $domain_name
+     * @param $enable
+     * @return SetIgnoreQueryStringConfig
+     */
+    public static function SetIgnoreQueryStringConfig($domain_name, $enable){
+        $enable = Parse::parseEnableParam($enable);
+        $request = new SetIgnoreQueryStringConfig();
         return $request->setDomainName($domain_name)->setEnable($enable);
     }
 }
