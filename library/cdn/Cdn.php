@@ -10,6 +10,7 @@ namespace aliyun\sdk\cdn;
 
 use aliyun\sdk\cdn\request\data\DescribeDomainBpsData;
 use aliyun\sdk\cdn\request\data\DescribeDomainFlowData;
+use aliyun\sdk\cdn\request\data\DescribeDomainHitRateData;
 use aliyun\sdk\cdn\request\data\DescribeDomainSrcBpsData;
 use aliyun\sdk\cdn\request\DomainConfig\DeleteCacheExpiredConfig;
 use aliyun\sdk\cdn\request\DomainConfig\DeleteHttpHeaderConfig;
@@ -428,5 +429,13 @@ class Cdn
      */
     public static function DescribeDomainSrcBpsData(){
         return (new DescribeDomainSrcBpsData());
+    }
+
+    /**
+     * 查询字节命中率
+     * @return DescribeDomainHitRateData
+     */
+    public static function DescribeDomainHitRateData(){
+        return (new DescribeDomainHitRateData());
     }
 }
