@@ -35,6 +35,7 @@ use aliyun\sdk\cdn\request\DomainOperation\DescribeDomainsBySource;
 use aliyun\sdk\cdn\request\DomainOperation\DescribeUserDomains;
 use aliyun\sdk\cdn\request\DomainOperation\StartCdnDomain;
 use aliyun\sdk\cdn\request\DomainOperation\StopCdnDomain;
+use aliyun\sdk\cdn\request\ObjectCache\PushObjectCache;
 use aliyun\sdk\cdn\request\ObjectCache\RefreshObjectCaches;
 use aliyun\sdk\cdn\request\Service\DescribeCdnService;
 use aliyun\sdk\cdn\request\Service\ModifyCdnService;
@@ -401,5 +402,15 @@ class Cdn
      */
     public static function RefreshObjectCaches($object_path){
         return (new RefreshObjectCaches())->setObjectPath($object_path);
+    }
+
+    /**
+     * 预热
+     * https://help.aliyun.com/document_detail/27201.html
+     * @param $object_path
+     * @return PushObjectCache
+     */
+    public static function PushObjectCache($object_path){
+        return (new PushObjectCache())->setObjectPath($object_path);
     }
 }
