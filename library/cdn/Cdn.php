@@ -8,6 +8,7 @@
  */
 namespace aliyun\sdk\cdn;
 
+use aliyun\sdk\cdn\request\DomainConfig\DeleteCacheExpiredConfig;
 use aliyun\sdk\cdn\request\DomainConfig\DescribeDomainConfigs;
 use aliyun\sdk\cdn\request\DomainConfig\ModifyFileCacheExpiredConfig;
 use aliyun\sdk\cdn\request\DomainConfig\ModifyPathCacheExpiredConfig;
@@ -312,5 +313,15 @@ class Cdn
         return (new ModifyPathCacheExpiredConfig())->setDomainName($domain_name)->setConfigID($config_id)->setCacheContent($cache_content)->setTTL($ttl);
     }
 
-
+    /**
+     * 删除缓存策略
+     * https://help.aliyun.com/document_detail/27183.html
+     * @param $domain_name
+     * @param $cache_type
+     * @param $config_id
+     * @return DeleteCacheExpiredConfig
+     */
+    public static function DeleteCacheExpiredConfig($domain_name, $cache_type, $config_id){
+        return (new DeleteCacheExpiredConfig())->setDomainName($domain_name)->setCacheType($cache_type)->setConfigID($config_id);
+    }
 }
