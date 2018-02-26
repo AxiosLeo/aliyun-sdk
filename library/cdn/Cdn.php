@@ -9,6 +9,7 @@
 namespace aliyun\sdk\cdn;
 
 use aliyun\sdk\cdn\request\data\DescribeDomainBpsData;
+use aliyun\sdk\cdn\request\data\DescribeDomainFlowData;
 use aliyun\sdk\cdn\request\DomainConfig\DeleteCacheExpiredConfig;
 use aliyun\sdk\cdn\request\DomainConfig\DeleteHttpHeaderConfig;
 use aliyun\sdk\cdn\request\DomainConfig\DescribeDomainConfigs;
@@ -410,5 +411,13 @@ class Cdn
      */
     public static function DescribeDomainBpsData(){
         return (new DescribeDomainBpsData());
+    }
+
+    /**
+     * 查询流量监控数据
+     * @return DescribeDomainFlowData
+     */
+    public static function DescribeDomainFlowData(){
+        return (new DescribeDomainFlowData());
     }
 }
