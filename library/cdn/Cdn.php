@@ -13,6 +13,7 @@ use aliyun\sdk\cdn\request\DomainConfig\SetIgnoreQueryStringConfig;
 use aliyun\sdk\cdn\request\DomainConfig\SetOptimizeConfig;
 use aliyun\sdk\cdn\request\DomainConfig\SetPageCompressConfig;
 use aliyun\sdk\cdn\request\DomainConfig\SetRangeConfig;
+use aliyun\sdk\cdn\request\DomainConfig\SetSourceHostConfig;
 use aliyun\sdk\cdn\request\DomainConfig\SetVideoSeekConfig;
 use aliyun\sdk\cdn\request\DomainOperation\AddCdnDomain;
 use aliyun\sdk\cdn\request\DomainOperation\DeleteCdnDomain;
@@ -216,5 +217,17 @@ class Cdn
         $enable = Parse::parseEnableParam($enable);
         $request = new SetVideoSeekConfig();
         return $request->setDomainName($domain_name)->setEnable($enable);
+    }
+
+    /**
+     * 设置回源HOST
+     * https://help.aliyun.com/document_detail/27175.html
+     * @param $domain_name
+     * @param $back_src_domain
+     * @return SetSourceHostConfig
+     */
+    public static function SetSourceHostConfig($domain_name, $back_src_domain){
+        $request = new SetSourceHostConfig();
+        return $request->setDomainName($domain_name)->setBackSrcDomain($back_src_domain);
     }
 }
