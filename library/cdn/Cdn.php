@@ -40,8 +40,7 @@ class Cdn
      * @return OpenCdnService
      */
     public static function OpenCdnService($InternetChargeType){
-        $request = new OpenCdnService();
-        return $request->setInternetChargeType($InternetChargeType);
+        return (new OpenCdnService())->setInternetChargeType($InternetChargeType);
     }
 
     /**
@@ -60,8 +59,7 @@ class Cdn
      * @return ModifyCdnService
      */
     public static function ModifyCdnService($InternetChargeType){
-        $request = new ModifyCdnService();
-        return $request->setInternetChargeType($InternetChargeType);
+        return (new ModifyCdnService())->setInternetChargeType($InternetChargeType);
     }
 
     /********************************** DomainOperation **************************************************/
@@ -82,8 +80,7 @@ class Cdn
      * @return DescribeCdnDomainDetail
      */
     public static function DescribeCdnDomainDetail($domain_name){
-        $request = new DescribeCdnDomainDetail();
-        return $request->setDomainName($domain_name);
+        return (new DescribeCdnDomainDetail())->setDomainName($domain_name);
     }
 
     /**
@@ -94,8 +91,7 @@ class Cdn
      * @return AddCdnDomain
      */
     public static function AddCdnDomain($domain_name,$cdn_type){
-        $request = new AddCdnDomain();
-        return $request->setDomainName($domain_name)->setCdnType($cdn_type);
+        return (new AddCdnDomain())->setDomainName($domain_name)->setCdnType($cdn_type);
     }
 
     /**
@@ -105,8 +101,7 @@ class Cdn
      * @return StartCdnDomain
      */
     public static function StartCdnDomain($domain_name){
-        $request = new StartCdnDomain();
-        return $request->setDomainName($domain_name);
+        return (new StartCdnDomain())->setDomainName($domain_name);
     }
 
     /**
@@ -116,8 +111,7 @@ class Cdn
      * @return StopCdnDomain
      */
     public static function StopCdnDomain($domain_name){
-        $request = new StopCdnDomain();
-        return $request->setDomainName($domain_name);
+        return (new StopCdnDomain())->setDomainName($domain_name);
     }
 
     /**
@@ -127,8 +121,7 @@ class Cdn
      * @return DeleteCdnDomain
      */
     public static function DeleteCdnDomain($domain_name){
-        $request = new DeleteCdnDomain();
-        return $request->setDomainName($domain_name);
+        return (new DeleteCdnDomain())->setDomainName($domain_name);
     }
 
     /**
@@ -138,8 +131,7 @@ class Cdn
      * @return DescribeDomainsBySource
      */
     public static function DescribeDomainsBySource($sources){
-        $request = new DescribeDomainsBySource();
-        return $request->setSources($sources);
+        return (new DescribeDomainsBySource())->setSources($sources);
     }
 
     /********************************** DomainConfig **************************************************/
@@ -164,8 +156,7 @@ class Cdn
      */
     public static function SetOptimizeConfig($domain_name, $enable){
         $enable = Parse::parseEnableParam($enable);
-        $request = new SetOptimizeConfig();
-        return $request->setDomainName($domain_name)->setEnable($enable);
+        return (new SetOptimizeConfig())->setDomainName($domain_name)->setEnable($enable);
     }
 
     /**
@@ -178,8 +169,7 @@ class Cdn
      */
     public static function SetPageCompressConfig($domain_name,$enable){
         $enable = Parse::parseEnableParam($enable);
-        $request = new SetPageCompressConfig();
-        return $request->setDomainName($domain_name)->setEnable($enable);
+        return (new SetPageCompressConfig())->setDomainName($domain_name)->setEnable($enable);
     }
 
     /**
@@ -191,8 +181,7 @@ class Cdn
      */
     public static function SetIgnoreQueryStringConfig($domain_name, $enable){
         $enable = Parse::parseEnableParam($enable);
-        $request = new SetIgnoreQueryStringConfig();
-        return $request->setDomainName($domain_name)->setEnable($enable);
+        return (new SetIgnoreQueryStringConfig())->setDomainName($domain_name)->setEnable($enable);
     }
 
     /**
@@ -204,8 +193,7 @@ class Cdn
      */
     public static function SetRangeConfig($domain_name, $enable){
         $enable = Parse::parseEnableParam($enable);
-        $request = new SetRangeConfig();
-        return $request->setDomainName($domain_name)->setEnable($enable);
+        return (new SetRangeConfig())->setDomainName($domain_name)->setEnable($enable);
     }
 
     /**
@@ -217,8 +205,7 @@ class Cdn
      */
     public static function SetVideoSeekConfig($domain_name, $enable){
         $enable = Parse::parseEnableParam($enable);
-        $request = new SetVideoSeekConfig();
-        return $request->setDomainName($domain_name)->setEnable($enable);
+        return (new SetVideoSeekConfig())->setDomainName($domain_name)->setEnable($enable);
     }
 
     /**
@@ -229,8 +216,7 @@ class Cdn
      * @return SetSourceHostConfig
      */
     public static function SetSourceHostConfig($domain_name, $back_src_domain){
-        $request = new SetSourceHostConfig();
-        return $request->setDomainName($domain_name)->setBackSrcDomain($back_src_domain);
+        return (new SetSourceHostConfig())->setDomainName($domain_name)->setBackSrcDomain($back_src_domain);
     }
 
     /**
