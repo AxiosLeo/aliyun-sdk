@@ -35,6 +35,7 @@ use aliyun\sdk\cdn\request\DomainOperation\DescribeDomainsBySource;
 use aliyun\sdk\cdn\request\DomainOperation\DescribeUserDomains;
 use aliyun\sdk\cdn\request\DomainOperation\StartCdnDomain;
 use aliyun\sdk\cdn\request\DomainOperation\StopCdnDomain;
+use aliyun\sdk\cdn\request\ObjectCache\DescribeRefreshQuota;
 use aliyun\sdk\cdn\request\ObjectCache\DescribeRefreshTasks;
 use aliyun\sdk\cdn\request\ObjectCache\PushObjectCache;
 use aliyun\sdk\cdn\request\ObjectCache\RefreshObjectCaches;
@@ -422,5 +423,14 @@ class Cdn
      */
     public static function DescribeRefreshTasks(){
         return (new DescribeRefreshTasks());
+    }
+
+    /**
+     * 查询刷新预热次数限制和余量
+     * https://help.aliyun.com/document_detail/27203.html
+     * @return DescribeRefreshQuota
+     */
+    public static function DescribeRefreshQuota(){
+        return (new DescribeRefreshQuota());
     }
 }
