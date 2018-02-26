@@ -21,6 +21,7 @@ use aliyun\sdk\cdn\request\DomainConfig\SetPageCompressConfig;
 use aliyun\sdk\cdn\request\DomainConfig\SetPathCacheExpiredConfig;
 use aliyun\sdk\cdn\request\DomainConfig\SetRangeConfig;
 use aliyun\sdk\cdn\request\DomainConfig\SetRefererConfig;
+use aliyun\sdk\cdn\request\DomainConfig\SetReqAuthConfig;
 use aliyun\sdk\cdn\request\DomainConfig\SetSourceHostConfig;
 use aliyun\sdk\cdn\request\DomainConfig\SetVideoSeekConfig;
 use aliyun\sdk\cdn\request\DomainOperation\AddCdnDomain;
@@ -323,5 +324,16 @@ class Cdn
      */
     public static function DeleteCacheExpiredConfig($domain_name, $cache_type, $config_id){
         return (new DeleteCacheExpiredConfig())->setDomainName($domain_name)->setCacheType($cache_type)->setConfigID($config_id);
+    }
+
+    /**
+     * 设置鉴权
+     * https://help.aliyun.com/document_detail/27184.html
+     * @param $domain_name
+     * @param $auth_type
+     * @return SetReqAuthConfig
+     */
+    public static function SetReqAuthConfig($domain_name, $auth_type){
+        return (new SetReqAuthConfig())->setDomainName($domain_name)->setAuthType($auth_type);
     }
 }
