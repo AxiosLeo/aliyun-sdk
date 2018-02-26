@@ -35,6 +35,7 @@ use aliyun\sdk\cdn\request\DomainOperation\DescribeDomainsBySource;
 use aliyun\sdk\cdn\request\DomainOperation\DescribeUserDomains;
 use aliyun\sdk\cdn\request\DomainOperation\StartCdnDomain;
 use aliyun\sdk\cdn\request\DomainOperation\StopCdnDomain;
+use aliyun\sdk\cdn\request\ObjectCache\RefreshObjectCaches;
 use aliyun\sdk\cdn\request\Service\DescribeCdnService;
 use aliyun\sdk\cdn\request\Service\ModifyCdnService;
 use aliyun\sdk\cdn\request\Service\OpenCdnService;
@@ -388,5 +389,17 @@ class Cdn
     public static function SetDomainServerCertificate($domain_name, $cert_name, $server_certificate_status){
         $server_certificate_status = Parse::parseEnableParam($server_certificate_status);
         return (new SetDomainServerCertificate())->setDomainName($domain_name)->setCertName($cert_name)->setServerCertificateStatus($server_certificate_status);
+    }
+
+    /********************************** ObjectCache **************************************************/
+
+    /**
+     * 刷新缓存
+     * https://help.aliyun.com/document_detail/27200.html
+     * @param $object_path
+     * @return RefreshObjectCaches
+     */
+    public static function RefreshObjectCaches($object_path){
+        return (new RefreshObjectCaches())->setObjectPath($object_path);
     }
 }
