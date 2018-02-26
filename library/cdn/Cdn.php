@@ -10,6 +10,7 @@ namespace aliyun\sdk\cdn;
 
 use aliyun\sdk\cdn\request\DomainConfig\DescribeDomainConfigs;
 use aliyun\sdk\cdn\request\DomainConfig\SetErrorPageConfig;
+use aliyun\sdk\cdn\request\DomainConfig\SetFileCacheExpiredConfig;
 use aliyun\sdk\cdn\request\DomainConfig\SetForceRedirectConfig;
 use aliyun\sdk\cdn\request\DomainConfig\SetIgnoreQueryStringConfig;
 use aliyun\sdk\cdn\request\DomainConfig\SetOptimizeConfig;
@@ -256,5 +257,17 @@ class Cdn
     public static function SetRefererConfig($domain_name, $refer_type)
     {
         return (new SetRefererConfig())->setDomainName($domain_name)->setReferType($refer_type);
+    }
+
+    /**
+     * 设置文件类型缓存策略
+     * https://help.aliyun.com/document_detail/27179.html
+     * @param $domain_name
+     * @param $cache_content
+     * @param $ttl
+     * @return SetFileCacheExpiredConfig
+     */
+    public static function SetFileCacheExpiredConfig($domain_name, $cache_content, $ttl){
+        return (new SetFileCacheExpiredConfig())->setDomainName($domain_name)->setCacheContent($cache_content)->setTTL($ttl);
     }
 }
