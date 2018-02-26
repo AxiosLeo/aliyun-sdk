@@ -13,6 +13,7 @@ use aliyun\sdk\cdn\request\DomainConfig\SetIgnoreQueryStringConfig;
 use aliyun\sdk\cdn\request\DomainConfig\SetOptimizeConfig;
 use aliyun\sdk\cdn\request\DomainConfig\SetPageCompressConfig;
 use aliyun\sdk\cdn\request\DomainConfig\SetRangeConfig;
+use aliyun\sdk\cdn\request\DomainConfig\SetVideoSeekConfig;
 use aliyun\sdk\cdn\request\DomainOperation\AddCdnDomain;
 use aliyun\sdk\cdn\request\DomainOperation\DeleteCdnDomain;
 use aliyun\sdk\cdn\request\DomainOperation\DescribeCdnDomainDetail;
@@ -201,6 +202,19 @@ class Cdn
     public static function SetRangeConfig($domain_name, $enable){
         $enable = Parse::parseEnableParam($enable);
         $request = new SetRangeConfig();
+        return $request->setDomainName($domain_name)->setEnable($enable);
+    }
+
+    /**
+     * 设置拖拽播放
+     * https://help.aliyun.com/document_detail/27174.html
+     * @param $domain_name
+     * @param $enable
+     * @return SetVideoSeekConfig
+     */
+    public static function SetVideoSeekConfig($domain_name, $enable){
+        $enable = Parse::parseEnableParam($enable);
+        $request = new SetVideoSeekConfig();
         return $request->setDomainName($domain_name)->setEnable($enable);
     }
 }
