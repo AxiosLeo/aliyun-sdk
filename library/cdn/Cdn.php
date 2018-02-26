@@ -11,6 +11,7 @@ namespace aliyun\sdk\cdn;
 use aliyun\sdk\cdn\request\DomainConfig\DeleteCacheExpiredConfig;
 use aliyun\sdk\cdn\request\DomainConfig\DescribeDomainConfigs;
 use aliyun\sdk\cdn\request\DomainConfig\ModifyFileCacheExpiredConfig;
+use aliyun\sdk\cdn\request\DomainConfig\ModifyHttpHeaderConfig;
 use aliyun\sdk\cdn\request\DomainConfig\ModifyPathCacheExpiredConfig;
 use aliyun\sdk\cdn\request\DomainConfig\SetErrorPageConfig;
 use aliyun\sdk\cdn\request\DomainConfig\SetFileCacheExpiredConfig;
@@ -348,5 +349,18 @@ class Cdn
      */
     public static function SetHttpHeaderConfig($domain_name, $header_key, $header_value){
         return (new SetHttpHeaderConfig())->setDomainName($domain_name)->setHeaderKey($header_key)->setHeaderValue($header_value);
+    }
+
+    /**
+     * 修改HTTP头信息
+     * https://help.aliyun.com/document_detail/27186.html
+     * @param $domain_name
+     * @param $header_key
+     * @param $header_value
+     * @param $config_id
+     * @return ModifyHttpHeaderConfig
+     */
+    public static function ModifyHttpHeaderConfig($domain_name, $header_key, $header_value, $config_id){
+        return (new ModifyHttpHeaderConfig())->setDomainName($domain_name)->setHeaderKey($header_key)->setHeaderValue($header_value)->setConfigID($config_id);
     }
 }
