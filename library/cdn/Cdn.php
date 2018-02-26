@@ -10,6 +10,7 @@ namespace aliyun\sdk\cdn;
 
 use aliyun\sdk\cdn\request\DomainConfig\DescribeDomainConfigs;
 use aliyun\sdk\cdn\request\DomainConfig\SetOptimizeConfig;
+use aliyun\sdk\cdn\request\DomainConfig\SetPageCompressConfig;
 use aliyun\sdk\cdn\request\DomainOperation\AddCdnDomain;
 use aliyun\sdk\cdn\request\DomainOperation\DeleteCdnDomain;
 use aliyun\sdk\cdn\request\DomainOperation\DescribeCdnDomainDetail;
@@ -20,6 +21,7 @@ use aliyun\sdk\cdn\request\DomainOperation\StopCdnDomain;
 use aliyun\sdk\cdn\request\Service\DescribeCdnService;
 use aliyun\sdk\cdn\request\Service\ModifyCdnService;
 use aliyun\sdk\cdn\request\Service\OpenCdnService;
+use aliyun\sdk\core\help\Parse;
 
 class Cdn
 {
@@ -155,7 +157,22 @@ class Cdn
      * @return SetOptimizeConfig
      */
     public static function SetOptimizeConfig($domain_name, $enable){
+        $enable = Parse::parseEnableParam($enable);
         $request = new SetOptimizeConfig();
+        return $request->setDomainName($domain_name)->setEnable($enable);
+    }
+
+    /**
+     * 设置智能压缩
+     * 文档依然后错误
+     * https://help.aliyun.com/document_detail/27171.html
+     * @param $domain_name
+     * @param $enable
+     * @return SetPageCompressConfig
+     */
+    public static function SetPageCompressConfig($domain_name,$enable){
+        $enable = Parse::parseEnableParam($enable);
+        $request = new SetPageCompressConfig();
         return $request->setDomainName($domain_name)->setEnable($enable);
     }
 }
