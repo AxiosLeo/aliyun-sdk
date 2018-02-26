@@ -9,6 +9,7 @@
 namespace aliyun\sdk\cdn;
 
 use aliyun\sdk\cdn\request\DomainConfig\DescribeDomainConfigs;
+use aliyun\sdk\cdn\request\DomainConfig\SetErrorPageConfig;
 use aliyun\sdk\cdn\request\DomainConfig\SetIgnoreQueryStringConfig;
 use aliyun\sdk\cdn\request\DomainConfig\SetOptimizeConfig;
 use aliyun\sdk\cdn\request\DomainConfig\SetPageCompressConfig;
@@ -229,5 +230,17 @@ class Cdn
     public static function SetSourceHostConfig($domain_name, $back_src_domain){
         $request = new SetSourceHostConfig();
         return $request->setDomainName($domain_name)->setBackSrcDomain($back_src_domain);
+    }
+
+    /**
+     * 设置404页面
+     * https://help.aliyun.com/document_detail/27176.html
+     * @param $domain_name
+     * @param $page_type
+     * @return SetErrorPageConfig
+     */
+    public static function SetErrorPageConfig($domain_name, $page_type){
+        $request = new SetErrorPageConfig();
+        return $request->setDomainName($domain_name)->setPageType($page_type);
     }
 }
