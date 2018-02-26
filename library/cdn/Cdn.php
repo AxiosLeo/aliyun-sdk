@@ -9,6 +9,7 @@
 namespace aliyun\sdk\cdn;
 
 use aliyun\sdk\cdn\request\DomainConfig\DescribeDomainConfigs;
+use aliyun\sdk\cdn\request\DomainConfig\SetOptimizeConfig;
 use aliyun\sdk\cdn\request\DomainOperation\AddCdnDomain;
 use aliyun\sdk\cdn\request\DomainOperation\DeleteCdnDomain;
 use aliyun\sdk\cdn\request\DomainOperation\DescribeCdnDomainDetail;
@@ -143,5 +144,18 @@ class Cdn
      */
     public static function DescribeDomainConfigs($domain_name){
         return (new DescribeDomainConfigs())->setDomainName($domain_name);
+    }
+
+    /**
+     * 设置页面优化
+     * 文档中写的是DomaiName ，是写错了。实际服务端接收的还是DomainName
+     * https://help.aliyun.com/document_detail/27170.html
+     * @param $domain_name
+     * @param $enable
+     * @return SetOptimizeConfig
+     */
+    public static function SetOptimizeConfig($domain_name, $enable){
+        $request = new SetOptimizeConfig();
+        return $request->setDomainName($domain_name)->setEnable($enable);
     }
 }
