@@ -36,14 +36,14 @@ $access_secret = "testAccessKeySecret";
 \aliyun\sdk\Aliyun::region('cn-shanghai');
 
 //设置请求参数
-$request = \aliyun\sdk\vod\Vod::GetCategories()
+$response = \aliyun\sdk\vod\Vod::GetCategories()
     ->setCateId(-1)    //设置分类id
     ->setPageNo(4)     //设置页数
     ->setPageSize(10)  //设置每页显示个数
     ->request();       //提交请求
 
 //获取回调内容
-dump($request->getContent());
+dump($response->getContent());
 
 ```
 
