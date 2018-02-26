@@ -13,7 +13,7 @@ use aliyun\sdk\core\traits\Request;
 
 /**
  * Class DescribeDomainBpsData
- * @package aliyun\sdk\cdn\request\ObjectCache
+ * @package aliyun\sdk\cdn\request\data
  * @method $this setDomainName($domain_name)
  * @method $this setStartTime($start_time)
  * @method $this setEndTime($end_time)
