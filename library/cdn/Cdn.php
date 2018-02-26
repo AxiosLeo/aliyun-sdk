@@ -14,6 +14,7 @@ use aliyun\sdk\cdn\request\DomainConfig\DescribeDomainConfigs;
 use aliyun\sdk\cdn\request\DomainConfig\ModifyFileCacheExpiredConfig;
 use aliyun\sdk\cdn\request\DomainConfig\ModifyHttpHeaderConfig;
 use aliyun\sdk\cdn\request\DomainConfig\ModifyPathCacheExpiredConfig;
+use aliyun\sdk\cdn\request\DomainConfig\SetDomainServerCertificate;
 use aliyun\sdk\cdn\request\DomainConfig\SetErrorPageConfig;
 use aliyun\sdk\cdn\request\DomainConfig\SetFileCacheExpiredConfig;
 use aliyun\sdk\cdn\request\DomainConfig\SetForceRedirectConfig;
@@ -374,5 +375,18 @@ class Cdn
      */
     public static function DeleteHttpHeaderConfig($domain_name, $config_id){
         return (new DeleteHttpHeaderConfig())->setDomainName($domain_name)->setConfigID($config_id);
+    }
+
+    /**
+     * 设置证书
+     * https://help.aliyun.com/document_detail/45014.html
+     * @param $domain_name
+     * @param $cert_name
+     * @param $server_certificate_status
+     * @return SetDomainServerCertificate
+     */
+    public static function SetDomainServerCertificate($domain_name, $cert_name, $server_certificate_status){
+        $server_certificate_status = Parse::parseEnableParam($server_certificate_status);
+        return (new SetDomainServerCertificate())->setDomainName($domain_name)->setCertName($cert_name)->setServerCertificateStatus($server_certificate_status);
     }
 }
