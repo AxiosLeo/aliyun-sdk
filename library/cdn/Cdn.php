@@ -15,6 +15,7 @@ use aliyun\sdk\cdn\request\DomainConfig\ModifyPathCacheExpiredConfig;
 use aliyun\sdk\cdn\request\DomainConfig\SetErrorPageConfig;
 use aliyun\sdk\cdn\request\DomainConfig\SetFileCacheExpiredConfig;
 use aliyun\sdk\cdn\request\DomainConfig\SetForceRedirectConfig;
+use aliyun\sdk\cdn\request\DomainConfig\SetHttpHeaderConfig;
 use aliyun\sdk\cdn\request\DomainConfig\SetIgnoreQueryStringConfig;
 use aliyun\sdk\cdn\request\DomainConfig\SetOptimizeConfig;
 use aliyun\sdk\cdn\request\DomainConfig\SetPageCompressConfig;
@@ -335,5 +336,17 @@ class Cdn
      */
     public static function SetReqAuthConfig($domain_name, $auth_type){
         return (new SetReqAuthConfig())->setDomainName($domain_name)->setAuthType($auth_type);
+    }
+
+    /**
+     * 设置HTTP头信息
+     * https://help.aliyun.com/document_detail/27185.html
+     * @param $domain_name
+     * @param $header_key
+     * @param $header_value
+     * @return SetHttpHeaderConfig
+     */
+    public static function SetHttpHeaderConfig($domain_name, $header_key, $header_value){
+        return (new SetHttpHeaderConfig())->setDomainName($domain_name)->setHeaderKey($header_key)->setHeaderValue($header_value);
     }
 }
