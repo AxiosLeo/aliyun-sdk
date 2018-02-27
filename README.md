@@ -21,6 +21,11 @@
 * CDN 已完成
 * ......
 
+## 使用
+```php
+composer require axios/aliyun-sdk:dev-master
+```
+
 ## 代码示例
 ```php
 
