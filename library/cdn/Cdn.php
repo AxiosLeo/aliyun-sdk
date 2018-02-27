@@ -8,11 +8,26 @@
  */
 namespace aliyun\sdk\cdn;
 
+use aliyun\sdk\cdn\request\data\DescribeCdnRegionAndIsp;
 use aliyun\sdk\cdn\request\data\DescribeDomainBpsData;
+use aliyun\sdk\cdn\request\data\DescribeDomainBpsDataByTimeStamp;
+use aliyun\sdk\cdn\request\data\DescribeDomainFileSizeProportionData;
 use aliyun\sdk\cdn\request\data\DescribeDomainFlowData;
 use aliyun\sdk\cdn\request\data\DescribeDomainHitRateData;
+use aliyun\sdk\cdn\request\data\DescribeDomainHttpCodeData;
+use aliyun\sdk\cdn\request\data\DescribeDomainISPData;
+use aliyun\sdk\cdn\request\data\DescribeDomainPvData;
+use aliyun\sdk\cdn\request\data\DescribeDomainQpsData;
+use aliyun\sdk\cdn\request\data\DescribeDomainRegionData;
 use aliyun\sdk\cdn\request\data\DescribeDomainReqHitRateData;
 use aliyun\sdk\cdn\request\data\DescribeDomainSrcBpsData;
+use aliyun\sdk\cdn\request\data\DescribeDomainsUsageByDay;
+use aliyun\sdk\cdn\request\data\DescribeDomainTopReferVisit;
+use aliyun\sdk\cdn\request\data\DescribeDomainTopUrlVisit;
+use aliyun\sdk\cdn\request\data\DescribeDomainUvData;
+use aliyun\sdk\cdn\request\data\DescribeL2VipsByDomain;
+use aliyun\sdk\cdn\request\data\DescribeRangeDataByLocateAndIspService;
+use aliyun\sdk\cdn\request\data\DescribeTopDomainsByFlow;
 use aliyun\sdk\cdn\request\DomainConfig\DeleteCacheExpiredConfig;
 use aliyun\sdk\cdn\request\DomainConfig\DeleteHttpHeaderConfig;
 use aliyun\sdk\cdn\request\DomainConfig\DescribeDomainConfigs;
@@ -446,5 +461,140 @@ class Cdn
      */
     public static function DescribeDomainReqHitRateData(){
         return (new DescribeDomainReqHitRateData());
+    }
+
+    /**
+     * 查询域名的每秒访问次数QPS
+     * @return DescribeDomainQpsData
+     */
+    public static function DescribeDomainQpsData(){
+        return (new DescribeDomainQpsData());
+    }
+
+    /**
+     * 查询域名HTTP返回码占比数据
+     * @return DescribeDomainHttpCodeData
+     */
+    public static function DescribeDomainHttpCodeData(){
+        return (new DescribeDomainHttpCodeData());
+    }
+
+    /**
+     * 查询域名的天粒度监控统计数据
+     * @return DescribeDomainsUsageByDay
+     */
+    public static function DescribeDomainsUsageByDay(){
+        return (new DescribeDomainsUsageByDay());
+    }
+
+    /**
+     * 查询按流量排名的域名列表
+     * @return DescribeTopDomainsByFlow
+     */
+    public static function DescribeTopDomainsByFlow(){
+        return (new DescribeTopDomainsByFlow());
+    }
+
+    /**
+     * 查询域名的PV页面访问统计
+     * @return DescribeDomainPvData
+     */
+    public static function DescribeDomainPvData(){
+        return (new DescribeDomainPvData());
+    }
+
+    /**
+     * 查询域名的UV页面独立访问统计数据
+     * @return DescribeDomainUvData
+     */
+    public static function DescribeDomainUvData(){
+        return (new DescribeDomainUvData());
+    }
+
+    /**
+     * 查询域名的用户区域分布数据
+     * @return DescribeDomainRegionData
+     */
+    public static function DescribeDomainRegionData(){
+        return (new DescribeDomainRegionData());
+    }
+
+    /**
+     * 查询域名的用户运营商数据
+     * @return DescribeDomainISPData
+     */
+    public static function DescribeDomainISPData(){
+        return (new DescribeDomainISPData());
+    }
+
+    /**
+     * 查询域名某天的热门URL列表
+     * @return DescribeDomainTopUrlVisit
+     */
+    public static function DescribeDomainTopUrlVisit(){
+        return (new DescribeDomainTopUrlVisit());
+    }
+
+    /**
+     * 查询域名某天的热门页面引用次数排名
+     * @return DescribeDomainTopReferVisit
+     */
+    public static function DescribeDomainTopReferVisit(){
+        return (new DescribeDomainTopReferVisit());
+    }
+
+    /**
+     * 查询域名的文件大小占比统计数据
+     * @return DescribeDomainFileSizeProportionData
+     */
+    public static function DescribeDomainFileSizeProportionData(){
+        return (new DescribeDomainFileSizeProportionData());
+    }
+
+    /**
+     * 查询域名某时刻Locate和Isp的带宽数据
+     * @param $domain_name
+     * @param $location_names
+     * @param $isp_names
+     * @param $time_point
+     * @return DescribeDomainBpsDataByTimeStamp
+     */
+    public static function DescribeDomainBpsDataByTimeStamp($domain_name, $location_names, $isp_names, $time_point){
+        return (new DescribeDomainBpsDataByTimeStamp())
+            ->setDomainName($domain_name)
+            ->setLocationNames($location_names)
+            ->setIspNames($isp_names)
+            ->setTimePoint($time_point);
+    }
+
+    /**
+     * 查询区域和运营商列表
+     * @return DescribeCdnRegionAndIsp
+     */
+    public static function DescribeCdnRegionAndIsp(){
+        return (new DescribeCdnRegionAndIsp());
+    }
+
+    /**
+     * 查询域名某个时刻的Locate和Isp上的带宽数据
+     * @param $domain_name
+     * @param $start_time
+     * @param $end_time
+     * @return DescribeRangeDataByLocateAndIspService
+     */
+    public static function DescribeRangeDataByLocateAndIspService($domain_name, $start_time, $end_time){
+        return (new DescribeRangeDataByLocateAndIspService())
+            ->setDomainName($domain_name)
+            ->setStartTime($start_time)
+            ->setEndTime($end_time);
+    }
+
+    /**
+     * 根据域名查询L2节点的vip列表
+     * @param $domain_name
+     * @return DescribeL2VipsByDomain
+     */
+    public static function DescribeL2VipsByDomain($domain_name){
+        return (new DescribeL2VipsByDomain())->setDomainName($domain_name);
     }
 }
