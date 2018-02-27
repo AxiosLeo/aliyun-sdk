@@ -26,13 +26,17 @@ use aliyun\sdk\vod\request\VideoUpload\CreateUploadVideo;
 use aliyun\sdk\vod\request\VideoUpload\CreateUploadImage;
 use aliyun\sdk\vod\request\VideoUpload\RefreshUploadVideo;
 
+/**
+ * Class Vod
+ * API Document : https://help.aliyun.com/document_detail/60574.html
+ * @package aliyun\sdk\vod
+ */
 class Vod
 {
     /********************************** VideoUpload **************************************************/
 
     /**
      * 获取视频上传地址和凭证
-     * API Document : https://help.aliyun.com/document_detail/55407.html
      * @param $title
      * @param $file_name
      * @return CreateUploadVideo
@@ -44,7 +48,6 @@ class Vod
 
     /**
      * 刷新视频上传凭证
-     * API Document : https://help.aliyun.com/document_detail/55408.html
      * @param $video_id
      * @return RefreshUploadVideo
      */
@@ -55,7 +58,6 @@ class Vod
 
     /**
      * 获取图片上传地址和凭证
-     * API Document : https://help.aliyun.com/document_detail/55619.html
      * @param $image_type
      * @return CreateUploadImage
      */
@@ -68,7 +70,6 @@ class Vod
 
     /**
      * 获取视频播放地址
-     * API Document : https://help.aliyun.com/document_detail/56124.html
      * @param $video_id
      * @return GetPlayInfo
      */
@@ -79,7 +80,6 @@ class Vod
 
     /**
      * 获取视频播放凭证
-     * API Document : https://help.aliyun.com/document_detail/52833.html
      * @param $video_id
      * @return GetVideoPlayAuth
      */
@@ -90,7 +90,6 @@ class Vod
 
     /**
      * 获取视频信息
-     * API Document : https://help.aliyun.com/document_detail/52835.html
      * @param $video_id
      * @return GetVideoInfo
      */
@@ -101,7 +100,6 @@ class Vod
 
     /**
      * 修改视频信息
-     * API Document : https://help.aliyun.com/document_detail/52836.html
      * @param $video_id
      * @return UpdateVideoInfo
      */
@@ -112,7 +110,6 @@ class Vod
 
     /**
      * 删除视频
-     * API Document : https://help.aliyun.com/document_detail/52837.html?
      * @param $video_ids
      * @return DeleteVideo
      */
@@ -123,7 +120,6 @@ class Vod
 
     /**
      * 获取视频信息列表
-     * API Document : https://help.aliyun.com/document_detail/52838.html
      * @return GetVideoList
      */
     public static function GetVideoList(){
@@ -132,7 +128,6 @@ class Vod
 
     /**
      * 删除媒体流
-     * API Document : https://help.aliyun.com/document_detail/62130.html
      * @param $video_id
      * @param $job_ids
      * @return DeleteStream
@@ -144,7 +139,6 @@ class Vod
 
     /**
      * 获取源文件地址
-     * API Document : https://help.aliyun.com/document_detail/59624.html
      * @param $video_id
      * @return GetMezzanineInfo
      */
@@ -155,7 +149,6 @@ class Vod
 
     /**
      * 获取直转点视频列表
-     * API Document : https://help.aliyun.com/document_detail/64050.html
      * @return ListLiveRecordVideo
      */
     public static function ListLiveRecordVideo(){
@@ -166,7 +159,6 @@ class Vod
 
     /**
      * 创建分类
-     * API Document : https://help.aliyun.com/document_detail/56401.html
      * @param $cate_name
      * @return AddCategory
      */
@@ -177,7 +169,6 @@ class Vod
 
     /**
      * 修改分类
-     * API Document : https://help.aliyun.com/document_detail/56403.html
      * @param $cate_id
      * @param $cate_name
      * @return UpdateCategory
@@ -189,7 +180,6 @@ class Vod
 
     /**
      * 删除分类
-     * API Document : https://help.aliyun.com/document_detail/56404.html
      * @param $cate_id
      * @return DeleteCategory
      */
@@ -200,7 +190,6 @@ class Vod
 
     /**
      * 获取分类及其子分类
-     * API Document : https://help.aliyun.com/document_detail/56406.html
      * @return GetCategories
      */
     public static function GetCategories(){
