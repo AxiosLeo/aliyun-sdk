@@ -8,6 +8,7 @@
  */
 namespace aliyun\sdk\cdn;
 
+use aliyun\sdk\cdn\request\data\DescribeCdnDomainLogs;
 use aliyun\sdk\cdn\request\data\DescribeCdnRegionAndIsp;
 use aliyun\sdk\cdn\request\data\DescribeDomainBpsData;
 use aliyun\sdk\cdn\request\data\DescribeDomainBpsDataByTimeStamp;
@@ -25,6 +26,7 @@ use aliyun\sdk\cdn\request\data\DescribeDomainsUsageByDay;
 use aliyun\sdk\cdn\request\data\DescribeDomainTopReferVisit;
 use aliyun\sdk\cdn\request\data\DescribeDomainTopUrlVisit;
 use aliyun\sdk\cdn\request\data\DescribeDomainUvData;
+use aliyun\sdk\cdn\request\data\DescribeIpInfo;
 use aliyun\sdk\cdn\request\data\DescribeL2VipsByDomain;
 use aliyun\sdk\cdn\request\data\DescribeRangeDataByLocateAndIspService;
 use aliyun\sdk\cdn\request\data\DescribeTopDomainsByFlow;
@@ -596,5 +598,23 @@ class Cdn
      */
     public static function DescribeL2VipsByDomain($domain_name){
         return (new DescribeL2VipsByDomain())->setDomainName($domain_name);
+    }
+
+    /**
+     * 下载域名访问日志
+     * @param $domain_name
+     * @return DescribeCdnDomainLogs
+     */
+    public static function DescribeCdnDomainLogs($domain_name){
+        return (new DescribeCdnDomainLogs())->setDomainName($domain_name);
+    }
+
+    /**
+     * 查询IP归属
+     * @param string $ip 指定IP地址，不支持批量
+     * @return DescribeIpInfo
+     */
+    public static function DescribeIpInfo($ip){
+        return (new DescribeIpInfo())->setIP($ip);
     }
 }
