@@ -70,8 +70,7 @@ class Request
             $this->setParam("Signature",$signature);
         }
         $response =  self::curl($this->domain,$this->path,$this->param,$this->request_method,$this->header);
-        Aliyun::$response = $response;
-        return $response;
+        return Aliyun::response($response);
     }
 
     public static function curl($domain, $path, $data = [], $method = "POST", $header = []){

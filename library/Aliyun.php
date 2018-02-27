@@ -65,7 +65,10 @@ class Aliyun
         self::$region_id = $region_id;
     }
 
-    public static function response(){
+    public static function response($response = null){
+        if(!is_null($response)){
+            self::$response = $response;
+        }
         return self::$response;
     }
 }
