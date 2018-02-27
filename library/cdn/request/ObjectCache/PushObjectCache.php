@@ -1,10 +1,10 @@
 <?php
 /**
- * @author: Axios
+ * @author: axios
  *
- * @email: axioscros@aliyun.com
+ * @email: axiosleo@foxmail.com
  * @blog:  http://hanxv.cn
- * @datetime: 2018/2/26 15:46
+ * @datetime: 2018/2/24 15:17
  */
 
 namespace aliyun\sdk\cdn\request\ObjectCache;

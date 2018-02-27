@@ -1,9 +1,10 @@
 <?php
 /**
- * Created by PhpStorm.
- * User: ydtec-hx
- * Date: 2018/2/26
- * Time: 16:09
+ * @author: axios
+ *
+ * @email: axiosleo@foxmail.com
+ * @blog:  http://hanxv.cn
+ * @datetime: 2018/2/24 15:17
  */
 
 namespace aliyun\sdk\cdn\request\data;
