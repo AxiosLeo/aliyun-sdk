@@ -11,11 +11,11 @@ namespace aliyun\sdk\core\http;
 
 use aliyun\sdk\Aliyun;
 use aliyun\sdk\core\auth\Credential;
-use aliyun\sdk\core\exception\ClientException;
 use aliyun\sdk\core\Product;
 use aliyun\sdk\core\sign\HmacSHA1;
+use GuzzleHttp\Client;
 
-class Request extends Parameter
+class Request
 {
 
     protected $product = "";
@@ -32,22 +32,26 @@ class Request extends Parameter
 
     protected $header = [];
 
+    protected $path = "/";
+
+    protected $param = [];
+
     public function __construct()
     {
-        parent::__construct();
         $this->region = Aliyun::$region_id;
         $this->domain = Product::domain($this->product,$this->region);
+
+        $this->setParam('Format',"JSON");
+        $this->setParam('Version',"0000-00-00");
+        $this->setParam('AccessKeyId',Aliyun::$access_key_id);
+        $this->setParam("SignatureMethod","HMAC-SHA1");
+        $this->setParam("SignatureVersion","1.0");
+        $this->setParam("SignatureNonce", Aliyun::$security_token);
+        $this->setParam("Timestamp",date("Y-m-d\TH:i:s\Z"));
     }
 
     protected function setActionName($action_name){
         $this->setParam("Action",$action_name);
-    }
-
-    protected function setRequestMethod($method){
-        $method = strtoupper($method);
-        if(in_array($method,["GET","POST"])){
-            $this->request_method = $method;
-        }
     }
 
     protected function setRequestHeader($key,$value){
@@ -55,56 +59,35 @@ class Request extends Parameter
     }
 
     /**
+     * @param bool $auth
+     * @return Response
      * @throws \aliyun\sdk\core\exception\ClientException
      */
-    public function request(){
-        Credential::auth($this->product,$this->param('SignatureNonce'),$this->param('Timestamp'));
-        $signature = HmacSHA1::create($this->param(),$this->request_method);
-        $this->setSignature($signature);
-        $response =  self::curl($this->domain,$this->param,$this->request_method,$this->header);
+    public function request($auth = true){
+        if($auth){
+            Credential::auth($this->product,$this->params('SignatureNonce'),$this->params('Timestamp'));
+            $signature = HmacSHA1::create($this->params(),$this->request_method);
+            $this->setParam("Signature",$signature);
+        }
+        $response =  self::curl($this->domain,$this->path,$this->param,$this->request_method,$this->header);
         Aliyun::$response = $response;
         return $response;
     }
 
-    public static function curl($url, $data = [], $method = "POST", $header = []){
-        $data = is_array($data) ? http_build_query($data) : $data;
-        if($method == "GET"){
-            if(strpos($data,'?') === false){
-                $url = $url . "?";
-            }
-            $lastString = substr($data, -1);
-            $url = $lastString=="&" || $lastString=="?" ? $url . $data : $url . "&" . $data;
-        }
-        curl_init();
-        $ch = curl_init();
-        curl_setopt($ch, CURLOPT_CUSTOMREQUEST, $method);
-        curl_setopt($ch, CURLOPT_URL, $url);
-        curl_setopt($ch, CURLOPT_FAILONERROR, false);
-        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-        curl_setopt($ch, CURLOPT_POSTFIELDS, $data);
-        curl_setopt($ch, CURLOPT_TIMEOUT, 30);
-        curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, 80);
-        curl_setopt($ch, CURLINFO_HEADER_OUT, true);
-
-        if (strlen($url) > 5 && strtolower(substr($url, 0, 5)) == "https") {
-            curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
-            curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false);
-        }
-        if (is_array($header) && 0 < count($header)) {
-            $httpHeaders = self::getHttpHeaders($header);
-            curl_setopt($ch, CURLOPT_HTTPHEADER, $httpHeaders);
-        }
-
+    public static function curl($domain, $path, $data = [], $method = "POST", $header = []){
+        $domain = "http://".$domain;
+        $client = new Client(['base_uri' => $domain]);
+        $result = $client->request($method, $path, [
+            'http_errors' => false,
+            'form_params'=>$data,
+            'headers'=>$header
+        ]);
+        $body = $result->getBody();
         $response = new Response();
-        $response->setbody(curl_exec($ch));
-        $response->setHeader(curl_getinfo($ch, CURLINFO_HEADER_OUT));
-        $response->setStatus(curl_getinfo($ch, CURLINFO_HTTP_CODE));
-        if (curl_errno($ch)) {
-            throw new ClientException("Server unreachable: Errno: " . curl_errno($ch) . " " . curl_error($ch), "SDK.ServerUnreachable");
-        }
-
-        curl_close($ch);
-
+        $response->setHeader($result->getHeaders());
+        $body = (string) $body;
+        $response->setBody(\GuzzleHttp\json_decode($body));
+        $response->setStatus($result->getStatusCode());
         return $response;
     }
 
@@ -115,5 +98,27 @@ class Request extends Parameter
             array_push($httpHeader , $key.":".$value);
         }
         return $httpHeader;
+    }
+
+    public function params($key = '')
+    {
+        if(is_string($key) && isset($this->param[$key])){
+            return $this->param[$key];
+        }
+        return $this->param;
+    }
+
+    /**
+     * @param string $key
+     * @param string $value
+     */
+    public function setParam($key , $value = ''){
+        if(is_array($key)){
+            foreach ($key as $k=>$v){
+                $this->param[$k] = $v;
+            }
+        }else{
+            $this->param[$key] = $value;
+        }
     }
 }

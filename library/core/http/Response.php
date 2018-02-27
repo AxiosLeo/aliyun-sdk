@@ -32,9 +32,19 @@ class Response
 
     public function getContent($format = "json"){
         if($format === "json"){
-            $result = json_decode($this->body,true);
-            return empty($result) ? $this->body : $result;
+            if(is_string($this->body)){
+                $result = json_decode($this->body,true);
+                return empty($result) ? $this->body : $result;
+            }
         }
         return $this->body;
+    }
+
+    public function getHeader(){
+        return $this->header;
+    }
+
+    public function getStatus(){
+        return $this->status;
     }
 }
