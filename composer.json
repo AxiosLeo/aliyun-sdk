@@ -21,7 +21,8 @@
   "require": {
     "php": ">=7.0",
     "guzzlehttp/guzzle": "^6.3",
-    "aliyuncs/oss-sdk-php": "~2.0"
+    "aliyuncs/oss-sdk-php": "~2.0",
+    "flc/dysms": "^1.0"
   },
   "require-dev": {
     "composer/composer": "1.0.*@dev",
