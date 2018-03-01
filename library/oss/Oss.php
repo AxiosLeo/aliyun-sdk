@@ -28,13 +28,10 @@ class Oss
      * @return OssClient
      */
     public static function factory($access_key_id = null, $access_secret = null, $region_id = null){
-        $access_key_id = is_null($access_key_id) ? Aliyun::$access_key_id : $access_key_id;
-        $access_secret = is_null($access_secret) ? Aliyun::$access_secret : $access_secret;
-        $region_id = is_null($region_id) ? Aliyun::$region_id : $region_id;
         self::$OssClient = new OssClient(
-            $access_key_id,
-            $access_secret,
-            Product::domain("oss",$region_id)
+            Aliyun::getAccessKeyId($access_key_id),
+            Aliyun::getAccessSecret($access_secret),
+            Product::domain("oss",Aliyun::getRegionId($region_id))
         );
 
         return self::$OssClient;

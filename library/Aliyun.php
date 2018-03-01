@@ -71,4 +71,16 @@ class Aliyun
         }
         return self::$response;
     }
+
+    public static function getRegionId($region_id = null){
+        return is_null($region_id) ? self::$region_id : $region_id;
+    }
+
+    public static function getAccessKeyId($access_key_id = null){
+        return is_null($access_key_id) ? Aliyun::$access_key_id : $access_key_id;
+    }
+
+    public static function getAccessSecret($access_secret = null){
+        return is_null($access_secret) ? Aliyun::$access_secret : $access_secret;
+    }
 }
