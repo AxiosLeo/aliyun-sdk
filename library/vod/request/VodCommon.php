@@ -19,7 +19,7 @@ class VodCommon extends Request
 
         parent::__construct();
 
-        $this->setVersion("2017-03-21");
+        $this->setParam("Version","2017-03-21");
 
         $this->locationServiceCode = "vod";
 

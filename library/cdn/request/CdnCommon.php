@@ -19,7 +19,7 @@ class CdnCommon extends Request
 
         parent::__construct();
 
-        $this->setVersion("2014-11-11");
+        $this->setParam("Version","2014-11-11");
 
         $this->locationServiceCode = "cdn";
 
