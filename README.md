@@ -16,7 +16,7 @@ composer require axios/aliyun-sdk
 ```
 
 
-## Scheme
+## Development Plan
 
 * VOD -> Done
 * CDN -> Done
@@ -26,7 +26,7 @@ composer require axios/aliyun-sdk
 * LIVE
 * ......
 
-## Use
+## How To Use
 
 ```php
 
