@@ -1,7 +1,7 @@
 {
   "name": "axios/aliyun-sdk",
   "description": "SDK for aliyun service develop",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "keywords": [
     "aliyun",
     "aliyun-service",
