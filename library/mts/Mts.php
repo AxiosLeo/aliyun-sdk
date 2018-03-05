@@ -6,8 +6,14 @@
  * @blog:  http://hanxv.cn
  * @datetime: 2018/3/1 17:20
  */
+
 namespace aliyun\sdk\mts;
 
+use aliyun\sdk\mts\request\Job\CancelJob;
+use aliyun\sdk\mts\request\Job\QueryAnalysisJobList;
+use aliyun\sdk\mts\request\Job\QueryMediaInfoJobList;
+use aliyun\sdk\mts\request\Job\SubmitAnalysisJob;
+use aliyun\sdk\mts\request\Job\SubmitJobs;
 use aliyun\sdk\mts\request\Job\SubmitMediaInfoJob;
 
 /**
@@ -24,7 +30,64 @@ class Mts
      * @param $input
      * @return SubmitMediaInfoJob
      */
-    public static function SubmitMediaInfoJob($input){
+    public static function SubmitMediaInfoJob($input)
+    {
         return (new SubmitMediaInfoJob())->setInput($input);
+    }
+
+    /**
+     * 查询媒体信息作业
+     * @param $MediaInfoJobIds
+     * @return QueryMediaInfoJobList
+     */
+    public static function QueryMediaInfoJobList($MediaInfoJobIds)
+    {
+        return (new QueryMediaInfoJobList())->setMediaInfoJobIds($MediaInfoJobIds);
+    }
+
+    /**
+     * 提交模板分析作业
+     * @param $PipelineId
+     * @param $input
+     * @return SubmitAnalysisJob
+     */
+    public static function SubmitAnalysisJob($PipelineId, $input)
+    {
+        return (new SubmitAnalysisJob())->setPipelineId($PipelineId)->setInput($input);
+    }
+
+    /**
+     * 查询模板分析作业
+     * @param $AnalysisJobIds
+     * @return QueryAnalysisJobList
+     */
+    public static function QueryAnalysisJobList($AnalysisJobIds)
+    {
+        return (new QueryAnalysisJobList())->setAnalysisJobIds($AnalysisJobIds);
+    }
+
+    /**
+     * @param $PipelineId
+     * @param $input
+     * @param $OutputBucket
+     * @param $Outputs
+     * @return SubmitJobs
+     */
+    public static function SubmitJobs($PipelineId, $input, $OutputBucket, $Outputs)
+    {
+        return (new SubmitJobs())
+            ->setPipelineId($PipelineId)
+            ->setInput($input)
+            ->setOutputBucket($OutputBucket)
+            ->setOutputs($Outputs);
+    }
+
+    /**
+     * @param $JobId
+     * @return CancelJob
+     */
+    public static function CancelJob($JobId)
+    {
+        return (new CancelJob())->setJobId($JobId);
     }
 }
