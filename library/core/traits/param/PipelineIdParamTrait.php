@@ -4,18 +4,18 @@
  *
  * @email: axiosleo@foxmail.com
  * @blog:  http://hanxv.cn
- * @datetime: 2018/3/5 13:44
+ * @datetime: 2018/3/5 14:08
  */
 
 namespace aliyun\sdk\core\traits\param;
 
 /**
- * Trait UserDataParamTrait
+ * Trait PipelineIdParamTrait
  * @package aliyun\sdk\core\traits\param
- * @method $this setUserData($UserData)
- * @method $this getUserData()
+ * @method $this setPipelineId($PipelineId)
+ * @method $this getPipelineId()
  */
-trait UserDataParamTrait
+trait PipelineIdParamTrait
 {
 
 }

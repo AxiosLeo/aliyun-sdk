@@ -4,18 +4,18 @@
  *
  * @email: axiosleo@foxmail.com
  * @blog:  http://hanxv.cn
- * @datetime: 2018/3/5 13:44
+ * @datetime: 2018/3/5 13:58
  */
 
 namespace aliyun\sdk\core\traits\param;
 
 /**
- * Trait UserDataParamTrait
+ * Class MediaInfoJobIds
  * @package aliyun\sdk\core\traits\param
- * @method $this setUserData($UserData)
- * @method $this getUserData()
+ * @method $this setMediaInfoJobIds($MediaInfoJobIds)
+ * @method $this getMediaInfoJobIds()
  */
-trait UserDataParamTrait
+trait MediaInfoJobIdsParamTrait
 {
 
 }

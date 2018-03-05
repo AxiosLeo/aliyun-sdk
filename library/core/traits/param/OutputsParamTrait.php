@@ -4,18 +4,18 @@
  *
  * @email: axiosleo@foxmail.com
  * @blog:  http://hanxv.cn
- * @datetime: 2018/3/5 13:44
+ * @datetime: 2018/3/5 14:15
  */
 
 namespace aliyun\sdk\core\traits\param;
 
 /**
- * Trait UserDataParamTrait
+ * Trait OutputsParamTrait
  * @package aliyun\sdk\core\traits\param
- * @method $this setUserData($UserData)
- * @method $this getUserData()
+ * @method $this setOutputs($Outputs)
+ * @method $this getOutputs()
  */
-trait UserDataParamTrait
+trait OutputsParamTrait
 {
 
 }
