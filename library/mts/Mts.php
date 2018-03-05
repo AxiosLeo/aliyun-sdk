@@ -111,4 +111,11 @@ class Mts
     public static function ListJob(){
         return (new ListJob());
     }
+
+    /********************************** Template **************************************************/
+
+
+    public static function AddTemplate(){
+
+    }
 }
