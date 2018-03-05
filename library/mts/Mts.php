@@ -10,6 +10,7 @@
 namespace aliyun\sdk\mts;
 
 use aliyun\sdk\mts\request\Job\CancelJob;
+use aliyun\sdk\mts\request\Job\ListJob;
 use aliyun\sdk\mts\request\Job\QueryAnalysisJobList;
 use aliyun\sdk\mts\request\Job\QueryJobList;
 use aliyun\sdk\mts\request\Job\QueryMediaInfoJobList;
@@ -103,7 +104,11 @@ class Mts
         return (new QueryJobList())->setJobIds($JobIds);
     }
 
+    /**
+     * 列出转码作业
+     * @return ListJob
+     */
     public static function ListJob(){
-
+        return (new ListJob());
     }
 }
