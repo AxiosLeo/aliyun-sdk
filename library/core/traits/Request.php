@@ -27,8 +27,13 @@ trait Request
     {
         // TODO: Implement __call() method.
 
-        $param_name = str_replace("set","",$name);
-        $this->setParam($param_name, $arguments[0]);
-        return $this;
+        if(false !== strpos($name,"set")){
+            $param_name = str_replace("set","",$name);
+            $this->setParam($param_name, $arguments[0]);
+            return $this;
+        }else{
+            $param_name = str_replace("get","",$name);
+            return $this->params($param_name);
+        }
     }
 }
