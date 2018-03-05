@@ -92,4 +92,8 @@ class Mts
     {
         return (new CancelJob())->setJobId($JobId);
     }
+
+    public static function QueryJobList($JobIds){
+
+    }
 }

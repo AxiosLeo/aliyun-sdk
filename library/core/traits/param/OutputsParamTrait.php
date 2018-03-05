@@ -13,7 +13,7 @@ namespace aliyun\sdk\core\traits\param;
  * Trait OutputsParamTrait
  * @package aliyun\sdk\core\traits\param
  * @method $this setOutputs($Outputs)
- * @method $this getOutputs()
+ * @method getOutputs()
  */
 trait OutputsParamTrait
 {

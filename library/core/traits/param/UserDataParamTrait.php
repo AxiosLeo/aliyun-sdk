@@ -13,7 +13,7 @@ namespace aliyun\sdk\core\traits\param;
  * Trait UserDataParamTrait
  * @package aliyun\sdk\core\traits\param
  * @method $this setUserData($UserData)
- * @method $this getUserData()
+ * @method getUserData()
  */
 trait UserDataParamTrait
 {

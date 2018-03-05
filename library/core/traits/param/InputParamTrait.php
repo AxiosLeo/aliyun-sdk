@@ -13,7 +13,7 @@ namespace aliyun\sdk\core\traits\param;
  * Trait InputParamTrait
  * @package aliyun\sdk\core\traits\param
  * @method $this setInput($input)
- * @method $this getInput()
+ * @method getInput()
  */
 trait InputParamTrait
 {

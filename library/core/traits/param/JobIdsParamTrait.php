@@ -4,18 +4,18 @@
  *
  * @email: axiosleo@foxmail.com
  * @blog:  http://hanxv.cn
- * @datetime: 2018/3/5 14:16
+ * @datetime: 2018/3/5 14:23
  */
 
 namespace aliyun\sdk\core\traits\param;
 
 /**
- * Trait JobIdParamTrait
+ * Trait JobIdsParamTrait
  * @package aliyun\sdk\core\traits\param
- * @method $this setJobId($JobId)
- * @method getJobId()
+ * @method $this setJobIds($JobIds)
+ * @method getJobIds()
  */
-trait JobIdParamTrait
+trait JobIdsParamTrait
 {
 
 }
