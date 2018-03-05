@@ -67,6 +67,7 @@ class Mts
     }
 
     /**
+     * 提交转码作业
      * @param $PipelineId
      * @param $input
      * @param $OutputBucket
@@ -83,6 +84,7 @@ class Mts
     }
 
     /**
+     * 取消转码作业
      * @param $JobId
      * @return CancelJob
      */
