@@ -12,10 +12,22 @@ namespace aliyun\sdk\core\traits\param;
 /**
  * Trait OutputsParamTrait
  * @package aliyun\sdk\core\traits\param
- * @method $this setOutputs($Outputs)
- * @method getOutputs()
  */
 trait OutputsParamTrait
 {
+    /**
+     * @param array $Outputs
+     * @return $this
+     */
+    public function setOutputs($Outputs){
+        $this->setParam("Outputs",\aliyun\sdk\core\help\Parse::arrayToJson($Outputs));
+        return $this;
+    }
 
+    /**
+     * @return array
+     */
+    public function getOutputs(){
+        return \aliyun\sdk\core\help\Parse::jsonToArray($this->params("Outputs"));
+    }
 }

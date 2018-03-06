@@ -34,4 +34,20 @@ class Parse
         $object =  json_decode( json_encode( $object),true);
         return  $object;
     }
+
+    public static function arrayToJson($array){
+        if(is_array($array)){
+            $array = json_encode($array, true);
+        }
+        return $array;
+    }
+
+    public static function jsonToArray($json){
+        $temp = json_decode($json,true);
+        if(empty($temp) && $json != $temp){
+            return $json;
+        }
+
+        return $temp;
+    }
 }
