@@ -9,7 +9,6 @@
 
 namespace aliyun\sdk\core;
 
-
 use aliyun\sdk\core\exception\ProductNotExistException;
 use aliyun\sdk\core\exception\RegionNotExistException;
 

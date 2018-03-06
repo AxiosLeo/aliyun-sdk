@@ -17,6 +17,11 @@ use aliyun\sdk\mts\request\Job\QueryMediaInfoJobList;
 use aliyun\sdk\mts\request\Job\SubmitAnalysisJob;
 use aliyun\sdk\mts\request\Job\SubmitJobs;
 use aliyun\sdk\mts\request\Job\SubmitMediaInfoJob;
+use aliyun\sdk\mts\request\Template\DeleteTemplate;
+use aliyun\sdk\mts\request\Template\SearchTemplate;
+use aliyun\sdk\mts\Template\AddTemplate;
+use aliyun\sdk\mts\Template\QueryTemplateList;
+use aliyun\sdk\mts\Template\UpdateTemplate;
 
 /**
  * Class Mts
@@ -114,8 +119,48 @@ class Mts
 
     /********************************** Template **************************************************/
 
+    /**
+     * 新增自定义转码模版
+     * @param $name
+     * @return AddTemplate
+     */
+    public static function AddTemplate($name){
+        return (new AddTemplate())->setName($name);
+    }
 
-    public static function AddTemplate(){
+    /**
+     * 更新自定义转码模版
+     * @param $template_id
+     * @param $name
+     * @return UpdateTemplate
+     */
+    public static function UpdateTemplate($template_id, $name){
+        return (new UpdateTemplate())->setTemplateId($template_id)->setName($name);
+    }
 
+    /**
+     * 查询自定义转码模板
+     * @param $template_ids
+     * @return QueryTemplateList
+     */
+    public static function QueryTemplateList($template_ids){
+        return (new QueryTemplateList())->setTemplateIds($template_ids);
+    }
+
+    /**
+     * 搜索自定义转码模板
+     * @return SearchTemplate
+     */
+    public static function SearchTemplate(){
+        return (new SearchTemplate());
+    }
+
+    /**
+     * 删除自定义转码模板
+     * @param $template_id
+     * @return DeleteTemplate
+     */
+    public static function DeleteTemplate($template_id){
+        return (new DeleteTemplate())->setTemplateId($template_id);
     }
 }
