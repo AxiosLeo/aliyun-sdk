@@ -17,6 +17,10 @@ use aliyun\sdk\mts\request\Job\QueryMediaInfoJobList;
 use aliyun\sdk\mts\request\Job\SubmitAnalysisJob;
 use aliyun\sdk\mts\request\Job\SubmitJobs;
 use aliyun\sdk\mts\request\Job\SubmitMediaInfoJob;
+use aliyun\sdk\mts\request\Job\SubmitSnapshotJob;
+use aliyun\sdk\mts\request\Pipeline\QueryPipelineList;
+use aliyun\sdk\mts\request\Pipeline\SearchPipeline;
+use aliyun\sdk\mts\request\Pipeline\UpdatePipeline;
 use aliyun\sdk\mts\request\Template\DeleteTemplate;
 use aliyun\sdk\mts\request\Template\SearchTemplate;
 use aliyun\sdk\mts\Template\AddTemplate;
@@ -117,6 +121,10 @@ class Mts
         return (new ListJob());
     }
 
+    public static function SubmitSnapshotJob($input, $snapshot_config = []){
+        return (new SubmitSnapshotJob())->setInput($input)->setSnapshotConfig($snapshot_config);
+    }
+
     /********************************** Template **************************************************/
 
     /**
@@ -162,5 +170,37 @@ class Mts
      */
     public static function DeleteTemplate($template_id){
         return (new DeleteTemplate())->setTemplateId($template_id);
+    }
+
+
+    /********************************** Pipeline **************************************************/
+
+
+    /**
+     * 更新管道
+     * @param $pipeline_id
+     * @param $name
+     * @param $state
+     * @return UpdatePipeline
+     */
+    public static function UpdatePipeline($pipeline_id, $name, $state){
+        return (new UpdatePipeline())->setPipelineId($pipeline_id)->setName($name)->setState($state);
+    }
+
+    /**
+     * 查询管道
+     * @param $pipeline_ids
+     * @return QueryPipelineList
+     */
+    public static function QueryPipelineList($pipeline_ids){
+        return (new QueryPipelineList())->setPipelineIds($pipeline_ids);
+    }
+
+    /**
+     * 搜索管道
+     * @return SearchPipeline
+     */
+    public static function SearchPipeline(){
+        return (new SearchPipeline());
     }
 }
