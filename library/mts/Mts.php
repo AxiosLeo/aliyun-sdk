@@ -14,6 +14,7 @@ use aliyun\sdk\mts\request\Job\ListJob;
 use aliyun\sdk\mts\request\Job\QueryAnalysisJobList;
 use aliyun\sdk\mts\request\Job\QueryJobList;
 use aliyun\sdk\mts\request\Job\QueryMediaInfoJobList;
+use aliyun\sdk\mts\request\Job\QuerySnapshotJobList;
 use aliyun\sdk\mts\request\Job\SubmitAnalysisJob;
 use aliyun\sdk\mts\request\Job\SubmitJobs;
 use aliyun\sdk\mts\request\Job\SubmitMediaInfoJob;
@@ -21,6 +22,7 @@ use aliyun\sdk\mts\request\Job\SubmitSnapshotJob;
 use aliyun\sdk\mts\request\Pipeline\QueryPipelineList;
 use aliyun\sdk\mts\request\Pipeline\SearchPipeline;
 use aliyun\sdk\mts\request\Pipeline\UpdatePipeline;
+use aliyun\sdk\mts\request\Template\AddWaterMarkTemplate;
 use aliyun\sdk\mts\request\Template\DeleteTemplate;
 use aliyun\sdk\mts\request\Template\SearchTemplate;
 use aliyun\sdk\mts\Template\AddTemplate;
@@ -121,8 +123,23 @@ class Mts
         return (new ListJob());
     }
 
+    /**
+     * 提交截图作业
+     * @param array $input
+     * @param array $snapshot_config
+     * @return SubmitSnapshotJob
+     */
     public static function SubmitSnapshotJob($input, $snapshot_config = []){
         return (new SubmitSnapshotJob())->setInput($input)->setSnapshotConfig($snapshot_config);
+    }
+
+    /**
+     * 查询截图作业
+     * @param string $SnapshotJobIds
+     * @return QuerySnapshotJobList
+     */
+    public static function QuerySnapshotJobList($SnapshotJobIds){
+        return (new QuerySnapshotJobList())->setSnapshotJobIds($SnapshotJobIds);
     }
 
     /********************************** Template **************************************************/
@@ -170,6 +187,16 @@ class Mts
      */
     public static function DeleteTemplate($template_id){
         return (new DeleteTemplate())->setTemplateId($template_id);
+    }
+
+    /**
+     * 新增水印模版
+     * @param $name
+     * @param array $config
+     * @return AddWaterMarkTemplate
+     */
+    public static function AddWaterMarkTemplate($name, $config){
+        return (new AddWaterMarkTemplate())->setName($name)->setConfig($config);
     }
 
 

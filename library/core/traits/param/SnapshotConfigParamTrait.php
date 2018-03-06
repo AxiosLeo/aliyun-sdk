@@ -13,7 +13,7 @@ namespace aliyun\sdk\core\traits\param;
  * Trait SnapshotConfig
  * @package aliyun\sdk\core\traits\param
  */
-trait SnapshotConfig
+trait SnapshotConfigParamTrait
 {
     /**
      * @param array $SnapshotConfig
