@@ -32,6 +32,15 @@ use aliyun\sdk\mts\request\Template\QueryTemplateList;
 use aliyun\sdk\mts\request\Template\SearchWaterMarkTemplate;
 use aliyun\sdk\mts\request\Template\UpdateTemplate;
 use aliyun\sdk\mts\request\Template\UpdateWaterMarkTemplate;
+use aliyun\sdk\mts\request\Workflow\ActivateMediaWorkflow;
+use aliyun\sdk\mts\request\Workflow\AddMediaWorkflow;
+use aliyun\sdk\mts\request\Workflow\DeactivateMediaWorkflow;
+use aliyun\sdk\mts\request\Workflow\DeleteMediaWorkflow;
+use aliyun\sdk\mts\request\Workflow\ListMediaWorkflowExecutions;
+use aliyun\sdk\mts\request\Workflow\QueryMediaWorkflowExecutionList;
+use aliyun\sdk\mts\request\Workflow\QueryMediaWorkflowList;
+use aliyun\sdk\mts\request\Workflow\SearchMediaWorkflow;
+use aliyun\sdk\mts\request\Workflow\UpdateMediaWorkflow;
 
 /**
  * Class Mts
@@ -273,5 +282,88 @@ class Mts
      */
     public static function SearchPipeline(){
         return (new SearchPipeline());
+    }
+
+    /********************************** Workflow **************************************************/
+
+    /**
+     * 新增媒体工作流
+     * @param $name
+     * @param $topology
+     * @return AddMediaWorkflow
+     */
+    public static function AddMediaWorkflow($name,$topology){
+        return (new AddMediaWorkflow())->setName($name)->setTopology($topology);
+    }
+
+    /**
+     * 激活媒体工作流
+     * @param $media_workflow_id
+     * @return ActivateMediaWorkflow
+     */
+    public static function ActivateMediaWorkflow($media_workflow_id){
+        return (new ActivateMediaWorkflow())->setMediaWorkflowId($media_workflow_id);
+    }
+
+    /**
+     * 停用媒体工作流
+     * @param $media_workflow_id
+     * @return DeactivateMediaWorkflow
+     */
+    public static function DeactivateMediaWorkflow($media_workflow_id){
+        return (new DeactivateMediaWorkflow())->setMediaWorkflowId($media_workflow_id);
+    }
+
+    /**
+     * 删除媒体工作流
+     * @param $media_workflow_id
+     * @return DeleteMediaWorkflow
+     */
+    public static function DeleteMediaWorkflow($media_workflow_id){
+        return (new DeleteMediaWorkflow())->setMediaWorkflowId($media_workflow_id);
+    }
+
+    /**
+     * 更新媒体工作流
+     * @param $media_workflow_id
+     * @param $topology
+     * @return UpdateMediaWorkflow
+     */
+    public static function UpdateMediaWorkflow($media_workflow_id, $topology){
+        return (new UpdateMediaWorkflow())->setMediaWorkflowId($media_workflow_id)->setTopology($topology);
+    }
+
+    /**
+     * 查询媒体工作流
+     * @param $media_workflow_ids
+     * @return QueryMediaWorkflowList
+     */
+    public static function QueryMediaWorkflowList($media_workflow_ids){
+        return (new QueryMediaWorkflowList())->setMediaWorkflowIds($media_workflow_ids);
+    }
+
+    /**
+     * 搜索媒体工作流
+     * @return SearchMediaWorkflow
+     */
+    public static function SearchMediaWorkflow(){
+        return (new SearchMediaWorkflow());
+    }
+
+    /**
+     * 遍历媒体工作流执行实例
+     * @return ListMediaWorkflowExecutions
+     */
+    public static function ListMediaWorkflowExecutions(){
+        return (new ListMediaWorkflowExecutions());
+    }
+
+    /**
+     * 查询媒体工作流执行实例
+     * @param $run_ids
+     * @return QueryMediaWorkflowExecutionList
+     */
+    public static function QueryMediaWorkflowExecutionList($run_ids){
+        return (new QueryMediaWorkflowExecutionList())->setRunIds($run_ids);
     }
 }
