@@ -9,7 +9,6 @@
 
 namespace aliyun\sdk\core\help;
 
-
 class Parse
 {
     public static function xmlToArray($xml)
@@ -43,7 +42,7 @@ class Parse
     }
 
     public static function jsonToArray($json){
-        $temp = json_decode($json,true);
+        $temp = \GuzzleHttp\json_decode($json,true);
         if(empty($temp) && $json != $temp){
             return $json;
         }

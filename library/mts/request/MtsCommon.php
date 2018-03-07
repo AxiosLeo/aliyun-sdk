@@ -9,7 +9,6 @@
 
 namespace aliyun\sdk\mts\request;
 
-
 use aliyun\sdk\core\http\Request;
 
 class MtsCommon extends Request

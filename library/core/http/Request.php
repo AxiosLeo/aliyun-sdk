@@ -11,6 +11,7 @@ namespace aliyun\sdk\core\http;
 
 use aliyun\sdk\Aliyun;
 use aliyun\sdk\core\auth\Credential;
+use aliyun\sdk\core\help\Parse;
 use aliyun\sdk\core\Product;
 use aliyun\sdk\core\sign\HmacSHA1;
 use GuzzleHttp\Client;
@@ -36,10 +37,14 @@ class Request
 
     protected $param = [];
 
+    protected $auth = false;
+
     public function __construct()
     {
         $this->region = Aliyun::$region_id;
-        $this->domain = Product::domain($this->product,$this->region);
+        if(empty($this->domain)){
+            $this->domain = Product::domain($this->product,$this->region);
+        }
 
         $this->setParam('Format',"JSON");
         $this->setParam('Version',"0000-00-00");
@@ -59,16 +64,16 @@ class Request
     }
 
     /**
-     * @param bool $auth
      * @return Response
-     * @throws \aliyun\sdk\core\exception\ClientException
      */
-    public function request($auth = true){
-        if($auth){
-            Credential::auth($this->product,$this->params('SignatureNonce'),$this->params('Timestamp'));
-            $signature = HmacSHA1::create($this->params(),$this->request_method);
-            $this->setParam("Signature",$signature);
+    public function request(){
+        $signature_nonce = $this->params('SignatureNonce');
+        if($this->auth){
+            Credential::auth($this->product,$signature_nonce,$this->params('Timestamp'));
         }
+        $signature = HmacSHA1::create($this->params(),$this->request_method);
+        $this->setParam("Signature",$signature);
+
         $response =  self::curl($this->domain,$this->path,$this->param,$this->request_method,$this->header);
         return Aliyun::response($response);
     }
@@ -85,7 +90,13 @@ class Request
         $response = new Response();
         $response->setHeader($result->getHeaders());
         $body = (string) $body;
-        $response->setBody(\GuzzleHttp\json_decode($body));
+        $content_type = $result->getHeaderLine("content-type");
+        if(strpos($content_type,"xml") !== false){
+            $body = Parse::xmlToArray($body);
+        }else if(strpos($content_type,"json") !== false){
+            $body = Parse::jsonToArray($body);
+        }
+        $response->setBody($body);
         $response->setStatus($result->getStatusCode());
         return $response;
     }

@@ -22,16 +22,17 @@ class Oss
     protected static $OssClient;
 
     /**
-     * @param $access_key_id
-     * @param $access_secret
-     * @param $region_id
+     * @param string $access_key_id
+     * @param string $access_secret
+     * @param string $region_id
      * @return OssClient
+     * @throws \OSS\Core\OssException
      */
     public static function factory($access_key_id = null, $access_secret = null, $region_id = null){
         self::$OssClient = new OssClient(
             Aliyun::getAccessKeyId($access_key_id),
             Aliyun::getAccessSecret($access_secret),
-            Product::domain("oss",Aliyun::getRegionId($region_id))
+            Product::domain("oss",Aliyun::region($region_id))
         );
 
         return self::$OssClient;

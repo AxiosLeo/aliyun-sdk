@@ -24,5 +24,7 @@ class VodCommon extends Request
         $this->locationServiceCode = "vod";
 
         $this->locationEndpointType = "openAPI";
+
+        $this->auth = true;
     }
 }

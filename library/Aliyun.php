@@ -61,8 +61,9 @@ class Aliyun
         }
     }
 
-    public static function region($region_id){
-        self::$region_id = $region_id;
+    public static function region($region_id  = null){
+        self::$region_id = is_null($region_id) ? self::$region_id : $region_id;
+        return self::$region_id;
     }
 
     public static function response($response = null){
@@ -70,10 +71,6 @@ class Aliyun
             self::$response = $response;
         }
         return self::$response;
-    }
-
-    public static function getRegionId($region_id = null){
-        return is_null($region_id) ? self::$region_id : $region_id;
     }
 
     public static function getAccessKeyId($access_key_id = null){
