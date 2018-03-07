@@ -12,7 +12,7 @@ namespace aliyun\sdk\ecs\traits;
 /**
  * Trait ImageIdParam
  * @package aliyun\sdk\ecs\traits
- * @method $this setImageId()
+ * @method $this setImageId($image_id)
  * @method getImageId()
  */
 trait ImageIdParam
