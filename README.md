@@ -48,6 +48,13 @@ $response = \aliyun\sdk\vod\Vod::GetCategories()
     ->setPageSize(10)
     ->request();
 
+// Or Request like this
+$request = \aliyun\sdk\vod\Vod::GetCategories();
+$request->setCateId(-1);
+$request->setPageNo(4);
+$request->setPageSize(10)
+$response = $request->request();
+
 //Get Response Content
 dump($response->getContent());
 
