@@ -9,8 +9,18 @@
 
 namespace aliyun\sdk\ecs\request\Instance;
 
+use aliyun\sdk\core\traits\param\PageNumberParamTrait;
+use aliyun\sdk\core\traits\param\PageSizeParamTrait;
 use aliyun\sdk\ecs\request\EcsCommon;
 use aliyun\sdk\core\traits\Request;
+use aliyun\sdk\ecs\traits\ImageIdParam;
+use aliyun\sdk\ecs\traits\ImageNameParam;
+use aliyun\sdk\ecs\traits\ImageOwnerAliasParam;
+use aliyun\sdk\ecs\traits\RegionIdParam;
+use aliyun\sdk\ecs\traits\SnapshotIdParam;
+use aliyun\sdk\ecs\traits\StatusParam;
+use aliyun\sdk\ecs\traits\TagListParam;
+use aliyun\sdk\ecs\traits\UsageParam;
 
 /**
  * Class DescribeInstances
@@ -19,9 +29,14 @@ use aliyun\sdk\core\traits\Request;
 class DescribeInstances extends EcsCommon
 {
     use Request;
-
-    public function setRegionId($region_id){
-        $this->setParam("RegionId",$region_id);
-        return $this;
-    }
+    use RegionIdParam;
+    use ImageIdParam;
+    use StatusParam;
+    use SnapshotIdParam;
+    use ImageNameParam;
+    use ImageOwnerAliasParam;
+    use UsageParam;
+    use TagListParam;
+    use PageNumberParamTrait;
+    use PageSizeParamTrait;
 }
