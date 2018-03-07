@@ -9,6 +9,9 @@
 
 namespace aliyun\sdk\mts;
 
+use aliyun\sdk\mts\request\Bucket\BindInputBucket;
+use aliyun\sdk\mts\request\Bucket\BindOutputBucket;
+use aliyun\sdk\mts\request\Bucket\ListAllMediaBucket;
 use aliyun\sdk\mts\request\Category\AddCategory;
 use aliyun\sdk\mts\request\Category\CategoryTree;
 use aliyun\sdk\mts\request\Category\DeleteCategory;
@@ -564,5 +567,33 @@ class Mts
      */
     public static function ListAllCategory(){
         return (new ListAllCategory());
+    }
+
+    /********************************** Bucket **************************************************/
+
+    /**
+     * 绑定输入媒体Bucket
+     * @param $bucket
+     * @return BindInputBucket
+     */
+    public static function BindInputBucket($bucket){
+        return (new BindInputBucket())->setBucket($bucket);
+    }
+
+    /**
+     * 绑定输出媒体Bucket
+     * @param $bucket
+     * @return BindOutputBucket
+     */
+    public static function BindOutputBucket($bucket){
+        return (new BindOutputBucket())->setBucket($bucket);
+    }
+
+    /**
+     * 查询媒体Bucket
+     * @return ListAllMediaBucket
+     */
+    public static function ListAllMediaBucket(){
+        return (new ListAllMediaBucket());
     }
 }
