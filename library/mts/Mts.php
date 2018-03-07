@@ -9,6 +9,11 @@
 
 namespace aliyun\sdk\mts;
 
+use aliyun\sdk\mts\request\Category\AddCategory;
+use aliyun\sdk\mts\request\Category\CategoryTree;
+use aliyun\sdk\mts\request\Category\DeleteCategory;
+use aliyun\sdk\mts\request\Category\ListAllCategory;
+use aliyun\sdk\mts\request\Category\UpdateCategoryName;
 use aliyun\sdk\mts\request\Job\CancelJob;
 use aliyun\sdk\mts\request\Job\ListJob;
 use aliyun\sdk\mts\request\Job\QueryAnalysisJobList;
@@ -513,5 +518,51 @@ class Mts
      */
     public static function ListMedia(){
         return (new ListMedia());
+    }
+
+    /********************************** Category **************************************************/
+
+    /**
+     * 新增类目
+     * @param $cate_name
+     * @return AddCategory
+     */
+    public static function AddCategory($cate_name){
+        return (new AddCategory())->setCateName($cate_name);
+    }
+
+    /**
+     * 删除类目
+     * @param $cate_id
+     * @return DeleteCategory
+     */
+    public static function DeleteCategory($cate_id){
+        return (new DeleteCategory())->setCateId($cate_id);
+    }
+
+    /**
+     * 更新类目
+     * @param $cate_id
+     * @param $name
+     * @return UpdateCategoryName
+     */
+    public static function UpdateCategoryName($cate_id, $name){
+        return (new UpdateCategoryName())->setCateId($cate_id)->setName($name);
+    }
+
+    /**
+     * 查询类目树
+     * @return CategoryTree
+     */
+    public static function CategoryTree(){
+        return (new CategoryTree());
+    }
+
+    /**
+     * 查询类目列表
+     * @return ListAllCategory
+     */
+    public static function ListAllCategory(){
+        return (new ListAllCategory());
     }
 }
