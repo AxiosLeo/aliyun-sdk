@@ -50,4 +50,11 @@ class Parse
 
         return $temp;
     }
+
+    public static function boolToString($bool){
+        if(strtolower($bool) === "false" ){
+            $bool = false;
+        }
+        return $bool ? "True":"False";
+    }
 }

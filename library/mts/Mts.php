@@ -19,6 +19,17 @@ use aliyun\sdk\mts\request\Job\SubmitAnalysisJob;
 use aliyun\sdk\mts\request\Job\SubmitJobs;
 use aliyun\sdk\mts\request\Job\SubmitMediaInfoJob;
 use aliyun\sdk\mts\request\Job\SubmitSnapshotJob;
+use aliyun\sdk\mts\request\Media\AddMedia;
+use aliyun\sdk\mts\request\Media\AddMediaTag;
+use aliyun\sdk\mts\request\Media\DeleteMedia;
+use aliyun\sdk\mts\request\Media\DeleteMediaTag;
+use aliyun\sdk\mts\request\Media\ListMedia;
+use aliyun\sdk\mts\request\Media\QueryMediaList;
+use aliyun\sdk\mts\request\Media\QueryMediaListByURL;
+use aliyun\sdk\mts\request\Media\UpdateMedia;
+use aliyun\sdk\mts\request\Media\UpdateMediaCategory;
+use aliyun\sdk\mts\request\Media\UpdateMediaCover;
+use aliyun\sdk\mts\request\Media\UpdateMediaPublishState;
 use aliyun\sdk\mts\request\Pipeline\QueryPipelineList;
 use aliyun\sdk\mts\request\Pipeline\SearchPipeline;
 use aliyun\sdk\mts\request\Pipeline\UpdatePipeline;
@@ -124,7 +135,8 @@ class Mts
      * @param $JobIds
      * @return QueryJobList
      */
-    public static function QueryJobList($JobIds){
+    public static function QueryJobList($JobIds)
+    {
         return (new QueryJobList())->setJobIds($JobIds);
     }
 
@@ -132,7 +144,8 @@ class Mts
      * 列出转码作业
      * @return ListJob
      */
-    public static function ListJob(){
+    public static function ListJob()
+    {
         return (new ListJob());
     }
 
@@ -142,7 +155,8 @@ class Mts
      * @param array $snapshot_config
      * @return SubmitSnapshotJob
      */
-    public static function SubmitSnapshotJob($input, $snapshot_config = []){
+    public static function SubmitSnapshotJob($input, $snapshot_config = [])
+    {
         return (new SubmitSnapshotJob())->setInput($input)->setSnapshotConfig($snapshot_config);
     }
 
@@ -151,7 +165,8 @@ class Mts
      * @param string $SnapshotJobIds
      * @return QuerySnapshotJobList
      */
-    public static function QuerySnapshotJobList($SnapshotJobIds){
+    public static function QuerySnapshotJobList($SnapshotJobIds)
+    {
         return (new QuerySnapshotJobList())->setSnapshotJobIds($SnapshotJobIds);
     }
 
@@ -162,7 +177,8 @@ class Mts
      * @param $name
      * @return AddTemplate
      */
-    public static function AddTemplate($name){
+    public static function AddTemplate($name)
+    {
         return (new AddTemplate())->setName($name);
     }
 
@@ -172,7 +188,8 @@ class Mts
      * @param $name
      * @return UpdateTemplate
      */
-    public static function UpdateTemplate($template_id, $name){
+    public static function UpdateTemplate($template_id, $name)
+    {
         return (new UpdateTemplate())->setTemplateId($template_id)->setName($name);
     }
 
@@ -181,7 +198,8 @@ class Mts
      * @param $template_ids
      * @return QueryTemplateList
      */
-    public static function QueryTemplateList($template_ids){
+    public static function QueryTemplateList($template_ids)
+    {
         return (new QueryTemplateList())->setTemplateIds($template_ids);
     }
 
@@ -189,7 +207,8 @@ class Mts
      * 搜索自定义转码模板
      * @return SearchTemplate
      */
-    public static function SearchTemplate(){
+    public static function SearchTemplate()
+    {
         return (new SearchTemplate());
     }
 
@@ -198,7 +217,8 @@ class Mts
      * @param $template_id
      * @return DeleteTemplate
      */
-    public static function DeleteTemplate($template_id){
+    public static function DeleteTemplate($template_id)
+    {
         return (new DeleteTemplate())->setTemplateId($template_id);
     }
 
@@ -208,7 +228,8 @@ class Mts
      * @param array $config
      * @return AddWaterMarkTemplate
      */
-    public static function AddWaterMarkTemplate($name, $config){
+    public static function AddWaterMarkTemplate($name, $config)
+    {
         return (new AddWaterMarkTemplate())->setName($name)->setConfig($config);
     }
 
@@ -219,7 +240,8 @@ class Mts
      * @param $config
      * @return UpdateWaterMarkTemplate
      */
-    public static function UpdateWaterMarkTemplate($water_mark_template_id, $name, $config){
+    public static function UpdateWaterMarkTemplate($water_mark_template_id, $name, $config)
+    {
         return (new UpdateWaterMarkTemplate())
             ->setWaterMarkTemplateId($water_mark_template_id)
             ->setName($name)
@@ -231,7 +253,8 @@ class Mts
      * @param $water_mark_template_ids
      * @return QueryWaterMarkTemplateList
      */
-    public static function QueryWaterMarkTemplateList($water_mark_template_ids){
+    public static function QueryWaterMarkTemplateList($water_mark_template_ids)
+    {
         return (new QueryWaterMarkTemplateList())->setWaterMarkTemplateIds($water_mark_template_ids);
     }
 
@@ -239,7 +262,8 @@ class Mts
      * 搜索水印模板
      * @return SearchWaterMarkTemplate
      */
-    public static function SearchWaterMarkTemplate(){
+    public static function SearchWaterMarkTemplate()
+    {
         return (new SearchWaterMarkTemplate());
     }
 
@@ -248,7 +272,8 @@ class Mts
      * @param $water_mark_template_id
      * @return DeleteWaterMarkTemplate
      */
-    public static function DeleteWaterMarkTemplate($water_mark_template_id){
+    public static function DeleteWaterMarkTemplate($water_mark_template_id)
+    {
         return (new DeleteWaterMarkTemplate())->setWaterMarkTemplateId($water_mark_template_id);
     }
 
@@ -263,7 +288,8 @@ class Mts
      * @param $state
      * @return UpdatePipeline
      */
-    public static function UpdatePipeline($pipeline_id, $name, $state){
+    public static function UpdatePipeline($pipeline_id, $name, $state)
+    {
         return (new UpdatePipeline())->setPipelineId($pipeline_id)->setName($name)->setState($state);
     }
 
@@ -272,7 +298,8 @@ class Mts
      * @param $pipeline_ids
      * @return QueryPipelineList
      */
-    public static function QueryPipelineList($pipeline_ids){
+    public static function QueryPipelineList($pipeline_ids)
+    {
         return (new QueryPipelineList())->setPipelineIds($pipeline_ids);
     }
 
@@ -280,7 +307,8 @@ class Mts
      * 搜索管道
      * @return SearchPipeline
      */
-    public static function SearchPipeline(){
+    public static function SearchPipeline()
+    {
         return (new SearchPipeline());
     }
 
@@ -292,7 +320,8 @@ class Mts
      * @param $topology
      * @return AddMediaWorkflow
      */
-    public static function AddMediaWorkflow($name,$topology){
+    public static function AddMediaWorkflow($name, $topology)
+    {
         return (new AddMediaWorkflow())->setName($name)->setTopology($topology);
     }
 
@@ -301,7 +330,8 @@ class Mts
      * @param $media_workflow_id
      * @return ActivateMediaWorkflow
      */
-    public static function ActivateMediaWorkflow($media_workflow_id){
+    public static function ActivateMediaWorkflow($media_workflow_id)
+    {
         return (new ActivateMediaWorkflow())->setMediaWorkflowId($media_workflow_id);
     }
 
@@ -310,7 +340,8 @@ class Mts
      * @param $media_workflow_id
      * @return DeactivateMediaWorkflow
      */
-    public static function DeactivateMediaWorkflow($media_workflow_id){
+    public static function DeactivateMediaWorkflow($media_workflow_id)
+    {
         return (new DeactivateMediaWorkflow())->setMediaWorkflowId($media_workflow_id);
     }
 
@@ -319,7 +350,8 @@ class Mts
      * @param $media_workflow_id
      * @return DeleteMediaWorkflow
      */
-    public static function DeleteMediaWorkflow($media_workflow_id){
+    public static function DeleteMediaWorkflow($media_workflow_id)
+    {
         return (new DeleteMediaWorkflow())->setMediaWorkflowId($media_workflow_id);
     }
 
@@ -329,7 +361,8 @@ class Mts
      * @param $topology
      * @return UpdateMediaWorkflow
      */
-    public static function UpdateMediaWorkflow($media_workflow_id, $topology){
+    public static function UpdateMediaWorkflow($media_workflow_id, $topology)
+    {
         return (new UpdateMediaWorkflow())->setMediaWorkflowId($media_workflow_id)->setTopology($topology);
     }
 
@@ -338,7 +371,8 @@ class Mts
      * @param $media_workflow_ids
      * @return QueryMediaWorkflowList
      */
-    public static function QueryMediaWorkflowList($media_workflow_ids){
+    public static function QueryMediaWorkflowList($media_workflow_ids)
+    {
         return (new QueryMediaWorkflowList())->setMediaWorkflowIds($media_workflow_ids);
     }
 
@@ -346,7 +380,8 @@ class Mts
      * 搜索媒体工作流
      * @return SearchMediaWorkflow
      */
-    public static function SearchMediaWorkflow(){
+    public static function SearchMediaWorkflow()
+    {
         return (new SearchMediaWorkflow());
     }
 
@@ -354,7 +389,8 @@ class Mts
      * 遍历媒体工作流执行实例
      * @return ListMediaWorkflowExecutions
      */
-    public static function ListMediaWorkflowExecutions(){
+    public static function ListMediaWorkflowExecutions()
+    {
         return (new ListMediaWorkflowExecutions());
     }
 
@@ -363,7 +399,119 @@ class Mts
      * @param $run_ids
      * @return QueryMediaWorkflowExecutionList
      */
-    public static function QueryMediaWorkflowExecutionList($run_ids){
+    public static function QueryMediaWorkflowExecutionList($run_ids)
+    {
         return (new QueryMediaWorkflowExecutionList())->setRunIds($run_ids);
+    }
+
+    /********************************** Media **************************************************/
+
+    /**
+     * 新增媒体
+     * @param $file_url
+     * @return AddMedia
+     */
+    public static function AddMedia($file_url)
+    {
+        return (new AddMedia())->setFileURL($file_url);
+    }
+
+    /**
+     * 删除媒体
+     * @param $media_ids
+     * @return DeleteMedia
+     */
+    public static function DeleteMedia($media_ids)
+    {
+        return (new DeleteMedia())->setMediaIds($media_ids);
+    }
+
+    /**
+     * 更新媒体-基本信息
+     * @param $media_id
+     * @return UpdateMedia
+     */
+    public static function UpdateMedia($media_id)
+    {
+        return (new UpdateMedia())->setMediaId($media_id);
+    }
+
+    /**
+     * 更新媒体-类目
+     * @param $media_id
+     * @return UpdateMediaCategory
+     */
+    public static function UpdateMediaCategory($media_id)
+    {
+        return (new UpdateMediaCategory())->setMediaId($media_id);
+    }
+
+    /**
+     * 更新媒体-封面
+     * @param $media_id
+     * @param $cover_url
+     * @return UpdateMediaCover
+     */
+    public static function UpdateMediaCover($media_id, $cover_url)
+    {
+        return (new UpdateMediaCover())->setMediaId($media_id)->setCoverURL($cover_url);
+    }
+
+    /**
+     * 更新媒体-添加标签
+     * @param $media_id
+     * @param $tag
+     * @return AddMediaTag
+     */
+    public static function AddMediaTag($media_id, $tag)
+    {
+        return (new AddMediaTag())->setMediaId($media_id)->setTag($tag);
+    }
+
+    /**
+     * 更新媒体-删除标签
+     * @param $media_id
+     * @param $tag
+     * @return DeleteMediaTag
+     */
+    public static function DeleteMediaTag($media_id, $tag)
+    {
+        return (new DeleteMediaTag())->setMediaId($media_id)->setTag($tag);
+    }
+
+    /**
+     * 更新媒体-发布状态
+     * @param $media_id
+     * @param bool $publish
+     * @return UpdateMediaPublishState
+     */
+    public static function UpdateMediaPublishState($media_id, $publish){
+        return (new UpdateMediaPublishState())->setMediaId($media_id)->setPublish($publish);
+    }
+
+    /**
+     * 查询媒体-使用媒体ID
+     * @param $media_ids
+     * @return QueryMediaList
+     */
+    public static function QueryMediaList($media_ids){
+        return (new QueryMediaList())->setMediaIds($media_ids);
+    }
+
+    /**
+     * 查询媒体-使用OSS文件地址
+     * @param $file_urls
+     * @return QueryMediaListByURL
+     */
+    public static function QueryMediaListByURL($file_urls){
+        return (new QueryMediaListByURL())->setFileURLs($file_urls);
+    }
+
+    /**
+     * 遍历媒体
+     * @return ListMedia
+     */
+    public static function ListMedia(){
+        return (new ListMedia());
     }
 }
