@@ -4,20 +4,20 @@
  *
  * @email: axiosleo@foxmail.com
  * @blog:  http://hanxv.cn
- * @datetime: 2018/3/5 14:38
+ * @datetime: 2018/2/24 10:53
  */
 
 namespace aliyun\sdk\mts\request\Template;
 
-use aliyun\sdk\core\traits\Request;
 use aliyun\sdk\mts\request\MtsCommon;
+use aliyun\sdk\core\traits\Request;
 
 /**
- * Class QueryTemplateList
+ * Class QueryWaterMarkTemplateList
  * @package aliyun\sdk\mts\request\Template
- * @method $this setTemplateIds($TemplateIds)
+ * @method $this setWaterMarkTemplateIds($WaterMarkTemplateIds)
  */
-class QueryTemplateList extends MtsCommon
+class QueryWaterMarkTemplateList extends MtsCommon
 {
     use Request;
 }

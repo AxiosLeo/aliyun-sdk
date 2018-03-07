@@ -24,10 +24,14 @@ use aliyun\sdk\mts\request\Pipeline\SearchPipeline;
 use aliyun\sdk\mts\request\Pipeline\UpdatePipeline;
 use aliyun\sdk\mts\request\Template\AddWaterMarkTemplate;
 use aliyun\sdk\mts\request\Template\DeleteTemplate;
+use aliyun\sdk\mts\request\Template\DeleteWaterMarkTemplate;
+use aliyun\sdk\mts\request\Template\QueryWaterMarkTemplateList;
 use aliyun\sdk\mts\request\Template\SearchTemplate;
-use aliyun\sdk\mts\Template\AddTemplate;
-use aliyun\sdk\mts\Template\QueryTemplateList;
-use aliyun\sdk\mts\Template\UpdateTemplate;
+use aliyun\sdk\mts\request\Template\AddTemplate;
+use aliyun\sdk\mts\request\Template\QueryTemplateList;
+use aliyun\sdk\mts\request\Template\SearchWaterMarkTemplate;
+use aliyun\sdk\mts\request\Template\UpdateTemplate;
+use aliyun\sdk\mts\request\Template\UpdateWaterMarkTemplate;
 
 /**
  * Class Mts
@@ -197,6 +201,46 @@ class Mts
      */
     public static function AddWaterMarkTemplate($name, $config){
         return (new AddWaterMarkTemplate())->setName($name)->setConfig($config);
+    }
+
+    /**
+     * 更新水印模版
+     * @param $water_mark_template_id
+     * @param $name
+     * @param $config
+     * @return UpdateWaterMarkTemplate
+     */
+    public static function UpdateWaterMarkTemplate($water_mark_template_id, $name, $config){
+        return (new UpdateWaterMarkTemplate())
+            ->setWaterMarkTemplateId($water_mark_template_id)
+            ->setName($name)
+            ->setConfig($config);
+    }
+
+    /**
+     * 查询水印模板
+     * @param $water_mark_template_ids
+     * @return QueryWaterMarkTemplateList
+     */
+    public static function QueryWaterMarkTemplateList($water_mark_template_ids){
+        return (new QueryWaterMarkTemplateList())->setWaterMarkTemplateIds($water_mark_template_ids);
+    }
+
+    /**
+     * 搜索水印模板
+     * @return SearchWaterMarkTemplate
+     */
+    public static function SearchWaterMarkTemplate(){
+        return (new SearchWaterMarkTemplate());
+    }
+
+    /**
+     * 删除水印模板
+     * @param $water_mark_template_id
+     * @return DeleteWaterMarkTemplate
+     */
+    public static function DeleteWaterMarkTemplate($water_mark_template_id){
+        return (new DeleteWaterMarkTemplate())->setWaterMarkTemplateId($water_mark_template_id);
     }
 
 
