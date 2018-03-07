@@ -22,7 +22,7 @@ composer require axios/aliyun-sdk
 * CDN -> Done
 * OSS -> Base on aliyun/aliyun-oss-php-sdk
 * SMS -> base on flc/dysms
-* MTS -> in development
+* MTS -> Done
 * LIVE
 * ......
 
