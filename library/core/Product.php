@@ -14,7 +14,7 @@ use aliyun\sdk\core\exception\RegionNotExistException;
 
 class Product
 {
-    public static $products = [];
+    protected static $products = [];
 
     public static function push($product_name, $domain_name,$region_id){
         $product_name = strtolower($product_name);
@@ -37,7 +37,7 @@ class Product
         }
     }
 
-    public static function select(){
+    public static function all(){
         return self::$products;
     }
 }

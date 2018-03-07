@@ -11,6 +11,7 @@ namespace aliyun\sdk;
 use aliyun\sdk\core\Endpoints;
 use aliyun\sdk\core\help\Parse;
 use aliyun\sdk\core\Product;
+use aliyun\sdk\core\Region;
 
 class Aliyun
 {
@@ -36,7 +37,7 @@ class Aliyun
         self::$access_secret = $accessSecret;
         self::$security_token = is_null($security_token) ? md5("SignatureNonce".uniqid(md5(microtime(true)),true)) : $security_token;
 
-        if(empty(Endpoints::$endpoints)){
+        if(empty(Endpoints::all())){
             $xml_file_content = file_get_contents(ALIYUN_SDK_PATH .'/endpoints.xml');
             $array = Parse::xmlToArray($xml_file_content);
 
@@ -51,6 +52,7 @@ class Aliyun
                 }else{
                     foreach ($products as $p){
                         Product::push($p['ProductName'],$p['DomainName'],$region_id);
+                        Region::push($region_id,$p['ProductName'],$p['DomainName']);
                         $product_name = strtolower($p['ProductName']);
                         array_push($product_list,$product_name);
                     }

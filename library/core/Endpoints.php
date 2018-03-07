@@ -14,7 +14,7 @@ use aliyun\sdk\core\exception\RegionNotExistException;
 
 class Endpoints
 {
-    public static $endpoints = [];
+    protected static $endpoints = [];
 
     public static function push($key, $endpoint){
         if(!isset(self::$endpoints[$key])){
@@ -34,7 +34,7 @@ class Endpoints
         return true;
     }
 
-    public static function select(){
+    public static function all(){
         return self::$endpoints;
     }
 }
