@@ -110,10 +110,10 @@ class Request
         return $httpHeader;
     }
 
-    public function params($key = '')
+    public function params($key = null, $default = "")
     {
-        if(is_string($key) && isset($this->param[$key])){
-            return $this->param[$key];
+        if(!is_null($key)){
+            return isset($this->param[$key]) ? $this->param[$key] : $default;
         }
         return $this->param;
     }
