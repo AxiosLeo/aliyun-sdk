@@ -8,7 +8,7 @@
 
 ## Env
 - PHP 7.0+.
-- cURL extension.
+- CURL extension.
 
 ## Install
 ```shell
