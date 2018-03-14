@@ -12,6 +12,7 @@ namespace aliyun\sdk\api;
 use aliyun\sdk\api\request\Domain\DeleteDomain;
 use aliyun\sdk\api\request\Domain\DeleteDomainCertificate;
 use aliyun\sdk\api\request\Domain\DescribeDomain;
+use aliyun\sdk\api\request\Domain\ReactivateDomain;
 use aliyun\sdk\api\request\Domain\SetDomain;
 use aliyun\sdk\api\request\Domain\SetDomainCertificate;
 use aliyun\sdk\api\request\Group\CreateApiGroup;
@@ -165,6 +166,7 @@ class API
     }
 
     /**
+     * 删除指定域名的SSL证书
      * @param $group_id
      * @param $domain_name
      * @param $cert_id
@@ -175,5 +177,15 @@ class API
             ->setGroupId($group_id)
             ->setDomainName($domain_name)
             ->setCertificateId($cert_id);
+    }
+
+    /**
+     * 重新激活自定义域名
+     * @param $group_id
+     * @param $domain_name
+     * @return ReactivateDomain
+     */
+    public static function ReactivateDomain($group_id, $domain_name){
+        return (new ReactivateDomain())->setGroupId($group_id)->setDomainName($domain_name);
     }
 }
