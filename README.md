@@ -68,5 +68,23 @@ $response = $request->request();
 dump($response->getContent());
 ```
 
+## Customized Request
+
+```php
+use aliyun\sdk\vod\request\VodCommon;
+
+class Customized extends VodCommon {
+    public function doSomething(){
+        //setting Action
+        $this->setActionName("action_name");
+        
+        //setting parameter
+        $this->setParam("param_name","param_value");
+        
+        return $this->request();
+    }
+}
+```
+
 ## License
 licensed under the [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0.html)
