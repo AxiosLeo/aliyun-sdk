@@ -9,9 +9,12 @@
 
 namespace aliyun\sdk\api;
 
+use aliyun\sdk\api\request\Api\AbolishApi;
 use aliyun\sdk\api\request\Api\CreateApi;
+use aliyun\sdk\api\request\Api\DeleteApi;
 use aliyun\sdk\api\request\Api\DeployApi;
 use aliyun\sdk\api\request\Api\ModifyApi;
+use aliyun\sdk\api\request\Api\SwitchApi;
 use aliyun\sdk\api\request\Domain\DeleteDomain;
 use aliyun\sdk\api\request\Domain\DeleteDomainCertificate;
 use aliyun\sdk\api\request\Domain\DescribeDomain;
@@ -237,5 +240,45 @@ class API
             ->setApiId($api_id)
             ->setStageName($stage_name)
             ->setDescription($desc);
+    }
+
+    /**
+     * 快速切换 API 版本
+     * @param $group_id
+     * @param $api_id
+     * @param $stage_name
+     * @param $desc
+     * @param $history_version
+     * @return SwitchApi
+     */
+    public static function SwitchApi($group_id, $api_id, $stage_name, $desc, $history_version){
+        return (new SwitchApi())->setGroupId($group_id)
+            ->setApiId($api_id)
+            ->setStageName($stage_name)
+            ->setDescription($desc)
+            ->setHistoryVersion($history_version);
+    }
+
+    /**
+     * 下线 API
+     * @param $group_id
+     * @param $api_id
+     * @param $stage_name
+     * @return AbolishApi
+     */
+    public static function AbolishApi($group_id, $api_id, $stage_name){
+        return (new AbolishApi())->setGroupId($group_id)
+            ->setApiId($api_id)
+            ->setStageName($stage_name);
+    }
+
+    /**
+     * 删除 API 定义
+     * @param $group_id
+     * @param $api_id
+     * @return DeleteApi
+     */
+    public static function DeleteApi($group_id, $api_id){
+        return (new DeleteApi())->setGroupId($group_id)->setApiId($api_id);
     }
 }
