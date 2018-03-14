@@ -17,7 +17,7 @@ use aliyun\sdk\core\traits\Request;
 
 /**
  * Class DeleteApiStageVariable
- * @package aliyun\sdk\ecs\request\Group
+ * @package aliyun\sdk\api\request\Group
  */
 class DeleteApiStageVariable extends APICommon
 {

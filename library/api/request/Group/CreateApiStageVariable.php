@@ -18,7 +18,7 @@ use aliyun\sdk\core\traits\Request;
 
 /**
  * Class CreateApiStageVariable
- * @package aliyun\sdk\ecs\request\Group
+ * @package aliyun\sdk\api\request\Group
  */
 class CreateApiStageVariable extends APICommon
 {

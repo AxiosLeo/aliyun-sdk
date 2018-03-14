@@ -15,7 +15,7 @@ use aliyun\sdk\core\traits\Request;
 
 /**
  * Class DeleteApiGroup
- * @package aliyun\sdk\ecs\request\Group
+ * @package aliyun\sdk\api\request\Group
  */
 class DeleteApiGroup extends APICommon
 {

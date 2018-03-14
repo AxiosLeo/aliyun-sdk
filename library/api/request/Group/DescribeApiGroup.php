@@ -15,7 +15,7 @@ use aliyun\sdk\core\traits\Request;
 
 /**
  * Class DescribeApiGroup
- * @package aliyun\sdk\ecs\request\Group
+ * @package aliyun\sdk\api\request\Group
  */
 class DescribeApiGroup extends APICommon
 {
