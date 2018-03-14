@@ -9,6 +9,7 @@
 
 namespace aliyun\sdk\api;
 
+use aliyun\sdk\api\request\Api\CreateApi;
 use aliyun\sdk\api\request\Domain\DeleteDomain;
 use aliyun\sdk\api\request\Domain\DeleteDomainCertificate;
 use aliyun\sdk\api\request\Domain\DescribeDomain;
@@ -187,5 +188,21 @@ class API
      */
     public static function ReactivateDomain($group_id, $domain_name){
         return (new ReactivateDomain())->setGroupId($group_id)->setDomainName($domain_name);
+    }
+
+    /********************************** Api **************************************************/
+
+    /**
+     * @param $group_id
+     * @param $api_name
+     * @param $visibility
+     * @return CreateApi
+     */
+    public static function CreateApi($group_id, $api_name, $visibility){
+        $request = new CreateApi();
+        $request->setGroupId($group_id);
+        $request->setApiName($api_name);
+        $request->setVisibility($visibility);
+        return $request;
     }
 }
