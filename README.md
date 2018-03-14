@@ -24,6 +24,7 @@ composer require axios/aliyun-sdk
 * SMS -> base on flc/dysms
 * MTS -> Done
 * ECS -> in development
+* APIGateway -> in development
 * ......
 
 ## How To Use
