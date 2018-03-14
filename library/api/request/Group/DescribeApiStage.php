@@ -1,0 +1,26 @@
+<?php
+/**
+ * @author: axios
+ *
+ * @email: axiosleo@foxmail.com
+ * @blog:  http://hanxv.cn
+ * @datetime: 2018/3/14 11:16
+ */
+
+namespace aliyun\sdk\api\request\Group;
+
+use aliyun\sdk\api\request\APICommon;
+use aliyun\sdk\core\traits\param\GroupIdParamTrait;
+use aliyun\sdk\core\traits\param\StageIdParamTrait;
+use aliyun\sdk\core\traits\Request;
+
+/**
+ * Class DescribeApiStage
+ * @package aliyun\sdk\ecs\request\Group
+ */
+class DescribeApiStage extends APICommon
+{
+    use Request;
+    use GroupIdParamTrait;
+    use StageIdParamTrait;
+}
