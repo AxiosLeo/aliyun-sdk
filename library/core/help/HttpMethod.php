@@ -17,4 +17,9 @@ class HttpMethod
     const POST   = 'POST';
     const HEAD   = 'HEAD';
     const DELETE = 'DELETE';
+    const HEADER = 'HEADER';
+    const TRACE  = 'TRACE';
+    const PATCH  = 'PATCH';
+    const CONNECT= 'CONNECT';
+    const OPTIONS= 'OPTIONS';
 }

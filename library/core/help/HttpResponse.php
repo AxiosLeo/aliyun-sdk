@@ -17,38 +17,50 @@
  * specific language governing permissions and limitations
  * under the License.
  */
+
 namespace aliyun\sdk\core\help;
 
 class HttpResponse
 {
-    private $body;
-    private $status;
-    
-    public function getBody()
+    public $header;
+
+    public $body;
+
+    public $status;
+
+    public function setHeader($header)
     {
-        return $this->body;
+        $this->header = $header;
     }
-    
+
     public function setBody($body)
     {
         $this->body = $body;
     }
-    
+
+    public function setStatus($status)
+    {
+        $this->status = $status;
+    }
+
+    public function getContent($format = "json")
+    {
+        if ($format === "json") {
+            if (is_string($this->body)) {
+                $result = json_decode($this->body, true);
+                return empty($result) ? $this->body : $result;
+            }
+        }
+        return $this->body;
+    }
+
+    public function getHeader()
+    {
+        return $this->header;
+    }
+
     public function getStatus()
     {
         return $this->status;
-    }
-    
-    public function setStatus($status)
-    {
-        $this->status  = $status;
-    }
-    
-    public function isSuccess()
-    {
-        if (200 <= $this->status && 300 > $this->status) {
-            return true;
-        }
-        return false;
     }
 }
