@@ -10,6 +10,8 @@
 namespace aliyun\sdk\api;
 
 use aliyun\sdk\api\request\Api\CreateApi;
+use aliyun\sdk\api\request\Api\DeployApi;
+use aliyun\sdk\api\request\Api\ModifyApi;
 use aliyun\sdk\api\request\Domain\DeleteDomain;
 use aliyun\sdk\api\request\Domain\DeleteDomainCertificate;
 use aliyun\sdk\api\request\Domain\DescribeDomain;
@@ -193,6 +195,7 @@ class API
     /********************************** Api **************************************************/
 
     /**
+     * 创建 API
      * @param $group_id
      * @param $api_name
      * @param $visibility
@@ -204,5 +207,35 @@ class API
         $request->setApiName($api_name);
         $request->setVisibility($visibility);
         return $request;
+    }
+
+    /**
+     * 修改 API
+     * @param $group_id
+     * @param $api_name
+     * @param $visibility
+     * @return ModifyApi
+     */
+    public static function ModifyApi($group_id, $api_name, $visibility){
+        $request = new ModifyApi();
+        $request->setGroupId($group_id);
+        $request->setApiName($api_name);
+        $request->setVisibility($visibility);
+        return $request;
+    }
+
+    /**
+     * 发布 API
+     * @param $group_id
+     * @param $api_id
+     * @param $stage_name
+     * @param $desc
+     * @return DeployApi
+     */
+    public static function DeployApi($group_id, $api_id, $stage_name, $desc){
+        return (new DeployApi())->setGroupId($group_id)
+            ->setApiId($api_id)
+            ->setStageName($stage_name)
+            ->setDescription($desc);
     }
 }
