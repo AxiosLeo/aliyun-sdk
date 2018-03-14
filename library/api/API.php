@@ -9,6 +9,11 @@
 
 namespace aliyun\sdk\api;
 
+use aliyun\sdk\api\request\Domain\DeleteDomain;
+use aliyun\sdk\api\request\Domain\DeleteDomainCertificate;
+use aliyun\sdk\api\request\Domain\DescribeDomain;
+use aliyun\sdk\api\request\Domain\SetDomain;
+use aliyun\sdk\api\request\Domain\SetDomainCertificate;
 use aliyun\sdk\api\request\Group\CreateApiGroup;
 use aliyun\sdk\api\request\Group\CreateApiStageVariable;
 use aliyun\sdk\api\request\Group\DeleteApiGroup;
@@ -107,5 +112,68 @@ class API
      */
     public static function DescribeApiStage($group_id, $stage_id){
         return (new DescribeApiStage())->setGroupId($group_id)->setStageId($stage_id);
+    }
+
+    /********************************** Domain **************************************************/
+
+    /**
+     * 绑定自定义域名
+     * @param $group_id
+     * @param $domain_name
+     * @return SetDomain
+     */
+    public static function SetDomain($group_id, $domain_name){
+        return (new SetDomain())->setGroupId($group_id)->setDomainName($domain_name);
+    }
+
+    /**
+     * 上传 SSL 证书
+     * @param $group_id
+     * @param $domain_name
+     * @param $cert_name
+     * @param $cert_body
+     * @param $private_key
+     * @return SetDomainCertificate
+     */
+    public static function SetDomainCertificate($group_id, $domain_name, $cert_name, $cert_body, $private_key){
+        return (new SetDomainCertificate())
+            ->setGroupId($group_id)
+            ->setDomainName($domain_name)
+            ->setCertificateName($cert_name)
+            ->setCertificateBody($cert_body)
+            ->setCertificatePrivateKey($private_key);
+    }
+
+    /**
+     * 查询域名详情
+     * @param $group_id
+     * @param $domain_name
+     * @return DescribeDomain
+     */
+    public static function DescribeDomain($group_id, $domain_name){
+        return (new DescribeDomain())->setGroupId($group_id)->setDomainName($domain_name);
+    }
+
+    /**
+     * 删除域名
+     * @param $group_id
+     * @param $domain_name
+     * @return DeleteDomain
+     */
+    public static function DeleteDomain($group_id, $domain_name){
+        return (new DeleteDomain())->setGroupId($group_id)->setDomainName($domain_name);
+    }
+
+    /**
+     * @param $group_id
+     * @param $domain_name
+     * @param $cert_id
+     * @return DeleteDomainCertificate
+     */
+    public static function DeleteDomainCertificate($group_id, $domain_name, $cert_id){
+        return (new DeleteDomainCertificate())
+            ->setGroupId($group_id)
+            ->setDomainName($domain_name)
+            ->setCertificateId($cert_id);
     }
 }
