@@ -19,7 +19,7 @@ use aliyun\sdk\core\traits\Request;
 
 /**
  * Class SetDomainCertificate
- * @package aliyun\sdk\ecs\request\Domain
+ * @package aliyun\sdk\api\request\Domain
  */
 class SetDomainCertificate extends APICommon
 {

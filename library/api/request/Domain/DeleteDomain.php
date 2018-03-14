@@ -16,7 +16,7 @@ use aliyun\sdk\core\traits\Request;
 
 /**
  * Class DeleteDomain
- * @package aliyun\sdk\ecs\request\Domain
+ * @package aliyun\sdk\api\request\Domain
  */
 class DeleteDomain extends APICommon
 {
