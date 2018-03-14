@@ -73,7 +73,7 @@ dump($response->getContent());
 ```php
 use aliyun\sdk\vod\request\VodCommon;
 
-class Customized extends VodCommon {
+class Example extends VodCommon {
     public function doSomething(){
         //setting Action
         $this->setActionName("action_name");
