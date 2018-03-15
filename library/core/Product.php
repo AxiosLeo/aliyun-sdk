@@ -37,7 +37,7 @@ class Product
         }
     }
 
-    public static function all(){
-        return self::$products;
+    public static function all($product_name = null){
+        return is_null($product_name) || !isset(self::$products[$product_name]) ? self::$products : self::$products[$product_name];
     }
 }
