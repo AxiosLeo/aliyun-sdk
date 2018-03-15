@@ -60,4 +60,9 @@ class HttpHelper
         $response->setStatus($result->getStatusCode());
         return $response;
     }
+
+    public static function uuid($salt = "")
+    {
+        return md5($salt . uniqid(md5(microtime(true)), true));
+    }
 }
