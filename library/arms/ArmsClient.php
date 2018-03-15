@@ -10,32 +10,14 @@
 namespace aliyun\sdk\arms;
 
 use aliyun\sdk\arms\request\ArmsCommon;
-use aliyun\sdk\core\lib\ClientInterface;
+use aliyun\sdk\core\traits\ClientTrait;
 
 /**
  * Class ArmsClient
  * Api Document : https://help.aliyun.com/document_detail/53727.html
  * @package aliyun\sdk\arms
  */
-class ArmsClient extends ArmsCommon implements ClientInterface
+class ArmsClient extends ArmsCommon
 {
-    private static $instance;
-
-    private static $action_name;
-
-    public static function action($action_name)
-    {
-        if(is_null(self::$instance) || self::$action_name != $action_name){
-            self::$action_name = $action_name;
-            self::$instance = new self(self::$action_name);
-        }
-
-        return self::$instance;
-    }
-
-    public function __construct($action_name)
-    {
-        parent::__construct();
-        $this->setActionName($action_name);
-    }
+    use ClientTrait;
 }
