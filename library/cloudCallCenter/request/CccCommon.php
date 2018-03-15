@@ -7,7 +7,7 @@
  * @datetime: 2018/3/15 10:33
  */
 
-namespace aliyun\sdk\ccc\request;
+namespace aliyun\sdk\cloudCallCenter\request;
 
 use aliyun\sdk\core\http\Request;
 
