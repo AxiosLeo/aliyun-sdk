@@ -4,19 +4,21 @@
  *
  * @email: axiosleo@foxmail.com
  * @blog:  http://hanxv.cn
- * @datetime: 2018/3/15 09:14
+ * @datetime: 2018/3/15 09:36
  */
 
-namespace aliyun\sdk\api;
+namespace aliyun\sdk\alidns;
 
-use aliyun\sdk\api\request\APICommon;
+use aliyun\sdk\alidns\request\AlidnsCommon;
 use aliyun\sdk\core\lib\ClientInterface;
 
-class ApiClient extends APICommon implements ClientInterface
+/**
+ * Class AlidnsClient
+ * Api Document : https://help.aliyun.com/document_detail/29740.html
+ * @package aliyun\sdk\alidns
+ */
+class AlidnsClient extends AlidnsCommon implements ClientInterface
 {
-    /**
-     * @var APICommon
-     */
     private static $instance;
 
     private static $action_name;
