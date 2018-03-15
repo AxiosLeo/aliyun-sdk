@@ -7,9 +7,9 @@
  * @datetime: 2018/3/15 10:32
  */
 
-namespace aliyun\sdk\cloudCallCenter;
+namespace aliyun\sdk\ccc;
 
-use aliyun\sdk\cloudCallCenter\request\CccCommon;
+use aliyun\sdk\ccc\request\CccCommon;
 use aliyun\sdk\core\traits\ClientTrait;
 
 /**
