@@ -51,7 +51,6 @@ class Request
         $this->setParam('AccessKeyId', Aliyun::$access_key_id);
         $this->setParam("SignatureMethod", "HMAC-SHA1");
         $this->setParam("SignatureVersion", "1.0");
-        $this->setParam("SignatureNonce", Aliyun::$security_token);
         $this->setParam("Timestamp", date("Y-m-d\TH:i:s\Z"));
     }
 
@@ -70,7 +69,8 @@ class Request
      */
     public function request()
     {
-        $signature_nonce = $this->params('SignatureNonce');
+        $signature_nonce = HttpHelper::uuid("SignatureNonce");
+        $this->setParam("SignatureNonce", $signature_nonce);
         if ($this->auth) {
             Credential::auth($this->product, $signature_nonce, $this->params('Timestamp'));
         }
