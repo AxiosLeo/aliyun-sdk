@@ -27,7 +27,7 @@ class Request
 
     protected $locationServiceCode = "";
 
-    protected $locationEndpointType = "";
+    protected $locationEndpointType = "openAPI";
 
     protected $request_method = "POST";
 
@@ -45,6 +45,8 @@ class Request
         if (empty($this->domain)) {
             $this->domain = Product::domain($this->product, $this->region);
         }
+
+        $this->locationServiceCode = $this->product;
 
         $this->setParam('Format', "JSON");
         $this->setParam('Version', "0000-00-00");
