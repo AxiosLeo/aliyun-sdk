@@ -32,6 +32,7 @@ use aliyun\sdk\api\request\Group\ModifyApiGroup;
 
 /**
  * Class API
+ * API Document : https://help.aliyun.com/document_detail/43590.html
  * @package aliyun\sdk\api
  */
 class API
