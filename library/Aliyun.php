@@ -32,6 +32,7 @@ class Aliyun
      */
     public static function auth($accessKeyId = '', $accessSecret = '', $security_token = null){
         defined('ALIYUN_SDK_PATH') or define('ALIYUN_SDK_PATH', __DIR__);
+        date_default_timezone_set('Asia/Shanghai');
 
         self::$access_key_id = $accessKeyId;
         self::$access_secret = $accessSecret;
