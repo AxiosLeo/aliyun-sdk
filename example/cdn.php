@@ -11,6 +11,9 @@ require_once __DIR__. "/base.php";
 
 \aliyun\sdk\Aliyun::region('cn-hangzhou');
 
-$response = \aliyun\sdk\cdn\Cdn::DescribeUserDomains()->request();
+$request = \aliyun\sdk\cdn\Cdn::DescribeUserDomains();
+$request->setPageNumber(1);
+$request->setPageSize(100);
+$request->request();
 
 dump($response->getContent());
