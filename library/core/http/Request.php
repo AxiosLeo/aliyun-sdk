@@ -53,7 +53,7 @@ class Request
         $this->setParam('AccessKeyId', Aliyun::$access_key_id);
         $this->setParam("SignatureMethod", "HMAC-SHA1");
         $this->setParam("SignatureVersion", "1.0");
-        $this->setParam("Timestamp", date("Y-m-d\TH:i:s\Z"));
+        $this->setParam("Timestamp", gmdate("Y-m-d\TH:i:s\Z"));
     }
 
     protected function setActionName($action_name)
