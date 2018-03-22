@@ -12,6 +12,9 @@ namespace aliyun\sdk\core\traits;
 
 trait ClientTrait
 {
+    /**
+     * @var \aliyun\sdk\core\http\Request
+     */
     private static $instance;
 
     private static $action_name;
