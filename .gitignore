@@ -21,3 +21,5 @@ Homestead.json
 test/
 .idea/
 composer.lock
+build.php
+AliyunSDK.phar
