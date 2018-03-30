@@ -12,6 +12,10 @@ namespace aliyun\sdk\slb;
 use aliyun\sdk\core\traits\ClientTrait;
 use aliyun\sdk\slb\request\SlbCommon;
 
+/**
+ * Class SlbClient
+ * @package aliyun\sdk\slb
+ */
 class SlbClient extends SlbCommon
 {
     use ClientTrait;

@@ -9,6 +9,7 @@
 
 namespace aliyun\sdk\slb\request;
 
+use aliyun\sdk\core\help\HttpMethod;
 use aliyun\sdk\core\http\Request;
 
 class SlbCommon extends Request
@@ -22,5 +23,7 @@ class SlbCommon extends Request
         $this->setParam("Version","2014-05-15");
 
         $this->auth = false;
+
+        $this->request_method = HttpMethod::GET;
     }
 }
