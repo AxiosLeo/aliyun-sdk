@@ -66,6 +66,10 @@ class Request
         $this->header[$key] = $value;
     }
 
+    public function setRequestMethod($method = "GET"){
+        $this->request_method = $method;
+    }
+
     /**
      * @return HttpResponse
      */
