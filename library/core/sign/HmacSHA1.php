@@ -15,7 +15,7 @@ class HmacSHA1 extends Signature {
     public static $param_string;
 
     public static function create($param, $method = "POST"){
-        $param_string = self::paramString($param,$method);dump($param_string);
+        $param_string = self::paramString($param,$method);
         self::$param_string = $param_string;
         $signature = self::makeSign(Aliyun::$access_secret."&",$param_string);
         return $signature;
