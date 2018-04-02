@@ -41,11 +41,18 @@ class HttpHelper
     {
         $domain = "http://" . $domain;
         $client = new Client(['base_uri' => $domain]);
-        $result = $client->request($method, $path, [
+        $options = [
             'http_errors' => false,
-            'form_params' => $data,
             'headers' => $header
-        ]);
+        ];
+
+        if(strtoupper($method) === HttpMethod::POST){
+            $options['form_params'] = $data;
+        }else{
+            $path = $path ."?".self::formatParam($data);
+        }
+
+        $result = $client->request($method, $path, $options);
         $body = $result->getBody();
         $response = new Response();
         $response->setHeader($result->getHeaders());
@@ -59,6 +66,20 @@ class HttpHelper
         $response->setBody($body);
         $response->setStatus($result->getStatusCode());
         return $response;
+    }
+
+    protected static function formatParam($param){
+        ksort($param);
+        $str = "";
+        $n = 0;
+        foreach ($param as $k => $v) {
+            if ($n !== 0) {
+                $str .= "&";
+            }
+            $str .= $k . "=" . rawurlencode($v);
+            $n++;
+        }
+        return $str;
     }
 
     public static function uuid($salt = "")

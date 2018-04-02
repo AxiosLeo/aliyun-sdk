@@ -15,7 +15,7 @@ class HmacSHA1 extends Signature {
     public static $param_string;
 
     public static function create($param, $method = "POST"){
-        $param_string = self::paramString($param,$method);
+        $param_string = self::paramString($param,$method);dump($param_string);
         self::$param_string = $param_string;
         $signature = self::makeSign(Aliyun::$access_secret."&",$param_string);
         return $signature;
@@ -28,8 +28,8 @@ class HmacSHA1 extends Signature {
         $param_string = "";$n=0;
         foreach ($param as $k=>$v){
             //对参数名称和参数值进行 URL 编码
-            $k = urlencode($k);
-            $v = urlencode($v);
+            $k = rawurlencode($k);
+            $v = rawurlencode($v);
             //对编码后的参数名称和值使用英文等号（=）进行连接
             if($n!=0){
                 $param_string .= "&";
@@ -38,7 +38,7 @@ class HmacSHA1 extends Signature {
             $n++;
         }
 
-        return $method."&".urlencode("/")."&".urlencode($param_string);
+        return $method."&".rawurlencode("/")."&".rawurlencode($param_string);
     }
 
     public static function makeSign($key = "",$string = ""){
