@@ -29,12 +29,13 @@ composer require axios/aliyun-sdk
 
 ## How To Use
 * require composer autoload
-```php
 
+```php
 require_once __DIR__. "/../vendor/autoload.php";
 ```
 
 * auth
+
 ```php
 $access_id = "testAccessKeyId";
 $access_secret = "testAccessKeySecret";
@@ -43,11 +44,13 @@ $access_secret = "testAccessKeySecret";
 ```
 
 * Setting Region
+
 ```php
 \aliyun\sdk\Aliyun::region('cn-shanghai');
 ```
 
 * Request
+
 ```php
 $response = \aliyun\sdk\vod\Vod::GetCategories()
     ->setCateId(-1)
@@ -64,6 +67,7 @@ $response = $request->request();
 ```
 
 * Get Response Content
+
 ```php
 dump($response->getContent());
 ```
