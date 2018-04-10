@@ -29,8 +29,7 @@
   },
   "autoload": {
     "psr-4": {
-      "aliyun\\sdk\\": "library",
-      "aliyun\\office\\":"office"
+      "aliyun\\sdk\\": "library"
     },
     "files":[
       "help.php"
