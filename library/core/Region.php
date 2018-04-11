@@ -23,7 +23,15 @@ class Region
         }
     }
 
-    public static function all(){
+    public static function all($list = false){
+        if($list){
+            $array = [];
+            foreach (self::$region as $region_name=>$item) {
+                $array[] = $region_name;
+            }
+            sort($array);
+            return $array;
+        }
         return self::$region;
     }
 }
