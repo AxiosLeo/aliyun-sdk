@@ -6,6 +6,8 @@
 
 > [Aliyun Cloud OSS official documentation center](https://help.aliyun.com/)
 
+> QQ Group：521797692
+
 ## Env
 - PHP 7.0+.
 - CURL extension.
