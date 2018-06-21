@@ -25,13 +25,13 @@ class Parse
         return $xml_content."\n";
     }
 
-    public static function parseEnableParam($enable){
-        return in_array($enable,["1",1,"On","on","ON"]) ? "On":"Off";
-    }
+    public static function jsonToArray($json){
+        $temp = \GuzzleHttp\json_decode($json,true);
+        if(empty($temp) && $json != $temp){
+            return $json;
+        }
 
-    public static function object2Array($object) {
-        $object =  json_decode( json_encode( $object),true);
-        return  $object;
+        return $temp;
     }
 
     public static function arrayToJson($array){
@@ -41,13 +41,13 @@ class Parse
         return $array;
     }
 
-    public static function jsonToArray($json){
-        $temp = \GuzzleHttp\json_decode($json,true);
-        if(empty($temp) && $json != $temp){
-            return $json;
-        }
+    public static function parseEnableParam($enable){
+        return in_array($enable,["1",1,"On","on","ON"]) ? "On":"Off";
+    }
 
-        return $temp;
+    public static function object2Array($object) {
+        $object =  json_decode( json_encode( $object),true);
+        return  $object;
     }
 
     public static function boolToString($bool){

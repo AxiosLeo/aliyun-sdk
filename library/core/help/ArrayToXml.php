@@ -1,6 +1,9 @@
 <?php
+
 namespace aliyun\sdk\core\help;
+
 use \XmlWriter;
+
 /**
  * Based on: http://stackoverflow.com/questions/99350/passing-php-associative-arrays-to-and-from-xml
  */
@@ -8,6 +11,7 @@ class ArrayToXML
 {
     private $version;
     private $encoding;
+
     /**
      * Construct ArrayToXML object with selected version and encoding
      *
@@ -20,6 +24,7 @@ class ArrayToXML
         $this->version = $xmlVersion;
         $this->encoding = $xmlEncoding;
     }
+
     /**
      * Build an XML Data Set
      *
@@ -45,6 +50,7 @@ class ArrayToXML
         //returns the XML results
         return $xml->outputMemory(true);
     }
+
     /**
      * Write keys in $data prefixed with @ as XML attributes, if $data is an array.
      * When an @ prefixed key is found, a '%' key is expected to indicate the element itself,
@@ -72,16 +78,16 @@ class ArrayToXML
                         $xml->writeCData($val);
                         $xml->endElement();
                     }
-                }else if($key[0] == "!"){
+                } else if ($key[0] == "!") {
                     if (is_array($val)) $nonAttributes = $val;
                     else $xml->writeCData($val);
-                }
-                //ignore normal elements
+                } //ignore normal elements
                 else $nonAttributes[$key] = $val;
             }
             return $nonAttributes;
         } else return $data;
     }
+
     /**
      * Write XML as per Associative Array
      *
@@ -114,6 +120,7 @@ class ArrayToXML
             }
         }
     }
+
     /**
      * Check if array is associative with string based keys
      * FROM: http://stackoverflow.com/questions/173400/php-arrays-a-good-way-to-check-if-an-array-is-associative-or-sequential/4254008#4254008

@@ -30,9 +30,6 @@
   "autoload": {
     "psr-4": {
       "aliyun\\sdk\\": "library"
-    },
-    "files":[
-      "help.php"
-    ]
+    }
   }
 }

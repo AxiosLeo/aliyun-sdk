@@ -35,7 +35,8 @@ class HttpHelper
      * @param array $data
      * @param string $method
      * @param array $header
-     * @return Response
+     * @return HttpResponse
+     * @throws \GuzzleHttp\Exception\GuzzleException
      */
     public static function curl($domain, $path, $data = [], $method = "POST", $header = [])
     {
@@ -46,10 +47,10 @@ class HttpHelper
             'headers' => $header
         ];
 
-        if(strtoupper($method) === HttpMethod::POST){
+        if (strtoupper($method) === HttpMethod::POST) {
             $options['form_params'] = $data;
-        }else{
-            $path = $path ."?".self::formatParam($data);
+        } else {
+            $path = $path . "?" . self::formatParam($data);
         }
 
         $result = $client->request($method, $path, $options);
@@ -68,7 +69,8 @@ class HttpHelper
         return $response;
     }
 
-    protected static function formatParam($param){
+    protected static function formatParam($param)
+    {
         ksort($param);
         $str = "";
         $n = 0;
