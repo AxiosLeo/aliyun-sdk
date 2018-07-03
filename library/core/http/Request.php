@@ -1,9 +1,8 @@
 <?php
 /**
- * @author: axios
- *
- * @email: axiosleo@foxmail.com
- * @blog:  http://hanxv.cn
+ * @author  : axios
+ * @email   : axiosleo@foxmail.com
+ * @blog    :  http://hanxv.cn
  * @datetime: 2018/2/2 13:46
  */
 
@@ -12,9 +11,9 @@ namespace aliyun\sdk\core\http;
 use aliyun\sdk\Aliyun;
 use aliyun\sdk\core\auth\Credential;
 use aliyun\sdk\core\help\HttpHelper;
-use aliyun\sdk\core\help\HttpResponse;
 use aliyun\sdk\core\Product;
 use aliyun\sdk\core\sign\HmacSHA1;
+use api\tool\lib\HttpResponse;
 
 class Request
 {
@@ -66,13 +65,13 @@ class Request
         $this->header[$key] = $value;
     }
 
-    public function setRequestMethod($method = "GET"){
+    public function setRequestMethod($method = "GET")
+    {
         $this->request_method = $method;
     }
 
     /**
      * @return HttpResponse
-     * @throws \GuzzleHttp\Exception\GuzzleException
      */
     public function request()
     {

@@ -20,8 +20,7 @@
 
 namespace aliyun\sdk\core\help;
 
-use aliyun\sdk\core\help\HttpResponse as Response;
-use GuzzleHttp\Client;
+use api\tool\Http;
 
 class HttpHelper
 {
@@ -35,55 +34,24 @@ class HttpHelper
      * @param array $data
      * @param string $method
      * @param array $header
-     * @return HttpResponse
-     * @throws \GuzzleHttp\Exception\GuzzleException
+     * @return \api\tool\lib\HttpResponse
      */
     public static function curl($domain, $path, $data = [], $method = "POST", $header = [])
     {
-        $domain = "http://" . $domain;
-        $client = new Client(['base_uri' => $domain]);
-        $options = [
-            'http_errors' => false,
-            'headers' => $header
-        ];
+        $response = Http::instance()
+            ->setMethod($method)
+            ->setDomain($domain)
+            ->setHeader($header)
+            ->curl($path, $data);
 
-        if (strtoupper($method) === HttpMethod::POST) {
-            $options['form_params'] = $data;
-        } else {
-            $path = $path . "?" . self::formatParam($data);
-        }
-
-        $result = $client->request($method, $path, $options);
-        $body = $result->getBody();
-        $response = new Response();
-        $response->setHeader($result->getHeaders());
-        $body = (string)$body;
-        $content_type = $result->getHeaderLine("content-type");
-        if (strpos($content_type, "xml") !== false) {
-            $body = Parse::xmlToArray($body);
-        } else if (strpos($content_type, "json") !== false) {
-            $body = Parse::jsonToArray($body);
-        }
-        $response->setBody($body);
-        $response->setStatus($result->getStatusCode());
         return $response;
     }
 
-    protected static function formatParam($param)
-    {
-        ksort($param);
-        $str = "";
-        $n = 0;
-        foreach ($param as $k => $v) {
-            if ($n !== 0) {
-                $str .= "&";
-            }
-            $str .= $k . "=" . rawurlencode($v);
-            $n++;
-        }
-        return $str;
-    }
-
+    /**
+     * make uuid
+     * @param string $salt
+     * @return string
+     */
     public static function uuid($salt = "")
     {
         return md5($salt . uniqid(md5(microtime(true)), true));
