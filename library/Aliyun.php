@@ -9,9 +9,9 @@
 namespace aliyun\sdk;
 
 use aliyun\sdk\core\Endpoints;
-use aliyun\sdk\core\help\Parse;
 use aliyun\sdk\core\Product;
 use aliyun\sdk\core\Region;
+use api\tool\lib\Parse;
 
 class Aliyun
 {

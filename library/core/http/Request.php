@@ -10,9 +10,9 @@ namespace aliyun\sdk\core\http;
 
 use aliyun\sdk\Aliyun;
 use aliyun\sdk\core\auth\Credential;
-use aliyun\sdk\core\help\HttpHelper;
 use aliyun\sdk\core\Product;
 use aliyun\sdk\core\sign\HmacSHA1;
+use api\tool\Http;
 use api\tool\lib\HttpResponse;
 
 class Request
@@ -70,12 +70,17 @@ class Request
         $this->request_method = $method;
     }
 
+    private function uuid($salt = "")
+    {
+        return md5($salt . uniqid(md5(microtime(true)), true));
+    }
+
     /**
      * @return HttpResponse
      */
     public function request()
     {
-        $signature_nonce = HttpHelper::uuid("SignatureNonce");
+        $signature_nonce = $this->uuid("SignatureNonce");
         $this->setParam("SignatureNonce", $signature_nonce);
         if ($this->auth) {
             Credential::auth($this->product, $signature_nonce, $this->params('Timestamp'));
@@ -83,7 +88,16 @@ class Request
         $signature = HmacSHA1::create($this->params(), $this->request_method);
         $this->setParam("Signature", $signature);
 
-        $response = HttpHelper::curl($this->domain, $this->path, $this->param, $this->request_method, $this->header);
+        if (false === strpos($this->domain, 'http')) {
+            $this->domain = 'http://' . $this->domain;
+        }
+
+        $response = Http::instance()
+            ->setMethod($this->request_method)
+            ->setDomain($this->domain)
+            ->setHeader($this->header)
+            ->curl($this->path, $this->param);
+
         return Aliyun::response($response);
     }
 
