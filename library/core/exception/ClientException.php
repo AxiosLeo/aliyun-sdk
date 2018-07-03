@@ -1,9 +1,8 @@
 <?php
 /**
- * @author: Axios
- *
- * @email: axioscros@aliyun.com
- * @blog:  http://hanxv.cn
+ * @author  : Axios
+ * @email   : axioscros@aliyun.com
+ * @blog    :  http://hanxv.cn
  * @datetime: 2018/2/8 16:35
  */
 
@@ -16,7 +15,7 @@ class ClientException extends \Exception
     {
         parent::__construct($errorMessage);
         $this->errorMessage = $errorMessage;
-        $this->errorCode = $errorCode;
+        $this->errorCode    = $errorCode;
         $this->setErrorType("Client");
     }
 

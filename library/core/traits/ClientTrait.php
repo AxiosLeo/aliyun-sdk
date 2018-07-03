@@ -1,9 +1,8 @@
 <?php
 /**
- * @author: axios
- *
- * @email: axiosleo@foxmail.com
- * @blog:  http://hanxv.cn
+ * @author  : axios
+ * @email   : axiosleo@foxmail.com
+ * @blog    :  http://hanxv.cn
  * @datetime: 2018/3/15 10:35
  */
 
@@ -21,9 +20,9 @@ trait ClientTrait
 
     public static function action($action_name)
     {
-        if(is_null(self::$instance) || self::$action_name != $action_name){
+        if (is_null(self::$instance) || self::$action_name != $action_name) {
             self::$action_name = $action_name;
-            self::$instance = new self();
+            self::$instance    = new self();
         }
 
         return self::$instance;
