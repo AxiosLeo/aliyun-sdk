@@ -77,6 +77,7 @@ class Request
 
     /**
      * @return HttpResponse
+     * @throws \GuzzleHttp\Exception\GuzzleException
      */
     public function request()
     {
