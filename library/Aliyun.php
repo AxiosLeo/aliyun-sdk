@@ -40,7 +40,8 @@ class Aliyun
 
         if (empty(Endpoints::all())) {
             $xml_file_content = file_get_contents(ALIYUN_SDK_PATH . '/endpoints.xml');
-            $array            = Parse::xmlToArray($xml_file_content);
+
+            $array = Parse::xmlToArray($xml_file_content);
 
             foreach ($array['Endpoint'] as $endpoint) {
                 $region_id    = $endpoint['RegionIds']['RegionId'];
