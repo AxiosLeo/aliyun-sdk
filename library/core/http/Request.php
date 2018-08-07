@@ -86,7 +86,7 @@ class Request
         if ($this->auth) {
             Credential::auth($this->product, $signature_nonce, $this->params('Timestamp'));
         }
-        $signature = HmacSHA1::create($this->params(), $this->request_method);
+        $signature = HmacSHA1::create($this->param, $this->request_method);
         $this->setParam("Signature", $signature);
 
         if (false === strpos($this->domain, 'http')) {
@@ -97,7 +97,8 @@ class Request
             ->setMethod($this->request_method)
             ->setDomain($this->domain)
             ->setHeader($this->header)
-            ->curl($this->path, $this->param);
+            ->setParam($this->param)
+            ->curl($this->path);
 
         return Aliyun::response($response);
     }
