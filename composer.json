@@ -23,7 +23,7 @@
     "guzzlehttp/guzzle": "^6.3",
     "aliyuncs/oss-sdk-php": "~2.0",
     "flc/dysms": "^1.0",
-    "axios/api-tool": "1.0.5"
+    "axios/api-tool": "^1.1"
   },
   "require-dev": {
     "composer/composer": "1.0.*@dev"
