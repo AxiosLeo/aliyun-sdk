@@ -18,7 +18,7 @@ class Credential
 
     public static $signatureNonce;
 
-    public static function auth($product, $signature_once, $timestamp)
+    public static function auth($product, $signature_nonce, $timestamp)
     {
         $param = [
             "Id"               => Aliyun::$region_id,
@@ -29,7 +29,7 @@ class Credential
             "Format"           => "JSON",
             "SignatureMethod"  => "HMAC-SHA1",
             "SignatureVersion" => "1.0",
-            "SignatureNonce"   => $signature_once,
+            "SignatureNonce"   => $signature_nonce,
             "Timestamp"        => $timestamp,
             "Action"           => "DescribeEndpoints",
             "Version"          => "2015-06-12"
