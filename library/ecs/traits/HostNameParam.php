@@ -10,12 +10,11 @@
 namespace aliyun\sdk\ecs\traits;
 
 /**
- * Trait HostNameParam
- * @package aliyun\sdk\ecs\traits
+ * Trait HostNameParam.
+ *
  * @method $this setHostName($host_name)
- * @method getHostName()
+ * @method       getHostName()
  */
 trait HostNameParam
 {
-
 }

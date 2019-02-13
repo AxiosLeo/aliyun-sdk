@@ -16,8 +16,8 @@ use aliyun\sdk\mts\request\MtsCommon;
 use aliyun\sdk\core\traits\Request;
 
 /**
- * Class QueryMediaListByURL
- * @package aliyun\sdk\mts\request\Media
+ * Class QueryMediaListByURL.
+ *
  * @method $this setFileURLs($file_urls)
  */
 class QueryMediaListByURL extends MtsCommon

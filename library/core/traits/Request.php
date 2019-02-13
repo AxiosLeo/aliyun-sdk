@@ -12,7 +12,7 @@ trait Request
 {
     public function __construct()
     {
-        $temp        = explode("\\", __CLASS__);
+        $temp        = explode('\\', __CLASS__);
         $action_name = $temp[count($temp) - 1];
         $this->setActionName($action_name);
         parent::__construct();
@@ -21,18 +21,21 @@ trait Request
     /**
      * @param $name
      * @param $arguments
+     *
      * @return $this
      */
     public function __call($name, $arguments)
     {
         // TODO: Implement __call() method.
 
-        if (false !== strpos($name, "set")) {
-            $param_name = str_replace("set", "", $name);
+        if (false !== strpos($name, 'set')) {
+            $param_name = str_replace('set', '', $name);
             $this->setParam($param_name, $arguments[0]);
+
             return $this;
         } else {
-            $param_name = str_replace("get", "", $name);
+            $param_name = str_replace('get', '', $name);
+
             return $this->params($param_name);
         }
     }

@@ -17,8 +17,7 @@ use aliyun\sdk\core\traits\param\GroupIdParamTrait;
 use aliyun\sdk\core\traits\Request;
 
 /**
- * Class DeployApi
- * @package aliyun\sdk\api\request\Api
+ * Class DeployApi.
  */
 class DeployApi extends APICommon
 {

@@ -10,10 +10,10 @@
 namespace aliyun\sdk\api\traits;
 
 /**
- * Trait StageNameParam
- * @package aliyun\sdk\api\traits
+ * Trait StageNameParam.
+ *
  * @method $this setStageName($stage_name)
- * @method getStageName()
+ * @method       getStageName()
  */
 trait StageNameParam
 {

@@ -10,12 +10,11 @@
 namespace aliyun\sdk\ecs\traits;
 
 /**
- * Trait SecurityGroupIdParam
- * @package aliyun\sdk\ecs\traits
+ * Trait SecurityGroupIdParam.
+ *
  * @method $this setSecurityGroupId($security_group_id)
- * @method getSecurityGroupId()
+ * @method       getSecurityGroupId()
  */
 trait SecurityGroupIdParam
 {
-
 }

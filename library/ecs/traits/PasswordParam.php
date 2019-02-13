@@ -10,12 +10,11 @@
 namespace aliyun\sdk\ecs\traits;
 
 /**
- * Trait PasswordParam
- * @package aliyun\sdk\ecs\traits
+ * Trait PasswordParam.
+ *
  * @method $this setPassword($password)
- * @method getPassword()
+ * @method       getPassword()
  */
 trait PasswordParam
 {
-
 }

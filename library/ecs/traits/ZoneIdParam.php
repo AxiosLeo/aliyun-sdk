@@ -10,12 +10,11 @@
 namespace aliyun\sdk\ecs\traits;
 
 /**
- * Trait ZoneIdParam
- * @package aliyun\sdk\ecs\traits
+ * Trait ZoneIdParam.
+ *
  * @method $this setZoneId($zone_id)
- * @method getZoneId()
+ * @method       getZoneId()
  */
 trait ZoneIdParam
 {
-
 }

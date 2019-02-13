@@ -10,12 +10,11 @@
 namespace aliyun\sdk\ecs\traits;
 
 /**
- * Trait SpotPriceLimitParam
- * @package aliyun\sdk\ecs\traits
+ * Trait SpotPriceLimitParam.
+ *
  * @method $this setSpotPriceLimit($SpotPriceLimit)
- * @method getSpotPriceLimit()
+ * @method       getSpotPriceLimit()
  */
 trait SpotPriceLimitParam
 {
-
 }

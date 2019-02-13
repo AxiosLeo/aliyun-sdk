@@ -14,16 +14,16 @@ class Option
 {
     public static $option;
 
-
     protected static function options()
     {
         if (is_null(self::$option)) {
             self::$option = ArrayTool::instance([
                 'header_accept_lang' => [
-                    'zh-hans-cn' => 'zh-cn'
-                ]
+                    'zh-hans-cn' => 'zh-cn',
+                ],
             ]);
         }
+
         return self::$option;
     }
 

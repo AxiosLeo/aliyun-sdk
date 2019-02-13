@@ -14,8 +14,7 @@ use aliyun\sdk\mts\request\MtsCommon;
 use aliyun\sdk\core\traits\Request;
 
 /**
- * Class DeleteCategory
- * @package aliyun\sdk\mts\request\Category
+ * Class DeleteCategory.
  */
 class DeleteCategory extends MtsCommon
 {

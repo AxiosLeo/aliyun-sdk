@@ -13,8 +13,8 @@ use aliyun\sdk\cdn\request\CdnCommon;
 use aliyun\sdk\core\traits\Request;
 
 /**
- * Class DeleteCacheExpiredConfig
- * @package aliyun\sdk\cdn\request\DomainConfig
+ * Class DeleteCacheExpiredConfig.
+ *
  * @method $this setDomainName($domain_name)
  * @method $this setCacheType($cache_type)
  * @method $this setConfigID($config_id)

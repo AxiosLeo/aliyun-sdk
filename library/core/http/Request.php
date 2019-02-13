@@ -17,22 +17,21 @@ use api\tool\lib\HttpResponse;
 
 class Request
 {
+    protected $product = '';
 
-    protected $product = "";
+    protected $domain = '';
 
-    protected $domain = "";
+    protected $region = '';
 
-    protected $region = "";
+    protected $locationServiceCode = '';
 
-    protected $locationServiceCode = "";
+    protected $locationEndpointType = 'openAPI';
 
-    protected $locationEndpointType = "openAPI";
-
-    protected $request_method = "POST";
+    protected $request_method = 'POST';
 
     protected $header = [];
 
-    protected $path = "/";
+    protected $path = '/';
 
     protected $param = [];
 
@@ -47,17 +46,17 @@ class Request
 
         $this->locationServiceCode = $this->product;
 
-        $this->setParam('Format', "JSON");
-        $this->setParam('Version', "0000-00-00");
+        $this->setParam('Format', 'JSON');
+        $this->setParam('Version', '0000-00-00');
         $this->setParam('AccessKeyId', Aliyun::$access_key_id);
-        $this->setParam("SignatureMethod", "HMAC-SHA1");
-        $this->setParam("SignatureVersion", "1.0");
-        $this->setParam("Timestamp", gmdate("Y-m-d\TH:i:s\Z"));
+        $this->setParam('SignatureMethod', 'HMAC-SHA1');
+        $this->setParam('SignatureVersion', '1.0');
+        $this->setParam('Timestamp', gmdate("Y-m-d\TH:i:s\Z"));
     }
 
     protected function setActionName($action_name)
     {
-        $this->setParam("Action", $action_name);
+        $this->setParam('Action', $action_name);
     }
 
     protected function setRequestHeader($key, $value)
@@ -65,29 +64,30 @@ class Request
         $this->header[$key] = $value;
     }
 
-    public function setRequestMethod($method = "GET")
+    public function setRequestMethod($method = 'GET')
     {
         $this->request_method = $method;
     }
 
-    private function uuid($salt = "")
+    private function uuid($salt = '')
     {
         return md5($salt . uniqid(md5(microtime(true)), true));
     }
 
     /**
      * @return HttpResponse
+     *
      * @throws \GuzzleHttp\Exception\GuzzleException
      */
     public function request()
     {
-        $signature_nonce = $this->uuid("SignatureNonce");
-        $this->setParam("SignatureNonce", $signature_nonce);
+        $signature_nonce = $this->uuid('SignatureNonce');
+        $this->setParam('SignatureNonce', $signature_nonce);
         if ($this->auth) {
             Credential::auth($this->product, $signature_nonce, $this->params('Timestamp'));
         }
         $signature = HmacSHA1::create($this->param, $this->request_method);
-        $this->setParam("Signature", $signature);
+        $this->setParam('Signature', $signature);
 
         if (false === strpos($this->domain, 'http')) {
             $this->domain = 'http://' . $this->domain;
@@ -107,16 +107,18 @@ class Request
     {
         $httpHeader = [];
         foreach ($headers as $key => $value) {
-            array_push($httpHeader, $key . ":" . $value);
+            array_push($httpHeader, $key . ':' . $value);
         }
+
         return $httpHeader;
     }
 
-    public function params($key = null, $default = "")
+    public function params($key = null, $default = '')
     {
         if (!is_null($key)) {
             return isset($this->param[$key]) ? $this->param[$key] : $default;
         }
+
         return $this->param;
     }
 

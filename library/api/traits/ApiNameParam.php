@@ -10,12 +10,11 @@
 namespace aliyun\sdk\api\traits;
 
 /**
- * Trait ApiNameParam
- * @package aliyun\sdk\api\traits
+ * Trait ApiNameParam.
+ *
  * @method $this setApiName($api_name)
- * @method getApiName()
+ * @method       getApiName()
  */
 trait ApiNameParam
 {
-
 }

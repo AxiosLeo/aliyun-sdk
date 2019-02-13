@@ -15,8 +15,8 @@ use aliyun\sdk\mts\request\MtsCommon;
 use aliyun\sdk\core\traits\Request;
 
 /**
- * Class ListMediaWorkflowExecutions
- * @package aliyun\sdk\mts\request\Workflow
+ * Class ListMediaWorkflowExecutions.
+ *
  * @method $this setInputFileURL($InputFileURL)
  * @method $this setNextPageToken($NextPageToken)
  * @method $this setMaximumPageSize($MaximumPageSize)

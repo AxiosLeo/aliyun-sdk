@@ -23,8 +23,7 @@ use aliyun\sdk\ecs\traits\TagListParam;
 use aliyun\sdk\ecs\traits\UsageParam;
 
 /**
- * Class DescribeInstances
- * @package aliyun\sdk\ecs\request\Instance
+ * Class DescribeInstances.
  */
 class DescribeInstances extends EcsCommon
 {

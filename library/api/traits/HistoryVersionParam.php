@@ -10,12 +10,11 @@
 namespace aliyun\sdk\api\traits;
 
 /**
- * Trait HistoryVersionParam
- * @package aliyun\sdk\api\traits
+ * Trait HistoryVersionParam.
+ *
  * @method $this setHistoryVersion($history_version)
- * @method getHistoryVersion()
+ * @method       getHistoryVersion()
  */
 trait HistoryVersionParam
 {
-
 }

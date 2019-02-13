@@ -10,12 +10,11 @@
 namespace aliyun\sdk\ecs\traits;
 
 /**
- * Class KeyPairNameParam
- * @package aliyun\sdk\ecs\traits
+ * Class KeyPairNameParam.
+ *
  * @method $this setKeyPairName($KeyPairName)
- * @method getKeyPairName()
+ * @method       getKeyPairName()
  */
 trait KeyPairNameParam
 {
-
 }

@@ -39,8 +39,7 @@ use aliyun\sdk\ecs\traits\VSwitchIdParam;
 use aliyun\sdk\ecs\traits\ZoneIdParam;
 
 /**
- * Class RunInstances
- * @package aliyun\sdk\ecs\request\Instance
+ * Class RunInstances.
  */
 class RunInstances extends EcsCommon
 {

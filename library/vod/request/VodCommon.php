@@ -15,15 +15,15 @@ class VodCommon extends Request
 {
     public function __construct()
     {
-        $this->product = "vod";
+        $this->product = 'vod';
 
         parent::__construct();
 
-        $this->setParam("Version","2017-03-21");
+        $this->setParam('Version', '2017-03-21');
 
-        $this->locationServiceCode = "vod";
+        $this->locationServiceCode = 'vod';
 
-        $this->locationEndpointType = "openAPI";
+        $this->locationEndpointType = 'openAPI';
 
         $this->auth = true;
     }

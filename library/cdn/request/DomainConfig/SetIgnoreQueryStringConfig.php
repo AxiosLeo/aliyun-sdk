@@ -13,8 +13,8 @@ use aliyun\sdk\cdn\request\CdnCommon;
 use aliyun\sdk\core\traits\Request;
 
 /**
- * Class SetIgnoreQueryStringConfig
- * @package aliyun\sdk\cdn\request\DomainConfig
+ * Class SetIgnoreQueryStringConfig.
+ *
  * @method $this setDomainName($DomainName)
  * @method $this setEnable($enable)
  * @method $this setHashKeyArgs($hash_key_args)

@@ -15,8 +15,7 @@ use aliyun\sdk\mts\request\MtsCommon;
 use aliyun\sdk\core\traits\Request;
 
 /**
- * Class AddMediaTag
- * @package aliyun\sdk\mts\request\Media
+ * Class AddMediaTag.
  */
 class AddMediaTag extends MtsCommon
 {

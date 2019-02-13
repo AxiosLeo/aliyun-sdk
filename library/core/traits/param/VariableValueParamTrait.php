@@ -10,12 +10,11 @@
 namespace aliyun\sdk\core\traits\param;
 
 /**
- * Trait VariableValueParamTrait
- * @package aliyun\sdk\core\traits\param
+ * Trait VariableValueParamTrait.
+ *
  * @method $this setVariableValue($var_value)
- * @method getVariableValue()
+ * @method       getVariableValue()
  */
 trait VariableValueParamTrait
 {
-
 }

@@ -10,12 +10,11 @@
 namespace aliyun\sdk\core\traits\param;
 
 /**
- * Trait CateNameParamTrait
- * @package aliyun\sdk\core\traits\param
+ * Trait CateNameParamTrait.
+ *
  * @method $this setCateName($CateName)
- * @method getCateName()
+ * @method       getCateName()
  */
 trait CateNameParamTrait
 {
-
 }

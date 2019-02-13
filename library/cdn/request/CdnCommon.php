@@ -15,14 +15,14 @@ class CdnCommon extends Request
 {
     public function __construct()
     {
-        $this->product = "cdn";
+        $this->product = 'cdn';
 
         parent::__construct();
 
-        $this->setParam("Version","2014-11-11");
+        $this->setParam('Version', '2014-11-11');
 
-        $this->locationServiceCode = "cdn";
+        $this->locationServiceCode = 'cdn';
 
-        $this->locationEndpointType = "openAPI";
+        $this->locationEndpointType = 'openAPI';
     }
 }

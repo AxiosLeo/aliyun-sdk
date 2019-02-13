@@ -10,20 +10,21 @@
 namespace aliyun\sdk\ecs\traits;
 
 /**
- * Trait IoOptimized
- * @package aliyun\sdk\ecs\traits
+ * Trait IoOptimized.
  */
 trait IoOptimizedParam
 {
-    public function setIoOptimized($ioOptimized){
+    public function setIoOptimized($ioOptimized)
+    {
         $option = [
-            "none","optimized"
+            'none', 'optimized',
         ];
 
-        if(!in_array($ioOptimized,$option)){
-            $ioOptimized = "optimized";
+        if (!in_array($ioOptimized, $option)) {
+            $ioOptimized = 'optimized';
         }
-        $this->setParam("IoOptimized",$ioOptimized);
+        $this->setParam('IoOptimized', $ioOptimized);
+
         return $this;
     }
 }

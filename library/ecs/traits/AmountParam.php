@@ -10,12 +10,11 @@
 namespace aliyun\sdk\ecs\traits;
 
 /**
- * Trait AmountParam
- * @package aliyun\sdk\ecs\traits
+ * Trait AmountParam.
+ *
  * @method $this setAmount($amount)
- * @method getAmount()
+ * @method       getAmount()
  */
 trait AmountParam
 {
-
 }

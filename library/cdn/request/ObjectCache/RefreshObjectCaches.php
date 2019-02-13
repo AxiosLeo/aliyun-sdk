@@ -13,8 +13,8 @@ use aliyun\sdk\cdn\request\CdnCommon;
 use aliyun\sdk\core\traits\Request;
 
 /**
- * Class RefreshObjectCaches
- * @package aliyun\sdk\cdn\request\ObjectCache
+ * Class RefreshObjectCaches.
+ *
  * @method $this setObjectPath($object_path)
  * @method $this setObjectType($object_type)
  */

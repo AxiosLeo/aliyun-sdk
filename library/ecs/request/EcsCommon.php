@@ -12,24 +12,23 @@ namespace aliyun\sdk\ecs\request;
 use aliyun\sdk\core\http\Request;
 
 /**
- * Class EcsCommon
- * @package aliyun\sdk\ecs\request\Instance
+ * Class EcsCommon.
  */
 class EcsCommon extends Request
 {
     public function __construct()
     {
-        $this->product = "ecs";
+        $this->product = 'ecs';
 
-        $this->domain = "ecs.aliyuncs.com";
+        $this->domain = 'ecs.aliyuncs.com';
 
         parent::__construct();
 
-        $this->setParam("Version","2014-05-26");
+        $this->setParam('Version', '2014-05-26');
 
         $this->locationServiceCode = $this->product;
 
-        $this->locationEndpointType = "openAPI";
+        $this->locationEndpointType = 'openAPI';
 
         $this->auth = false;
     }

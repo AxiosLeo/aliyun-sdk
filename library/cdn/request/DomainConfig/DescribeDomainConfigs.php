@@ -9,13 +9,12 @@
 
 namespace aliyun\sdk\cdn\request\DomainConfig;
 
-
 use aliyun\sdk\cdn\request\CdnCommon;
 use aliyun\sdk\core\traits\Request;
 
 /**
- * Class DescribeDomainConfigs
- * @package aliyun\sdk\cdn\request\DomainConfig
+ * Class DescribeDomainConfigs.
+ *
  * @method $this setDomainName($DomainName)
  * @method $this setConfigList($ConfigList)
  */

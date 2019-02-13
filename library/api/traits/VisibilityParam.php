@@ -10,21 +10,24 @@
 namespace aliyun\sdk\api\traits;
 
 /**
- * Trait VisibilityParam
- * @package aliyun\sdk\api\traits
+ * Trait VisibilityParam.
+ *
  * @method getVisibility()
  */
 trait VisibilityParam
 {
     /**
      * @param $visibility
+     *
      * @return $this
      */
-    public function setVisibility($visibility){
-        if(!in_array(strtolower($visibility),["public","private"])){
-            $visibility = $visibility ? "public" : "private";
+    public function setVisibility($visibility)
+    {
+        if (!in_array(strtolower($visibility), ['public', 'private'])) {
+            $visibility = $visibility ? 'public' : 'private';
         }
-        $this->setParam("Visibility",$visibility);
+        $this->setParam('Visibility', $visibility);
+
         return $this;
     }
 }

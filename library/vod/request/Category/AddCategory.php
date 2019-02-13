@@ -13,8 +13,8 @@ use aliyun\sdk\core\traits\Request;
 use aliyun\sdk\vod\request\VodCommon;
 
 /**
- * Class AddCategory
- * @package aliyun\sdk\vod\request\Category
+ * Class AddCategory.
+ *
  * @method $this setCateName($cate_name)
  * @method $this setParentId($parent_id)
  */

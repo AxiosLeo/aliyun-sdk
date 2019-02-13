@@ -15,11 +15,11 @@ class RdsCommon extends Request
 {
     public function __construct()
     {
-        $this->product = "rds";
+        $this->product = 'rds';
 
         parent::__construct();
 
-        $this->setParam("Version","2014-08-15");
+        $this->setParam('Version', '2014-08-15');
 
         $this->auth = false;
     }

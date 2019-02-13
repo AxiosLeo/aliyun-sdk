@@ -10,12 +10,11 @@
 namespace aliyun\sdk\core\traits\param;
 
 /**
- * Trait GroupIdParamTrait
- * @package aliyun\sdk\core\traits\param
+ * Trait GroupIdParamTrait.
+ *
  * @method $this setGroupId($group_id)
- * @method getGroupId()
+ * @method       getGroupId()
  */
 trait GroupIdParamTrait
 {
-
 }

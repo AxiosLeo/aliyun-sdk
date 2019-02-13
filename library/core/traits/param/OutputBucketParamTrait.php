@@ -10,12 +10,11 @@
 namespace aliyun\sdk\core\traits\param;
 
 /**
- * Trait OutputBucketParamTrait
- * @package aliyun\sdk\core\traits\param
+ * Trait OutputBucketParamTrait.
+ *
  * @method $this setOutputBucket($OutputBucket)
- * @method getOutputBucket()
+ * @method       getOutputBucket()
  */
 trait OutputBucketParamTrait
 {
-
 }

@@ -15,8 +15,7 @@ use aliyun\sdk\core\traits\param\StageIdParamTrait;
 use aliyun\sdk\core\traits\Request;
 
 /**
- * Class DescribeApiStage
- * @package aliyun\sdk\api\request\Group
+ * Class DescribeApiStage.
  */
 class DescribeApiStage extends APICommon
 {

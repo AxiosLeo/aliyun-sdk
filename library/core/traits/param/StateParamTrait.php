@@ -10,12 +10,11 @@
 namespace aliyun\sdk\core\traits\param;
 
 /**
- * Trait StateParamTrait
- * @package aliyun\sdk\core\traits\param
+ * Trait StateParamTrait.
+ *
  * @method $this setState($State)
- * @method getState()
+ * @method       getState()
  */
 trait StateParamTrait
 {
-
 }

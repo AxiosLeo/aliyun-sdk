@@ -10,12 +10,11 @@
 namespace aliyun\sdk\ecs\traits;
 
 /**
- * Trait RamRoleNameParam
- * @package aliyun\sdk\ecs\traits
+ * Trait RamRoleNameParam.
+ *
  * @method $this setRamRoleName($RamRoleName)
- * @method getRamRoleName()
+ * @method       getRamRoleName()
  */
 trait RamRoleNameParam
 {
-
 }

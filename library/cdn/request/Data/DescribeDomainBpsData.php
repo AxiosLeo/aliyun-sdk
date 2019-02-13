@@ -13,8 +13,8 @@ use aliyun\sdk\cdn\request\CdnCommon;
 use aliyun\sdk\core\traits\Request;
 
 /**
- * Class DescribeDomainBpsData
- * @package aliyun\sdk\cdn\request\data
+ * Class DescribeDomainBpsData.
+ *
  * @method $this setDomainName($domain_name)
  * @method $this setStartTime($start_time)
  * @method $this setEndTime($end_time)

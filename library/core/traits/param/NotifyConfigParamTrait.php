@@ -10,24 +10,27 @@
 namespace aliyun\sdk\core\traits\param;
 
 /**
- * Trait NotifyConfigParamTrait
- * @package aliyun\sdk\core\traits\param
+ * Trait NotifyConfigParamTrait.
  */
 trait NotifyConfigParamTrait
 {
     /**
      * @param array $notify_config
+     *
      * @return $this
      */
-    public function setNotifyConfig($notify_config){
-        $this->setParam("NotifyConfig",\aliyun\sdk\core\help\Parse::arrayToJson($notify_config));
+    public function setNotifyConfig($notify_config)
+    {
+        $this->setParam('NotifyConfig', \aliyun\sdk\core\help\Parse::arrayToJson($notify_config));
+
         return $this;
     }
 
     /**
      * @return array
      */
-    public function getNotifyConfig(){
-        return \aliyun\sdk\core\help\Parse::jsonToArray($this->params("NotifyConfig"));
+    public function getNotifyConfig()
+    {
+        return \aliyun\sdk\core\help\Parse::jsonToArray($this->params('NotifyConfig'));
     }
 }

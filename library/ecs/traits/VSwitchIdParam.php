@@ -10,12 +10,11 @@
 namespace aliyun\sdk\ecs\traits;
 
 /**
- * Trait VSwitchIdParam
- * @package aliyun\sdk\ecs\traits
+ * Trait VSwitchIdParam.
+ *
  * @method $this setVSwitchId($VSwitchId)
- * @method getVSwitchId()
+ * @method       getVSwitchId()
  */
 trait VSwitchIdParam
 {
-
 }

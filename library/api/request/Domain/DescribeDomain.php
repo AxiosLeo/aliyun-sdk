@@ -15,8 +15,7 @@ use aliyun\sdk\core\traits\param\GroupIdParamTrait;
 use aliyun\sdk\core\traits\Request;
 
 /**
- * Class DescribeDomain
- * @package aliyun\sdk\api\request\Domain
+ * Class DescribeDomain.
  */
 class DescribeDomain extends APICommon
 {

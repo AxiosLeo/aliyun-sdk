@@ -14,8 +14,7 @@ use aliyun\sdk\core\traits\param\GroupIdParamTrait;
 use aliyun\sdk\core\traits\Request;
 
 /**
- * Class DeleteApiGroup
- * @package aliyun\sdk\api\request\Group
+ * Class DeleteApiGroup.
  */
 class DeleteApiGroup extends APICommon
 {

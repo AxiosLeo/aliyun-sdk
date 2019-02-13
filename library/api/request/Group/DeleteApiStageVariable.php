@@ -16,8 +16,7 @@ use aliyun\sdk\core\traits\param\VariableNameParamTrait;
 use aliyun\sdk\core\traits\Request;
 
 /**
- * Class DeleteApiStageVariable
- * @package aliyun\sdk\api\request\Group
+ * Class DeleteApiStageVariable.
  */
 class DeleteApiStageVariable extends APICommon
 {

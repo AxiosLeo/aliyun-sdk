@@ -10,24 +10,27 @@
 namespace aliyun\sdk\core\traits\param;
 
 /**
- * Trait SnapshotConfig
- * @package aliyun\sdk\core\traits\param
+ * Trait SnapshotConfig.
  */
 trait SnapshotConfigParamTrait
 {
     /**
      * @param array $SnapshotConfig
+     *
      * @return $this
      */
-    public function setSnapshotConfig($SnapshotConfig){
-        $this->setParam("SnapshotConfig",\aliyun\sdk\core\help\Parse::arrayToJson($SnapshotConfig));
+    public function setSnapshotConfig($SnapshotConfig)
+    {
+        $this->setParam('SnapshotConfig', \aliyun\sdk\core\help\Parse::arrayToJson($SnapshotConfig));
+
         return $this;
     }
 
     /**
      * @return array
      */
-    public function getSnapshotConfig(){
-        return \aliyun\sdk\core\help\Parse::jsonToArray($this->params("SnapshotConfig"));
+    public function getSnapshotConfig()
+    {
+        return \aliyun\sdk\core\help\Parse::jsonToArray($this->params('SnapshotConfig'));
     }
 }

@@ -10,24 +10,27 @@
 namespace aliyun\sdk\core\traits\param;
 
 /**
- * Trait InputParamTrait
- * @package aliyun\sdk\core\traits\param
+ * Trait InputParamTrait.
  */
 trait InputParamTrait
 {
     /**
      * @param array $input
+     *
      * @return $this
      */
-    public function setInput($input){
-        $this->setParam("Input",\aliyun\sdk\core\help\Parse::arrayToJson($input));
+    public function setInput($input)
+    {
+        $this->setParam('Input', \aliyun\sdk\core\help\Parse::arrayToJson($input));
+
         return $this;
     }
 
     /**
      * @return array
      */
-    public function getInput(){
-        return \aliyun\sdk\core\help\Parse::jsonToArray($this->params("Input"));
+    public function getInput()
+    {
+        return \aliyun\sdk\core\help\Parse::jsonToArray($this->params('Input'));
     }
 }

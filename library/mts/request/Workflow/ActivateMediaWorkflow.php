@@ -14,8 +14,7 @@ use aliyun\sdk\mts\request\MtsCommon;
 use aliyun\sdk\core\traits\Request;
 
 /**
- * Class ActivateMediaWorkflow
- * @package aliyun\sdk\mts\request\Workflow
+ * Class ActivateMediaWorkflow.
  */
 class ActivateMediaWorkflow extends MtsCommon
 {

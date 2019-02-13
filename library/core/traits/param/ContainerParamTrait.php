@@ -10,12 +10,11 @@
 namespace aliyun\sdk\core\traits\param;
 
 /**
- * Trait Container
- * @package aliyun\sdk\core\traits\param
+ * Trait Container.
+ *
  * @method $this setContainer($Container)
- * @method getContainer()
+ * @method       getContainer()
  */
 trait ContainerParamTrait
 {
-
 }

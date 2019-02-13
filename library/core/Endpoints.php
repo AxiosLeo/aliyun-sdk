@@ -25,11 +25,11 @@ class Endpoints
     public static function productExist($region_id, $product_name)
     {
         if (!isset(self::$endpoints[$region_id])) {
-            throw new RegionNotExistException($region_id . " not exist");
+            throw new RegionNotExistException($region_id . ' not exist');
         }
 
         if (!in_array($product_name, self::$endpoints[$region_id])) {
-            throw new ProductNotExistException($product_name . " not exist");
+            throw new ProductNotExistException($product_name . ' not exist');
         }
 
         return true;

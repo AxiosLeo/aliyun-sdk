@@ -10,12 +10,11 @@
 namespace aliyun\sdk\core\traits\param;
 
 /**
- * Trait MediaWorkflowNameParamTrait
- * @package aliyun\sdk\core\traits\param
+ * Trait MediaWorkflowNameParamTrait.
+ *
  * @method $this setMediaWorkflowName($MediaWorkflowName)
- * @method getMediaWorkflowName()
+ * @method       getMediaWorkflowName()
  */
 trait MediaWorkflowNameParamTrait
 {
-
 }

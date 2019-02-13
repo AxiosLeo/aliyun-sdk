@@ -13,8 +13,8 @@ use aliyun\sdk\cdn\request\CdnCommon;
 use aliyun\sdk\core\traits\Request;
 
 /**
- * Class DescribeUserDomains
- * @package aliyun\sdk\cdn\request\DomainOperation
+ * Class DescribeUserDomains.
+ *
  * @method $this setPageSize($page_size)
  * @method $this setPageNumber($page_number)
  * @method $this setDomainName($domain_name)

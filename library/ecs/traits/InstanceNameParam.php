@@ -10,12 +10,11 @@
 namespace aliyun\sdk\ecs\traits;
 
 /**
- * Trait InstanceNameParam
- * @package aliyun\sdk\ecs\traits
+ * Trait InstanceNameParam.
+ *
  * @method $this setInstanceName($instance_name)
- * @method getInstanceName()
+ * @method       getInstanceName()
  */
 trait InstanceNameParam
 {
-
 }

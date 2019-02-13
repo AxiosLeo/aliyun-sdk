@@ -10,18 +10,20 @@
 namespace aliyun\sdk\core\traits\param;
 
 /**
- * Trait IncludePlayListParamTrait
- * @package aliyun\sdk\core\traits\param
+ * Trait IncludePlayListParamTrait.
  */
 trait IncludePlayListParamTrait
 {
     /**
      * @param bool $include_play_list
+     *
      * @return $this
      */
-    public function setIncludePlayList($include_play_list){
+    public function setIncludePlayList($include_play_list)
+    {
         $include_play_list = \aliyun\sdk\core\help\Parse::boolToString($include_play_list);
-        $this->setParam("IncludePlayList",$include_play_list);
+        $this->setParam('IncludePlayList', $include_play_list);
+
         return $this;
     }
 }

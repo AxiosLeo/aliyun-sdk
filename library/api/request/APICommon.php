@@ -13,22 +13,21 @@ use aliyun\sdk\core\http\Request;
 
 /**
  * Class APICommon
- * API Document : https://help.aliyun.com/document_detail/43590.html
- * @package aliyun\sdk\api\request
+ * API Document : https://help.aliyun.com/document_detail/43590.html.
  */
 class APICommon extends Request
 {
     public function __construct()
     {
-        $this->product = "apigateway";
+        $this->product = 'apigateway';
 
         parent::__construct();
 
-        $this->setParam("Version","2016-07-14");
+        $this->setParam('Version', '2016-07-14');
 
         $this->locationServiceCode = $this->product;
 
-        $this->locationEndpointType = "openAPI";
+        $this->locationEndpointType = 'openAPI';
 
         $this->auth = false;
     }

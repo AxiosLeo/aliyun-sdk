@@ -10,31 +10,34 @@
 namespace aliyun\sdk\ecs\traits;
 
 /**
- * Trait SystemDiskParam
- * @package aliyun\sdk\ecs\traits
+ * Trait SystemDiskParam.
  */
 trait SystemDiskParam
 {
     private $SystemDiskConfig = [
-        "Category","Size","DiskName","Description"
+        'Category', 'Size', 'DiskName', 'Description',
     ];
-    public function setSystemDisk($key,$value){
-        if(in_array($key,$this->SystemDiskConfig)){
-            $this->setParam("SystemDisk.".$key,$value);
+
+    public function setSystemDisk($key, $value)
+    {
+        if (in_array($key, $this->SystemDiskConfig)) {
+            $this->setParam('SystemDisk.' . $key, $value);
         }
+
         return $this;
     }
 
-    public function getSystemDisk($key = null){
-        if(!is_null($key)){
-            return $this->params("SystemDisk.".$key);
+    public function getSystemDisk($key = null)
+    {
+        if (!is_null($key)) {
+            return $this->params('SystemDisk.' . $key);
         }
 
         $params = $this->params();
-        $list = [];
-        foreach ($params as $k=>$v){
-            if(false  !== strpos($k,"SystemDisk")){
-                array_push($list,[$k=>$v]);
+        $list   = [];
+        foreach ($params as $k=>$v) {
+            if (false !== strpos($k, 'SystemDisk')) {
+                array_push($list, [$k=>$v]);
             }
         }
 

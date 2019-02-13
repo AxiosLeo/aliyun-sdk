@@ -13,8 +13,7 @@ use aliyun\sdk\mts\request\MtsCommon;
 use aliyun\sdk\core\traits\Request;
 
 /**
- * Class CategoryTree
- * @package aliyun\sdk\mts\request\Category
+ * Class CategoryTree.
  */
 class CategoryTree extends MtsCommon
 {

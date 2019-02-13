@@ -10,26 +10,29 @@
 namespace aliyun\sdk\api\traits;
 
 /**
- * Trait ResultTypeParam
- * @package aliyun\sdk\api\traits
+ * Trait ResultTypeParam.
+ *
  * @method getResultType()
  */
 trait ResultTypeParam
 {
     /**
      * @param $result_type
+     *
      * @return $this
      */
-    public function setResultType($result_type){
+    public function setResultType($result_type)
+    {
         $array = [
-            "JSON","TEXT","BINARY","XML","HTML"
+            'JSON', 'TEXT', 'BINARY', 'XML', 'HTML',
         ];
 
-        if(is_numeric($result_type)){
+        if (is_numeric($result_type)) {
             $result_type = isset($array[$result_type]) ?? $result_type;
         }
 
-        $this->setParam("ResultType",$result_type);
+        $this->setParam('ResultType', $result_type);
+
         return $this;
     }
 }

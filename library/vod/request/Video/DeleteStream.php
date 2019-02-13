@@ -13,8 +13,8 @@ use aliyun\sdk\core\traits\Request;
 use aliyun\sdk\vod\request\VodCommon;
 
 /**
- * Class DeleteStream
- * @package aliyun\sdk\vod\request\Video
+ * Class DeleteStream.
+ *
  * @method $this setVideoId($video_id)
  * @method $this setJobIds($job_ids)
  */

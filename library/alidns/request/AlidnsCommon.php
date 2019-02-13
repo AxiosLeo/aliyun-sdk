@@ -15,15 +15,15 @@ class AlidnsCommon extends Request
 {
     public function __construct()
     {
-        $this->product = "alidns";
+        $this->product = 'alidns';
 
         parent::__construct();
 
-        $this->setParam("Version","2015-01-09");
+        $this->setParam('Version', '2015-01-09');
 
         $this->locationServiceCode = $this->product;
 
-        $this->locationEndpointType = "openAPI";
+        $this->locationEndpointType = 'openAPI';
 
         $this->auth = false;
     }

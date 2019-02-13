@@ -14,8 +14,7 @@ use aliyun\sdk\ecs\request\Instance\RunInstances;
 
 /**
  * Class Ecs
- * API Document : https://help.aliyun.com/document_detail/25485.html
- * @package aliyun\sdk\ecs
+ * API Document : https://help.aliyun.com/document_detail/25485.html.
  */
 class Ecs
 {
@@ -26,9 +25,11 @@ class Ecs
      * @param $image_id
      * @param $instance_type
      * @param $security_group_id
+     *
      * @return RunInstances
      */
-    public static function RunInstances($region_id, $image_id, $instance_type, $security_group_id){
+    public static function RunInstances($region_id, $image_id, $instance_type, $security_group_id)
+    {
         return (new RunInstances())
             ->setRegionId($region_id)
             ->setImageId($image_id)
@@ -38,9 +39,11 @@ class Ecs
 
     /**
      * @param $region_id
+     *
      * @return DescribeInstances
      */
-    public static function DescribeInstances($region_id){
+    public static function DescribeInstances($region_id)
+    {
         return (new DescribeInstances())->setRegionId($region_id);
     }
 }

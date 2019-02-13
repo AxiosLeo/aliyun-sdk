@@ -13,8 +13,8 @@ use aliyun\sdk\cdn\request\CdnCommon;
 use aliyun\sdk\core\traits\Request;
 
 /**
- * Class DescribeL2VipsByDomain
- * @package aliyun\sdk\cdn\request\data
+ * Class DescribeL2VipsByDomain.
+ *
  * @method $this setDomainName($DomainName)
  */
 class DescribeL2VipsByDomain extends CdnCommon

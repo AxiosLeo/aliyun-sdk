@@ -13,8 +13,8 @@ use aliyun\sdk\mts\request\MtsCommon;
 use aliyun\sdk\core\traits\Request;
 
 /**
- * Class DeleteWaterMarkTemplate
- * @package aliyun\sdk\mts\request\Template
+ * Class DeleteWaterMarkTemplate.
+ *
  * @method $this setWaterMarkTemplateId($WaterMarkTemplateId)
  */
 class DeleteWaterMarkTemplate extends MtsCommon

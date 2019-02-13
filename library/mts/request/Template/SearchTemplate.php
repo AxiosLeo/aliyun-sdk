@@ -16,8 +16,8 @@ use aliyun\sdk\core\traits\param\PageSizeParamTrait;
 use aliyun\sdk\core\traits\param\StateParamTrait;
 
 /**
- * Class SearchTemplate
- * @package aliyun\sdk\mts\request\Template
+ * Class SearchTemplate.
+ *
  * @method $this setTemplateIds($TemplateIds)
  */
 class SearchTemplate extends MtsCommon

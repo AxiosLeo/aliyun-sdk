@@ -10,12 +10,11 @@
 namespace aliyun\sdk\core\traits\param;
 
 /**
- * Trait FileURLParamTrait
- * @package aliyun\sdk\core\traits\param
+ * Trait FileURLParamTrait.
+ *
  * @method $this setFileURL($file_url)
- * @method getFileURL()
+ * @method       getFileURL()
  */
 trait FileURLParamTrait
 {
-
 }

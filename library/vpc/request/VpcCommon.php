@@ -15,11 +15,11 @@ class VpcCommon extends Request
 {
     public function __construct()
     {
-        $this->product = "vpc";
+        $this->product = 'vpc';
 
         parent::__construct();
 
-        $this->setParam("Version","2016-04-28");
+        $this->setParam('Version', '2016-04-28');
 
         $this->auth = false;
     }

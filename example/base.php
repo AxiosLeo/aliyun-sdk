@@ -11,8 +11,9 @@
  * @param $var
  * @param bool $echo
  * @param null $label
- * @param int $flags
- * @return null|string|string[]
+ * @param int  $flags
+ *
+ * @return string|string[]|null
  */
 function dump($var = null, $echo = true, $label = null, $flags = ENT_SUBSTITUTE)
 {
@@ -26,15 +27,16 @@ function dump($var = null, $echo = true, $label = null, $flags = ENT_SUBSTITUTE)
     }
     $output = '<pre>' . $label . $output . '</pre>';
     if ($echo) {
-        echo($output);
+        echo $output;
+
         return '';
     } else {
         return $output;
     }
 }
 
-require_once __DIR__. "/../vendor/autoload.php";
-$access_id = "testAccessKeyId";
-$access_secret = "testAccessKeySecret";
+require_once __DIR__ . '/../vendor/autoload.php';
+$access_id     = 'testAccessKeyId';
+$access_secret = 'testAccessKeySecret';
 
-\aliyun\sdk\Aliyun::auth($access_id,$access_secret);
+\aliyun\sdk\Aliyun::auth($access_id, $access_secret);

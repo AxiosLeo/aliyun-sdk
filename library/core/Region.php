@@ -8,7 +8,6 @@
 
 namespace aliyun\sdk\core;
 
-
 class Region
 {
     public static $region = [];
@@ -18,7 +17,7 @@ class Region
         $product_name = strtolower($product_name);
         if (!isset(self::$region[$region_id])) {
             self::$region[$region_id][$product_name] = $domain_name;
-        } else if (!isset(self::$region[$region_id][$product_name])) {
+        } elseif (!isset(self::$region[$region_id][$product_name])) {
             self::$region[$region_id][$product_name] = $domain_name;
         }
     }
@@ -31,8 +30,10 @@ class Region
                 $array[] = $region_name;
             }
             sort($array);
+
             return $array;
         }
+
         return self::$region;
     }
 }

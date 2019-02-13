@@ -10,12 +10,11 @@
 namespace aliyun\sdk\core\traits\param;
 
 /**
- * Trait CertificateNameParamTrait
- * @package aliyun\sdk\core\traits\param
+ * Trait CertificateNameParamTrait.
+ *
  * @method $this setCertificateName($cert_name)
- * @method getCertificateName()
+ * @method       getCertificateName()
  */
 trait CertificateNameParamTrait
 {
-
 }

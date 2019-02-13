@@ -13,8 +13,8 @@ use aliyun\sdk\cdn\request\CdnCommon;
 use aliyun\sdk\core\traits\Request;
 
 /**
- * Class DescribeRefreshTasks
- * @package aliyun\sdk\cdn\request\ObjectCache
+ * Class DescribeRefreshTasks.
+ *
  * @method $this setTaskId($task_id)
  * @method $this setObjectPath($object_path)
  * @method $this setDomainName($domain_name)

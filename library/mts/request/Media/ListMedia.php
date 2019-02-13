@@ -13,8 +13,8 @@ use aliyun\sdk\mts\request\MtsCommon;
 use aliyun\sdk\core\traits\Request;
 
 /**
- * Class ListMedia
- * @package aliyun\sdk\mts\request\Media
+ * Class ListMedia.
+ *
  * @method $this setNextPageToken($NextPageToken)
  * @method $this setMaximumPageSize($MaximumPageSize)
  * @method $this setFrom($From)

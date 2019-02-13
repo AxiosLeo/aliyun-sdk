@@ -17,8 +17,7 @@ use aliyun\sdk\core\traits\param\VariableValueParamTrait;
 use aliyun\sdk\core\traits\Request;
 
 /**
- * Class CreateApiStageVariable
- * @package aliyun\sdk\api\request\Group
+ * Class CreateApiStageVariable.
  */
 class CreateApiStageVariable extends APICommon
 {

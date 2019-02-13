@@ -10,12 +10,11 @@
 namespace aliyun\sdk\ecs\traits;
 
 /**
- * Trait UserDataParam
- * @package aliyun\sdk\ecs\traits
+ * Trait UserDataParam.
+ *
  * @method $this setUserData($user_data)
- * @method getUserData()
+ * @method       getUserData()
  */
 trait UserDataParam
 {
-
 }

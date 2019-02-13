@@ -10,12 +10,11 @@
 namespace aliyun\sdk\api\traits;
 
 /**
- * Trait ApiIdParam
- * @package aliyun\sdk\api\traits
+ * Trait ApiIdParam.
+ *
  * @method $this setApiId($api_id)
- * @method getApiId()
+ * @method       getApiId()
  */
 trait ApiIdParam
 {
-
 }

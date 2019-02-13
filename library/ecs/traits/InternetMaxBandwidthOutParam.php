@@ -10,12 +10,11 @@
 namespace aliyun\sdk\ecs\traits;
 
 /**
- * Trait InternetMaxBandwidthOutParam
- * @package aliyun\sdk\ecs\traits
+ * Trait InternetMaxBandwidthOutParam.
+ *
  * @method $this setInternetMaxBandwidthOut($InternetMaxBandwidthOut)
- * @method getInternetMaxBandwidthOut()
+ * @method       getInternetMaxBandwidthOut()
  */
 trait InternetMaxBandwidthOutParam
 {
-
 }

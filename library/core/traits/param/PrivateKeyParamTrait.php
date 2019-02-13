@@ -10,12 +10,11 @@
 namespace aliyun\sdk\core\traits\param;
 
 /**
- * Trait PrivateKeyParamTrait
- * @package aliyun\sdk\core\traits\param
+ * Trait PrivateKeyParamTrait.
+ *
  * @method $this setPrivateKey($private_key)
- * @method getPrivateKey()
+ * @method       getPrivateKey()
  */
 trait PrivateKeyParamTrait
 {
-
 }

@@ -13,8 +13,8 @@ use aliyun\sdk\cdn\request\CdnCommon;
 use aliyun\sdk\core\traits\Request;
 
 /**
- * Class DescribeCdnDomainLogs
- * @package aliyun\sdk\cdn\request\data
+ * Class DescribeCdnDomainLogs.
+ *
  * @method $this setDomainName($domain_name)
  * @method $this setLogDay($LogDay)
  * @method $this setStartTime($StartTime)

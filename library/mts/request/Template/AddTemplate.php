@@ -6,6 +6,7 @@
  * @blog:  http://hanxv.cn
  * @datetime: 2018/3/5 14:34
  */
+
 namespace aliyun\sdk\mts\request\Template;
 
 use aliyun\sdk\core\traits\param\AudioParamTrait;
@@ -18,8 +19,7 @@ use aliyun\sdk\core\traits\Request;
 use aliyun\sdk\mts\request\MtsCommon;
 
 /**
- * Class AddTemplate
- * @package aliyun\sdk\mts\request\Template
+ * Class AddTemplate.
  */
 class AddTemplate extends MtsCommon
 {

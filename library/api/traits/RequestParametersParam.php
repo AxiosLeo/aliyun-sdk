@@ -10,21 +10,24 @@
 namespace aliyun\sdk\api\traits;
 
 /**
- * Trait RequestParametersParam
- * @package aliyun\sdk\api\traits
+ * Trait RequestParametersParam.
  */
 trait RequestParametersParam
 {
     /**
      * @param array $config
+     *
      * @return $this
      */
-    public function setRequestParameters(array $config){
-        $this->setParam("RequestParameters",json_encode($config));
+    public function setRequestParameters(array $config)
+    {
+        $this->setParam('RequestParameters', json_encode($config));
+
         return $this;
     }
 
-    public function getRequestParameters(){
-        return json_decode($this->params("RequestParameters"));
+    public function getRequestParameters()
+    {
+        return json_decode($this->params('RequestParameters'));
     }
 }

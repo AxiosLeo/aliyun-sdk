@@ -13,8 +13,8 @@ use aliyun\sdk\cdn\request\CdnCommon;
 use aliyun\sdk\core\traits\Request;
 
 /**
- * Class SetVideoSeekConfig
- * @package aliyun\sdk\cdn\request\DomainConfig
+ * Class SetVideoSeekConfig.
+ *
  * @method $this setDomainName($DomainName)
  * @method $this setEnable($enable)
  */

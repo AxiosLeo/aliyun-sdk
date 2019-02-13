@@ -10,12 +10,11 @@
 namespace aliyun\sdk\core\traits\param;
 
 /**
- * Trait BucketParamTrait
- * @package aliyun\sdk\core\traits\param
+ * Trait BucketParamTrait.
+ *
  * @method $this setBucket($bucket)
- * @method getBucket()
+ * @method       getBucket()
  */
 trait BucketParamTrait
 {
-
 }

@@ -15,8 +15,7 @@ use aliyun\sdk\mts\request\MtsCommon;
 use aliyun\sdk\core\traits\Request;
 
 /**
- * Class UpdateCategoryName
- * @package aliyun\sdk\mts\request\Category
+ * Class UpdateCategoryName.
  */
 class UpdateCategoryName extends MtsCommon
 {

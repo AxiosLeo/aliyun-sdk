@@ -16,8 +16,7 @@ use aliyun\sdk\core\traits\param\GroupIdParamTrait;
 use aliyun\sdk\core\traits\Request;
 
 /**
- * Class DeleteDomainCertificate
- * @package aliyun\sdk\api\request\Domain
+ * Class DeleteDomainCertificate.
  */
 class DeleteDomainCertificate extends APICommon
 {

@@ -13,8 +13,8 @@ use aliyun\sdk\core\traits\Request;
 use aliyun\sdk\mts\request\MtsCommon;
 
 /**
- * Class QueryTemplateList
- * @package aliyun\sdk\mts\request\Template
+ * Class QueryTemplateList.
+ *
  * @method $this setTemplateIds($TemplateIds)
  */
 class QueryTemplateList extends MtsCommon

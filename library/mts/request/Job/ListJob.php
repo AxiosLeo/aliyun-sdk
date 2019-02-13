@@ -14,8 +14,8 @@ use aliyun\sdk\core\traits\Request;
 use aliyun\sdk\mts\request\MtsCommon;
 
 /**
- * Class ListJob
- * @package aliyun\sdk\mts\request\Job
+ * Class ListJob.
+ *
  * @method $this setNextPageToken($NextPageToken)
  * @method $this setMaximumPageSize($MaximumPageSize)
  * @method $this setState($State)

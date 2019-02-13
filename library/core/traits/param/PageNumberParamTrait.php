@@ -10,12 +10,11 @@
 namespace aliyun\sdk\core\traits\param;
 
 /**
- * Trait PageNumberParamTrait
- * @package aliyun\sdk\core\traits\param
+ * Trait PageNumberParamTrait.
+ *
  * @method $this setPageNumber($PageNumber)
- * @method getPageNumber()
+ * @method       getPageNumber()
  */
 trait PageNumberParamTrait
 {
-
 }

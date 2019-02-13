@@ -10,12 +10,11 @@
 namespace aliyun\sdk\ecs\traits;
 
 /**
- * Trait SnapshotIdParam
- * @package aliyun\sdk\ecs\traits
+ * Trait SnapshotIdParam.
+ *
  * @method $this setSnapshotId($SnapshotId)
- * @method getSnapshotId()
+ * @method       getSnapshotId()
  */
 trait SnapshotIdParam
 {
-
 }

@@ -13,8 +13,8 @@ use aliyun\sdk\cdn\request\CdnCommon;
 use aliyun\sdk\core\traits\Request;
 
 /**
- * Class PushObjectCache
- * @package aliyun\sdk\cdn\request\ObjectCache
+ * Class PushObjectCache.
+ *
  * @method $this setObjectPath($object_path)
  */
 class PushObjectCache extends CdnCommon

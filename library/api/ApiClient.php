@@ -21,10 +21,11 @@ class ApiClient extends APICommon implements ClientInterface
 
     private static $action_name;
 
-    public static function action($action_name){
-        if(is_null(self::$instance) || self::$action_name != $action_name){
+    public static function action($action_name)
+    {
+        if (is_null(self::$instance) || self::$action_name != $action_name) {
             self::$action_name = $action_name;
-            self::$instance = new self(self::$action_name);
+            self::$instance    = new self(self::$action_name);
         }
 
         return self::$instance;

@@ -13,8 +13,8 @@ use aliyun\sdk\core\traits\Request;
 use aliyun\sdk\vod\request\VodCommon;
 
 /**
- * Class UpdateVideoInfo
- * @package aliyun\sdk\vod\request\Video
+ * Class UpdateVideoInfo.
+ *
  * @method $this setVideoId($video_id)
  * @method $this setTitle($title)
  * @method $this setDescription($desc)

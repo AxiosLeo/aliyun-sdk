@@ -10,12 +10,11 @@
 namespace aliyun\sdk\ecs\traits;
 
 /**
- * Trait ImageNameParam
- * @package aliyun\sdk\ecs\traits
+ * Trait ImageNameParam.
+ *
  * @method $this setImageName($image_name)
- * @method getImageName()
+ * @method       getImageName()
  */
 trait ImageNameParam
 {
-
 }

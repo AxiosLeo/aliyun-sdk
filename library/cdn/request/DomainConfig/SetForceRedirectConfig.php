@@ -13,8 +13,8 @@ use aliyun\sdk\cdn\request\CdnCommon;
 use aliyun\sdk\core\traits\Request;
 
 /**
- * Class SetForceRedirectConfig
- * @package aliyun\sdk\cdn\request\DomainConfig
+ * Class SetForceRedirectConfig.
+ *
  * @method $this setDomainName($domain_name)
  * @method $this setRedirectType($redirect_type)
  */
