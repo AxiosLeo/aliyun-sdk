@@ -6,8 +6,7 @@
  * @blog:  http://hanxv.cn
  * @datetime: 2018/3/15 09:53
  */
-
-require_once __DIR__. "/base.php";
+require_once __DIR__ . '/base.php';
 
 \aliyun\sdk\Aliyun::region('cn-hangzhou');
 

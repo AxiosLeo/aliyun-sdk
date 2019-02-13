@@ -10,12 +10,11 @@
 namespace aliyun\sdk\core\traits\param;
 
 /**
- * Trait PipelineIdParamTrait
- * @package aliyun\sdk\core\traits\param
+ * Trait PipelineIdParamTrait.
+ *
  * @method $this setPipelineId($PipelineId)
- * @method getPipelineId()
+ * @method       getPipelineId()
  */
 trait PipelineIdParamTrait
 {
-
 }

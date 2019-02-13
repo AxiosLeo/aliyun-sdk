@@ -16,8 +16,7 @@ use aliyun\sdk\core\traits\param\GroupIdParamTrait;
 use aliyun\sdk\core\traits\Request;
 
 /**
- * Class AbolishApi
- * @package aliyun\sdk\api\request\Api
+ * Class AbolishApi.
  */
 class AbolishApi extends APICommon
 {

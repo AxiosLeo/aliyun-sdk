@@ -13,8 +13,8 @@ use aliyun\sdk\cdn\request\CdnCommon;
 use aliyun\sdk\core\traits\Request;
 
 /**
- * Class SetReqAuthConfig
- * @package aliyun\sdk\cdn\request\DomainConfig
+ * Class SetReqAuthConfig.
+ *
  * @method $this setDomainName($domain_name)
  * @method $this setAuthType($auth_type)
  * @method $this setKey1($key1)

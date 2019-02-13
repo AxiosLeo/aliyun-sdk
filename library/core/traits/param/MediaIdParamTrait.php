@@ -10,12 +10,11 @@
 namespace aliyun\sdk\core\traits\param;
 
 /**
- * Trait MediaIdParamTrait
- * @package aliyun\sdk\core\traits\param
+ * Trait MediaIdParamTrait.
+ *
  * @method $this setMediaId($media_id)
- * @method getMediaId()
+ * @method       getMediaId()
  */
 trait MediaIdParamTrait
 {
-
 }

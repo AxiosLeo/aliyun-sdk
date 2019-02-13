@@ -15,15 +15,15 @@ class ArmsCommon extends Request
 {
     public function __construct()
     {
-        $this->product = "arms";
+        $this->product = 'arms';
 
         parent::__construct();
 
-        $this->setParam("Version","2016-11-25");
+        $this->setParam('Version', '2016-11-25');
 
         $this->locationServiceCode = $this->product;
 
-        $this->locationEndpointType = "openAPI";
+        $this->locationEndpointType = 'openAPI';
 
         $this->auth = false;
     }

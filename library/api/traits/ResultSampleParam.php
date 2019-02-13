@@ -10,10 +10,10 @@
 namespace aliyun\sdk\api\traits;
 
 /**
- * Trait ResultSampleParam
- * @package aliyun\sdk\api\traits
+ * Trait ResultSampleParam.
+ *
  * @method $this setResultSample(string $result_sample)
- * @method getResultSample()
+ * @method       getResultSample()
  */
 trait ResultSampleParam
 {

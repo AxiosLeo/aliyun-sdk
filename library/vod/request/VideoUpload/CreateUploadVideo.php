@@ -6,14 +6,15 @@
  * @blog:  http://hanxv.cn
  * @datetime: 2018/2/24 09:06
  */
+
 namespace aliyun\sdk\vod\request\VideoUpload;
 
 use aliyun\sdk\core\traits\Request;
 use aliyun\sdk\vod\request\VodCommon;
 
 /**
- * Class CreateUploadVideo
- * @package aliyun\sdk\vod\request\VideoUpload
+ * Class CreateUploadVideo.
+ *
  * @method $this setTitle($title)
  * @method $this setFileName($file_name)
  * @method $this setFileSize($file_size)

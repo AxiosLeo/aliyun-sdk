@@ -14,8 +14,7 @@ use aliyun\sdk\mts\request\MtsCommon;
 use aliyun\sdk\core\traits\Request;
 
 /**
- * Class DeleteMediaWorkflow
- * @package aliyun\sdk\mts\request\Workflow
+ * Class DeleteMediaWorkflow.
  */
 class DeleteMediaWorkflow extends MtsCommon
 {

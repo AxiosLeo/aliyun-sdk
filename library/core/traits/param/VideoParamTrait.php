@@ -10,24 +10,27 @@
 namespace aliyun\sdk\core\traits\param;
 
 /**
- * Trait VideoParamTrait
- * @package aliyun\sdk\core\traits\param
+ * Trait VideoParamTrait.
  */
 trait VideoParamTrait
 {
     /**
      * @param array $video
+     *
      * @return $this
      */
-    public function setVideo($video){
-        $this->setParam("Video",\aliyun\sdk\core\help\Parse::arrayToJson($video));
+    public function setVideo($video)
+    {
+        $this->setParam('Video', \aliyun\sdk\core\help\Parse::arrayToJson($video));
+
         return $this;
     }
 
     /**
      * @return array
      */
-    public function getVideo(){
-        return \aliyun\sdk\core\help\Parse::jsonToArray($this->params("Video"));
+    public function getVideo()
+    {
+        return \aliyun\sdk\core\help\Parse::jsonToArray($this->params('Video'));
     }
 }

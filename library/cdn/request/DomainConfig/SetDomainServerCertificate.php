@@ -13,8 +13,8 @@ use aliyun\sdk\cdn\request\CdnCommon;
 use aliyun\sdk\core\traits\Request;
 
 /**
- * Class SetDomainServerCertificate
- * @package aliyun\sdk\cdn\request\DomainConfig
+ * Class SetDomainServerCertificate.
+ *
  * @method $this setDomainName($domain_name)
  * @method $this setCertName($cert_name)
  * @method $this setServerCertificateStatus($server_certificate_status)

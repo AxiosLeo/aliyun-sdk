@@ -18,8 +18,7 @@ use aliyun\sdk\core\traits\param\GroupIdParamTrait;
 use aliyun\sdk\core\traits\Request;
 
 /**
- * Class SetDomainCertificate
- * @package aliyun\sdk\api\request\Domain
+ * Class SetDomainCertificate.
  */
 class SetDomainCertificate extends APICommon
 {

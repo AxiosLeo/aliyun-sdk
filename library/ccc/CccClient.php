@@ -14,8 +14,7 @@ use aliyun\sdk\core\traits\ClientTrait;
 
 /**
  * Class CccClient
- * Cloud Call Center https://help.aliyun.com/document_detail/59970.html
- * @package aliyun\sdk\ccc
+ * Cloud Call Center https://help.aliyun.com/document_detail/59970.html.
  */
 class CccClient extends CccCommon
 {

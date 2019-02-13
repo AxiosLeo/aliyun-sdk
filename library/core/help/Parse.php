@@ -8,7 +8,6 @@
 
 namespace aliyun\sdk\core\help;
 
-
 use api\tool\lib\ArrayToXML;
 
 class Parse
@@ -28,6 +27,7 @@ class Parse
     {
         $xml         = new ArrayToXML();
         $xml_content = $xml->buildXML($data, $rootNodeName);
+
         return $xml_content . "\n";
     }
 
@@ -46,6 +46,7 @@ class Parse
         if (is_array($array)) {
             $array = \GuzzleHttp\json_encode($array);
         }
+
         return $array;
     }
 
@@ -71,27 +72,29 @@ class Parse
                     $a = strval($a);
                 }
                 if (is_null($a)) {
-                    $a = "";
+                    $a = '';
                 }
             }
-        } else if (is_int($array)) {
+        } elseif (is_int($array)) {
             $array = strval($array);
-        } else if (is_null($array)) {
-            $array = "";
+        } elseif (is_null($array)) {
+            $array = '';
         }
+
         return $array;
     }
 
     public static function parseEnableParam($enable)
     {
-        return in_array($enable, ["1", 1, "On", "on", "ON"]) ? "On" : "Off";
+        return in_array($enable, ['1', 1, 'On', 'on', 'ON']) ? 'On' : 'Off';
     }
 
     public static function boolToString($bool)
     {
-        if (strtolower($bool) === "false") {
+        if ('false' === strtolower($bool)) {
             $bool = false;
         }
-        return $bool ? "True" : "False";
+
+        return $bool ? 'True' : 'False';
     }
 }

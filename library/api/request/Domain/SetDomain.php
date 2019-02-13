@@ -18,8 +18,7 @@ use aliyun\sdk\core\traits\param\PrivateKeyParamTrait;
 use aliyun\sdk\core\traits\Request;
 
 /**
- * Class SetDomain
- * @package aliyun\sdk\api\request\Domain
+ * Class SetDomain.
  */
 class SetDomain extends APICommon
 {

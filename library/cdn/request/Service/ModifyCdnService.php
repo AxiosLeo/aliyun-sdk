@@ -13,8 +13,8 @@ use aliyun\sdk\cdn\request\CdnCommon;
 use aliyun\sdk\core\traits\Request;
 
 /**
- * Class ModifyCdnService
- * @package aliyun\sdk\cdn\request\Service
+ * Class ModifyCdnService.
+ *
  * @method $this setInternetChargeType($InternetChargeType)
  */
 class ModifyCdnService extends CdnCommon

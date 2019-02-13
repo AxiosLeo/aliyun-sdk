@@ -13,8 +13,8 @@ use aliyun\sdk\cdn\request\CdnCommon;
 use aliyun\sdk\core\traits\Request;
 
 /**
- * Class DescribeDomainTopUrlVisit
- * @package aliyun\sdk\cdn\request\data
+ * Class DescribeDomainTopUrlVisit.
+ *
  * @method $this setDomainName($DomainName)
  * @method $this setStartTime($StartTime)
  */

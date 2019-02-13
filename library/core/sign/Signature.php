@@ -9,7 +9,6 @@
 
 namespace aliyun\sdk\core\sign;
 
-
-abstract class Signature {
-
+abstract class Signature
+{
 }

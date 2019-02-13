@@ -13,8 +13,8 @@ use aliyun\sdk\core\traits\Request;
 use aliyun\sdk\vod\request\VodCommon;
 
 /**
- * Class GetVideoList
- * @package aliyun\sdk\vod\request\Video
+ * Class GetVideoList.
+ *
  * @method $this setStatus($status)
  * @method $this setStartTime($start_time)
  * @method $this setEndTime($end_time)

@@ -17,8 +17,7 @@ use aliyun\sdk\mts\request\MtsCommon;
 use aliyun\sdk\core\traits\Request;
 
 /**
- * Class SubmitSnapshotJob
- * @package aliyun\sdk\mts\request\Job
+ * Class SubmitSnapshotJob.
  */
 class SubmitSnapshotJob extends MtsCommon
 {

@@ -17,8 +17,7 @@ use aliyun\sdk\core\traits\param\PageSizeParamTrait;
 use aliyun\sdk\core\traits\Request;
 
 /**
- * Class DescribeApiGroups
- * @package aliyun\sdk\api\request\Group
+ * Class DescribeApiGroups.
  */
 class DescribeApiGroups extends APICommon
 {

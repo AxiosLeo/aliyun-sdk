@@ -13,8 +13,8 @@ use aliyun\sdk\cdn\request\CdnCommon;
 use aliyun\sdk\core\traits\Request;
 
 /**
- * Class DescribeDomainHttpCodeData
- * @package aliyun\sdk\cdn\request\data
+ * Class DescribeDomainHttpCodeData.
+ *
  * @method $this setDomainName($DomainName)
  * @method $this setStartTime($StartTime)
  * @method $this setEndTime($EndTime)

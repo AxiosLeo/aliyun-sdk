@@ -20,8 +20,8 @@ use aliyun\sdk\mts\request\MtsCommon;
 use aliyun\sdk\core\traits\Request;
 
 /**
- * Class AddMedia
- * @package aliyun\sdk\mts\request\Media
+ * Class AddMedia.
+ *
  * @method $this setMediaWorkflowUserData($MediaWorkflowUserData)
  */
 class AddMedia extends MtsCommon

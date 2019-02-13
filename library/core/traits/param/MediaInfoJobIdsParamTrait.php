@@ -10,12 +10,11 @@
 namespace aliyun\sdk\core\traits\param;
 
 /**
- * Class MediaInfoJobIds
- * @package aliyun\sdk\core\traits\param
+ * Class MediaInfoJobIds.
+ *
  * @method $this setMediaInfoJobIds($MediaInfoJobIds)
- * @method getMediaInfoJobIds()
+ * @method       getMediaInfoJobIds()
  */
 trait MediaInfoJobIdsParamTrait
 {
-
 }

@@ -13,8 +13,8 @@ use aliyun\sdk\core\traits\Request;
 use aliyun\sdk\vod\request\VodCommon;
 
 /**
- * Class GetMezzanineInfo
- * @package aliyun\sdk\vod\request\Video
+ * Class GetMezzanineInfo.
+ *
  * @method $this setVideoId($video_id)
  * @method $this setAuthTimeout($auth_timeout)
  */

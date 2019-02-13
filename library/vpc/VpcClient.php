@@ -14,8 +14,7 @@ use aliyun\sdk\vpc\request\VpcCommon;
 
 /**
  * Class VpcClient
- * Api Document : https://help.aliyun.com/document_detail/34964.html
- * @package aliyun\sdk\vpc
+ * Api Document : https://help.aliyun.com/document_detail/34964.html.
  */
 class VpcClient extends VpcCommon
 {

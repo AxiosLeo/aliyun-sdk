@@ -13,8 +13,8 @@ use aliyun\sdk\core\traits\Request;
 use aliyun\sdk\vod\request\VodCommon;
 
 /**
- * Class RefreshUploadVideo
- * @package aliyun\sdk\vod\request\VideoUpload
+ * Class RefreshUploadVideo.
+ *
  * @method $this setVideoId($video_id)
  */
 class RefreshUploadVideo extends VodCommon

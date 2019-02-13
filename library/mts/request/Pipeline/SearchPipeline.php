@@ -16,8 +16,7 @@ use aliyun\sdk\mts\request\MtsCommon;
 use aliyun\sdk\core\traits\Request;
 
 /**
- * Class SearchPipeline
- * @package aliyun\sdk\mts\request\Pipeline
+ * Class SearchPipeline.
  */
 class SearchPipeline extends MtsCommon
 {

@@ -13,8 +13,8 @@ use aliyun\sdk\core\traits\Request;
 use aliyun\sdk\vod\request\VodCommon;
 
 /**
- * Class GetVideoPlayAuth
- * @package aliyun\sdk\vod\request\Video
+ * Class GetVideoPlayAuth.
+ *
  * @method $this setVideoId($video_id)
  * @method $this setAuthInfoTimeout($auth_info_timeout)
  */

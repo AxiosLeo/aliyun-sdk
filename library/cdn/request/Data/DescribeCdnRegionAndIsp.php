@@ -13,8 +13,7 @@ use aliyun\sdk\cdn\request\CdnCommon;
 use aliyun\sdk\core\traits\Request;
 
 /**
- * Class DescribeCdnRegionAndIsp
- * @package aliyun\sdk\cdn\request\data
+ * Class DescribeCdnRegionAndIsp.
  */
 class DescribeCdnRegionAndIsp extends CdnCommon
 {

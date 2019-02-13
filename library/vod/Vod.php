@@ -28,8 +28,7 @@ use aliyun\sdk\vod\request\VideoUpload\RefreshUploadVideo;
 
 /**
  * Class Vod
- * API Document : https://help.aliyun.com/document_detail/60574.html
- * @package aliyun\sdk\vod
+ * API Document : https://help.aliyun.com/document_detail/60574.html.
  */
 class Vod
 {
@@ -37,32 +36,44 @@ class Vod
 
     /**
      * 获取视频上传地址和凭证
+     *
      * @param $title
      * @param $file_name
+     *
      * @return CreateUploadVideo
      */
-    public static function CreateUploadVideo($title, $file_name){
+    public static function CreateUploadVideo($title, $file_name)
+    {
         $request = new CreateUploadVideo();
+
         return $request->setTitle($title)->setFileName($file_name);
     }
 
     /**
      * 刷新视频上传凭证
+     *
      * @param $video_id
+     *
      * @return RefreshUploadVideo
      */
-    public static function RefreshUploadVideo($video_id){
+    public static function RefreshUploadVideo($video_id)
+    {
         $request = new RefreshUploadVideo();
+
         return $request->setVideoId($video_id);
     }
 
     /**
      * 获取图片上传地址和凭证
+     *
      * @param $image_type
+     *
      * @return CreateUploadImage
      */
-    public static function CreateUploadImage($image_type){
+    public static function CreateUploadImage($image_type)
+    {
         $request = new CreateUploadImage();
+
         return $request->setImageType($image_type);
     }
 
@@ -70,130 +81,177 @@ class Vod
 
     /**
      * 获取视频播放地址
+     *
      * @param $video_id
+     *
      * @return GetPlayInfo
      */
-    public static function GetPlayInfo($video_id){
+    public static function GetPlayInfo($video_id)
+    {
         $request = new GetPlayInfo();
+
         return $request->setVideoId($video_id);
     }
 
     /**
      * 获取视频播放凭证
+     *
      * @param $video_id
+     *
      * @return GetVideoPlayAuth
      */
-    public static function GetVideoPlayAuth($video_id){
+    public static function GetVideoPlayAuth($video_id)
+    {
         $request = new GetVideoPlayAuth();
+
         return $request->setVideoId($video_id);
     }
 
     /**
-     * 获取视频信息
+     * 获取视频信息.
+     *
      * @param $video_id
+     *
      * @return GetVideoInfo
      */
-    public static function GetVideoInfo($video_id){
+    public static function GetVideoInfo($video_id)
+    {
         $request = new GetVideoInfo();
+
         return $request->setVideoId($video_id);
     }
 
     /**
-     * 修改视频信息
+     * 修改视频信息.
+     *
      * @param $video_id
+     *
      * @return UpdateVideoInfo
      */
-    public static function UpdateVideoInfo($video_id){
+    public static function UpdateVideoInfo($video_id)
+    {
         $request = new UpdateVideoInfo();
+
         return $request->setVideoId($video_id);
     }
 
     /**
-     * 删除视频
+     * 删除视频.
+     *
      * @param $video_ids
+     *
      * @return DeleteVideo
      */
-    public static function DeleteVideo($video_ids){
+    public static function DeleteVideo($video_ids)
+    {
         $request = new DeleteVideo();
+
         return $request->setVideoIds($video_ids);
     }
 
     /**
-     * 获取视频信息列表
+     * 获取视频信息列表.
+     *
      * @return GetVideoList
      */
-    public static function GetVideoList(){
+    public static function GetVideoList()
+    {
         return new GetVideoList();
     }
 
     /**
      * 删除媒体流
+     *
      * @param $video_id
      * @param $job_ids
+     *
      * @return DeleteStream
      */
-    public static function DeleteStream($video_id, $job_ids){
+    public static function DeleteStream($video_id, $job_ids)
+    {
         $request = new DeleteStream();
+
         return $request->setVideoId($video_id)->setJobIds($job_ids);
     }
 
     /**
      * 获取源文件地址
+     *
      * @param $video_id
+     *
      * @return GetMezzanineInfo
      */
-    public static function GetMezzanineInfo($video_id){
+    public static function GetMezzanineInfo($video_id)
+    {
         $request = new GetMezzanineInfo();
+
         return $request->setVideoId($video_id);
     }
 
     /**
-     * 获取直转点视频列表
+     * 获取直转点视频列表.
+     *
      * @return ListLiveRecordVideo
      */
-    public static function ListLiveRecordVideo(){
+    public static function ListLiveRecordVideo()
+    {
         return new ListLiveRecordVideo();
     }
 
     /********************************** Category **************************************************/
 
     /**
-     * 创建分类
+     * 创建分类.
+     *
      * @param $cate_name
+     *
      * @return AddCategory
      */
-    public static function AddCategory($cate_name){
+    public static function AddCategory($cate_name)
+    {
         $request = new AddCategory();
+
         return $request->setCateName($cate_name);
     }
 
     /**
-     * 修改分类
+     * 修改分类.
+     *
      * @param $cate_id
      * @param $cate_name
+     *
      * @return UpdateCategory
      */
-    public static function UpdateCategory($cate_id, $cate_name){
+    public static function UpdateCategory($cate_id, $cate_name)
+    {
         $request = new UpdateCategory();
+
         return $request->setCateId($cate_id)->setCateName($cate_name);
     }
 
     /**
-     * 删除分类
+     * 删除分类.
+     *
      * @param $cate_id
+     *
      * @return DeleteCategory
      */
-    public static function DeleteCategory($cate_id){
+    public static function DeleteCategory($cate_id)
+    {
         $request = new DeleteCategory();
+
         return $request->setCateId($cate_id);
     }
 
     /**
-     * 获取分类及其子分类
+     * 获取分类及其子分类.
+     *
      * @return GetCategories
      */
-    public static function GetCategories(){
+    public static function GetCategories()
+    {
         $GetCategories = new GetCategories();
+
         return $GetCategories;
     }
 }

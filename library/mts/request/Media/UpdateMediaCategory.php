@@ -15,8 +15,7 @@ use aliyun\sdk\mts\request\MtsCommon;
 use aliyun\sdk\core\traits\Request;
 
 /**
- * Class UpdateMediaCategory
- * @package aliyun\sdk\mts\request\Media
+ * Class UpdateMediaCategory.
  */
 class UpdateMediaCategory extends MtsCommon
 {

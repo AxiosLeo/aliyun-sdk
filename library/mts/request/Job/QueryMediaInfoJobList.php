@@ -14,8 +14,7 @@ use aliyun\sdk\core\traits\Request;
 use aliyun\sdk\mts\request\MtsCommon;
 
 /**
- * Class QueryMediaInfoJobList
- * @package aliyun\sdk\mts\request\Job
+ * Class QueryMediaInfoJobList.
  */
 class QueryMediaInfoJobList extends MtsCommon
 {

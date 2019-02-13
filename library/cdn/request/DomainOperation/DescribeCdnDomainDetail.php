@@ -13,8 +13,8 @@ use aliyun\sdk\cdn\request\CdnCommon;
 use aliyun\sdk\core\traits\Request;
 
 /**
- * Class DescribeCdnDomainDetail
- * @package aliyun\sdk\cdn\request\DomainOperation
+ * Class DescribeCdnDomainDetail.
+ *
  * @method $this setDomainName($DomainName)
  */
 class DescribeCdnDomainDetail extends CdnCommon

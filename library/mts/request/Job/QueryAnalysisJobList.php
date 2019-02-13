@@ -14,8 +14,7 @@ use aliyun\sdk\core\traits\Request;
 use aliyun\sdk\mts\request\MtsCommon;
 
 /**
- * Class QueryAnalysisJobList
- * @package aliyun\sdk\mts\request\Job
+ * Class QueryAnalysisJobList.
  */
 class QueryAnalysisJobList extends MtsCommon
 {

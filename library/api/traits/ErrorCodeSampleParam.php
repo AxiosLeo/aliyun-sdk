@@ -10,21 +10,24 @@
 namespace aliyun\sdk\api\traits;
 
 /**
- * Trait ErrorCodeSampleParam
- * @package aliyun\sdk\api\traits
+ * Trait ErrorCodeSampleParam.
  */
 trait ErrorCodeSampleParam
 {
     /**
      * @param array $config
+     *
      * @return $this
      */
-    public function setErrorCodeSample(array $config){
-        $this->setParam("ErrorCodeSample",json_encode($config));
+    public function setErrorCodeSample(array $config)
+    {
+        $this->setParam('ErrorCodeSample', json_encode($config));
+
         return $this;
     }
 
-    public function getErrorCodeSample(){
-        return json_decode($this->params("ErrorCodeSample"));
+    public function getErrorCodeSample()
+    {
+        return json_decode($this->params('ErrorCodeSample'));
     }
 }

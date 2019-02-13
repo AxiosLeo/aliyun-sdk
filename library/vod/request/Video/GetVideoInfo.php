@@ -6,14 +6,15 @@
  * @blog:  http://hanxv.cn
  * @datetime: 2018/2/24 09:09
  */
+
 namespace aliyun\sdk\vod\request\Video;
 
 use aliyun\sdk\core\traits\Request;
 use aliyun\sdk\vod\request\VodCommon;
 
 /**
- * Class GetVideoInfo
- * @package aliyun\sdk\vod\request\Video
+ * Class GetVideoInfo.
+ *
  * @method $this setVideoId($video_id)
  */
 class GetVideoInfo extends VodCommon

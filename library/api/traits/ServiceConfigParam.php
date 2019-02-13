@@ -10,21 +10,24 @@
 namespace aliyun\sdk\api\traits;
 
 /**
- * Trait ServiceConfigParam
- * @package aliyun\sdk\api\traits
+ * Trait ServiceConfigParam.
  */
 trait ServiceConfigParam
 {
     /**
      * @param array $config
+     *
      * @return $this
      */
-    public function setServiceConfig(array $config){
-        $this->setParam("ServiceConfig",json_encode($config));
+    public function setServiceConfig(array $config)
+    {
+        $this->setParam('ServiceConfig', json_encode($config));
+
         return $this;
     }
 
-    public function getServiceConfig(){
-        return json_decode($this->params("ServiceConfig"));
+    public function getServiceConfig()
+    {
+        return json_decode($this->params('ServiceConfig'));
     }
 }

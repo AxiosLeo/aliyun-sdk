@@ -15,8 +15,7 @@ use aliyun\sdk\mts\request\MtsCommon;
 use aliyun\sdk\core\traits\Request;
 
 /**
- * Class DeleteMediaTag
- * @package aliyun\sdk\mts\request\Media
+ * Class DeleteMediaTag.
  */
 class DeleteMediaTag extends MtsCommon
 {

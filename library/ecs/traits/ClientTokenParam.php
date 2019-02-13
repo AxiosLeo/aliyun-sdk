@@ -10,12 +10,11 @@
 namespace aliyun\sdk\ecs\traits;
 
 /**
- * Trait ClientTokenParam
- * @package aliyun\sdk\ecs\traits
+ * Trait ClientTokenParam.
+ *
  * @method $this setClientToken($client_token)
- * @method getClientToken()
+ * @method       getClientToken()
  */
 trait ClientTokenParam
 {
-
 }

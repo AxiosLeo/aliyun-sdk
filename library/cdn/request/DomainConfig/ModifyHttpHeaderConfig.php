@@ -13,8 +13,8 @@ use aliyun\sdk\cdn\request\CdnCommon;
 use aliyun\sdk\core\traits\Request;
 
 /**
- * Class ModifyHttpHeaderConfig
- * @package aliyun\sdk\cdn\request\DomainConfig
+ * Class ModifyHttpHeaderConfig.
+ *
  * @method $this setDomainName($domain_name)
  * @method $this setHeaderKey($header_key)
  * @method $this setHeaderValue($header_value)

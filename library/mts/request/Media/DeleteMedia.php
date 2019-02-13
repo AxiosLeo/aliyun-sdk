@@ -13,8 +13,8 @@ use aliyun\sdk\mts\request\MtsCommon;
 use aliyun\sdk\core\traits\Request;
 
 /**
- * Class DeleteMedia
- * @package aliyun\sdk\mts\request\Media
+ * Class DeleteMedia.
+ *
  * @method $this setMediaIds($media_ids)
  */
 class DeleteMedia extends MtsCommon

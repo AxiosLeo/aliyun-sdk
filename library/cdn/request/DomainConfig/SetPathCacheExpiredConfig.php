@@ -13,8 +13,8 @@ use aliyun\sdk\cdn\request\CdnCommon;
 use aliyun\sdk\core\traits\Request;
 
 /**
- * Class SetPathCacheExpiredConfig
- * @package aliyun\sdk\cdn\request\DomainConfig
+ * Class SetPathCacheExpiredConfig.
+ *
  * @method $this setDomainName($domain_name)
  * @method $this setCacheContent($cache_content)
  * @method $this setTTL($ttl)

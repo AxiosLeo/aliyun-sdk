@@ -18,8 +18,7 @@ use aliyun\sdk\mts\request\MtsCommon;
 use aliyun\sdk\core\traits\Request;
 
 /**
- * Class UpdatePipeline
- * @package aliyun\sdk\mts\request\Pipeline
+ * Class UpdatePipeline.
  */
 class UpdatePipeline extends MtsCommon
 {

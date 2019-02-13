@@ -13,8 +13,8 @@ use aliyun\sdk\core\traits\Request;
 use aliyun\sdk\vod\request\VodCommon;
 
 /**
- * Class ListLiveRecordVideo
- * @package aliyun\sdk\vod\request\Video
+ * Class ListLiveRecordVideo.
+ *
  * @method $this setStreamName()
  * @method $this setDomainName()
  * @method $this setAppName()

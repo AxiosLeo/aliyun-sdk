@@ -13,8 +13,8 @@ use aliyun\sdk\cdn\request\CdnCommon;
 use aliyun\sdk\core\traits\Request;
 
 /**
- * Class DeleteCdnDomain
- * @package aliyun\sdk\cdn\request\DomainOperation
+ * Class DeleteCdnDomain.
+ *
  * @method $this setDomainName($DomainName)
  */
 class DeleteCdnDomain extends CdnCommon

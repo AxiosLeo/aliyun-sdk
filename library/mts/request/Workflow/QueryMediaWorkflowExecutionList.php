@@ -13,8 +13,8 @@ use aliyun\sdk\mts\request\MtsCommon;
 use aliyun\sdk\core\traits\Request;
 
 /**
- * Class QueryMediaWorkflowExecutionList
- * @package aliyun\sdk\mts\request\Workflow
+ * Class QueryMediaWorkflowExecutionList.
+ *
  * @method $this setRunIds($RunIds)
  */
 class QueryMediaWorkflowExecutionList extends MtsCommon

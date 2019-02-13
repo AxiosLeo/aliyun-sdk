@@ -13,8 +13,8 @@ use aliyun\sdk\cdn\request\CdnCommon;
 use aliyun\sdk\core\traits\Request;
 
 /**
- * Class DescribeTopDomainsByFlow
- * @package aliyun\sdk\cdn\request\data
+ * Class DescribeTopDomainsByFlow.
+ *
  * @method $this setLimit($limit)
  * @method $this setStartTime($StartTime)
  * @method $this setEndTime($EndTime)

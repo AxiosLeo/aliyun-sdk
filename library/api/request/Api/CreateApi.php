@@ -28,8 +28,7 @@ use aliyun\sdk\core\traits\param\GroupIdParamTrait;
 use aliyun\sdk\core\traits\Request;
 
 /**
- * Class CreateApi
- * @package aliyun\sdk\api\request\Api
+ * Class CreateApi.
  */
 class CreateApi extends APICommon
 {

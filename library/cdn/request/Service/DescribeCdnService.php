@@ -13,8 +13,7 @@ use aliyun\sdk\cdn\request\CdnCommon;
 use aliyun\sdk\core\traits\Request;
 
 /**
- * Class DescribeCdnService
- * @package aliyun\sdk\cdn\request\Service
+ * Class DescribeCdnService.
  */
 class DescribeCdnService extends CdnCommon
 {

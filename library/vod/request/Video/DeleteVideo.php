@@ -13,8 +13,8 @@ use aliyun\sdk\core\traits\Request;
 use aliyun\sdk\vod\request\VodCommon;
 
 /**
- * Class DeleteVideo
- * @package aliyun\sdk\vod\request\Video
+ * Class DeleteVideo.
+ *
  * @method $this setVideoIds($video_ids)
  */
 class DeleteVideo extends VodCommon

@@ -8,13 +8,13 @@
  */
 
 namespace aliyun\sdk\ecs\traits;
+
 /**
- * Trait RegionIdParam
- * @package aliyun\sdk\ecs\traits
+ * Trait RegionIdParam.
+ *
  * @method $this setRegionId($region_id)
- * @method getRegionId()
+ * @method       getRegionId()
  */
 trait RegionIdParam
 {
-
 }

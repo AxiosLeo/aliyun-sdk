@@ -13,10 +13,10 @@ use aliyun\sdk\mts\request\MtsCommon;
 use aliyun\sdk\core\traits\Request;
 
 /**
- * Class QueryPipelineList
- * @package aliyun\sdk\mts\request\Pipeline
+ * Class QueryPipelineList.
+ *
  * @method $this setPipelineIds($PipelineIds)
- * @method getPipelineIds()
+ * @method       getPipelineIds()
  */
 class QueryPipelineList extends MtsCommon
 {

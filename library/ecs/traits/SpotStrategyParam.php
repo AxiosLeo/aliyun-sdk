@@ -10,24 +10,27 @@
 namespace aliyun\sdk\ecs\traits;
 
 /**
- * Trait SpotStrategyParam
- * @package aliyun\sdk\ecs\traits
+ * Trait SpotStrategyParam.
  */
 trait SpotStrategyParam
 {
     private $SpotStrategySelect = [
-        "NoSpot","SpotWithPriceLimit","SpotAsPriceGo"
+        'NoSpot', 'SpotWithPriceLimit', 'SpotAsPriceGo',
     ];
-    public function setSpotStrategy($SpotStrategy){
-        if(is_numeric($SpotStrategy) && isset($this->SpotStrategySelect[$SpotStrategy])){
+
+    public function setSpotStrategy($SpotStrategy)
+    {
+        if (is_numeric($SpotStrategy) && isset($this->SpotStrategySelect[$SpotStrategy])) {
             $SpotStrategy = $this->SpotStrategySelect[$SpotStrategy];
         }
 
-        $this->setParam("SpotStrategy",$SpotStrategy);
+        $this->setParam('SpotStrategy', $SpotStrategy);
+
         return $this;
     }
 
-    public function getSpotStrategy(){
-        return $this->params("SpotStrategy");
+    public function getSpotStrategy()
+    {
+        return $this->params('SpotStrategy');
     }
 }

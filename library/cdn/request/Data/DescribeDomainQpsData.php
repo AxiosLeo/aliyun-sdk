@@ -13,8 +13,8 @@ use aliyun\sdk\cdn\request\CdnCommon;
 use aliyun\sdk\core\traits\Request;
 
 /**
- * Class DescribeDomainQpsData
- * @package aliyun\sdk\cdn\request\data
+ * Class DescribeDomainQpsData.
+ *
  * @method $this setDomainName($DomainName)
  * @method $this setStartTime($StartTime)
  * @method $this setEndTime($EndTime)

@@ -29,8 +29,7 @@ use aliyun\sdk\core\traits\param\DescriptionParamTrait;
 use aliyun\sdk\core\traits\param\GroupIdParamTrait;
 
 /**
- * Class ModifyApi
- * @package aliyun\sdk\api\request\Api
+ * Class ModifyApi.
  */
 class ModifyApi extends APICommon
 {

@@ -14,8 +14,7 @@ use aliyun\sdk\core\traits\ClientTrait;
 
 /**
  * Class AlidnsClient
- * Api Document : https://help.aliyun.com/document_detail/29740.html
- * @package aliyun\sdk\alidns
+ * Api Document : https://help.aliyun.com/document_detail/29740.html.
  */
 class AlidnsClient extends AlidnsCommon
 {

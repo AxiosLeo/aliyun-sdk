@@ -13,8 +13,8 @@ use aliyun\sdk\cdn\request\CdnCommon;
 use aliyun\sdk\core\traits\Request;
 
 /**
- * Class DescribeRangeDataByLocateAndIspService
- * @package aliyun\sdk\cdn\request\data
+ * Class DescribeRangeDataByLocateAndIspService.
+ *
  * @method $this setDomainName($DomainName)
  * @method $this setStartTime($StartTime)
  * @method $this setEndTime($EndTime)

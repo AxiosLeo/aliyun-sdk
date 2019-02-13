@@ -20,8 +20,7 @@ use aliyun\sdk\core\traits\Request;
 use aliyun\sdk\mts\request\MtsCommon;
 
 /**
- * Class UpdateTemplate
- * @package aliyun\sdk\mts\Template
+ * Class UpdateTemplate.
  */
 class UpdateTemplate extends MtsCommon
 {

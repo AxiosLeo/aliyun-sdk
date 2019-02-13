@@ -16,11 +16,11 @@ class SlbCommon extends Request
 {
     public function __construct()
     {
-        $this->product = "slb";
+        $this->product = 'slb';
 
         parent::__construct();
 
-        $this->setParam("Version","2014-05-15");
+        $this->setParam('Version', '2014-05-15');
 
         $this->auth = false;
 

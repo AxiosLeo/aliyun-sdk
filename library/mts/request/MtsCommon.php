@@ -15,14 +15,14 @@ class MtsCommon extends Request
 {
     public function __construct()
     {
-        $this->product = "mts";
+        $this->product = 'mts';
 
         parent::__construct();
 
-        $this->setParam("Version","2014-06-18");
+        $this->setParam('Version', '2014-06-18');
 
         $this->locationServiceCode = $this->product;
 
-        $this->locationEndpointType = "openAPI";
+        $this->locationEndpointType = 'openAPI';
     }
 }

@@ -13,8 +13,8 @@ use aliyun\sdk\cdn\request\CdnCommon;
 use aliyun\sdk\core\traits\Request;
 
 /**
- * Class SetRefererConfig
- * @package aliyun\sdk\cdn\request\DomainConfig
+ * Class SetRefererConfig.
+ *
  * @method $this setDomainName($domain_name)
  * @method $this setReferType($refer_type)
  * @method $this setReferList($refer_list)

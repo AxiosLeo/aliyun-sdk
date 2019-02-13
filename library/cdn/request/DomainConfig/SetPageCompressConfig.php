@@ -13,8 +13,8 @@ use aliyun\sdk\cdn\request\CdnCommon;
 use aliyun\sdk\core\traits\Request;
 
 /**
- * Class SetPageCompressConfig
- * @package aliyun\sdk\cdn\request\DomainConfig
+ * Class SetPageCompressConfig.
+ *
  * @method $this setDomainName($domain_name)
  * @method $this setEnable($enable)
  */

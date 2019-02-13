@@ -10,25 +10,26 @@
 namespace aliyun\sdk\ecs\traits;
 
 /**
- * Trait UsageParam
- * @package aliyun\sdk\ecs\traits
+ * Trait UsageParam.
  */
 trait UsageParam
 {
-    public function setUsage($usage){
+    public function setUsage($usage)
+    {
         $options = [
-            "instance","none"
+            'instance', 'none',
         ];
 
-        if(is_numeric($usage)){
-            $usage = isset($options[$usage]) ? $options[$usage] : "none";
+        if (is_numeric($usage)) {
+            $usage = isset($options[$usage]) ? $options[$usage] : 'none';
         }
 
-        if(!in_array($usage,$options)){
-            $usage = "none";
+        if (!in_array($usage, $options)) {
+            $usage = 'none';
         }
 
-        $this->setParam("Usage",$usage);
+        $this->setParam('Usage', $usage);
+
         return $this;
     }
 }

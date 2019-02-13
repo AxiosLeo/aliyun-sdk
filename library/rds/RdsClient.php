@@ -14,8 +14,7 @@ use aliyun\sdk\rds\request\RdsCommon;
 
 /**
  * Class RdsClient
- * Api Document : https://help.aliyun.com/document_detail/26226.html
- * @package aliyun\sdk\rds
+ * Api Document : https://help.aliyun.com/document_detail/26226.html.
  */
 class RdsClient extends RdsCommon
 {

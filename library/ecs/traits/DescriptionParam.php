@@ -10,12 +10,11 @@
 namespace aliyun\sdk\ecs\traits;
 
 /**
- * Trait DescriptionParam
- * @package aliyun\sdk\ecs\traits
+ * Trait DescriptionParam.
+ *
  * @method $this setDescription($description)
- * @method getDescription()
+ * @method       getDescription()
  */
 trait DescriptionParam
 {
-
 }

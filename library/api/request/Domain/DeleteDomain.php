@@ -15,8 +15,7 @@ use aliyun\sdk\core\traits\param\GroupIdParamTrait;
 use aliyun\sdk\core\traits\Request;
 
 /**
- * Class DeleteDomain
- * @package aliyun\sdk\api\request\Domain
+ * Class DeleteDomain.
  */
 class DeleteDomain extends APICommon
 {

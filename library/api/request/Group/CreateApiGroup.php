@@ -15,8 +15,7 @@ use aliyun\sdk\core\traits\param\GroupNameParamTrait;
 use aliyun\sdk\core\traits\Request;
 
 /**
- * Class CreateApiGroup
- * @package aliyun\sdk\api\request\Group
+ * Class CreateApiGroup.
  */
 class CreateApiGroup extends APICommon
 {

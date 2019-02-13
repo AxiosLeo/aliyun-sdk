@@ -15,11 +15,11 @@ class CccCommon extends Request
 {
     public function __construct()
     {
-        $this->product = "ccc";
+        $this->product = 'ccc';
 
         parent::__construct();
 
-        $this->setParam("Version","2017-07-05");
+        $this->setParam('Version', '2017-07-05');
 
         $this->auth = false;
     }

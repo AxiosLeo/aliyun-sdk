@@ -14,8 +14,7 @@ use aliyun\sdk\mts\request\MtsCommon;
 use aliyun\sdk\core\traits\Request;
 
 /**
- * Class DeleteTemplate
- * @package aliyun\sdk\mts\request\Template
+ * Class DeleteTemplate.
  */
 class DeleteTemplate extends MtsCommon
 {

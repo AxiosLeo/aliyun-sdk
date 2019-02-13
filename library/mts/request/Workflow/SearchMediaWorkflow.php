@@ -15,8 +15,8 @@ use aliyun\sdk\mts\request\MtsCommon;
 use aliyun\sdk\core\traits\Request;
 
 /**
- * Class SearchMediaWorkflow
- * @package aliyun\sdk\mts\request\Workflow
+ * Class SearchMediaWorkflow.
+ *
  * @method $this setStateList($StateList)
  */
 class SearchMediaWorkflow extends MtsCommon

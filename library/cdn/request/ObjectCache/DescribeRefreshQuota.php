@@ -13,8 +13,7 @@ use aliyun\sdk\cdn\request\CdnCommon;
 use aliyun\sdk\core\traits\Request;
 
 /**
- * Class DescribeRefreshQuota
- * @package aliyun\sdk\cdn\request\ObjectCache
+ * Class DescribeRefreshQuota.
  */
 class DescribeRefreshQuota extends CdnCommon
 {

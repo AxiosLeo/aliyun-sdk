@@ -13,8 +13,8 @@ use aliyun\sdk\cdn\request\CdnCommon;
 use aliyun\sdk\core\traits\Request;
 
 /**
- * Class DeleteHttpHeaderConfig
- * @package aliyun\sdk\cdn\request\DomainConfig
+ * Class DeleteHttpHeaderConfig.
+ *
  * @method $this setDomainName($domain_name)
  * @method $this setConfigID($config_id)
  */

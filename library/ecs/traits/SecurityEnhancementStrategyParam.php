@@ -10,19 +10,22 @@
 namespace aliyun\sdk\ecs\traits;
 
 /**
- * Trait SecurityEnhancementStrategyParam
- * @package aliyun\sdk\ecs\traits
+ * Trait SecurityEnhancementStrategyParam.
+ *
  * @method getSecurityEnhancementStrategy()
  */
 trait SecurityEnhancementStrategyParam
 {
     /**
-     * @param boolean $bool
+     * @param bool $bool
+     *
      * @return $this
      */
-    public function setSecurityEnhancementStrategy($bool){
-        $bool = $bool ? "Active" : "Deactive";
-        $this->setParam("SecurityEnhancementStrategy",$bool);
+    public function setSecurityEnhancementStrategy($bool)
+    {
+        $bool = $bool ? 'Active' : 'Deactive';
+        $this->setParam('SecurityEnhancementStrategy', $bool);
+
         return $this;
     }
 }

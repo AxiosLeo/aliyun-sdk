@@ -10,21 +10,23 @@
 namespace aliyun\sdk\api\traits;
 
 /**
- * Trait AuthTypeParam
- * @package aliyun\sdk\api\traits
+ * Trait AuthTypeParam.
+ *
  * @method getAuthType()
  */
 trait AuthTypeParam
 {
-    public function setAuthType($auth_type){
-        if(!in_array(strtoupper($auth_type),["APP","ANONYMOUS","APPOPENID"])){
-            switch ($auth_type){
-                case 0:$auth_type = "APP";break;
-                case 1:$auth_type = "ANONYMOUS";break;
-                case 2:$auth_type = "APPOPENID";break;
+    public function setAuthType($auth_type)
+    {
+        if (!in_array(strtoupper($auth_type), ['APP', 'ANONYMOUS', 'APPOPENID'])) {
+            switch ($auth_type) {
+                case 0:$auth_type = 'APP'; break;
+                case 1:$auth_type = 'ANONYMOUS'; break;
+                case 2:$auth_type = 'APPOPENID'; break;
             }
         }
-        $this->setParam("AuthType",$auth_type);
+        $this->setParam('AuthType', $auth_type);
+
         return $this;
     }
 }

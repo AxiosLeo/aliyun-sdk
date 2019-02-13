@@ -13,8 +13,8 @@ use aliyun\sdk\cdn\request\CdnCommon;
 use aliyun\sdk\core\traits\Request;
 
 /**
- * Class SetSourceHostConfig
- * @package aliyun\sdk\cdn\request\DomainConfig
+ * Class SetSourceHostConfig.
+ *
  * @method $this setDomainName($domain_name)
  * @method $this setBackSrcDomain($back_src_domain)
  */

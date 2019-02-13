@@ -13,8 +13,8 @@ use aliyun\sdk\cdn\request\CdnCommon;
 use aliyun\sdk\core\traits\Request;
 
 /**
- * Class SetErrorPageConfig
- * @package aliyun\sdk\cdn\request\DomainConfig
+ * Class SetErrorPageConfig.
+ *
  * @method $this setDomainName($DomainName)
  * @method $this setPageType($page_type)
  * @method $this setCustomPageUrl($custom_page_url)

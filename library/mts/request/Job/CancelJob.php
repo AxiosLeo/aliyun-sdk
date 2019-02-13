@@ -14,8 +14,7 @@ use aliyun\sdk\core\traits\Request;
 use aliyun\sdk\mts\request\MtsCommon;
 
 /**
- * Class CancelJob
- * @package aliyun\sdk\mts\request\Job
+ * Class CancelJob.
  */
 class CancelJob extends MtsCommon
 {

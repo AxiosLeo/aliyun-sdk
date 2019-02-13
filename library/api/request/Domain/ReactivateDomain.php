@@ -15,8 +15,7 @@ use aliyun\sdk\core\traits\param\GroupIdParamTrait;
 use aliyun\sdk\core\traits\Request;
 
 /**
- * Class ReactivateDomain
- * @package aliyun\sdk\api\request\Domain
+ * Class ReactivateDomain.
  */
 class ReactivateDomain extends APICommon
 {

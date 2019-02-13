@@ -14,8 +14,7 @@ use aliyun\sdk\ecs\request\EcsCommon;
 
 /**
  * Class EcsClient
- * API Document : https://help.aliyun.com/document_detail/25485.html
- * @package aliyun\sdk\ecs
+ * API Document : https://help.aliyun.com/document_detail/25485.html.
  */
 class EcsClient extends EcsCommon
 {

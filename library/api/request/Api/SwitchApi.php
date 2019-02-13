@@ -18,8 +18,7 @@ use aliyun\sdk\core\traits\param\GroupIdParamTrait;
 use aliyun\sdk\core\traits\Request;
 
 /**
- * Class SwitchApi
- * @package aliyun\sdk\api\request\Api
+ * Class SwitchApi.
  */
 class SwitchApi extends APICommon
 {

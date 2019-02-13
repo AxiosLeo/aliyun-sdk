@@ -15,8 +15,7 @@ use aliyun\sdk\mts\request\MtsCommon;
 use aliyun\sdk\core\traits\Request;
 
 /**
- * Class AddWaterMarkTemplate
- * @package aliyun\sdk\mts\request\Template
+ * Class AddWaterMarkTemplate.
  */
 class AddWaterMarkTemplate extends MtsCommon
 {

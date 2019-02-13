@@ -14,8 +14,7 @@ use aliyun\sdk\mts\request\MtsCommon;
 use aliyun\sdk\core\traits\Request;
 
 /**
- * Class BindOutputBucket
- * @package aliyun\sdk\mts\request\Bucket
+ * Class BindOutputBucket.
  */
 class BindOutputBucket extends MtsCommon
 {

@@ -10,12 +10,11 @@
 namespace aliyun\sdk\api\traits;
 
 /**
- * Trait FailResultSampleParam
- * @package aliyun\sdk\api\traits
+ * Trait FailResultSampleParam.
+ *
  * @method $this setFailResultSample($fail_result_sample)
- * @method getFailResultSample()
+ * @method       getFailResultSample()
  */
 trait FailResultSampleParam
 {
-
 }

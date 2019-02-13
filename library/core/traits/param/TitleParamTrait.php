@@ -10,12 +10,11 @@
 namespace aliyun\sdk\core\traits\param;
 
 /**
- * Trait TitleParamTrait
- * @package aliyun\sdk\core\traits\param
+ * Trait TitleParamTrait.
+ *
  * @method $this setTitle($title)
- * @method getTitle()
+ * @method       getTitle()
  */
 trait TitleParamTrait
 {
-
 }

@@ -28,7 +28,7 @@ class Aliyun
     /**
      * @param string $accessKeyId
      * @param string $accessSecret
-     * @param null $security_token
+     * @param null   $security_token
      */
     public static function auth($accessKeyId = '', $accessSecret = '', $security_token = null)
     {
@@ -36,7 +36,7 @@ class Aliyun
 
         self::$access_key_id  = $accessKeyId;
         self::$access_secret  = $accessSecret;
-        self::$security_token = is_null($security_token) ? md5("SignatureNonce" . uniqid(md5(microtime(true)), true)) : $security_token;
+        self::$security_token = is_null($security_token) ? md5('SignatureNonce' . uniqid(md5(microtime(true)), true)) : $security_token;
 
         if (empty(Endpoints::all())) {
             $xml_file_content = file_get_contents(ALIYUN_SDK_PATH . '/endpoints.xml');
@@ -68,6 +68,7 @@ class Aliyun
     public static function region($region_id = null)
     {
         self::$region_id = is_null($region_id) ? self::$region_id : $region_id;
+
         return self::$region_id;
     }
 
@@ -76,6 +77,7 @@ class Aliyun
         if (!is_null($response)) {
             self::$response = $response;
         }
+
         return self::$response;
     }
 

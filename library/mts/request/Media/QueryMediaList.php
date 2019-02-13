@@ -16,8 +16,8 @@ use aliyun\sdk\mts\request\MtsCommon;
 use aliyun\sdk\core\traits\Request;
 
 /**
- * Class QueryMediaList
- * @package aliyun\sdk\mts\request\Media
+ * Class QueryMediaList.
+ *
  * @method $this setMediaIds($media_ids)
  */
 class QueryMediaList extends MtsCommon

@@ -13,8 +13,8 @@ use aliyun\sdk\cdn\request\CdnCommon;
 use aliyun\sdk\core\traits\Request;
 
 /**
- * Class DescribeIpInfo
- * @package aliyun\sdk\cdn\request\data
+ * Class DescribeIpInfo.
+ *
  * @method $this setIP($ip)
  */
 class DescribeIpInfo extends CdnCommon

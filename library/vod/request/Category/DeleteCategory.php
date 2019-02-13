@@ -13,8 +13,8 @@ use aliyun\sdk\core\traits\Request;
 use aliyun\sdk\vod\request\VodCommon;
 
 /**
- * Class DeleteCategory
- * @package aliyun\sdk\vod\request\Category
+ * Class DeleteCategory.
+ *
  * @method $this setCateId($cate_id)
  */
 class DeleteCategory extends VodCommon

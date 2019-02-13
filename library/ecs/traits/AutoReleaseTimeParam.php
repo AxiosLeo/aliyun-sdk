@@ -10,12 +10,11 @@
 namespace aliyun\sdk\ecs\traits;
 
 /**
- * Trait AutoReleaseTimeParam
- * @package aliyun\sdk\ecs\traits
+ * Trait AutoReleaseTimeParam.
+ *
  * @method $this setAutoReleaseTime($auto_release_time)
- * @method getAutoReleaseTime()
+ * @method       getAutoReleaseTime()
  */
 trait AutoReleaseTimeParam
 {
-
 }

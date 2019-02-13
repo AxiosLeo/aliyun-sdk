@@ -14,8 +14,7 @@ use aliyun\sdk\core\traits\ClientTrait;
 
 /**
  * Class ArmsClient
- * Api Document : https://help.aliyun.com/document_detail/53727.html
- * @package aliyun\sdk\arms
+ * Api Document : https://help.aliyun.com/document_detail/53727.html.
  */
 class ArmsClient extends ArmsCommon
 {
