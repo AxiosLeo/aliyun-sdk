@@ -17,15 +17,18 @@
 composer require axios/aliyun-sdk
 ```
 
-
 ## Development Plan
 
 * OSS -> Base on aliyun/aliyun-oss-php-sdk
 * SMS -> base on flc/dysms
-* other by generator
+* [other services -> generate by code generator ](https://github.com/AxiosCros/aliyun-sdk/tree/master/library/services)
 * ......
 
+
 ## How To Use
+
+  > [aliyun-sdk/example](https://github.com/AxiosCros/aliyun-sdk/tree/master/example)
+  
 * require composer autoload
 
 ```php
