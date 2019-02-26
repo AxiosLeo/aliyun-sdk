@@ -8,6 +8,7 @@
 
 namespace aliyun\sdk\core\exception;
 
+
 class ClientException extends \Exception
 {
     public function __construct($errorMessage, $errorCode)
@@ -15,7 +16,7 @@ class ClientException extends \Exception
         parent::__construct($errorMessage);
         $this->errorMessage = $errorMessage;
         $this->errorCode    = $errorCode;
-        $this->setErrorType('Client');
+        $this->setErrorType("Client");
     }
 
     private $errorCode;

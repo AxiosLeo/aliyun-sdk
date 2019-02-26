@@ -10,11 +10,12 @@
 namespace aliyun\sdk\core\traits\param;
 
 /**
- * Trait RoleParamTrait.
- *
+ * Trait RoleParamTrait
+ * @package aliyun\sdk\core\traits\param
  * @method $this setRole($Role)
- * @method       getRole()
+ * @method getRole()
  */
 trait RoleParamTrait
 {
+
 }

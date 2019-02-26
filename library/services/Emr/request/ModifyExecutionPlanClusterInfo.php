@@ -1,0 +1,61 @@
+<?php
+namespace aliyun\sdk\services\Emr\request;
+
+use aliyun\sdk\services\Emr\EmrCommon;
+
+/**
+ * @method $this setAccessKeyId($AccessKeyId)
+ * @method string getAccessKeyId()
+ * @method $this setRegionId($RegionId)
+ * @method string getRegionId()
+ * @method $this setClusterId($ClusterId)
+ * @method string getClusterId()
+ * @method $this setClusterName($ClusterName)
+ * @method string getClusterName()
+ * @method $this setZoneId($ZoneId)
+ * @method string getZoneId()
+ * @method $this setLogEnable($LogEnable)
+ * @method boolean getLogEnable()
+ * @method $this setLogPath($LogPath)
+ * @method string getLogPath()
+ * @method $this setSecurityGroupId($SecurityGroupId)
+ * @method string getSecurityGroupId()
+ * @method $this setIsOpenPublicIp($IsOpenPublicIp)
+ * @method boolean getIsOpenPublicIp()
+ * @method $this setCreateClusterOnDemand($CreateClusterOnDemand)
+ * @method boolean getCreateClusterOnDemand()
+ * @method $this setEmrVer($EmrVer)
+ * @method string getEmrVer()
+ * @method $this setOptionSoftWareList($OptionSoftWareList)
+ * @method array getOptionSoftWareList()
+ * @method $this setClusterType($ClusterType)
+ * @method string getClusterType()
+ * @method $this setHighAvailabilityEnable($HighAvailabilityEnable)
+ * @method boolean getHighAvailabilityEnable()
+ * @method $this setUseLocalMetaDb($UseLocalMetaDb)
+ * @method boolean getUseLocalMetaDb()
+ * @method $this setVpcId($VpcId)
+ * @method string getVpcId()
+ * @method $this setVSwitchId($VSwitchId)
+ * @method string getVSwitchId()
+ * @method $this setNetType($NetType)
+ * @method string getNetType()
+ * @method $this setIoOptimized($IoOptimized)
+ * @method boolean getIoOptimized()
+ * @method $this setInstanceGeneration($InstanceGeneration)
+ * @method string getInstanceGeneration()
+ * @method $this setEasEnable($EasEnable)
+ * @method boolean getEasEnable()
+ * @method $this setEcsOrder($EcsOrder)
+ * @method array getEcsOrder()
+ * @method $this setBootstrapAction($BootstrapAction)
+ * @method array getBootstrapAction()
+ * @method $this setConfigurations($Configurations)
+ * @method string getConfigurations()
+ * @method $this setId($Id)
+ * @method string getId()
+ */
+final class ModifyExecutionPlanClusterInfo extends EmrCommon
+{
+    public $action = 'ModifyExecutionPlanClusterInfo';
+}

@@ -10,27 +10,24 @@
 namespace aliyun\sdk\core\traits\param;
 
 /**
- * Trait TransConfigParamTrait.
+ * Trait TransConfigParamTrait
+ * @package aliyun\sdk\core\traits\param
  */
 trait TransConfigParamTrait
 {
     /**
      * @param array $trans_config
-     *
      * @return $this
      */
-    public function setTransConfig($trans_config)
-    {
-        $this->setParam('TransConfig', \aliyun\sdk\core\help\Parse::arrayToJson($trans_config));
-
+    public function setTransConfig($trans_config){
+        $this->setParam("TransConfig",\aliyun\sdk\core\help\Parse::arrayToJson($trans_config));
         return $this;
     }
 
     /**
      * @return array
      */
-    public function getTransConfig()
-    {
-        return \aliyun\sdk\core\help\Parse::jsonToArray($this->params('TransConfig'));
+    public function getTransConfig(){
+        return \aliyun\sdk\core\help\Parse::jsonToArray($this->params("TransConfig"));
     }
 }

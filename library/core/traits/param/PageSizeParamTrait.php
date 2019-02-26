@@ -10,11 +10,12 @@
 namespace aliyun\sdk\core\traits\param;
 
 /**
- * Trait PageSizeParamTrait.
- *
+ * Trait PageSizeParamTrait
+ * @package aliyun\sdk\core\traits\param
  * @method $this setPageSize($PageSize)
- * @method       getPageSize()
+ * @method getPageSize()
  */
 trait PageSizeParamTrait
 {
+
 }

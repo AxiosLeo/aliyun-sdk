@@ -10,11 +10,12 @@
 namespace aliyun\sdk\core\traits\param;
 
 /**
- * Trait TagParamTrait.
- *
+ * Trait TagParamTrait
+ * @package aliyun\sdk\core\traits\param
  * @method $this setTag($tag)
- * @method       getTag()
+ * @method getTag()
  */
 trait TagParamTrait
 {
+
 }

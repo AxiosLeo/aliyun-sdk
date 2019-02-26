@@ -10,11 +10,12 @@
 namespace aliyun\sdk\core\traits\param;
 
 /**
- * Trait ParentIdParamTrait.
- *
+ * Trait ParentIdParamTrait
+ * @package aliyun\sdk\core\traits\param
  * @method $this setParentId($parent_id)
- * @method       getParentId()
+ * @method getParentId()
  */
 trait ParentIdParamTrait
 {
+
 }

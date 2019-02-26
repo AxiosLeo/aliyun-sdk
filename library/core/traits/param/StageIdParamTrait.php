@@ -10,11 +10,12 @@
 namespace aliyun\sdk\core\traits\param;
 
 /**
- * Trait StageIdParamTrait.
- *
+ * Trait StageIdParamTrait
+ * @package aliyun\sdk\core\traits\param
  * @method $this setStageId($stage_id)
- * @method       getStageId()
+ * @method getStageId()
  */
 trait StageIdParamTrait
 {
+
 }

@@ -10,11 +10,12 @@
 namespace aliyun\sdk\core\traits\param;
 
 /**
- * Trait AnalysisJobIdsParamTrait.
- *
+ * Trait AnalysisJobIdsParamTrait
+ * @package aliyun\sdk\core\traits\param
  * @method $this setAnalysisJobIds($AnalysisJobIds)
- * @method       getAnalysisJobIds()
+ * @method getAnalysisJobIds()
  */
 trait AnalysisJobIdsParamTrait
 {
+
 }

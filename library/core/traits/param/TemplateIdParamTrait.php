@@ -10,11 +10,12 @@
 namespace aliyun\sdk\core\traits\param;
 
 /**
- * Trait TemplateIdParamTrait.
- *
+ * Trait TemplateIdParamTrait
+ * @package aliyun\sdk\core\traits\param
  * @method $this setTemplateId($TemplateId)
- * @method       getTemplateId()
+ * @method getTemplateId()
  */
 trait TemplateIdParamTrait
 {
+
 }
