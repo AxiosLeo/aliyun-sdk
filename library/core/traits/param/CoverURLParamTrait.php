@@ -10,11 +10,12 @@
 namespace aliyun\sdk\core\traits\param;
 
 /**
- * Trait CoverURLParamTrait.
- *
+ * Trait CoverURLParamTrait
+ * @package aliyun\sdk\core\traits\param
  * @method $this setCoverURL($cover_url)
- * @method       getCoverURL()
+ * @method getCoverURL()
  */
 trait CoverURLParamTrait
 {
+
 }

@@ -10,11 +10,12 @@
 namespace aliyun\sdk\core\traits\param;
 
 /**
- * Trait DomainNameParamTrait.
- *
+ * Trait DomainNameParamTrait
+ * @package aliyun\sdk\core\traits\param
  * @method $this setDomainName($domain_name)
- * @method       getDomainName()
+ * @method getDomainName()
  */
 trait DomainNameParamTrait
 {
+
 }

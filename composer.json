@@ -1,7 +1,7 @@
 {
   "name": "axios/aliyun-sdk",
   "description": "SDK for aliyun service development",
-  "version": "0.5.9",
+  "version": "1.0.0",
   "keywords": [
     "aliyun",
     "aliyun-service",
@@ -32,5 +32,10 @@
     "psr-4": {
       "aliyun\\sdk\\": "library"
     }
+  },
+  "archive": {
+    "exclude": [
+      "./library/services"
+    ]
   }
 }

@@ -8,6 +8,7 @@
 
 namespace aliyun\sdk\core\traits;
 
+
 trait ClientTrait
 {
     /**

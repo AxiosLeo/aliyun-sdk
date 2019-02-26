@@ -10,11 +10,12 @@
 namespace aliyun\sdk\core\traits\param;
 
 /**
- * Trait OutputLocationParamTrait.
- *
+ * Trait OutputLocationParamTrait
+ * @package aliyun\sdk\core\traits\param
  * @method $this setOutputLocation($OutputLocation)
- * @method       getOutputLocation()
+ * @method getOutputLocation()
  */
 trait OutputLocationParamTrait
 {
+
 }

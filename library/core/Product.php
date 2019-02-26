@@ -20,7 +20,7 @@ class Product
         $product_name = strtolower($product_name);
         if (!isset(self::$products[$product_name])) {
             self::$products[$product_name][$region_id] = $domain_name;
-        } elseif (!isset(self::$products[$product_name][$region_id])) {
+        } else if (!isset(self::$products[$product_name][$region_id])) {
             self::$products[$product_name][$region_id] = $domain_name;
         }
     }

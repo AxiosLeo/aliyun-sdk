@@ -10,11 +10,12 @@
 namespace aliyun\sdk\core\traits\param;
 
 /**
- * Trait PriorityParamTrait.
- *
+ * Trait PriorityParamTrait
+ * @package aliyun\sdk\core\traits\param
  * @method $this setPriority($Priority)
- * @method       getPriority()
+ * @method getPriority()
  */
 trait PriorityParamTrait
 {
+
 }
