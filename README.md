@@ -20,13 +20,9 @@ composer require axios/aliyun-sdk
 
 ## Development Plan
 
-* VOD -> Done
-* CDN -> Done
 * OSS -> Base on aliyun/aliyun-oss-php-sdk
 * SMS -> base on flc/dysms
-* MTS -> Done
-* ECS -> in development
-* APIGateway -> in development
+* other by generator
 * ......
 
 ## How To Use
@@ -54,8 +50,8 @@ $access_secret = "testAccessKeySecret";
 * Request
 
 ```php
-$response = \aliyun\sdk\vod\Vod::GetCategories()
-    ->setCateId(-1)
+$request =new GetCategories();
+$response = $request->setCateId(-1)
     ->setPageNo(4)
     ->setPageSize(10)
     ->request();
