@@ -53,14 +53,14 @@ $access_secret = "testAccessKeySecret";
 * Request
 
 ```php
-$request =new GetCategories();
+$request = new GetCategories();
 $response = $request->setCateId(-1)
     ->setPageNo(4)
     ->setPageSize(10)
     ->request();
 
 // Or Request like this
-$request = \aliyun\sdk\vod\Vod::GetCategories();
+$request = new GetCategories();
 $request->setCateId(-1);
 $request->setPageNo(4);
 $request->setPageSize(10)
