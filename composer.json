@@ -19,23 +19,13 @@
     "issues": "https://github.com/AxiosCros/aliyun-sdk/issues"
   },
   "require": {
-    "php": ">=7.0",
-    "guzzlehttp/guzzle": "^6.3",
-    "aliyuncs/oss-sdk-php": "~2.0",
-    "flc/dysms": "^1.0",
-    "axios/api-tool": "^1.1"
+    "php": ">=7.1",
+    "axios/aliyun-sdk-core": "^1.0.0"
   },
-  "require-dev": {
-    "composer/composer": "1.0.*@dev"
-  },
+  "require-dev": {},
   "autoload": {
     "psr-4": {
-      "aliyun\\sdk\\": "library"
+      "aliyun\\sdk\\services\\": "services"
     }
-  },
-  "archive": {
-    "exclude": [
-      "./library/services"
-    ]
   }
 }
