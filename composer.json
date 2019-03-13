@@ -19,7 +19,7 @@
   },
   "require": {
     "php": ">=7.1",
-    "axios/aliyun-sdk-core": "^1.0.0"
+    "axios/aliyun-sdk-core": "^1.0"
   },
   "require-dev": {},
   "autoload": {
