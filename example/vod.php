@@ -15,6 +15,6 @@ require_once __DIR__ . '/base.php';
 \aliyun\sdk\Aliyun::region('cn-shanghai');
 
 $request  = new GetCategories();
-$response = $request->setCateId(-1)->req();
+$response = $request->setCateId(-1)->request();
 
 dump($response->getContent());
