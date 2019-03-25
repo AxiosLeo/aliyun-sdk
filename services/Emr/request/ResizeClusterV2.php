@@ -12,6 +12,10 @@ use aliyun\sdk\services\Emr\EmrCommon;
  * @method string getClusterId()
  * @method $this setVswitchId($VswitchId)
  * @method string getVswitchId()
+ * @method $this setIsOpenPublicIp($IsOpenPublicIp)
+ * @method boolean getIsOpenPublicIp()
+ * @method $this setHostComponentInfo($HostComponentInfo)
+ * @method array getHostComponentInfo()
  * @method $this setHostGroup($HostGroup)
  * @method array getHostGroup()
  */

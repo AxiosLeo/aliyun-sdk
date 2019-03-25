@@ -30,6 +30,8 @@ use aliyun\sdk\services\Vod\VodCommon;
  * @method string getWorkflowId()
  * @method $this setStorageLocation($StorageLocation)
  * @method string getStorageLocation()
+ * @method $this setCustomMediaInfo($CustomMediaInfo)
+ * @method string getCustomMediaInfo()
  */
 final class CreateUploadVideo extends VodCommon
 {

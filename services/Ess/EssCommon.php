@@ -1,7 +1,7 @@
 <?php
 namespace aliyun\sdk\services\Ess;
 
-use aliyun\sdk\core\http\Request;
+use aliyun\sdk\core\lib\Request;
 
 class EssCommon extends Request
 {

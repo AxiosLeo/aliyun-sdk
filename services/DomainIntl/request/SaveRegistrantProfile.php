@@ -34,6 +34,10 @@ use aliyun\sdk\services\DomainIntl\DomainIntlCommon;
  * @method string getTelephone()
  * @method $this setTelExt($TelExt)
  * @method string getTelExt()
+ * @method $this setRegistrantType($RegistrantType)
+ * @method string getRegistrantType()
+ * @method $this setRegistrantProfileType($RegistrantProfileType)
+ * @method string getRegistrantProfileType()
  */
 final class SaveRegistrantProfile extends DomainIntlCommon
 {

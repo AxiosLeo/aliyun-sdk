@@ -34,6 +34,10 @@ use aliyun\sdk\services\Rds\RdsCommon;
  * @method string getPrivateIpAddress()
  * @method $this setResourceGroupId($ResourceGroupId)
  * @method string getResourceGroupId()
+ * @method $this setCategory($Category)
+ * @method string getCategory()
+ * @method $this setDBInstanceStorageType($DBInstanceStorageType)
+ * @method string getDBInstanceStorageType()
  */
 final class CreateReadOnlyDBInstance extends RdsCommon
 {

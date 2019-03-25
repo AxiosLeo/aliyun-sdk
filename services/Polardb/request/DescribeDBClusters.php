@@ -16,6 +16,8 @@ use aliyun\sdk\services\Polardb\PolardbCommon;
  * @method string getDBClusterStatus()
  * @method $this setDBType($DBType)
  * @method string getDBType()
+ * @method $this setTag($Tag)
+ * @method array getTag()
  * @method $this setPageSize($PageSize)
  * @method integer getPageSize()
  * @method $this setPageNumber($PageNumber)

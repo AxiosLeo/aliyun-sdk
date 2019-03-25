@@ -20,6 +20,12 @@ use aliyun\sdk\services\DomainIntl\DomainIntlCommon;
  * @method integer getPageSize()
  * @method $this setEmail($Email)
  * @method string getEmail()
+ * @method $this setRegistrantProfileType($RegistrantProfileType)
+ * @method string getRegistrantProfileType()
+ * @method $this setRegistrantType($RegistrantType)
+ * @method string getRegistrantType()
+ * @method $this setRealNameStatus($RealNameStatus)
+ * @method string getRealNameStatus()
  */
 final class QueryRegistrantProfiles extends DomainIntlCommon
 {

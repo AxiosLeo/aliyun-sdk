@@ -1,7 +1,7 @@
 <?php
 namespace aliyun\sdk\services\ARMS;
 
-use aliyun\sdk\core\http\Request;
+use aliyun\sdk\core\lib\Request;
 
 class ARMSCommon extends Request
 {

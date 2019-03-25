@@ -8,10 +8,8 @@ use aliyun\sdk\services\NAS\NASCommon;
  * @method string getFsId()
  * @method $this setFsDesc($FsDesc)
  * @method string getFsDesc()
- * @method $this setBandwidth($Bandwidth)
- * @method integer getBandwidth()
- * @method $this setCapacity($Capacity)
- * @method integer getCapacity()
+ * @method $this setLdapUrl($LdapUrl)
+ * @method string getLdapUrl()
  */
 final class CPFSModifyFileSystem extends NASCommon
 {

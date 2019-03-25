@@ -14,8 +14,6 @@ use aliyun\sdk\services\Rds\RdsCommon;
  * @method string getEngine()
  * @method $this setZoneId($ZoneId)
  * @method string getZoneId()
- * @method $this setResourceGroupId($ResourceGroupId)
- * @method string getResourceGroupId()
  * @method $this setDBInstanceStatus($DBInstanceStatus)
  * @method string getDBInstanceStatus()
  * @method $this setExpired($Expired)

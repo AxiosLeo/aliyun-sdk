@@ -50,6 +50,10 @@ use aliyun\sdk\services\CloudAPI\CloudAPICommon;
  * @method string getWebSocketApiType()
  * @method $this setResultBodyModel($ResultBodyModel)
  * @method string getResultBodyModel()
+ * @method $this setForceNonceCheck($ForceNonceCheck)
+ * @method boolean getForceNonceCheck()
+ * @method $this setDisableInternet($DisableInternet)
+ * @method boolean getDisableInternet()
  */
 final class CreateApi extends CloudAPICommon
 {

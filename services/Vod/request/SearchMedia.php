@@ -20,6 +20,8 @@ use aliyun\sdk\services\Vod\VodCommon;
  * @method string getScrollToken()
  * @method $this setSessionId($SessionId)
  * @method string getSessionId()
+ * @method $this setResultTypes($ResultTypes)
+ * @method string getResultTypes()
  */
 final class SearchMedia extends VodCommon
 {

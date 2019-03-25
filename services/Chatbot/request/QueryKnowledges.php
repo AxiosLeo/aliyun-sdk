@@ -12,6 +12,8 @@ use aliyun\sdk\services\Chatbot\ChatbotCommon;
  * @method integer getPageNumber()
  * @method $this setPageSize($PageSize)
  * @method integer getPageSize()
+ * @method $this setCategoryId($CategoryId)
+ * @method integer getCategoryId()
  */
 final class QueryKnowledges extends ChatbotCommon
 {

@@ -16,6 +16,8 @@ use aliyun\sdk\services\Emr\EmrCommon;
  * @method array getStatusList()
  * @method $this setIsDesc($IsDesc)
  * @method boolean getIsDesc()
+ * @method $this setDepositType($DepositType)
+ * @method string getDepositType()
  * @method $this setPageNumber($PageNumber)
  * @method integer getPageNumber()
  * @method $this setPageSize($PageSize)

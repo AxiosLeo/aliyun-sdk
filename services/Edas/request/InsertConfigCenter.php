@@ -12,6 +12,8 @@ use aliyun\sdk\services\Edas\EdasCommon;
  * @method string getData()
  * @method $this setLogicalRegionId($LogicalRegionId)
  * @method string getLogicalRegionId()
+ * @method $this setAppName($AppName)
+ * @method string getAppName()
  */
 final class InsertConfigCenter extends EdasCommon
 {

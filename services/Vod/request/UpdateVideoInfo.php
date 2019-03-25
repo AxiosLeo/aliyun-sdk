@@ -16,6 +16,12 @@ use aliyun\sdk\services\Vod\VodCommon;
  * @method string getCoverURL()
  * @method $this setCateId($CateId)
  * @method integer getCateId()
+ * @method $this setDownloadSwitch($DownloadSwitch)
+ * @method string getDownloadSwitch()
+ * @method $this setStatus($Status)
+ * @method string getStatus()
+ * @method $this setCustomMediaInfo($CustomMediaInfo)
+ * @method string getCustomMediaInfo()
  */
 final class UpdateVideoInfo extends VodCommon
 {

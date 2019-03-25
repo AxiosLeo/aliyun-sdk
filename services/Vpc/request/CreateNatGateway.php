@@ -18,6 +18,14 @@ use aliyun\sdk\services\Vpc\VpcCommon;
  * @method string getSpec()
  * @method $this setBandwidthPackage($BandwidthPackage)
  * @method array getBandwidthPackage()
+ * @method $this setInstanceChargeType($InstanceChargeType)
+ * @method string getInstanceChargeType()
+ * @method $this setPricingCycle($PricingCycle)
+ * @method string getPricingCycle()
+ * @method $this setDuration($Duration)
+ * @method string getDuration()
+ * @method $this setAutoPay($AutoPay)
+ * @method boolean getAutoPay()
  */
 final class CreateNatGateway extends VpcCommon
 {

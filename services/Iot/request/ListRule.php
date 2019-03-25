@@ -6,6 +6,8 @@ use aliyun\sdk\services\Iot\IotCommon;
 /**
  * @method $this setAccessKeyId($AccessKeyId)
  * @method string getAccessKeyId()
+ * @method $this setIotInstanceId($IotInstanceId)
+ * @method string getIotInstanceId()
  * @method $this setCurrentPage($CurrentPage)
  * @method integer getCurrentPage()
  * @method $this setPageSize($PageSize)

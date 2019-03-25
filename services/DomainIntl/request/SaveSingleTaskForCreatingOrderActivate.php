@@ -56,6 +56,8 @@ use aliyun\sdk\services\DomainIntl\DomainIntlCommon;
  * @method string getPromotionNo()
  * @method $this setUsePromotion($UsePromotion)
  * @method boolean getUsePromotion()
+ * @method $this setRegistrantType($RegistrantType)
+ * @method string getRegistrantType()
  */
 final class SaveSingleTaskForCreatingOrderActivate extends DomainIntlCommon
 {

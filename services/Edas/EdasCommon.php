@@ -1,7 +1,7 @@
 <?php
 namespace aliyun\sdk\services\Edas;
 
-use aliyun\sdk\core\http\Request;
+use aliyun\sdk\core\lib\Request;
 
 class EdasCommon extends Request
 {

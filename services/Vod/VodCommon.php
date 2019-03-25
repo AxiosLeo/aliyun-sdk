@@ -1,7 +1,7 @@
 <?php
 namespace aliyun\sdk\services\Vod;
 
-use aliyun\sdk\core\http\Request;
+use aliyun\sdk\core\lib\Request;
 
 class VodCommon extends Request
 {

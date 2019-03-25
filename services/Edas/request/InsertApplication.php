@@ -24,6 +24,12 @@ use aliyun\sdk\services\Edas\EdasCommon;
  * @method string getHealthCheckURL()
  * @method $this setLogicalRegionId($LogicalRegionId)
  * @method string getLogicalRegionId()
+ * @method $this setJdk($Jdk)
+ * @method string getJdk()
+ * @method $this setWebContainer($WebContainer)
+ * @method string getWebContainer()
+ * @method $this setPackageType($PackageType)
+ * @method string getPackageType()
  */
 final class InsertApplication extends EdasCommon
 {

@@ -18,6 +18,8 @@ use aliyun\sdk\services\Vpc\VpcCommon;
  * @method string getInternalPort()
  * @method $this setIpProtocol($IpProtocol)
  * @method string getIpProtocol()
+ * @method $this setForwardEntryName($ForwardEntryName)
+ * @method string getForwardEntryName()
  * @method $this setRegionId($RegionId)
  * @method string getRegionId()
  */

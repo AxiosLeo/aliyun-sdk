@@ -56,6 +56,8 @@ use aliyun\sdk\services\Emr\EmrCommon;
  * @method string getKeyPairName()
  * @method $this setUserInfo($UserInfo)
  * @method array getUserInfo()
+ * @method $this setHostComponentInfo($HostComponentInfo)
+ * @method array getHostComponentInfo()
  * @method $this setDepositType($DepositType)
  * @method string getDepositType()
  * @method $this setMachineType($MachineType)

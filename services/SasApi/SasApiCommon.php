@@ -1,7 +1,7 @@
 <?php
 namespace aliyun\sdk\services\SasApi;
 
-use aliyun\sdk\core\http\Request;
+use aliyun\sdk\core\lib\Request;
 
 class SasApiCommon extends Request
 {

@@ -10,6 +10,8 @@ use aliyun\sdk\services\Vpc\VpcCommon;
  * @method string getNatGatewayId()
  * @method $this setSpec($Spec)
  * @method string getSpec()
+ * @method $this setAutoPay($AutoPay)
+ * @method boolean getAutoPay()
  * @method $this setClientToken($ClientToken)
  * @method string getClientToken()
  */

@@ -58,6 +58,8 @@ use aliyun\sdk\services\Ess\EssCommon;
  * @method string getSecurityGroupId()
  * @method $this setOverride($Override)
  * @method boolean getOverride()
+ * @method $this setResourceGroupId($ResourceGroupId)
+ * @method string getResourceGroupId()
  */
 final class ModifyScalingConfiguration extends EssCommon
 {

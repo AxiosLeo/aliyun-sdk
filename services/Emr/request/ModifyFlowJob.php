@@ -24,6 +24,8 @@ use aliyun\sdk\services\Emr\EmrCommon;
  * @method string getParams()
  * @method $this setParamConf($ParamConf)
  * @method string getParamConf()
+ * @method $this setCustomVariables($CustomVariables)
+ * @method string getCustomVariables()
  * @method $this setEnvConf($EnvConf)
  * @method string getEnvConf()
  * @method $this setRunConf($RunConf)

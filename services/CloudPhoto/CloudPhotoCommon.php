@@ -1,7 +1,7 @@
 <?php
 namespace aliyun\sdk\services\CloudPhoto;
 
-use aliyun\sdk\core\http\Request;
+use aliyun\sdk\core\lib\Request;
 
 class CloudPhotoCommon extends Request
 {

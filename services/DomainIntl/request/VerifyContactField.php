@@ -30,6 +30,10 @@ use aliyun\sdk\services\DomainIntl\DomainIntlCommon;
  * @method string getTelephone()
  * @method $this setTelExt($TelExt)
  * @method string getTelExt()
+ * @method $this setDomainName($DomainName)
+ * @method string getDomainName()
+ * @method $this setRegistrantType($RegistrantType)
+ * @method string getRegistrantType()
  */
 final class VerifyContactField extends DomainIntlCommon
 {

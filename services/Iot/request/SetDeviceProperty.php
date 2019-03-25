@@ -6,6 +6,8 @@ use aliyun\sdk\services\Iot\IotCommon;
 /**
  * @method $this setAccessKeyId($AccessKeyId)
  * @method string getAccessKeyId()
+ * @method $this setIotInstanceId($IotInstanceId)
+ * @method string getIotInstanceId()
  * @method $this setIotId($IotId)
  * @method string getIotId()
  * @method $this setDeviceName($DeviceName)

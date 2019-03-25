@@ -8,6 +8,8 @@ use aliyun\sdk\services\Vpc\VpcCommon;
  * @method string getRegionId()
  * @method $this setRouteTableId($RouteTableId)
  * @method string getRouteTableId()
+ * @method $this setRouteEntryId($RouteEntryId)
+ * @method string getRouteEntryId()
  * @method $this setDestinationCidrBlock($DestinationCidrBlock)
  * @method string getDestinationCidrBlock()
  * @method $this setNextHopId($NextHopId)

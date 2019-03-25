@@ -64,6 +64,8 @@ use aliyun\sdk\services\Ess\EssCommon;
  * @method array getSpotPriceLimit()
  * @method $this setPassword($Password)
  * @method string getPassword()
+ * @method $this setResourceGroupId($ResourceGroupId)
+ * @method string getResourceGroupId()
  */
 final class CreateScalingConfiguration extends EssCommon
 {

@@ -8,8 +8,6 @@ use aliyun\sdk\services\Rds\RdsCommon;
  * @method string getAccessKeyId()
  * @method $this setDBInstanceId($DBInstanceId)
  * @method string getDBInstanceId()
- * @method $this setSQLId($SQLId)
- * @method integer getSQLId()
  * @method $this setSQLHASH($SQLHASH)
  * @method string getSQLHASH()
  * @method $this setStartTime($StartTime)

@@ -4,6 +4,8 @@ namespace aliyun\sdk\services\Ecs\request;
 use aliyun\sdk\services\Ecs\EcsCommon;
 
 /**
+ * @method $this setSourceRegionId($SourceRegionId)
+ * @method string getSourceRegionId()
  * @method $this setInstanceChargeType($InstanceChargeType)
  * @method string getInstanceChargeType()
  * @method $this setResourceType($ResourceType)

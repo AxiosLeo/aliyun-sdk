@@ -1,7 +1,7 @@
 <?php
 namespace aliyun\sdk\services\Live;
 
-use aliyun\sdk\core\http\Request;
+use aliyun\sdk\core\lib\Request;
 
 class LiveCommon extends Request
 {

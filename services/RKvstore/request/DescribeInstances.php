@@ -40,6 +40,8 @@ use aliyun\sdk\services\RKvstore\RKvstoreCommon;
  * @method string getExpired()
  * @method $this setZoneId($ZoneId)
  * @method string getZoneId()
+ * @method $this setTags($Tags)
+ * @method string getTags()
  */
 final class DescribeInstances extends RKvstoreCommon
 {

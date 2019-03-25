@@ -8,6 +8,8 @@ use aliyun\sdk\services\Aegis\AegisCommon;
  * @method string getSourceIp()
  * @method $this setLang($Lang)
  * @method string getLang()
+ * @method $this setStrategyIds($StrategyIds)
+ * @method string getStrategyIds()
  */
 final class DescribeStratety extends AegisCommon
 {

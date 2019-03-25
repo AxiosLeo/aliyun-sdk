@@ -10,6 +10,8 @@ use aliyun\sdk\services\Slb\SlbCommon;
  * @method string getLoadBalancerId()
  * @method $this setListenerPort($ListenerPort)
  * @method integer getListenerPort()
+ * @method $this setProtocol($Protocol)
+ * @method string getProtocol()
  * @method $this setaccess_key_id($access_key_id)
  * @method string getaccess_key_id()
  * @method $this setTags($Tags)

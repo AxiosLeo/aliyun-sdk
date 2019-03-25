@@ -18,6 +18,8 @@ use aliyun\sdk\services\BssOpenApi\BssOpenApiCommon;
  * @method integer getPageNum()
  * @method $this setPageSize($PageSize)
  * @method integer getPageSize()
+ * @method $this setIsHideZeroCharge($IsHideZeroCharge)
+ * @method boolean getIsHideZeroCharge()
  */
 final class QueryInstanceBill extends BssOpenApiCommon
 {

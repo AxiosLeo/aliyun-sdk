@@ -38,6 +38,12 @@ use aliyun\sdk\services\Eci\EciCommon;
  * @method float getCpu()
  * @method $this setMemory($Memory)
  * @method float getMemory()
+ * @method $this setResourceGroupId($ResourceGroupId)
+ * @method string getResourceGroupId()
+ * @method $this setDnsPolicy($DnsPolicy)
+ * @method string getDnsPolicy()
+ * @method $this setClientToken($ClientToken)
+ * @method string getClientToken()
  */
 final class CreateContainerGroup extends EciCommon
 {

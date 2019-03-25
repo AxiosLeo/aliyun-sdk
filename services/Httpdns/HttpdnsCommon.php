@@ -1,7 +1,7 @@
 <?php
 namespace aliyun\sdk\services\Httpdns;
 
-use aliyun\sdk\core\http\Request;
+use aliyun\sdk\core\lib\Request;
 
 class HttpdnsCommon extends Request
 {

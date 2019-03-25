@@ -6,8 +6,6 @@ use aliyun\sdk\services\Vod\VodCommon;
 /**
  * @method $this setAccessKeyId($AccessKeyId)
  * @method string getAccessKeyId()
- * @method $this setResourceRealOwnerId($ResourceRealOwnerId)
- * @method integer getResourceRealOwnerId()
  * @method $this setTranscodeTemplateGroupId($TranscodeTemplateGroupId)
  * @method string getTranscodeTemplateGroupId()
  */

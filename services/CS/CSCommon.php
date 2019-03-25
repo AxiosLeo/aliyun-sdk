@@ -1,7 +1,7 @@
 <?php
 namespace aliyun\sdk\services\CS;
 
-use aliyun\sdk\core\http\Request;
+use aliyun\sdk\core\lib\Request;
 
 class CSCommon extends Request
 {

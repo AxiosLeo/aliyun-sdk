@@ -42,6 +42,8 @@ use aliyun\sdk\services\Ess\EssCommon;
  * @method array getVServerGroup()
  * @method $this setScalingPolicy($ScalingPolicy)
  * @method string getScalingPolicy()
+ * @method $this setClientToken($ClientToken)
+ * @method string getClientToken()
  */
 final class CreateScalingGroup extends EssCommon
 {

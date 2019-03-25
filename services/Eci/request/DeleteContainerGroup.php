@@ -8,6 +8,8 @@ use aliyun\sdk\services\Eci\EciCommon;
  * @method string getRegionId()
  * @method $this setContainerGroupId($ContainerGroupId)
  * @method string getContainerGroupId()
+ * @method $this setClientToken($ClientToken)
+ * @method string getClientToken()
  */
 final class DeleteContainerGroup extends EciCommon
 {

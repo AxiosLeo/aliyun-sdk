@@ -1,7 +1,7 @@
 <?php
 namespace aliyun\sdk\services\Dds;
 
-use aliyun\sdk\core\http\Request;
+use aliyun\sdk\core\lib\Request;
 
 class DdsCommon extends Request
 {

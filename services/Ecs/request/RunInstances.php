@@ -4,6 +4,8 @@ namespace aliyun\sdk\services\Ecs\request;
 use aliyun\sdk\services\Ecs\EcsCommon;
 
 /**
+ * @method $this setSourceRegionId($SourceRegionId)
+ * @method string getSourceRegionId()
  * @method $this setRegionId($RegionId)
  * @method string getRegionId()
  * @method $this setImageId($ImageId)
@@ -108,6 +110,12 @@ use aliyun\sdk\services\Ecs\EcsCommon;
  * @method integer getIpv6AddressCount()
  * @method $this setDeletionProtection($DeletionProtection)
  * @method boolean getDeletionProtection()
+ * @method $this setHibernationConfigured($HibernationConfigured)
+ * @method boolean getHibernationConfigured()
+ * @method $this setCapacityReservationId($CapacityReservationId)
+ * @method string getCapacityReservationId()
+ * @method $this setCapacityReservationPreference($CapacityReservationPreference)
+ * @method string getCapacityReservationPreference()
  */
 final class RunInstances extends EcsCommon
 {

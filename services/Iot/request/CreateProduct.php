@@ -6,6 +6,8 @@ use aliyun\sdk\services\Iot\IotCommon;
 /**
  * @method $this setAccessKeyId($AccessKeyId)
  * @method string getAccessKeyId()
+ * @method $this setIotInstanceId($IotInstanceId)
+ * @method string getIotInstanceId()
  * @method $this setProductName($ProductName)
  * @method string getProductName()
  * @method $this setNodeType($NodeType)
@@ -24,6 +26,8 @@ use aliyun\sdk\services\Iot\IotCommon;
  * @method string getProtocolType()
  * @method $this setNetType($NetType)
  * @method string getNetType()
+ * @method $this setJoinPermissionId($JoinPermissionId)
+ * @method string getJoinPermissionId()
  */
 final class CreateProduct extends IotCommon
 {

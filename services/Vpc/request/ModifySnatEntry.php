@@ -12,6 +12,8 @@ use aliyun\sdk\services\Vpc\VpcCommon;
  * @method string getSnatEntryId()
  * @method $this setSnatIp($SnatIp)
  * @method string getSnatIp()
+ * @method $this setSnatEntryName($SnatEntryName)
+ * @method string getSnatEntryName()
  */
 final class ModifySnatEntry extends VpcCommon
 {

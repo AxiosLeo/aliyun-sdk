@@ -8,8 +8,6 @@ use aliyun\sdk\services\RKvstore\RKvstoreCommon;
  * @method string getAccessKeyId()
  * @method $this setSecurityToken($SecurityToken)
  * @method string getSecurityToken()
- * @method $this setRegionId($RegionId)
- * @method string getRegionId()
  * @method $this setInstanceId($InstanceId)
  * @method string getInstanceId()
  */
