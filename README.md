@@ -115,13 +115,15 @@ class Example
 
 ``` php
 
-/*** @var Request $Action ** */
-$Action = Example::client();
-$Action->method("POST");
-$response = $Action->params("key", "value")
+$request = Example::client();
+
+$request->method("POST");
+
+$response = $request->params("key", "value")
     ->headers("header_name", "header_content")
     ->options("guzzle_option_name", "option_value")
     ->request();
+
 $result   = $response->getContent();
 
 ```
