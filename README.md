@@ -53,18 +53,10 @@ $access_secret = "testAccessKeySecret";
 * Request
 
 ```php
-$request = new GetCategories();
-$response = $request->setCateId(-1)
-    ->setPageNo(4)
-    ->setPageSize(10)
-    ->request();
 
-// Or Request like this
-$request = new GetCategories();
-$request->setCateId(-1);
-$request->setPageNo(4);
-$request->setPageSize(10)
-$response = $request->request();
+$response = Vod::V20170321()->GetCategories()
+    ->setCateId(-1)
+    ->request();
 ```
 
 * Get Response Content
@@ -78,17 +70,30 @@ dump($response->getContent());
 ```php
 use aliyun\sdk\vod\request\VodCommon;
 
-class Example extends VodCommon {
-    public function doSomething(){
-        //setting Action
-        $this->setActionName("action_name");
-        
-        //setting parameter
-        $this->setParam("param_name","param_value");
-        
-        return $this->request();
-    }
+class Example extends ProductAbstract {
+
+     protected $product = "<ProductName>";
+
+     protected $service_code = "<ProductServiceCode>";
+
+     protected $credential = "<Credential>";
+
+     protected $version = "<VersionDate>";
+
+     public static functino client(){
+          $product                = new self($version);
+          self::$client[$version] = new Client();
+          self::$client[$version]->init($product);
+     }
 }
+```
+
+``` php
+
+$response = Example::client()->ActionName()->params($key, $value)
+    ->request(CredentialsInterface $credential);
+
+$result = $response->getContent();
 ```
 
 ## License
