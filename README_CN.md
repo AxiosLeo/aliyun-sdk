@@ -1,4 +1,4 @@
-[English](./REAME.md) | 简体中文
+[English](./README.md) | 简体中文
 
 > 阿里云服务 SDK 集合，支持 composer 扩展
 
