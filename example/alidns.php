@@ -10,13 +10,14 @@ namespace aliyun\sdk\example;
 
 require_once __DIR__ . '/base.php';
 
-use \aliyun\sdk\services\Alidns\request\DescribeDomains;
+use aliyun\sdk\Aliyun;
+use aliyun\sdk\services\Alidns;
 
-\aliyun\sdk\Aliyun::region('cn-hangzhou');
+Aliyun::region('cn-hangzhou');
 
-$request = new DescribeDomains();
-$request->setParam('PageNumber', 1);
-$request->setParam('PageSize', 15);
-$response = $request->request();
+$response = Alidns::V20150109()->DescribeDomains()
+    ->setPageNumber(1)
+    ->setPageSize(15)
+    ->request();
 
 dump($response->getContent());

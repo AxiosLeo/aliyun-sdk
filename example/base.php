@@ -39,4 +39,3 @@ require_once __DIR__ . '/../vendor/autoload.php';
 $access_id     = 'testAccessKeyId';
 $access_secret = 'testAccessKeySecret';
 
-\aliyun\sdk\Aliyun::auth($access_id, $access_secret);

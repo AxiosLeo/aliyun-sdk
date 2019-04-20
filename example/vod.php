@@ -8,13 +8,15 @@
 
 namespace aliyun\sdk\example;
 
-use aliyun\sdk\services\Vod\request\GetCategories;
+use aliyun\sdk\Aliyun;
+use aliyun\sdk\services\Vod;
 
 require_once __DIR__ . '/base.php';
 
-\aliyun\sdk\Aliyun::region('cn-shanghai');
+Aliyun::region('cn-shanghai');
 
-$request  = new GetCategories();
-$response = $request->setCateId(-1)->request();
+$response = Vod::V20170321()->GetCategories()
+    ->setCateId(-1)
+    ->request();
 
 dump($response->getContent());

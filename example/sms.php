@@ -8,9 +8,11 @@
 
 namespace aliyun\sdk\example;
 
+use aliyun\sdk\clients\Sms;
+
 require_once __DIR__ . '/base.php';
 
-$response = \aliyun\sdk\clients\Sms::factory()
+$response = Sms::factory()
     ->setPhoneNumbers('17712345678')
     ->setTemplateCode('SMS_1201234567')
     ->setSignName('SignName')

@@ -8,12 +8,13 @@
 
 namespace aliyun\sdk\example;
 
-use aliyun\sdk\services\Mts\request\ListMedia;
+use aliyun\sdk\Aliyun;
+use aliyun\sdk\services\Mts;
 
 require_once __DIR__ . '/base.php';
 
-\aliyun\sdk\Aliyun::region('cn-hongkong');
+Aliyun::region('cn-hongkong');
 
-$result = new ListMedia();
+$response = Mts::V20180528()->ListMedia()->request();
 
-dump($result);
+dump($response->getContent());

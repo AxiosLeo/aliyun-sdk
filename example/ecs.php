@@ -8,16 +8,12 @@
 
 namespace aliyun\sdk\example;
 
-use aliyun\sdk\services\Ecs\request\DescribeInstances;
+use aliyun\sdk\services\Ecs;
 
 require_once __DIR__ . '/base.php';
 
-$request = new DescribeInstances();
+$response = Ecs::V20140526()->DescribeInstances()
+    ->setRegionId('cn-shenzhen')
+    ->request();
 
-$result = $request->setRegionId('cn-shenzhen')->request()->getContent();
-dump($result);
-
-$request = new DescribeInstances();
-$request->setParam('RegionId', 'cn-shenzhen');
-$response = $request->request();
 dump($response->getContent());
