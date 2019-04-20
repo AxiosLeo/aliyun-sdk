@@ -19,7 +19,7 @@
   },
   "require": {
     "php": ">=7.1",
-    "axios/aliyun-sdk-core": "^2.0",
+    "axios/aliyun-sdk-core": "^2.0.1",
     "aliyuncs/oss-sdk-php": "~2.0",
     "flc/dysms": "^1.0"
   },

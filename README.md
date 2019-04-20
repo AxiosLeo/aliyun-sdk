@@ -68,22 +68,26 @@ dump($response->getContent());
 ## Customized Request
 
 ```php
-namespace aliyun\sdk\example;
 
-use aliyun\sdk\core\lib\ProductAbstract;
+use aliyun\sdk\core\lib\Request;
 
-class Example extends ProductAbstract
+class Example
 {
 
-    protected $product = "<ProductName>";
+    protected static $product = "<ProductName>";
 
-    protected $service_code = "<ProductServiceCode>";
+    protected static $service_code = "<ProductServiceCode>";
 
-    protected $credential = "<Credential>";
+    /**
+     * @var string
+     * @example \aliyun\sdk\core\credentials\AccessKeyCredential
+     * @example AccessKeyCredential
+     */
+    protected static $credential = "<Credential>";
 
-    protected $version = "<VersionDate>";
+    protected static $version = "<VersionDate>";
 
-    protected $endpoints = [
+    protected static $endpoints = [
         "regions"  => [],
         "public"   => [],
         "internal" => []
@@ -92,39 +96,32 @@ class Example extends ProductAbstract
     /**
      * @param $action
      *
-     * @return Action
+     * @return Request
      */
     public static function client($action = null)
     {
-        $product = new self();
-
-        $Action = new Action(
-            $product->productId(),
-            $product->endpoints(),
-            $product->versionDate(),
-            $action,
-            $product->serviceCode()
-        );
-
-        return $Action;
+        $request = new Request();
+        $request->product(self::$product);
+        $request->version(self::$version);
+        $request->action($action);
+        $request->endpoints(self::$endpoints);
+        $request->credential(self::$credential);
+        $request->serviceCode(self::$service_code);
+        return $request;
     }
 }
+
 ```
 
 ``` php
 
-/*** @var Action $Action ** */
+/*** @var Request $Action ** */
 $Action = Example::client();
 $Action->method("POST");
 $response = $Action->params("key", "value")
     ->headers("header_name", "header_content")
-    ->options("http_errors", false)
-    ->options("connect_timeout", 30)
-    ->options("read_timeout", 80)
-    ->options("urlencode", 1)
-    ->options("format", 'json')  //array|json|xml
-    ->options("another guzzlehttp options", "option content")
-    ->request(CredentialsInterface $credentials = null);
+    ->options("guzzle_option_name", "option_value")
+    ->request();
 $result   = $response->getContent();
 
 ```
