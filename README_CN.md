@@ -1,6 +1,6 @@
 [English](./REAME.md) | 简体中文
 
-> 阿里云服务 SDK ，支持 composer 扩展
+> 阿里云服务 SDK 集合，支持 composer 扩展
 
 [![Latest Stable Version](https://poser.pugx.org/axios/aliyun-sdk/v/stable)](https://packagist.org/packages/axios/aliyun-sdk)
 [![License](https://poser.pugx.org/axios/aliyun-sdk/license)](https://packagist.org/packages/axios/aliyun-sdk)
@@ -30,7 +30,7 @@ composer require axios/aliyun-sdk
 
   > [aliyun-sdk/example](https://github.com/AxiosCros/aliyun-sdk/tree/master/example)
 
-* 引用 composer 的的自动加载文件
+* 引用 composer 自动加载文件
 
 ```php
 require_once __DIR__. "/../vendor/autoload.php";
