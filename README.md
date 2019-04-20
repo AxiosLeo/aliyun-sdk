@@ -68,32 +68,65 @@ dump($response->getContent());
 ## Customized Request
 
 ```php
-use aliyun\sdk\vod\request\VodCommon;
+namespace aliyun\sdk\example;
 
-class Example extends ProductAbstract {
+use aliyun\sdk\core\lib\ProductAbstract;
 
-     protected $product = "<ProductName>";
+class Example extends ProductAbstract
+{
 
-     protected $service_code = "<ProductServiceCode>";
+    protected $product = "<ProductName>";
 
-     protected $credential = "<Credential>";
+    protected $service_code = "<ProductServiceCode>";
 
-     protected $version = "<VersionDate>";
+    protected $credential = "<Credential>";
 
-     public static functino client(){
-          $product                = new self($version);
-          self::$client[$version] = new Client();
-          self::$client[$version]->init($product);
-     }
+    protected $version = "<VersionDate>";
+
+    protected $endpoints = [
+        "regions"  => [],
+        "public"   => [],
+        "internal" => []
+    ];
+
+    /**
+     * @param $action
+     *
+     * @return Action
+     */
+    public static function client($action = null)
+    {
+        $product = new self();
+
+        $Action = new Action(
+            $product->productId(),
+            $product->endpoints(),
+            $product->versionDate(),
+            $action,
+            $product->serviceCode()
+        );
+
+        return $Action;
+    }
 }
 ```
 
 ``` php
 
-$response = Example::client()->ActionName()->params($key, $value)
-    ->request(CredentialsInterface $credential);
+/*** @var Action $Action ** */
+$Action = Example::client();
+$Action->method("POST");
+$response = $Action->params("key", "value")
+    ->headers("header_name", "header_content")
+    ->options("http_errors", false)
+    ->options("connect_timeout", 30)
+    ->options("read_timeout", 80)
+    ->options("urlencode", 1)
+    ->options("format", 'json')  //array|json|xml
+    ->options("another guzzlehttp options", "option content")
+    ->request(CredentialsInterface $credentials = null);
+$result   = $response->getContent();
 
-$result = $response->getContent();
 ```
 
 ## License
