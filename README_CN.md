@@ -5,7 +5,7 @@
 [![Latest Stable Version](https://poser.pugx.org/axios/aliyun-sdk/v/stable)](https://packagist.org/packages/axios/aliyun-sdk)
 [![License](https://poser.pugx.org/axios/aliyun-sdk/license)](https://packagist.org/packages/axios/aliyun-sdk)
 
-> [Aliyun Cloud OSS official documentation center](https://help.aliyun.com/)
+> [阿里云官方文档中心](https://help.aliyun.com/)
 
 > QQ 群：521797692
 

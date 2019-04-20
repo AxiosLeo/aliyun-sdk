@@ -5,7 +5,7 @@ English | [简体中文](./README_CN.md)
 [![Latest Stable Version](https://poser.pugx.org/axios/aliyun-sdk/v/stable)](https://packagist.org/packages/axios/aliyun-sdk)
 [![License](https://poser.pugx.org/axios/aliyun-sdk/license)](https://packagist.org/packages/axios/aliyun-sdk)
 
-> [Aliyun Cloud OSS official documentation center](https://help.aliyun.com/)
+> [Aliyun Cloud official documentation center](https://help.aliyun.com/)
 
 > QQ Group：521797692
 
