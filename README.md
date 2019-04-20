@@ -10,7 +10,7 @@ English | [简体中文](./README_CN.md)
 > QQ Group：521797692
 
 ## Env
-- PHP 7.0+.
+- PHP 7.1+.
 - CURL extension.
 
 ## Install
