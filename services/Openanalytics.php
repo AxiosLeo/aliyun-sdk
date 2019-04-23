@@ -16,7 +16,7 @@ class Openanalytics extends ProductAbstract
 
     protected $product = "openanalytics";
 
-    protected $service_code = "openanalytics";
+    protected $service_code = "";
 
     protected $credential = "AccessKeyCredential";
 

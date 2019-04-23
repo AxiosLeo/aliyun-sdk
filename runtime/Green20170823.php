@@ -69,6 +69,7 @@ use aliyun\sdk\core\lib\Request;
  * @method DescribeImageFromLib DescribeImageFromLib()
  * @method UpgradeCdiBaseBag UpgradeCdiBaseBag()
  * @method UpdateOssCallbackSetting UpdateOssCallbackSetting()
+ * @method DescribeViewContent DescribeViewContent()
  * @method DescribeAuditContentItem DescribeAuditContentItem()
  * @method DeleteImageFromLib DeleteImageFromLib()
  * @method DescribeCustomOcrTemplate DescribeCustomOcrTemplate()
@@ -236,6 +237,8 @@ class DescribeKeywordLib extends Request
  * @method string getSeed()
  * @method $this setCallback($callback)
  * @method string getCallback()
+ * @method $this setAuditRange($auditRange)
+ * @method string getAuditRange()
  */
 class UpdateAuditSetting extends Request
 {
@@ -939,6 +942,12 @@ class RefundWebSiteInstance extends Request
  * @method int getCurrentPage()
  * @method $this setImageLibId($imageLibId)
  * @method int getImageLibId()
+ * @method $this setId($id)
+ * @method int getId()
+ * @method $this setStartDate($startDate)
+ * @method string getStartDate()
+ * @method $this setEndDate($endDate)
+ * @method string getEndDate()
  */
 class DescribeImageFromLib extends Request
 {
@@ -975,6 +984,43 @@ class UpgradeCdiBaseBag extends Request
  * @method string getCallbackSeed()
  */
 class UpdateOssCallbackSetting extends Request
+{
+
+}/**
+ * @method $this setTotalCount($totalCount)
+ * @method int getTotalCount()
+ * @method $this setPageSize($pageSize)
+ * @method int getPageSize()
+ * @method $this setCurrentPage($currentPage)
+ * @method int getCurrentPage()
+ * @method $this setStartDate($startDate)
+ * @method string getStartDate()
+ * @method $this setEndDate($endDate)
+ * @method string getEndDate()
+ * @method $this setScene($scene)
+ * @method string getScene()
+ * @method $this setSuggestion($suggestion)
+ * @method string getSuggestion()
+ * @method $this setLabel($label)
+ * @method string getLabel()
+ * @method $this setTaskId($taskId)
+ * @method string getTaskId()
+ * @method $this setDataId($dataId)
+ * @method string getDataId()
+ * @method $this setBizType($bizType)
+ * @method string getBizType()
+ * @method $this setAuditResult($auditResult)
+ * @method string getAuditResult()
+ * @method $this setResourceType($resourceType)
+ * @method string getResourceType()
+ * @method $this setImageId($imageId)
+ * @method string getImageId()
+ * @method $this setKeywordId($keywordId)
+ * @method string getKeywordId()
+ * @method $this setLibType($libType)
+ * @method string getLibType()
+ */
+class DescribeViewContent extends Request
 {
 
 }/**
@@ -1137,6 +1183,12 @@ class VerifyEmail extends Request
  * @method string getAuditResult()
  * @method $this setResourceType($resourceType)
  * @method string getResourceType()
+ * @method $this setImageId($imageId)
+ * @method string getImageId()
+ * @method $this setKeywordId($keywordId)
+ * @method string getKeywordId()
+ * @method $this setLibType($libType)
+ * @method string getLibType()
  */
 class DescribeAuditContent extends Request
 {

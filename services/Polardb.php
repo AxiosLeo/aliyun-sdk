@@ -17,7 +17,7 @@ class Polardb extends ProductAbstract
 
     protected $product = "polardb";
 
-    protected $service_code = "polardb";
+    protected $service_code = "";
 
     protected $credential = "AccessKeyCredential";
 

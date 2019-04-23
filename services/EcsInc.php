@@ -17,7 +17,7 @@ class EcsInc extends ProductAbstract
 
     protected $product = "EcsInc";
 
-    protected $service_code = "ecs";
+    protected $service_code = "";
 
     protected $credential = "AccessKeyCredential";
 

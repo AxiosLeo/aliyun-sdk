@@ -28,7 +28,7 @@ class Cms extends ProductAbstract
 
     protected $product = "Cms";
 
-    protected $service_code = "cms";
+    protected $service_code = "";
 
     protected $credential = "AccessKeyCredential";
 

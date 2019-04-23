@@ -18,7 +18,7 @@ class Cds extends ProductAbstract
 
     protected $product = "Cds";
 
-    protected $service_code = "cds";
+    protected $service_code = "";
 
     protected $credential = "AccessKeyCredential";
 

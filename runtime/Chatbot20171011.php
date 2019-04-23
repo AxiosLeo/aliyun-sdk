@@ -46,6 +46,7 @@ use aliyun\sdk\core\lib\Request;
  * @method PublishKnowledge PublishKnowledge()
  * @method QueryCoreWords QueryCoreWords()
  * @method QueryBots QueryBots()
+ * @method GetDashboardData GetDashboardData()
  * @method QueryIntents QueryIntents()
  * @method ActivatePerspective ActivatePerspective()
  * @method UpdateEntity UpdateEntity()
@@ -425,6 +426,23 @@ class QueryCoreWords extends Request
  * @method int getPageSize()
  */
 class QueryBots extends Request
+{
+
+}/**
+ * @method $this setCubeId($cubeId)
+ * @method string getCubeId()
+ * @method $this setMeasures($measures)
+ * @method string getMeasures()
+ * @method $this setDimensions($dimensions)
+ * @method string getDimensions()
+ * @method $this setFilters($filters)
+ * @method string getFilters()
+ * @method $this setOrders($orders)
+ * @method string getOrders()
+ * @method $this setLimit($limit)
+ * @method int getLimit()
+ */
+class GetDashboardData extends Request
 {
 
 }/**

@@ -9,6 +9,7 @@ use aliyun\sdk\core\lib\Request;
  *
  * @package aliyun\sdk\services\Drds20190123
  * @method ModifyDrdsIpWhiteList ModifyDrdsIpWhiteList()
+ * @method DescribeStorageInstanceSubDbInfo DescribeStorageInstanceSubDbInfo()
  * @method DescribeInstanceAccounts DescribeInstanceAccounts()
  * @method RestartDrdsInstance RestartDrdsInstance()
  * @method DescribeRdsCommodity DescribeRdsCommodity()
@@ -31,6 +32,7 @@ use aliyun\sdk\core\lib\Request;
  * @method DescribeDrdsDBs DescribeDrdsDBs()
  * @method DescribeBackupPolicy DescribeBackupPolicy()
  * @method DescribeDrdsShardingDbs DescribeDrdsShardingDbs()
+ * @method DescribeDrdsSqlAuditStatus DescribeDrdsSqlAuditStatus()
  * @method RemoveDrdsInstance RemoveDrdsInstance()
  * @method CreateShardTask CreateShardTask()
  * @method DescribeDrdsDbInstances DescribeDrdsDbInstances()
@@ -40,6 +42,7 @@ use aliyun\sdk\core\lib\Request;
  * @method DescribeRestoreOrder DescribeRestoreOrder()
  * @method SubmitSwitchTask SubmitSwitchTask()
  * @method GetSrcRdsList GetSrcRdsList()
+ * @method DescribeDrdsDbRdsNameList DescribeDrdsDbRdsNameList()
  * @method DescribeDrdsInstance DescribeDrdsInstance()
  * @method StartRestore StartRestore()
  * @method SubmitSmoothExpandTask SubmitSmoothExpandTask()
@@ -80,6 +83,7 @@ use aliyun\sdk\core\lib\Request;
  * @method EnableSqlAudit EnableSqlAudit()
  * @method FlashbackRecycleBinTable FlashbackRecycleBinTable()
  * @method DescribeInstDbLogInfo DescribeInstDbLogInfo()
+ * @method ResetDrdsToRdsConnections ResetDrdsToRdsConnections()
  * @method CheckDrdsDbName CheckDrdsDbName()
  * @method DescribeDrdsDBIpWhiteList DescribeDrdsDBIpWhiteList()
  * @method DisableSqlAudit DisableSqlAudit()
@@ -121,6 +125,7 @@ use aliyun\sdk\core\lib\Request;
  * @method SetupDrdsParams SetupDrdsParams()
  * @method ModifyAccountPrivilege ModifyAccountPrivilege()
  * @method DescribeRecycleBinStatus DescribeRecycleBinStatus()
+ * @method SwitchGlobalBroadcastType SwitchGlobalBroadcastType()
  * @method RemoveRecycleBinTable RemoveRecycleBinTable()
  * @method CheckRdsSuperAccount CheckRdsSuperAccount()
  * @method ListTagResources ListTagResources()
@@ -149,6 +154,19 @@ class V20190123
  * @method string getGroupAttribute()
  */
 class ModifyDrdsIpWhiteList extends Request
+{
+
+}/**
+ * @method $this setDrdsInstanceId($drdsInstanceId)
+ * @method string getDrdsInstanceId()
+ * @method $this setDbName($dbName)
+ * @method string getDbName()
+ * @method $this setInstanceId($instanceId)
+ * @method string getInstanceId()
+ * @method $this setInstType($instType)
+ * @method string getInstType()
+ */
+class DescribeStorageInstanceSubDbInfo extends Request
 {
 
 }/**
@@ -202,6 +220,8 @@ class DescribeDrdsSlowSqls extends Request
  * @method string getDrdsInstanceId()
  * @method $this setDbName($dbName)
  * @method string getDbName()
+ * @method $this setTaskType($taskType)
+ * @method string getTaskType()
  */
 class DescribeDrdsDbTasks extends Request
 {
@@ -364,6 +384,10 @@ class DescribeSrcRdsList extends Request
  * @method string getType()
  * @method $this setTag($tag)
  * @method array getTag()
+ * @method $this setDescription($description)
+ * @method string getDescription()
+ * @method $this setExpired($expired)
+ * @method bool getExpired()
  */
 class DescribeDrdsInstances extends Request
 {
@@ -395,6 +419,13 @@ class DescribeBackupPolicy extends Request
  * @method string getDbNamePattern()
  */
 class DescribeDrdsShardingDbs extends Request
+{
+
+}/**
+ * @method $this setDrdsInstanceId($drdsInstanceId)
+ * @method string getDrdsInstanceId()
+ */
+class DescribeDrdsSqlAuditStatus extends Request
 {
 
 }/**
@@ -519,6 +550,15 @@ class GetSrcRdsList extends Request
 }/**
  * @method $this setDrdsInstanceId($drdsInstanceId)
  * @method string getDrdsInstanceId()
+ * @method $this setDbName($dbName)
+ * @method string getDbName()
+ */
+class DescribeDrdsDbRdsNameList extends Request
+{
+
+}/**
+ * @method $this setDrdsInstanceId($drdsInstanceId)
+ * @method string getDrdsInstanceId()
  */
 class DescribeDrdsInstance extends Request
 {
@@ -549,8 +589,8 @@ class StartRestore extends Request
  * @method array getTransferTaskInfos()
  * @method $this setRdsSuperInstances($rdsSuperInstances)
  * @method array getRdsSuperInstances()
- * @method $this setUseCreatingRDS($useCreatingRDS)
- * @method bool getUseCreatingRDS()
+ * @method $this setDbInstanceIsCreating($dbInstanceIsCreating)
+ * @method bool getDbInstanceIsCreating()
  */
 class SubmitSmoothExpandTask extends Request
 {
@@ -1024,6 +1064,15 @@ class DescribeInstDbLogInfo extends Request
  * @method $this setDbName($dbName)
  * @method string getDbName()
  */
+class ResetDrdsToRdsConnections extends Request
+{
+
+}/**
+ * @method $this setDrdsInstanceId($drdsInstanceId)
+ * @method string getDrdsInstanceId()
+ * @method $this setDbName($dbName)
+ * @method string getDbName()
+ */
 class CheckDrdsDbName extends Request
 {
 
@@ -1062,6 +1111,8 @@ class DisableSqlAudit extends Request
  * @method string getDbInstType()
  * @method $this setInstDbName($instDbName)
  * @method array getInstDbName()
+ * @method $this setDbInstanceIsCreating($dbInstanceIsCreating)
+ * @method bool getDbInstanceIsCreating()
  */
 class CreateDrdsDBPreview extends Request
 {
@@ -1102,6 +1153,8 @@ class DescribeBroadcastTables extends Request
  * @method array getRdsSuperAccount()
  * @method $this setInstDbName($instDbName)
  * @method array getInstDbName()
+ * @method $this setDbInstanceIsCreating($dbInstanceIsCreating)
+ * @method bool getDbInstanceIsCreating()
  * @method $this setAccountName($accountName)
  * @method string getAccountName()
  */
@@ -1461,6 +1514,17 @@ class ModifyAccountPrivilege extends Request
  * @method string getDbName()
  */
 class DescribeRecycleBinStatus extends Request
+{
+
+}/**
+ * @method $this setRegionId($regionId)
+ * @method string getRegionId()
+ * @method $this setDrdsInstanceId($drdsInstanceId)
+ * @method string getDrdsInstanceId()
+ * @method $this setDbName($dbName)
+ * @method string getDbName()
+ */
+class SwitchGlobalBroadcastType extends Request
 {
 
 }/**

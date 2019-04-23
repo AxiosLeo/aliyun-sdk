@@ -24,7 +24,7 @@ class Iot extends ProductAbstract
 
     protected $product = "Iot";
 
-    protected $service_code = "iot";
+    protected $service_code = "";
 
     protected $credential = "AccessKeyCredential";
 
@@ -74,6 +74,26 @@ class Iot extends ProductAbstract
             "us-west-1"      => "iot.us-west-1.aliyuncs.com",
         ],
         "internal" => [
+            "ap-northeast-1" => "iot-vpc.ap-northeast-1.aliyuncs.com",
+            "ap-south-1"     => "iot-vpc.ap-south-1.aliyuncs.com",
+            "ap-southeast-1" => "iot-vpc.ap-southeast-1.aliyuncs.com",
+            "ap-southeast-2" => "iot-vpc.ap-southeast-2.aliyuncs.com",
+            "ap-southeast-3" => "iot-vpc.ap-southeast-3.aliyuncs.com",
+            "ap-southeast-5" => "iot-vpc.ap-southeast-5.aliyuncs.com",
+            "cn-beijing"     => "iot-vpc.cn-beijing.aliyuncs.com",
+            "cn-chengdu"     => "iot-vpc.cn-chengdu.aliyuncs.com",
+            "cn-hangzhou"    => "iot-vpc.cn-hangzhou.aliyuncs.com",
+            "cn-hongkong"    => "iot-vpc.cn-hongkong.aliyuncs.com",
+            "cn-huhehaote"   => "iot-vpc.cn-huhehaote.aliyuncs.com",
+            "cn-qingdao"     => "iot-vpc.cn-qingdao.aliyuncs.com",
+            "cn-shanghai"    => "iot-vpc.cn-shanghai.aliyuncs.com",
+            "cn-shenzhen"    => "iot-vpc.cn-shenzhen.aliyuncs.com",
+            "cn-zhangjiakou" => "iot-vpc.cn-zhangjiakou.aliyuncs.com",
+            "eu-central-1"   => "iot-vpc.eu-central-1.aliyuncs.com",
+            "eu-west-1"      => "iot-vpc.eu-west-1.aliyuncs.com",
+            "me-east-1"      => "iot-vpc.me-east-1.aliyuncs.com",
+            "us-east-1"      => "iot-vpc.us-east-1.aliyuncs.com",
+            "us-west-1"      => "iot-vpc.us-west-1.aliyuncs.com",
         ]
     ];
 }

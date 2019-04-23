@@ -18,7 +18,7 @@ class HPC extends ProductAbstract
 
     protected $product = "HPC";
 
-    protected $service_code = "hpc";
+    protected $service_code = "";
 
     protected $credential = "AccessKeyCredential";
 
@@ -55,7 +55,7 @@ class HPC extends ProductAbstract
             "cn-beijing"     => "hpc.aliyuncs.com",
             "cn-chengdu"     => "hpc.aliyuncs.com",
             "cn-hangzhou"    => "hpc.aliyuncs.com",
-            "cn-hongkong"    => "hpc.cn-hongkong.aliyuncs.com",
+            "cn-hongkong"    => "hpc.aliyuncs.com",
             "cn-huhehaote"   => "hpc.aliyuncs.com",
             "cn-qingdao"     => "hpc.aliyuncs.com",
             "cn-shanghai"    => "hpc.aliyuncs.com",

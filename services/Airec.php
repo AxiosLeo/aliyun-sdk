@@ -17,7 +17,7 @@ class Airec extends ProductAbstract
 
     protected $product = "Airec";
 
-    protected $service_code = "airec";
+    protected $service_code = "";
 
     protected $credential = "AccessKeyCredential";
 

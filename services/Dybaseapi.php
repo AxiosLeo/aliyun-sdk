@@ -18,7 +18,7 @@ class Dybaseapi extends ProductAbstract
 
     protected $product = "Dybaseapi";
 
-    protected $service_code = "dybaseapi";
+    protected $service_code = "";
 
     protected $credential = "AccessKeyCredential";
 
@@ -46,7 +46,7 @@ class Dybaseapi extends ProductAbstract
             "us-west-1",
         ],
         "public"   => [
-            "ap-northeast-1" => "dybaseapi.ap-northeast-1.aliyuncs.com",
+            "ap-northeast-1" => "dybaseapi.ap-southeast-1.aliyuncs.com",
             "ap-south-1"     => "dybaseapi.ap-southeast-1.aliyuncs.com",
             "ap-southeast-1" => "dybaseapi.ap-southeast-1.aliyuncs.com",
             "ap-southeast-2" => "dybaseapi.ap-southeast-1.aliyuncs.com",
@@ -62,7 +62,7 @@ class Dybaseapi extends ProductAbstract
             "cn-shenzhen"    => "dybaseapi.aliyuncs.com",
             "cn-zhangjiakou" => "dybaseapi.aliyuncs.com",
             "eu-central-1"   => "dybaseapi.ap-southeast-1.aliyuncs.com",
-            "eu-west-1"      => "dybaseapi.ap-northeast-1.aliyuncs.com",
+            "eu-west-1"      => "dybaseapi.ap-southeast-1.aliyuncs.com",
             "me-east-1"      => "dybaseapi.ap-southeast-1.aliyuncs.com",
             "us-east-1"      => "dybaseapi.ap-southeast-1.aliyuncs.com",
             "us-west-1"      => "dybaseapi.ap-southeast-1.aliyuncs.com",

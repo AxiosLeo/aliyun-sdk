@@ -17,7 +17,7 @@ class PetaData extends ProductAbstract
 
     protected $product = "PetaData";
 
-    protected $service_code = "petadata";
+    protected $service_code = "";
 
     protected $credential = "AccessKeyCredential";
 

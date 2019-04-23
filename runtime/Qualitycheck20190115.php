@@ -53,6 +53,7 @@ use aliyun\sdk\core\lib\Request;
  * @method AddRuleCategory AddRuleCategory()
  * @method GetAudioUrl GetAudioUrl()
  * @method DeleteAsrVocab DeleteAsrVocab()
+ * @method ListAsrVocab ListAsrVocab()
  * @method DelThesaurusForApi DelThesaurusForApi()
  * @method SubmitAudioLabel SubmitAudioLabel()
  * @method GetNextResultToReview GetNextResultToReview()
@@ -555,6 +556,15 @@ class GetAudioUrl extends Request
  * @method string getJsonStr()
  */
 class DeleteAsrVocab extends Request
+{
+
+}/**
+ * @method $this setResourceOwnerId($resourceOwnerId)
+ * @method int getResourceOwnerId()
+ * @method $this setJsonStr($jsonStr)
+ * @method string getJsonStr()
+ */
+class ListAsrVocab extends Request
 {
 
 }/**

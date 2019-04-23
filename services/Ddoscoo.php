@@ -17,21 +17,17 @@ class Ddoscoo extends ProductAbstract
 
     protected $product = "ddoscoo";
 
-    protected $service_code = "ddoscoo";
+    protected $service_code = "";
 
     protected $credential = "AccessKeyCredential";
 
     protected $endpoints = [
         "regions"  => [
-            "ap-south-1",
             "ap-southeast-1",
-            "ap-southeast-2",
             "cn-hangzhou",
         ],
         "public"   => [
-            "ap-south-1"     => "ddoscoo.ap-south-1.aliyuncs.com",
             "ap-southeast-1" => "ddoscoo.ap-southeast-1.aliyuncs.com",
-            "ap-southeast-2" => "ddoscoo.ap-southeast-2.aliyuncs.com",
             "cn-hangzhou"    => "ddoscoo.cn-hangzhou.aliyuncs.com",
         ],
         "internal" => [

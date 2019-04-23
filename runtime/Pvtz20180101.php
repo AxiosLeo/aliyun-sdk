@@ -245,6 +245,8 @@ class DescribeRecordStatisticsHistory extends Request
  * @method string getUserClientIp()
  * @method $this setProxyPattern($proxyPattern)
  * @method string getProxyPattern()
+ * @method $this setResourceGroupId($resourceGroupId)
+ * @method string getResourceGroupId()
  */
 class AddZone extends Request
 {

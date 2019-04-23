@@ -20,7 +20,7 @@ class CS extends ProductAbstract
 
     protected $product = "CS";
 
-    protected $service_code = "cs";
+    protected $service_code = "";
 
     protected $credential = "AccessKeyCredential";
 

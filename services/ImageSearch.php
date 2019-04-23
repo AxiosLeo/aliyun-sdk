@@ -21,13 +21,14 @@ class ImageSearch extends ProductAbstract
 
     protected $product = "ImageSearch";
 
-    protected $service_code = "imagesearch";
+    protected $service_code = "";
 
     protected $credential = "AccessKeyCredential";
 
     protected $endpoints = [
         "regions"  => [
             "ap-northeast-1",
+            "ap-south-1",
             "ap-southeast-1",
             "ap-southeast-2",
             "cn-hongkong",
@@ -36,6 +37,7 @@ class ImageSearch extends ProductAbstract
         ],
         "public"   => [
             "ap-northeast-1" => "imagesearch.ap-northeast-1.aliyuncs.com",
+            "ap-south-1"     => "imagesearch.ap-south-1.aliyuncs.com",
             "ap-southeast-1" => "imagesearch.ap-southeast-1.aliyuncs.com",
             "ap-southeast-2" => "imagesearch.ap-southeast-2.aliyuncs.com",
             "cn-hongkong"    => "imagesearch.cn-hongkong.aliyuncs.com",

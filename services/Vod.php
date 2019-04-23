@@ -22,7 +22,7 @@ class Vod extends ProductAbstract
 
     protected $product = "vod";
 
-    protected $service_code = "vod";
+    protected $service_code = "";
 
     protected $credential = "AccessKeyCredential";
 

@@ -19,7 +19,7 @@ class Rds extends ProductAbstract
 
     protected $product = "Rds";
 
-    protected $service_code = "rds";
+    protected $service_code = "";
 
     protected $credential = "AccessKeyCredential";
 

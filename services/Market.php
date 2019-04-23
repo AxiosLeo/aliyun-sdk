@@ -17,7 +17,7 @@ class Market extends ProductAbstract
 
     protected $product = "Market";
 
-    protected $service_code = "market";
+    protected $service_code = "";
 
     protected $credential = "AccessKeyCredential";
 

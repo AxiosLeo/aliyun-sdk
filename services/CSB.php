@@ -17,7 +17,7 @@ class CSB extends ProductAbstract
 
     protected $product = "CSB";
 
-    protected $service_code = "csb";
+    protected $service_code = "";
 
     protected $credential = "AccessKeyCredential";
 

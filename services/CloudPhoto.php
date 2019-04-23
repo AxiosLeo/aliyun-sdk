@@ -18,7 +18,7 @@ class CloudPhoto extends ProductAbstract
 
     protected $product = "CloudPhoto";
 
-    protected $service_code = "cloudphoto";
+    protected $service_code = "";
 
     protected $credential = "AccessKeyCredential";
 

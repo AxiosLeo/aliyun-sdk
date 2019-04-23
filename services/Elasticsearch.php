@@ -17,7 +17,7 @@ class Elasticsearch extends ProductAbstract
 
     protected $product = "elasticsearch";
 
-    protected $service_code = "elasticsearch";
+    protected $service_code = "";
 
     protected $credential = "AccessKeyCredential";
 
@@ -30,10 +30,8 @@ class Elasticsearch extends ProductAbstract
             "ap-southeast-3",
             "ap-southeast-5",
             "cn-beijing",
-            "cn-chengdu",
             "cn-hangzhou",
             "cn-hongkong",
-            "cn-huhehaote",
             "cn-qingdao",
             "cn-shanghai",
             "cn-shenzhen",
@@ -49,10 +47,8 @@ class Elasticsearch extends ProductAbstract
             "ap-southeast-3" => "elasticsearch.ap-southeast-3.aliyuncs.com",
             "ap-southeast-5" => "elasticsearch.ap-southeast-5.aliyuncs.com",
             "cn-beijing"     => "elasticsearch.cn-beijing.aliyuncs.com",
-            "cn-chengdu"     => "elasticsearch.cn-chengdu.aliyuncs.com",
             "cn-hangzhou"    => "elasticsearch.cn-hangzhou.aliyuncs.com",
             "cn-hongkong"    => "elasticsearch.cn-hongkong.aliyuncs.com",
-            "cn-huhehaote"   => "elasticsearch.cn-huhehaote.aliyuncs.com",
             "cn-qingdao"     => "elasticsearch.cn-qingdao.aliyuncs.com",
             "cn-shanghai"    => "elasticsearch.cn-shanghai.aliyuncs.com",
             "cn-shenzhen"    => "elasticsearch.cn-shenzhen.aliyuncs.com",

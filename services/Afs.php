@@ -17,7 +17,7 @@ class Afs extends ProductAbstract
 
     protected $product = "afs";
 
-    protected $service_code = "afs";
+    protected $service_code = "";
 
     protected $credential = "AccessKeyCredential";
 

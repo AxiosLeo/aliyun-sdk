@@ -67,6 +67,26 @@ class Aas extends ProductAbstract
             "us-west-1"      => "aas.us-west-1.aliyuncs.com",
         ],
         "internal" => [
+            "ap-northeast-1" => "aas-vpc.ap-northeast-1.aliyuncs.com",
+            "ap-south-1"     => "aas-vpc.ap-south-1.aliyuncs.com",
+            "ap-southeast-1" => "aas-vpc.ap-southeast-1.aliyuncs.com",
+            "ap-southeast-2" => "aas-vpc.ap-southeast-2.aliyuncs.com",
+            "ap-southeast-3" => "aas-vpc.ap-southeast-3.aliyuncs.com",
+            "ap-southeast-5" => "aas-vpc.ap-southeast-5.aliyuncs.com",
+            "cn-beijing"     => "aas-vpc.cn-beijing.aliyuncs.com",
+            "cn-chengdu"     => "aas-vpc.cn-chengdu.aliyuncs.com",
+            "cn-hangzhou"    => "aas-vpc.cn-hangzhou.aliyuncs.com",
+            "cn-hongkong"    => "aas-vpc.cn-hongkong.aliyuncs.com",
+            "cn-huhehaote"   => "aas-vpc.cn-huhehaote.aliyuncs.com",
+            "cn-qingdao"     => "aas-vpc.cn-qingdao.aliyuncs.com",
+            "cn-shanghai"    => "aas-vpc.cn-shanghai.aliyuncs.com",
+            "cn-shenzhen"    => "aas-vpc.cn-shenzhen.aliyuncs.com",
+            "cn-zhangjiakou" => "aas-vpc.cn-zhangjiakou.aliyuncs.com",
+            "eu-central-1"   => "aas-vpc.eu-central-1.aliyuncs.com",
+            "eu-west-1"      => "aas-vpc.eu-west-1.aliyuncs.com",
+            "me-east-1"      => "aas-vpc.me-east-1.aliyuncs.com",
+            "us-east-1"      => "aas-vpc.us-east-1.aliyuncs.com",
+            "us-west-1"      => "aas-vpc.us-west-1.aliyuncs.com",
         ]
     ];
 }

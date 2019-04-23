@@ -17,7 +17,7 @@ class Smartag extends ProductAbstract
 
     protected $product = "Smartag";
 
-    protected $service_code = "smartag";
+    protected $service_code = "";
 
     protected $credential = "AccessKeyCredential";
 

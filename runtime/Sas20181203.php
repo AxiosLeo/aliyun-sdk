@@ -9,6 +9,8 @@ use aliyun\sdk\core\lib\Request;
  *
  * @package aliyun\sdk\services\Sas20181203
  * @method DescribeRiskItemType DescribeRiskItemType()
+ * @method DescribeCheckWarnings DescribeCheckWarnings()
+ * @method ModifyPushAllTask ModifyPushAllTask()
  * @method DescribeGroupedVul DescribeGroupedVul()
  * @method ModifyRiskCheckStatus ModifyRiskCheckStatus()
  * @method DescribeAlarmEventList DescribeAlarmEventList()
@@ -17,7 +19,9 @@ use aliyun\sdk\core\lib\Request;
  * @method ModifyAutoDelConfig ModifyAutoDelConfig()
  * @method ModifyEmgVulSubmit ModifyEmgVulSubmit()
  * @method DescribeSuspEventDetail DescribeSuspEventDetail()
+ * @method DescribeStratety DescribeStratety()
  * @method ModifyRiskSingleResultStatus ModifyRiskSingleResultStatus()
+ * @method DescribeCheckWarningSummary DescribeCheckWarningSummary()
  * @method DescribeEmgVulGroup DescribeEmgVulGroup()
  * @method ModifySecurityCheckScheduleConfig ModifySecurityCheckScheduleConfig()
  * @method DescribeRiskCheckResult DescribeRiskCheckResult()
@@ -28,10 +32,13 @@ use aliyun\sdk\core\lib\Request;
  * @method ModifyCreateVulWhitelist ModifyCreateVulWhitelist()
  * @method DescribeAlarmEventDetail DescribeAlarmEventDetail()
  * @method DescribeUserBaselineAuthorization DescribeUserBaselineAuthorization()
+ * @method DescribeCheckWarningDetail DescribeCheckWarningDetail()
  * @method DescribeVulList DescribeVulList()
+ * @method DescribeStrategyExecDetail DescribeStrategyExecDetail()
  * @method ModifyConcernNecessity ModifyConcernNecessity()
  * @method DescribeRiskCheckSummary DescribeRiskCheckSummary()
  * @method ModifyOperateVul ModifyOperateVul()
+ * @method DescribeWarningMachines DescribeWarningMachines()
  * @method DescribeVulDetails DescribeVulDetails()
  */
 class V20181203
@@ -47,6 +54,34 @@ class V20181203
  * @method string getLang()
  */
 class DescribeRiskItemType extends Request
+{
+
+}/**
+ * @method $this setSourceIp($sourceIp)
+ * @method string getSourceIp()
+ * @method $this setLang($lang)
+ * @method string getLang()
+ * @method $this setUuid($uuid)
+ * @method string getUuid()
+ * @method $this setRiskId($riskId)
+ * @method int getRiskId()
+ * @method $this setPageSize($pageSize)
+ * @method int getPageSize()
+ * @method $this setCurrentPage($currentPage)
+ * @method int getCurrentPage()
+ */
+class DescribeCheckWarnings extends Request
+{
+
+}/**
+ * @method $this setSourceIp($sourceIp)
+ * @method string getSourceIp()
+ * @method $this setUuids($uuids)
+ * @method string getUuids()
+ * @method $this setTasks($tasks)
+ * @method string getTasks()
+ */
+class ModifyPushAllTask extends Request
 {
 
 }/**
@@ -164,6 +199,17 @@ class DescribeSuspEventDetail extends Request
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
+ * @method $this setLang($lang)
+ * @method string getLang()
+ * @method $this setStrategyIds($strategyIds)
+ * @method string getStrategyIds()
+ */
+class DescribeStratety extends Request
+{
+
+}/**
+ * @method $this setSourceIp($sourceIp)
+ * @method string getSourceIp()
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
  * @method $this setLang($lang)
@@ -176,6 +222,31 @@ class DescribeSuspEventDetail extends Request
  * @method int getTaskId()
  */
 class ModifyRiskSingleResultStatus extends Request
+{
+
+}/**
+ * @method $this setSourceIp($sourceIp)
+ * @method string getSourceIp()
+ * @method $this setLang($lang)
+ * @method string getLang()
+ * @method $this setTypeName($typeName)
+ * @method string getTypeName()
+ * @method $this setStatus($status)
+ * @method string getStatus()
+ * @method $this setRiskStatus($riskStatus)
+ * @method int getRiskStatus()
+ * @method $this setRiskName($riskName)
+ * @method string getRiskName()
+ * @method $this setStrategyId($strategyId)
+ * @method int getStrategyId()
+ * @method $this setUuids($uuids)
+ * @method string getUuids()
+ * @method $this setPageSize($pageSize)
+ * @method int getPageSize()
+ * @method $this setCurrentPage($currentPage)
+ * @method int getCurrentPage()
+ */
+class DescribeCheckWarningSummary extends Request
 {
 
 }/**
@@ -317,6 +388,17 @@ class DescribeUserBaselineAuthorization extends Request
 {
 
 }/**
+ * @method $this setSourceIp($sourceIp)
+ * @method string getSourceIp()
+ * @method $this setLang($lang)
+ * @method string getLang()
+ * @method $this setCheckWarningId($checkWarningId)
+ * @method int getCheckWarningId()
+ */
+class DescribeCheckWarningDetail extends Request
+{
+
+}/**
  * @method $this setLang($lang)
  * @method string getLang()
  * @method $this setRemark($remark)
@@ -337,6 +419,15 @@ class DescribeUserBaselineAuthorization extends Request
  * @method int getPageSize()
  */
 class DescribeVulList extends Request
+{
+
+}/**
+ * @method $this setSourceIp($sourceIp)
+ * @method string getSourceIp()
+ * @method $this setStrategyId($strategyId)
+ * @method int getStrategyId()
+ */
+class DescribeStrategyExecDetail extends Request
 {
 
 }/**
@@ -370,6 +461,27 @@ class DescribeRiskCheckSummary extends Request
  * @method string getReason()
  */
 class ModifyOperateVul extends Request
+{
+
+}/**
+ * @method $this setSourceIp($sourceIp)
+ * @method string getSourceIp()
+ * @method $this setLang($lang)
+ * @method string getLang()
+ * @method $this setMachineName($machineName)
+ * @method string getMachineName()
+ * @method $this setUuids($uuids)
+ * @method string getUuids()
+ * @method $this setRiskId($riskId)
+ * @method int getRiskId()
+ * @method $this setStrategyId($strategyId)
+ * @method int getStrategyId()
+ * @method $this setPageSize($pageSize)
+ * @method int getPageSize()
+ * @method $this setCurrentPage($currentPage)
+ * @method int getCurrentPage()
+ */
+class DescribeWarningMachines extends Request
 {
 
 }/**

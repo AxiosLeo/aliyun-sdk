@@ -18,7 +18,7 @@ class Ess extends ProductAbstract
 
     protected $product = "Ess";
 
-    protected $service_code = "ess";
+    protected $service_code = "";
 
     protected $credential = "AccessKeyCredential";
 

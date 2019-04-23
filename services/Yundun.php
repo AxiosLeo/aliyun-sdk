@@ -17,7 +17,7 @@ class Yundun extends ProductAbstract
 
     protected $product = "Yundun";
 
-    protected $service_code = "yundun";
+    protected $service_code = "";
 
     protected $credential = "AccessKeyCredential";
 

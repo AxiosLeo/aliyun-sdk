@@ -41,7 +41,7 @@ class Green extends ProductAbstract
 
     protected $product = "Green";
 
-    protected $service_code = "green";
+    protected $service_code = "";
 
     protected $credential = "AccessKeyCredential";
 
@@ -91,6 +91,26 @@ class Green extends ProductAbstract
             "us-west-1"      => "green.us-west-1.aliyuncs.com",
         ],
         "internal" => [
+            "ap-northeast-1" => "green-vpc.ap-northeast-1.aliyuncs.com",
+            "ap-south-1"     => "green-vpc.ap-south-1.aliyuncs.com",
+            "ap-southeast-1" => "green-vpc.ap-southeast-1.aliyuncs.com",
+            "ap-southeast-2" => "green-vpc.ap-southeast-2.aliyuncs.com",
+            "ap-southeast-3" => "green-vpc.ap-southeast-3.aliyuncs.com",
+            "ap-southeast-5" => "green-vpc.ap-southeast-5.aliyuncs.com",
+            "cn-beijing"     => "green-vpc.cn-beijing.aliyuncs.com",
+            "cn-chengdu"     => "green-vpc.cn-chengdu.aliyuncs.com",
+            "cn-hangzhou"    => "green-vpc.cn-hangzhou.aliyuncs.com",
+            "cn-hongkong"    => "green-vpc.cn-hongkong.aliyuncs.com",
+            "cn-huhehaote"   => "green-vpc.cn-huhehaote.aliyuncs.com",
+            "cn-qingdao"     => "green-vpc.cn-qingdao.aliyuncs.com",
+            "cn-shanghai"    => "green-vpc.cn-shanghai.aliyuncs.com",
+            "cn-shenzhen"    => "green-vpc.cn-shenzhen.aliyuncs.com",
+            "cn-zhangjiakou" => "green-vpc.cn-zhangjiakou.aliyuncs.com",
+            "eu-central-1"   => "green-vpc.eu-central-1.aliyuncs.com",
+            "eu-west-1"      => "green-vpc.eu-west-1.aliyuncs.com",
+            "me-east-1"      => "green-vpc.me-east-1.aliyuncs.com",
+            "us-east-1"      => "green-vpc.us-east-1.aliyuncs.com",
+            "us-west-1"      => "green-vpc.us-west-1.aliyuncs.com",
         ]
     ];
 }

@@ -21,7 +21,7 @@ class Dts extends ProductAbstract
 
     protected $product = "Dts";
 
-    protected $service_code = "dts";
+    protected $service_code = "";
 
     protected $credential = "AccessKeyCredential";
 

@@ -17,7 +17,7 @@ class Cloudwf extends ProductAbstract
 
     protected $product = "cloudwf";
 
-    protected $service_code = "cloudwf";
+    protected $service_code = "";
 
     protected $credential = "AccessKeyCredential";
 

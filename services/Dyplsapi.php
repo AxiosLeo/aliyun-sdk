@@ -17,7 +17,7 @@ class Dyplsapi extends ProductAbstract
 
     protected $product = "Dyplsapi";
 
-    protected $service_code = "dyplsapi";
+    protected $service_code = "";
 
     protected $credential = "AccessKeyCredential";
 

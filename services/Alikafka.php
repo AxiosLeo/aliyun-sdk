@@ -17,7 +17,7 @@ class Alikafka extends ProductAbstract
 
     protected $product = "alikafka";
 
-    protected $service_code = "alikafka";
+    protected $service_code = "";
 
     protected $credential = "AccessKeyCredential";
 

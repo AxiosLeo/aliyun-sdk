@@ -17,7 +17,7 @@ class Uis extends ProductAbstract
 
     protected $product = "Uis";
 
-    protected $service_code = "uis";
+    protected $service_code = "";
 
     protected $credential = "AccessKeyCredential";
 

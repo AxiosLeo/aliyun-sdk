@@ -35,6 +35,7 @@ use aliyun\sdk\core\lib\Request;
  * @method ListMetricMeta ListMetricMeta()
  * @method DeleteEventRule DeleteEventRule()
  * @method DisableS2SEventRule DisableS2SEventRule()
+ * @method DescribeAlertHistoryList DescribeAlertHistoryList()
  * @method PutMetricRuleTargets PutMetricRuleTargets()
  * @method NodeProcesses NodeProcesses()
  * @method DescribeContact DescribeContact()
@@ -53,6 +54,7 @@ use aliyun\sdk\core\lib\Request;
  * @method NodeStatus NodeStatus()
  * @method DescribeISPAreaCity DescribeISPAreaCity()
  * @method ListGroupDynamicRule ListGroupDynamicRule()
+ * @method UntagResourcesSystemTags UntagResourcesSystemTags()
  * @method NodeUninstall NodeUninstall()
  * @method QueryMetricDimensions QueryMetricDimensions()
  * @method DeleteMonitoringTemplate DeleteMonitoringTemplate()
@@ -68,6 +70,7 @@ use aliyun\sdk\core\lib\Request;
  * @method GetContacts GetContacts()
  * @method PutSystemEvent PutSystemEvent()
  * @method EnableActiveAlert EnableActiveAlert()
+ * @method TagResourcesSystemTags TagResourcesSystemTags()
  * @method TaskConfigCreate TaskConfigCreate()
  * @method CreateAlarm CreateAlarm()
  * @method TaskConfigModify TaskConfigModify()
@@ -107,6 +110,7 @@ use aliyun\sdk\core\lib\Request;
  * @method EnableS2SEventRule EnableS2SEventRule()
  * @method ListProductOfActiveAlert ListProductOfActiveAlert()
  * @method DescribeAlarms DescribeAlarms()
+ * @method InnerListTagResources InnerListTagResources()
  * @method DeleteMyGroupInstances DeleteMyGroupInstances()
  * @method UpdateMonitoringTemplate UpdateMonitoringTemplate()
  * @method QueryMetricLast QueryMetricLast()
@@ -512,6 +516,37 @@ class DisableS2SEventRule extends Request
 {
 
 }/**
+ * @method $this setAlertName($alertName)
+ * @method string getAlertName()
+ * @method $this setRuleName($ruleName)
+ * @method string getRuleName()
+ * @method $this setNamespace($namespace)
+ * @method string getNamespace()
+ * @method $this setMetricName($metricName)
+ * @method string getMetricName()
+ * @method $this setGroupId($groupId)
+ * @method string getGroupId()
+ * @method $this setStatus($status)
+ * @method string getStatus()
+ * @method $this setState($state)
+ * @method string getState()
+ * @method $this setAscending($ascending)
+ * @method bool getAscending()
+ * @method $this setOnlyCount($onlyCount)
+ * @method bool getOnlyCount()
+ * @method $this setStartTime($startTime)
+ * @method string getStartTime()
+ * @method $this setEndTime($endTime)
+ * @method string getEndTime()
+ * @method $this setPageSize($pageSize)
+ * @method int getPageSize()
+ * @method $this setPage($page)
+ * @method int getPage()
+ */
+class DescribeAlertHistoryList extends Request
+{
+
+}/**
  * @method $this setRuleName($ruleName)
  * @method string getRuleName()
  * @method $this setActions($actions)
@@ -700,6 +735,25 @@ class ListGroupDynamicRule extends Request
 {
 
 }/**
+ * @method $this setResourceType($resourceType)
+ * @method string getResourceType()
+ * @method $this setResourceId($resourceId)
+ * @method array getResourceId()
+ * @method $this setTagKey($tagKey)
+ * @method array getTagKey()
+ * @method $this setRegionId($regionId)
+ * @method string getRegionId()
+ * @method $this setTagOwnerUid($tagOwnerUid)
+ * @method string getTagOwnerUid()
+ * @method $this setTagOwnerBid($tagOwnerBid)
+ * @method string getTagOwnerBid()
+ * @method $this setAll($all)
+ * @method bool getAll()
+ */
+class UntagResourcesSystemTags extends Request
+{
+
+}/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
  */
@@ -850,6 +904,25 @@ class PutSystemEvent extends Request
  * @method string getUserId()
  */
 class EnableActiveAlert extends Request
+{
+
+}/**
+ * @method $this setResourceType($resourceType)
+ * @method string getResourceType()
+ * @method $this setResourceId($resourceId)
+ * @method array getResourceId()
+ * @method $this setTag($tag)
+ * @method array getTag()
+ * @method $this setRegionId($regionId)
+ * @method string getRegionId()
+ * @method $this setTagOwnerUid($tagOwnerUid)
+ * @method string getTagOwnerUid()
+ * @method $this setTagOwnerBid($tagOwnerBid)
+ * @method string getTagOwnerBid()
+ * @method $this setScope($scope)
+ * @method string getScope()
+ */
+class TagResourcesSystemTags extends Request
 {
 
 }/**
@@ -1383,6 +1456,27 @@ class ListProductOfActiveAlert extends Request
  * @method string getNameKeyword()
  */
 class DescribeAlarms extends Request
+{
+
+}/**
+ * @method $this setResourceType($resourceType)
+ * @method string getResourceType()
+ * @method $this setResourceId($resourceId)
+ * @method array getResourceId()
+ * @method $this setTag($tag)
+ * @method array getTag()
+ * @method $this setNextToken($nextToken)
+ * @method string getNextToken()
+ * @method $this setRegionId($regionId)
+ * @method string getRegionId()
+ * @method $this setTagOwnerUid($tagOwnerUid)
+ * @method string getTagOwnerUid()
+ * @method $this setTagOwnerBid($tagOwnerBid)
+ * @method string getTagOwnerBid()
+ * @method $this setScope($scope)
+ * @method string getScope()
+ */
+class InnerListTagResources extends Request
 {
 
 }/**

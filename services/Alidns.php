@@ -17,7 +17,7 @@ class Alidns extends ProductAbstract
 
     protected $product = "Alidns";
 
-    protected $service_code = "alidns";
+    protected $service_code = "";
 
     protected $credential = "AccessKeyCredential";
 

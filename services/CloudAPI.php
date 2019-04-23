@@ -21,7 +21,7 @@ class CloudAPI extends ProductAbstract
 
     protected $product = "CloudAPI";
 
-    protected $service_code = "apigateway";
+    protected $service_code = "";
 
     protected $credential = "AccessKeyCredential";
 
@@ -71,6 +71,26 @@ class CloudAPI extends ProductAbstract
             "us-west-1"      => "apigateway.us-west-1.aliyuncs.com",
         ],
         "internal" => [
+            "ap-northeast-1" => "apigateway-vpc.ap-northeast-1.aliyuncs.com",
+            "ap-south-1"     => "apigateway-vpc.ap-south-1.aliyuncs.com",
+            "ap-southeast-1" => "apigateway-vpc.ap-southeast-1.aliyuncs.com",
+            "ap-southeast-2" => "apigateway-vpc.ap-southeast-2.aliyuncs.com",
+            "ap-southeast-3" => "apigateway-vpc.ap-southeast-3.aliyuncs.com",
+            "ap-southeast-5" => "apigateway-vpc.ap-southeast-5.aliyuncs.com",
+            "cn-beijing"     => "apigateway-vpc.cn-beijing.aliyuncs.com",
+            "cn-chengdu"     => "apigateway-vpc.cn-chengdu.aliyuncs.com",
+            "cn-hangzhou"    => "apigateway-vpc.cn-hangzhou.aliyuncs.com",
+            "cn-hongkong"    => "apigateway-vpc.cn-hongkong.aliyuncs.com",
+            "cn-huhehaote"   => "apigateway-vpc.cn-huhehaote.aliyuncs.com",
+            "cn-qingdao"     => "apigateway-vpc.cn-qingdao.aliyuncs.com",
+            "cn-shanghai"    => "apigateway-vpc.cn-shanghai.aliyuncs.com",
+            "cn-shenzhen"    => "apigateway-vpc.cn-shenzhen.aliyuncs.com",
+            "cn-zhangjiakou" => "apigateway-vpc.cn-zhangjiakou.aliyuncs.com",
+            "eu-central-1"   => "apigateway-vpc.eu-central-1.aliyuncs.com",
+            "eu-west-1"      => "apigateway-vpc.eu-west-1.aliyuncs.com",
+            "me-east-1"      => "apigateway-vpc.me-east-1.aliyuncs.com",
+            "us-east-1"      => "apigateway-vpc.us-east-1.aliyuncs.com",
+            "us-west-1"      => "apigateway-vpc.us-west-1.aliyuncs.com",
         ]
     ];
 }

@@ -17,7 +17,7 @@ class Ubsms extends ProductAbstract
 
     protected $product = "Ubsms";
 
-    protected $service_code = "ubsms";
+    protected $service_code = "";
 
     protected $credential = "AccessKeyCredential";
 

@@ -20,7 +20,7 @@ class Oms extends ProductAbstract
 
     protected $product = "Oms";
 
-    protected $service_code = "oms";
+    protected $service_code = "";
 
     protected $credential = "AccessKeyCredential";
 

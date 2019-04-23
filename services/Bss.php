@@ -17,7 +17,7 @@ class Bss extends ProductAbstract
 
     protected $product = "Bss";
 
-    protected $service_code = "bss";
+    protected $service_code = "";
 
     protected $credential = "AccessKeyCredential";
 

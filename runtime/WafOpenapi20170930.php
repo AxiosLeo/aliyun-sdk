@@ -1,16 +1,17 @@
 <?php
 
-namespace aliyun\sdk\services\Waf20170930;
+namespace aliyun\sdk\services\WafOpenapi20170930;
 
 use aliyun\sdk\core\lib\Request;
 
 /**
  * Class V20170930
  *
- * @package aliyun\sdk\services\Waf20170930
+ * @package aliyun\sdk\services\WafOpenapi20170930
  * @method DescribeDomainTransferConfig DescribeDomainTransferConfig()
  * @method DescribeQps DescribeQps()
- * @method DescribeRegionsStatus DescribeRegionsStatus()
+ * @method GetQps GetQps()
+ * @method GetQpsTotal GetQpsTotal()
  * @method DescribeTransferConfigInWork DescribeTransferConfigInWork()
  * @method DescribeDomainNames DescribeDomainNames()
  * @method ModifyDomainPackageCount ModifyDomainPackageCount()
@@ -21,7 +22,9 @@ use aliyun\sdk\core\lib\Request;
  * @method DescribePackage DescribePackage()
  * @method CreateDomainConfig CreateDomainConfig()
  * @method DescribeRegions DescribeRegions()
+ * @method DescribeRegionStatus DescribeRegionStatus()
  * @method DeleteDomainConfig DeleteDomainConfig()
+ * @method GetRegionList GetRegionList()
  * @method ModifyWafSwitch ModifyWafSwitch()
  * @method ModifyCertAndKey ModifyCertAndKey()
  * @method AppOpenAck AppOpenAck()
@@ -33,16 +36,12 @@ class V20170930
 /**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
- * @method $this setSourceIp($sourceIp)
- * @method string getSourceIp()
  * @method $this setRegion($region)
  * @method string getRegion()
  * @method $this setCaller($caller)
  * @method string getCaller()
  * @method $this setDomain($domain)
  * @method string getDomain()
- * @method $this setAliUid($aliUid)
- * @method int getAliUid()
  */
 class DescribeDomainTransferConfig extends Request
 {
@@ -50,8 +49,6 @@ class DescribeDomainTransferConfig extends Request
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
- * @method $this setSourceIp($sourceIp)
- * @method string getSourceIp()
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
  * @method $this setRegion($region)
@@ -66,8 +63,6 @@ class DescribeDomainTransferConfig extends Request
  * @method int getStartMillisecond()
  * @method $this setEndMillisecond($endMillisecond)
  * @method int getEndMillisecond()
- * @method $this setAliUid($aliUid)
- * @method int getAliUid()
  */
 class DescribeQps extends Request
 {
@@ -75,29 +70,54 @@ class DescribeQps extends Request
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
- * @method $this setSourceIp($sourceIp)
- * @method string getSourceIp()
+ * @method $this setInstanceId($instanceId)
+ * @method string getInstanceId()
  * @method $this setRegion($region)
  * @method string getRegion()
- * @method $this setAliUid($aliUid)
- * @method int getAliUid()
+ * @method $this setf($f)
+ * @method array getf()
+ * @method $this setn($n)
+ * @method string getn()
+ * @method $this setx($x)
+ * @method int getx()
+ * @method $this sets($s)
+ * @method int gets()
+ * @method $this sete($e)
+ * @method int gete()
  */
-class DescribeRegionsStatus extends Request
+class GetQps extends Request
 {
 
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
- * @method $this setSourceIp($sourceIp)
- * @method string getSourceIp()
+ * @method $this setinstanceId($instanceId)
+ * @method string getinstanceId()
+ * @method $this setRegion($region)
+ * @method string getRegion()
+ * @method $this setf($f)
+ * @method array getf()
+ * @method $this setn($n)
+ * @method string getn()
+ * @method $this setx($x)
+ * @method int getx()
+ * @method $this sets($s)
+ * @method int gets()
+ * @method $this sete($e)
+ * @method int gete()
+ */
+class GetQpsTotal extends Request
+{
+
+}/**
+ * @method $this setResourceOwnerId($resourceOwnerId)
+ * @method int getResourceOwnerId()
  * @method $this setRegion($region)
  * @method string getRegion()
  * @method $this setDomain($domain)
  * @method string getDomain()
  * @method $this setCheckRequestId($checkRequestId)
  * @method string getCheckRequestId()
- * @method $this setAliUid($aliUid)
- * @method int getAliUid()
  */
 class DescribeTransferConfigInWork extends Request
 {
@@ -105,14 +125,10 @@ class DescribeTransferConfigInWork extends Request
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
- * @method $this setSourceIp($sourceIp)
- * @method string getSourceIp()
  * @method $this setRegion($region)
  * @method string getRegion()
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
- * @method $this setAliUid($aliUid)
- * @method int getAliUid()
  */
 class DescribeDomainNames extends Request
 {
@@ -120,16 +136,12 @@ class DescribeDomainNames extends Request
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
- * @method $this setSourceIp($sourceIp)
- * @method string getSourceIp()
  * @method $this setDomainPackageCount($domainPackageCount)
  * @method int getDomainPackageCount()
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
  * @method $this setRegion($region)
  * @method string getRegion()
- * @method $this setAliUid($aliUid)
- * @method int getAliUid()
  */
 class ModifyDomainPackageCount extends Request
 {
@@ -137,14 +149,10 @@ class ModifyDomainPackageCount extends Request
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
- * @method $this setSourceIp($sourceIp)
- * @method string getSourceIp()
  * @method $this setRegion($region)
  * @method string getRegion()
  * @method $this setDomain($domain)
  * @method string getDomain()
- * @method $this setAliUid($aliUid)
- * @method int getAliUid()
  */
 class DescribeHttpsCertInUse extends Request
 {
@@ -152,16 +160,12 @@ class DescribeHttpsCertInUse extends Request
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
- * @method $this setSourceIp($sourceIp)
- * @method string getSourceIp()
  * @method $this setRegion($region)
  * @method string getRegion()
  * @method $this setDomain($domain)
  * @method string getDomain()
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
- * @method $this setAliUid($aliUid)
- * @method int getAliUid()
  */
 class DescribeNeedUpgradeDomainLimit extends Request
 {
@@ -169,8 +173,6 @@ class DescribeNeedUpgradeDomainLimit extends Request
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
- * @method $this setSourceIp($sourceIp)
- * @method string getSourceIp()
  * @method $this setRegion($region)
  * @method string getRegion()
  * @method $this setDomain($domain)
@@ -181,8 +183,6 @@ class DescribeNeedUpgradeDomainLimit extends Request
  * @method int getPage()
  * @method $this setPageSize($pageSize)
  * @method int getPageSize()
- * @method $this setAliUid($aliUid)
- * @method int getAliUid()
  */
 class DescribeDomains extends Request
 {
@@ -190,8 +190,6 @@ class DescribeDomains extends Request
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
- * @method $this setSourceIp($sourceIp)
- * @method string getSourceIp()
  * @method $this setCaller($caller)
  * @method string getCaller()
  * @method $this setDomain($domain)
@@ -220,8 +218,6 @@ class DescribeDomains extends Request
  * @method string getInstanceId()
  * @method $this setRegion($region)
  * @method string getRegion()
- * @method $this setAliUid($aliUid)
- * @method int getAliUid()
  */
 class ModifyDomainConfig extends Request
 {
@@ -229,12 +225,8 @@ class ModifyDomainConfig extends Request
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
- * @method $this setSourceIp($sourceIp)
- * @method string getSourceIp()
  * @method $this setRegion($region)
  * @method string getRegion()
- * @method $this setAliUid($aliUid)
- * @method int getAliUid()
  */
 class DescribePackage extends Request
 {
@@ -242,8 +234,6 @@ class DescribePackage extends Request
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
- * @method $this setSourceIp($sourceIp)
- * @method string getSourceIp()
  * @method $this setCaller($caller)
  * @method string getCaller()
  * @method $this setDomain($domain)
@@ -272,8 +262,6 @@ class DescribePackage extends Request
  * @method string getInstanceId()
  * @method $this setRegion($region)
  * @method string getRegion()
- * @method $this setAliUid($aliUid)
- * @method int getAliUid()
  */
 class CreateDomainConfig extends Request
 {
@@ -281,19 +269,26 @@ class CreateDomainConfig extends Request
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
- * @method $this setSourceIp($sourceIp)
- * @method string getSourceIp()
- * @method $this setAliUid($aliUid)
- * @method int getAliUid()
  */
 class DescribeRegions extends Request
 {
 
 }/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
+ * @method $this setLang($lang)
+ * @method string getLang()
+ * @method $this setInstanceSource($instanceSource)
+ * @method string getInstanceSource()
+ * @method $this setRegion($region)
+ * @method string getRegion()
+ */
+class DescribeRegionStatus extends Request
+{
+
+}/**
+ * @method $this setResourceOwnerId($resourceOwnerId)
+ * @method int getResourceOwnerId()
  * @method $this setCaller($caller)
  * @method string getCaller()
  * @method $this setDomain($domain)
@@ -302,8 +297,6 @@ class DescribeRegions extends Request
  * @method string getInstanceId()
  * @method $this setRegion($region)
  * @method string getRegion()
- * @method $this setAliUid($aliUid)
- * @method int getAliUid()
  */
 class DeleteDomainConfig extends Request
 {
@@ -311,8 +304,13 @@ class DeleteDomainConfig extends Request
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
- * @method $this setSourceIp($sourceIp)
- * @method string getSourceIp()
+ */
+class GetRegionList extends Request
+{
+
+}/**
+ * @method $this setResourceOwnerId($resourceOwnerId)
+ * @method int getResourceOwnerId()
  * @method $this setRegion($region)
  * @method string getRegion()
  * @method $this setCaller($caller)
@@ -323,8 +321,6 @@ class DeleteDomainConfig extends Request
  * @method string getInstanceId()
  * @method $this setServiceOn($serviceOn)
  * @method int getServiceOn()
- * @method $this setAliUid($aliUid)
- * @method int getAliUid()
  */
 class ModifyWafSwitch extends Request
 {
@@ -332,8 +328,6 @@ class ModifyWafSwitch extends Request
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
- * @method $this setSourceIp($sourceIp)
- * @method string getSourceIp()
  * @method $this setCaller($caller)
  * @method string getCaller()
  * @method $this setDomain($domain)
@@ -348,8 +342,6 @@ class ModifyWafSwitch extends Request
  * @method string getHttpsCertId()
  * @method $this setHttpsCertName($httpsCertName)
  * @method string getHttpsCertName()
- * @method $this setAliUid($aliUid)
- * @method int getAliUid()
  */
 class ModifyCertAndKey extends Request
 {
@@ -357,8 +349,6 @@ class ModifyCertAndKey extends Request
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
- * @method $this setSourceIp($sourceIp)
- * @method string getSourceIp()
  * @method $this setRegion($region)
  * @method string getRegion()
  * @method $this setAppName($appName)
@@ -369,8 +359,6 @@ class ModifyCertAndKey extends Request
  * @method string getAsyncMethod()
  * @method $this setAck($ack)
  * @method string getAck()
- * @method $this setAliUid($aliUid)
- * @method int getAliUid()
  */
 class AppOpenAck extends Request
 {

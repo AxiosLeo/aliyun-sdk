@@ -17,7 +17,7 @@ class Vpc extends ProductAbstract
 
     protected $product = "Vpc";
 
-    protected $service_code = "vpc";
+    protected $service_code = "";
 
     protected $credential = "AccessKeyCredential";
 

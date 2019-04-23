@@ -18,7 +18,7 @@ class Dysmsapi extends ProductAbstract
 
     protected $product = "Dysmsapi";
 
-    protected $service_code = "dysmsapi";
+    protected $service_code = "";
 
     protected $credential = "AccessKeyCredential";
 

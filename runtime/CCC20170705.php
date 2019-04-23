@@ -18,6 +18,7 @@ use aliyun\sdk\core\lib\Request;
  * @method ListVoiceAppraise ListVoiceAppraise()
  * @method RefreshToken RefreshToken()
  * @method ListSkillGroupsOfUser ListSkillGroupsOfUser()
+ * @method DialEx DialEx()
  * @method ListUsers ListUsers()
  * @method GetJobStatusByCallId GetJobStatusByCallId()
  * @method ModifyMedia ModifyMedia()
@@ -269,6 +270,21 @@ class RefreshToken extends Request
  * @method string getUserId()
  */
 class ListSkillGroupsOfUser extends Request
+{
+
+}/**
+ * @method $this setInstanceId($instanceId)
+ * @method string getInstanceId()
+ * @method $this setCaller($caller)
+ * @method string getCaller()
+ * @method $this setCallee($callee)
+ * @method string getCallee()
+ * @method $this setContactFlowId($contactFlowId)
+ * @method string getContactFlowId()
+ * @method $this setProvider($provider)
+ * @method string getProvider()
+ */
+class DialEx extends Request
 {
 
 }/**

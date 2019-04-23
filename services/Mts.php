@@ -19,7 +19,7 @@ class Mts extends ProductAbstract
 
     protected $product = "Mts";
 
-    protected $service_code = "mts";
+    protected $service_code = "";
 
     protected $credential = "AccessKeyCredential";
 
@@ -69,6 +69,26 @@ class Mts extends ProductAbstract
             "us-west-1"      => "mts.us-west-1.aliyuncs.com",
         ],
         "internal" => [
+            "ap-northeast-1" => "mts-vpc.ap-northeast-1.aliyuncs.com",
+            "ap-south-1"     => "mts-vpc.ap-south-1.aliyuncs.com",
+            "ap-southeast-1" => "mts-vpc.ap-southeast-1.aliyuncs.com",
+            "ap-southeast-2" => "mts-vpc.ap-southeast-2.aliyuncs.com",
+            "ap-southeast-3" => "mts-vpc.ap-southeast-3.aliyuncs.com",
+            "ap-southeast-5" => "mts-vpc.ap-southeast-5.aliyuncs.com",
+            "cn-beijing"     => "mts-vpc.cn-beijing.aliyuncs.com",
+            "cn-chengdu"     => "mts-vpc.cn-chengdu.aliyuncs.com",
+            "cn-hangzhou"    => "mts-vpc.cn-hangzhou.aliyuncs.com",
+            "cn-hongkong"    => "mts-vpc.cn-hongkong.aliyuncs.com",
+            "cn-huhehaote"   => "mts-vpc.cn-huhehaote.aliyuncs.com",
+            "cn-qingdao"     => "mts-vpc.cn-qingdao.aliyuncs.com",
+            "cn-shanghai"    => "mts-vpc.cn-shanghai.aliyuncs.com",
+            "cn-shenzhen"    => "mts-vpc.cn-shenzhen.aliyuncs.com",
+            "cn-zhangjiakou" => "mts-vpc.cn-zhangjiakou.aliyuncs.com",
+            "eu-central-1"   => "mts-vpc.eu-central-1.aliyuncs.com",
+            "eu-west-1"      => "mts-vpc.eu-west-1.aliyuncs.com",
+            "me-east-1"      => "mts-vpc.me-east-1.aliyuncs.com",
+            "us-east-1"      => "mts-vpc.us-east-1.aliyuncs.com",
+            "us-west-1"      => "mts-vpc.us-west-1.aliyuncs.com",
         ]
     ];
 }

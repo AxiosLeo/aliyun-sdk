@@ -27,10 +27,7 @@ class BatchCompute extends ProductAbstract
 
     protected $endpoints = [
         "regions"  => [
-            "ap-northeast-1",
             "ap-southeast-1",
-            "ap-southeast-3",
-            "ap-southeast-5",
             "cn-beijing",
             "cn-hangzhou",
             "cn-hongkong",
@@ -44,10 +41,7 @@ class BatchCompute extends ProductAbstract
             "us-west-1",
         ],
         "public"   => [
-            "ap-northeast-1" => "batchcompute-vpc.ap-northeast-1.aliyuncs.com",
             "ap-southeast-1" => "batchcompute.ap-southeast-1.aliyuncs.com",
-            "ap-southeast-3" => "batchcompute-vpc.ap-southeast-3.aliyuncs.com",
-            "ap-southeast-5" => "batchcompute.ap-southeast-5.aliyuncs.com",
             "cn-beijing"     => "batchcompute.cn-beijing.aliyuncs.com",
             "cn-hangzhou"    => "batchcompute.cn-hangzhou.aliyuncs.com",
             "cn-hongkong"    => "batchcompute.cn-hongkong.aliyuncs.com",
@@ -61,6 +55,26 @@ class BatchCompute extends ProductAbstract
             "us-west-1"      => "batchcompute.us-west-1.aliyuncs.com",
         ],
         "internal" => [
+            "ap-northeast-1" => "batchcompute-vpc.ap-northeast-1.aliyuncs.com",
+            "ap-south-1"     => "batchcompute-vpc.ap-south-1.aliyuncs.com",
+            "ap-southeast-1" => "batchcompute-vpc.ap-southeast-1.aliyuncs.com",
+            "ap-southeast-2" => "batchcompute-vpc.ap-southeast-2.aliyuncs.com",
+            "ap-southeast-3" => "batchcompute-vpc.ap-southeast-3.aliyuncs.com",
+            "ap-southeast-5" => "batchcompute-vpc.ap-southeast-5.aliyuncs.com",
+            "cn-beijing"     => "batchcompute-vpc.cn-beijing.aliyuncs.com",
+            "cn-chengdu"     => "batchcompute-vpc.cn-chengdu.aliyuncs.com",
+            "cn-hangzhou"    => "batchcompute-vpc.cn-hangzhou.aliyuncs.com",
+            "cn-hongkong"    => "batchcompute-vpc.cn-hongkong.aliyuncs.com",
+            "cn-huhehaote"   => "batchcompute-vpc.cn-huhehaote.aliyuncs.com",
+            "cn-qingdao"     => "batchcompute-vpc.cn-qingdao.aliyuncs.com",
+            "cn-shanghai"    => "batchcompute-vpc.cn-shanghai.aliyuncs.com",
+            "cn-shenzhen"    => "batchcompute-vpc.cn-shenzhen.aliyuncs.com",
+            "cn-zhangjiakou" => "batchcompute-vpc.cn-zhangjiakou.aliyuncs.com",
+            "eu-central-1"   => "batchcompute-vpc.eu-central-1.aliyuncs.com",
+            "eu-west-1"      => "batchcompute-vpc.eu-west-1.aliyuncs.com",
+            "me-east-1"      => "batchcompute-vpc.me-east-1.aliyuncs.com",
+            "us-east-1"      => "batchcompute-vpc.us-east-1.aliyuncs.com",
+            "us-west-1"      => "batchcompute-vpc.us-west-1.aliyuncs.com",
         ]
     ];
 }

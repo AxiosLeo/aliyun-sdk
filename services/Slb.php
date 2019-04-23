@@ -18,7 +18,7 @@ class Slb extends ProductAbstract
 
     protected $product = "Slb";
 
-    protected $service_code = "slb";
+    protected $service_code = "";
 
     protected $credential = "AccessKeyCredential";
 

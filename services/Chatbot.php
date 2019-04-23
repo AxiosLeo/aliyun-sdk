@@ -17,7 +17,7 @@ class Chatbot extends ProductAbstract
 
     protected $product = "Chatbot";
 
-    protected $service_code = "beebot";
+    protected $service_code = "";
 
     protected $credential = "AccessKeyCredential";
 

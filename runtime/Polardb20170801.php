@@ -105,6 +105,8 @@ use aliyun\sdk\core\lib\Request;
  * @method DescribeTaskInfo DescribeTaskInfo()
  * @method DescribeCharacterSetName DescribeCharacterSetName()
  * @method DescribeDatabases DescribeDatabases()
+ * @method DeleteDBNodes DeleteDBNodes()
+ * @method CreateDBNodes CreateDBNodes()
  * @method DescribeSqlLogTimeDistribution DescribeSqlLogTimeDistribution()
  * @method AllocateInstancePublicConnection AllocateInstancePublicConnection()
  * @method DescribeDBInstanceIPArrayList DescribeDBInstanceIPArrayList()
@@ -2065,6 +2067,44 @@ class DescribeCharacterSetName extends Request
  * @method string getDBName()
  */
 class DescribeDatabases extends Request
+{
+
+}/**
+ * @method $this setOwnerId($ownerId)
+ * @method int getOwnerId()
+ * @method $this setResourceOwnerAccount($resourceOwnerAccount)
+ * @method string getResourceOwnerAccount()
+ * @method $this setResourceOwnerId($resourceOwnerId)
+ * @method int getResourceOwnerId()
+ * @method $this setOwnerAccount($ownerAccount)
+ * @method string getOwnerAccount()
+ * @method $this setDBClusterId($dBClusterId)
+ * @method string getDBClusterId()
+ * @method $this setDBNodeId($dBNodeId)
+ * @method array getDBNodeId()
+ * @method $this setClientToken($clientToken)
+ * @method string getClientToken()
+ */
+class DeleteDBNodes extends Request
+{
+
+}/**
+ * @method $this setOwnerId($ownerId)
+ * @method int getOwnerId()
+ * @method $this setResourceOwnerAccount($resourceOwnerAccount)
+ * @method string getResourceOwnerAccount()
+ * @method $this setResourceOwnerId($resourceOwnerId)
+ * @method int getResourceOwnerId()
+ * @method $this setOwnerAccount($ownerAccount)
+ * @method string getOwnerAccount()
+ * @method $this setDBClusterId($dBClusterId)
+ * @method string getDBClusterId()
+ * @method $this setDBNode($dBNode)
+ * @method array getDBNode()
+ * @method $this setClientToken($clientToken)
+ * @method string getClientToken()
+ */
+class CreateDBNodes extends Request
 {
 
 }/**

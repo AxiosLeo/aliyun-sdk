@@ -18,7 +18,7 @@ class EHPC extends ProductAbstract
 
     protected $product = "EHPC";
 
-    protected $service_code = "ehs";
+    protected $service_code = "";
 
     protected $credential = "AccessKeyCredential";
 

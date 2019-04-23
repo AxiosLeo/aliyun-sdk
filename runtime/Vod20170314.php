@@ -587,6 +587,8 @@ class GetStorageInfo extends Request
  * @method string getCateName()
  * @method $this setParentId($parentId)
  * @method int getParentId()
+ * @method $this setType($type)
+ * @method string getType()
  */
 class AddCategory extends Request
 {
@@ -1035,6 +1037,10 @@ class CreateUploadMediaFile extends Request
  * @method string getTranscodeGroupId()
  * @method $this setStorageLocation($storageLocation)
  * @method string getStorageLocation()
+ * @method $this setLiveRegionId($liveRegionId)
+ * @method string getLiveRegionId()
+ * @method $this setComposeTranscodeGroupId($composeTranscodeGroupId)
+ * @method string getComposeTranscodeGroupId()
  */
 class QueryUploadInfo extends Request
 {
@@ -5283,6 +5289,8 @@ class ControlVodService extends Request
  * @method int getPageSize()
  * @method $this setSortBy($sortBy)
  * @method string getSortBy()
+ * @method $this setType($type)
+ * @method string getType()
  */
 class GetCategories extends Request
 {
@@ -6235,6 +6243,8 @@ class GetAppLicense extends Request
  * @method string getWorkflowId()
  * @method $this setStorageLocation($storageLocation)
  * @method string getStorageLocation()
+ * @method $this setAppId($appId)
+ * @method string getAppId()
  */
 class CreateUploadVideo extends Request
 {

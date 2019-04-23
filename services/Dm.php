@@ -19,7 +19,7 @@ class Dm extends ProductAbstract
 
     protected $product = "Dm";
 
-    protected $service_code = "dm";
+    protected $service_code = "";
 
     protected $credential = "AccessKeyCredential";
 

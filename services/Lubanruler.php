@@ -17,7 +17,7 @@ class Lubanruler extends ProductAbstract
 
     protected $product = "Lubanruler";
 
-    protected $service_code = "lubanruler";
+    protected $service_code = "";
 
     protected $credential = "AccessKeyCredential";
 

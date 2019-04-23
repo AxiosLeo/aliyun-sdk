@@ -18,7 +18,7 @@ class Push extends ProductAbstract
 
     protected $product = "Push";
 
-    protected $service_code = "push";
+    protected $service_code = "";
 
     protected $credential = "AccessKeyCredential";
 

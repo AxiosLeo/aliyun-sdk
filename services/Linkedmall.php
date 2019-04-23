@@ -17,7 +17,7 @@ class Linkedmall extends ProductAbstract
 
     protected $product = "linkedmall";
 
-    protected $service_code = "linkedmall";
+    protected $service_code = "";
 
     protected $credential = "AccessKeyCredential";
 

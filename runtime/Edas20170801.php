@@ -1207,6 +1207,8 @@ class InsertDeployGroup extends Request
 }/**
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
+ * @method $this setNamespaceId($namespaceId)
+ * @method string getNamespaceId()
  */
 class ImportK8sCluster extends Request
 {

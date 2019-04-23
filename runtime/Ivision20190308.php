@@ -354,6 +354,8 @@ class CreateTrainDatasFromPrediction extends Request
  * @method string getDescription()
  * @method $this setProType($proType)
  * @method string getProType()
+ * @method $this setModelId($modelId)
+ * @method string getModelId()
  */
 class CreateProject extends Request
 {

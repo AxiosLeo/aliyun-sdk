@@ -18,7 +18,7 @@ class Ocs extends ProductAbstract
 
     protected $product = "Ocs";
 
-    protected $service_code = "ocs";
+    protected $service_code = "";
 
     protected $credential = "AccessKeyCredential";
 

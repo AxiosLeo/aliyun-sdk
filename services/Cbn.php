@@ -17,7 +17,7 @@ class Cbn extends ProductAbstract
 
     protected $product = "Cbn";
 
-    protected $service_code = "cbn";
+    protected $service_code = "";
 
     protected $credential = "AccessKeyCredential";
 
@@ -45,12 +45,12 @@ class Cbn extends ProductAbstract
             "us-west-1",
         ],
         "public"   => [
-            "ap-northeast-1" => "cen.us-east-1.aliyuncs.com",
-            "ap-south-1"     => "cen.us-east-1.aliyuncs.com",
-            "ap-southeast-1" => "cen.us-east-1.aliyuncs.com",
-            "ap-southeast-2" => "cen.us-east-1.aliyuncs.com",
-            "ap-southeast-3" => "cen.us-east-1.aliyuncs.com",
-            "ap-southeast-5" => "cen.us-east-1.aliyuncs.com",
+            "ap-northeast-1" => "cbn.aliyuncs.com",
+            "ap-south-1"     => "cbn.aliyuncs.com",
+            "ap-southeast-1" => "cbn.aliyuncs.com",
+            "ap-southeast-2" => "cbn.aliyuncs.com",
+            "ap-southeast-3" => "cbn.aliyuncs.com",
+            "ap-southeast-5" => "cbn.aliyuncs.com",
             "cn-beijing"     => "cbn.aliyuncs.com",
             "cn-chengdu"     => "cbn.aliyuncs.com",
             "cn-hangzhou"    => "cbn.aliyuncs.com",
@@ -60,11 +60,11 @@ class Cbn extends ProductAbstract
             "cn-shanghai"    => "cbn.aliyuncs.com",
             "cn-shenzhen"    => "cbn.aliyuncs.com",
             "cn-zhangjiakou" => "cbn.aliyuncs.com",
-            "eu-central-1"   => "cen.us-east-1.aliyuncs.com",
-            "eu-west-1"      => "cen.us-east-1.aliyuncs.com",
-            "me-east-1"      => "cen.us-east-1.aliyuncs.com",
-            "us-east-1"      => "cen.us-east-1.aliyuncs.com",
-            "us-west-1"      => "cen.us-east-1.aliyuncs.com",
+            "eu-central-1"   => "cbn.aliyuncs.com",
+            "eu-west-1"      => "cbn.aliyuncs.com",
+            "me-east-1"      => "cbn.aliyuncs.com",
+            "us-east-1"      => "cbn.aliyuncs.com",
+            "us-west-1"      => "cbn.aliyuncs.com",
         ],
         "internal" => [
         ]

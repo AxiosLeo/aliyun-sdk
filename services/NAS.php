@@ -18,7 +18,7 @@ class NAS extends ProductAbstract
 
     protected $product = "NAS";
 
-    protected $service_code = "nas";
+    protected $service_code = "";
 
     protected $credential = "AccessKeyCredential";
 

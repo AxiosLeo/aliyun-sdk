@@ -18,7 +18,7 @@ class Ivision extends ProductAbstract
 
     protected $product = "ivision";
 
-    protected $service_code = "ivision";
+    protected $service_code = "";
 
     protected $credential = "AccessKeyCredential";
 

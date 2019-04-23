@@ -11,6 +11,7 @@ use aliyun\sdk\core\lib\Request;
  * @method DeleteHighPriorityIp DeleteHighPriorityIp()
  * @method DescribeUises DescribeUises()
  * @method GetDroppedIpList GetDroppedIpList()
+ * @method SetAccessLog SetAccessLog()
  * @method AddHighPriorityIp AddHighPriorityIp()
  * @method DescribeUisNetworkInterfaces DescribeUisNetworkInterfaces()
  * @method DeleteDnatEntry DeleteDnatEntry()
@@ -25,6 +26,7 @@ use aliyun\sdk\core\lib\Request;
  * @method DescribeAreas DescribeAreas()
  * @method AddUisNodeIp AddUisNodeIp()
  * @method DeleteUisConnection DeleteUisConnection()
+ * @method DeleteAccessLog DeleteAccessLog()
  * @method DescribeUisNodes DescribeUisNodes()
  * @method CreateDnatEntry CreateDnatEntry()
  * @method ModifyHighPriorityIp ModifyHighPriorityIp()
@@ -98,6 +100,27 @@ class DescribeUises extends Request
  * @method string getChartDate()
  */
 class GetDroppedIpList extends Request
+{
+
+}/**
+ * @method $this setOwnerAccount($ownerAccount)
+ * @method string getOwnerAccount()
+ * @method $this setOwnerId($ownerId)
+ * @method int getOwnerId()
+ * @method $this setResourceOwnerAccount($resourceOwnerAccount)
+ * @method string getResourceOwnerAccount()
+ * @method $this setResourceOwnerId($resourceOwnerId)
+ * @method int getResourceOwnerId()
+ * @method $this setUisId($uisId)
+ * @method string getUisId()
+ * @method $this setAreaId($areaId)
+ * @method string getAreaId()
+ * @method $this setLogProjectName($logProjectName)
+ * @method string getLogProjectName()
+ * @method $this setLogStoreName($logStoreName)
+ * @method string getLogStoreName()
+ */
+class SetAccessLog extends Request
 {
 
 }/**
@@ -412,6 +435,23 @@ class AddUisNodeIp extends Request
  * @method string getUisNodeId()
  */
 class DeleteUisConnection extends Request
+{
+
+}/**
+ * @method $this setOwnerAccount($ownerAccount)
+ * @method string getOwnerAccount()
+ * @method $this setOwnerId($ownerId)
+ * @method int getOwnerId()
+ * @method $this setResourceOwnerAccount($resourceOwnerAccount)
+ * @method string getResourceOwnerAccount()
+ * @method $this setResourceOwnerId($resourceOwnerId)
+ * @method int getResourceOwnerId()
+ * @method $this setUisId($uisId)
+ * @method string getUisId()
+ * @method $this setAreaId($areaId)
+ * @method string getAreaId()
+ */
+class DeleteAccessLog extends Request
 {
 
 }/**
