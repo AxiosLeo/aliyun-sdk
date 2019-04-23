@@ -9,7 +9,7 @@
 namespace aliyun\sdk\example;
 
 use aliyun\sdk\Aliyun;
-use aliyun\sdk\services\AliyunClient;
+use aliyun\sdk\services\AliyunServices;
 use aliyun\sdk\services\Vod;
 
 require_once __DIR__ . '/base.php';
@@ -23,6 +23,6 @@ $response = Vod::V20170321()->GetCategories()
 dump($response->getContent());
 
 // or
-AliyunClient::Vod20170321()->GetCategories()
+AliyunServices::Vod20170321()->GetCategories()
     ->setCateId(-1)
     ->request();

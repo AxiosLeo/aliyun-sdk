@@ -67,7 +67,7 @@ $response = Vod::V20170321()->GetCategories()
     ->request();
     
 // or
-AliyunClient::Vod20170321()->GetCategories()
+AliyunServices::Vod20170321()->GetCategories()
     ->setCateId(-1)
     ->request();
 
