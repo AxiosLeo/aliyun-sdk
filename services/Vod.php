@@ -9,12 +9,12 @@ use aliyun\sdk\core\traits\ProductTrait;
  * Class VodClient
  *
  * @package aliyun\sdk\services
- * @method \aliyun\sdk\services\Vod20170713\V20170713 V20170713() static
- * @method \aliyun\sdk\services\Vod20170510\V20170510 V20170510() static
- * @method \aliyun\sdk\services\Vod20170426\V20170426 V20170426() static
- * @method \aliyun\sdk\services\Vod20170420\V20170420 V20170420() static
- * @method \aliyun\sdk\services\Vod20170321\V20170321 V20170321() static
- * @method \aliyun\sdk\services\Vod20170314\V20170314 V20170314() static
+ * @method Vod20170713\V20170713 V20170713() static
+ * @method Vod20170510\V20170510 V20170510() static
+ * @method Vod20170426\V20170426 V20170426() static
+ * @method Vod20170420\V20170420 V20170420() static
+ * @method Vod20170321\V20170321 V20170321() static
+ * @method Vod20170314\V20170314 V20170314() static
  */
 class Vod extends ProductAbstract
 {

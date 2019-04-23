@@ -9,7 +9,7 @@ use aliyun\sdk\core\traits\ProductTrait;
  * Class LubancloudClient
  *
  * @package aliyun\sdk\services
- * @method \aliyun\sdk\services\Lubancloud20180509\V20180509 V20180509() static
+ * @method Lubancloud20180509\V20180509 V20180509() static
  */
 class Lubancloud extends ProductAbstract
 {

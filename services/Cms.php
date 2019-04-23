@@ -9,18 +9,18 @@ use aliyun\sdk\core\traits\ProductTrait;
  * Class CmsClient
  *
  * @package aliyun\sdk\services
- * @method \aliyun\sdk\services\Cms20190101\V20190101 V20190101() static
- * @method \aliyun\sdk\services\Cms20180308\V20180308 V20180308() static
- * @method \aliyun\sdk\services\Cms20170825\V20170825 V20170825() static
- * @method \aliyun\sdk\services\Cms20170824\V20170824 V20170824() static
- * @method \aliyun\sdk\services\Cms20170620\V20170620 V20170620() static
- * @method \aliyun\sdk\services\Cms20170301\V20170301 V20170301() static
- * @method \aliyun\sdk\services\Cms20160922\V20160922 V20160922() static
- * @method \aliyun\sdk\services\Cms20160318\V20160318 V20160318() static
- * @method \aliyun\sdk\services\Cms20151020\V20151020 V20151020() static
- * @method \aliyun\sdk\services\Cms20150801\V20150801 V20150801() static
- * @method \aliyun\sdk\services\Cms20150729\V20150729 V20150729() static
- * @method \aliyun\sdk\services\Cms20150420\V20150420 V20150420() static
+ * @method Cms20190101\V20190101 V20190101() static
+ * @method Cms20180308\V20180308 V20180308() static
+ * @method Cms20170825\V20170825 V20170825() static
+ * @method Cms20170824\V20170824 V20170824() static
+ * @method Cms20170620\V20170620 V20170620() static
+ * @method Cms20170301\V20170301 V20170301() static
+ * @method Cms20160922\V20160922 V20160922() static
+ * @method Cms20160318\V20160318 V20160318() static
+ * @method Cms20151020\V20151020 V20151020() static
+ * @method Cms20150801\V20150801 V20150801() static
+ * @method Cms20150729\V20150729 V20150729() static
+ * @method Cms20150420\V20150420 V20150420() static
  */
 class Cms extends ProductAbstract
 {

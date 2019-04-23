@@ -9,7 +9,7 @@ use aliyun\sdk\core\traits\ProductTrait;
  * Class ImmClient
  *
  * @package aliyun\sdk\services
- * @method \aliyun\sdk\services\Imm20170906\V20170906 V20170906() static
+ * @method Imm20170906\V20170906 V20170906() static
  */
 class Imm extends ProductAbstract
 {

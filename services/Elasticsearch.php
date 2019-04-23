@@ -9,7 +9,7 @@ use aliyun\sdk\core\traits\ProductTrait;
  * Class ElasticsearchClient
  *
  * @package aliyun\sdk\services
- * @method \aliyun\sdk\services\Elasticsearch20170613\V20170613 V20170613() static
+ * @method Elasticsearch20170613\V20170613 V20170613() static
  */
 class Elasticsearch extends ProductAbstract
 {

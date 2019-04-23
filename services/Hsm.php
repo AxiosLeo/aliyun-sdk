@@ -9,7 +9,7 @@ use aliyun\sdk\core\traits\ProductTrait;
  * Class HsmClient
  *
  * @package aliyun\sdk\services
- * @method \aliyun\sdk\services\Hsm20180111\V20180111 V20180111() static
+ * @method Hsm20180111\V20180111 V20180111() static
  */
 class Hsm extends ProductAbstract
 {

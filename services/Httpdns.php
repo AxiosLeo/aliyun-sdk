@@ -9,7 +9,7 @@ use aliyun\sdk\core\traits\ProductTrait;
  * Class HttpdnsClient
  *
  * @package aliyun\sdk\services
- * @method \aliyun\sdk\services\Httpdns20160201\V20160201 V20160201() static
+ * @method Httpdns20160201\V20160201 V20160201() static
  */
 class Httpdns extends ProductAbstract
 {

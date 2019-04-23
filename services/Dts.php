@@ -9,11 +9,11 @@ use aliyun\sdk\core\traits\ProductTrait;
  * Class DtsClient
  *
  * @package aliyun\sdk\services
- * @method \aliyun\sdk\services\Dts20180801\V20180801 V20180801() static
- * @method \aliyun\sdk\services\Dts20170601\V20170601 V20170601() static
- * @method \aliyun\sdk\services\Dts20160801\V20160801 V20160801() static
- * @method \aliyun\sdk\services\Dts20151124\V20151124 V20151124() static
- * @method \aliyun\sdk\services\Dts20150629\V20150629 V20150629() static
+ * @method Dts20180801\V20180801 V20180801() static
+ * @method Dts20170601\V20170601 V20170601() static
+ * @method Dts20160801\V20160801 V20160801() static
+ * @method Dts20151124\V20151124 V20151124() static
+ * @method Dts20150629\V20150629 V20150629() static
  */
 class Dts extends ProductAbstract
 {

@@ -9,9 +9,9 @@ use aliyun\sdk\core\traits\ProductTrait;
  * Class HighDDosClient
  *
  * @package aliyun\sdk\services
- * @method \aliyun\sdk\services\HighDDos20170920\V20170920 V20170920() static
- * @method \aliyun\sdk\services\HighDDos20160410\V20160410 V20160410() static
- * @method \aliyun\sdk\services\HighDDos20160401\V20160401 V20160401() static
+ * @method HighDDos20170920\V20170920 V20170920() static
+ * @method HighDDos20160410\V20160410 V20160410() static
+ * @method HighDDos20160401\V20160401 V20160401() static
  */
 class HighDDos extends ProductAbstract
 {

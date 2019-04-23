@@ -9,10 +9,10 @@ use aliyun\sdk\core\traits\ProductTrait;
  * Class CSClient
  *
  * @package aliyun\sdk\services
- * @method \aliyun\sdk\services\CS28180418\V28180418 V28180418() static
- * @method \aliyun\sdk\services\CS20180418\V20180418 V20180418() static
- * @method \aliyun\sdk\services\CS20180417\V20180417 V20180417() static
- * @method \aliyun\sdk\services\CS20151215\V20151215 V20151215() static
+ * @method CS28180418\V28180418 V28180418() static
+ * @method CS20180418\V20180418 V20180418() static
+ * @method CS20180417\V20180417 V20180417() static
+ * @method CS20151215\V20151215 V20151215() static
  */
 class CS extends ProductAbstract
 {

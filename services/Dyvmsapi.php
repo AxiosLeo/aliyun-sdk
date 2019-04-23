@@ -9,7 +9,7 @@ use aliyun\sdk\core\traits\ProductTrait;
  * Class DyvmsapiClient
  *
  * @package aliyun\sdk\services
- * @method \aliyun\sdk\services\Dyvmsapi20170525\V20170525 V20170525() static
+ * @method Dyvmsapi20170525\V20170525 V20170525() static
  */
 class Dyvmsapi extends ProductAbstract
 {

@@ -9,8 +9,8 @@ use aliyun\sdk\core\traits\ProductTrait;
  * Class EHPCClient
  *
  * @package aliyun\sdk\services
- * @method \aliyun\sdk\services\EHPC20180412\V20180412 V20180412() static
- * @method \aliyun\sdk\services\EHPC20170714\V20170714 V20170714() static
+ * @method EHPC20180412\V20180412 V20180412() static
+ * @method EHPC20170714\V20170714 V20170714() static
  */
 class EHPC extends ProductAbstract
 {

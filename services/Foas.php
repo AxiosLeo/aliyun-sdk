@@ -9,7 +9,7 @@ use aliyun\sdk\core\traits\ProductTrait;
  * Class FoasClient
  *
  * @package aliyun\sdk\services
- * @method \aliyun\sdk\services\Foas20181111\V20181111 V20181111() static
+ * @method Foas20181111\V20181111 V20181111() static
  */
 class Foas extends ProductAbstract
 {

@@ -9,8 +9,8 @@ use aliyun\sdk\core\traits\ProductTrait;
  * Class PTSClient
  *
  * @package aliyun\sdk\services
- * @method \aliyun\sdk\services\PTS20181111\V20181111 V20181111() static
- * @method \aliyun\sdk\services\PTS20150801\V20150801 V20150801() static
+ * @method PTS20181111\V20181111 V20181111() static
+ * @method PTS20150801\V20150801 V20150801() static
  */
 class PTS extends ProductAbstract
 {

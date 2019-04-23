@@ -9,11 +9,11 @@ use aliyun\sdk\core\traits\ProductTrait;
  * Class DrdsClient
  *
  * @package aliyun\sdk\services
- * @method \aliyun\sdk\services\Drds20190123\V20190123 V20190123() static
- * @method \aliyun\sdk\services\Drds20171016\V20171016 V20171016() static
- * @method \aliyun\sdk\services\Drds20161213\V20161213 V20161213() static
- * @method \aliyun\sdk\services\Drds20160506\V20160506 V20160506() static
- * @method \aliyun\sdk\services\Drds20150413\V20150413 V20150413() static
+ * @method Drds20190123\V20190123 V20190123() static
+ * @method Drds20171016\V20171016 V20171016() static
+ * @method Drds20161213\V20161213 V20161213() static
+ * @method Drds20160506\V20160506 V20160506() static
+ * @method Drds20150413\V20150413 V20150413() static
  */
 class Drds extends ProductAbstract
 {

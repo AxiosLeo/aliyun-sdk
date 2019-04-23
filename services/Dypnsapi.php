@@ -9,7 +9,7 @@ use aliyun\sdk\core\traits\ProductTrait;
  * Class DypnsapiClient
  *
  * @package aliyun\sdk\services
- * @method \aliyun\sdk\services\Dypnsapi20170525\V20170525 V20170525() static
+ * @method Dypnsapi20170525\V20170525 V20170525() static
  */
 class Dypnsapi extends ProductAbstract
 {

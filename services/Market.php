@@ -9,7 +9,7 @@ use aliyun\sdk\core\traits\ProductTrait;
  * Class MarketClient
  *
  * @package aliyun\sdk\services
- * @method \aliyun\sdk\services\Market20151101\V20151101 V20151101() static
+ * @method Market20151101\V20151101 V20151101() static
  */
 class Market extends ProductAbstract
 {

@@ -9,8 +9,8 @@ use aliyun\sdk\core\traits\ProductTrait;
  * Class CloudPhotoClient
  *
  * @package aliyun\sdk\services
- * @method \aliyun\sdk\services\CloudPhoto20170711\V20170711 V20170711() static
- * @method \aliyun\sdk\services\CloudPhoto20170511\V20170511 V20170511() static
+ * @method CloudPhoto20170711\V20170711 V20170711() static
+ * @method CloudPhoto20170511\V20170511 V20170511() static
  */
 class CloudPhoto extends ProductAbstract
 {

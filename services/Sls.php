@@ -9,8 +9,8 @@ use aliyun\sdk\core\traits\ProductTrait;
  * Class SlsClient
  *
  * @package aliyun\sdk\services
- * @method \aliyun\sdk\services\Sls20180613\V20180613 V20180613() static
- * @method \aliyun\sdk\services\Sls20160801\V20160801 V20160801() static
+ * @method Sls20180613\V20180613 V20180613() static
+ * @method Sls20160801\V20160801 V20160801() static
  */
 class Sls extends ProductAbstract
 {

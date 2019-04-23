@@ -9,7 +9,7 @@ use aliyun\sdk\core\traits\ProductTrait;
  * Class AegisClient
  *
  * @package aliyun\sdk\services
- * @method \aliyun\sdk\services\Aegis20161111\V20161111 V20161111() static
+ * @method Aegis20161111\V20161111 V20161111() static
  */
 class Aegis extends ProductAbstract
 {

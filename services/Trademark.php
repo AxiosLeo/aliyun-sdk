@@ -9,7 +9,7 @@ use aliyun\sdk\core\traits\ProductTrait;
  * Class TrademarkClient
  *
  * @package aliyun\sdk\services
- * @method \aliyun\sdk\services\Trademark20180724\V20180724 V20180724() static
+ * @method Trademark20180724\V20180724 V20180724() static
  */
 class Trademark extends ProductAbstract
 {

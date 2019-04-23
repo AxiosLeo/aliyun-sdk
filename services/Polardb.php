@@ -9,7 +9,7 @@ use aliyun\sdk\core\traits\ProductTrait;
  * Class PolardbClient
  *
  * @package aliyun\sdk\services
- * @method \aliyun\sdk\services\Polardb20170801\V20170801 V20170801() static
+ * @method Polardb20170801\V20170801 V20170801() static
  */
 class Polardb extends ProductAbstract
 {

@@ -9,7 +9,7 @@ use aliyun\sdk\core\traits\ProductTrait;
  * Class AirecClient
  *
  * @package aliyun\sdk\services
- * @method \aliyun\sdk\services\Airec20181012\V20181012 V20181012() static
+ * @method Airec20181012\V20181012 V20181012() static
  */
 class Airec extends ProductAbstract
 {

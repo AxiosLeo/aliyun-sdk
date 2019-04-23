@@ -9,7 +9,7 @@ use aliyun\sdk\core\traits\ProductTrait;
  * Class BssOpenApiClient
  *
  * @package aliyun\sdk\services
- * @method \aliyun\sdk\services\BssOpenApi20171214\V20171214 V20171214() static
+ * @method BssOpenApi20171214\V20171214 V20171214() static
  */
 class BssOpenApi extends ProductAbstract
 {

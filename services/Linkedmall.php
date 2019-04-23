@@ -9,7 +9,7 @@ use aliyun\sdk\core\traits\ProductTrait;
  * Class LinkedmallClient
  *
  * @package aliyun\sdk\services
- * @method \aliyun\sdk\services\Linkedmall20180116\V20180116 V20180116() static
+ * @method Linkedmall20180116\V20180116 V20180116() static
  */
 class Linkedmall extends ProductAbstract
 {

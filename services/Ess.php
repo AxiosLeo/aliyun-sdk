@@ -9,8 +9,8 @@ use aliyun\sdk\core\traits\ProductTrait;
  * Class EssClient
  *
  * @package aliyun\sdk\services
- * @method \aliyun\sdk\services\Ess20160722\V20160722 V20160722() static
- * @method \aliyun\sdk\services\Ess20140828\V20140828 V20140828() static
+ * @method Ess20160722\V20160722 V20160722() static
+ * @method Ess20140828\V20140828 V20140828() static
  */
 class Ess extends ProductAbstract
 {

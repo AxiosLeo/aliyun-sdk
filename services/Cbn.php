@@ -9,7 +9,7 @@ use aliyun\sdk\core\traits\ProductTrait;
  * Class CbnClient
  *
  * @package aliyun\sdk\services
- * @method \aliyun\sdk\services\Cbn20170912\V20170912 V20170912() static
+ * @method Cbn20170912\V20170912 V20170912() static
  */
 class Cbn extends ProductAbstract
 {

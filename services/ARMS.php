@@ -9,14 +9,14 @@ use aliyun\sdk\core\traits\ProductTrait;
  * Class ARMSClient
  *
  * @package aliyun\sdk\services
- * @method \aliyun\sdk\services\ARMS20190219\V20190219 V20190219() static
- * @method \aliyun\sdk\services\ARMS20181219\V20181219 V20181219() static
- * @method \aliyun\sdk\services\ARMS20181015\V20181015 V20181015() static
- * @method \aliyun\sdk\services\ARMS20180620\V20180620 V20180620() static
- * @method \aliyun\sdk\services\ARMS20170725\V20170725 V20170725() static
- * @method \aliyun\sdk\services\ARMS20161125\V20161125 V20161125() static
- * @method \aliyun\sdk\services\ARMS20161031\V20161031 V20161031() static
- * @method \aliyun\sdk\services\ARMS20160804\V20160804 V20160804() static
+ * @method ARMS20190219\V20190219 V20190219() static
+ * @method ARMS20181219\V20181219 V20181219() static
+ * @method ARMS20181015\V20181015 V20181015() static
+ * @method ARMS20180620\V20180620 V20180620() static
+ * @method ARMS20170725\V20170725 V20170725() static
+ * @method ARMS20161125\V20161125 V20161125() static
+ * @method ARMS20161031\V20161031 V20161031() static
+ * @method ARMS20160804\V20160804 V20160804() static
  */
 class ARMS extends ProductAbstract
 {

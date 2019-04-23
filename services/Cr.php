@@ -9,9 +9,9 @@ use aliyun\sdk\core\traits\ProductTrait;
  * Class CrClient
  *
  * @package aliyun\sdk\services
- * @method \aliyun\sdk\services\Cr20181201\V20181201 V20181201() static
- * @method \aliyun\sdk\services\Cr20160607\V20160607 V20160607() static
- * @method \aliyun\sdk\services\Cr20150506\V20150506 V20150506() static
+ * @method Cr20181201\V20181201 V20181201() static
+ * @method Cr20160607\V20160607 V20160607() static
+ * @method Cr20150506\V20150506 V20150506() static
  */
 class Cr extends ProductAbstract
 {

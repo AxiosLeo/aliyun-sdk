@@ -9,7 +9,7 @@ use aliyun\sdk\core\traits\ProductTrait;
  * Class FaasClient
  *
  * @package aliyun\sdk\services
- * @method \aliyun\sdk\services\Faas20170824\V20170824 V20170824() static
+ * @method Faas20170824\V20170824 V20170824() static
  */
 class Faas extends ProductAbstract
 {

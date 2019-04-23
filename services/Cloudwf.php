@@ -9,7 +9,7 @@ use aliyun\sdk\core\traits\ProductTrait;
  * Class CloudwfClient
  *
  * @package aliyun\sdk\services
- * @method \aliyun\sdk\services\Cloudwf20170328\V20170328 V20170328() static
+ * @method Cloudwf20170328\V20170328 V20170328() static
  */
 class Cloudwf extends ProductAbstract
 {

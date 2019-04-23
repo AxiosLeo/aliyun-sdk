@@ -9,7 +9,7 @@ use aliyun\sdk\core\traits\ProductTrait;
  * Class DcdnClient
  *
  * @package aliyun\sdk\services
- * @method \aliyun\sdk\services\Dcdn20180115\V20180115 V20180115() static
+ * @method Dcdn20180115\V20180115 V20180115() static
  */
 class Dcdn extends ProductAbstract
 {

@@ -9,7 +9,7 @@ use aliyun\sdk\core\traits\ProductTrait;
  * Class SmartagClient
  *
  * @package aliyun\sdk\services
- * @method \aliyun\sdk\services\Smartag20180313\V20180313 V20180313() static
+ * @method Smartag20180313\V20180313 V20180313() static
  */
 class Smartag extends ProductAbstract
 {

@@ -9,7 +9,7 @@ use aliyun\sdk\core\traits\ProductTrait;
  * Class MoPenClient
  *
  * @package aliyun\sdk\services
- * @method \aliyun\sdk\services\MoPen20180211\V20180211 V20180211() static
+ * @method MoPen20180211\V20180211 V20180211() static
  */
 class MoPen extends ProductAbstract
 {

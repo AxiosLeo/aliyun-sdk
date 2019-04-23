@@ -9,9 +9,9 @@ use aliyun\sdk\core\traits\ProductTrait;
  * Class RiskClient
  *
  * @package aliyun\sdk\services
- * @method \aliyun\sdk\services\Risk20160713\V20160713 V20160713() static
- * @method \aliyun\sdk\services\Risk20150804\V20150804 V20150804() static
- * @method \aliyun\sdk\services\Risk20150323\V20150323 V20150323() static
+ * @method Risk20160713\V20160713 V20160713() static
+ * @method Risk20150804\V20150804 V20150804() static
+ * @method Risk20150323\V20150323 V20150323() static
  */
 class Risk extends ProductAbstract
 {

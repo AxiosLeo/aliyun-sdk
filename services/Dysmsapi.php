@@ -9,8 +9,8 @@ use aliyun\sdk\core\traits\ProductTrait;
  * Class DysmsapiClient
  *
  * @package aliyun\sdk\services
- * @method \aliyun\sdk\services\Dysmsapi20180501\V20180501 V20180501() static
- * @method \aliyun\sdk\services\Dysmsapi20170525\V20170525 V20170525() static
+ * @method Dysmsapi20180501\V20180501 V20180501() static
+ * @method Dysmsapi20170525\V20170525 V20170525() static
  */
 class Dysmsapi extends ProductAbstract
 {

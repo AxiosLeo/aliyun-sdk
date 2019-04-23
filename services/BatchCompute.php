@@ -9,11 +9,11 @@ use aliyun\sdk\core\traits\ProductTrait;
  * Class BatchComputeClient
  *
  * @package aliyun\sdk\services
- * @method \aliyun\sdk\services\BatchCompute20161111\V20161111 V20161111() static
- * @method \aliyun\sdk\services\BatchCompute20151111\V20151111 V20151111() static
- * @method \aliyun\sdk\services\BatchCompute20151001\V20151001 V20151001() static
- * @method \aliyun\sdk\services\BatchCompute20150630\V20150630 V20150630() static
- * @method \aliyun\sdk\services\BatchCompute20130111\V20130111 V20130111() static
+ * @method BatchCompute20161111\V20161111 V20161111() static
+ * @method BatchCompute20151111\V20151111 V20151111() static
+ * @method BatchCompute20151001\V20151001 V20151001() static
+ * @method BatchCompute20150630\V20150630 V20150630() static
+ * @method BatchCompute20130111\V20130111 V20130111() static
  */
 class BatchCompute extends ProductAbstract
 {

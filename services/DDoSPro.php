@@ -9,10 +9,10 @@ use aliyun\sdk\core\traits\ProductTrait;
  * Class DDoSProClient
  *
  * @package aliyun\sdk\services
- * @method \aliyun\sdk\services\DDoSPro20180101\V20180101 V20180101() static
- * @method \aliyun\sdk\services\DDoSPro20171220\V20171220 V20171220() static
- * @method \aliyun\sdk\services\DDoSPro20170726\V20170726 V20170726() static
- * @method \aliyun\sdk\services\DDoSPro20170725\V20170725 V20170725() static
+ * @method DDoSPro20180101\V20180101 V20180101() static
+ * @method DDoSPro20171220\V20171220 V20171220() static
+ * @method DDoSPro20170726\V20170726 V20170726() static
+ * @method DDoSPro20170725\V20170725 V20170725() static
  */
 class DDoSPro extends ProductAbstract
 {

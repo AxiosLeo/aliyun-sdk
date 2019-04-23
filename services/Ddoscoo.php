@@ -9,7 +9,7 @@ use aliyun\sdk\core\traits\ProductTrait;
  * Class DdoscooClient
  *
  * @package aliyun\sdk\services
- * @method \aliyun\sdk\services\Ddoscoo20171228\V20171228 V20171228() static
+ * @method Ddoscoo20171228\V20171228 V20171228() static
  */
 class Ddoscoo extends ProductAbstract
 {

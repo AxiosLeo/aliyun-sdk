@@ -9,9 +9,9 @@ use aliyun\sdk\core\traits\ProductTrait;
  * Class DmClient
  *
  * @package aliyun\sdk\services
- * @method \aliyun\sdk\services\Dm20170622\V20170622 V20170622() static
- * @method \aliyun\sdk\services\Dm20160825\V20160825 V20160825() static
- * @method \aliyun\sdk\services\Dm20151123\V20151123 V20151123() static
+ * @method Dm20170622\V20170622 V20170622() static
+ * @method Dm20160825\V20160825 V20160825() static
+ * @method Dm20151123\V20151123 V20151123() static
  */
 class Dm extends ProductAbstract
 {

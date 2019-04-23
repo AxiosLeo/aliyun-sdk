@@ -9,11 +9,11 @@ use aliyun\sdk\core\traits\ProductTrait;
  * Class CloudAPIClient
  *
  * @package aliyun\sdk\services
- * @method \aliyun\sdk\services\CloudAPI20180901\V20180901 V20180901() static
- * @method \aliyun\sdk\services\CloudAPI20180601\V20180601 V20180601() static
- * @method \aliyun\sdk\services\CloudAPI20160714\V20160714 V20160714() static
- * @method \aliyun\sdk\services\CloudAPI20160701\V20160701 V20160701() static
- * @method \aliyun\sdk\services\CloudAPI20160201\V20160201 V20160201() static
+ * @method CloudAPI20180901\V20180901 V20180901() static
+ * @method CloudAPI20180601\V20180601 V20180601() static
+ * @method CloudAPI20160714\V20160714 V20160714() static
+ * @method CloudAPI20160701\V20160701 V20160701() static
+ * @method CloudAPI20160201\V20160201 V20160201() static
  */
 class CloudAPI extends ProductAbstract
 {

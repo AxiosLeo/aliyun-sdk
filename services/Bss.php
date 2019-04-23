@@ -9,7 +9,7 @@ use aliyun\sdk\core\traits\ProductTrait;
  * Class BssClient
  *
  * @package aliyun\sdk\services
- * @method \aliyun\sdk\services\Bss20140714\V20140714 V20140714() static
+ * @method Bss20140714\V20140714 V20140714() static
  */
 class Bss extends ProductAbstract
 {

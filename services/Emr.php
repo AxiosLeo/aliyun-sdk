@@ -9,10 +9,10 @@ use aliyun\sdk\core\traits\ProductTrait;
  * Class EmrClient
  *
  * @package aliyun\sdk\services
- * @method \aliyun\sdk\services\Emr20160408\V20160408 V20160408() static
- * @method \aliyun\sdk\services\Emr20160110\V20160110 V20160110() static
- * @method \aliyun\sdk\services\Emr20150910\V20150910 V20150910() static
- * @method \aliyun\sdk\services\Emr20150810\V20150810 V20150810() static
+ * @method Emr20160408\V20160408 V20160408() static
+ * @method Emr20160110\V20160110 V20160110() static
+ * @method Emr20150910\V20150910 V20150910() static
+ * @method Emr20150810\V20150810 V20150810() static
  */
 class Emr extends ProductAbstract
 {

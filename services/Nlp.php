@@ -9,7 +9,7 @@ use aliyun\sdk\core\traits\ProductTrait;
  * Class NlpClient
  *
  * @package aliyun\sdk\services
- * @method \aliyun\sdk\services\Nlp20180408\V20180408 V20180408() static
+ * @method Nlp20180408\V20180408 V20180408() static
  */
 class Nlp extends ProductAbstract
 {

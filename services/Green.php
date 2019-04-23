@@ -9,31 +9,31 @@ use aliyun\sdk\core\traits\ProductTrait;
  * Class GreenClient
  *
  * @package aliyun\sdk\services
- * @method \aliyun\sdk\services\Green20180509\V20180509 V20180509() static
- * @method \aliyun\sdk\services\Green20180409\V20180409 V20180409() static
- * @method \aliyun\sdk\services\Green20170825\V20170825 V20170825() static
- * @method \aliyun\sdk\services\Green20170824\V20170824 V20170824() static
- * @method \aliyun\sdk\services\Green20170823\V20170823 V20170823() static
- * @method \aliyun\sdk\services\Green20170112\V20170112 V20170112() static
- * @method \aliyun\sdk\services\Green20161222\V20161222 V20161222() static
- * @method \aliyun\sdk\services\Green20161216\V20161216 V20161216() static
- * @method \aliyun\sdk\services\Green20161206\V20161206 V20161206() static
- * @method \aliyun\sdk\services\Green20161205\V20161205 V20161205() static
- * @method \aliyun\sdk\services\Green20161124\V20161124 V20161124() static
- * @method \aliyun\sdk\services\Green20161115\V20161115 V20161115() static
- * @method \aliyun\sdk\services\Green20161018\V20161018 V20161018() static
- * @method \aliyun\sdk\services\Green20160923\V20160923 V20160923() static
- * @method \aliyun\sdk\services\Green20160914\V20160914 V20160914() static
- * @method \aliyun\sdk\services\Green20160801\V20160801 V20160801() static
- * @method \aliyun\sdk\services\Green20160627\V20160627 V20160627() static
- * @method \aliyun\sdk\services\Green20160621\V20160621 V20160621() static
- * @method \aliyun\sdk\services\Green20160616\V20160616 V20160616() static
- * @method \aliyun\sdk\services\Green20160601\V20160601 V20160601() static
- * @method \aliyun\sdk\services\Green20160525\V20160525 V20160525() static
- * @method \aliyun\sdk\services\Green20160308\V20160308 V20160308() static
- * @method \aliyun\sdk\services\Green20160224\V20160224 V20160224() static
- * @method \aliyun\sdk\services\Green20160118\V20160118 V20160118() static
- * @method \aliyun\sdk\services\Green20151209\V20151209 V20151209() static
+ * @method Green20180509\V20180509 V20180509() static
+ * @method Green20180409\V20180409 V20180409() static
+ * @method Green20170825\V20170825 V20170825() static
+ * @method Green20170824\V20170824 V20170824() static
+ * @method Green20170823\V20170823 V20170823() static
+ * @method Green20170112\V20170112 V20170112() static
+ * @method Green20161222\V20161222 V20161222() static
+ * @method Green20161216\V20161216 V20161216() static
+ * @method Green20161206\V20161206 V20161206() static
+ * @method Green20161205\V20161205 V20161205() static
+ * @method Green20161124\V20161124 V20161124() static
+ * @method Green20161115\V20161115 V20161115() static
+ * @method Green20161018\V20161018 V20161018() static
+ * @method Green20160923\V20160923 V20160923() static
+ * @method Green20160914\V20160914 V20160914() static
+ * @method Green20160801\V20160801 V20160801() static
+ * @method Green20160627\V20160627 V20160627() static
+ * @method Green20160621\V20160621 V20160621() static
+ * @method Green20160616\V20160616 V20160616() static
+ * @method Green20160601\V20160601 V20160601() static
+ * @method Green20160525\V20160525 V20160525() static
+ * @method Green20160308\V20160308 V20160308() static
+ * @method Green20160224\V20160224 V20160224() static
+ * @method Green20160118\V20160118 V20160118() static
+ * @method Green20151209\V20151209 V20151209() static
  */
 class Green extends ProductAbstract
 {

@@ -9,7 +9,7 @@ use aliyun\sdk\core\traits\ProductTrait;
  * Class AliProbeClient
  *
  * @package aliyun\sdk\services
- * @method \aliyun\sdk\services\AliProbe20161222\V20161222 V20161222() static
+ * @method AliProbe20161222\V20161222 V20161222() static
  */
 class AliProbe extends ProductAbstract
 {

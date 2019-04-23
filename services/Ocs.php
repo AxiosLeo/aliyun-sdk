@@ -9,8 +9,8 @@ use aliyun\sdk\core\traits\ProductTrait;
  * Class OcsClient
  *
  * @package aliyun\sdk\services
- * @method \aliyun\sdk\services\Ocs20150407\V20150407 V20150407() static
- * @method \aliyun\sdk\services\Ocs20150301\V20150301 V20150301() static
+ * @method Ocs20150407\V20150407 V20150407() static
+ * @method Ocs20150301\V20150301 V20150301() static
  */
 class Ocs extends ProductAbstract
 {

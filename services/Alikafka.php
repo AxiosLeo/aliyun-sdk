@@ -9,7 +9,7 @@ use aliyun\sdk\core\traits\ProductTrait;
  * Class AlikafkaClient
  *
  * @package aliyun\sdk\services
- * @method \aliyun\sdk\services\Alikafka20181015\V20181015 V20181015() static
+ * @method Alikafka20181015\V20181015 V20181015() static
  */
 class Alikafka extends ProductAbstract
 {

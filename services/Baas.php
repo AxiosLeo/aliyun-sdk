@@ -9,8 +9,8 @@ use aliyun\sdk\core\traits\ProductTrait;
  * Class BaasClient
  *
  * @package aliyun\sdk\services
- * @method \aliyun\sdk\services\Baas20181221\V20181221 V20181221() static
- * @method \aliyun\sdk\services\Baas20180731\V20180731 V20180731() static
+ * @method Baas20181221\V20181221 V20181221() static
+ * @method Baas20180731\V20180731 V20180731() static
  */
 class Baas extends ProductAbstract
 {

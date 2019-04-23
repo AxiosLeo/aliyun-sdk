@@ -9,7 +9,7 @@ use aliyun\sdk\core\traits\ProductTrait;
  * Class DdsClient
  *
  * @package aliyun\sdk\services
- * @method \aliyun\sdk\services\Dds20151201\V20151201 V20151201() static
+ * @method Dds20151201\V20151201 V20151201() static
  */
 class Dds extends ProductAbstract
 {

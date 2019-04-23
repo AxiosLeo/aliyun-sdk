@@ -9,7 +9,7 @@ use aliyun\sdk\core\traits\ProductTrait;
  * Class ChatbotClient
  *
  * @package aliyun\sdk\services
- * @method \aliyun\sdk\services\Chatbot20171011\V20171011 V20171011() static
+ * @method Chatbot20171011\V20171011 V20171011() static
  */
 class Chatbot extends ProductAbstract
 {

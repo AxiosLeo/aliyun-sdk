@@ -9,11 +9,11 @@ use aliyun\sdk\core\traits\ProductTrait;
  * Class ImageSearchClient
  *
  * @package aliyun\sdk\services
- * @method \aliyun\sdk\services\ImageSearch20190325\V20190325 V20190325() static
- * @method \aliyun\sdk\services\ImageSearch20180319\V20180319 V20180319() static
- * @method \aliyun\sdk\services\ImageSearch20180120\V20180120 V20180120() static
- * @method \aliyun\sdk\services\ImageSearch20180115\V20180115 V20180115() static
- * @method \aliyun\sdk\services\ImageSearch20180111\V20180111 V20180111() static
+ * @method ImageSearch20190325\V20190325 V20190325() static
+ * @method ImageSearch20180319\V20180319 V20180319() static
+ * @method ImageSearch20180120\V20180120 V20180120() static
+ * @method ImageSearch20180115\V20180115 V20180115() static
+ * @method ImageSearch20180111\V20180111 V20180111() static
  */
 class ImageSearch extends ProductAbstract
 {

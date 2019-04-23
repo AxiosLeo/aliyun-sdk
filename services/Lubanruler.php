@@ -9,7 +9,7 @@ use aliyun\sdk\core\traits\ProductTrait;
  * Class LubanrulerClient
  *
  * @package aliyun\sdk\services
- * @method \aliyun\sdk\services\Lubanruler20171228\V20171228 V20171228() static
+ * @method Lubanruler20171228\V20171228 V20171228() static
  */
 class Lubanruler extends ProductAbstract
 {

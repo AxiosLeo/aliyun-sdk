@@ -9,7 +9,7 @@ use aliyun\sdk\core\traits\ProductTrait;
  * Class PetaDataClient
  *
  * @package aliyun\sdk\services
- * @method \aliyun\sdk\services\PetaData20160101\V20160101 V20160101() static
+ * @method PetaData20160101\V20160101 V20160101() static
  */
 class PetaData extends ProductAbstract
 {

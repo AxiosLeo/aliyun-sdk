@@ -9,14 +9,14 @@ use aliyun\sdk\core\traits\ProductTrait;
  * Class IotClient
  *
  * @package aliyun\sdk\services
- * @method \aliyun\sdk\services\Iot20181120\V20181120 V20181120() static
- * @method \aliyun\sdk\services\Iot20180120\V20180120 V20180120() static
- * @method \aliyun\sdk\services\Iot20170820\V20170820 V20170820() static
- * @method \aliyun\sdk\services\Iot20170720\V20170720 V20170720() static
- * @method \aliyun\sdk\services\Iot20170620\V20170620 V20170620() static
- * @method \aliyun\sdk\services\Iot20170420\V20170420 V20170420() static
- * @method \aliyun\sdk\services\Iot20160530\V20160530 V20160530() static
- * @method \aliyun\sdk\services\Iot20160104\V20160104 V20160104() static
+ * @method Iot20181120\V20181120 V20181120() static
+ * @method Iot20180120\V20180120 V20180120() static
+ * @method Iot20170820\V20170820 V20170820() static
+ * @method Iot20170720\V20170720 V20170720() static
+ * @method Iot20170620\V20170620 V20170620() static
+ * @method Iot20170420\V20170420 V20170420() static
+ * @method Iot20160530\V20160530 V20160530() static
+ * @method Iot20160104\V20160104 V20160104() static
  */
 class Iot extends ProductAbstract
 {

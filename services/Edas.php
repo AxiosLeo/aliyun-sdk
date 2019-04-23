@@ -9,10 +9,10 @@ use aliyun\sdk\core\traits\ProductTrait;
  * Class EdasClient
  *
  * @package aliyun\sdk\services
- * @method \aliyun\sdk\services\Edas20180131\V20180131 V20180131() static
- * @method \aliyun\sdk\services\Edas20170801\V20170801 V20170801() static
- * @method \aliyun\sdk\services\Edas20170405\V20170405 V20170405() static
- * @method \aliyun\sdk\services\Edas20160816\V20160816 V20160816() static
+ * @method Edas20180131\V20180131 V20180131() static
+ * @method Edas20170801\V20170801 V20170801() static
+ * @method Edas20170405\V20170405 V20170405() static
+ * @method Edas20160816\V20160816 V20160816() static
  */
 class Edas extends ProductAbstract
 {

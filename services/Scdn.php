@@ -9,7 +9,7 @@ use aliyun\sdk\core\traits\ProductTrait;
  * Class ScdnClient
  *
  * @package aliyun\sdk\services
- * @method \aliyun\sdk\services\Scdn20171115\V20171115 V20171115() static
+ * @method Scdn20171115\V20171115 V20171115() static
  */
 class Scdn extends ProductAbstract
 {

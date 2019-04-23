@@ -9,7 +9,7 @@ use aliyun\sdk\core\traits\ProductTrait;
  * Class CrmClient
  *
  * @package aliyun\sdk\services
- * @method \aliyun\sdk\services\Crm20150408\V20150408 V20150408() static
+ * @method Crm20150408\V20150408 V20150408() static
  */
 class Crm extends ProductAbstract
 {

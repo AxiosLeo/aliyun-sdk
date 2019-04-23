@@ -9,7 +9,7 @@ use aliyun\sdk\core\traits\ProductTrait;
  * Class RtcClient
  *
  * @package aliyun\sdk\services
- * @method \aliyun\sdk\services\Rtc20180111\V20180111 V20180111() static
+ * @method Rtc20180111\V20180111 V20180111() static
  */
 class Rtc extends ProductAbstract
 {

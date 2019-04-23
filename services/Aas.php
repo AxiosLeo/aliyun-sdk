@@ -9,7 +9,7 @@ use aliyun\sdk\core\traits\ProductTrait;
  * Class AasClient
  *
  * @package aliyun\sdk\services
- * @method \aliyun\sdk\services\Aas20150701\V20150701 V20150701() static
+ * @method Aas20150701\V20150701 V20150701() static
  */
 class Aas extends ProductAbstract
 {

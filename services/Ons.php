@@ -9,14 +9,14 @@ use aliyun\sdk\core\traits\ProductTrait;
  * Class OnsClient
  *
  * @package aliyun\sdk\services
- * @method \aliyun\sdk\services\Ons20190214\V20190214 V20190214() static
- * @method \aliyun\sdk\services\Ons20180628\V20180628 V20180628() static
- * @method \aliyun\sdk\services\Ons20180516\V20180516 V20180516() static
- * @method \aliyun\sdk\services\Ons20170918\V20170918 V20170918() static
- * @method \aliyun\sdk\services\Ons20160503\V20160503 V20160503() static
- * @method \aliyun\sdk\services\Ons20160405\V20160405 V20160405() static
- * @method \aliyun\sdk\services\Ons20151214\V20151214 V20151214() static
- * @method \aliyun\sdk\services\Ons20151020\V20151020 V20151020() static
+ * @method Ons20190214\V20190214 V20190214() static
+ * @method Ons20180628\V20180628 V20180628() static
+ * @method Ons20180516\V20180516 V20180516() static
+ * @method Ons20170918\V20170918 V20170918() static
+ * @method Ons20160503\V20160503 V20160503() static
+ * @method Ons20160405\V20160405 V20160405() static
+ * @method Ons20151214\V20151214 V20151214() static
+ * @method Ons20151020\V20151020 V20151020() static
  */
 class Ons extends ProductAbstract
 {

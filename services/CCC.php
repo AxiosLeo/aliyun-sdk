@@ -9,7 +9,7 @@ use aliyun\sdk\core\traits\ProductTrait;
  * Class CCCClient
  *
  * @package aliyun\sdk\services
- * @method \aliyun\sdk\services\CCC20170705\V20170705 V20170705() static
+ * @method CCC20170705\V20170705 V20170705() static
  */
 class CCC extends ProductAbstract
 {

@@ -9,9 +9,9 @@ use aliyun\sdk\core\traits\ProductTrait;
  * Class ITaaSClient
  *
  * @package aliyun\sdk\services
- * @method \aliyun\sdk\services\ITaaS20170512\V20170512 V20170512() static
- * @method \aliyun\sdk\services\ITaaS20170509\V20170509 V20170509() static
- * @method \aliyun\sdk\services\ITaaS20170505\V20170505 V20170505() static
+ * @method ITaaS20170512\V20170512 V20170512() static
+ * @method ITaaS20170509\V20170509 V20170509() static
+ * @method ITaaS20170505\V20170505 V20170505() static
  */
 class ITaaS extends ProductAbstract
 {

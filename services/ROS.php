@@ -9,7 +9,7 @@ use aliyun\sdk\core\traits\ProductTrait;
  * Class ROSClient
  *
  * @package aliyun\sdk\services
- * @method \aliyun\sdk\services\ROS20150901\V20150901 V20150901() static
+ * @method ROS20150901\V20150901 V20150901() static
  */
 class ROS extends ProductAbstract
 {

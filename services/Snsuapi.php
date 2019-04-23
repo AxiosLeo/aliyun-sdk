@@ -9,7 +9,7 @@ use aliyun\sdk\core\traits\ProductTrait;
  * Class SnsuapiClient
  *
  * @package aliyun\sdk\services
- * @method \aliyun\sdk\services\Snsuapi20180709\V20180709 V20180709() static
+ * @method Snsuapi20180709\V20180709 V20180709() static
  */
 class Snsuapi extends ProductAbstract
 {

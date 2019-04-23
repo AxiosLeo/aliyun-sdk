@@ -9,8 +9,8 @@ use aliyun\sdk\core\traits\ProductTrait;
  * Class LinkFaceClient
  *
  * @package aliyun\sdk\services
- * @method \aliyun\sdk\services\LinkFace20180720\V20180720 V20180720() static
- * @method \aliyun\sdk\services\LinkFace20180608\V20180608 V20180608() static
+ * @method LinkFace20180720\V20180720 V20180720() static
+ * @method LinkFace20180608\V20180608 V20180608() static
  */
 class LinkFace extends ProductAbstract
 {

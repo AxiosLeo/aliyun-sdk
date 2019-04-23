@@ -9,7 +9,7 @@ use aliyun\sdk\core\traits\ProductTrait;
  * Class CloudmarketingClient
  *
  * @package aliyun\sdk\services
- * @method \aliyun\sdk\services\Cloudmarketing20180910\V20180910 V20180910() static
+ * @method Cloudmarketing20180910\V20180910 V20180910() static
  */
 class Cloudmarketing extends ProductAbstract
 {

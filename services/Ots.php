@@ -9,13 +9,13 @@ use aliyun\sdk\core\traits\ProductTrait;
  * Class OtsClient
  *
  * @package aliyun\sdk\services
- * @method \aliyun\sdk\services\Ots20180520\V20180520 V20180520() static
- * @method \aliyun\sdk\services\Ots20171111\V20171111 V20171111() static
- * @method \aliyun\sdk\services\Ots20160620\V20160620 V20160620() static
- * @method \aliyun\sdk\services\Ots20151230\V20151230 V20151230() static
- * @method \aliyun\sdk\services\Ots20151120\V20151120 V20151120() static
- * @method \aliyun\sdk\services\Ots20151103\V20151103 V20151103() static
- * @method \aliyun\sdk\services\Ots20130912\V20130912 V20130912() static
+ * @method Ots20180520\V20180520 V20180520() static
+ * @method Ots20171111\V20171111 V20171111() static
+ * @method Ots20160620\V20160620 V20160620() static
+ * @method Ots20151230\V20151230 V20151230() static
+ * @method Ots20151120\V20151120 V20151120() static
+ * @method Ots20151103\V20151103 V20151103() static
+ * @method Ots20130912\V20130912 V20130912() static
  */
 class Ots extends ProductAbstract
 {

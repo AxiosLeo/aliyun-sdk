@@ -9,8 +9,8 @@ use aliyun\sdk\core\traits\ProductTrait;
  * Class DybaseapiClient
  *
  * @package aliyun\sdk\services
- * @method \aliyun\sdk\services\Dybaseapi20180501\V20180501 V20180501() static
- * @method \aliyun\sdk\services\Dybaseapi20170525\V20170525 V20170525() static
+ * @method Dybaseapi20180501\V20180501 V20180501() static
+ * @method Dybaseapi20170525\V20170525 V20170525() static
  */
 class Dybaseapi extends ProductAbstract
 {

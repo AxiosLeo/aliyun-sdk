@@ -9,13 +9,13 @@ use aliyun\sdk\core\traits\ProductTrait;
  * Class OssAdminClient
  *
  * @package aliyun\sdk\services
- * @method \aliyun\sdk\services\OssAdmin20180303\V20180303 V20180303() static
- * @method \aliyun\sdk\services\OssAdmin20170115\V20170115 V20170115() static
- * @method \aliyun\sdk\services\OssAdmin20151224\V20151224 V20151224() static
- * @method \aliyun\sdk\services\OssAdmin20150520\V20150520 V20150520() static
- * @method \aliyun\sdk\services\OssAdmin20150302\V20150302 V20150302() static
- * @method \aliyun\sdk\services\OssAdmin20140326\V20140326 V20140326() static
- * @method \aliyun\sdk\services\OssAdmin20130712\V20130712 V20130712() static
+ * @method OssAdmin20180303\V20180303 V20180303() static
+ * @method OssAdmin20170115\V20170115 V20170115() static
+ * @method OssAdmin20151224\V20151224 V20151224() static
+ * @method OssAdmin20150520\V20150520 V20150520() static
+ * @method OssAdmin20150302\V20150302 V20150302() static
+ * @method OssAdmin20140326\V20140326 V20140326() static
+ * @method OssAdmin20130712\V20130712 V20130712() static
  */
 class OssAdmin extends ProductAbstract
 {

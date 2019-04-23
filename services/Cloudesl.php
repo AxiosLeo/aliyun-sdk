@@ -9,7 +9,7 @@ use aliyun\sdk\core\traits\ProductTrait;
  * Class CloudeslClient
  *
  * @package aliyun\sdk\services
- * @method \aliyun\sdk\services\Cloudesl20180801\V20180801 V20180801() static
+ * @method Cloudesl20180801\V20180801 V20180801() static
  */
 class Cloudesl extends ProductAbstract
 {

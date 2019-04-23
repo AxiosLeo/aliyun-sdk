@@ -9,13 +9,13 @@ use aliyun\sdk\core\traits\ProductTrait;
  * Class CloudauthClient
  *
  * @package aliyun\sdk\services
- * @method \aliyun\sdk\services\Cloudauth20180916\V20180916 V20180916() static
- * @method \aliyun\sdk\services\Cloudauth20180807\V20180807 V20180807() static
- * @method \aliyun\sdk\services\Cloudauth20180703\V20180703 V20180703() static
- * @method \aliyun\sdk\services\Cloudauth20180504\V20180504 V20180504() static
- * @method \aliyun\sdk\services\Cloudauth20171117\V20171117 V20171117() static
- * @method \aliyun\sdk\services\Cloudauth20171010\V20171010 V20171010() static
- * @method \aliyun\sdk\services\Cloudauth20170912\V20170912 V20170912() static
+ * @method Cloudauth20180916\V20180916 V20180916() static
+ * @method Cloudauth20180807\V20180807 V20180807() static
+ * @method Cloudauth20180703\V20180703 V20180703() static
+ * @method Cloudauth20180504\V20180504 V20180504() static
+ * @method Cloudauth20171117\V20171117 V20171117() static
+ * @method Cloudauth20171010\V20171010 V20171010() static
+ * @method Cloudauth20170912\V20170912 V20170912() static
  */
 class Cloudauth extends ProductAbstract
 {

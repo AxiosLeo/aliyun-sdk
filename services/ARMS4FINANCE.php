@@ -9,7 +9,7 @@ use aliyun\sdk\core\traits\ProductTrait;
  * Class ARMS4FINANCEClient
  *
  * @package aliyun\sdk\services
- * @method \aliyun\sdk\services\ARMS4FINANCE20171130\V20171130 V20171130() static
+ * @method ARMS4FINANCE20171130\V20171130 V20171130() static
  */
 class ARMS4FINANCE extends ProductAbstract
 {

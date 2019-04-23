@@ -9,7 +9,7 @@ use aliyun\sdk\core\traits\ProductTrait;
  * Class UbsmsClient
  *
  * @package aliyun\sdk\services
- * @method \aliyun\sdk\services\Ubsms20150623\V20150623 V20150623() static
+ * @method Ubsms20150623\V20150623 V20150623() static
  */
 class Ubsms extends ProductAbstract
 {

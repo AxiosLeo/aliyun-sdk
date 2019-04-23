@@ -9,7 +9,7 @@ use aliyun\sdk\core\traits\ProductTrait;
  * Class LiveClient
  *
  * @package aliyun\sdk\services
- * @method \aliyun\sdk\services\Live20161101\V20161101 V20161101() static
+ * @method Live20161101\V20161101 V20161101() static
  */
 class Live extends ProductAbstract
 {

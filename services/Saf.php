@@ -9,11 +9,11 @@ use aliyun\sdk\core\traits\ProductTrait;
  * Class SafClient
  *
  * @package aliyun\sdk\services
- * @method \aliyun\sdk\services\Saf20190128\V20190128 V20190128() static
- * @method \aliyun\sdk\services\Saf20190120\V20190120 V20190120() static
- * @method \aliyun\sdk\services\Saf20180919\V20180919 V20180919() static
- * @method \aliyun\sdk\services\Saf20171001\V20171001 V20171001() static
- * @method \aliyun\sdk\services\Saf20170331\V20170331 V20170331() static
+ * @method Saf20190128\V20190128 V20190128() static
+ * @method Saf20190120\V20190120 V20190120() static
+ * @method Saf20180919\V20180919 V20180919() static
+ * @method Saf20171001\V20171001 V20171001() static
+ * @method Saf20170331\V20170331 V20170331() static
  */
 class Saf extends ProductAbstract
 {

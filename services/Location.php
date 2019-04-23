@@ -9,7 +9,7 @@ use aliyun\sdk\core\traits\ProductTrait;
  * Class LocationClient
  *
  * @package aliyun\sdk\services
- * @method \aliyun\sdk\services\Location20150612\V20150612 V20150612() static
+ * @method Location20150612\V20150612 V20150612() static
  */
 class Location extends ProductAbstract
 {

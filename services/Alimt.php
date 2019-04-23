@@ -9,9 +9,9 @@ use aliyun\sdk\core\traits\ProductTrait;
  * Class AlimtClient
  *
  * @package aliyun\sdk\services
- * @method \aliyun\sdk\services\Alimt20190107\V20190107 V20190107() static
- * @method \aliyun\sdk\services\Alimt20181012\V20181012 V20181012() static
- * @method \aliyun\sdk\services\Alimt20180807\V20180807 V20180807() static
+ * @method Alimt20190107\V20190107 V20190107() static
+ * @method Alimt20181012\V20181012 V20181012() static
+ * @method Alimt20180807\V20180807 V20180807() static
  */
 class Alimt extends ProductAbstract
 {

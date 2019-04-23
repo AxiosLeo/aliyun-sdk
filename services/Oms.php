@@ -9,10 +9,10 @@ use aliyun\sdk\core\traits\ProductTrait;
  * Class OmsClient
  *
  * @package aliyun\sdk\services
- * @method \aliyun\sdk\services\Oms20170821\V20170821 V20170821() static
- * @method \aliyun\sdk\services\Oms20160615\V20160615 V20160615() static
- * @method \aliyun\sdk\services\Oms20151225\V20151225 V20151225() static
- * @method \aliyun\sdk\services\Oms20150212\V20150212 V20150212() static
+ * @method Oms20170821\V20170821 V20170821() static
+ * @method Oms20160615\V20160615 V20160615() static
+ * @method Oms20151225\V20151225 V20151225() static
+ * @method Oms20150212\V20150212 V20150212() static
  */
 class Oms extends ProductAbstract
 {

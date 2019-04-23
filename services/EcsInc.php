@@ -9,7 +9,7 @@ use aliyun\sdk\core\traits\ProductTrait;
  * Class EcsIncClient
  *
  * @package aliyun\sdk\services
- * @method \aliyun\sdk\services\EcsInc20160314\V20160314 V20160314() static
+ * @method EcsInc20160314\V20160314 V20160314() static
  */
 class EcsInc extends ProductAbstract
 {

@@ -9,7 +9,7 @@ use aliyun\sdk\core\traits\ProductTrait;
  * Class DbsClient
  *
  * @package aliyun\sdk\services
- * @method \aliyun\sdk\services\Dbs20190306\V20190306 V20190306() static
+ * @method Dbs20190306\V20190306 V20190306() static
  */
 class Dbs extends ProductAbstract
 {

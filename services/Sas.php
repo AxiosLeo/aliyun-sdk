@@ -9,10 +9,10 @@ use aliyun\sdk\core\traits\ProductTrait;
  * Class SasClient
  *
  * @package aliyun\sdk\services
- * @method \aliyun\sdk\services\Sas20181203\V20181203 V20181203() static
- * @method \aliyun\sdk\services\Sas20170713\V20170713 V20170713() static
- * @method \aliyun\sdk\services\Sas20161219\V20161219 V20161219() static
- * @method \aliyun\sdk\services\Sas20160316\V20160316 V20160316() static
+ * @method Sas20181203\V20181203 V20181203() static
+ * @method Sas20170713\V20170713 V20170713() static
+ * @method Sas20161219\V20161219 V20161219() static
+ * @method Sas20160316\V20160316 V20160316() static
  */
 class Sas extends ProductAbstract
 {

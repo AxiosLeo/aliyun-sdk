@@ -9,8 +9,8 @@ use aliyun\sdk\core\traits\ProductTrait;
  * Class PushClient
  *
  * @package aliyun\sdk\services
- * @method \aliyun\sdk\services\Push20160801\V20160801 V20160801() static
- * @method \aliyun\sdk\services\Push20150827\V20150827 V20150827() static
+ * @method Push20160801\V20160801 V20160801() static
+ * @method Push20150827\V20150827 V20150827() static
  */
 class Push extends ProductAbstract
 {

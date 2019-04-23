@@ -9,7 +9,7 @@ use aliyun\sdk\core\traits\ProductTrait;
  * Class AfsClient
  *
  * @package aliyun\sdk\services
- * @method \aliyun\sdk\services\Afs20180112\V20180112 V20180112() static
+ * @method Afs20180112\V20180112 V20180112() static
  */
 class Afs extends ProductAbstract
 {

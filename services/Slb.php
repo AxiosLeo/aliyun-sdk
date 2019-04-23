@@ -9,8 +9,8 @@ use aliyun\sdk\core\traits\ProductTrait;
  * Class SlbClient
  *
  * @package aliyun\sdk\services
- * @method \aliyun\sdk\services\Slb20140515\V20140515 V20140515() static
- * @method \aliyun\sdk\services\Slb20130221\V20130221 V20130221() static
+ * @method Slb20140515\V20140515 V20140515() static
+ * @method Slb20130221\V20130221 V20130221() static
  */
 class Slb extends ProductAbstract
 {

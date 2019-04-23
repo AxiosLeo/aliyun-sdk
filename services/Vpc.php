@@ -9,7 +9,7 @@ use aliyun\sdk\core\traits\ProductTrait;
  * Class VpcClient
  *
  * @package aliyun\sdk\services
- * @method \aliyun\sdk\services\Vpc20160428\V20160428 V20160428() static
+ * @method Vpc20160428\V20160428 V20160428() static
  */
 class Vpc extends ProductAbstract
 {

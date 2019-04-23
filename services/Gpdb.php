@@ -9,7 +9,7 @@ use aliyun\sdk\core\traits\ProductTrait;
  * Class GpdbClient
  *
  * @package aliyun\sdk\services
- * @method \aliyun\sdk\services\Gpdb20160503\V20160503 V20160503() static
+ * @method Gpdb20160503\V20160503 V20160503() static
  */
 class Gpdb extends ProductAbstract
 {

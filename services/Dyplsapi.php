@@ -9,7 +9,7 @@ use aliyun\sdk\core\traits\ProductTrait;
  * Class DyplsapiClient
  *
  * @package aliyun\sdk\services
- * @method \aliyun\sdk\services\Dyplsapi20170525\V20170525 V20170525() static
+ * @method Dyplsapi20170525\V20170525 V20170525() static
  */
 class Dyplsapi extends ProductAbstract
 {

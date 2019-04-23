@@ -9,9 +9,9 @@ use aliyun\sdk\core\traits\ProductTrait;
  * Class WafOpenapiClient
  *
  * @package aliyun\sdk\services
- * @method \aliyun\sdk\services\WafOpenapi20180117\V20180117 V20180117() static
- * @method \aliyun\sdk\services\WafOpenapi20170930\V20170930 V20170930() static
- * @method \aliyun\sdk\services\WafOpenapi20161111\V20161111 V20161111() static
+ * @method WafOpenapi20180117\V20180117 V20180117() static
+ * @method WafOpenapi20170930\V20170930 V20170930() static
+ * @method WafOpenapi20161111\V20161111 V20161111() static
  */
 class WafOpenapi extends ProductAbstract
 {

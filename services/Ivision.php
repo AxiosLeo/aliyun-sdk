@@ -9,8 +9,8 @@ use aliyun\sdk\core\traits\ProductTrait;
  * Class IvisionClient
  *
  * @package aliyun\sdk\services
- * @method \aliyun\sdk\services\Ivision20190308\V20190308 V20190308() static
- * @method \aliyun\sdk\services\Ivision20180820\V20180820 V20180820() static
+ * @method Ivision20190308\V20190308 V20190308() static
+ * @method Ivision20180820\V20180820 V20180820() static
  */
 class Ivision extends ProductAbstract
 {

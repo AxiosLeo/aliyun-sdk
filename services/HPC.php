@@ -9,8 +9,8 @@ use aliyun\sdk\core\traits\ProductTrait;
  * Class HPCClient
  *
  * @package aliyun\sdk\services
- * @method \aliyun\sdk\services\HPC20161213\V20161213 V20161213() static
- * @method \aliyun\sdk\services\HPC20160603\V20160603 V20160603() static
+ * @method HPC20161213\V20161213 V20161213() static
+ * @method HPC20160603\V20160603 V20160603() static
  */
 class HPC extends ProductAbstract
 {

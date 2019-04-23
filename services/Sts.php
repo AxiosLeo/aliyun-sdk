@@ -9,9 +9,9 @@ use aliyun\sdk\core\traits\ProductTrait;
  * Class StsClient
  *
  * @package aliyun\sdk\services
- * @method \aliyun\sdk\services\Sts20180520\V20180520 V20180520() static
- * @method \aliyun\sdk\services\Sts20171001\V20171001 V20171001() static
- * @method \aliyun\sdk\services\Sts20150401\V20150401 V20150401() static
+ * @method Sts20180520\V20180520 V20180520() static
+ * @method Sts20171001\V20171001 V20171001() static
+ * @method Sts20150401\V20150401 V20150401() static
  */
 class Sts extends ProductAbstract
 {

@@ -9,8 +9,8 @@ use aliyun\sdk\core\traits\ProductTrait;
  * Class QualitycheckClient
  *
  * @package aliyun\sdk\services
- * @method \aliyun\sdk\services\Qualitycheck20190115\V20190115 V20190115() static
- * @method \aliyun\sdk\services\Qualitycheck20160801\V20160801 V20160801() static
+ * @method Qualitycheck20190115\V20190115 V20190115() static
+ * @method Qualitycheck20160801\V20160801 V20160801() static
  */
 class Qualitycheck extends ProductAbstract
 {

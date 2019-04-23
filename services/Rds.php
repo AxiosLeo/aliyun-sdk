@@ -9,9 +9,9 @@ use aliyun\sdk\core\traits\ProductTrait;
  * Class RdsClient
  *
  * @package aliyun\sdk\services
- * @method \aliyun\sdk\services\Rds20140815\V20140815 V20140815() static
- * @method \aliyun\sdk\services\Rds20130528\V20130528 V20130528() static
- * @method \aliyun\sdk\services\Rds20120615\V20120615 V20120615() static
+ * @method Rds20140815\V20140815 V20140815() static
+ * @method Rds20130528\V20130528 V20130528() static
+ * @method Rds20120615\V20120615 V20120615() static
  */
 class Rds extends ProductAbstract
 {

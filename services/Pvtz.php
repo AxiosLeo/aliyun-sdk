@@ -9,7 +9,7 @@ use aliyun\sdk\core\traits\ProductTrait;
  * Class PvtzClient
  *
  * @package aliyun\sdk\services
- * @method \aliyun\sdk\services\Pvtz20180101\V20180101 V20180101() static
+ * @method Pvtz20180101\V20180101 V20180101() static
  */
 class Pvtz extends ProductAbstract
 {

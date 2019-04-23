@@ -9,7 +9,7 @@ use aliyun\sdk\core\traits\ProductTrait;
  * Class YundunClient
  *
  * @package aliyun\sdk\services
- * @method \aliyun\sdk\services\Yundun20150416\V20150416 V20150416() static
+ * @method Yundun20150416\V20150416 V20150416() static
  */
 class Yundun extends ProductAbstract
 {

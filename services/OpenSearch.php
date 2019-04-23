@@ -9,7 +9,7 @@ use aliyun\sdk\core\traits\ProductTrait;
  * Class OpenSearchClient
  *
  * @package aliyun\sdk\services
- * @method \aliyun\sdk\services\OpenSearch20171225\V20171225 V20171225() static
+ * @method OpenSearch20171225\V20171225 V20171225() static
  */
 class OpenSearch extends ProductAbstract
 {

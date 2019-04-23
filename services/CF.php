@@ -9,9 +9,9 @@ use aliyun\sdk\core\traits\ProductTrait;
  * Class CFClient
  *
  * @package aliyun\sdk\services
- * @method \aliyun\sdk\services\CF20170204\V20170204 V20170204() static
- * @method \aliyun\sdk\services\CF20151208\V20151208 V20151208() static
- * @method \aliyun\sdk\services\CF20151127\V20151127 V20151127() static
+ * @method CF20170204\V20170204 V20170204() static
+ * @method CF20151208\V20151208 V20151208() static
+ * @method CF20151127\V20151127 V20151127() static
  */
 class CF extends ProductAbstract
 {

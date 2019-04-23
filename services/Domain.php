@@ -9,10 +9,10 @@ use aliyun\sdk\core\traits\ProductTrait;
  * Class DomainClient
  *
  * @package aliyun\sdk\services
- * @method \aliyun\sdk\services\Domain2018124\V2018124 V2018124() static
- * @method \aliyun\sdk\services\Domain20180208\V20180208 V20180208() static
- * @method \aliyun\sdk\services\Domain20180129\V20180129 V20180129() static
- * @method \aliyun\sdk\services\Domain20160511\V20160511 V20160511() static
+ * @method Domain2018124\V2018124 V2018124() static
+ * @method Domain20180208\V20180208 V20180208() static
+ * @method Domain20180129\V20180129 V20180129() static
+ * @method Domain20160511\V20160511 V20160511() static
  */
 class Domain extends ProductAbstract
 {

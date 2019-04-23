@@ -9,14 +9,14 @@ use aliyun\sdk\core\traits\ProductTrait;
  * Class JaqClient
  *
  * @package aliyun\sdk\services
- * @method \aliyun\sdk\services\Jaq20180129\V20180129 V20180129() static
- * @method \aliyun\sdk\services\Jaq20171129\V20171129 V20171129() static
- * @method \aliyun\sdk\services\Jaq20170825\V20170825 V20170825() static
- * @method \aliyun\sdk\services\Jaq20170413\V20170413 V20170413() static
- * @method \aliyun\sdk\services\Jaq20161123\V20161123 V20161123() static
- * @method \aliyun\sdk\services\Jaq20160801\V20160801 V20160801() static
- * @method \aliyun\sdk\services\Jaq20160513\V20160513 V20160513() static
- * @method \aliyun\sdk\services\Jaq20160412\V20160412 V20160412() static
+ * @method Jaq20180129\V20180129 V20180129() static
+ * @method Jaq20171129\V20171129 V20171129() static
+ * @method Jaq20170825\V20170825 V20170825() static
+ * @method Jaq20170413\V20170413 V20170413() static
+ * @method Jaq20161123\V20161123 V20161123() static
+ * @method Jaq20160801\V20160801 V20160801() static
+ * @method Jaq20160513\V20160513 V20160513() static
+ * @method Jaq20160412\V20160412 V20160412() static
  */
 class Jaq extends ProductAbstract
 {

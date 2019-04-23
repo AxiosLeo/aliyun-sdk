@@ -9,7 +9,7 @@ use aliyun\sdk\core\traits\ProductTrait;
  * Class KmsClient
  *
  * @package aliyun\sdk\services
- * @method \aliyun\sdk\services\Kms20160120\V20160120 V20160120() static
+ * @method Kms20160120\V20160120 V20160120() static
  */
 class Kms extends ProductAbstract
 {

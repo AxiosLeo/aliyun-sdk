@@ -9,7 +9,7 @@ use aliyun\sdk\core\traits\ProductTrait;
  * Class CSBClient
  *
  * @package aliyun\sdk\services
- * @method \aliyun\sdk\services\CSB20171118\V20171118 V20171118() static
+ * @method CSB20171118\V20171118 V20171118() static
  */
 class CSB extends ProductAbstract
 {

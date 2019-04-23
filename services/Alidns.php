@@ -9,7 +9,7 @@ use aliyun\sdk\core\traits\ProductTrait;
  * Class AlidnsClient
  *
  * @package aliyun\sdk\services
- * @method \aliyun\sdk\services\Alidns20150109\V20150109 V20150109() static
+ * @method Alidns20150109\V20150109 V20150109() static
  */
 class Alidns extends ProductAbstract
 {

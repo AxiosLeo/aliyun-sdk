@@ -9,9 +9,9 @@ use aliyun\sdk\core\traits\ProductTrait;
  * Class RamClient
  *
  * @package aliyun\sdk\services
- * @method \aliyun\sdk\services\Ram20180302\V20180302 V20180302() static
- * @method \aliyun\sdk\services\Ram20150501\V20150501 V20150501() static
- * @method \aliyun\sdk\services\Ram20140214\V20140214 V20140214() static
+ * @method Ram20180302\V20180302 V20180302() static
+ * @method Ram20150501\V20150501 V20150501() static
+ * @method Ram20140214\V20140214 V20140214() static
  */
 class Ram extends ProductAbstract
 {

@@ -9,7 +9,7 @@ use aliyun\sdk\core\traits\ProductTrait;
  * Class UisClient
  *
  * @package aliyun\sdk\services
- * @method \aliyun\sdk\services\Uis20180821\V20180821 V20180821() static
+ * @method Uis20180821\V20180821 V20180821() static
  */
 class Uis extends ProductAbstract
 {

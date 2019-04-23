@@ -9,8 +9,8 @@ use aliyun\sdk\core\traits\ProductTrait;
  * Class CdnClient
  *
  * @package aliyun\sdk\services
- * @method \aliyun\sdk\services\Cdn20180510\V20180510 V20180510() static
- * @method \aliyun\sdk\services\Cdn20141111\V20141111 V20141111() static
+ * @method Cdn20180510\V20180510 V20180510() static
+ * @method Cdn20141111\V20141111 V20141111() static
  */
 class Cdn extends ProductAbstract
 {

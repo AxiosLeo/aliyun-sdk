@@ -9,8 +9,8 @@ use aliyun\sdk\core\traits\ProductTrait;
  * Class NASClient
  *
  * @package aliyun\sdk\services
- * @method \aliyun\sdk\services\NAS20170626\V20170626 V20170626() static
- * @method \aliyun\sdk\services\NAS20160229\V20160229 V20160229() static
+ * @method NAS20170626\V20170626 V20170626() static
+ * @method NAS20160229\V20160229 V20160229() static
  */
 class NAS extends ProductAbstract
 {

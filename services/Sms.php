@@ -9,11 +9,11 @@ use aliyun\sdk\core\traits\ProductTrait;
  * Class SmsClient
  *
  * @package aliyun\sdk\services
- * @method \aliyun\sdk\services\Sms20170525\V20170525 V20170525() static
- * @method \aliyun\sdk\services\Sms20170228\V20170228 V20170228() static
- * @method \aliyun\sdk\services\Sms20170104\V20170104 V20170104() static
- * @method \aliyun\sdk\services\Sms20161229\V20161229 V20161229() static
- * @method \aliyun\sdk\services\Sms20160927\V20160927 V20160927() static
+ * @method Sms20170525\V20170525 V20170525() static
+ * @method Sms20170228\V20170228 V20170228() static
+ * @method Sms20170104\V20170104 V20170104() static
+ * @method Sms20161229\V20161229 V20161229() static
+ * @method Sms20160927\V20160927 V20160927() static
  */
 class Sms extends ProductAbstract
 {

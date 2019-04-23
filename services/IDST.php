@@ -9,12 +9,12 @@ use aliyun\sdk\core\traits\ProductTrait;
  * Class IDSTClient
  *
  * @package aliyun\sdk\services
- * @method \aliyun\sdk\services\IDST20190124\V20190124 V20190124() static
- * @method \aliyun\sdk\services\IDST20180108\V20180108 V20180108() static
- * @method \aliyun\sdk\services\IDST20170922\V20170922 V20170922() static
- * @method \aliyun\sdk\services\IDST20170920\V20170920 V20170920() static
- * @method \aliyun\sdk\services\IDST20170830\V20170830 V20170830() static
- * @method \aliyun\sdk\services\IDST20170721\V20170721 V20170721() static
+ * @method IDST20190124\V20190124 V20190124() static
+ * @method IDST20180108\V20180108 V20180108() static
+ * @method IDST20170922\V20170922 V20170922() static
+ * @method IDST20170920\V20170920 V20170920() static
+ * @method IDST20170830\V20170830 V20170830() static
+ * @method IDST20170721\V20170721 V20170721() static
  */
 class IDST extends ProductAbstract
 {

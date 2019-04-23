@@ -9,7 +9,7 @@ use aliyun\sdk\core\traits\ProductTrait;
  * Class ProductCatalogClient
  *
  * @package aliyun\sdk\services
- * @method \aliyun\sdk\services\ProductCatalog20180918\V20180918 V20180918() static
+ * @method ProductCatalog20180918\V20180918 V20180918() static
  */
 class ProductCatalog extends ProductAbstract
 {
