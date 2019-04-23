@@ -28,6 +28,9 @@
     "psr-4": {
       "aliyun\\sdk\\services\\": "services",
       "aliyun\\sdk\\clients\\": "clients"
-    }
+    },
+    "files": [
+      "AliyunClient.php"
+    ]
   }
 }
