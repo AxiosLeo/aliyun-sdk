@@ -42,13 +42,20 @@ require_once __DIR__. "/../vendor/autoload.php";
 $access_id = "testAccessKeyId";
 $access_secret = "testAccessKeySecret";
 
-\aliyun\sdk\Aliyun::auth($access_id,$access_secret);
+\aliyun\sdk\Aliyun::auth($access_id, $access_secret);
 ```
 
 * 设置区域
 
 ```php
 \aliyun\sdk\Aliyun::region('cn-shanghai');
+
+// or
+$request = Vod::V20170321()->GetCategories();
+$request->region("cn-shanghai);
+
+// get region
+$request->region();
 ```
 
 * 请求
@@ -58,6 +65,12 @@ $access_secret = "testAccessKeySecret";
 $response = Vod::V20170321()->GetCategories()
     ->setCateId(-1)
     ->request();
+    
+// or
+AliyunClient::Vod20170321()->GetCategories()
+    ->setCateId(-1)
+    ->request();
+
 ```
 
 * 查看回调结果
