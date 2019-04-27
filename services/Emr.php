@@ -20,7 +20,7 @@ class Emr extends ProductAbstract
 
     protected $product = "Emr";
 
-    protected $service_code = "";
+    protected $service_code = "emr";
 
     protected $credential = "AccessKeyCredential";
 

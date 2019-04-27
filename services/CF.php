@@ -19,7 +19,7 @@ class CF extends ProductAbstract
 
     protected $product = "CF";
 
-    protected $service_code = "";
+    protected $service_code = "cf";
 
     protected $credential = "AccessKeyCredential";
 

@@ -20,7 +20,7 @@ class Sas extends ProductAbstract
 
     protected $product = "Sas";
 
-    protected $service_code = "";
+    protected $service_code = "sas";
 
     protected $credential = "AccessKeyCredential";
 
@@ -53,7 +53,7 @@ class Sas extends ProductAbstract
             "ap-southeast-1" => "tds.ap-southeast-3.aliyuncs.com",
             "ap-southeast-2" => "tds.ap-southeast-3.aliyuncs.com",
             "ap-southeast-3" => "tds.ap-southeast-3.aliyuncs.com",
-            "ap-southeast-5" => "tds.ap-southeast-3.aliyuncs.com",
+            "ap-southeast-5" => "tds.ap-southeast-5.aliyuncs.com",
             "cn-beijing"     => "sas.aliyuncs.com",
             "cn-chengdu"     => "sas.aliyuncs.com",
             "cn-hangzhou"    => "sas.aliyuncs.com",

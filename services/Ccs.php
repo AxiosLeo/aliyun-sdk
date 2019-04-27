@@ -17,7 +17,7 @@ class Ccs extends ProductAbstract
 
     protected $product = "Ccs";
 
-    protected $service_code = "";
+    protected $service_code = "ccs";
 
     protected $credential = "AccessKeyCredential";
 

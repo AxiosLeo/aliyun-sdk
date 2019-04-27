@@ -17,7 +17,7 @@ class Crm extends ProductAbstract
 
     protected $product = "Crm";
 
-    protected $service_code = "";
+    protected $service_code = "crm";
 
     protected $credential = "AccessKeyCredential";
 

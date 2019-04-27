@@ -173,7 +173,6 @@ use aliyun\sdk\core\lib\Request;
  * @method DescribeLiveStreamSnapshotInfo DescribeLiveStreamSnapshotInfo()
  * @method RemoveMultipleStreamMixService RemoveMultipleStreamMixService()
  * @method DeleteCasterComponent DeleteCasterComponent()
- * @method SetLiveStreamDelayConfig SetLiveStreamDelayConfig()
  * @method DescribeLiveAudit DescribeLiveAudit()
  * @method StartMixStreamsService StartMixStreamsService()
  * @method DescribeLiveDomainRecordData DescribeLiveDomainRecordData()
@@ -308,7 +307,6 @@ use aliyun\sdk\core\lib\Request;
  * @method AddAppCallbackConfig AddAppCallbackConfig()
  * @method KickOut KickOut()
  * @method DescribeLiveDomainHttpCodeData DescribeLiveDomainHttpCodeData()
- * @method DescribeLiveStreamDelayConfig DescribeLiveStreamDelayConfig()
  * @method ModifyCasterProgram ModifyCasterProgram()
  * @method ApplyRecordToken ApplyRecordToken()
  * @method StopLiveDomain StopLiveDomain()
@@ -2886,29 +2884,6 @@ class DeleteCasterComponent extends Request
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setDomainName($domainName)
- * @method string getDomainName()
- * @method $this setHlsDelay($hlsDelay)
- * @method int getHlsDelay()
- * @method $this setHlsLevel($hlsLevel)
- * @method string getHlsLevel()
- * @method $this setFlvDelay($flvDelay)
- * @method int getFlvDelay()
- * @method $this setFlvLevel($flvLevel)
- * @method string getFlvLevel()
- * @method $this setRtmpDelay($rtmpDelay)
- * @method int getRtmpDelay()
- * @method $this setRtmpLevel($rtmpLevel)
- * @method string getRtmpLevel()
- */
-class SetLiveStreamDelayConfig extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
  * @method $this setDomainName($domainName)
  * @method string getDomainName()
  * @method $this setBizType($bizType)
@@ -5004,17 +4979,6 @@ class KickOut extends Request
  * @method string getLocationNameEn()
  */
 class DescribeLiveDomainHttpCodeData extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setDomainName($domainName)
- * @method string getDomainName()
- */
-class DescribeLiveStreamDelayConfig extends Request
 {
 
 }/**

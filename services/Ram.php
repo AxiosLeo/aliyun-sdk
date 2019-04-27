@@ -19,7 +19,7 @@ class Ram extends ProductAbstract
 
     protected $product = "Ram";
 
-    protected $service_code = "";
+    protected $service_code = "ram";
 
     protected $credential = "AccessKeyCredential";
 

@@ -17,7 +17,7 @@ class CCC extends ProductAbstract
 
     protected $product = "CCC";
 
-    protected $service_code = "";
+    protected $service_code = "ccc";
 
     protected $credential = "AccessKeyCredential";
 

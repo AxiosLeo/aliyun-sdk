@@ -19,7 +19,7 @@ class Cr extends ProductAbstract
 
     protected $product = "cr";
 
-    protected $service_code = "";
+    protected $service_code = "cr";
 
     protected $credential = "AccessKeyCredential";
 

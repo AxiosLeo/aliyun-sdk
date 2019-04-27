@@ -31,7 +31,6 @@ use aliyun\sdk\core\lib\Request;
  * @method UpdateSmartAccessGatewayVersion UpdateSmartAccessGatewayVersion()
  * @method RebootSmartAccessGateway RebootSmartAccessGateway()
  * @method GrantInstanceToCbn GrantInstanceToCbn()
- * @method CreateSmartAccessGatewayClientUser CreateSmartAccessGatewayClientUser()
  * @method CreateCloudConnectNetwork CreateCloudConnectNetwork()
  * @method UnicomOrderConfirm UnicomOrderConfirm()
  * @method CreateDedicatedLineBackup CreateDedicatedLineBackup()
@@ -49,7 +48,6 @@ use aliyun\sdk\core\lib\Request;
  * @method UnlockSmartAccessGateway UnlockSmartAccessGateway()
  * @method ModifyACL ModifyACL()
  * @method DeleteACL DeleteACL()
- * @method ModifySmartAccessGatewayClientUser ModifySmartAccessGatewayClientUser()
  * @method ModifySerialNumber ModifySerialNumber()
  * @method UpgradeSmartAccessGateway UpgradeSmartAccessGateway()
  * @method ModifyCloudConnectNetwork ModifyCloudConnectNetwork()
@@ -539,31 +537,6 @@ class GrantInstanceToCbn extends Request
  * @method int getResourceOwnerId()
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
- * @method $this setSmartAGId($smartAGId)
- * @method string getSmartAGId()
- * @method $this setUserName($userName)
- * @method string getUserName()
- * @method $this setClientIp($clientIp)
- * @method string getClientIp()
- * @method $this setUserMail($userMail)
- * @method string getUserMail()
- * @method $this setBandwidth($bandwidth)
- * @method int getBandwidth()
- */
-class CreateSmartAccessGatewayClientUser extends Request
-{
-
-}/**
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
  * @method $this setIsDefault($isDefault)
  * @method bool getIsDefault()
  * @method $this setName($name)
@@ -936,27 +909,6 @@ class ModifyACL extends Request
  * @method string getAclId()
  */
 class DeleteACL extends Request
-{
-
-}/**
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setSmartAGId($smartAGId)
- * @method string getSmartAGId()
- * @method $this setUserName($userName)
- * @method string getUserName()
- * @method $this setBandwidth($bandwidth)
- * @method int getBandwidth()
- */
-class ModifySmartAccessGatewayClientUser extends Request
 {
 
 }/**

@@ -9,10 +9,8 @@ use aliyun\sdk\core\lib\Request;
  *
  * @package aliyun\sdk\services\Dbs20190306
  * @method DescribeIncrementBackupList DescribeIncrementBackupList()
- * @method CreateRestoreTask CreateRestoreTask()
  * @method DescribeBackupGatewayList DescribeBackupGatewayList()
  * @method CreateBackupPlan CreateBackupPlan()
- * @method StartRestoreTask StartRestoreTask()
  * @method StopBackupPlan StopBackupPlan()
  * @method StartBackupPlan StartBackupPlan()
  * @method DescribeFullBackupList DescribeFullBackupList()
@@ -41,53 +39,8 @@ class DescribeIncrementBackupList extends Request
 {
 
 }/**
- * @method $this setBackupPlanId($backupPlanId)
- * @method string getBackupPlanId()
- * @method $this setDestinationEndpointInstanceType($destinationEndpointInstanceType)
- * @method string getDestinationEndpointInstanceType()
- * @method $this setDestinationEndpointRegion($destinationEndpointRegion)
- * @method string getDestinationEndpointRegion()
- * @method $this setDestinationEndpointInstanceID($destinationEndpointInstanceID)
- * @method string getDestinationEndpointInstanceID()
- * @method $this setDestinationEndpointIP($destinationEndpointIP)
- * @method string getDestinationEndpointIP()
- * @method $this setDestinationEndpointPort($destinationEndpointPort)
- * @method int getDestinationEndpointPort()
- * @method $this setDestinationEndpointDatabaseName($destinationEndpointDatabaseName)
- * @method string getDestinationEndpointDatabaseName()
- * @method $this setDestinationEndpointUserName($destinationEndpointUserName)
- * @method string getDestinationEndpointUserName()
- * @method $this setDestinationEndpointPassword($destinationEndpointPassword)
- * @method string getDestinationEndpointPassword()
- * @method $this setBackupGatewayId($backupGatewayId)
- * @method int getBackupGatewayId()
- * @method $this setRestoreObjects($restoreObjects)
- * @method string getRestoreObjects()
- * @method $this setRestoreTime($restoreTime)
- * @method int getRestoreTime()
- * @method $this setBackupSetId($backupSetId)
- * @method string getBackupSetId()
- * @method $this setRestoreTaskName($restoreTaskName)
- * @method string getRestoreTaskName()
- * @method $this setDestinationEndpointOracleSID($destinationEndpointOracleSID)
- * @method string getDestinationEndpointOracleSID()
- * @method $this setRestoreDir($restoreDir)
- * @method string getRestoreDir()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setOwnerId($ownerId)
- * @method string getOwnerId()
- * @method $this setClientToken($clientToken)
- * @method string getClientToken()
- */
-class CreateRestoreTask extends Request
-{
-
-}/**
  * @method $this setRegion($region)
  * @method string getRegion()
- * @method $this setIdentifier($identifier)
- * @method string getIdentifier()
  * @method $this setPageSize($pageSize)
  * @method int getPageSize()
  * @method $this setPageNum($pageNum)
@@ -123,19 +76,6 @@ class DescribeBackupGatewayList extends Request
  * @method string getClientToken()
  */
 class CreateBackupPlan extends Request
-{
-
-}/**
- * @method $this setRestoreTaskId($restoreTaskId)
- * @method string getRestoreTaskId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setOwnerId($ownerId)
- * @method string getOwnerId()
- * @method $this setClientToken($clientToken)
- * @method string getClientToken()
- */
-class StartRestoreTask extends Request
 {
 
 }/**

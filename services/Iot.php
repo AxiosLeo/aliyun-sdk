@@ -24,7 +24,7 @@ class Iot extends ProductAbstract
 
     protected $product = "Iot";
 
-    protected $service_code = "";
+    protected $service_code = "iot";
 
     protected $credential = "AccessKeyCredential";
 

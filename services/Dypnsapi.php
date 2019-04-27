@@ -17,7 +17,7 @@ class Dypnsapi extends ProductAbstract
 
     protected $product = "Dypnsapi";
 
-    protected $service_code = "";
+    protected $service_code = "dypnsapi";
 
     protected $credential = "AccessKeyCredential";
 

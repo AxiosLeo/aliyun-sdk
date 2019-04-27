@@ -26,7 +26,6 @@ use aliyun\sdk\core\lib\Request;
  * @method BatchSetDcdnIpaDomainConfigs BatchSetDcdnIpaDomainConfigs()
  * @method DescribeDcdnDomainIpaBpsData DescribeDcdnDomainIpaBpsData()
  * @method DescribeDcdnDomainPvData DescribeDcdnDomainPvData()
- * @method DescribeDcdnUserBillHistory DescribeDcdnUserBillHistory()
  * @method DescribeDcdnUserResourcePackage DescribeDcdnUserResourcePackage()
  * @method AddDcdnIpaDomain AddDcdnIpaDomain()
  * @method DescribeDcdnDomainTopReferVisit DescribeDcdnDomainTopReferVisit()
@@ -356,17 +355,6 @@ class DescribeDcdnDomainIpaBpsData extends Request
  * @method string getEndTime()
  */
 class DescribeDcdnDomainPvData extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setStartTime($startTime)
- * @method string getStartTime()
- * @method $this setEndTime($endTime)
- * @method string getEndTime()
- */
-class DescribeDcdnUserBillHistory extends Request
 {
 
 }/**

@@ -17,7 +17,7 @@ class Location extends ProductAbstract
 
     protected $product = "Location";
 
-    protected $service_code = "";
+    protected $service_code = "location";
 
     protected $credential = "AccessKeyCredential";
 
@@ -50,10 +50,10 @@ class Location extends ProductAbstract
             "ap-southeast-1" => "location-center.ap-southeast-1.aliyuncs.com",
             "ap-southeast-2" => "location-center.ap-southeast-1.aliyuncs.com",
             "ap-southeast-3" => "location-center.ap-southeast-1.aliyuncs.com",
-            "ap-southeast-5" => "location-center.ap-southeast-1.aliyuncs.com",
+            "ap-southeast-5" => "location-center.ap-southeast-5.aliyuncs.com",
             "cn-beijing"     => "location.aliyuncs.com",
             "cn-chengdu"     => "location.aliyuncs.com",
-            "cn-hangzhou"    => "location.aliyuncs.com",
+            "cn-hangzhou"    => "location-center.cn-hangzhou.aliyuncs.com",
             "cn-hongkong"    => "location.aliyuncs.com",
             "cn-huhehaote"   => "location.aliyuncs.com",
             "cn-qingdao"     => "location.aliyuncs.com",

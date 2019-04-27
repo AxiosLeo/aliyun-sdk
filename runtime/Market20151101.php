@@ -11,14 +11,12 @@ use aliyun\sdk\core\lib\Request;
  * @method UpdateProduct UpdateProduct()
  * @method QueryAvaiableImages QueryAvaiableImages()
  * @method CreateProduct CreateProduct()
- * @method DescribeInstances DescribeInstances()
  * @method CreateOrder CreateOrder()
  * @method DescribeProducts DescribeProducts()
  * @method QueryMarketCategories QueryMarketCategories()
  * @method DescribePrice DescribePrice()
  * @method GetImageInstance GetImageInstance()
  * @method DescribeProduct DescribeProduct()
- * @method NotifyContractEvent NotifyContractEvent()
  * @method BindImagePackage BindImagePackage()
  * @method DescribeInstance DescribeInstance()
  * @method PrevProduceImageInstance PrevProduceImageInstance()
@@ -103,17 +101,6 @@ class CreateProduct extends Request
 {
 
 }/**
- * @method $this setProductType($productType)
- * @method string getProductType()
- * @method $this setPageNumber($pageNumber)
- * @method int getPageNumber()
- * @method $this setPageSize($pageSize)
- * @method int getPageSize()
- */
-class DescribeInstances extends Request
-{
-
-}/**
  * @method $this setOwnerId($ownerId)
  * @method string getOwnerId()
  * @method $this setOrderType($orderType)
@@ -173,15 +160,6 @@ class GetImageInstance extends Request
  * @method bool getQueryDraft()
  */
 class DescribeProduct extends Request
-{
-
-}/**
- * @method $this setEventType($eventType)
- * @method string getEventType()
- * @method $this setEventMessage($eventMessage)
- * @method string getEventMessage()
- */
-class NotifyContractEvent extends Request
 {
 
 }/**

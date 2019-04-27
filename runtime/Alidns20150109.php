@@ -213,8 +213,6 @@ class BindInstanceDomains extends Request
  * @method string getDomainName()
  * @method $this setGroupId($groupId)
  * @method string getGroupId()
- * @method $this setResourceGroupId($resourceGroupId)
- * @method string getResourceGroupId()
  */
 class AddDomain extends Request
 {

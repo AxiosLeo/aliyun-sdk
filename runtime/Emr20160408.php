@@ -8,7 +8,6 @@ use aliyun\sdk\core\lib\Request;
  * Class V20160408
  *
  * @package aliyun\sdk\services\Emr20160408
- * @method DescribeHostPool DescribeHostPool()
  * @method DescribeClusterForInternal DescribeClusterForInternal()
  * @method CheckClusterEcsReleaseForAdmin CheckClusterEcsReleaseForAdmin()
  * @method DescribeClusterServiceForAdmin DescribeClusterServiceForAdmin()
@@ -22,9 +21,7 @@ use aliyun\sdk\core\lib\Request;
  * @method ModifyAlertContact ModifyAlertContact()
  * @method GetQueueSubmissionStatisticInfo GetQueueSubmissionStatisticInfo()
  * @method ListFlowNodeInstance ListFlowNodeInstance()
- * @method PlanHostName PlanHostName()
  * @method ListClusterOperationHostTask ListClusterOperationHostTask()
- * @method ListStack ListStack()
  * @method SyncClusterHostInfo SyncClusterHostInfo()
  * @method MetastoreSync MetastoreSync()
  * @method ListETLJobRelease ListETLJobRelease()
@@ -52,7 +49,6 @@ use aliyun\sdk\core\lib\Request;
  * @method MetastoreListDataSource MetastoreListDataSource()
  * @method RemoveClusterHosts RemoveClusterHosts()
  * @method ListFlowJob ListFlowJob()
- * @method ListKafkaBroker ListKafkaBroker()
  * @method DeleteUser DeleteUser()
  * @method ModifyJobExecutionPlanFolder ModifyJobExecutionPlanFolder()
  * @method PassRole PassRole()
@@ -66,7 +62,6 @@ use aliyun\sdk\core\lib\Request;
  * @method DescribeClusterServiceConfigTag DescribeClusterServiceConfigTag()
  * @method DeleteFlowJob DeleteFlowJob()
  * @method DescribeEmrMainVersion DescribeEmrMainVersion()
- * @method DescribeKafkaBroker DescribeKafkaBroker()
  * @method CheckUserRole CheckUserRole()
  * @method ListResourcePool ListResourcePool()
  * @method DescribeClusterBasicInfoForAdmin DescribeClusterBasicInfoForAdmin()
@@ -84,7 +79,6 @@ use aliyun\sdk\core\lib\Request;
  * @method GetJobMigrateResult GetJobMigrateResult()
  * @method QueryPriceForRenewEcs QueryPriceForRenewEcs()
  * @method KillFlow KillFlow()
- * @method ModifyHostPool ModifyHostPool()
  * @method DeleteFlowProjectById DeleteFlowProjectById()
  * @method DescribeMetaDatabaseForOuter DescribeMetaDatabaseForOuter()
  * @method GetLogDownloadUrl GetLogDownloadUrl()
@@ -93,7 +87,6 @@ use aliyun\sdk\core\lib\Request;
  * @method RestartCluster RestartCluster()
  * @method DeleteExecutionPlan DeleteExecutionPlan()
  * @method ListClusterHostForAdmin ListClusterHostForAdmin()
- * @method AddHpHost AddHpHost()
  * @method DescribeMetaTableForOuter DescribeMetaTableForOuter()
  * @method DeleteJobExecutionPlanFolder DeleteJobExecutionPlanFolder()
  * @method ListFailureJobExecutionInstances ListFailureJobExecutionInstances()
@@ -140,7 +133,6 @@ use aliyun\sdk\core\lib\Request;
  * @method QuerySlsMetricData QuerySlsMetricData()
  * @method QueryLogKey QueryLogKey()
  * @method ListClusterServiceStatus ListClusterServiceStatus()
- * @method UpdateKafkaReassignParam UpdateKafkaReassignParam()
  * @method GetUserSubmissionStatisticInfo GetUserSubmissionStatisticInfo()
  * @method DeleteFlowProjectUser DeleteFlowProjectUser()
  * @method ListFlowClusterAll ListFlowClusterAll()
@@ -148,7 +140,6 @@ use aliyun\sdk\core\lib\Request;
  * @method ModifyAlertUserGroup ModifyAlertUserGroup()
  * @method ListClusterServiceQuickLinkForAdmin ListClusterServiceQuickLinkForAdmin()
  * @method GetQueueOutputStatisticInfo GetQueueOutputStatisticInfo()
- * @method ReassignKafka ReassignKafka()
  * @method DescribeClusterForAdmin DescribeClusterForAdmin()
  * @method ModifyFlowVariableCollection ModifyFlowVariableCollection()
  * @method ModifyPrepayInstanceSpec ModifyPrepayInstanceSpec()
@@ -158,7 +149,6 @@ use aliyun\sdk\core\lib\Request;
  * @method ReleaseClusterForAdmin ReleaseClusterForAdmin()
  * @method ListETLJobInstance ListETLJobInstance()
  * @method RerunFlow RerunFlow()
- * @method ListClusterInstalledService ListClusterInstalledService()
  * @method MetastoreDataPreview MetastoreDataPreview()
  * @method MockPopHttp MockPopHttp()
  * @method DeleteAlertUserGroups DeleteAlertUserGroups()
@@ -196,7 +186,6 @@ use aliyun\sdk\core\lib\Request;
  * @method ListAlertContacts ListAlertContacts()
  * @method SyncDataSourceSchemaTable SyncDataSourceSchemaTable()
  * @method ContextQueryLog ContextQueryLog()
- * @method RemoveHpHost RemoveHpHost()
  * @method ModifyFlow ModifyFlow()
  * @method ListClusterServiceConfigVersion ListClusterServiceConfigVersion()
  * @method RunParagraph RunParagraph()
@@ -233,12 +222,10 @@ use aliyun\sdk\core\lib\Request;
  * @method ModifyFlowProjectClusterSetting ModifyFlowProjectClusterSetting()
  * @method ListExecutionPlans ListExecutionPlans()
  * @method AddClusterService AddClusterService()
- * @method ListHPHost ListHPHost()
  * @method AttachPubIp AttachPubIp()
  * @method MetastoreCreateKafkaTopic MetastoreCreateKafkaTopic()
  * @method PayOrderCallback PayOrderCallback()
  * @method DeleteDataSource DeleteDataSource()
- * @method StartKafkaBrokerDiskBalancer StartKafkaBrokerDiskBalancer()
  * @method DescribeServiceHealth DescribeServiceHealth()
  * @method CreateClusterScript CreateClusterScript()
  * @method ListClusterServiceComponentHealthInfo ListClusterServiceComponentHealthInfo()
@@ -296,7 +283,6 @@ use aliyun\sdk\core\lib\Request;
  * @method GetSupportedOpsCommand GetSupportedOpsCommand()
  * @method DetachClusterForNote DetachClusterForNote()
  * @method CreateEmrMainVersionForAdmin CreateEmrMainVersionForAdmin()
- * @method CreateClusterWithHostPool CreateClusterWithHostPool()
  * @method MetastoreUpdateKafkaTopic MetastoreUpdateKafkaTopic()
  * @method ListResourceQueue ListResourceQueue()
  * @method ModifyEmrAlarmStatusForAdmin ModifyEmrAlarmStatusForAdmin()
@@ -309,7 +295,6 @@ use aliyun\sdk\core\lib\Request;
  * @method ModifyClusterHostGroup ModifyClusterHostGroup()
  * @method DescribeDataSourceCommand DescribeDataSourceCommand()
  * @method CheckEmrResource CheckEmrResource()
- * @method ListStackService ListStackService()
  * @method DeleteJob DeleteJob()
  * @method MetastoreListDataResources MetastoreListDataResources()
  * @method ListClusterForAdmin ListClusterForAdmin()
@@ -329,7 +314,6 @@ use aliyun\sdk\core\lib\Request;
  * @method CreateJob CreateJob()
  * @method ModifyExecutionPlanScheduleInfo ModifyExecutionPlanScheduleInfo()
  * @method ModifyResourcePool ModifyResourcePool()
- * @method DescribeKafkaReassign DescribeKafkaReassign()
  * @method ListRequiredService ListRequiredService()
  * @method RenderResourcePoolXml RenderResourcePoolXml()
  * @method ListFlow ListFlow()
@@ -354,7 +338,6 @@ use aliyun\sdk\core\lib\Request;
  * @method ListExecutionPlanInstanceTrend ListExecutionPlanInstanceTrend()
  * @method ListClusterOperation ListClusterOperation()
  * @method CreateClusterTemplate CreateClusterTemplate()
- * @method ListClusterSupportService ListClusterSupportService()
  * @method DeleteScalingRule DeleteScalingRule()
  * @method ListFlowNodeSqlResult ListFlowNodeSqlResult()
  * @method RenewClusterForAdmin RenewClusterForAdmin()
@@ -371,13 +354,11 @@ use aliyun\sdk\core\lib\Request;
  * @method ModifyEmrMainVersionForAdmin ModifyEmrMainVersionForAdmin()
  * @method ListEmrAvailableResourceForAdmin ListEmrAvailableResourceForAdmin()
  * @method CreateClusterWithTemplate CreateClusterWithTemplate()
- * @method StartKafkaPreferredReplicaElection StartKafkaPreferredReplicaElection()
  * @method DescribeFlowCategoryTree DescribeFlowCategoryTree()
  * @method ModifyClusterEasModel ModifyClusterEasModel()
  * @method ModifyUserChannelInfo ModifyUserChannelInfo()
  * @method MetastoreCreateDataResource MetastoreCreateDataResource()
  * @method ListClusterNode ListClusterNode()
- * @method ListKafkaTopicStatistics ListKafkaTopicStatistics()
  * @method CreateClusterHostGroup CreateClusterHostGroup()
  * @method DescribeStackRelation DescribeStackRelation()
  * @method ListFlowJobHistory ListFlowJobHistory()
@@ -425,16 +406,13 @@ use aliyun\sdk\core\lib\Request;
  * @method MetastoreListTables MetastoreListTables()
  * @method ListUserIdInLastTimeForAdmin ListUserIdInLastTimeForAdmin()
  * @method GetOpsCommandResult GetOpsCommandResult()
- * @method PlanComponentTopo PlanComponentTopo()
  * @method ResolveETLJobSqlSchema ResolveETLJobSqlSchema()
  * @method DeleteParagraph DeleteParagraph()
- * @method ListKafkaReassignTopic ListKafkaReassignTopic()
  * @method CreateNote CreateNote()
  * @method AssignIpv6Addresses AssignIpv6Addresses()
  * @method UpdateNavNode UpdateNavNode()
  * @method CreateJobExecutionPlanParam CreateJobExecutionPlanParam()
  * @method DeleteNavNode DeleteNavNode()
- * @method CreateHostPool CreateHostPool()
  * @method UpdateDataSource UpdateDataSource()
  * @method ListMetaDatabaseForOuter ListMetaDatabaseForOuter()
  * @method CreateClusterHostGroupForAdmin CreateClusterHostGroupForAdmin()
@@ -446,7 +424,6 @@ use aliyun\sdk\core\lib\Request;
  * @method GetApmJobStatisticsInfo GetApmJobStatisticsInfo()
  * @method UpdateETLJobStage UpdateETLJobStage()
  * @method AuthorizeSecurityGroup AuthorizeSecurityGroup()
- * @method OfflineKafkaBroker OfflineKafkaBroker()
  * @method ListJobs ListJobs()
  * @method ModifyScalingRule ModifyScalingRule()
  * @method RunClusterServiceAction RunClusterServiceAction()
@@ -463,16 +440,13 @@ use aliyun\sdk\core\lib\Request;
  * @method GetUserInputStatisticInfo GetUserInputStatisticInfo()
  * @method ListJobInstanceWorkers ListJobInstanceWorkers()
  * @method ListOpsOperationTask ListOpsOperationTask()
- * @method DeleteHostPool DeleteHostPool()
  * @method DescribeETLJob DescribeETLJob()
  * @method ListClusters ListClusters()
  * @method DescribeClusterOperationHostTaskLogForAdmin DescribeClusterOperationHostTaskLogForAdmin()
  * @method UpdateProjectSetting UpdateProjectSetting()
  * @method CreateVerificationCode CreateVerificationCode()
  * @method DescribeFlow DescribeFlow()
- * @method ListKafkaReassign ListKafkaReassign()
  * @method ResumeExecutionPlanInstance ResumeExecutionPlanInstance()
- * @method ListHostPool ListHostPool()
  * @method SuspendFlow SuspendFlow()
  * @method CreateResourceQueue CreateResourceQueue()
  * @method ListScalingActivity ListScalingActivity()
@@ -494,17 +468,6 @@ class V20160408
 }
 
 /**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setBizId($bizId)
- * @method string getBizId()
- */
-class DescribeHostPool extends Request
-{
-
-}/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
  * @method $this setRegionId($regionId)
@@ -740,19 +703,6 @@ class ListFlowNodeInstance extends Request
  * @method int getResourceOwnerId()
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
- * @method $this setHostGroup($hostGroup)
- * @method array getHostGroup()
- * @method $this setHostInfo($hostInfo)
- * @method array getHostInfo()
- */
-class PlanHostName extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
  * @method $this setOperationId($operationId)
@@ -767,23 +717,6 @@ class PlanHostName extends Request
  * @method int getPageSize()
  */
 class ListClusterOperationHostTask extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setStackName($stackName)
- * @method string getStackName()
- * @method $this setStackVersion($stackVersion)
- * @method string getStackVersion()
- * @method $this setPageNumber($pageNumber)
- * @method int getPageNumber()
- * @method $this setPageSize($pageSize)
- * @method int getPageSize()
- */
-class ListStack extends Request
 {
 
 }/**
@@ -1286,21 +1219,6 @@ class ListFlowJob extends Request
  * @method int getResourceOwnerId()
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
- * @method $this setPageNumber($pageNumber)
- * @method int getPageNumber()
- * @method $this setPageSize($pageSize)
- * @method int getPageSize()
- * @method $this setClusterId($clusterId)
- * @method string getClusterId()
- */
-class ListKafkaBroker extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
  * @method $this setUserId($userId)
@@ -1479,19 +1397,6 @@ class DeleteFlowJob extends Request
  * @method string getEmrVersion()
  */
 class DescribeEmrMainVersion extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setClusterId($clusterId)
- * @method string getClusterId()
- * @method $this setHostId($hostId)
- * @method string getHostId()
- */
-class DescribeKafkaBroker extends Request
 {
 
 }/**
@@ -1800,21 +1705,6 @@ class KillFlow extends Request
 {
 
 }/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setName($name)
- * @method string getName()
- * @method $this setBizId($bizId)
- * @method string getBizId()
- * @method $this setDescription($description)
- * @method string getDescription()
- */
-class ModifyHostPool extends Request
-{
-
-}/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
  * @method $this setProjectId($projectId)
@@ -1930,19 +1820,6 @@ class DeleteExecutionPlan extends Request
  * @method int getPageSize()
  */
 class ListClusterHostForAdmin extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setHpBizId($hpBizId)
- * @method string getHpBizId()
- * @method $this setHpHost($hpHost)
- * @method array getHpHost()
- */
-class AddHpHost extends Request
 {
 
 }/**
@@ -2916,19 +2793,6 @@ class ListClusterServiceStatus extends Request
  * @method int getResourceOwnerId()
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
- * @method $this setReassignId($reassignId)
- * @method string getReassignId()
- * @method $this setThrottle($throttle)
- * @method int getThrottle()
- */
-class UpdateKafkaReassignParam extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
  * @method $this setFromDatetime($fromDatetime)
@@ -3017,21 +2881,6 @@ class ListClusterServiceQuickLinkForAdmin extends Request
  * @method string getToDatetime()
  */
 class GetQueueOutputStatisticInfo extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setTopicId($topicId)
- * @method string getTopicId()
- * @method $this setBrokerId($brokerId)
- * @method array getBrokerId()
- * @method $this setThrottle($throttle)
- * @method int getThrottle()
- */
-class ReassignKafka extends Request
 {
 
 }/**
@@ -3175,21 +3024,6 @@ class ListETLJobInstance extends Request
  * @method bool getReRunFail()
  */
 class RerunFlow extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setClusterId($clusterId)
- * @method string getClusterId()
- * @method $this setPageNumber($pageNumber)
- * @method int getPageNumber()
- * @method $this setPageSize($pageSize)
- * @method int getPageSize()
- */
-class ListClusterInstalledService extends Request
 {
 
 }/**
@@ -3739,17 +3573,6 @@ class SyncDataSourceSchemaTable extends Request
  * @method bool getReverse()
  */
 class ContextQueryLog extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setHpHostBizId($hpHostBizId)
- * @method string getHpHostBizId()
- */
-class RemoveHpHost extends Request
 {
 
 }/**
@@ -4419,23 +4242,6 @@ class AddClusterService extends Request
  * @method int getResourceOwnerId()
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
- * @method $this setHpBizId($hpBizId)
- * @method string getHpBizId()
- * @method $this setRole($role)
- * @method string getRole()
- * @method $this setPageNumber($pageNumber)
- * @method int getPageNumber()
- * @method $this setPageSize($pageSize)
- * @method int getPageSize()
- */
-class ListHPHost extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
  * @method $this setInstanceIds($instanceIds)
@@ -4483,23 +4289,6 @@ class PayOrderCallback extends Request
  * @method string getId()
  */
 class DeleteDataSource extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setClusterId($clusterId)
- * @method string getClusterId()
- * @method $this setBrokerId($brokerId)
- * @method int getBrokerId()
- * @method $this setThrottle($throttle)
- * @method int getThrottle()
- * @method $this setBalanceThreshold($balanceThreshold)
- * @method string getBalanceThreshold()
- */
-class StartKafkaBrokerDiskBalancer extends Request
 {
 
 }/**
@@ -5468,31 +5257,6 @@ class CreateEmrMainVersionForAdmin extends Request
  * @method int getResourceOwnerId()
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
- * @method $this setClusterName($clusterName)
- * @method string getClusterName()
- * @method $this setStackName($stackName)
- * @method string getStackName()
- * @method $this setStackVersion($stackVersion)
- * @method string getStackVersion()
- * @method $this setClusterType($clusterType)
- * @method string getClusterType()
- * @method $this setConfig($config)
- * @method array getConfig()
- * @method $this setServiceInfo($serviceInfo)
- * @method array getServiceInfo()
- * @method $this setHostGroup($hostGroup)
- * @method array getHostGroup()
- * @method $this setHostInfo($hostInfo)
- * @method array getHostInfo()
- */
-class CreateClusterWithHostPool extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
  * @method $this setTopicId($topicId)
  * @method string getTopicId()
  * @method $this setNumPartitions($numPartitions)
@@ -5696,19 +5460,6 @@ class DescribeDataSourceCommand extends Request
  * @method string getPrompt()
  */
 class CheckEmrResource extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setStackName($stackName)
- * @method string getStackName()
- * @method $this setStackVersion($stackVersion)
- * @method string getStackVersion()
- */
-class ListStackService extends Request
 {
 
 }/**
@@ -6106,17 +5857,6 @@ class ModifyExecutionPlanScheduleInfo extends Request
  * @method array getConfig()
  */
 class ModifyResourcePool extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setReassignId($reassignId)
- * @method string getReassignId()
- */
-class DescribeKafkaReassign extends Request
 {
 
 }/**
@@ -6570,17 +6310,6 @@ class CreateClusterTemplate extends Request
  * @method string getRegionId()
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
- */
-class ListClusterSupportService extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setClusterId($clusterId)
- * @method string getClusterId()
  * @method $this setHostGroupId($hostGroupId)
  * @method string getHostGroupId()
  * @method $this setScalingRuleId($scalingRuleId)
@@ -6827,17 +6556,6 @@ class CreateClusterWithTemplate extends Request
 {
 
 }/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setTopicId($topicId)
- * @method string getTopicId()
- */
-class StartKafkaPreferredReplicaElection extends Request
-{
-
-}/**
  * @method $this setProjectId($projectId)
  * @method string getProjectId()
  * @method $this setRegionId($regionId)
@@ -6933,29 +6651,6 @@ class ListClusterNode extends Request
  * @method int getResourceOwnerId()
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
- * @method $this setPageNumber($pageNumber)
- * @method int getPageNumber()
- * @method $this setPageSize($pageSize)
- * @method int getPageSize()
- * @method $this setDataSourceId($dataSourceId)
- * @method string getDataSourceId()
- * @method $this setClusterId($clusterId)
- * @method string getClusterId()
- * @method $this setTopicName($topicName)
- * @method string getTopicName()
- * @method $this setFuzzyTopicName($fuzzyTopicName)
- * @method string getFuzzyTopicName()
- * @method $this setActiveOnly($activeOnly)
- * @method bool getActiveOnly()
- */
-class ListKafkaTopicStatistics extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
  * @method $this setHostGroupName($hostGroupName)
@@ -6994,14 +6689,6 @@ class DescribeStackRelation extends Request
  * @method string getProjectId()
  * @method $this setId($id)
  * @method string getId()
- * @method $this setStatusList($statusList)
- * @method array getStatusList()
- * @method $this setJobType($jobType)
- * @method string getJobType()
- * @method $this setInstanceId($instanceId)
- * @method string getInstanceId()
- * @method $this setTimeRange($timeRange)
- * @method string getTimeRange()
  * @method $this setPageNumber($pageNumber)
  * @method int getPageNumber()
  * @method $this setPageSize($pageSize)
@@ -7261,8 +6948,6 @@ class ModifyFlowForWeb extends Request
  * @method string getClusterId()
  * @method $this setTopicName($topicName)
  * @method string getTopicName()
- * @method $this setActiveOnly($activeOnly)
- * @method bool getActiveOnly()
  */
 class MetastoreListKafkaTopic extends Request
 {
@@ -7705,23 +7390,6 @@ class GetOpsCommandResult extends Request
  * @method int getResourceOwnerId()
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
- * @method $this setStackName($stackName)
- * @method string getStackName()
- * @method $this setStackVersion($stackVersion)
- * @method string getStackVersion()
- * @method $this setHostGroup($hostGroup)
- * @method array getHostGroup()
- * @method $this setHostInfo($hostInfo)
- * @method array getHostInfo()
- */
-class PlanComponentTopo extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
  * @method $this setEtlJobId($etlJobId)
  * @method string getEtlJobId()
  * @method $this setDataSourceId($dataSourceId)
@@ -7745,21 +7413,6 @@ class ResolveETLJobSqlSchema extends Request
  * @method string getRegionId()
  */
 class DeleteParagraph extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setPageNumber($pageNumber)
- * @method int getPageNumber()
- * @method $this setPageSize($pageSize)
- * @method int getPageSize()
- * @method $this setReassignId($reassignId)
- * @method string getReassignId()
- */
-class ListKafkaReassignTopic extends Request
 {
 
 }/**
@@ -7829,23 +7482,6 @@ class CreateJobExecutionPlanParam extends Request
  * @method string getId()
  */
 class DeleteNavNode extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setName($name)
- * @method string getName()
- * @method $this setType($type)
- * @method string getType()
- * @method $this setDescription($description)
- * @method string getDescription()
- * @method $this setKubeClusterInfo($kubeClusterInfo)
- * @method array getKubeClusterInfo()
- */
-class CreateHostPool extends Request
 {
 
 }/**
@@ -8017,21 +7653,6 @@ class UpdateETLJobStage extends Request
  * @method string getBizContent()
  */
 class AuthorizeSecurityGroup extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setClusterId($clusterId)
- * @method string getClusterId()
- * @method $this setHostId($hostId)
- * @method string getHostId()
- * @method $this setThrottle($throttle)
- * @method int getThrottle()
- */
-class OfflineKafkaBroker extends Request
 {
 
 }/**
@@ -8369,17 +7990,6 @@ class ListOpsOperationTask extends Request
  * @method int getResourceOwnerId()
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
- * @method $this setBizId($bizId)
- * @method string getBizId()
- */
-class DeleteHostPool extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
  * @method $this setId($id)
  * @method string getId()
  */
@@ -8476,40 +8086,10 @@ class DescribeFlow extends Request
  * @method int getResourceOwnerId()
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
- * @method $this setPageNumber($pageNumber)
- * @method int getPageNumber()
- * @method $this setPageSize($pageSize)
- * @method int getPageSize()
- * @method $this setClusterId($clusterId)
- * @method string getClusterId()
- * @method $this setTopicId($topicId)
- * @method string getTopicId()
- */
-class ListKafkaReassign extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
  * @method $this setId($id)
  * @method string getId()
  */
 class ResumeExecutionPlanInstance extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setPageNumber($pageNumber)
- * @method int getPageNumber()
- * @method $this setPageSize($pageSize)
- * @method int getPageSize()
- */
-class ListHostPool extends Request
 {
 
 }/**

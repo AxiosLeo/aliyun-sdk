@@ -24,7 +24,7 @@ class Ons extends ProductAbstract
 
     protected $product = "Ons";
 
-    protected $service_code = "";
+    protected $service_code = "ons";
 
     protected $credential = "AccessKeyCredential";
 

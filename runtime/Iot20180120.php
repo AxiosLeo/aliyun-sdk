@@ -63,7 +63,6 @@ use aliyun\sdk\core\lib\Request;
  * @method QueryAppUnifyEvent QueryAppUnifyEvent()
  * @method QueryDeviceBatchList QueryDeviceBatchList()
  * @method QueryProductAbilityListPop QueryProductAbilityListPop()
- * @method BindInstanceToCustomerVpc BindInstanceToCustomerVpc()
  * @method RefreshDataSource RefreshDataSource()
  * @method ResetThing ResetThing()
  * @method QueryApiServices QueryApiServices()
@@ -154,7 +153,6 @@ use aliyun\sdk\core\lib\Request;
  * @method QueryProductListByTag QueryProductListByTag()
  * @method GetRegisterAppService GetRegisterAppService()
  * @method DeleteEventRecordPlan DeleteEventRecordPlan()
- * @method QuerySolutionInstance QuerySolutionInstance()
  * @method UpdateChildDeviceConfig UpdateChildDeviceConfig()
  * @method GetQueryJobListByFolderUID GetQueryJobListByFolderUID()
  * @method QueryDeviceUpgradeInfo QueryDeviceUpgradeInfo()
@@ -315,7 +313,6 @@ use aliyun\sdk\core\lib\Request;
  * @method CreateFlowRule CreateFlowRule()
  * @method GetDeviceUserInfo GetDeviceUserInfo()
  * @method GetEdgeNodeId2ServerRandom GetEdgeNodeId2ServerRandom()
- * @method QueryRunningIoTInstanceWithPublic QueryRunningIoTInstanceWithPublic()
  * @method SubmitTransferApply SubmitTransferApply()
  * @method ListGroupAutomationRule ListGroupAutomationRule()
  * @method QueryThingConfigPop QueryThingConfigPop()
@@ -606,7 +603,6 @@ use aliyun\sdk\core\lib\Request;
  * @method GetUserSourceTableList GetUserSourceTableList()
  * @method DeleteDriver DeleteDriver()
  * @method QueryEdgeInstanceByFunction QueryEdgeInstanceByFunction()
- * @method UnbindInstanceCustomerVpc UnbindInstanceCustomerVpc()
  * @method CreateAppAlarm CreateAppAlarm()
  * @method GetAppConfigList GetAppConfigList()
  * @method BatchUpdateCustomProperty BatchUpdateCustomProperty()
@@ -1641,19 +1637,6 @@ class QueryDeviceBatchList extends Request
  * @method string getProductKey()
  */
 class QueryProductAbilityListPop extends Request
-{
-
-}/**
- * @method $this setIotInstanceId($iotInstanceId)
- * @method string getIotInstanceId()
- * @method $this setCustomerVpcId($customerVpcId)
- * @method string getCustomerVpcId()
- * @method $this setCustomerVSwitchId($customerVSwitchId)
- * @method string getCustomerVSwitchId()
- * @method $this setCustomerSecurityGroupId($customerSecurityGroupId)
- * @method string getCustomerSecurityGroupId()
- */
-class BindInstanceToCustomerVpc extends Request
 {
 
 }/**
@@ -2802,11 +2785,6 @@ class GetRegisterAppService extends Request
  * @method string getPlanId()
  */
 class DeleteEventRecordPlan extends Request
-{
-
-}/**
- */
-class QuerySolutionInstance extends Request
 {
 
 }/**
@@ -4737,11 +4715,6 @@ class GetDeviceUserInfo extends Request
  * @method string getId2()
  */
 class GetEdgeNodeId2ServerRandom extends Request
-{
-
-}/**
- */
-class QueryRunningIoTInstanceWithPublic extends Request
 {
 
 }/**
@@ -8308,13 +8281,6 @@ class DeleteDriver extends Request
  * @method int getCurrentPage()
  */
 class QueryEdgeInstanceByFunction extends Request
-{
-
-}/**
- * @method $this setIotInstanceId($iotInstanceId)
- * @method string getIotInstanceId()
- */
-class UnbindInstanceCustomerVpc extends Request
 {
 
 }/**

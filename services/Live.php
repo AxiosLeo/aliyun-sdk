@@ -17,7 +17,7 @@ class Live extends ProductAbstract
 
     protected $product = "live";
 
-    protected $service_code = "";
+    protected $service_code = "live";
 
     protected $credential = "AccessKeyCredential";
 

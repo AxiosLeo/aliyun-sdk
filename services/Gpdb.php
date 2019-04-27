@@ -17,7 +17,7 @@ class Gpdb extends ProductAbstract
 
     protected $product = "gpdb";
 
-    protected $service_code = "";
+    protected $service_code = "gpdb";
 
     protected $credential = "AccessKeyCredential";
 
@@ -47,7 +47,7 @@ class Gpdb extends ProductAbstract
         "public"   => [
             "ap-northeast-1" => "gpdb.ap-northeast-1.aliyuncs.com",
             "ap-south-1"     => "gpdb.ap-south-1.aliyuncs.com",
-            "ap-southeast-1" => "gpdb.ap-southeast-1.aliyuncs.com",
+            "ap-southeast-1" => "gpdb.ap-northeast-1.aliyuncs.com",
             "ap-southeast-2" => "gpdb.ap-southeast-2.aliyuncs.com",
             "ap-southeast-3" => "gpdb.ap-southeast-3.aliyuncs.com",
             "ap-southeast-5" => "gpdb.ap-southeast-5.aliyuncs.com",

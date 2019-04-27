@@ -17,7 +17,7 @@ class Dcdn extends ProductAbstract
 
     protected $product = "dcdn";
 
-    protected $service_code = "";
+    protected $service_code = "dcdn";
 
     protected $credential = "AccessKeyCredential";
 

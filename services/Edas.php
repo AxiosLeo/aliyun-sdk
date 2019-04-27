@@ -20,7 +20,7 @@ class Edas extends ProductAbstract
 
     protected $product = "Edas";
 
-    protected $service_code = "";
+    protected $service_code = "edas";
 
     protected $credential = "AccessKeyCredential";
 
@@ -64,7 +64,7 @@ class Edas extends ProductAbstract
             "cn-shenzhen"    => "edas.cn-shenzhen.aliyuncs.com",
             "cn-zhangjiakou" => "edas.aliyuncs.com",
             "eu-central-1"   => "edas.ap-northeast-1.aliyuncs.com",
-            "eu-west-1"      => "edas.ap-northeast-1.aliyuncs.com",
+            "eu-west-1"      => "edas.eu-west-1.aliyuncs.com",
             "me-east-1"      => "edas.ap-northeast-1.aliyuncs.com",
             "us-east-1"      => "edas.ap-northeast-1.aliyuncs.com",
             "us-west-1"      => "edas.ap-northeast-1.aliyuncs.com",

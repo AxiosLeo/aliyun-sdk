@@ -27,7 +27,10 @@ class BatchCompute extends ProductAbstract
 
     protected $endpoints = [
         "regions"  => [
+            "ap-northeast-1",
             "ap-southeast-1",
+            "ap-southeast-3",
+            "ap-southeast-5",
             "cn-beijing",
             "cn-hangzhou",
             "cn-hongkong",
@@ -41,7 +44,10 @@ class BatchCompute extends ProductAbstract
             "us-west-1",
         ],
         "public"   => [
+            "ap-northeast-1" => "batchcompute-vpc.ap-northeast-1.aliyuncs.com",
             "ap-southeast-1" => "batchcompute.ap-southeast-1.aliyuncs.com",
+            "ap-southeast-3" => "batchcompute-vpc.ap-southeast-3.aliyuncs.com",
+            "ap-southeast-5" => "batchcompute.ap-southeast-5.aliyuncs.com",
             "cn-beijing"     => "batchcompute.cn-beijing.aliyuncs.com",
             "cn-hangzhou"    => "batchcompute.cn-hangzhou.aliyuncs.com",
             "cn-hongkong"    => "batchcompute.cn-hongkong.aliyuncs.com",

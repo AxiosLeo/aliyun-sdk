@@ -17,7 +17,7 @@ class ARMS4FINANCE extends ProductAbstract
 
     protected $product = "ARMS4FINANCE";
 
-    protected $service_code = "";
+    protected $service_code = "arms4finance";
 
     protected $credential = "AccessKeyCredential";
 

@@ -17,7 +17,7 @@ class Snsuapi extends ProductAbstract
 
     protected $product = "Snsuapi";
 
-    protected $service_code = "";
+    protected $service_code = "snsuapi";
 
     protected $credential = "AccessKeyCredential";
 

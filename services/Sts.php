@@ -19,7 +19,7 @@ class Sts extends ProductAbstract
 
     protected $product = "Sts";
 
-    protected $service_code = "";
+    protected $service_code = "sts";
 
     protected $credential = "AccessKeyCredential";
 

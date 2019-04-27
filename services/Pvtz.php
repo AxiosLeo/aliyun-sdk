@@ -17,7 +17,7 @@ class Pvtz extends ProductAbstract
 
     protected $product = "pvtz";
 
-    protected $service_code = "";
+    protected $service_code = "pvtz";
 
     protected $credential = "AccessKeyCredential";
 

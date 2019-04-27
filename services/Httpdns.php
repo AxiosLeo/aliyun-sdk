@@ -17,7 +17,7 @@ class Httpdns extends ProductAbstract
 
     protected $product = "Httpdns";
 
-    protected $service_code = "";
+    protected $service_code = "httpdns";
 
     protected $credential = "AccessKeyCredential";
 

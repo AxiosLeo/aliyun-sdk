@@ -24,7 +24,7 @@ class Jaq extends ProductAbstract
 
     protected $product = "jaq";
 
-    protected $service_code = "";
+    protected $service_code = "jaq";
 
     protected $credential = "AccessKeyCredential";
 

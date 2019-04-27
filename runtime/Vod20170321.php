@@ -116,7 +116,6 @@ use aliyun\sdk\core\lib\Request;
  * @method SyncMaterial SyncMaterial()
  * @method DescribeUserAvgCountByDay DescribeUserAvgCountByDay()
  * @method UpdateImageInfos UpdateImageInfos()
- * @method DescribeVodStorageData DescribeVodStorageData()
  * @method AddEditingProjectMaterials AddEditingProjectMaterials()
  * @method ListWatermark ListWatermark()
  * @method GetEditingProject GetEditingProject()
@@ -249,7 +248,6 @@ use aliyun\sdk\core\lib\Request;
  * @method UpdateAITemplate UpdateAITemplate()
  * @method SubmitSnapshotJob SubmitSnapshotJob()
  * @method GetUploadProgress GetUploadProgress()
- * @method DescribeVodTranscodeData DescribeVodTranscodeData()
  * @method UpdateVodTemplate UpdateVodTemplate()
  * @method SearchEditingProject SearchEditingProject()
  * @method ListTranscodeTemplateGroup ListTranscodeTemplateGroup()
@@ -273,7 +271,6 @@ use aliyun\sdk\core\lib\Request;
  * @method GetMediaAuditResultDetail GetMediaAuditResultDetail()
  * @method DescribeUserVvTopByDay DescribeUserVvTopByDay()
  * @method GetAIService GetAIService()
- * @method DescribeVodAIData DescribeVodAIData()
  * @method AddWatermark AddWatermark()
  */
 class V20170321
@@ -399,8 +396,6 @@ class GetStorageInfo extends Request
  * @method string getCateName()
  * @method $this setParentId($parentId)
  * @method int getParentId()
- * @method $this setType($type)
- * @method string getType()
  */
 class AddCategory extends Request
 {
@@ -683,8 +678,6 @@ class ListTranscodeTask extends Request
  * @method string getTimeline()
  * @method $this setCoverURL($coverURL)
  * @method string getCoverURL()
- * @method $this setDivision($division)
- * @method string getDivision()
  */
 class AddEditingProject extends Request
 {
@@ -1206,8 +1199,6 @@ class GetMessageCallback extends Request
  * @method int getResourceOwnerId()
  * @method $this setVideoId($videoId)
  * @method string getVideoId()
- * @method $this setAdditionType($additionType)
- * @method string getAdditionType()
  */
 class GetVideoInfo extends Request
 {
@@ -1873,8 +1864,6 @@ class DeleteMezzanines extends Request
  * @method string getAppId()
  * @method $this setPolicyNames($policyNames)
  * @method string getPolicyNames()
- * @method $this setResourceRealOwnerId($resourceRealOwnerId)
- * @method string getResourceRealOwnerId()
  */
 class AttachAppPolicyToIdentity extends Request
 {
@@ -1954,8 +1943,6 @@ class DescribeVodUserDomains extends Request
  * @method int getResourceOwnerId()
  * @method $this setVideoIds($videoIds)
  * @method string getVideoIds()
- * @method $this setAdditionType($additionType)
- * @method string getAdditionType()
  */
 class GetVideoInfos extends Request
 {
@@ -2046,21 +2033,6 @@ class DescribeUserAvgCountByDay extends Request
  * @method string getUpdateContent()
  */
 class UpdateImageInfos extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setStartTime($startTime)
- * @method string getStartTime()
- * @method $this setEndTime($endTime)
- * @method string getEndTime()
- * @method $this setRegion($region)
- * @method string getRegion()
- * @method $this setStorageType($storageType)
- * @method string getStorageType()
- */
-class DescribeVodStorageData extends Request
 {
 
 }/**
@@ -3014,10 +2986,6 @@ class SubmitAIVideoTerrorismRecogJob extends Request
  * @method string getUserData()
  * @method $this setCateIds($cateIds)
  * @method string getCateIds()
- * @method $this setAppId($appId)
- * @method string getAppId()
- * @method $this setIcon($icon)
- * @method string getIcon()
  */
 class CreateUploadAttachedMedia extends Request
 {
@@ -3086,6 +3054,8 @@ class DescribeCdnDomainLogs extends Request
  * @method int getResourceOwnerId()
  * @method $this setResourceRealOwnerId($resourceRealOwnerId)
  * @method int getResourceRealOwnerId()
+ * @method $this setAppName($appName)
+ * @method string getAppName()
  * @method $this setStatus($status)
  * @method string getStatus()
  * @method $this setPageNo($pageNo)
@@ -3825,8 +3795,6 @@ class AddTranscodeTemplateGroup extends Request
  * @method int getPageSize()
  * @method $this setSortBy($sortBy)
  * @method string getSortBy()
- * @method $this setType($type)
- * @method string getType()
  */
 class GetCategories extends Request
 {
@@ -4342,19 +4310,6 @@ class GetUploadProgress extends Request
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
- * @method $this setStartTime($startTime)
- * @method string getStartTime()
- * @method $this setEndTime($endTime)
- * @method string getEndTime()
- * @method $this setRegion($region)
- * @method string getRegion()
- */
-class DescribeVodTranscodeData extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
  * @method $this setResourceOwnerAccount($resourceOwnerAccount)
  * @method string getResourceOwnerAccount()
  * @method $this setResourceOwnerId($resourceOwnerId)
@@ -4753,19 +4708,6 @@ class DescribeUserVvTopByDay extends Request
  * @method string getTypes()
  */
 class GetAIService extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setStartTime($startTime)
- * @method string getStartTime()
- * @method $this setEndTime($endTime)
- * @method string getEndTime()
- * @method $this setRegion($region)
- * @method string getRegion()
- */
-class DescribeVodAIData extends Request
 {
 
 }/**

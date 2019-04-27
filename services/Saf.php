@@ -21,7 +21,7 @@ class Saf extends ProductAbstract
 
     protected $product = "saf";
 
-    protected $service_code = "";
+    protected $service_code = "saf";
 
     protected $credential = "AccessKeyCredential";
 

@@ -23,7 +23,7 @@ class Cloudauth extends ProductAbstract
 
     protected $product = "Cloudauth";
 
-    protected $service_code = "";
+    protected $service_code = "cloudauth";
 
     protected $credential = "AccessKeyCredential";
 

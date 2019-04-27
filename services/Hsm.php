@@ -17,7 +17,7 @@ class Hsm extends ProductAbstract
 
     protected $product = "hsm";
 
-    protected $service_code = "";
+    protected $service_code = "hsm";
 
     protected $credential = "AccessKeyCredential";
 

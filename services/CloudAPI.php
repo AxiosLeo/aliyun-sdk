@@ -21,7 +21,7 @@ class CloudAPI extends ProductAbstract
 
     protected $product = "CloudAPI";
 
-    protected $service_code = "";
+    protected $service_code = "apigateway";
 
     protected $credential = "AccessKeyCredential";
 

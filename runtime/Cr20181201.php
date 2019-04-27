@@ -15,7 +15,6 @@ use aliyun\sdk\core\lib\Request;
  * @method GetNamespace GetNamespace()
  * @method ListRepoBuildRecordLog ListRepoBuildRecordLog()
  * @method DeleteSourceCodeAccount DeleteSourceCodeAccount()
- * @method GetResourceQuota GetResourceQuota()
  * @method UpdateInstanceEndpointAclStatus UpdateInstanceEndpointAclStatus()
  * @method ListRepoTag ListRepoTag()
  * @method CreateRepoSourceCodeRepo CreateRepoSourceCodeRepo()
@@ -169,17 +168,6 @@ class ListRepoBuildRecordLog extends Request
  * @method string getAccountId()
  */
 class DeleteSourceCodeAccount extends Request
-{
-
-}/**
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setResourceName($resourceName)
- * @method string getResourceName()
- * @method $this setScopeId($scopeId)
- * @method string getScopeId()
- */
-class GetResourceQuota extends Request
 {
 
 }/**

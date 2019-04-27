@@ -17,7 +17,7 @@ class Dyvmsapi extends ProductAbstract
 
     protected $product = "Dyvmsapi";
 
-    protected $service_code = "";
+    protected $service_code = "dyvmsapi";
 
     protected $credential = "AccessKeyCredential";
 

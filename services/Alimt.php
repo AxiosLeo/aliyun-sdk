@@ -19,7 +19,7 @@ class Alimt extends ProductAbstract
 
     protected $product = "alimt";
 
-    protected $service_code = "";
+    protected $service_code = "alimt";
 
     protected $credential = "AccessKeyCredential";
 

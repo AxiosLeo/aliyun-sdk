@@ -24,7 +24,6 @@ use aliyun\sdk\core\lib\Request;
  * @method ResetClusterNode ResetClusterNode()
  * @method DescribeClusterLogs DescribeClusterLogs()
  * @method DescribeImages DescribeImages()
- * @method DescribeKubernetesVersionMetadata DescribeKubernetesVersionMetadata()
  * @method CallbackClusterToken CallbackClusterToken()
  * @method CreateEdasClusterRoleBinding CreateEdasClusterRoleBinding()
  * @method DescribeClusterScaledNode DescribeClusterScaledNode()
@@ -37,20 +36,17 @@ use aliyun\sdk\core\lib\Request;
  * @method RevokeClusterToken RevokeClusterToken()
  * @method CallBackAgilityCluster CallBackAgilityCluster()
  * @method ScaleInCluster ScaleInCluster()
- * @method UpgradeClusterAddons UpgradeClusterAddons()
  * @method DescribeClusterNodeInfoWithInstance DescribeClusterNodeInfoWithInstance()
  * @method DescribeEdasClusterToken DescribeEdasClusterToken()
  * @method DeleteClusterNode DeleteClusterNode()
  * @method DescribeAgilityTunnelAgentInfo DescribeAgilityTunnelAgentInfo()
  * @method UpdateEdasClusterRole UpdateEdasClusterRole()
- * @method DescribeClusterAddonUpgradeStatus DescribeClusterAddonUpgradeStatus()
  * @method DescribeClusterEndpoints DescribeClusterEndpoints()
  * @method DescribeClusterNodes DescribeClusterNodes()
  * @method DeleteTemplate DeleteTemplate()
  * @method DeleteClusterNodes DeleteClusterNodes()
  * @method DescribeTaskInfo DescribeTaskInfo()
  * @method GetClusterProjects GetClusterProjects()
- * @method DescribeClusterAddonsVersion DescribeClusterAddonsVersion()
  * @method GatherLogsToken GatherLogsToken()
  * @method UpgradeClusterComponents UpgradeClusterComponents()
  * @method DescribeServiceContainers DescribeServiceContainers()
@@ -194,19 +190,6 @@ class DescribeImages extends Request
 {
 
 }/**
- * @method $this setRegion($region)
- * @method string getRegion()
- * @method $this setClusterType($clusterType)
- * @method string getClusterType()
- * @method $this setMultiAZ($multiAZ)
- * @method bool getMultiAZ()
- * @method $this setKubernetesVersion($kubernetesVersion)
- * @method string getKubernetesVersion()
- */
-class DescribeKubernetesVersionMetadata extends Request
-{
-
-}/**
  * @method $this setToken($token)
  * @method string getToken()
  * @method $this setReqOnce($reqOnce)
@@ -299,13 +282,6 @@ class ScaleInCluster extends Request
 {
 
 }/**
- * @method $this setClusterId($clusterId)
- * @method string getClusterId()
- */
-class UpgradeClusterAddons extends Request
-{
-
-}/**
  * @method $this setToken($token)
  * @method string getToken()
  * @method $this setInstanceId($instanceId)
@@ -346,15 +322,6 @@ class DescribeAgilityTunnelAgentInfo extends Request
  * @method string getClusterId()
  */
 class UpdateEdasClusterRole extends Request
-{
-
-}/**
- * @method $this setClusterId($clusterId)
- * @method string getClusterId()
- * @method $this setComponentId($componentId)
- * @method string getComponentId()
- */
-class DescribeClusterAddonUpgradeStatus extends Request
 {
 
 }/**
@@ -401,13 +368,6 @@ class DescribeTaskInfo extends Request
  * @method string getClusterId()
  */
 class GetClusterProjects extends Request
-{
-
-}/**
- * @method $this setClusterId($clusterId)
- * @method string getClusterId()
- */
-class DescribeClusterAddonsVersion extends Request
 {
 
 }/**

@@ -23,7 +23,7 @@ class Ots extends ProductAbstract
 
     protected $product = "Ots";
 
-    protected $service_code = "";
+    protected $service_code = "ots";
 
     protected $credential = "AccessKeyCredential";
 

@@ -22,7 +22,7 @@ class IDST extends ProductAbstract
 
     protected $product = "IDST";
 
-    protected $service_code = "";
+    protected $service_code = "idst";
 
     protected $credential = "AccessKeyCredential";
 

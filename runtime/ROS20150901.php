@@ -11,20 +11,16 @@ use aliyun\sdk\core\lib\Request;
  * @method DescribeStackDetail DescribeStackDetail()
  * @method SetStackPolicy SetStackPolicy()
  * @method GetStackPolicy GetStackPolicy()
- * @method ExecuteChangeSet ExecuteChangeSet()
  * @method AbandonStack AbandonStack()
- * @method DescribeChangeSetDetail DescribeChangeSetDetail()
  * @method DescribeTemplate DescribeTemplate()
  * @method DescribeResourceTypes DescribeResourceTypes()
  * @method WaitConditions WaitConditions()
- * @method DeleteChangeSet DeleteChangeSet()
  * @method DeleteStack DeleteStack()
  * @method CancelUpdateStack CancelUpdateStack()
  * @method DescribeResourceTypeTemplate DescribeResourceTypeTemplate()
  * @method DescribeEvents DescribeEvents()
  * @method DescribeResourceTypeDetail DescribeResourceTypeDetail()
  * @method DoActions DoActions()
- * @method DescribeChangeSets DescribeChangeSets()
  * @method DescribeResources DescribeResources()
  * @method UpdateStack UpdateStack()
  * @method DescribeStacks DescribeStacks()
@@ -67,30 +63,8 @@ class GetStackPolicy extends Request
  * @method string getStackName()
  * @method $this setStackId($stackId)
  * @method string getStackId()
- * @method $this setChangeSetName($changeSetName)
- * @method string getChangeSetName()
- */
-class ExecuteChangeSet extends Request
-{
-
-}/**
- * @method $this setStackName($stackName)
- * @method string getStackName()
- * @method $this setStackId($stackId)
- * @method string getStackId()
  */
 class AbandonStack extends Request
-{
-
-}/**
- * @method $this setStackName($stackName)
- * @method string getStackName()
- * @method $this setStackId($stackId)
- * @method string getStackId()
- * @method $this setChangeSetName($changeSetName)
- * @method string getChangeSetName()
- */
-class DescribeChangeSetDetail extends Request
 {
 
 }/**
@@ -122,17 +96,6 @@ class DescribeResourceTypes extends Request
  * @method string getsignature()
  */
 class WaitConditions extends Request
-{
-
-}/**
- * @method $this setStackName($stackName)
- * @method string getStackName()
- * @method $this setStackId($stackId)
- * @method string getStackId()
- * @method $this setChangeSetName($changeSetName)
- * @method string getChangeSetName()
- */
-class DeleteChangeSet extends Request
 {
 
 }/**
@@ -195,15 +158,6 @@ class DescribeResourceTypeDetail extends Request
  * @method string getStackId()
  */
 class DoActions extends Request
-{
-
-}/**
- * @method $this setStackName($stackName)
- * @method string getStackName()
- * @method $this setStackId($stackId)
- * @method string getStackId()
- */
-class DescribeChangeSets extends Request
 {
 
 }/**

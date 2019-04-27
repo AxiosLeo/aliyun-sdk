@@ -51,7 +51,7 @@ class Baas extends ProductAbstract
             "ap-southeast-1" => "baas.ap-southeast-1.aliyuncs.com",
             "ap-southeast-2" => "baas.ap-northeast-1.aliyuncs.com",
             "ap-southeast-3" => "baas.ap-northeast-1.aliyuncs.com",
-            "ap-southeast-5" => "baas.ap-northeast-1.aliyuncs.com",
+            "ap-southeast-5" => "baas.ap-southeast-5.aliyuncs.com",
             "cn-beijing"     => "baas.cn-beijing.aliyuncs.com",
             "cn-chengdu"     => "baas.aliyuncs.com",
             "cn-hangzhou"    => "baas.cn-hangzhou.aliyuncs.com",

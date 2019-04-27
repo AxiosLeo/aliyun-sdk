@@ -63,7 +63,6 @@ use aliyun\sdk\core\lib\Request;
  * @method DescribeScreenPackage DescribeScreenPackage()
  * @method DescribeAclRules DescribeAclRules()
  * @method DescribeLogExportFiles DescribeLogExportFiles()
- * @method DescribeCcPermission DescribeCcPermission()
  * @method DescribeAccessAreaStatistics DescribeAccessAreaStatistics()
  * @method DescribePackage DescribePackage()
  * @method ModifyAppOpenStatus ModifyAppOpenStatus()
@@ -114,7 +113,6 @@ use aliyun\sdk\core\lib\Request;
  * @method DescribeAuthorization DescribeAuthorization()
  * @method ModifyAclRule ModifyAclRule()
  * @method DescribeScreenAttackTopIp DescribeScreenAttackTopIp()
- * @method ModifyElasticBillConfig ModifyElasticBillConfig()
  * @method DescribeDomainConfigStatus DescribeDomainConfigStatus()
  * @method DescribeAccessMode DescribeAccessMode()
  * @method DescribeAsyncTaskStatus DescribeAsyncTaskStatus()
@@ -128,8 +126,6 @@ use aliyun\sdk\core\lib\Request;
  * @method ModifyLogStatus ModifyLogStatus()
  * @method DescribeScreenAttackTypes DescribeScreenAttackTypes()
  * @method CreateAuthorization CreateAuthorization()
- * @method DescribeUserSpecInfo DescribeUserSpecInfo()
- * @method DescribeBills DescribeBills()
  * @method ModifyIpDrainage ModifyIpDrainage()
  * @method ModifyAccessMode ModifyAccessMode()
  * @method ModifyWafSwitch ModifyWafSwitch()
@@ -399,12 +395,10 @@ class DeleteIpDrainage extends Request
  * @method string getSourceIp()
  * @method $this setLang($lang)
  * @method string getLang()
+ * @method $this setOrderData($orderData)
+ * @method string getOrderData()
  * @method $this setDomain($domain)
  * @method string getDomain()
- * @method $this setDefense($defense)
- * @method string getDefense()
- * @method $this setPriorityList($priorityList)
- * @method string getPriorityList()
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
  * @method $this setRegion($region)
@@ -931,8 +925,6 @@ class CreateIpDrainage extends Request
  * @method int getLoadBalancing()
  * @method $this setHttpToUserIp($httpToUserIp)
  * @method int getHttpToUserIp()
- * @method $this setHttpsRedirect($httpsRedirect)
- * @method int getHttpsRedirect()
  */
 class ModifyDomainConfig extends Request
 {
@@ -1118,21 +1110,6 @@ class DescribeAclRules extends Request
  * @method int getTaskId()
  */
 class DescribeLogExportFiles extends Request
-{
-
-}/**
- * @method $this setSourceIp($sourceIp)
- * @method string getSourceIp()
- * @method $this setLang($lang)
- * @method string getLang()
- * @method $this setDomain($domain)
- * @method string getDomain()
- * @method $this setInstanceId($instanceId)
- * @method string getInstanceId()
- * @method $this setRegion($region)
- * @method string getRegion()
- */
-class DescribeCcPermission extends Request
 {
 
 }/**
@@ -1952,21 +1929,6 @@ class DescribeScreenAttackTopIp extends Request
 {
 
 }/**
- * @method $this setSourceIp($sourceIp)
- * @method string getSourceIp()
- * @method $this setLang($lang)
- * @method string getLang()
- * @method $this setInstanceId($instanceId)
- * @method string getInstanceId()
- * @method $this setRegion($region)
- * @method string getRegion()
- * @method $this setConfig($config)
- * @method string getConfig()
- */
-class ModifyElasticBillConfig extends Request
-{
-
-}/**
  * @method $this setRegion($region)
  * @method string getRegion()
  * @method $this setInstanceId($instanceId)
@@ -2159,40 +2121,6 @@ class DescribeScreenAttackTypes extends Request
  * @method string getRegion()
  */
 class CreateAuthorization extends Request
-{
-
-}/**
- * @method $this setSourceIp($sourceIp)
- * @method string getSourceIp()
- * @method $this setLang($lang)
- * @method string getLang()
- * @method $this setInstanceId($instanceId)
- * @method string getInstanceId()
- * @method $this setRegion($region)
- * @method string getRegion()
- */
-class DescribeUserSpecInfo extends Request
-{
-
-}/**
- * @method $this setSourceIp($sourceIp)
- * @method string getSourceIp()
- * @method $this setLang($lang)
- * @method string getLang()
- * @method $this setInstanceId($instanceId)
- * @method string getInstanceId()
- * @method $this setRegion($region)
- * @method string getRegion()
- * @method $this setStartTime($startTime)
- * @method int getStartTime()
- * @method $this setEndTime($endTime)
- * @method int getEndTime()
- * @method $this setCurrentPage($currentPage)
- * @method int getCurrentPage()
- * @method $this setPageSize($pageSize)
- * @method int getPageSize()
- */
-class DescribeBills extends Request
 {
 
 }/**

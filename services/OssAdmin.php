@@ -23,7 +23,7 @@ class OssAdmin extends ProductAbstract
 
     protected $product = "OssAdmin";
 
-    protected $service_code = "";
+    protected $service_code = "ossadmin";
 
     protected $credential = "AccessKeyCredential";
 
