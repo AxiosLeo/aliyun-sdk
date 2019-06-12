@@ -15,6 +15,7 @@ use aliyun\sdk\core\lib\Request;
  * @method FinishDemand FinishDemand()
  * @method BidDomain BidDomain()
  * @method QueryBidRecords QueryBidRecords()
+ * @method GetReserveDomainUrl GetReserveDomainUrl()
  * @method QueryBookingDomainInfo QueryBookingDomainInfo()
  * @method RecordDemand RecordDemand()
  * @method ReserveDomain ReserveDomain()
@@ -94,6 +95,11 @@ class BidDomain extends Request
  * @method int getPageSize()
  */
 class QueryBidRecords extends Request
+{
+
+}/**
+ */
+class GetReserveDomainUrl extends Request
 {
 
 }/**

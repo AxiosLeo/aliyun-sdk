@@ -12,20 +12,14 @@ use aliyun\sdk\core\lib\Request;
  * @method SaveContactTemplateCredential SaveContactTemplateCredential()
  * @method QueryContactTemplate QueryContactTemplate()
  * @method SaveContactTemplate SaveContactTemplate()
- * @method QueryDefaultDns QueryDefaultDns()
  * @method QueryFailReasonList QueryFailReasonList()
  * @method QueryOrder QueryOrder()
  * @method QueryBatchTaskDetailList QueryBatchTaskDetailList()
- * @method ImportPreDeleteDomain ImportPreDeleteDomain()
  * @method CreateOrder CreateOrder()
- * @method UpdateContact UpdateContact()
  * @method QueryDomainBySaleId QueryDomainBySaleId()
  * @method SaveTaskForSubmittingDomainNameCredentialByTemplateId SaveTaskForSubmittingDomainNameCredentialByTemplateId()
  * @method QueryDomainList QueryDomainList()
- * @method SaveOrUpdateWhoisPopProtection SaveOrUpdateWhoisPopProtection()
  * @method GetWhoisInfo GetWhoisInfo()
- * @method QueryOrderProductList QueryOrderProductList()
- * @method QueryCurrentDns QueryCurrentDns()
  * @method CheckDomain CheckDomain()
  * @method QueryBatchTaskList QueryBatchTaskList()
  * @method SaveTaskForSubmittingDomainNameCredential SaveTaskForSubmittingDomainNameCredential()
@@ -143,17 +137,6 @@ class SaveContactTemplate extends Request
  * @method string getUserClientIp()
  * @method $this setLang($lang)
  * @method string getLang()
- * @method $this setDomainName($domainName)
- * @method string getDomainName()
- */
-class QueryDefaultDns extends Request
-{
-
-}/**
- * @method $this setUserClientIp($userClientIp)
- * @method string getUserClientIp()
- * @method $this setLang($lang)
- * @method string getLang()
  * @method $this setContactTemplateId($contactTemplateId)
  * @method int getContactTemplateId()
  * @method $this setDomainName($domainName)
@@ -197,19 +180,6 @@ class QueryBatchTaskDetailList extends Request
 {
 
 }/**
- * @method $this setregistry($registry)
- * @method string getregistry()
- * @method $this setPreDeleteDomainParam($preDeleteDomainParam)
- * @method array getPreDeleteDomainParam()
- * @method $this setLang($lang)
- * @method string getLang()
- * @method $this setUserClientIp($userClientIp)
- * @method string getUserClientIp()
- */
-class ImportPreDeleteDomain extends Request
-{
-
-}/**
  * @method $this setSubOrderParam($subOrderParam)
  * @method array getSubOrderParam()
  * @method $this setLang($lang)
@@ -218,57 +188,6 @@ class ImportPreDeleteDomain extends Request
  * @method string getUserClientIp()
  */
 class CreateOrder extends Request
-{
-
-}/**
- * @method $this setUserClientIp($userClientIp)
- * @method string getUserClientIp()
- * @method $this setLang($lang)
- * @method string getLang()
- * @method $this setDomainName($domainName)
- * @method string getDomainName()
- * @method $this setSaleId($saleId)
- * @method string getSaleId()
- * @method $this setContactType($contactType)
- * @method string getContactType()
- * @method $this setCCity($cCity)
- * @method string getCCity()
- * @method $this setCCompany($cCompany)
- * @method string getCCompany()
- * @method $this setCCountry($cCountry)
- * @method string getCCountry()
- * @method $this setCName($cName)
- * @method string getCName()
- * @method $this setCProvince($cProvince)
- * @method string getCProvince()
- * @method $this setCVenu($cVenu)
- * @method string getCVenu()
- * @method $this setECity($eCity)
- * @method string getECity()
- * @method $this setECompany($eCompany)
- * @method string getECompany()
- * @method $this setEName($eName)
- * @method string getEName()
- * @method $this setEProvince($eProvince)
- * @method string getEProvince()
- * @method $this setEVenu($eVenu)
- * @method string getEVenu()
- * @method $this setEmail($email)
- * @method string getEmail()
- * @method $this setPostalCode($postalCode)
- * @method string getPostalCode()
- * @method $this setTelArea($telArea)
- * @method string getTelArea()
- * @method $this setTelMain($telMain)
- * @method string getTelMain()
- * @method $this setTelExt($telExt)
- * @method string getTelExt()
- * @method $this setRegType($regType)
- * @method string getRegType()
- * @method $this setAddTransferLock($addTransferLock)
- * @method bool getAddTransferLock()
- */
-class UpdateContact extends Request
 {
 
 }/**
@@ -337,59 +256,10 @@ class QueryDomainList extends Request
 {
 
 }/**
- * @method $this setLang($lang)
- * @method string getLang()
- * @method $this settaskType($taskType)
- * @method string gettaskType()
- * @method $this setdataSource($dataSource)
- * @method string getdataSource()
- * @method $this setdataContent($dataContent)
- * @method string getdataContent()
- * @method $this settaskParam($taskParam)
- * @method string gettaskParam()
- * @method $this setUserClientIp($userClientIp)
- * @method string getUserClientIp()
- */
-class SaveOrUpdateWhoisPopProtection extends Request
-{
-
-}/**
  * @method $this setDomainName($domainName)
  * @method string getDomainName()
  */
 class GetWhoisInfo extends Request
-{
-
-}/**
- * @method $this setUserClientIp($userClientIp)
- * @method string getUserClientIp()
- * @method $this setLang($lang)
- * @method string getLang()
- * @method $this setSaleId($saleId)
- * @method string getSaleId()
- * @method $this setDomainName($domainName)
- * @method string getDomainName()
- * @method $this setPageNum($pageNum)
- * @method int getPageNum()
- * @method $this setPageSize($pageSize)
- * @method int getPageSize()
- * @method $this setStartDate($startDate)
- * @method int getStartDate()
- * @method $this setEndDate($endDate)
- * @method int getEndDate()
- */
-class QueryOrderProductList extends Request
-{
-
-}/**
- * @method $this setUserClientIp($userClientIp)
- * @method string getUserClientIp()
- * @method $this setLang($lang)
- * @method string getLang()
- * @method $this setDomainName($domainName)
- * @method string getDomainName()
- */
-class QueryCurrentDns extends Request
 {
 
 }/**

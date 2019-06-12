@@ -17,17 +17,13 @@ use aliyun\sdk\core\lib\Request;
  * @method ReportHour ReportHour()
  * @method ProfileHistoryList ProfileHistoryList()
  * @method UpgradeAPGroup UpgradeAPGroup()
- * @method DeleteUDevice DeleteUDevice()
- * @method GetProfileInternet GetProfileInternet()
  * @method GetSubAccountStatus GetSubAccountStatus()
  * @method SavePortalTemplate SavePortalTemplate()
  * @method DeviceBatchCreate DeviceBatchCreate()
  * @method InnerProduceCloudWF InnerProduceCloudWF()
  * @method ResetAp ResetAp()
  * @method ProfileBase ProfileBase()
- * @method ListUShopGroup ListUShopGroup()
  * @method SavePageConfigTemplate SavePageConfigTemplate()
- * @method CreateUDevice CreateUDevice()
  * @method GetSidsAndGids4Bid GetSidsAndGids4Bid()
  * @method ShopUpdate ShopUpdate()
  * @method GetInstanceByShop GetInstanceByShop()
@@ -39,11 +35,9 @@ use aliyun\sdk\core\lib\Request;
  * @method ReportZoneDay ReportZoneDay()
  * @method BusinessInfo BusinessInfo()
  * @method GetOnlineStaTimeSer GetOnlineStaTimeSer()
- * @method ListUShop ListUShop()
  * @method OemFlowrateAnalyse OemFlowrateAnalyse()
  * @method OemFlowrateOverview OemFlowrateOverview()
  * @method SendCommandByMac SendCommandByMac()
- * @method doCheckResource doCheckResource()
  * @method ReportRealtime ReportRealtime()
  * @method GetGroupApRadioConfigProgress GetGroupApRadioConfigProgress()
  * @method UserDataUpdate UserDataUpdate()
@@ -63,40 +57,29 @@ use aliyun\sdk\core\lib\Request;
  * @method UserDataShowList UserDataShowList()
  * @method OemSitingContrast OemSitingContrast()
  * @method GetApPortalBind GetApPortalBind()
- * @method ListUDevice ListUDevice()
  * @method GetUpgradeImg GetUpgradeImg()
- * @method UpdateUDevice UpdateUDevice()
  * @method DeviceDelete DeviceDelete()
- * @method GetProfileBase GetProfileBase()
  * @method ListApgroupConfig ListApgroupConfig()
  * @method GetBindAp4Umeng GetBindAp4Umeng()
- * @method GetBusinessTrafficReport GetBusinessTrafficReport()
  * @method AddApgroupConfig AddApgroupConfig()
  * @method ShopGetfiltermac ShopGetfiltermac()
- * @method doPhysicalDeleteResource doPhysicalDeleteResource()
  * @method UserAnalyse UserAnalyse()
  * @method GetScanProbeTimeSer GetScanProbeTimeSer()
- * @method CreateUShopGroup CreateUShopGroup()
  * @method OemHeatLine OemHeatLine()
- * @method DeleteUShopGroup DeleteUShopGroup()
  * @method ShopGroupUpdate ShopGroupUpdate()
  * @method ListGroupApBriefConfig ListGroupApBriefConfig()
  * @method ShopDeletemarketing ShopDeletemarketing()
- * @method GetShopGroupDetails GetShopGroupDetails()
  * @method GetPortalTempDetail GetPortalTempDetail()
  * @method BusinessShowList BusinessShowList()
- * @method GetSubAccountPermissionFds GetSubAccountPermissionFds()
  * @method GetApDetailedStatus GetApDetailedStatus()
  * @method ListStaOnoffLog ListStaOnoffLog()
  * @method AliyunRegisterApAsset AliyunRegisterApAsset()
  * @method ListApAsset ListApAsset()
- * @method UpdateUBusiness UpdateUBusiness()
  * @method GetLatestApStatistic GetLatestApStatistic()
  * @method QueryRenewPrice QueryRenewPrice()
  * @method ProfileHistory ProfileHistory()
  * @method ListBusinessDetails ListBusinessDetails()
  * @method InnerCheckOrder InnerCheckOrder()
- * @method ListUBusiness ListUBusiness()
  * @method ShopMarketingList ShopMarketingList()
  * @method ProfileDistrict ProfileDistrict()
  * @method SaveApScanConfig SaveApScanConfig()
@@ -107,14 +90,12 @@ use aliyun\sdk\core\lib\Request;
  * @method GetSubAccountPermission GetSubAccountPermission()
  * @method RepairAp RepairAp()
  * @method ListBriefApConfig ListBriefApConfig()
- * @method CreateUBusiness CreateUBusiness()
  * @method GetUpgradeAPProgress GetUpgradeAPProgress()
  * @method ShopShowList ShopShowList()
  * @method HeadquartersRanking HeadquartersRanking()
  * @method ShopCreate ShopCreate()
  * @method GetApgroupScanConfigSaveProgress GetApgroupScanConfigSaveProgress()
  * @method ListStaStatus ListStaStatus()
- * @method doLogicalDeleteResource doLogicalDeleteResource()
  * @method GroupTrend GroupTrend()
  * @method ShopGroupShowList ShopGroupShowList()
  * @method CheckUmengDataAnalysisPermission CheckUmengDataAnalysisPermission()
@@ -134,7 +115,6 @@ use aliyun\sdk\core\lib\Request;
  * @method ShopActionCustome ShopActionCustome()
  * @method AreaUpdate AreaUpdate()
  * @method ListProbeinfo ListProbeinfo()
- * @method GetUBusiness GetUBusiness()
  * @method ListAccountConfig ListAccountConfig()
  * @method GetBatchSaveApAssetProgress GetBatchSaveApAssetProgress()
  * @method ListPageConfigTemplate ListPageConfigTemplate()
@@ -142,10 +122,8 @@ use aliyun\sdk\core\lib\Request;
  * @method OnoffGroupApRadio OnoffGroupApRadio()
  * @method DeleteApgroupSsidConfig DeleteApgroupSsidConfig()
  * @method GroupOverview GroupOverview()
- * @method DeleteUShop DeleteUShop()
  * @method ListApPositionMap ListApPositionMap()
  * @method InnerRefund InnerRefund()
- * @method ListShopByGroups ListShopByGroups()
  * @method ShopActionReturning ShopActionReturning()
  * @method DelApPosition DelApPosition()
  * @method GetOssServerSign GetOssServerSign()
@@ -159,7 +137,6 @@ use aliyun\sdk\core\lib\Request;
  * @method UpLoadMap UpLoadMap()
  * @method ListUmengPagePermission4Root ListUmengPagePermission4Root()
  * @method GetAllActiveShopByGroup GetAllActiveShopByGroup()
- * @method GetShopTrafficReport GetShopTrafficReport()
  * @method GetProbeDataSubscriberConfig GetProbeDataSubscriberConfig()
  * @method DeviceUpdate DeviceUpdate()
  * @method AreaShowList AreaShowList()
@@ -168,7 +145,6 @@ use aliyun\sdk\core\lib\Request;
  * @method GetStaDetailedStatus GetStaDetailedStatus()
  * @method SetUpgradeImgByModel SetUpgradeImgByModel()
  * @method GroupIntime GroupIntime()
- * @method ListSubAccountPermissionFds ListSubAccountPermissionFds()
  * @method CreateSubAccountPermission CreateSubAccountPermission()
  * @method GetAllApModel GetAllApModel()
  * @method OemMarketingCustomer OemMarketingCustomer()
@@ -183,7 +159,6 @@ use aliyun\sdk\core\lib\Request;
  * @method SaveApMapInfo SaveApMapInfo()
  * @method GetGroupApRadioOnoffProgress GetGroupApRadioOnoffProgress()
  * @method KickAndClearPMKcache KickAndClearPMKcache()
- * @method GetShopGroupTrafficReport GetShopGroupTrafficReport()
  * @method ProfileTrade ProfileTrade()
  * @method OemSitingSelction OemSitingSelction()
  * @method KickSta KickSta()
@@ -193,7 +168,6 @@ use aliyun\sdk\core\lib\Request;
  * @method GetOnlineApTimeSer GetOnlineApTimeSer()
  * @method PutOssFile PutOssFile()
  * @method GetDailyStatistic GetDailyStatistic()
- * @method CreateUShop CreateUShop()
  * @method ConfigAutoRenew ConfigAutoRenew()
  * @method OemHeatMap OemHeatMap()
  * @method HeadquartersTrend HeadquartersTrend()
@@ -204,8 +178,6 @@ use aliyun\sdk\core\lib\Request;
  * @method ShopDataAlarm ShopDataAlarm()
  * @method SaveAccountConfig SaveAccountConfig()
  * @method DeleteApRadioSsidConfig DeleteApRadioSsidConfig()
- * @method DelSubAccountPermissionFds DelSubAccountPermissionFds()
- * @method UpdateUShop UpdateUShop()
  * @method ShopSetfiltermac ShopSetfiltermac()
  * @method OemMarketingSettingData OemMarketingSettingData()
  * @method ListApAssetCanBeAdded ListApAssetCanBeAdded()
@@ -226,9 +198,7 @@ use aliyun\sdk\core\lib\Request;
  * @method DelPageConfigTemplate DelPageConfigTemplate()
  * @method CeaseInstance CeaseInstance()
  * @method SaveProbeDataSubscriber SaveProbeDataSubscriber()
- * @method UpdateUShopGroup UpdateUShopGroup()
  * @method DelPortalTemp DelPortalTemp()
- * @method GetUShopGroup GetUShopGroup()
  * @method AreaCreate AreaCreate()
  * @method ReportZoneMinute ReportZoneMinute()
  * @method UpgradeAP UpgradeAP()
@@ -239,7 +209,6 @@ use aliyun\sdk\core\lib\Request;
  * @method ShopSetredress ShopSetredress()
  * @method GetDeviceInfoByMac GetDeviceInfoByMac()
  * @method ShopGroupDelete ShopGroupDelete()
- * @method GetShopTopVillage GetShopTopVillage()
  * @method GetAccountConfig GetAccountConfig()
  * @method BatchRegisterApAsset BatchRegisterApAsset()
  * @method SaveGroupApRadioConfig SaveGroupApRadioConfig()
@@ -247,8 +216,6 @@ use aliyun\sdk\core\lib\Request;
  * @method GetUserUmengPagePermission GetUserUmengPagePermission()
  * @method BusinessCreate BusinessCreate()
  * @method BatchChangeGroupApName BatchChangeGroupApName()
- * @method ModifySubAccountPermissionFds ModifySubAccountPermissionFds()
- * @method CreateSubAccountPermissionFds CreateSubAccountPermissionFds()
  * @method GetScanMode GetScanMode()
  * @method SaveApgroupSsidConfig SaveApgroupSsidConfig()
  * @method ListApStaStatus ListApStaStatus()
@@ -257,7 +224,6 @@ use aliyun\sdk\core\lib\Request;
  * @method GetAddApsProgress GetAddApsProgress()
  * @method ShopGroupInfo ShopGroupInfo()
  * @method SaveApgroupScanConfig SaveApgroupScanConfig()
- * @method GetUShop GetUShop()
  * @method ReportZoneRealtime ReportZoneRealtime()
  * @method CreateRenewOrder CreateRenewOrder()
  * @method ShopInfo ShopInfo()
@@ -355,34 +321,6 @@ class UpgradeAPGroup extends Request
 {
 
 }/**
- * @method $this setSid($sid)
- * @method int getSid()
- * @method $this setDid($did)
- * @method int getDid()
- * @method $this setDNum($dNum)
- * @method string getDNum()
- */
-class DeleteUDevice extends Request
-{
-
-}/**
- * @method $this setBid($bid)
- * @method int getBid()
- * @method $this setSid($sid)
- * @method int getSid()
- * @method $this setBeginDate($beginDate)
- * @method string getBeginDate()
- * @method $this setEndDate($endDate)
- * @method string getEndDate()
- * @method $this setFilterInterest($filterInterest)
- * @method string getFilterInterest()
- * @method $this setGid($gid)
- * @method int getGid()
- */
-class GetProfileInternet extends Request
-{
-
-}/**
  */
 class GetSubAccountStatus extends Request
 {
@@ -441,17 +379,6 @@ class ProfileBase extends Request
 {
 
 }/**
- * @method $this setBid($bid)
- * @method int getBid()
- * @method $this setPageSize($pageSize)
- * @method int getPageSize()
- * @method $this setPageNo($pageNo)
- * @method int getPageNo()
- */
-class ListUShopGroup extends Request
-{
-
-}/**
  * @method $this setId($id)
  * @method int getId()
  * @method $this setTempName($tempName)
@@ -464,21 +391,6 @@ class ListUShopGroup extends Request
  * @method string getTempPermission()
  */
 class SavePageConfigTemplate extends Request
-{
-
-}/**
- * @method $this setSid($sid)
- * @method int getSid()
- * @method $this setName($name)
- * @method string getName()
- * @method $this setType($type)
- * @method int getType()
- * @method $this setDNum($dNum)
- * @method string getDNum()
- * @method $this setPosition($position)
- * @method string getPosition()
- */
-class CreateUDevice extends Request
 {
 
 }/**
@@ -641,21 +553,6 @@ class GetOnlineStaTimeSer extends Request
 {
 
 }/**
- * @method $this setBid($bid)
- * @method int getBid()
- * @method $this setGid($gid)
- * @method int getGid()
- * @method $this setPageSize($pageSize)
- * @method int getPageSize()
- * @method $this setPageNo($pageNo)
- * @method int getPageNo()
- * @method $this setName($name)
- * @method string getName()
- */
-class ListUShop extends Request
-{
-
-}/**
  * @method $this setGsid($gsid)
  * @method int getGsid()
  */
@@ -676,39 +573,6 @@ class OemFlowrateOverview extends Request
  * @method string getCommand()
  */
 class SendCommandByMac extends Request
-{
-
-}/**
- * @method $this setInterrupt($interrupt)
- * @method bool getInterrupt()
- * @method $this setInvoker($invoker)
- * @method string getInvoker()
- * @method $this setPk($pk)
- * @method string getPk()
- * @method $this setBid($bid)
- * @method string getBid()
- * @method $this setHid($hid)
- * @method int getHid()
- * @method $this setCountry($country)
- * @method string getCountry()
- * @method $this setTaskIdentifier($taskIdentifier)
- * @method string getTaskIdentifier()
- * @method $this setTaskExtraData($taskExtraData)
- * @method string getTaskExtraData()
- * @method $this setGmtWakeup($gmtWakeup)
- * @method string getGmtWakeup()
- * @method $this setSuccess($success)
- * @method bool getSuccess()
- * @method $this setMessage($message)
- * @method string getMessage()
- * @method $this setLevel($level)
- * @method int getLevel()
- * @method $this setUrl($url)
- * @method string getUrl()
- * @method $this setPrompt($prompt)
- * @method string getPrompt()
- */
-class doCheckResource extends Request
 {
 
 }/**
@@ -899,17 +763,6 @@ class GetApPortalBind extends Request
 {
 
 }/**
- * @method $this setSid($sid)
- * @method int getSid()
- * @method $this setPageSize($pageSize)
- * @method int getPageSize()
- * @method $this setPageNo($pageNo)
- * @method int getPageNo()
- */
-class ListUDevice extends Request
-{
-
-}/**
  * @method $this setId($id)
  * @method int getId()
  */
@@ -919,38 +772,10 @@ class GetUpgradeImg extends Request
 }/**
  * @method $this setDid($did)
  * @method int getDid()
- * @method $this setSid($sid)
- * @method int getSid()
- * @method $this setName($name)
- * @method string getName()
- * @method $this setPosition($position)
- * @method string getPosition()
- */
-class UpdateUDevice extends Request
-{
-
-}/**
- * @method $this setDid($did)
- * @method int getDid()
  * @method $this setMac($mac)
  * @method string getMac()
  */
 class DeviceDelete extends Request
-{
-
-}/**
- * @method $this setBid($bid)
- * @method int getBid()
- * @method $this setSid($sid)
- * @method int getSid()
- * @method $this setBeginDate($beginDate)
- * @method string getBeginDate()
- * @method $this setEndDate($endDate)
- * @method string getEndDate()
- * @method $this setGid($gid)
- * @method int getGid()
- */
-class GetProfileBase extends Request
 {
 
 }/**
@@ -976,17 +801,6 @@ class GetBindAp4Umeng extends Request
 {
 
 }/**
- * @method $this setBid($bid)
- * @method int getBid()
- * @method $this setBeginDate($beginDate)
- * @method string getBeginDate()
- * @method $this setEndDate($endDate)
- * @method string getEndDate()
- */
-class GetBusinessTrafficReport extends Request
-{
-
-}/**
  * @method $this setName($name)
  * @method string getName()
  * @method $this setParentApgroupId($parentApgroupId)
@@ -1002,33 +816,6 @@ class AddApgroupConfig extends Request
  * @method int getSid()
  */
 class ShopGetfiltermac extends Request
-{
-
-}/**
- * @method $this setInterrupt($interrupt)
- * @method bool getInterrupt()
- * @method $this setInvoker($invoker)
- * @method string getInvoker()
- * @method $this setPk($pk)
- * @method string getPk()
- * @method $this setBid($bid)
- * @method string getBid()
- * @method $this setHid($hid)
- * @method int getHid()
- * @method $this setCountry($country)
- * @method string getCountry()
- * @method $this setTaskIdentifier($taskIdentifier)
- * @method string getTaskIdentifier()
- * @method $this setTaskExtraData($taskExtraData)
- * @method string getTaskExtraData()
- * @method $this setGmtWakeup($gmtWakeup)
- * @method string getGmtWakeup()
- * @method $this setSuccess($success)
- * @method bool getSuccess()
- * @method $this setMessage($message)
- * @method string getMessage()
- */
-class doPhysicalDeleteResource extends Request
 {
 
 }/**
@@ -1056,32 +843,10 @@ class GetScanProbeTimeSer extends Request
 {
 
 }/**
- * @method $this setBid($bid)
- * @method int getBid()
- * @method $this setName($name)
- * @method string getName()
- * @method $this setDescription($description)
- * @method string getDescription()
- * @method $this setShopids($shopids)
- * @method string getShopids()
- */
-class CreateUShopGroup extends Request
-{
-
-}/**
  * @method $this setGsid($gsid)
  * @method int getGsid()
  */
 class OemHeatLine extends Request
-{
-
-}/**
- * @method $this setBid($bid)
- * @method int getBid()
- * @method $this setGid($gid)
- * @method int getGid()
- */
-class DeleteUShopGroup extends Request
 {
 
 }/**
@@ -1128,25 +893,6 @@ class ShopDeletemarketing extends Request
 {
 
 }/**
- * @method $this setBid($bid)
- * @method int getBid()
- * @method $this setGid($gid)
- * @method int getGid()
- * @method $this setShopName($shopName)
- * @method string getShopName()
- * @method $this setBeginDate($beginDate)
- * @method string getBeginDate()
- * @method $this setEndDate($endDate)
- * @method string getEndDate()
- * @method $this setPageSize($pageSize)
- * @method int getPageSize()
- * @method $this setPageNo($pageNo)
- * @method int getPageNo()
- */
-class GetShopGroupDetails extends Request
-{
-
-}/**
  * @method $this setId($id)
  * @method int getId()
  * @method $this setUniqueId($uniqueId)
@@ -1162,13 +908,6 @@ class GetPortalTempDetail extends Request
  * @method int getPer()
  */
 class BusinessShowList extends Request
-{
-
-}/**
- * @method $this setId($id)
- * @method int getId()
- */
-class GetSubAccountPermissionFds extends Request
 {
 
 }/**
@@ -1232,21 +971,6 @@ class ListApAsset extends Request
 {
 
 }/**
- * @method $this setBid($bid)
- * @method int getBid()
- * @method $this setManager($manager)
- * @method string getManager()
- * @method $this setProvince($province)
- * @method int getProvince()
- * @method $this setCity($city)
- * @method int getCity()
- * @method $this setAddress($address)
- * @method string getAddress()
- */
-class UpdateUBusiness extends Request
-{
-
-}/**
  * @method $this setApgroupId($apgroupId)
  * @method int getApgroupId()
  */
@@ -1295,17 +1019,6 @@ class ListBusinessDetails extends Request
  * @method string getdata()
  */
 class InnerCheckOrder extends Request
-{
-
-}/**
- * @method $this setPageSize($pageSize)
- * @method int getPageSize()
- * @method $this setPageNo($pageNo)
- * @method int getPageNo()
- * @method $this setState($state)
- * @method int getState()
- */
-class ListUBusiness extends Request
 {
 
 }/**
@@ -1423,27 +1136,6 @@ class ListBriefApConfig extends Request
 {
 
 }/**
- * @method $this setName($name)
- * @method string getName()
- * @method $this setType($type)
- * @method int getType()
- * @method $this setSubtype($subtype)
- * @method int getSubtype()
- * @method $this setManager($manager)
- * @method string getManager()
- * @method $this setPhone($phone)
- * @method string getPhone()
- * @method $this setProvince($province)
- * @method int getProvince()
- * @method $this setCity($city)
- * @method int getCity()
- * @method $this setAddress($address)
- * @method string getAddress()
- */
-class CreateUBusiness extends Request
-{
-
-}/**
  */
 class GetUpgradeAPProgress extends Request
 {
@@ -1555,33 +1247,6 @@ class GetApgroupScanConfigSaveProgress extends Request
  * @method string getSearchDescription()
  */
 class ListStaStatus extends Request
-{
-
-}/**
- * @method $this setInterrupt($interrupt)
- * @method bool getInterrupt()
- * @method $this setInvoker($invoker)
- * @method string getInvoker()
- * @method $this setPk($pk)
- * @method string getPk()
- * @method $this setBid($bid)
- * @method string getBid()
- * @method $this setHid($hid)
- * @method int getHid()
- * @method $this setCountry($country)
- * @method string getCountry()
- * @method $this setTaskIdentifier($taskIdentifier)
- * @method string getTaskIdentifier()
- * @method $this setTaskExtraData($taskExtraData)
- * @method string getTaskExtraData()
- * @method $this setGmtWakeup($gmtWakeup)
- * @method string getGmtWakeup()
- * @method $this setSuccess($success)
- * @method bool getSuccess()
- * @method $this setMessage($message)
- * @method string getMessage()
- */
-class doLogicalDeleteResource extends Request
 {
 
 }/**
@@ -1772,13 +1437,6 @@ class ListProbeinfo extends Request
 {
 
 }/**
- * @method $this setBid($bid)
- * @method int getBid()
- */
-class GetUBusiness extends Request
-{
-
-}/**
  * @method $this setPageIndex($pageIndex)
  * @method int getPageIndex()
  * @method $this setLength($length)
@@ -1842,15 +1500,6 @@ class GroupOverview extends Request
 {
 
 }/**
- * @method $this setBid($bid)
- * @method int getBid()
- * @method $this setSid($sid)
- * @method int getSid()
- */
-class DeleteUShop extends Request
-{
-
-}/**
  * @method $this setTotalItem($totalItem)
  * @method int getTotalItem()
  * @method $this setPageIndex($pageIndex)
@@ -1876,15 +1525,6 @@ class ListApPositionMap extends Request
  * @method string getdata()
  */
 class InnerRefund extends Request
-{
-
-}/**
- * @method $this setBid($bid)
- * @method int getBid()
- * @method $this setGids($gids)
- * @method array getGids()
- */
-class ListShopByGroups extends Request
 {
 
 }/**
@@ -2031,19 +1671,6 @@ class GetAllActiveShopByGroup extends Request
 {
 
 }/**
- * @method $this setBid($bid)
- * @method int getBid()
- * @method $this setSid($sid)
- * @method int getSid()
- * @method $this setBeginDate($beginDate)
- * @method string getBeginDate()
- * @method $this setEndDate($endDate)
- * @method string getEndDate()
- */
-class GetShopTrafficReport extends Request
-{
-
-}/**
  * @method $this setId($id)
  * @method int getId()
  */
@@ -2111,15 +1738,6 @@ class SetUpgradeImgByModel extends Request
  * @method int getGsid()
  */
 class GroupIntime extends Request
-{
-
-}/**
- * @method $this setPageSize($pageSize)
- * @method int getPageSize()
- * @method $this setPageNo($pageNo)
- * @method int getPageNo()
- */
-class ListSubAccountPermissionFds extends Request
 {
 
 }/**
@@ -2238,19 +1856,6 @@ class GetGroupApRadioOnoffProgress extends Request
  * @method int getId()
  */
 class KickAndClearPMKcache extends Request
-{
-
-}/**
- * @method $this setBid($bid)
- * @method int getBid()
- * @method $this setGid($gid)
- * @method int getGid()
- * @method $this setBeginDate($beginDate)
- * @method string getBeginDate()
- * @method $this setEndDate($endDate)
- * @method string getEndDate()
- */
-class GetShopGroupTrafficReport extends Request
 {
 
 }/**
@@ -2419,45 +2024,6 @@ class GetDailyStatistic extends Request
 {
 
 }/**
- * @method $this setBid($bid)
- * @method int getBid()
- * @method $this setName($name)
- * @method string getName()
- * @method $this setArea($area)
- * @method int getArea()
- * @method $this setManager($manager)
- * @method string getManager()
- * @method $this setPhone($phone)
- * @method string getPhone()
- * @method $this setRegion($region)
- * @method int getRegion()
- * @method $this setProvince($province)
- * @method int getProvince()
- * @method $this setCity($city)
- * @method int getCity()
- * @method $this setDistrict($district)
- * @method int getDistrict()
- * @method $this setAddress($address)
- * @method string getAddress()
- * @method $this setOpenTime($openTime)
- * @method string getOpenTime()
- * @method $this setFilter($filter)
- * @method int getFilter()
- * @method $this setLongitude($longitude)
- * @method string getLongitude()
- * @method $this setLatitude($latitude)
- * @method string getLatitude()
- * @method $this setMapId($mapId)
- * @method string getMapId()
- * @method $this setBrand($brand)
- * @method string getBrand()
- * @method $this setRemark($remark)
- * @method string getRemark()
- */
-class CreateUShop extends Request
-{
-
-}/**
  * @method $this setApList($apList)
  * @method array getApList()
  * @method $this setAutoRenew($autoRenew)
@@ -2577,50 +2143,6 @@ class SaveAccountConfig extends Request
  * @method int getInstantlyEffective()
  */
 class DeleteApRadioSsidConfig extends Request
-{
-
-}/**
- * @method $this setId($id)
- * @method int getId()
- */
-class DelSubAccountPermissionFds extends Request
-{
-
-}/**
- * @method $this setBid($bid)
- * @method int getBid()
- * @method $this setSid($sid)
- * @method int getSid()
- * @method $this setName($name)
- * @method string getName()
- * @method $this setArea($area)
- * @method int getArea()
- * @method $this setManager($manager)
- * @method string getManager()
- * @method $this setPhone($phone)
- * @method string getPhone()
- * @method $this setRegion($region)
- * @method int getRegion()
- * @method $this setProvince($province)
- * @method int getProvince()
- * @method $this setCity($city)
- * @method int getCity()
- * @method $this setDistrict($district)
- * @method int getDistrict()
- * @method $this setAddress($address)
- * @method string getAddress()
- * @method $this setOpenTime($openTime)
- * @method string getOpenTime()
- * @method $this setFilter($filter)
- * @method int getFilter()
- * @method $this setLongitude($longitude)
- * @method string getLongitude()
- * @method $this setLatitude($latitude)
- * @method string getLatitude()
- * @method $this setMapId($mapId)
- * @method string getMapId()
- */
-class UpdateUShop extends Request
 {
 
 }/**
@@ -2854,34 +2376,10 @@ class SaveProbeDataSubscriber extends Request
 {
 
 }/**
- * @method $this setBid($bid)
- * @method int getBid()
- * @method $this setGid($gid)
- * @method int getGid()
- * @method $this setName($name)
- * @method string getName()
- * @method $this setDescription($description)
- * @method string getDescription()
- * @method $this setShopIds($shopIds)
- * @method string getShopIds()
- */
-class UpdateUShopGroup extends Request
-{
-
-}/**
  * @method $this setId($id)
  * @method int getId()
  */
 class DelPortalTemp extends Request
-{
-
-}/**
- * @method $this setBid($bid)
- * @method int getBid()
- * @method $this setGid($gid)
- * @method int getGid()
- */
-class GetUShopGroup extends Request
 {
 
 }/**
@@ -2981,19 +2479,6 @@ class ShopGroupDelete extends Request
 {
 
 }/**
- * @method $this setBid($bid)
- * @method int getBid()
- * @method $this setSid($sid)
- * @method int getSid()
- * @method $this setBeginDate($beginDate)
- * @method string getBeginDate()
- * @method $this setEndDate($endDate)
- * @method string getEndDate()
- */
-class GetShopTopVillage extends Request
-{
-
-}/**
  * @method $this setId($id)
  * @method int getId()
  */
@@ -3062,38 +2547,6 @@ class BusinessCreate extends Request
  * @method string getJsonData()
  */
 class BatchChangeGroupApName extends Request
-{
-
-}/**
- * @method $this setId($id)
- * @method int getId()
- * @method $this setUid($uid)
- * @method int getUid()
- * @method $this setPagePermission($pagePermission)
- * @method string getPagePermission()
- * @method $this setBusinessIds($businessIds)
- * @method array getBusinessIds()
- * @method $this setShopIds($shopIds)
- * @method array getShopIds()
- * @method $this setShopGroupIds($shopGroupIds)
- * @method array getShopGroupIds()
- */
-class ModifySubAccountPermissionFds extends Request
-{
-
-}/**
- * @method $this setUid($uid)
- * @method int getUid()
- * @method $this setPagePermission($pagePermission)
- * @method string getPagePermission()
- * @method $this setBusinessIds($businessIds)
- * @method array getBusinessIds()
- * @method $this setShopIds($shopIds)
- * @method array getShopIds()
- * @method $this setShopGroupIds($shopGroupIds)
- * @method array getShopGroupIds()
- */
-class CreateSubAccountPermissionFds extends Request
 {
 
 }/**
@@ -3174,13 +2627,6 @@ class ShopGroupInfo extends Request
  * @method string getJsonData()
  */
 class SaveApgroupScanConfig extends Request
-{
-
-}/**
- * @method $this setSid($sid)
- * @method int getSid()
- */
-class GetUShop extends Request
 {
 
 }/**

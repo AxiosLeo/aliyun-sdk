@@ -25,6 +25,7 @@ use aliyun\sdk\core\lib\Request;
  * @method SecureCheck SecureCheck()
  * @method DdosLog DdosLog()
  * @method AddCNameWaf AddCNameWaf()
+ * @method GetDdosConfigOptions GetDdosConfigOptions()
  * @method OpenVulScan OpenVulScan()
  * @method ConfirmLogin ConfirmLogin()
  * @method CloseCCProtect CloseCCProtect()
@@ -244,6 +245,11 @@ class DdosLog extends Request
  * @method string getDomain()
  */
 class AddCNameWaf extends Request
+{
+
+}/**
+ */
+class GetDdosConfigOptions extends Request
 {
 
 }/**

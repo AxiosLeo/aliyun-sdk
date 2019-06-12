@@ -294,6 +294,8 @@ class DescribeBackupSets extends Request
  * @method string getDrdsInstanceId()
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
+ * @method $this setDrdsPassword($drdsPassword)
+ * @method string getDrdsPassword()
  */
 class EnableInstanceIpv6Address extends Request
 {
@@ -307,6 +309,8 @@ class EnableInstanceIpv6Address extends Request
  * @method string getResourceType()
  * @method $this setAll($all)
  * @method bool getAll()
+ * @method $this setNoRole($noRole)
+ * @method bool getNoRole()
  * @method $this setTagKey($tagKey)
  * @method array getTagKey()
  */
@@ -500,6 +504,8 @@ class DescribeDrdsInstanceMonitor extends Request
  * @method string getDrdsInstanceId()
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
+ * @method $this setDrdsPassword($drdsPassword)
+ * @method string getDrdsPassword()
  */
 class UpgradeInstanceVersion extends Request
 {
@@ -941,6 +947,8 @@ class ConfigureDrdsDbInstances extends Request
  * @method string getDrdsInstanceId()
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
+ * @method $this setDrdsPassword($drdsPassword)
+ * @method string getDrdsPassword()
  */
 class CreateInstanceInternetAddress extends Request
 {
@@ -1201,6 +1209,8 @@ class DescribeRdsPrice extends Request
  * @method array getResourceId()
  * @method $this setResourceType($resourceType)
  * @method string getResourceType()
+ * @method $this setNoRole($noRole)
+ * @method bool getNoRole()
  */
 class TagResources extends Request
 {
@@ -1298,6 +1308,8 @@ class EnableSqlFlashbackMatchSwitch extends Request
  * @method string getDrdsInstanceId()
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
+ * @method $this setDrdsPassword($drdsPassword)
+ * @method string getDrdsPassword()
  */
 class RollbackInstanceVersion extends Request
 {
@@ -1364,6 +1376,8 @@ class RemoveBackupsSet extends Request
  * @method string getDrdsInstanceId()
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
+ * @method $this setDrdsPassword($drdsPassword)
+ * @method string getDrdsPassword()
  */
 class ReleaseInstanceInternetAddress extends Request
 {
@@ -1562,6 +1576,8 @@ class CheckRdsSuperAccount extends Request
  * @method string getResourceType()
  * @method $this setResourceId($resourceId)
  * @method array getResourceId()
+ * @method $this setNoRole($noRole)
+ * @method bool getNoRole()
  * @method $this setNextToken($nextToken)
  * @method string getNextToken()
  */

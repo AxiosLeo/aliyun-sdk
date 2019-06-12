@@ -8,7 +8,6 @@ use aliyun\sdk\core\lib\Request;
  * Class V20160922
  *
  * @package aliyun\sdk\services\Cms20160922
- * @method BatchPutDimTableData123 BatchPutDimTableData123()
  * @method ProfileSet ProfileSet()
  * @method AccessKeyGet AccessKeyGet()
  * @method IsMetricNameValid IsMetricNameValid()
@@ -19,82 +18,51 @@ use aliyun\sdk\core\lib\Request;
  * @method QueryMetricList QueryMetricList()
  * @method StartMetricStream StartMetricStream()
  * @method DescribeMetricDatum DescribeMetricDatum()
- * @method DeleteMetricOutput DeleteMetricOutput()
  * @method NodeStatusList NodeStatusList()
  * @method GetLogMonitorInAll GetLogMonitorInAll()
- * @method H5WeeklyReportUserIds H5WeeklyReportUserIds()
  * @method cmsShareDeleteTokenByToken cmsShareDeleteTokenByToken()
  * @method AccessKeyQuery AccessKeyQuery()
- * @method CreateMetricOutput CreateMetricOutput()
  * @method NodeInstall NodeInstall()
  * @method JVMConfigRemoveByInstanceId JVMConfigRemoveByInstanceId()
  * @method NodeList NodeList()
- * @method MetricSqlCheck MetricSqlCheck()
  * @method MetricData MetricData()
  * @method ListAlarmTemplate ListAlarmTemplate()
  * @method ListMetricsOfLogMonitor ListMetricsOfLogMonitor()
- * @method CreateDimTable CreateDimTable()
  * @method JVMConfigRemoveById JVMConfigRemoveById()
  * @method QueryMetricTopN QueryMetricTopN()
- * @method ListDimTable ListDimTable()
- * @method QueryProject QueryProject()
- * @method GetMetricOutput GetMetricOutput()
  * @method QueryMetric QueryMetric()
  * @method NodeProcesses NodeProcesses()
- * @method DeleteDimTable DeleteDimTable()
+ * @method ProjectList ProjectList()
  * @method ListDimTableData ListDimTableData()
- * @method GetProject GetProject()
- * @method QueryCustomField QueryCustomField()
  * @method GetMetricStreamMeta GetMetricStreamMeta()
  * @method TaskConfigList TaskConfigList()
- * @method DeleteDimTableData DeleteDimTableData()
  * @method TaskConfigDelete TaskConfigDelete()
- * @method DeleteDimTableDataByKey DeleteDimTableDataByKey()
- * @method QueryInstanceTop QueryInstanceTop()
- * @method UpdateDimTable UpdateDimTable()
  * @method DimensionValues DimensionValues()
  * @method AccessKeyGenerate AccessKeyGenerate()
  * @method NodeProcessCreate NodeProcessCreate()
- * @method QueryCustomValue QueryCustomValue()
  * @method NodeStatus NodeStatus()
- * @method ListMetricsMeta ListMetricsMeta()
- * @method GetSqlMetrics GetSqlMetrics()
  * @method putProductGroup putProductGroup()
  * @method NodeUninstall NodeUninstall()
- * @method ListMetricOutput ListMetricOutput()
- * @method QueryMetricDimensions QueryMetricDimensions()
- * @method UpdateSqlMetrics UpdateSqlMetrics()
- * @method UpdateMetricOutput UpdateMetricOutput()
  * @method PutLogMonitor PutLogMonitor()
  * @method PutMetricData PutMetricData()
- * @method DeleteOutput DeleteOutput()
- * @method StartProject StartProject()
+ * @method NodeAgentVersion NodeAgentVersion()
  * @method UploadData UploadData()
  * @method DescribeMetricList DescribeMetricList()
  * @method UpdateMetrics UpdateMetrics()
- * @method QueryDimTableDataByKey QueryDimTableDataByKey()
- * @method DescribeMetric DescribeMetric()
  * @method TaskConfigCreate TaskConfigCreate()
  * @method JVMConfigGetByInstanceId JVMConfigGetByInstanceId()
  * @method ListMetrics ListMetrics()
  * @method TaskConfigModify TaskConfigModify()
  * @method NodeProcessDelete NodeProcessDelete()
- * @method CreateSqlMetrics CreateSqlMetrics()
- * @method CreateProject CreateProject()
- * @method QueryDimTableData QueryDimTableData()
  * @method DeleteAlarmTemplate DeleteAlarmTemplate()
  * @method TaskConfigUnhealthy TaskConfigUnhealthy()
- * @method DeleteProject DeleteProject()
  * @method QueryIsMetricNameValid QueryIsMetricNameValid()
  * @method QueryMetricTop QueryMetricTop()
- * @method CreateOutput CreateOutput()
  * @method ListMyGroups ListMyGroups()
  * @method DeleteLogMonitor DeleteLogMonitor()
- * @method GetOutput GetOutput()
  * @method JVMConfigCreate JVMConfigCreate()
- * @method PutMetricMeta PutMetricMeta()
+ * @method Heartbeat Heartbeat()
  * @method JVMConfigModify JVMConfigModify()
- * @method StatusProject StatusProject()
  * @method PutAlertTemplate PutAlertTemplate()
  * @method getProductGroupInstances getProductGroupInstances()
  * @method getProductGroups getProductGroups()
@@ -102,32 +70,17 @@ use aliyun\sdk\core\lib\Request;
  * @method JVMConfigRemoveByIdList JVMConfigRemoveByIdList()
  * @method GetMetricStatistics GetMetricStatistics()
  * @method ProfileGet ProfileGet()
- * @method UpdateProject UpdateProject()
- * @method ListProject ListProject()
- * @method UpdateMetricStream UpdateMetricStream()
- * @method GetMetricsMeta GetMetricsMeta()
- * @method ListSqlMetrics ListSqlMetrics()
  * @method BatchCreateMetrics BatchCreateMetrics()
  * @method CreateMetrics CreateMetrics()
  * @method deleteProductGroup deleteProductGroup()
- * @method DeleteMetrics DeleteMetrics()
  * @method GetLogMonitorByMetricName GetLogMonitorByMetricName()
- * @method QueryIncremental QueryIncremental()
- * @method ListMetricStream ListMetricStream()
  * @method ListGroupsInner ListGroupsInner()
- * @method StopProject StopProject()
- * @method QueryMetricsFresh QueryMetricsFresh()
  * @method NodeListUpdate NodeListUpdate()
- * @method CreateMetricStream CreateMetricStream()
  * @method QueryMetricLast QueryMetricLast()
  * @method StopMetricStream StopMetricStream()
- * @method QueryCustomTable QueryCustomTable()
  * @method QueryListMetric QueryListMetric()
- * @method DeleteMetricStream DeleteMetricStream()
  * @method JVMConfigDisable JVMConfigDisable()
  * @method QueryMetricData QueryMetricData()
- * @method BatchPutDimTableData BatchPutDimTableData()
- * @method BatchCreateSqlMetrics BatchCreateSqlMetrics()
  * @method MetricMeta MetricMeta()
  * @method JVMConfigEnable JVMConfigEnable()
  * @method PutMetrics PutMetrics()
@@ -135,37 +88,19 @@ use aliyun\sdk\core\lib\Request;
  * @method GetLogMonitorResourceControlInfo GetLogMonitorResourceControlInfo()
  * @method PutAlarmTemplate PutAlarmTemplate()
  * @method cmsShareGenerateToken cmsShareGenerateToken()
- * @method GetDimTable GetDimTable()
  * @method ListLogMonitorByGroupId ListLogMonitorByGroupId()
- * @method ListOutput ListOutput()
  * @method JVMConfigGetById JVMConfigGetById()
  * @method QueryEventLast QueryEventLast()
- * @method UpdateOutput UpdateOutput()
- * @method GetMetricStream GetMetricStream()
  * @method ListLogMonitor ListLogMonitor()
  * @method cmsListShares cmsListShares()
  * @method DeleteMetricOfLogMonitor DeleteMetricOfLogMonitor()
  * @method TaskConfigEnable TaskConfigEnable()
- * @method BatchQueryMetric BatchQueryMetric()
  */
 class V20160922
 {
 }
 
 /**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setcallby_cms_owner($callby_cms_owner)
- * @method string getcallby_cms_owner()
- * @method $this setDimTableName($dimTableName)
- * @method string getDimTableName()
- * @method $this setBody($body)
- * @method string getBody()
- */
-class BatchPutDimTableData123 extends Request
-{
-
-}/**
  * @method $this setUserId($userId)
  * @method int getUserId()
  * @method $this setAutoInstall($autoInstall)
@@ -322,19 +257,6 @@ class DescribeMetricDatum extends Request
 {
 
 }/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setcallby_cms_owner($callby_cms_owner)
- * @method string getcallby_cms_owner()
- * @method $this setProjectName($projectName)
- * @method string getProjectName()
- * @method $this setMetricOutputName($metricOutputName)
- * @method string getMetricOutputName()
- */
-class DeleteMetricOutput extends Request
-{
-
-}/**
  * @method $this setInstanceIds($instanceIds)
  * @method string getInstanceIds()
  */
@@ -353,17 +275,6 @@ class GetLogMonitorInAll extends Request
 {
 
 }/**
- * @method $this setUserId($userId)
- * @method int getUserId()
- * @method $this setYear($year)
- * @method int getYear()
- * @method $this setWeekOfYear($weekOfYear)
- * @method int getWeekOfYear()
- */
-class H5WeeklyReportUserIds extends Request
-{
-
-}/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
  * @method $this settoken($token)
@@ -377,19 +288,6 @@ class cmsShareDeleteTokenByToken extends Request
  * @method string getAccessKey()
  */
 class AccessKeyQuery extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setcallby_cms_owner($callby_cms_owner)
- * @method string getcallby_cms_owner()
- * @method $this setProjectName($projectName)
- * @method string getProjectName()
- * @method $this setMetricOutput($metricOutput)
- * @method string getMetricOutput()
- */
-class CreateMetricOutput extends Request
 {
 
 }/**
@@ -429,19 +327,6 @@ class JVMConfigRemoveByInstanceId extends Request
  * @method string getStatus()
  */
 class NodeList extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setcallby_cms_owner($callby_cms_owner)
- * @method string getcallby_cms_owner()
- * @method $this setSql($sql)
- * @method string getSql()
- * @method $this setInput($input)
- * @method string getInput()
- */
-class MetricSqlCheck extends Request
 {
 
 }/**
@@ -500,17 +385,6 @@ class ListMetricsOfLogMonitor extends Request
 {
 
 }/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setcallby_cms_owner($callby_cms_owner)
- * @method string getcallby_cms_owner()
- * @method $this setDimTable($dimTable)
- * @method string getDimTable()
- */
-class CreateDimTable extends Request
-{
-
-}/**
  * @method $this setId($id)
  * @method int getId()
  * @method $this setInstanceId($instanceId)
@@ -551,47 +425,6 @@ class QueryMetricTopN extends Request
  * @method int getResourceOwnerId()
  * @method $this setcallby_cms_owner($callby_cms_owner)
  * @method string getcallby_cms_owner()
- * @method $this setDimTableName($dimTableName)
- * @method string getDimTableName()
- * @method $this setPage($page)
- * @method int getPage()
- * @method $this setPageSize($pageSize)
- * @method int getPageSize()
- */
-class ListDimTable extends Request
-{
-
-}/**
- * @method $this setProjectOwner($projectOwner)
- * @method string getProjectOwner()
- * @method $this setPage($page)
- * @method int getPage()
- * @method $this setPageSize($pageSize)
- * @method int getPageSize()
- * @method $this setProjectName($projectName)
- * @method string getProjectName()
- */
-class QueryProject extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setcallby_cms_owner($callby_cms_owner)
- * @method string getcallby_cms_owner()
- * @method $this setProjectName($projectName)
- * @method string getProjectName()
- * @method $this setMetricOutputName($metricOutputName)
- * @method string getMetricOutputName()
- */
-class GetMetricOutput extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setcallby_cms_owner($callby_cms_owner)
- * @method string getcallby_cms_owner()
  * @method $this setProject($project)
  * @method string getProject()
  * @method $this setMetric($metric)
@@ -622,14 +455,8 @@ class NodeProcesses extends Request
 {
 
 }/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setcallby_cms_owner($callby_cms_owner)
- * @method string getcallby_cms_owner()
- * @method $this setDimTableName($dimTableName)
- * @method string getDimTableName()
  */
-class DeleteDimTable extends Request
+class ProjectList extends Request
 {
 
 }/**
@@ -639,30 +466,6 @@ class DeleteDimTable extends Request
  * @method string getKey()
  */
 class ListDimTableData extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setcallby_cms_owner($callby_cms_owner)
- * @method string getcallby_cms_owner()
- * @method $this setProjectName($projectName)
- * @method string getProjectName()
- */
-class GetProject extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setcallby_cms_owner($callby_cms_owner)
- * @method string getcallby_cms_owner()
- * @method $this setMetric($metric)
- * @method string getMetric()
- * @method $this setIsdim($isdim)
- * @method string getIsdim()
- */
-class QueryCustomField extends Request
 {
 
 }/**
@@ -690,80 +493,10 @@ class TaskConfigList extends Request
 {
 
 }/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setcallby_cms_owner($callby_cms_owner)
- * @method string getcallby_cms_owner()
- * @method $this setDimTableName($dimTableName)
- * @method string getDimTableName()
- * @method $this setKey($key)
- * @method string getKey()
- */
-class DeleteDimTableData extends Request
-{
-
-}/**
  * @method $this setIdList($idList)
  * @method array getIdList()
  */
 class TaskConfigDelete extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setcallby_cms_owner($callby_cms_owner)
- * @method string getcallby_cms_owner()
- * @method $this setDimTableName($dimTableName)
- * @method string getDimTableName()
- * @method $this setKey($key)
- * @method string getKey()
- * @method $this setValue($value)
- * @method string getValue()
- */
-class DeleteDimTableDataByKey extends Request
-{
-
-}/**
- * @method $this setcallby_cms_owner($callby_cms_owner)
- * @method string getcallby_cms_owner()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setProject($project)
- * @method string getProject()
- * @method $this setMetric($metric)
- * @method string getMetric()
- * @method $this setPeriod($period)
- * @method string getPeriod()
- * @method $this setStartTime($startTime)
- * @method string getStartTime()
- * @method $this setEndTime($endTime)
- * @method string getEndTime()
- * @method $this setDimensions($dimensions)
- * @method string getDimensions()
- * @method $this setOrderby($orderby)
- * @method string getOrderby()
- * @method $this setOrderDesc($orderDesc)
- * @method string getOrderDesc()
- * @method $this setLength($length)
- * @method string getLength()
- * @method $this setExpress($express)
- * @method string getExpress()
- */
-class QueryInstanceTop extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setcallby_cms_owner($callby_cms_owner)
- * @method string getcallby_cms_owner()
- * @method $this setDimTableName($dimTableName)
- * @method string getDimTableName()
- * @method $this setDimTable($dimTable)
- * @method string getDimTable()
- */
-class UpdateDimTable extends Request
 {
 
 }/**
@@ -808,57 +541,10 @@ class NodeProcessCreate extends Request
 {
 
 }/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setcallby_cms_owner($callby_cms_owner)
- * @method string getcallby_cms_owner()
- * @method $this setMetric($metric)
- * @method string getMetric()
- * @method $this setDimension($dimension)
- * @method string getDimension()
- * @method $this setWhere($where)
- * @method string getWhere()
- * @method $this setLimit($limit)
- * @method string getLimit()
- */
-class QueryCustomValue extends Request
-{
-
-}/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
  */
 class NodeStatus extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setcallby_cms_owner($callby_cms_owner)
- * @method string getcallby_cms_owner()
- * @method $this setProjectName($projectName)
- * @method string getProjectName()
- * @method $this setMetricName($metricName)
- * @method string getMetricName()
- * @method $this setPage($page)
- * @method int getPage()
- * @method $this setPageSize($pageSize)
- * @method int getPageSize()
- */
-class ListMetricsMeta extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setcallby_cms_owner($callby_cms_owner)
- * @method string getcallby_cms_owner()
- * @method $this setProjectName($projectName)
- * @method string getProjectName()
- * @method $this setMetricName($metricName)
- * @method string getMetricName()
- */
-class GetSqlMetrics extends Request
 {
 
 }/**
@@ -882,74 +568,6 @@ class NodeUninstall extends Request
  * @method int getResourceOwnerId()
  * @method $this setcallby_cms_owner($callby_cms_owner)
  * @method string getcallby_cms_owner()
- * @method $this setProjectName($projectName)
- * @method string getProjectName()
- * @method $this setMetricOutputName($metricOutputName)
- * @method string getMetricOutputName()
- * @method $this setPage($page)
- * @method int getPage()
- * @method $this setPageSize($pageSize)
- * @method int getPageSize()
- */
-class ListMetricOutput extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setcallby_cms_owner($callby_cms_owner)
- * @method string getcallby_cms_owner()
- * @method $this setProject($project)
- * @method string getProject()
- * @method $this setMetric($metric)
- * @method string getMetric()
- * @method $this setPeriod($period)
- * @method string getPeriod()
- * @method $this setStartTime($startTime)
- * @method string getStartTime()
- * @method $this setEndTime($endTime)
- * @method string getEndTime()
- * @method $this setDimensions($dimensions)
- * @method string getDimensions()
- */
-class QueryMetricDimensions extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setcallby_cms_owner($callby_cms_owner)
- * @method string getcallby_cms_owner()
- * @method $this setProjectName($projectName)
- * @method string getProjectName()
- * @method $this setMetricName($metricName)
- * @method string getMetricName()
- * @method $this setSql($sql)
- * @method string getSql()
- * @method $this setIsPublic($isPublic)
- * @method int getIsPublic()
- */
-class UpdateSqlMetrics extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setProjectName($projectName)
- * @method string getProjectName()
- * @method $this setMetricOutputName($metricOutputName)
- * @method string getMetricOutputName()
- * @method $this setMetricOutput($metricOutput)
- * @method string getMetricOutput()
- */
-class UpdateMetricOutput extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setcallby_cms_owner($callby_cms_owner)
- * @method string getcallby_cms_owner()
  * @method $this setLogMonitor($logMonitor)
  * @method string getLogMonitor()
  */
@@ -966,29 +584,8 @@ class PutMetricData extends Request
 {
 
 }/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setcallby_cms_owner($callby_cms_owner)
- * @method string getcallby_cms_owner()
- * @method $this setProjectName($projectName)
- * @method string getProjectName()
- * @method $this setMetricOutputName($metricOutputName)
- * @method string getMetricOutputName()
  */
-class DeleteOutput extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setcallby_cms_owner($callby_cms_owner)
- * @method string getcallby_cms_owner()
- * @method $this setProjectName($projectName)
- * @method string getProjectName()
- * @method $this setType($type)
- * @method string getType()
- */
-class StartProject extends Request
+class NodeAgentVersion extends Request
 {
 
 }/**
@@ -1038,46 +635,6 @@ class DescribeMetricList extends Request
  * @method string getMetrics()
  */
 class UpdateMetrics extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setcallby_cms_owner($callby_cms_owner)
- * @method string getcallby_cms_owner()
- * @method $this setDimTableName($dimTableName)
- * @method string getDimTableName()
- * @method $this setKey($key)
- * @method string getKey()
- * @method $this setValue($value)
- * @method string getValue()
- * @method $this setPage($page)
- * @method int getPage()
- * @method $this setPageSize($pageSize)
- * @method int getPageSize()
- */
-class QueryDimTableDataByKey extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setcallby_cms_owner($callby_cms_owner)
- * @method string getcallby_cms_owner()
- * @method $this setProject($project)
- * @method string getProject()
- * @method $this setMetric($metric)
- * @method string getMetric()
- * @method $this setPeriod($period)
- * @method string getPeriod()
- * @method $this setStartTime($startTime)
- * @method string getStartTime()
- * @method $this setEndTime($endTime)
- * @method string getEndTime()
- * @method $this setDimensions($dimensions)
- * @method string getDimensions()
- */
-class DescribeMetric extends Request
 {
 
 }/**
@@ -1158,45 +715,6 @@ class NodeProcessDelete extends Request
 {
 
 }/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setcallby_cms_owner($callby_cms_owner)
- * @method string getcallby_cms_owner()
- * @method $this setProjectName($projectName)
- * @method string getProjectName()
- * @method $this setSql($sql)
- * @method string getSql()
- * @method $this setIsPublic($isPublic)
- * @method int getIsPublic()
- */
-class CreateSqlMetrics extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setcallby_cms_owner($callby_cms_owner)
- * @method string getcallby_cms_owner()
- * @method $this setProject($project)
- * @method string getProject()
- */
-class CreateProject extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setcallby_cms_owner($callby_cms_owner)
- * @method string getcallby_cms_owner()
- * @method $this setDimTableName($dimTableName)
- * @method string getDimTableName()
- * @method $this setKey($key)
- * @method string getKey()
- */
-class QueryDimTableData extends Request
-{
-
-}/**
  * @method $this settemplateId($templateId)
  * @method int gettemplateId()
  */
@@ -1208,17 +726,6 @@ class DeleteAlarmTemplate extends Request
  * @method array getTaskIdList()
  */
 class TaskConfigUnhealthy extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setcallby_cms_owner($callby_cms_owner)
- * @method string getcallby_cms_owner()
- * @method $this setProjectName($projectName)
- * @method string getProjectName()
- */
-class DeleteProject extends Request
 {
 
 }/**
@@ -1262,19 +769,6 @@ class QueryMetricTop extends Request
 {
 
 }/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setcallby_cms_owner($callby_cms_owner)
- * @method string getcallby_cms_owner()
- * @method $this setProjectName($projectName)
- * @method string getProjectName()
- * @method $this setMetricOutput($metricOutput)
- * @method string getMetricOutput()
- */
-class CreateOutput extends Request
-{
-
-}/**
  * @method $this setKeyword($keyword)
  * @method string getKeyword()
  * @method $this setPageNumber($pageNumber)
@@ -1297,19 +791,6 @@ class DeleteLogMonitor extends Request
 {
 
 }/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setcallby_cms_owner($callby_cms_owner)
- * @method string getcallby_cms_owner()
- * @method $this setProjectName($projectName)
- * @method string getProjectName()
- * @method $this setMetricOutputName($metricOutputName)
- * @method string getMetricOutputName()
- */
-class GetOutput extends Request
-{
-
-}/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
  * @method $this setUserId($userId)
@@ -1325,12 +806,8 @@ class JVMConfigCreate extends Request
 {
 
 }/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setMetricMeta($metricMeta)
- * @method string getMetricMeta()
  */
-class PutMetricMeta extends Request
+class Heartbeat extends Request
 {
 
 }/**
@@ -1348,17 +825,6 @@ class PutMetricMeta extends Request
  * @method string getObjectNameJsonStr()
  */
 class JVMConfigModify extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setcallby_cms_owner($callby_cms_owner)
- * @method string getcallby_cms_owner()
- * @method $this setProjectName($projectName)
- * @method string getProjectName()
- */
-class StatusProject extends Request
 {
 
 }/**
@@ -1461,77 +927,6 @@ class ProfileGet extends Request
 {
 
 }/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setcallby_cms_owner($callby_cms_owner)
- * @method string getcallby_cms_owner()
- * @method $this setProjectName($projectName)
- * @method string getProjectName()
- * @method $this setProject($project)
- * @method string getProject()
- */
-class UpdateProject extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setcallby_cms_owner($callby_cms_owner)
- * @method string getcallby_cms_owner()
- * @method $this setProjectOwner($projectOwner)
- * @method string getProjectOwner()
- * @method $this setPage($page)
- * @method int getPage()
- * @method $this setPageSize($pageSize)
- * @method int getPageSize()
- */
-class ListProject extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setProjectName($projectName)
- * @method string getProjectName()
- * @method $this setMetricStreamName($metricStreamName)
- * @method string getMetricStreamName()
- * @method $this setMetricStream($metricStream)
- * @method string getMetricStream()
- */
-class UpdateMetricStream extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setcallby_cms_owner($callby_cms_owner)
- * @method string getcallby_cms_owner()
- * @method $this setProjectName($projectName)
- * @method string getProjectName()
- * @method $this setMetricName($metricName)
- * @method string getMetricName()
- */
-class GetMetricsMeta extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setcallby_cms_owner($callby_cms_owner)
- * @method string getcallby_cms_owner()
- * @method $this setProjectName($projectName)
- * @method string getProjectName()
- * @method $this setMetricName($metricName)
- * @method string getMetricName()
- * @method $this setPage($page)
- * @method int getPage()
- * @method $this setPageSize($pageSize)
- * @method int getPageSize()
- */
-class ListSqlMetrics extends Request
-{
-
-}/**
  * @method $this setProjectName($projectName)
  * @method string getProjectName()
  * @method $this setMetricStreamName($metricStreamName)
@@ -1567,67 +962,10 @@ class deleteProductGroup extends Request
  * @method int getResourceOwnerId()
  * @method $this setcallby_cms_owner($callby_cms_owner)
  * @method string getcallby_cms_owner()
- * @method $this setProjectName($projectName)
- * @method string getProjectName()
- * @method $this setMetricName($metricName)
- * @method string getMetricName()
- */
-class DeleteMetrics extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setcallby_cms_owner($callby_cms_owner)
- * @method string getcallby_cms_owner()
  * @method $this setMetricName($metricName)
  * @method string getMetricName()
  */
 class GetLogMonitorByMetricName extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setcallby_cms_owner($callby_cms_owner)
- * @method string getcallby_cms_owner()
- * @method $this setProject($project)
- * @method string getProject()
- * @method $this setMetric($metric)
- * @method string getMetric()
- * @method $this setPeriod($period)
- * @method string getPeriod()
- * @method $this setStartTime($startTime)
- * @method string getStartTime()
- * @method $this setEndTime($endTime)
- * @method string getEndTime()
- * @method $this setDimensions($dimensions)
- * @method string getDimensions()
- * @method $this setTargetPeriod($targetPeriod)
- * @method string getTargetPeriod()
- * @method $this setColumns($columns)
- * @method string getColumns()
- * @method $this setExtend($extend)
- * @method string getExtend()
- */
-class QueryIncremental extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setcallby_cms_owner($callby_cms_owner)
- * @method string getcallby_cms_owner()
- * @method $this setProjectName($projectName)
- * @method string getProjectName()
- * @method $this setMetricStreamName($metricStreamName)
- * @method string getMetricStreamName()
- * @method $this setPage($page)
- * @method int getPage()
- * @method $this setPageSize($pageSize)
- * @method int getPageSize()
- */
-class ListMetricStream extends Request
 {
 
 }/**
@@ -1654,53 +992,10 @@ class ListGroupsInner extends Request
 {
 
 }/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setcallby_cms_owner($callby_cms_owner)
- * @method string getcallby_cms_owner()
- * @method $this setProjectName($projectName)
- * @method string getProjectName()
- */
-class StopProject extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setcallby_cms_owner($callby_cms_owner)
- * @method string getcallby_cms_owner()
- * @method $this setNamespace($namespace)
- * @method string getNamespace()
- * @method $this setMetricNames($metricNames)
- * @method string getMetricNames()
- * @method $this setDimensions($dimensions)
- * @method string getDimensions()
- * @method $this setInterval($interval)
- * @method string getInterval()
- * @method $this setFilter($filter)
- * @method string getFilter()
- */
-class QueryMetricsFresh extends Request
-{
-
-}/**
  * @method $this setUserId($userId)
  * @method int getUserId()
  */
 class NodeListUpdate extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setcallby_cms_owner($callby_cms_owner)
- * @method string getcallby_cms_owner()
- * @method $this setProjectName($projectName)
- * @method string getProjectName()
- * @method $this setMetricStream($metricStream)
- * @method string getMetricStream()
- */
-class CreateMetricStream extends Request
 {
 
 }/**
@@ -1746,15 +1041,6 @@ class StopMetricStream extends Request
  * @method int getResourceOwnerId()
  * @method $this setcallby_cms_owner($callby_cms_owner)
  * @method string getcallby_cms_owner()
- */
-class QueryCustomTable extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setcallby_cms_owner($callby_cms_owner)
- * @method string getcallby_cms_owner()
  * @method $this setProject($project)
  * @method string getProject()
  * @method $this setMetric($metric)
@@ -1777,19 +1063,6 @@ class QueryCustomTable extends Request
  * @method string getFilter()
  */
 class QueryListMetric extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setcallby_cms_owner($callby_cms_owner)
- * @method string getcallby_cms_owner()
- * @method $this setProjectName($projectName)
- * @method string getProjectName()
- * @method $this setMetricStreamName($metricStreamName)
- * @method string getMetricStreamName()
- */
-class DeleteMetricStream extends Request
 {
 
 }/**
@@ -1824,34 +1097,6 @@ class JVMConfigDisable extends Request
  * @method string getLength()
  */
 class QueryMetricData extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setcallby_cms_owner($callby_cms_owner)
- * @method string getcallby_cms_owner()
- * @method $this setDimTableName($dimTableName)
- * @method string getDimTableName()
- * @method $this setBody($body)
- * @method string getBody()
- */
-class BatchPutDimTableData extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setcallby_cms_owner($callby_cms_owner)
- * @method string getcallby_cms_owner()
- * @method $this setProjectName($projectName)
- * @method string getProjectName()
- * @method $this setSqls($sqls)
- * @method string getSqls()
- * @method $this setIsPublic($isPublic)
- * @method int getIsPublic()
- */
-class BatchCreateSqlMetrics extends Request
 {
 
 }/**
@@ -1942,38 +1187,10 @@ class cmsShareGenerateToken extends Request
  * @method int getResourceOwnerId()
  * @method $this setcallby_cms_owner($callby_cms_owner)
  * @method string getcallby_cms_owner()
- * @method $this setDimTableName($dimTableName)
- * @method string getDimTableName()
- */
-class GetDimTable extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setcallby_cms_owner($callby_cms_owner)
- * @method string getcallby_cms_owner()
  * @method $this setGroupId($groupId)
  * @method int getGroupId()
  */
 class ListLogMonitorByGroupId extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setcallby_cms_owner($callby_cms_owner)
- * @method string getcallby_cms_owner()
- * @method $this setProjectName($projectName)
- * @method string getProjectName()
- * @method $this setMetricOutputName($metricOutputName)
- * @method string getMetricOutputName()
- * @method $this setPage($page)
- * @method int getPage()
- * @method $this setPageSize($pageSize)
- * @method int getPageSize()
- */
-class ListOutput extends Request
 {
 
 }/**
@@ -2008,34 +1225,6 @@ class JVMConfigGetById extends Request
  * @method string getFilter()
  */
 class QueryEventLast extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setcallby_cms_owner($callby_cms_owner)
- * @method string getcallby_cms_owner()
- * @method $this setProjectName($projectName)
- * @method string getProjectName()
- * @method $this setMetricOutputName($metricOutputName)
- * @method string getMetricOutputName()
- * @method $this setMetricOutput($metricOutput)
- * @method string getMetricOutput()
- */
-class UpdateOutput extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setcallby_cms_owner($callby_cms_owner)
- * @method string getcallby_cms_owner()
- * @method $this setProjectName($projectName)
- * @method string getProjectName()
- * @method $this setMetricStreamName($metricStreamName)
- * @method string getMetricStreamName()
- */
-class GetMetricStream extends Request
 {
 
 }/**
@@ -2084,31 +1273,6 @@ class DeleteMetricOfLogMonitor extends Request
  * @method bool getEnabled()
  */
 class TaskConfigEnable extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setcallby_cms_owner($callby_cms_owner)
- * @method string getcallby_cms_owner()
- * @method $this setProject($project)
- * @method string getProject()
- * @method $this setMetric($metric)
- * @method string getMetric()
- * @method $this setPeriod($period)
- * @method string getPeriod()
- * @method $this setStartTime($startTime)
- * @method string getStartTime()
- * @method $this setEndTime($endTime)
- * @method string getEndTime()
- * @method $this setDimensions($dimensions)
- * @method string getDimensions()
- * @method $this setExtend($extend)
- * @method string getExtend()
- * @method $this setFilter($filter)
- * @method string getFilter()
- */
-class BatchQueryMetric extends Request
 {
 
 }

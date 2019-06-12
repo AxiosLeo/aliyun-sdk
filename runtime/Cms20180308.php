@@ -9,14 +9,11 @@ use aliyun\sdk\core\lib\Request;
  *
  * @package aliyun\sdk\services\Cms20180308
  * @method PutMetricAlarm PutMetricAlarm()
- * @method ListEventRuleNamesByTarget ListEventRuleNamesByTarget()
  * @method ListEventRules ListEventRules()
  * @method DeleteGroupDynamicRule DeleteGroupDynamicRule()
  * @method ProfileSet ProfileSet()
  * @method DeleteEventTargets DeleteEventTargets()
  * @method AccessKeyGet AccessKeyGet()
- * @method ListS2SEventTargets ListS2SEventTargets()
- * @method DeleteS2SEventRule DeleteS2SEventRule()
  * @method ListMonitoringTemplates ListMonitoringTemplates()
  * @method QueryMonitorData QueryMonitorData()
  * @method DescribeTaskDetail DescribeTaskDetail()
@@ -32,13 +29,12 @@ use aliyun\sdk\core\lib\Request;
  * @method NodeList NodeList()
  * @method QueryStaticsResponseTime QueryStaticsResponseTime()
  * @method ListAlarm ListAlarm()
- * @method ListMetricMeta ListMetricMeta()
  * @method DeleteEventRule DeleteEventRule()
- * @method DisableS2SEventRule DisableS2SEventRule()
  * @method DescribeAlertHistoryList DescribeAlertHistoryList()
  * @method PutMetricRuleTargets PutMetricRuleTargets()
  * @method NodeProcesses NodeProcesses()
  * @method DescribeContact DescribeContact()
+ * @method QueryTaskConfig QueryTaskConfig()
  * @method ListMyGroupInstancesDetails ListMyGroupInstancesDetails()
  * @method PutEvent PutEvent()
  * @method QuerySystemEventDetail QuerySystemEventDetail()
@@ -54,23 +50,16 @@ use aliyun\sdk\core\lib\Request;
  * @method NodeStatus NodeStatus()
  * @method DescribeISPAreaCity DescribeISPAreaCity()
  * @method ListGroupDynamicRule ListGroupDynamicRule()
- * @method UntagResourcesSystemTags UntagResourcesSystemTags()
  * @method NodeUninstall NodeUninstall()
- * @method QueryMetricDimensions QueryMetricDimensions()
  * @method DeleteMonitoringTemplate DeleteMonitoringTemplate()
  * @method DeleteTasks DeleteTasks()
  * @method DeleteCustomMetric DeleteCustomMetric()
  * @method ApplyTemplate ApplyTemplate()
- * @method PutMetricData PutMetricData()
- * @method EnableActiceAlert EnableActiceAlert()
  * @method SendDryRunSystemEvent SendDryRunSystemEvent()
  * @method GetMonitoringTemplate GetMonitoringTemplate()
  * @method StopTasks StopTasks()
- * @method ListS2SEventRule ListS2SEventRule()
  * @method GetContacts GetContacts()
- * @method PutSystemEvent PutSystemEvent()
  * @method EnableActiveAlert EnableActiveAlert()
- * @method TagResourcesSystemTags TagResourcesSystemTags()
  * @method TaskConfigCreate TaskConfigCreate()
  * @method CreateAlarm CreateAlarm()
  * @method TaskConfigModify TaskConfigModify()
@@ -93,8 +82,6 @@ use aliyun\sdk\core\lib\Request;
  * @method ListMyGroupInstances ListMyGroupInstances()
  * @method ListActiveAlertRule ListActiveAlertRule()
  * @method ListMyGroups ListMyGroups()
- * @method DeleteS2SEventTargets DeleteS2SEventTargets()
- * @method DisableActiceAlert DisableActiceAlert()
  * @method QuerySystemEventHistogram QuerySystemEventHistogram()
  * @method UpdateMyGroupInstances UpdateMyGroupInstances()
  * @method DisableActiveAlert DisableActiveAlert()
@@ -106,27 +93,21 @@ use aliyun\sdk\core\lib\Request;
  * @method QueryStaticsAvailability QueryStaticsAvailability()
  * @method GetMyGroupAlert GetMyGroupAlert()
  * @method DescribeAlarmHistory DescribeAlarmHistory()
- * @method PutS2SEventTargets PutS2SEventTargets()
- * @method EnableS2SEventRule EnableS2SEventRule()
  * @method ListProductOfActiveAlert ListProductOfActiveAlert()
  * @method DescribeAlarms DescribeAlarms()
- * @method InnerListTagResources InnerListTagResources()
  * @method DeleteMyGroupInstances DeleteMyGroupInstances()
  * @method UpdateMonitoringTemplate UpdateMonitoringTemplate()
  * @method QueryMetricLast QueryMetricLast()
- * @method ListProductOfActiceAlert ListProductOfActiceAlert()
  * @method DisableEventRule DisableEventRule()
  * @method QueryMetricData QueryMetricData()
  * @method RemoveMetricRuleTargets RemoveMetricRuleTargets()
  * @method GetNotifyPolicy GetNotifyPolicy()
  * @method ListAlarmHistory ListAlarmHistory()
- * @method PutS2SEventRule PutS2SEventRule()
  * @method PutEventTargets PutEventTargets()
  * @method UpdateMyGroups UpdateMyGroups()
  * @method UpdateMyGroupMembers UpdateMyGroupMembers()
  * @method QueryCustomEventHistogram QueryCustomEventHistogram()
  * @method UpdateMyGroupAlert UpdateMyGroupAlert()
- * @method DescribeConsoleViews DescribeConsoleViews()
  * @method QuerySystemEventDemo QuerySystemEventDemo()
  * @method ModifyTask ModifyTask()
  * @method TaskConfigEnable TaskConfigEnable()
@@ -196,17 +177,6 @@ class PutMetricAlarm extends Request
 {
 
 }/**
- * @method $this setTargetArn($targetArn)
- * @method string getTargetArn()
- * @method $this setPage($page)
- * @method string getPage()
- * @method $this setPageSize($pageSize)
- * @method string getPageSize()
- */
-class ListEventRuleNamesByTarget extends Request
-{
-
-}/**
  * @method $this setNamePrefix($namePrefix)
  * @method string getNamePrefix()
  * @method $this setPage($page)
@@ -255,20 +225,6 @@ class DeleteEventTargets extends Request
  * @method int getUserId()
  */
 class AccessKeyGet extends Request
-{
-
-}/**
- * @method $this setRuleName($ruleName)
- * @method string getRuleName()
- */
-class ListS2SEventTargets extends Request
-{
-
-}/**
- * @method $this setNames($names)
- * @method array getNames()
- */
-class DeleteS2SEventRule extends Request
 {
 
 }/**
@@ -489,30 +445,12 @@ class ListAlarm extends Request
 {
 
 }/**
- * @method $this setCategory($category)
- * @method string getCategory()
- * @method $this setTags($tags)
- * @method string getTags()
- * @method $this setDimension($dimension)
- * @method string getDimension()
- */
-class ListMetricMeta extends Request
-{
-
-}/**
  * @method $this setRuleName($ruleName)
  * @method string getRuleName()
  * @method $this setRuleNames($ruleNames)
  * @method array getRuleNames()
  */
 class DeleteEventRule extends Request
-{
-
-}/**
- * @method $this setNames($names)
- * @method array getNames()
- */
-class DisableS2SEventRule extends Request
 {
 
 }/**
@@ -569,6 +507,11 @@ class NodeProcesses extends Request
  * @method string getContactName()
  */
 class DescribeContact extends Request
+{
+
+}/**
+ */
+class QueryTaskConfig extends Request
 {
 
 }/**
@@ -735,48 +678,10 @@ class ListGroupDynamicRule extends Request
 {
 
 }/**
- * @method $this setResourceType($resourceType)
- * @method string getResourceType()
- * @method $this setResourceId($resourceId)
- * @method array getResourceId()
- * @method $this setTagKey($tagKey)
- * @method array getTagKey()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setTagOwnerUid($tagOwnerUid)
- * @method string getTagOwnerUid()
- * @method $this setTagOwnerBid($tagOwnerBid)
- * @method string getTagOwnerBid()
- * @method $this setAll($all)
- * @method bool getAll()
- */
-class UntagResourcesSystemTags extends Request
-{
-
-}/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
  */
 class NodeUninstall extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setProject($project)
- * @method string getProject()
- * @method $this setMetric($metric)
- * @method string getMetric()
- * @method $this setPeriod($period)
- * @method string getPeriod()
- * @method $this setStartTime($startTime)
- * @method string getStartTime()
- * @method $this setEndTime($endTime)
- * @method string getEndTime()
- * @method $this setDimensions($dimensions)
- * @method string getDimensions()
- */
-class QueryMetricDimensions extends Request
 {
 
 }/**
@@ -828,22 +733,6 @@ class ApplyTemplate extends Request
 {
 
 }/**
- * @method $this setBody($body)
- * @method string getBody()
- */
-class PutMetricData extends Request
-{
-
-}/**
- * @method $this setProduct($product)
- * @method string getProduct()
- * @method $this setUserId($userId)
- * @method string getUserId()
- */
-class EnableActiceAlert extends Request
-{
-
-}/**
  * @method $this setProduct($product)
  * @method string getProduct()
  * @method $this setEventName($eventName)
@@ -873,28 +762,10 @@ class StopTasks extends Request
 {
 
 }/**
- * @method $this setName($name)
- * @method string getName()
- * @method $this setPage($page)
- * @method string getPage()
- * @method $this setPageSize($pageSize)
- * @method string getPageSize()
- */
-class ListS2SEventRule extends Request
-{
-
-}/**
  * @method $this setGroupName($groupName)
  * @method string getGroupName()
  */
 class GetContacts extends Request
-{
-
-}/**
- * @method $this setEventInfo($eventInfo)
- * @method string getEventInfo()
- */
-class PutSystemEvent extends Request
 {
 
 }/**
@@ -904,25 +775,6 @@ class PutSystemEvent extends Request
  * @method string getUserId()
  */
 class EnableActiveAlert extends Request
-{
-
-}/**
- * @method $this setResourceType($resourceType)
- * @method string getResourceType()
- * @method $this setResourceId($resourceId)
- * @method array getResourceId()
- * @method $this setTag($tag)
- * @method array getTag()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setTagOwnerUid($tagOwnerUid)
- * @method string getTagOwnerUid()
- * @method $this setTagOwnerBid($tagOwnerBid)
- * @method string getTagOwnerBid()
- * @method $this setScope($scope)
- * @method string getScope()
- */
-class TagResourcesSystemTags extends Request
 {
 
 }/**
@@ -1272,24 +1124,6 @@ class ListMyGroups extends Request
 {
 
 }/**
- * @method $this setRuleName($ruleName)
- * @method string getRuleName()
- * @method $this setIds($ids)
- * @method array getIds()
- */
-class DeleteS2SEventTargets extends Request
-{
-
-}/**
- * @method $this setProduct($product)
- * @method string getProduct()
- * @method $this setUserId($userId)
- * @method string getUserId()
- */
-class DisableActiceAlert extends Request
-{
-
-}/**
  * @method $this setQueryJson($queryJson)
  * @method string getQueryJson()
  */
@@ -1405,26 +1239,6 @@ class DescribeAlarmHistory extends Request
 {
 
 }/**
- * @method $this setRuleName($ruleName)
- * @method string getRuleName()
- * @method $this setFunctionComputers($functionComputers)
- * @method array getFunctionComputers()
- * @method $this setMns($mns)
- * @method array getMns()
- * @method $this setActions($actions)
- * @method string getActions()
- */
-class PutS2SEventTargets extends Request
-{
-
-}/**
- * @method $this setNames($names)
- * @method array getNames()
- */
-class EnableS2SEventRule extends Request
-{
-
-}/**
  * @method $this setUserId($userId)
  * @method string getUserId()
  */
@@ -1456,27 +1270,6 @@ class ListProductOfActiveAlert extends Request
  * @method string getNameKeyword()
  */
 class DescribeAlarms extends Request
-{
-
-}/**
- * @method $this setResourceType($resourceType)
- * @method string getResourceType()
- * @method $this setResourceId($resourceId)
- * @method array getResourceId()
- * @method $this setTag($tag)
- * @method array getTag()
- * @method $this setNextToken($nextToken)
- * @method string getNextToken()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setTagOwnerUid($tagOwnerUid)
- * @method string getTagOwnerUid()
- * @method $this setTagOwnerBid($tagOwnerBid)
- * @method string getTagOwnerBid()
- * @method $this setScope($scope)
- * @method string getScope()
- */
-class InnerListTagResources extends Request
 {
 
 }/**
@@ -1534,13 +1327,6 @@ class UpdateMonitoringTemplate extends Request
  * @method string getExpress()
  */
 class QueryMetricLast extends Request
-{
-
-}/**
- * @method $this setUserId($userId)
- * @method string getUserId()
- */
-class ListProductOfActiceAlert extends Request
 {
 
 }/**
@@ -1619,21 +1405,6 @@ class ListAlarmHistory extends Request
 {
 
 }/**
- * @method $this setName($name)
- * @method string getName()
- * @method $this setDescription($description)
- * @method string getDescription()
- * @method $this setState($state)
- * @method string getState()
- * @method $this setEventPattern($eventPattern)
- * @method array getEventPattern()
- * @method $this setJSONFilter($jSONFilter)
- * @method string getJSONFilter()
- */
-class PutS2SEventRule extends Request
-{
-
-}/**
  * @method $this setRuleName($ruleName)
  * @method string getRuleName()
  * @method $this setFcParameters($fcParameters)
@@ -1690,15 +1461,6 @@ class QueryCustomEventHistogram extends Request
  * @method string getGroupAlertJson()
  */
 class UpdateMyGroupAlert extends Request
-{
-
-}/**
- * @method $this setProductCode($productCode)
- * @method string getProductCode()
- * @method $this setProductCategory($productCategory)
- * @method string getProductCategory()
- */
-class DescribeConsoleViews extends Request
 {
 
 }/**

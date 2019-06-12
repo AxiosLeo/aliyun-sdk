@@ -9,64 +9,44 @@ use aliyun\sdk\core\lib\Request;
  *
  * @package aliyun\sdk\services\Rtc20180111
  * @method MuteAudioAll MuteAudioAll()
- * @method UpdateRTCChannel UpdateRTCChannel()
  * @method GetTaskStatus GetTaskStatus()
  * @method RemoveTerminals RemoveTerminals()
  * @method ModifyConference ModifyConference()
  * @method ReceiveNotify ReceiveNotify()
- * @method DescribeRtcUserResourcePackage DescribeRtcUserResourcePackage()
  * @method DescribeApps DescribeApps()
  * @method StopTask StopTask()
  * @method StopMPUTask StopMPUTask()
- * @method RTCProxyMessage RTCProxyMessage()
- * @method CreateApp CreateApp()
- * @method StopApp StopApp()
  * @method CreateChannelToken CreateChannelToken()
  * @method DescribeRtcPeakUserCntData DescribeRtcPeakUserCntData()
  * @method DescribeRtcDurationData DescribeRtcDurationData()
- * @method DisableApp DisableApp()
- * @method DeleteApp DeleteApp()
  * @method ModifyApp ModifyApp()
- * @method DescribeRtcRealTimeRecordList DescribeRtcRealTimeRecordList()
  * @method DescribeRtcUserCntData DescribeRtcUserCntData()
  * @method UpdateTaskParam UpdateTaskParam()
  * @method MuteAudio MuteAudio()
- * @method EnableApp EnableApp()
  * @method UnmuteAudio UnmuteAudio()
- * @method StopRTCApp StopRTCApp()
  * @method StartMPUTask StartMPUTask()
- * @method DescribeRtcRecordList DescribeRtcRecordList()
  * @method DescribeRtcPeakChannelCntData DescribeRtcPeakChannelCntData()
  * @method DescribeRecordList DescribeRecordList()
- * @method DeleteRTCChannel DeleteRTCChannel()
- * @method StartApp StartApp()
  * @method CreateChannel CreateChannel()
  * @method DeleteChannel DeleteChannel()
  * @method UpdateChannel UpdateChannel()
  * @method RemoveParticipants RemoveParticipants()
  * @method DeleteTemplate DeleteTemplate()
- * @method DescribeRtcDiamondValue DescribeRtcDiamondValue()
  * @method CreateConference CreateConference()
  * @method UnmuteAudioAll UnmuteAudioAll()
  * @method CreateTemplate CreateTemplate()
  * @method GetTaskParam GetTaskParam()
- * @method DescribeRtcRecordDetail DescribeRtcRecordDetail()
  * @method GetTemplateInfo GetTemplateInfo()
  * @method DescribeRtcChannelCntData DescribeRtcChannelCntData()
  * @method DeleteConference DeleteConference()
- * @method CreateRTCApp CreateRTCApp()
  * @method DescribeRecordDetail DescribeRecordDetail()
  * @method GetAllTemplate GetAllTemplate()
  * @method DescribeRealTimeRecordList DescribeRealTimeRecordList()
  * @method StartTask StartTask()
- * @method Kick Kick()
  * @method GetMPUTaskStatus GetMPUTaskStatus()
  * @method DescribeConferenceAuthInfo DescribeConferenceAuthInfo()
- * @method CreateRTCChannel CreateRTCChannel()
- * @method DescribeRtcStatis DescribeRtcStatis()
  * @method DescribeStatis DescribeStatis()
  * @method DescribeRealTimeRecordDetail DescribeRealTimeRecordDetail()
- * @method DescribeRtcRealTimeRecordDetail DescribeRtcRealTimeRecordDetail()
  */
 class V20180111
 {
@@ -83,17 +63,6 @@ class V20180111
  * @method string getParticipantId()
  */
 class MuteAudioAll extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setAppId($appId)
- * @method string getAppId()
- * @method $this setChannelId($channelId)
- * @method string getChannelId()
- */
-class UpdateRTCChannel extends Request
 {
 
 }/**
@@ -161,13 +130,6 @@ class ReceiveNotify extends Request
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
- */
-class DescribeRtcUserResourcePackage extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
  * @method $this setAppId($appId)
  * @method string getAppId()
  * @method $this setStatus($status)
@@ -204,51 +166,6 @@ class StopTask extends Request
  * @method string getTaskId()
  */
 class StopMPUTask extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setAppId($appId)
- * @method string getAppId()
- * @method $this setChannelId($channelId)
- * @method string getChannelId()
- * @method $this setBroadcast($broadcast)
- * @method bool getBroadcast()
- * @method $this setAllowGroups($allowGroups)
- * @method array getAllowGroups()
- * @method $this setDenyGroups($denyGroups)
- * @method array getDenyGroups()
- * @method $this setContentType($contentType)
- * @method string getContentType()
- * @method $this setContent($content)
- * @method string getContent()
- */
-class RTCProxyMessage extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setAppName($appName)
- * @method string getAppName()
- * @method $this setAppType($appType)
- * @method string getAppType()
- * @method $this setClientToken($clientToken)
- * @method string getClientToken()
- * @method $this setServiceAreas($serviceAreas)
- * @method array getServiceAreas()
- */
-class CreateApp extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setAppId($appId)
- * @method string getAppId()
- */
-class StopApp extends Request
 {
 
 }/**
@@ -307,41 +224,10 @@ class DescribeRtcDurationData extends Request
  * @method int getOwnerId()
  * @method $this setAppId($appId)
  * @method string getAppId()
- */
-class DisableApp extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setAppId($appId)
- * @method string getAppId()
- */
-class DeleteApp extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setAppId($appId)
- * @method string getAppId()
  * @method $this setAppName($appName)
  * @method string getAppName()
  */
 class ModifyApp extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setStartTime($startTime)
- * @method string getStartTime()
- * @method $this setEndTime($endTime)
- * @method string getEndTime()
- */
-class DescribeRtcRealTimeRecordList extends Request
 {
 
 }/**
@@ -396,30 +282,12 @@ class MuteAudio extends Request
  * @method int getOwnerId()
  * @method $this setAppId($appId)
  * @method string getAppId()
- */
-class EnableApp extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setAppId($appId)
- * @method string getAppId()
  * @method $this setConferenceId($conferenceId)
  * @method string getConferenceId()
  * @method $this setParticipantIds($participantIds)
  * @method array getParticipantIds()
  */
 class UnmuteAudio extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setAppId($appId)
- * @method string getAppId()
- */
-class StopRTCApp extends Request
 {
 
 }/**
@@ -443,31 +311,6 @@ class StopRTCApp extends Request
  * @method string getStreamURL()
  */
 class StartMPUTask extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setAppId($appId)
- * @method string getAppId()
- * @method $this setStartTime($startTime)
- * @method string getStartTime()
- * @method $this setEndTime($endTime)
- * @method string getEndTime()
- * @method $this setIdType($idType)
- * @method string getIdType()
- * @method $this setId($id)
- * @method string getId()
- * @method $this setSortType($sortType)
- * @method string getSortType()
- * @method $this setServiceArea($serviceArea)
- * @method string getServiceArea()
- * @method $this setPageNo($pageNo)
- * @method int getPageNo()
- * @method $this setPageSize($pageSize)
- * @method int getPageSize()
- */
-class DescribeRtcRecordList extends Request
 {
 
 }/**
@@ -510,26 +353,6 @@ class DescribeRtcPeakChannelCntData extends Request
  * @method int getPageSize()
  */
 class DescribeRecordList extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setAppId($appId)
- * @method string getAppId()
- * @method $this setChannelId($channelId)
- * @method string getChannelId()
- */
-class DeleteRTCChannel extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setAppId($appId)
- * @method string getAppId()
- */
-class StartApp extends Request
 {
 
 }/**
@@ -589,21 +412,6 @@ class RemoveParticipants extends Request
  * @method int getTemplateId()
  */
 class DeleteTemplate extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setDiamondDataId($diamondDataId)
- * @method string getDiamondDataId()
- * @method $this setQueryValueType($queryValueType)
- * @method string getQueryValueType()
- * @method $this setQueryValue($queryValue)
- * @method string getQueryValue()
- */
-class DescribeRtcDiamondValue extends Request
 {
 
 }/**
@@ -679,23 +487,6 @@ class GetTaskParam extends Request
  * @method int getOwnerId()
  * @method $this setAppId($appId)
  * @method string getAppId()
- * @method $this setStartTime($startTime)
- * @method string getStartTime()
- * @method $this setEndTime($endTime)
- * @method string getEndTime()
- * @method $this setChannelId($channelId)
- * @method string getChannelId()
- * @method $this setRecordId($recordId)
- * @method string getRecordId()
- */
-class DescribeRtcRecordDetail extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setAppId($appId)
- * @method string getAppId()
  * @method $this setTemplateId($templateId)
  * @method int getTemplateId()
  */
@@ -728,23 +519,6 @@ class DescribeRtcChannelCntData extends Request
  * @method string getConferenceId()
  */
 class DeleteConference extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setAppId($appId)
- * @method string getAppId()
- * @method $this setDescription($description)
- * @method string getDescription()
- * @method $this setAppType($appType)
- * @method string getAppType()
- * @method $this setServiceAreas($serviceAreas)
- * @method array getServiceAreas()
- * @method $this setBillType($billType)
- * @method string getBillType()
- */
-class CreateRTCApp extends Request
 {
 
 }/**
@@ -806,19 +580,6 @@ class StartTask extends Request
  * @method int getOwnerId()
  * @method $this setAppId($appId)
  * @method string getAppId()
- * @method $this setConferenceId($conferenceId)
- * @method string getConferenceId()
- * @method $this setParticipantIds($participantIds)
- * @method array getParticipantIds()
- */
-class Kick extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setAppId($appId)
- * @method string getAppId()
  * @method $this setTaskId($taskId)
  * @method string getTaskId()
  */
@@ -834,38 +595,6 @@ class GetMPUTaskStatus extends Request
  * @method string getConferenceId()
  */
 class DescribeConferenceAuthInfo extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setAppId($appId)
- * @method string getAppId()
- * @method $this setChannelId($channelId)
- * @method string getChannelId()
- */
-class CreateRTCChannel extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setAppId($appId)
- * @method string getAppId()
- * @method $this setStartTime($startTime)
- * @method string getStartTime()
- * @method $this setEndTime($endTime)
- * @method string getEndTime()
- * @method $this setSortType($sortType)
- * @method string getSortType()
- * @method $this setServiceArea($serviceArea)
- * @method string getServiceArea()
- * @method $this setInterval($interval)
- * @method string getInterval()
- * @method $this setDataType($dataType)
- * @method string getDataType()
- */
-class DescribeRtcStatis extends Request
 {
 
 }/**
@@ -900,19 +629,6 @@ class DescribeStatis extends Request
  * @method string getRecordId()
  */
 class DescribeRealTimeRecordDetail extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setAppId($appId)
- * @method string getAppId()
- * @method $this setChannelId($channelId)
- * @method string getChannelId()
- * @method $this setRecordId($recordId)
- * @method string getRecordId()
- */
-class DescribeRtcRealTimeRecordDetail extends Request
 {
 
 }

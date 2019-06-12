@@ -11,14 +11,9 @@ use aliyun\sdk\core\lib\Request;
  * @method DescribeACLAttribute DescribeACLAttribute()
  * @method DeleteSAGLinkLevelHa DeleteSAGLinkLevelHa()
  * @method DowngradeSmartAccessGateway DowngradeSmartAccessGateway()
- * @method UntagResources UntagResources()
  * @method AddACLRule AddACLRule()
- * @method SmartAccessGatewayFillRestrictions SmartAccessGatewayFillRestrictions()
  * @method UnbindSmartAccessGateway UnbindSmartAccessGateway()
- * @method SmartAccessGatewayFillParams SmartAccessGatewayFillParams()
- * @method SmartAccessGatewayPrepayNotifyPaid SmartAccessGatewayPrepayNotifyPaid()
  * @method GetSmartAccessGatewayUseLimit GetSmartAccessGatewayUseLimit()
- * @method SmartAccessGatewayValidateOrder SmartAccessGatewayValidateOrder()
  * @method BindSmartAccessGateway BindSmartAccessGateway()
  * @method ActivateSmartAccessGateway ActivateSmartAccessGateway()
  * @method DescribeGrantRules DescribeGrantRules()
@@ -37,9 +32,7 @@ use aliyun\sdk\core\lib\Request;
  * @method CreateDedicatedLineBackup CreateDedicatedLineBackup()
  * @method UnicomSignConfirm UnicomSignConfirm()
  * @method CreateSmartAccessGateway CreateSmartAccessGateway()
- * @method TagResources TagResources()
  * @method CreateSAGLinkLevelHa CreateSAGLinkLevelHa()
- * @method InnerCreateSmartAccessGateway InnerCreateSmartAccessGateway()
  * @method DescribeSmartAccessGatewayVersions DescribeSmartAccessGatewayVersions()
  * @method SwitchCloudBoxHaState SwitchCloudBoxHaState()
  * @method CreateACL CreateACL()
@@ -56,7 +49,6 @@ use aliyun\sdk\core\lib\Request;
  * @method DeleteDedicatedLineBackup DeleteDedicatedLineBackup()
  * @method DeleteCloudConnectNetwork DeleteCloudConnectNetwork()
  * @method DescribeCloudConnectNetworks DescribeCloudConnectNetworks()
- * @method ListTagResources ListTagResources()
  * @method RevokeInstanceFromCbn RevokeInstanceFromCbn()
  * @method DisassociateACL DisassociateACL()
  * @method DescribeSmartAccessGateways DescribeSmartAccessGateways()
@@ -141,27 +133,6 @@ class DowngradeSmartAccessGateway extends Request
  * @method int getResourceOwnerId()
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
- * @method $this setResourceType($resourceType)
- * @method string getResourceType()
- * @method $this setResourceId($resourceId)
- * @method array getResourceId()
- * @method $this setTagKey($tagKey)
- * @method array getTagKey()
- */
-class UntagResources extends Request
-{
-
-}/**
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
  * @method $this setAclId($aclId)
  * @method string getAclId()
  * @method $this setDescription($description)
@@ -187,25 +158,6 @@ class AddACLRule extends Request
 {
 
 }/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setdata($data)
- * @method string getdata()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setaccess_key_id($access_key_id)
- * @method string getaccess_key_id()
- */
-class SmartAccessGatewayFillRestrictions extends Request
-{
-
-}/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
  * @method $this setOwnerId($ownerId)
@@ -225,42 +177,6 @@ class UnbindSmartAccessGateway extends Request
 {
 
 }/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setdata($data)
- * @method string getdata()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setaccess_key_id($access_key_id)
- * @method string getaccess_key_id()
- */
-class SmartAccessGatewayFillParams extends Request
-{
-
-}/**
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setdata($data)
- * @method string getdata()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- */
-class SmartAccessGatewayPrepayNotifyPaid extends Request
-{
-
-}/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
  * @method $this setOwnerId($ownerId)
@@ -273,25 +189,6 @@ class SmartAccessGatewayPrepayNotifyPaid extends Request
  * @method string getRegionId()
  */
 class GetSmartAccessGatewayUseLimit extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setdata($data)
- * @method string getdata()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setaccess_key_id($access_key_id)
- * @method string getaccess_key_id()
- */
-class SmartAccessGatewayValidateOrder extends Request
 {
 
 }/**
@@ -436,6 +333,8 @@ class SwitchSAGHaState extends Request
  * @method string getResourceOwnerAccount()
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
+ * @method $this setCity($city)
+ * @method string getCity()
  * @method $this setSmartAGId($smartAGId)
  * @method string getSmartAGId()
  * @method $this setName($name)
@@ -701,29 +600,6 @@ class CreateSmartAccessGateway extends Request
  * @method string getResourceOwnerAccount()
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setScope($scope)
- * @method string getScope()
- * @method $this setResourceType($resourceType)
- * @method string getResourceType()
- * @method $this setResourceId($resourceId)
- * @method array getResourceId()
- * @method $this setTag($tag)
- * @method array getTag()
- */
-class TagResources extends Request
-{
-
-}/**
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
  * @method $this setSmartAGId($smartAGId)
  * @method string getSmartAGId()
  * @method $this setHaType($haType)
@@ -738,27 +614,6 @@ class TagResources extends Request
  * @method string getBackupLinkRegionId()
  */
 class CreateSAGLinkLevelHa extends Request
-{
-
-}/**
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setCidrBlock($cidrBlock)
- * @method string getCidrBlock()
- * @method $this setBandWidthSpec($bandWidthSpec)
- * @method string getBandWidthSpec()
- * @method $this setCity($city)
- * @method string getCity()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- */
-class InnerCreateSmartAccessGateway extends Request
 {
 
 }/**
@@ -1077,29 +932,6 @@ class DeleteCloudConnectNetwork extends Request
  * @method array getTag()
  */
 class DescribeCloudConnectNetworks extends Request
-{
-
-}/**
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setScope($scope)
- * @method string getScope()
- * @method $this setResourceType($resourceType)
- * @method string getResourceType()
- * @method $this setResourceId($resourceId)
- * @method array getResourceId()
- * @method $this setTag($tag)
- * @method array getTag()
- */
-class ListTagResources extends Request
 {
 
 }/**

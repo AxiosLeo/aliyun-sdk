@@ -16,6 +16,8 @@ class V20180807
 }
 
 /**
+ * @method $this setFieldType($fieldType)
+ * @method string getFieldType()
  * @method $this setSourceText($sourceText)
  * @method string getSourceText()
  * @method $this setSourceLanguage($sourceLanguage)
@@ -24,11 +26,15 @@ class V20180807
  * @method string getTargetLanguage()
  * @method $this setContentFormat($contentFormat)
  * @method string getContentFormat()
+ * @method $this setAppName($appName)
+ * @method string getAppName()
  */
 class MachineTranslateGeneral extends Request
 {
 
 }/**
+ * @method $this setFieldType($fieldType)
+ * @method string getFieldType()
  * @method $this setSourceText($sourceText)
  * @method string getSourceText()
  * @method $this setSourceLanguage($sourceLanguage)
@@ -37,6 +43,8 @@ class MachineTranslateGeneral extends Request
  * @method string getTargetLanguage()
  * @method $this setContentFormat($contentFormat)
  * @method string getContentFormat()
+ * @method $this setAppName($appName)
+ * @method string getAppName()
  */
 class MachineTranslateECommerce extends Request
 {

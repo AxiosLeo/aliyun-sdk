@@ -12,7 +12,6 @@ use aliyun\sdk\core\lib\Request;
  * @method ModifyDrdsDBPasswd ModifyDrdsDBPasswd()
  * @method QueryInstanceInfoByConn QueryInstanceInfoByConn()
  * @method DropTables DropTables()
- * @method CompleteOrderInfo CompleteOrderInfo()
  * @method ModifyDrdsInstanceDescription ModifyDrdsInstanceDescription()
  * @method CreateIndex CreateIndex()
  * @method DescribeDrdsInstances DescribeDrdsInstances()
@@ -26,7 +25,6 @@ use aliyun\sdk\core\lib\Request;
  * @method DescribeDrdsDB DescribeDrdsDB()
  * @method CreateDrdsInstance CreateDrdsInstance()
  * @method DescribeShardDbConnectionInfo DescribeShardDbConnectionInfo()
- * @method ValidateOrder ValidateOrder()
  * @method CancleDDLTask CancleDDLTask()
  * @method ModifyRdsReadWeight ModifyRdsReadWeight()
  * @method DropIndexes DropIndexes()
@@ -36,15 +34,12 @@ use aliyun\sdk\core\lib\Request;
  * @method DescribeDrdsDBIpWhiteList DescribeDrdsDBIpWhiteList()
  * @method CreateDrdsDB CreateDrdsDB()
  * @method ModifyFullTableScan ModifyFullTableScan()
- * @method OrderSucceededCallback OrderSucceededCallback()
  * @method ModifyReadOnlyAccountPassword ModifyReadOnlyAccountPassword()
  * @method DescribeDrdsInstanceNetInfoForInner DescribeDrdsInstanceNetInfoForInner()
  * @method DescribeRdsList DescribeRdsList()
  * @method DescribeShardDBs DescribeShardDBs()
- * @method CompleteProductInfo CompleteProductInfo()
  * @method CreateTable CreateTable()
  * @method AlterTable AlterTable()
- * @method CompleteCommodityInfo CompleteCommodityInfo()
  * @method CancelDDLTask CancelDDLTask()
  * @method ProductInfoComplement ProductInfoComplement()
  * @method ListUnCompleteTasks ListUnCompleteTasks()
@@ -103,13 +98,6 @@ class QueryInstanceInfoByConn extends Request
  * @method string getTables()
  */
 class DropTables extends Request
-{
-
-}/**
- * @method $this setdata($data)
- * @method string getdata()
- */
-class CompleteOrderInfo extends Request
 {
 
 }/**
@@ -244,13 +232,6 @@ class DescribeShardDbConnectionInfo extends Request
 {
 
 }/**
- * @method $this setdata($data)
- * @method string getdata()
- */
-class ValidateOrder extends Request
-{
-
-}/**
  * @method $this setDrdsInstanceId($drdsInstanceId)
  * @method string getDrdsInstanceId()
  * @method $this setDbName($dbName)
@@ -350,13 +331,6 @@ class ModifyFullTableScan extends Request
 {
 
 }/**
- * @method $this setdata($data)
- * @method string getdata()
- */
-class OrderSucceededCallback extends Request
-{
-
-}/**
  * @method $this setDrdsInstanceId($drdsInstanceId)
  * @method string getDrdsInstanceId()
  * @method $this setDbName($dbName)
@@ -397,13 +371,6 @@ class DescribeShardDBs extends Request
 {
 
 }/**
- * @method $this setdata($data)
- * @method string getdata()
- */
-class CompleteProductInfo extends Request
-{
-
-}/**
  * @method $this setDrdsInstanceId($drdsInstanceId)
  * @method string getDrdsInstanceId()
  * @method $this setDbName($dbName)
@@ -429,13 +396,6 @@ class CreateTable extends Request
  * @method string getDdlSql()
  */
 class AlterTable extends Request
-{
-
-}/**
- * @method $this setdata($data)
- * @method string getdata()
- */
-class CompleteCommodityInfo extends Request
 {
 
 }/**

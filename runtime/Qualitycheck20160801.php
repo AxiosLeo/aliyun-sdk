@@ -56,6 +56,7 @@ use aliyun\sdk\core\lib\Request;
  * @method GetAudioDataStatus GetAudioDataStatus()
  * @method SubmitReviewInfo SubmitReviewInfo()
  * @method AddThesaurusForApi AddThesaurusForApi()
+ * @method GenerateCustomizationModelId GenerateCustomizationModelId()
  * @method UploadAudioData4Pre UploadAudioData4Pre()
  * @method UploadAudioData UploadAudioData()
  * @method SaveReviewResult SaveReviewResult()
@@ -454,6 +455,11 @@ class SubmitReviewInfo extends Request
  * @method string getJsonStr()
  */
 class AddThesaurusForApi extends Request
+{
+
+}/**
+ */
+class GenerateCustomizationModelId extends Request
 {
 
 }/**

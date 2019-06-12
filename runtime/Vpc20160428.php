@@ -14,45 +14,31 @@ use aliyun\sdk\core\lib\Request;
  * @method DescribeIPv6TranslatorEntries DescribeIPv6TranslatorEntries()
  * @method ModifyCustomerGatewayAttribute ModifyCustomerGatewayAttribute()
  * @method ModifyIPv6TranslatorAclAttribute ModifyIPv6TranslatorAclAttribute()
- * @method InnerVpcDescribeCrossBorderRouterInterface InnerVpcDescribeCrossBorderRouterInterface()
  * @method DescribeSslVpnClientCert DescribeSslVpnClientCert()
  * @method CreateCustomerGateway CreateCustomerGateway()
- * @method DescribeNetworkAclAttributes DescribeNetworkAclAttributes()
- * @method DescribeForwardTables DescribeForwardTables()
- * @method NotifyProducePreCommonBandwidthPackage NotifyProducePreCommonBandwidthPackage()
  * @method UnassociateGlobalAccelerationInstance UnassociateGlobalAccelerationInstance()
  * @method DescribeVpnRouteEntries DescribeVpnRouteEntries()
  * @method ModifyVpcAttribute ModifyVpcAttribute()
  * @method DisableVpcClassicLink DisableVpcClassicLink()
  * @method RemoveGlobalAccelerationInstanceIp RemoveGlobalAccelerationInstanceIp()
- * @method DescribeBandwidthPackagePublicIpMonitorData DescribeBandwidthPackagePublicIpMonitorData()
  * @method ModifyFlowLogAttribute ModifyFlowLogAttribute()
- * @method UnTagResources UnTagResources()
  * @method ModifyRouterInterfaceSpec ModifyRouterInterfaceSpec()
  * @method DescribePhysicalConnections DescribePhysicalConnections()
  * @method ModifyGlobalAccelerationInstanceSpec ModifyGlobalAccelerationInstanceSpec()
- * @method ForceAllocateEipAddress ForceAllocateEipAddress()
  * @method ModifyGlobalAccelerationInstanceAttributes ModifyGlobalAccelerationInstanceAttributes()
  * @method ModifyVpnGatewayAttribute ModifyVpnGatewayAttribute()
  * @method ModifyCommonBandwidthPackageIpBandwidth ModifyCommonBandwidthPackageIpBandwidth()
- * @method DescribeVpcsByRegionNo DescribeVpcsByRegionNo()
- * @method DescribePublicIpAddress DescribePublicIpAddress()
  * @method DeleteVpnRouteEntry DeleteVpnRouteEntry()
  * @method ModifyForwardEntry ModifyForwardEntry()
  * @method CreateIpv6EgressOnlyRule CreateIpv6EgressOnlyRule()
- * @method SetHaVipMasterInstance SetHaVipMasterInstance()
- * @method EipNotifyPaid EipNotifyPaid()
- * @method DescribeSslVpnClientConfig DescribeSslVpnClientConfig()
  * @method AddBandwidthPackageIps AddBandwidthPackageIps()
  * @method DeleteVpnConnection DeleteVpnConnection()
  * @method UnassociatePhysicalConnectionFromVirtualBorderRouter UnassociatePhysicalConnectionFromVirtualBorderRouter()
  * @method ActiveFlowLog ActiveFlowLog()
- * @method EipPrepayNotifyPaid EipPrepayNotifyPaid()
  * @method DeleteExpressConnect DeleteExpressConnect()
  * @method CreateIPv6Translator CreateIPv6Translator()
  * @method ModifySslVpnServer ModifySslVpnServer()
  * @method DescribeIpv6Addresses DescribeIpv6Addresses()
- * @method EipFillParams EipFillParams()
  * @method DeletePhysicalConnection DeletePhysicalConnection()
  * @method DeleteCommonBandwidthPackage DeleteCommonBandwidthPackage()
  * @method DescribeEipMonitorData DescribeEipMonitorData()
@@ -65,49 +51,34 @@ use aliyun\sdk\core\lib\Request;
  * @method DeleteFlowLog DeleteFlowLog()
  * @method ApplyPhysicalConnectionLOA ApplyPhysicalConnectionLOA()
  * @method AssociateEipAddress AssociateEipAddress()
- * @method CheckNatGatewayOrderParam CheckNatGatewayOrderParam()
  * @method ModifyBandwidthPackageSpec ModifyBandwidthPackageSpec()
  * @method DescribeCustomerGateways DescribeCustomerGateways()
  * @method DeactiveFlowLog DeactiveFlowLog()
- * @method DescribeVpnConnectionLogs DescribeVpnConnectionLogs()
  * @method ModifyBgpGroupAttribute ModifyBgpGroupAttribute()
  * @method DescribeEipAddresses DescribeEipAddresses()
  * @method ModifyIPv6TranslatorAclListEntry ModifyIPv6TranslatorAclListEntry()
- * @method DescribeBandwidthPackageMonitorData DescribeBandwidthPackageMonitorData()
  * @method ModifyVSwitchAttribute ModifyVSwitchAttribute()
- * @method DescribeNetworkQuotas DescribeNetworkQuotas()
  * @method DeleteBandwidthPackage DeleteBandwidthPackage()
  * @method DescribeBandwidthPackages DescribeBandwidthPackages()
  * @method ModifyRouteEntry ModifyRouteEntry()
  * @method DeleteIpv6InternetBandwidth DeleteIpv6InternetBandwidth()
  * @method CreatePhysicalConnectionNew CreatePhysicalConnectionNew()
  * @method ModifyCommonBandwidthPackageAttribute ModifyCommonBandwidthPackageAttribute()
- * @method SetHighDefinitionMonitorLogStatus SetHighDefinitionMonitorLogStatus()
- * @method StaticEipFillParams StaticEipFillParams()
- * @method InnerVpcDescribeCrossBorderUsers InnerVpcDescribeCrossBorderUsers()
  * @method DescribePhysicalConnectionLOA DescribePhysicalConnectionLOA()
  * @method AddBgpNetwork AddBgpNetwork()
- * @method IPv6TranslatorPrepayNotifyPaid IPv6TranslatorPrepayNotifyPaid()
- * @method DescribeNetworkAcls DescribeNetworkAcls()
  * @method DescribeNqas DescribeNqas()
- * @method StaticEipNotifyPaid StaticEipNotifyPaid()
- * @method IPv6TranslatorValidateOrder IPv6TranslatorValidateOrder()
  * @method DeactivateRouterInterface DeactivateRouterInterface()
  * @method RemoveCommonBandwidthPackageIp RemoveCommonBandwidthPackageIp()
  * @method CreateCommonBandwidthPackage CreateCommonBandwidthPackage()
  * @method CancelCommonBandwidthPackageIpBandwidth CancelCommonBandwidthPackageIpBandwidth()
- * @method DescribeHighDefinitionMonitorLogAttribute DescribeHighDefinitionMonitorLogAttribute()
  * @method AddCommonBandwidthPackageIp AddCommonBandwidthPackageIp()
  * @method CreateBandwidthPackage CreateBandwidthPackage()
  * @method DescribeCustomerGateway DescribeCustomerGateway()
  * @method CreateSnatEntry CreateSnatEntry()
  * @method CreateBgpGroup CreateBgpGroup()
- * @method EipOrderCheck EipOrderCheck()
  * @method DescribeSslVpnServers DescribeSslVpnServers()
  * @method DescribeIpv6EgressOnlyRules DescribeIpv6EgressOnlyRules()
- * @method IPv6TranslatorFillRestrictions IPv6TranslatorFillRestrictions()
  * @method DescribeBgpNetworks DescribeBgpNetworks()
- * @method DescribeSslVpnServerCaCert DescribeSslVpnServerCaCert()
  * @method DescribeForwardTableEntries DescribeForwardTableEntries()
  * @method DeleteBgpNetwork DeleteBgpNetwork()
  * @method UnassociateEipAddress UnassociateEipAddress()
@@ -117,16 +88,12 @@ use aliyun\sdk\core\lib\Request;
  * @method ModifyVpnPbrRouteEntryWeight ModifyVpnPbrRouteEntryWeight()
  * @method DeleteBgpGroup DeleteBgpGroup()
  * @method ModifyRouteTableAttributes ModifyRouteTableAttributes()
- * @method CheckCommonBandwidthPackageOrderParam CheckCommonBandwidthPackageOrderParam()
  * @method DescribeCommonBandwidthPackages DescribeCommonBandwidthPackages()
  * @method DescribeNatGateways DescribeNatGateways()
  * @method DescribeBgpGroups DescribeBgpGroups()
  * @method DescribeIPv6TranslatorAclListAttributes DescribeIPv6TranslatorAclListAttributes()
  * @method DescribeServerRelatedGlobalAccelerationInstances DescribeServerRelatedGlobalAccelerationInstances()
- * @method AllocateEipAddressPro AllocateEipAddressPro()
  * @method CreateVpc CreateVpc()
- * @method FillNatGatwayInstanceId FillNatGatwayInstanceId()
- * @method NotifyProduceNatGateway NotifyProduceNatGateway()
  * @method DescribeRegions DescribeRegions()
  * @method DescribeVirtualBorderRoutersForPhysicalConnection DescribeVirtualBorderRoutersForPhysicalConnection()
  * @method ModifyIpv6GatewayAttribute ModifyIpv6GatewayAttribute()
@@ -134,54 +101,35 @@ use aliyun\sdk\core\lib\Request;
  * @method CreateNatGateway CreateNatGateway()
  * @method DeleteIPv6Translator DeleteIPv6Translator()
  * @method ConnectRouterInterface ConnectRouterInterface()
- * @method CopyNetworkAclEntries CopyNetworkAclEntries()
  * @method CreatePhysicalConnectionOccupancyOrder CreatePhysicalConnectionOccupancyOrder()
  * @method ModifyRouterInterfaceAttribute ModifyRouterInterfaceAttribute()
- * @method AssociateNetworkAcl AssociateNetworkAcl()
  * @method DeleteVpnGateway DeleteVpnGateway()
- * @method VpnGatewayValidateOrder VpnGatewayValidateOrder()
- * @method GrantInstanceToCbn GrantInstanceToCbn()
- * @method RiFillProduct RiFillProduct()
  * @method UnassociateRouteTable UnassociateRouteTable()
  * @method RevokeInstanceFromCen RevokeInstanceFromCen()
  * @method CreateRouteTable CreateRouteTable()
  * @method ModifyIpv6AddressAttribute ModifyIpv6AddressAttribute()
- * @method AllocateVpcIpv6Cidr AllocateVpcIpv6Cidr()
  * @method DeleteVpc DeleteVpc()
  * @method CreatePhysicalConnectionSetupOrder CreatePhysicalConnectionSetupOrder()
- * @method DescribeRouteEntryList DescribeRouteEntryList()
  * @method ModifyVpnConnectionAttribute ModifyVpnConnectionAttribute()
  * @method DescribeHaVips DescribeHaVips()
- * @method Describe95Traffic Describe95Traffic()
  * @method ModifySslVpnClientCert ModifySslVpnClientCert()
  * @method ModifyIpv6GatewaySpec ModifyIpv6GatewaySpec()
  * @method AssociateGlobalAccelerationInstance AssociateGlobalAccelerationInstance()
- * @method DescribeGrantRulesToCbn DescribeGrantRulesToCbn()
- * @method FillBandwidthPackageParam FillBandwidthPackageParam()
  * @method CreateGlobalAccelerationInstance CreateGlobalAccelerationInstance()
  * @method ModifyPhysicalConnectionAttribute ModifyPhysicalConnectionAttribute()
  * @method DescribeVpnPbrRouteEntries DescribeVpnPbrRouteEntries()
  * @method DescribeSnatTableEntries DescribeSnatTableEntries()
- * @method IPv6TranslatorFillParams IPv6TranslatorFillParams()
- * @method RiOrderCheck RiOrderCheck()
  * @method DeleteVirtualBorderRouter DeleteVirtualBorderRouter()
  * @method DescribeSslVpnClientCerts DescribeSslVpnClientCerts()
- * @method TagResources TagResources()
  * @method RemoveIPv6TranslatorAclListEntry RemoveIPv6TranslatorAclListEntry()
- * @method ModifyEipForwardMode ModifyEipForwardMode()
  * @method ActivateRouterInterface ActivateRouterInterface()
  * @method DescribeVRouters DescribeVRouters()
  * @method CreateIPv6TranslatorEntry CreateIPv6TranslatorEntry()
- * @method DescribeNewProjectEipMonitorData DescribeNewProjectEipMonitorData()
  * @method ModifyNatGatewaySpec ModifyNatGatewaySpec()
- * @method DeleteNetworkAcl DeleteNetworkAcl()
- * @method FillCommonBandwidthPackageInstanceId FillCommonBandwidthPackageInstanceId()
- * @method VpnGatewayFillParams VpnGatewayFillParams()
  * @method ModifyVpnRouteEntryWeight ModifyVpnRouteEntryWeight()
  * @method PublishVpnRouteEntry PublishVpnRouteEntry()
  * @method DescribeIPv6Translators DescribeIPv6Translators()
  * @method DescribeVpnGateways DescribeVpnGateways()
- * @method ModifyNetworkAclAttributes ModifyNetworkAclAttributes()
  * @method DescribeRouteTableList DescribeRouteTableList()
  * @method CreateForwardEntry CreateForwardEntry()
  * @method DescribePhysicalConnectionOrder DescribePhysicalConnectionOrder()
@@ -189,38 +137,29 @@ use aliyun\sdk\core\lib\Request;
  * @method CreateVpnPbrRouteEntry CreateVpnPbrRouteEntry()
  * @method AssociateRouteTable AssociateRouteTable()
  * @method AllocateEipAddress AllocateEipAddress()
- * @method FillBandwidthPackageInstanceId FillBandwidthPackageInstanceId()
  * @method DescribeZones DescribeZones()
  * @method DescribeGlobalAccelerationInstances DescribeGlobalAccelerationInstances()
  * @method DeleteForwardEntry DeleteForwardEntry()
- * @method DescribeRouterInterfacesForGlobal DescribeRouterInterfacesForGlobal()
- * @method UnassociateNetworkAcl UnassociateNetworkAcl()
  * @method DeleteHaVip DeleteHaVip()
  * @method EnableVpcClassicLink EnableVpcClassicLink()
  * @method CreateSslVpnServer CreateSslVpnServer()
  * @method DescribeFlowLogs DescribeFlowLogs()
- * @method VpnGatewayPrepayNotifyPaid VpnGatewayPrepayNotifyPaid()
  * @method CancelPhysicalConnection CancelPhysicalConnection()
- * @method CreateNetworkAcl CreateNetworkAcl()
  * @method DeleteBgpPeer DeleteBgpPeer()
  * @method ModifyVirtualBorderRouterAttribute ModifyVirtualBorderRouterAttribute()
  * @method DescribeGrantRulesToCen DescribeGrantRulesToCen()
- * @method DescribeVBRs DescribeVBRs()
  * @method UnassociateHaVip UnassociateHaVip()
  * @method ModifyCommonBandwidthPackageSpec ModifyCommonBandwidthPackageSpec()
  * @method DescribeVpcs DescribeVpcs()
  * @method DescribeVpnConnection DescribeVpnConnection()
  * @method DeleteSslVpnServer DeleteSslVpnServer()
- * @method DescribeEipAddressesByBwp DescribeEipAddressesByBwp()
  * @method CreateBgpPeer CreateBgpPeer()
  * @method DeleteIpv6Gateway DeleteIpv6Gateway()
  * @method CreateVpnRouteEntry CreateVpnRouteEntry()
  * @method DescribeRouteTables DescribeRouteTables()
  * @method TerminatePhysicalConnection TerminatePhysicalConnection()
- * @method FillNatGatewayParam FillNatGatewayParam()
  * @method DeleteIpv6EgressOnlyRule DeleteIpv6EgressOnlyRule()
  * @method CreateVSwitch CreateVSwitch()
- * @method MoveResourceGroup MoveResourceGroup()
  * @method DeleteVSwitch DeleteVSwitch()
  * @method DownloadVpnConnectionConfig DownloadVpnConnectionConfig()
  * @method ModifySnatEntry ModifySnatEntry()
@@ -233,17 +172,12 @@ use aliyun\sdk\core\lib\Request;
  * @method DescribeVSwitchAttributes DescribeVSwitchAttributes()
  * @method ModifyIPv6TranslatorAttribute ModifyIPv6TranslatorAttribute()
  * @method DescribeAccessPoints DescribeAccessPoints()
- * @method DescribeTrafficConsumeByMonth DescribeTrafficConsumeByMonth()
  * @method CreatePhysicalConnection CreatePhysicalConnection()
  * @method RecoverVirtualBorderRouter RecoverVirtualBorderRouter()
  * @method ModifyEipAddressAttribute ModifyEipAddressAttribute()
  * @method DescribeBgpPeers DescribeBgpPeers()
  * @method ModifyIPv6TranslatorEntry ModifyIPv6TranslatorEntry()
- * @method EipFillProduct EipFillProduct()
- * @method CheckBandwidthPackageOrderParam CheckBandwidthPackageOrderParam()
- * @method InnerVpcConfirmCrossBorderRouterInterface InnerVpcConfirmCrossBorderRouterInterface()
  * @method ReleaseEipAddress ReleaseEipAddress()
- * @method RiFillParams RiFillParams()
  * @method TerminateVirtualBorderRouter TerminateVirtualBorderRouter()
  * @method DescribeVpcAttribute DescribeVpcAttribute()
  * @method RemoveBandwidthPackageIps RemoveBandwidthPackageIps()
@@ -254,31 +188,24 @@ use aliyun\sdk\core\lib\Request;
  * @method AssociatePhysicalConnectionToVirtualBorderRouter AssociatePhysicalConnectionToVirtualBorderRouter()
  * @method CreateNqa CreateNqa()
  * @method CreateVpnConnection CreateVpnConnection()
- * @method NotifyProduceCommonBandwidthPackage NotifyProduceCommonBandwidthPackage()
  * @method CreateVpnGateway CreateVpnGateway()
- * @method RiNotifyPaid RiNotifyPaid()
  * @method DescribeVSwitches DescribeVSwitches()
  * @method DeleteVpnPbrRouteEntry DeleteVpnPbrRouteEntry()
  * @method DeleteIPv6TranslatorAclList DeleteIPv6TranslatorAclList()
- * @method NotifyProduceBandwidthPackage NotifyProduceBandwidthPackage()
  * @method DeleteNqa DeleteNqa()
  * @method DescribeIpv6Gateways DescribeIpv6Gateways()
  * @method ModifyNqa ModifyNqa()
  * @method AssociateHaVip AssociateHaVip()
  * @method DeleteRouterInterface DeleteRouterInterface()
  * @method CreateSslVpnClientCert CreateSslVpnClientCert()
- * @method VpnGatewayFillRestrictions VpnGatewayFillRestrictions()
  * @method DeleteNatGateway DeleteNatGateway()
  * @method CreateHaVip CreateHaVip()
- * @method ListTagResources ListTagResources()
  * @method DeleteSnatEntry DeleteSnatEntry()
  * @method CreateRouteEntry CreateRouteEntry()
  * @method GrantInstanceToCen GrantInstanceToCen()
  * @method ModifyIPv6TranslatorBandwidth ModifyIPv6TranslatorBandwidth()
- * @method RevokeInstanceFromCbn RevokeInstanceFromCbn()
  * @method DescribeRouterInterfaces DescribeRouterInterfaces()
  * @method ModifyNatGatewayAttribute ModifyNatGatewayAttribute()
- * @method UpdateNetworkAclEntries UpdateNetworkAclEntries()
  * @method CreateVirtualBorderRouter CreateVirtualBorderRouter()
  * @method CreateRouterInterface CreateRouterInterface()
  * @method ModifyVRouterAttribute ModifyVRouterAttribute()
@@ -430,29 +357,6 @@ class ModifyIPv6TranslatorAclAttribute extends Request
 {
 
 }/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setBandwidth($bandwidth)
- * @method string getBandwidth()
- * @method $this setKbpsBandwidth($kbpsBandwidth)
- * @method string getKbpsBandwidth()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setResourceBid($resourceBid)
- * @method string getResourceBid()
- * @method $this setResourceUid($resourceUid)
- * @method int getResourceUid()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- */
-class InnerVpcDescribeCrossBorderRouterInterface extends Request
-{
-
-}/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
  * @method $this setOwnerId($ownerId)
@@ -490,61 +394,6 @@ class DescribeSslVpnClientCert extends Request
  * @method string getDescription()
  */
 class CreateCustomerGateway extends Request
-{
-
-}/**
- * @method $this setNetworkAclId($networkAclId)
- * @method string getNetworkAclId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setClientToken($clientToken)
- * @method string getClientToken()
- */
-class DescribeNetworkAclAttributes extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setForwardTableId($forwardTableId)
- * @method string getForwardTableId()
- * @method $this setPageNumber($pageNumber)
- * @method int getPageNumber()
- * @method $this setPageSize($pageSize)
- * @method int getPageSize()
- */
-class DescribeForwardTables extends Request
-{
-
-}/**
- * @method $this setdata($data)
- * @method string getdata()
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setClientToken($clientToken)
- * @method string getClientToken()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- */
-class NotifyProducePreCommonBandwidthPackage extends Request
 {
 
 }/**
@@ -657,29 +506,6 @@ class RemoveGlobalAccelerationInstanceIp extends Request
  * @method string getResourceOwnerAccount()
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
- * @method $this setAllocationId($allocationId)
- * @method string getAllocationId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setStartTime($startTime)
- * @method string getStartTime()
- * @method $this setEndTime($endTime)
- * @method string getEndTime()
- * @method $this setPeriod($period)
- * @method int getPeriod()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- */
-class DescribeBandwidthPackagePublicIpMonitorData extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
  * @method $this setFlowLogId($flowLogId)
@@ -692,27 +518,6 @@ class DescribeBandwidthPackagePublicIpMonitorData extends Request
  * @method string getOwnerAccount()
  */
 class ModifyFlowLogAttribute extends Request
-{
-
-}/**
- * @method $this setResourceType($resourceType)
- * @method string getResourceType()
- * @method $this setResourceId($resourceId)
- * @method array getResourceId()
- * @method $this setTagKey($tagKey)
- * @method array getTagKey()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- */
-class UnTagResources extends Request
 {
 
 }/**
@@ -781,43 +586,6 @@ class ModifyGlobalAccelerationInstanceSpec extends Request
 {
 
 }/**
- * @method $this setISP($iSP)
- * @method string getISP()
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setIp($ip)
- * @method string getIp()
- * @method $this setBandwidth($bandwidth)
- * @method string getBandwidth()
- * @method $this setPeriod($period)
- * @method int getPeriod()
- * @method $this setNetmode($netmode)
- * @method string getNetmode()
- * @method $this setAutoPay($autoPay)
- * @method bool getAutoPay()
- * @method $this setPricingCycle($pricingCycle)
- * @method string getPricingCycle()
- * @method $this setInstanceChargeType($instanceChargeType)
- * @method string getInstanceChargeType()
- * @method $this setInternetChargeType($internetChargeType)
- * @method string getInternetChargeType()
- * @method $this setResourceGroupId($resourceGroupId)
- * @method string getResourceGroupId()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setClientToken($clientToken)
- * @method string getClientToken()
- */
-class ForceAllocateEipAddress extends Request
-{
-
-}/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
  * @method $this setResourceOwnerAccount($resourceOwnerAccount)
@@ -880,62 +648,6 @@ class ModifyVpnGatewayAttribute extends Request
  * @method string getBandwidth()
  */
 class ModifyCommonBandwidthPackageIpBandwidth extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setVpcId($vpcId)
- * @method string getVpcId()
- * @method $this setFilterVpcId($filterVpcId)
- * @method string getFilterVpcId()
- * @method $this setFilterVRouterId($filterVRouterId)
- * @method string getFilterVRouterId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setIsDefault($isDefault)
- * @method bool getIsDefault()
- * @method $this setPageNumber($pageNumber)
- * @method int getPageNumber()
- * @method $this setPageSize($pageSize)
- * @method int getPageSize()
- * @method $this setResourceGroupId($resourceGroupId)
- * @method string getResourceGroupId()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- */
-class DescribeVpcsByRegionNo extends Request
-{
-
-}/**
- * @method $this setPageNumber($pageNumber)
- * @method int getPageNumber()
- * @method $this setPageSize($pageSize)
- * @method int getPageSize()
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setBandwidth($bandwidth)
- * @method string getBandwidth()
- * @method $this setKbpsBandwidth($kbpsBandwidth)
- * @method string getKbpsBandwidth()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setResourceBid($resourceBid)
- * @method string getResourceBid()
- * @method $this setResourceUid($resourceUid)
- * @method int getResourceUid()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- */
-class DescribePublicIpAddress extends Request
 {
 
 }/**
@@ -1022,67 +734,6 @@ class CreateIpv6EgressOnlyRule extends Request
 {
 
 }/**
- * @method $this setMasterInstanceId($masterInstanceId)
- * @method string getMasterInstanceId()
- * @method $this setHaVipId($haVipId)
- * @method string getHaVipId()
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setResourceBid($resourceBid)
- * @method string getResourceBid()
- * @method $this setResourceUid($resourceUid)
- * @method int getResourceUid()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- */
-class SetHaVipMasterInstance extends Request
-{
-
-}/**
- * @method $this setdata($data)
- * @method string getdata()
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setClientToken($clientToken)
- * @method string getClientToken()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setUserCidr($userCidr)
- * @method string getUserCidr()
- */
-class EipNotifyPaid extends Request
-{
-
-}/**
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setSslVpnServerId($sslVpnServerId)
- * @method string getSslVpnServerId()
- * @method $this setSslVpnClientCertId($sslVpnClientCertId)
- * @method string getSslVpnClientCertId()
- */
-class DescribeSslVpnClientConfig extends Request
-{
-
-}/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
  * @method $this setResourceOwnerAccount($resourceOwnerAccount)
@@ -1158,25 +809,6 @@ class UnassociatePhysicalConnectionFromVirtualBorderRouter extends Request
  * @method string getOwnerAccount()
  */
 class ActiveFlowLog extends Request
-{
-
-}/**
- * @method $this setdata($data)
- * @method string getdata()
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setClientToken($clientToken)
- * @method string getClientToken()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setUserCidr($userCidr)
- * @method string getUserCidr()
- */
-class EipPrepayNotifyPaid extends Request
 {
 
 }/**
@@ -1299,25 +931,6 @@ class ModifySslVpnServer extends Request
  * @method string getOwnerAccount()
  */
 class DescribeIpv6Addresses extends Request
-{
-
-}/**
- * @method $this setdata($data)
- * @method string getdata()
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setClientToken($clientToken)
- * @method string getClientToken()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setUserCidr($userCidr)
- * @method string getUserCidr()
- */
-class EipFillParams extends Request
 {
 
 }/**
@@ -1611,25 +1224,6 @@ class AssociateEipAddress extends Request
 {
 
 }/**
- * @method $this setdata($data)
- * @method string getdata()
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setClientToken($clientToken)
- * @method string getClientToken()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setUserCidr($userCidr)
- * @method string getUserCidr()
- */
-class CheckNatGatewayOrderParam extends Request
-{
-
-}/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
  * @method $this setResourceOwnerAccount($resourceOwnerAccount)
@@ -1687,33 +1281,6 @@ class DeactiveFlowLog extends Request
 {
 
 }/**
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setVpnConnectionId($vpnConnectionId)
- * @method string getVpnConnectionId()
- * @method $this setFrom($from)
- * @method int getFrom()
- * @method $this setTo($to)
- * @method int getTo()
- * @method $this setMinutePeriod($minutePeriod)
- * @method int getMinutePeriod()
- * @method $this setPageNumber($pageNumber)
- * @method int getPageNumber()
- * @method $this setPageSize($pageSize)
- * @method int getPageSize()
- */
-class DescribeVpnConnectionLogs extends Request
-{
-
-}/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
  * @method $this setResourceOwnerAccount($resourceOwnerAccount)
@@ -1743,6 +1310,8 @@ class ModifyBgpGroupAttribute extends Request
 {
 
 }/**
+ * @method $this setTag($tag)
+ * @method array getTag()
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
  * @method $this setResourceOwnerAccount($resourceOwnerAccount)
@@ -1769,14 +1338,14 @@ class ModifyBgpGroupAttribute extends Request
  * @method string getISP()
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
- * @method $this setFilter1Key($filter1Key)
- * @method string getFilter1Key()
- * @method $this setFilter2Key($filter2Key)
- * @method string getFilter2Key()
- * @method $this setFilter1Value($filter1Value)
- * @method string getFilter1Value()
- * @method $this setFilter2Value($filter2Value)
- * @method string getFilter2Value()
+ * @method $this setFilter_1_Key($filter_1_Key)
+ * @method string getFilter_1_Key()
+ * @method $this setFilter_2_Key($filter_2_Key)
+ * @method string getFilter_2_Key()
+ * @method $this setFilter_1_Value($filter_1_Value)
+ * @method string getFilter_1_Value()
+ * @method $this setFilter_2_Value($filter_2_Value)
+ * @method string getFilter_2_Value()
  * @method $this setLockReason($lockReason)
  * @method string getLockReason()
  * @method $this setAssociatedInstanceType($associatedInstanceType)
@@ -1817,29 +1386,6 @@ class ModifyIPv6TranslatorAclListEntry extends Request
  * @method string getResourceOwnerAccount()
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
- * @method $this setBandwidthPackageId($bandwidthPackageId)
- * @method string getBandwidthPackageId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setStartTime($startTime)
- * @method string getStartTime()
- * @method $this setEndTime($endTime)
- * @method string getEndTime()
- * @method $this setPeriod($period)
- * @method int getPeriod()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- */
-class DescribeBandwidthPackageMonitorData extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
  * @method $this setVSwitchId($vSwitchId)
  * @method string getVSwitchId()
  * @method $this setVSwitchName($vSwitchName)
@@ -1854,23 +1400,6 @@ class DescribeBandwidthPackageMonitorData extends Request
  * @method string getOwnerAccount()
  */
 class ModifyVSwitchAttribute extends Request
-{
-
-}/**
- * @method $this setProduct($product)
- * @method string getProduct()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setClientToken($clientToken)
- * @method string getClientToken()
- */
-class DescribeNetworkQuotas extends Request
 {
 
 }/**
@@ -2014,73 +1543,6 @@ class ModifyCommonBandwidthPackageAttribute extends Request
 {
 
 }/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setLogProject($logProject)
- * @method string getLogProject()
- * @method $this setLogStore($logStore)
- * @method string getLogStore()
- * @method $this setInstanceId($instanceId)
- * @method string getInstanceId()
- * @method $this setInstanceType($instanceType)
- * @method string getInstanceType()
- * @method $this setStatus($status)
- * @method string getStatus()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- */
-class SetHighDefinitionMonitorLogStatus extends Request
-{
-
-}/**
- * @method $this setdata($data)
- * @method string getdata()
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setClientToken($clientToken)
- * @method string getClientToken()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setUserCidr($userCidr)
- * @method string getUserCidr()
- */
-class StaticEipFillParams extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setBandwidth($bandwidth)
- * @method string getBandwidth()
- * @method $this setKbpsBandwidth($kbpsBandwidth)
- * @method string getKbpsBandwidth()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setResourceBid($resourceBid)
- * @method string getResourceBid()
- * @method $this setResourceUid($resourceUid)
- * @method int getResourceUid()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- */
-class InnerVpcDescribeCrossBorderUsers extends Request
-{
-
-}/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
  * @method $this setOwnerId($ownerId)
@@ -2129,54 +1591,6 @@ class AddBgpNetwork extends Request
  * @method string getResourceOwnerAccount()
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setdata($data)
- * @method string getdata()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setaccess_key_id($access_key_id)
- * @method string getaccess_key_id()
- */
-class IPv6TranslatorPrepayNotifyPaid extends Request
-{
-
-}/**
- * @method $this setNetworkAclId($networkAclId)
- * @method string getNetworkAclId()
- * @method $this setNetworkAclName($networkAclName)
- * @method string getNetworkAclName()
- * @method $this setVpcId($vpcId)
- * @method string getVpcId()
- * @method $this setResourceType($resourceType)
- * @method string getResourceType()
- * @method $this setResourceId($resourceId)
- * @method string getResourceId()
- * @method $this setPageNumber($pageNumber)
- * @method int getPageNumber()
- * @method $this setPageSize($pageSize)
- * @method int getPageSize()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setClientToken($clientToken)
- * @method string getClientToken()
- */
-class DescribeNetworkAcls extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
  * @method $this setRouterId($routerId)
  * @method string getRouterId()
  * @method $this setNqaId($nqaId)
@@ -2193,44 +1607,6 @@ class DescribeNetworkAcls extends Request
  * @method string getOwnerAccount()
  */
 class DescribeNqas extends Request
-{
-
-}/**
- * @method $this setdata($data)
- * @method string getdata()
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setClientToken($clientToken)
- * @method string getClientToken()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setUserCidr($userCidr)
- * @method string getUserCidr()
- */
-class StaticEipNotifyPaid extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setdata($data)
- * @method string getdata()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setaccess_key_id($access_key_id)
- * @method string getaccess_key_id()
- */
-class IPv6TranslatorValidateOrder extends Request
 {
 
 }/**
@@ -2317,25 +1693,6 @@ class CreateCommonBandwidthPackage extends Request
  * @method string getEipId()
  */
 class CancelCommonBandwidthPackageIpBandwidth extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setInstanceId($instanceId)
- * @method string getInstanceId()
- * @method $this setInstanceType($instanceType)
- * @method string getInstanceType()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- */
-class DescribeHighDefinitionMonitorLogAttribute extends Request
 {
 
 }/**
@@ -2462,25 +1819,6 @@ class CreateBgpGroup extends Request
 {
 
 }/**
- * @method $this setdata($data)
- * @method string getdata()
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setClientToken($clientToken)
- * @method string getClientToken()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setUserCidr($userCidr)
- * @method string getUserCidr()
- */
-class EipOrderCheck extends Request
-{
-
-}/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
  * @method $this setOwnerId($ownerId)
@@ -2541,25 +1879,6 @@ class DescribeIpv6EgressOnlyRules extends Request
  * @method string getResourceOwnerAccount()
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setdata($data)
- * @method string getdata()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setaccess_key_id($access_key_id)
- * @method string getaccess_key_id()
- */
-class IPv6TranslatorFillRestrictions extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
  * @method $this setRouterId($routerId)
  * @method string getRouterId()
  * @method $this setRegionId($regionId)
@@ -2572,23 +1891,6 @@ class IPv6TranslatorFillRestrictions extends Request
  * @method string getOwnerAccount()
  */
 class DescribeBgpNetworks extends Request
-{
-
-}/**
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setSslVpnServerId($sslVpnServerId)
- * @method string getSslVpnServerId()
- */
-class DescribeSslVpnServerCaCert extends Request
 {
 
 }/**
@@ -2788,31 +2090,20 @@ class DeleteBgpGroup extends Request
  * @method string getResourceOwnerAccount()
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
+ * @method $this setBandwidth($bandwidth)
+ * @method string getBandwidth()
+ * @method $this setKbpsBandwidth($kbpsBandwidth)
+ * @method string getKbpsBandwidth()
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
+ * @method $this setResourceBid($resourceBid)
+ * @method string getResourceBid()
+ * @method $this setResourceUid($resourceUid)
+ * @method int getResourceUid()
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
  */
 class ModifyRouteTableAttributes extends Request
-{
-
-}/**
- * @method $this setdata($data)
- * @method string getdata()
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setClientToken($clientToken)
- * @method string getClientToken()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setUserCidr($userCidr)
- * @method string getUserCidr()
- */
-class CheckCommonBandwidthPackageOrderParam extends Request
 {
 
 }/**
@@ -2945,45 +2236,6 @@ class DescribeServerRelatedGlobalAccelerationInstances extends Request
  * @method int getResourceOwnerId()
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
- * @method $this setIpAddress($ipAddress)
- * @method string getIpAddress()
- * @method $this setInstanceId($instanceId)
- * @method string getInstanceId()
- * @method $this setBandwidth($bandwidth)
- * @method string getBandwidth()
- * @method $this setPeriod($period)
- * @method int getPeriod()
- * @method $this setISP($iSP)
- * @method string getISP()
- * @method $this setNetmode($netmode)
- * @method string getNetmode()
- * @method $this setAutoPay($autoPay)
- * @method bool getAutoPay()
- * @method $this setPricingCycle($pricingCycle)
- * @method string getPricingCycle()
- * @method $this setInstanceChargeType($instanceChargeType)
- * @method string getInstanceChargeType()
- * @method $this setInternetChargeType($internetChargeType)
- * @method string getInternetChargeType()
- * @method $this setResourceGroupId($resourceGroupId)
- * @method string getResourceGroupId()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setClientToken($clientToken)
- * @method string getClientToken()
- */
-class AllocateEipAddressPro extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
  * @method $this setCidrBlock($cidrBlock)
  * @method string getCidrBlock()
  * @method $this setIpv6CidrBlock($ipv6CidrBlock)
@@ -3007,42 +2259,8 @@ class CreateVpc extends Request
 {
 
 }/**
- * @method $this setdata($data)
- * @method string getdata()
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setClientToken($clientToken)
- * @method string getClientToken()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setUserCidr($userCidr)
- * @method string getUserCidr()
- */
-class FillNatGatwayInstanceId extends Request
-{
-
-}/**
- * @method $this setdata($data)
- * @method string getdata()
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setClientToken($clientToken)
- * @method string getClientToken()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- */
-class NotifyProduceNatGateway extends Request
-{
-
-}/**
+ * @method $this setProductType($productType)
+ * @method string getProductType()
  * @method $this setAcceptLanguage($acceptLanguage)
  * @method string getAcceptLanguage()
  * @method $this setOwnerId($ownerId)
@@ -3196,25 +2414,6 @@ class ConnectRouterInterface extends Request
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
- * @method $this setNetworkAclId($networkAclId)
- * @method string getNetworkAclId()
- * @method $this setSourceNetworkAclId($sourceNetworkAclId)
- * @method string getSourceNetworkAclId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setClientToken($clientToken)
- * @method string getClientToken()
- */
-class CopyNetworkAclEntries extends Request
-{
-
-}/**
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
  * @method $this setPhysicalConnectionId($physicalConnectionId)
  * @method string getPhysicalConnectionId()
  * @method $this setPeriod($period)
@@ -3273,25 +2472,6 @@ class ModifyRouterInterfaceAttribute extends Request
 {
 
 }/**
- * @method $this setResource($resource)
- * @method array getResource()
- * @method $this setNetworkAclId($networkAclId)
- * @method string getNetworkAclId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setClientToken($clientToken)
- * @method string getClientToken()
- */
-class AssociateNetworkAcl extends Request
-{
-
-}/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
  * @method $this setOwnerId($ownerId)
@@ -3308,69 +2488,6 @@ class AssociateNetworkAcl extends Request
  * @method string getVpnGatewayId()
  */
 class DeleteVpnGateway extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setdata($data)
- * @method string getdata()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setaccess_key_id($access_key_id)
- * @method string getaccess_key_id()
- */
-class VpnGatewayValidateOrder extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setInstanceId($instanceId)
- * @method string getInstanceId()
- * @method $this setInstanceType($instanceType)
- * @method string getInstanceType()
- * @method $this setCbnInstanceId($cbnInstanceId)
- * @method string getCbnInstanceId()
- * @method $this setCbnUid($cbnUid)
- * @method string getCbnUid()
- * @method $this setClientToken($clientToken)
- * @method string getClientToken()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- */
-class GrantInstanceToCbn extends Request
-{
-
-}/**
- * @method $this setdata($data)
- * @method string getdata()
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setClientToken($clientToken)
- * @method string getClientToken()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setUserCidr($userCidr)
- * @method string getUserCidr()
- */
-class RiFillProduct extends Request
 {
 
 }/**
@@ -3464,23 +2581,6 @@ class ModifyIpv6AddressAttribute extends Request
 {
 
 }/**
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setClientToken($clientToken)
- * @method string getClientToken()
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- */
-class AllocateVpcIpv6Cidr extends Request
-{
-
-}/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
  * @method $this setResourceOwnerAccount($resourceOwnerAccount)
@@ -3522,37 +2622,6 @@ class DeleteVpc extends Request
  * @method string getOwnerAccount()
  */
 class CreatePhysicalConnectionSetupOrder extends Request
-{
-
-}/**
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setRouteTableId($routeTableId)
- * @method string getRouteTableId()
- * @method $this setRouteEntryId($routeEntryId)
- * @method string getRouteEntryId()
- * @method $this setDestinationCidrBlock($destinationCidrBlock)
- * @method string getDestinationCidrBlock()
- * @method $this setRouteEntryName($routeEntryName)
- * @method string getRouteEntryName()
- * @method $this setIpVersion($ipVersion)
- * @method string getIpVersion()
- * @method $this setRouteEntryType($routeEntryType)
- * @method string getRouteEntryType()
- * @method $this setNextHopId($nextHopId)
- * @method string getNextHopId()
- * @method $this setNextHopType($nextHopType)
- * @method string getNextHopType()
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- */
-class DescribeRouteEntryList extends Request
 {
 
 }/**
@@ -3609,33 +2678,6 @@ class ModifyVpnConnectionAttribute extends Request
  * @method array getFilter()
  */
 class DescribeHaVips extends Request
-{
-
-}/**
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setClientToken($clientToken)
- * @method string getClientToken()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setResourceBid($resourceBid)
- * @method string getResourceBid()
- * @method $this setResourceUid($resourceUid)
- * @method int getResourceUid()
- * @method $this setResourceType($resourceType)
- * @method string getResourceType()
- * @method $this setInstanceId($instanceId)
- * @method string getInstanceId()
- * @method $this setDay($day)
- * @method string getDay()
- */
-class Describe95Traffic extends Request
 {
 
 }/**
@@ -3712,50 +2754,12 @@ class AssociateGlobalAccelerationInstance extends Request
  * @method int getResourceOwnerId()
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
- * @method $this setInstanceId($instanceId)
- * @method string getInstanceId()
- * @method $this setInstanceType($instanceType)
- * @method string getInstanceType()
- * @method $this setClientToken($clientToken)
- * @method string getClientToken()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- */
-class DescribeGrantRulesToCbn extends Request
-{
-
-}/**
- * @method $this setdata($data)
- * @method string getdata()
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setClientToken($clientToken)
- * @method string getClientToken()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setUserCidr($userCidr)
- * @method string getUserCidr()
- */
-class FillBandwidthPackageParam extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
  * @method $this setServiceLocation($serviceLocation)
  * @method string getServiceLocation()
  * @method $this setBandwidth($bandwidth)
  * @method string getBandwidth()
+ * @method $this setInternetChargeType($internetChargeType)
+ * @method string getInternetChargeType()
  * @method $this setBandwidthType($bandwidthType)
  * @method string getBandwidthType()
  * @method $this setName($name)
@@ -3858,42 +2862,6 @@ class DescribeSnatTableEntries extends Request
 {
 
 }/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setdata($data)
- * @method string getdata()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setaccess_key_id($access_key_id)
- * @method string getaccess_key_id()
- */
-class IPv6TranslatorFillParams extends Request
-{
-
-}/**
- * @method $this setdata($data)
- * @method string getdata()
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setClientToken($clientToken)
- * @method string getClientToken()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- */
-class RiOrderCheck extends Request
-{
-
-}/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
  * @method $this setVbrId($vbrId)
@@ -3938,29 +2906,6 @@ class DescribeSslVpnClientCerts extends Request
 {
 
 }/**
- * @method $this setScope($scope)
- * @method string getScope()
- * @method $this setResourceType($resourceType)
- * @method string getResourceType()
- * @method $this setResourceId($resourceId)
- * @method array getResourceId()
- * @method $this setTag($tag)
- * @method array getTag()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- */
-class TagResources extends Request
-{
-
-}/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
  * @method $this setOwnerId($ownerId)
@@ -3979,25 +2924,6 @@ class TagResources extends Request
  * @method string getAclEntryId()
  */
 class RemoveIPv6TranslatorAclListEntry extends Request
-{
-
-}/**
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setInstanceId($instanceId)
- * @method string getInstanceId()
- * @method $this setMode($mode)
- * @method string getMode()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setClientToken($clientToken)
- * @method string getClientToken()
- */
-class ModifyEipForwardMode extends Request
 {
 
 }/**
@@ -4080,29 +3006,6 @@ class CreateIPv6TranslatorEntry extends Request
  * @method string getResourceOwnerAccount()
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setAllocationId($allocationId)
- * @method string getAllocationId()
- * @method $this setStartTime($startTime)
- * @method string getStartTime()
- * @method $this setEndTime($endTime)
- * @method string getEndTime()
- * @method $this setPeriod($period)
- * @method int getPeriod()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- */
-class DescribeNewProjectEipMonitorData extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
  * @method $this setRegionId($regionId)
@@ -4117,61 +3020,6 @@ class DescribeNewProjectEipMonitorData extends Request
  * @method string getClientToken()
  */
 class ModifyNatGatewaySpec extends Request
-{
-
-}/**
- * @method $this setNetworkAclId($networkAclId)
- * @method string getNetworkAclId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setClientToken($clientToken)
- * @method string getClientToken()
- */
-class DeleteNetworkAcl extends Request
-{
-
-}/**
- * @method $this setdata($data)
- * @method string getdata()
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setClientToken($clientToken)
- * @method string getClientToken()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setUserCidr($userCidr)
- * @method string getUserCidr()
- */
-class FillCommonBandwidthPackageInstanceId extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setdata($data)
- * @method string getdata()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setaccess_key_id($access_key_id)
- * @method string getaccess_key_id()
- */
-class VpnGatewayFillParams extends Request
 {
 
 }/**
@@ -4291,27 +3139,6 @@ class DescribeVpnGateways extends Request
 {
 
 }/**
- * @method $this setNetworkAclId($networkAclId)
- * @method string getNetworkAclId()
- * @method $this setNetworkAclName($networkAclName)
- * @method string getNetworkAclName()
- * @method $this setDescription($description)
- * @method string getDescription()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setClientToken($clientToken)
- * @method string getClientToken()
- */
-class ModifyNetworkAclAttributes extends Request
-{
-
-}/**
  * @method $this setRouterType($routerType)
  * @method string getRouterType()
  * @method $this setRouterId($routerId)
@@ -4328,6 +3155,8 @@ class ModifyNetworkAclAttributes extends Request
  * @method int getPageSize()
  * @method $this setResourceGroupId($resourceGroupId)
  * @method string getResourceGroupId()
+ * @method $this setTag($tag)
+ * @method array getTag()
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
  * @method $this setResourceOwnerAccount($resourceOwnerAccount)
@@ -4501,25 +3330,6 @@ class AllocateEipAddress extends Request
 {
 
 }/**
- * @method $this setdata($data)
- * @method string getdata()
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setClientToken($clientToken)
- * @method string getClientToken()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setUserCidr($userCidr)
- * @method string getUserCidr()
- */
-class FillBandwidthPackageInstanceId extends Request
-{
-
-}/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
  * @method $this setResourceOwnerAccount($resourceOwnerAccount)
@@ -4586,44 +3396,6 @@ class DescribeGlobalAccelerationInstances extends Request
  * @method string getForwardEntryId()
  */
 class DeleteForwardEntry extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setStatus($status)
- * @method string getStatus()
- * @method $this setPageNumber($pageNumber)
- * @method int getPageNumber()
- * @method $this setPageSize($pageSize)
- * @method int getPageSize()
- */
-class DescribeRouterInterfacesForGlobal extends Request
-{
-
-}/**
- * @method $this setResource($resource)
- * @method array getResource()
- * @method $this setNetworkAclId($networkAclId)
- * @method string getNetworkAclId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setClientToken($clientToken)
- * @method string getClientToken()
- */
-class UnassociateNetworkAcl extends Request
 {
 
 }/**
@@ -4735,25 +3507,6 @@ class DescribeFlowLogs extends Request
 {
 
 }/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setdata($data)
- * @method string getdata()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setaccess_key_id($access_key_id)
- * @method string getaccess_key_id()
- */
-class VpnGatewayPrepayNotifyPaid extends Request
-{
-
-}/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
  * @method $this setPhysicalConnectionId($physicalConnectionId)
@@ -4770,27 +3523,6 @@ class VpnGatewayPrepayNotifyPaid extends Request
  * @method string getOwnerAccount()
  */
 class CancelPhysicalConnection extends Request
-{
-
-}/**
- * @method $this setVpcId($vpcId)
- * @method string getVpcId()
- * @method $this setNetworkAclName($networkAclName)
- * @method string getNetworkAclName()
- * @method $this setDescription($description)
- * @method string getDescription()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setClientToken($clientToken)
- * @method string getClientToken()
- */
-class CreateNetworkAcl extends Request
 {
 
 }/**
@@ -4877,25 +3609,6 @@ class DescribeGrantRulesToCen extends Request
  * @method string getResourceOwnerAccount()
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setAccessPointId($accessPointId)
- * @method string getAccessPointId()
- * @method $this setPageNumber($pageNumber)
- * @method int getPageNumber()
- * @method $this setPageSize($pageSize)
- * @method int getPageSize()
- */
-class DescribeVBRs extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
  * @method $this setClientToken($clientToken)
@@ -4932,6 +3645,8 @@ class ModifyCommonBandwidthPackageSpec extends Request
 {
 
 }/**
+ * @method $this setTag($tag)
+ * @method array getTag()
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
  * @method $this setResourceOwnerAccount($resourceOwnerAccount)
@@ -4992,29 +3707,6 @@ class DescribeVpnConnection extends Request
  * @method string getSslVpnServerId()
  */
 class DeleteSslVpnServer extends Request
-{
-
-}/**
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setBandwidthPackageId($bandwidthPackageId)
- * @method string getBandwidthPackageId()
- * @method $this setPageNumber($pageNumber)
- * @method int getPageNumber()
- * @method $this setPageSize($pageSize)
- * @method int getPageSize()
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setISP($iSP)
- * @method string getISP()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- */
-class DescribeEipAddressesByBwp extends Request
 {
 
 }/**
@@ -5137,25 +3829,6 @@ class TerminatePhysicalConnection extends Request
 {
 
 }/**
- * @method $this setdata($data)
- * @method string getdata()
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setClientToken($clientToken)
- * @method string getClientToken()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setUserCidr($userCidr)
- * @method string getUserCidr()
- */
-class FillNatGatewayParam extends Request
-{
-
-}/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
  * @method $this setIpv6EgressOnlyRuleId($ipv6EgressOnlyRuleId)
@@ -5201,27 +3874,6 @@ class DeleteIpv6EgressOnlyRule extends Request
  * @method string getOwnerAccount()
  */
 class CreateVSwitch extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setResourceId($resourceId)
- * @method string getResourceId()
- * @method $this setResourceType($resourceType)
- * @method string getResourceType()
- * @method $this setNewResourceGroupId($newResourceGroupId)
- * @method string getNewResourceGroupId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- */
-class MoveResourceGroup extends Request
 {
 
 }/**
@@ -5440,6 +4092,8 @@ class ModifyIPv6TranslatorAttribute extends Request
 {
 
 }/**
+ * @method $this setFilter($filter)
+ * @method array getFilter()
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
  * @method $this setResourceOwnerAccount($resourceOwnerAccount)
@@ -5448,23 +4102,18 @@ class ModifyIPv6TranslatorAttribute extends Request
  * @method int getResourceOwnerId()
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
+ * @method $this setType($type)
+ * @method string getType()
+ * @method $this setName($name)
+ * @method string getName()
+ * @method $this setHostOperator($hostOperator)
+ * @method string getHostOperator()
  * @method $this setPageNumber($pageNumber)
  * @method int getPageNumber()
  * @method $this setPageSize($pageSize)
  * @method int getPageSize()
  */
 class DescribeAccessPoints extends Request
-{
-
-}/**
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setMonth($month)
- * @method string getMonth()
- */
-class DescribeTrafficConsumeByMonth extends Request
 {
 
 }/**
@@ -5611,73 +4260,6 @@ class ModifyIPv6TranslatorEntry extends Request
 {
 
 }/**
- * @method $this setdata($data)
- * @method string getdata()
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setClientToken($clientToken)
- * @method string getClientToken()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setUserCidr($userCidr)
- * @method string getUserCidr()
- */
-class EipFillProduct extends Request
-{
-
-}/**
- * @method $this setdata($data)
- * @method string getdata()
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setClientToken($clientToken)
- * @method string getClientToken()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setUserCidr($userCidr)
- * @method string getUserCidr()
- */
-class CheckBandwidthPackageOrderParam extends Request
-{
-
-}/**
- * @method $this setConfirm($confirm)
- * @method string getConfirm()
- * @method $this setInstanceId($instanceId)
- * @method string getInstanceId()
- * @method $this setDescription($description)
- * @method string getDescription()
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setBandwidth($bandwidth)
- * @method string getBandwidth()
- * @method $this setKbpsBandwidth($kbpsBandwidth)
- * @method string getKbpsBandwidth()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setResourceBid($resourceBid)
- * @method string getResourceBid()
- * @method $this setResourceUid($resourceUid)
- * @method int getResourceUid()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- */
-class InnerVpcConfirmCrossBorderRouterInterface extends Request
-{
-
-}/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
  * @method $this setResourceOwnerAccount($resourceOwnerAccount)
@@ -5692,25 +4274,6 @@ class InnerVpcConfirmCrossBorderRouterInterface extends Request
  * @method string getOwnerAccount()
  */
 class ReleaseEipAddress extends Request
-{
-
-}/**
- * @method $this setdata($data)
- * @method string getdata()
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setClientToken($clientToken)
- * @method string getClientToken()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setUserCidr($userCidr)
- * @method string getUserCidr()
- */
-class RiFillParams extends Request
 {
 
 }/**
@@ -5948,25 +4511,6 @@ class CreateVpnConnection extends Request
 {
 
 }/**
- * @method $this setdata($data)
- * @method string getdata()
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setClientToken($clientToken)
- * @method string getClientToken()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setUserCidr($userCidr)
- * @method string getUserCidr()
- */
-class NotifyProduceCommonBandwidthPackage extends Request
-{
-
-}/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
  * @method $this setOwnerId($ownerId)
@@ -6000,25 +4544,8 @@ class CreateVpnGateway extends Request
 {
 
 }/**
- * @method $this setdata($data)
- * @method string getdata()
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setClientToken($clientToken)
- * @method string getClientToken()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setUserCidr($userCidr)
- * @method string getUserCidr()
- */
-class RiNotifyPaid extends Request
-{
-
-}/**
+ * @method $this setTag($tag)
+ * @method array getTag()
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
  * @method $this setResourceOwnerAccount($resourceOwnerAccount)
@@ -6095,25 +4622,6 @@ class DeleteVpnPbrRouteEntry extends Request
  * @method string getAclId()
  */
 class DeleteIPv6TranslatorAclList extends Request
-{
-
-}/**
- * @method $this setdata($data)
- * @method string getdata()
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setClientToken($clientToken)
- * @method string getClientToken()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setUserCidr($userCidr)
- * @method string getUserCidr()
- */
-class NotifyProduceBandwidthPackage extends Request
 {
 
 }/**
@@ -6249,25 +4757,6 @@ class CreateSslVpnClientCert extends Request
  * @method string getResourceOwnerAccount()
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setdata($data)
- * @method string getdata()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setaccess_key_id($access_key_id)
- * @method string getaccess_key_id()
- */
-class VpnGatewayFillRestrictions extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
  * @method $this setRegionId($regionId)
@@ -6304,33 +4793,6 @@ class CreateHaVip extends Request
 {
 
 }/**
- * @method $this setScope($scope)
- * @method string getScope()
- * @method $this setResourceType($resourceType)
- * @method string getResourceType()
- * @method $this setResourceId($resourceId)
- * @method array getResourceId()
- * @method $this setTag($tag)
- * @method array getTag()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setNextToken($nextToken)
- * @method string getNextToken()
- * @method $this setPageSize($pageSize)
- * @method int getPageSize()
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- */
-class ListTagResources extends Request
-{
-
-}/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
  * @method $this setResourceOwnerAccount($resourceOwnerAccount)
@@ -6364,8 +4826,12 @@ class DeleteSnatEntry extends Request
  * @method string getDestinationCidrBlock()
  * @method $this setNextHopId($nextHopId)
  * @method string getNextHopId()
+ * @method $this setPrivateIpAddress($privateIpAddress)
+ * @method string getPrivateIpAddress()
  * @method $this setClientToken($clientToken)
  * @method string getClientToken()
+ * @method $this setRouteEntryName($routeEntryName)
+ * @method string getRouteEntryName()
  * @method $this setNextHopType($nextHopType)
  * @method string getNextHopType()
  * @method $this setOwnerAccount($ownerAccount)
@@ -6433,31 +4899,6 @@ class ModifyIPv6TranslatorBandwidth extends Request
  * @method int getResourceOwnerId()
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
- * @method $this setInstanceId($instanceId)
- * @method string getInstanceId()
- * @method $this setInstanceType($instanceType)
- * @method string getInstanceType()
- * @method $this setCbnInstanceId($cbnInstanceId)
- * @method string getCbnInstanceId()
- * @method $this setCbnUid($cbnUid)
- * @method int getCbnUid()
- * @method $this setClientToken($clientToken)
- * @method string getClientToken()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- */
-class RevokeInstanceFromCbn extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
  * @method $this setIncludeReservationData($includeReservationData)
  * @method bool getIncludeReservationData()
  * @method $this setPageNumber($pageNumber)
@@ -6489,31 +4930,6 @@ class DescribeRouterInterfaces extends Request
  * @method string getDescription()
  */
 class ModifyNatGatewayAttribute extends Request
-{
-
-}/**
- * @method $this setIngressAclEntries($ingressAclEntries)
- * @method array getIngressAclEntries()
- * @method $this setEgressAclEntries($egressAclEntries)
- * @method array getEgressAclEntries()
- * @method $this setUpdateIngressAclEntries($updateIngressAclEntries)
- * @method bool getUpdateIngressAclEntries()
- * @method $this setUpdateEgressAclEntries($updateEgressAclEntries)
- * @method bool getUpdateEgressAclEntries()
- * @method $this setNetworkAclId($networkAclId)
- * @method string getNetworkAclId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setClientToken($clientToken)
- * @method string getClientToken()
- */
-class UpdateNetworkAclEntries extends Request
 {
 
 }/**

@@ -9,8 +9,6 @@ use aliyun\sdk\core\lib\Request;
  *
  * @package aliyun\sdk\services\CF20151127
  * @method CfAccountQuery CfAccountQuery()
- * @method AccountQuery AccountQuery()
- * @method AccountFeedback AccountFeedback()
  * @method CFMonthlyPayment CFMonthlyPayment()
  * @method CfAccountFeedback CfAccountFeedback()
  * @method Authenticate Authenticate()
@@ -38,46 +36,6 @@ class V20151127
  * @method string getAppToken()
  */
 class CfAccountQuery extends Request
-{
-
-}/**
- * @method $this setAppKey($appKey)
- * @method string getAppKey()
- * @method $this setSceneId($sceneId)
- * @method string getSceneId()
- * @method $this setIp($ip)
- * @method string getIp()
- * @method $this setPhoneNumber($phoneNumber)
- * @method string getPhoneNumber()
- * @method $this setTrans($trans)
- * @method string getTrans()
- * @method $this setTimestamp($timestamp)
- * @method string getTimestamp()
- * @method $this setAppToken($appToken)
- * @method string getAppToken()
- */
-class AccountQuery extends Request
-{
-
-}/**
- * @method $this setAppKey($appKey)
- * @method string getAppKey()
- * @method $this setEventId($eventId)
- * @method string getEventId()
- * @method $this setUserFeedback($userFeedback)
- * @method string getUserFeedback()
- * @method $this setCustomerDecision($customerDecision)
- * @method string getCustomerDecision()
- * @method $this setAliDecision($aliDecision)
- * @method string getAliDecision()
- * @method $this setDenyReason($denyReason)
- * @method string getDenyReason()
- * @method $this setTimeStamp($timeStamp)
- * @method string getTimeStamp()
- * @method $this setAppToken($appToken)
- * @method string getAppToken()
- */
-class AccountFeedback extends Request
 {
 
 }/**

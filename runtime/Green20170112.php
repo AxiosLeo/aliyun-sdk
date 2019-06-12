@@ -8,7 +8,6 @@ use aliyun\sdk\core\lib\Request;
  * Class V20170112
  *
  * @package aliyun\sdk\services\Green20170112
- * @method GetWirelessLicense GetWirelessLicense()
  * @method TextScan TextScan()
  * @method VideoAsyncScan VideoAsyncScan()
  * @method ImageAsyncScanResults ImageAsyncScanResults()
@@ -24,13 +23,6 @@ class V20170112
 }
 
 /**
- * @method $this setAuthKey($authKey)
- * @method string getAuthKey()
- */
-class GetWirelessLicense extends Request
-{
-
-}/**
  * @method $this setClientInfo($clientInfo)
  * @method string getClientInfo()
  */

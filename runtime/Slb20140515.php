@@ -8,118 +8,65 @@ use aliyun\sdk\core\lib\Request;
  * Class V20140515
  *
  * @package aliyun\sdk\services\Slb20140515
- * @method DescribeLoadBalancersRelatedEcs DescribeLoadBalancersRelatedEcs()
  * @method AddBackendServers AddBackendServers()
- * @method SetLoadBalancerAutoReleaseTime SetLoadBalancerAutoReleaseTime()
- * @method InnerSlbReleaseInstance InnerSlbReleaseInstance()
- * @method FillSlbRestrictions FillSlbRestrictions()
  * @method SetLoadBalancerUDPListenerAttribute SetLoadBalancerUDPListenerAttribute()
- * @method DescribeVPCRelatedLoadBalancers DescribeVPCRelatedLoadBalancers()
  * @method SetVServerGroupAttribute SetVServerGroupAttribute()
  * @method UploadServerCertificate UploadServerCertificate()
  * @method RemoveBackendServers RemoveBackendServers()
  * @method RemoveAccessControlListEntry RemoveAccessControlListEntry()
  * @method CreateLoadBalancerHTTPListener CreateLoadBalancerHTTPListener()
  * @method AddTags AddTags()
- * @method CreateProtectedDomain CreateProtectedDomain()
  * @method DescribeLoadBalancerTCPListenerAttribute DescribeLoadBalancerTCPListenerAttribute()
  * @method DescribeMasterSlaveVServerGroupAttribute DescribeMasterSlaveVServerGroupAttribute()
- * @method UntagResources UntagResources()
  * @method CreateRules CreateRules()
  * @method SetRule SetRule()
  * @method RemoveTags RemoveTags()
  * @method DescribeServerCertificates DescribeServerCertificates()
  * @method DeleteServerCertificate DeleteServerCertificate()
  * @method ModifyLoadBalancerPayType ModifyLoadBalancerPayType()
- * @method ModifyProtectedDomainSpec ModifyProtectedDomainSpec()
  * @method DeleteMasterSlaveVServerGroup DeleteMasterSlaveVServerGroup()
- * @method DeleteProtectedDomain DeleteProtectedDomain()
- * @method CreateLoadBalancerPro CreateLoadBalancerPro()
  * @method StartLoadBalancerListener StartLoadBalancerListener()
- * @method DescribeDomainWafBlackList DescribeDomainWafBlackList()
  * @method DeleteAccessControlList DeleteAccessControlList()
  * @method DeleteRules DeleteRules()
  * @method DescribeListenerAccessControlAttribute DescribeListenerAccessControlAttribute()
  * @method ModifyVServerGroupBackendServers ModifyVServerGroupBackendServers()
- * @method DescribeAvailableResource DescribeAvailableResource()
- * @method RemoveDomainCcWhiteList RemoveDomainCcWhiteList()
- * @method DeleteAccessLogsDownloadAttribute DeleteAccessLogsDownloadAttribute()
- * @method SetLogsDownloadStatus SetLogsDownloadStatus()
- * @method DescribeLocations DescribeLocations()
- * @method DescribeServerCertificate DescribeServerCertificate()
- * @method DescribeDomainWafWhiteList DescribeDomainWafWhiteList()
- * @method SetBackendServersAsyn SetBackendServersAsyn()
  * @method SetDomainExtensionAttribute SetDomainExtensionAttribute()
  * @method CreateMasterSlaveVServerGroup CreateMasterSlaveVServerGroup()
  * @method CreateLoadBalancerHTTPSListener CreateLoadBalancerHTTPSListener()
- * @method RemoveDomainCcBlackList RemoveDomainCcBlackList()
- * @method DescribeLoadBalancerSpecs DescribeLoadBalancerSpecs()
- * @method AddDomainWafBlackList AddDomainWafBlackList()
  * @method SetLoadBalancerHTTPSListenerAttribute SetLoadBalancerHTTPSListenerAttribute()
  * @method DescribeCACertificates DescribeCACertificates()
  * @method CreateAccessControlList CreateAccessControlList()
  * @method StopLoadBalancerListener StopLoadBalancerListener()
- * @method FillSlbParams FillSlbParams()
- * @method AddDomainCcWhiteList AddDomainCcWhiteList()
  * @method SetBackendServers SetBackendServers()
- * @method SetHighDefinitionMonitorLogStatus SetHighDefinitionMonitorLogStatus()
- * @method DescribeLoadBalancersPro DescribeLoadBalancersPro()
- * @method DescribeLoadBalancerTCPListenerAttributePro DescribeLoadBalancerTCPListenerAttributePro()
  * @method DescribeLoadBalancerAttribute DescribeLoadBalancerAttribute()
- * @method SetAutoRenewStatus SetAutoRenewStatus()
- * @method AddDomainWafWhiteList AddDomainWafWhiteList()
- * @method AddDomainCcBlackList AddDomainCcBlackList()
  * @method SetServerCertificateName SetServerCertificateName()
- * @method SetNcServers SetNcServers()
- * @method DescribeHighDefinitionMonitorLogAttribute DescribeHighDefinitionMonitorLogAttribute()
  * @method DescribeHealthStatus DescribeHealthStatus()
- * @method DescribeAliCloudCertificates DescribeAliCloudCertificates()
  * @method DescribeVServerGroupAttribute DescribeVServerGroupAttribute()
- * @method RemoveBackendServersAsyn RemoveBackendServersAsyn()
- * @method DescribeIdleInstancesForGlobal DescribeIdleInstancesForGlobal()
- * @method ModifyVServerGroupBackendServersAsyn ModifyVServerGroupBackendServersAsyn()
  * @method DescribeLoadBalancerHTTPSListenerAttribute DescribeLoadBalancerHTTPSListenerAttribute()
- * @method DescribeCertificateRelations DescribeCertificateRelations()
- * @method DescribeLoadBalancerBackendServers DescribeLoadBalancerBackendServers()
  * @method SetAccessControlListAttribute SetAccessControlListAttribute()
  * @method UploadCACertificate UploadCACertificate()
  * @method AddListenerWhiteListItem AddListenerWhiteListItem()
  * @method DescribeAccessControlLists DescribeAccessControlLists()
- * @method ModifyLoadBalancerVPCAddress ModifyLoadBalancerVPCAddress()
  * @method DeleteCACertificate DeleteCACertificate()
- * @method DescribeLoadBalancerAutoReleaseTime DescribeLoadBalancerAutoReleaseTime()
- * @method DescribeProtectedDomain DescribeProtectedDomain()
  * @method CreateLoadBalancerUDPListener CreateLoadBalancerUDPListener()
- * @method SetVServerGroupAttributeAsyn SetVServerGroupAttributeAsyn()
- * @method AddVServerGroupBackendServersAsyn AddVServerGroupBackendServersAsyn()
  * @method DescribeRegions DescribeRegions()
- * @method RemoveDomainWafWhiteList RemoveDomainWafWhiteList()
  * @method DeleteMasterSlaveServerGroup DeleteMasterSlaveServerGroup()
  * @method DescribeLoadBalancerUDPListenerAttribute DescribeLoadBalancerUDPListenerAttribute()
- * @method SetLoadBalancerTCPListenerAttributePro SetLoadBalancerTCPListenerAttributePro()
  * @method ModifyLoadBalancerInstanceSpec ModifyLoadBalancerInstanceSpec()
- * @method RemoveDomainWafBlackList RemoveDomainWafBlackList()
  * @method CreateLoadBalancerTCPListener CreateLoadBalancerTCPListener()
  * @method CreateLoadBalancer CreateLoadBalancer()
- * @method SetLogsDownloadAttribute SetLogsDownloadAttribute()
  * @method AddAccessControlListEntry AddAccessControlListEntry()
  * @method DeleteLoadBalancer DeleteLoadBalancer()
  * @method SetLoadBalancerTCPListenerAttribute SetLoadBalancerTCPListenerAttribute()
- * @method DeleteLogsDownloadAttribute DeleteLogsDownloadAttribute()
- * @method DescribeAccessLogsDownloadAttribute DescribeAccessLogsDownloadAttribute()
  * @method SetLoadBalancerStatus SetLoadBalancerStatus()
  * @method DescribeMasterSlaveServerGroups DescribeMasterSlaveServerGroups()
- * @method EnableVpcVipFlow EnableVpcVipFlow()
  * @method DescribeLoadBalancerHTTPListenerAttribute DescribeLoadBalancerHTTPListenerAttribute()
- * @method TagResources TagResources()
  * @method DescribeMasterSlaveServerGroupAttribute DescribeMasterSlaveServerGroupAttribute()
  * @method SetLoadBalancerName SetLoadBalancerName()
  * @method DescribeVServerGroups DescribeVServerGroups()
  * @method SetListenerAccessControlStatus SetListenerAccessControlStatus()
- * @method AddBackendServersAsyn AddBackendServersAsyn()
  * @method RemoveListenerWhiteListItem RemoveListenerWhiteListItem()
  * @method AddVServerGroupBackendServers AddVServerGroupBackendServers()
- * @method DescribeAsynTaskResult DescribeAsynTaskResult()
  * @method DeleteVServerGroup DeleteVServerGroup()
  * @method DescribeLoadBalancers DescribeLoadBalancers()
  * @method CreateVServerGroup CreateVServerGroup()
@@ -130,34 +77,13 @@ use aliyun\sdk\core\lib\Request;
  * @method CreateDomainExtension CreateDomainExtension()
  * @method DescribeZones DescribeZones()
  * @method DescribeRules DescribeRules()
- * @method RemoveNcServers RemoveNcServers()
- * @method DescribeRealtimeLogs DescribeRealtimeLogs()
  * @method DeleteDomainExtension DeleteDomainExtension()
- * @method DescribeLogsDownloadStatus DescribeLogsDownloadStatus()
  * @method DescribeDomainExtensions DescribeDomainExtensions()
- * @method CheckProductFeatureControl CheckProductFeatureControl()
  * @method ModifyLoadBalancerInternetSpec ModifyLoadBalancerInternetSpec()
  * @method SetLoadBalancerHTTPListenerAttribute SetLoadBalancerHTTPListenerAttribute()
- * @method MoveResourceGroup MoveResourceGroup()
- * @method SetProtectedDomainStatus SetProtectedDomainStatus()
  * @method DescribeAccessControlListAttribute DescribeAccessControlListAttribute()
- * @method AddNcServers AddNcServers()
- * @method SetAccessLogsDownloadAttribute SetAccessLogsDownloadAttribute()
- * @method RemoveVServerGroupBackendServersAsyn RemoveVServerGroupBackendServersAsyn()
- * @method DescribeRegions4Location DescribeRegions4Location()
  * @method DeleteLoadBalancerListener DeleteLoadBalancerListener()
- * @method SetListenerSecurityStatus SetListenerSecurityStatus()
- * @method ProduceSlbInstance ProduceSlbInstance()
- * @method DescribeDomainCcWhiteList DescribeDomainCcWhiteList()
- * @method ProducePrepaidSlbInstance ProducePrepaidSlbInstance()
- * @method CheckSlbOrder CheckSlbOrder()
  * @method CreateMasterSlaveServerGroup CreateMasterSlaveServerGroup()
- * @method ListTagResources ListTagResources()
- * @method DescribeLogsDownloadAttribute DescribeLogsDownloadAttribute()
- * @method DescribeProtectedDomains DescribeProtectedDomains()
- * @method DescribeSlbQuotas DescribeSlbQuotas()
- * @method DescribeDomainCcBlackList DescribeDomainCcBlackList()
- * @method DescribeLoadBalancersEcs DescribeLoadBalancersEcs()
  * @method SetCACertificateName SetCACertificateName()
  */
 class V20140515
@@ -165,27 +91,6 @@ class V20140515
 }
 
 /**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setaccess_key_id($access_key_id)
- * @method string getaccess_key_id()
- * @method $this setTags($tags)
- * @method string getTags()
- * @method $this setLoadBalancerId($loadBalancerId)
- * @method string getLoadBalancerId()
- */
-class DescribeLoadBalancersRelatedEcs extends Request
-{
-
-}/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
  * @method $this setOwnerId($ownerId)
@@ -200,57 +105,12 @@ class DescribeLoadBalancersRelatedEcs extends Request
  * @method string getBackendServers()
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
- */
-class AddBackendServers extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setTags($tags)
- * @method string getTags()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setLoadBalancerId($loadBalancerId)
- * @method string getLoadBalancerId()
- * @method $this setAutoReleaseTime($autoReleaseTime)
- * @method int getAutoReleaseTime()
- */
-class SetLoadBalancerAutoReleaseTime extends Request
-{
-
-}/**
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setdata($data)
- * @method string getdata()
- */
-class InnerSlbReleaseInstance extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setdata($data)
- * @method string getdata()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
  * @method $this setaccess_key_id($access_key_id)
  * @method string getaccess_key_id()
+ * @method $this setTags($tags)
+ * @method string getTags()
  */
-class FillSlbRestrictions extends Request
+class AddBackendServers extends Request
 {
 
 }/**
@@ -270,6 +130,8 @@ class FillSlbRestrictions extends Request
  * @method int getBandwidth()
  * @method $this setScheduler($scheduler)
  * @method string getScheduler()
+ * @method $this setPersistenceTimeout($persistenceTimeout)
+ * @method int getPersistenceTimeout()
  * @method $this setHealthyThreshold($healthyThreshold)
  * @method int getHealthyThreshold()
  * @method $this setUnhealthyThreshold($unhealthyThreshold)
@@ -284,8 +146,14 @@ class FillSlbRestrictions extends Request
  * @method string gethealthCheckReq()
  * @method $this sethealthCheckExp($healthCheckExp)
  * @method string gethealthCheckExp()
+ * @method $this setMaxConnection($maxConnection)
+ * @method int getMaxConnection()
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
+ * @method $this setaccess_key_id($access_key_id)
+ * @method string getaccess_key_id()
+ * @method $this setTags($tags)
+ * @method string getTags()
  * @method $this setVServerGroup($vServerGroup)
  * @method string getVServerGroup()
  * @method $this setVServerGroupId($vServerGroupId)
@@ -300,6 +168,8 @@ class FillSlbRestrictions extends Request
  * @method string getAclType()
  * @method $this setAclStatus($aclStatus)
  * @method string getAclStatus()
+ * @method $this setVpcIds($vpcIds)
+ * @method string getVpcIds()
  * @method $this setDescription($description)
  * @method string getDescription()
  */
@@ -307,41 +177,20 @@ class SetLoadBalancerUDPListenerAttribute extends Request
 {
 
 }/**
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
  * @method $this setResourceOwnerAccount($resourceOwnerAccount)
  * @method string getResourceOwnerAccount()
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
+ * @method $this setRegionId($regionId)
+ * @method string getRegionId()
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
  * @method $this setaccess_key_id($access_key_id)
  * @method string getaccess_key_id()
  * @method $this setTags($tags)
  * @method string getTags()
- * @method $this setVPCID($vPCID)
- * @method string getVPCID()
- * @method $this setPageNumber($pageNumber)
- * @method int getPageNumber()
- * @method $this setPageSize($pageSize)
- * @method int getPageSize()
- */
-class DescribeVPCRelatedLoadBalancers extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
  * @method $this setVServerGroupId($vServerGroupId)
  * @method string getVServerGroupId()
  * @method $this setVServerGroupName($vServerGroupName)
@@ -373,6 +222,10 @@ class SetVServerGroupAttribute extends Request
  * @method string getServerCertificateName()
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
+ * @method $this setaccess_key_id($access_key_id)
+ * @method string getaccess_key_id()
+ * @method $this setTags($tags)
+ * @method string getTags()
  * @method $this setResourceGroupId($resourceGroupId)
  * @method string getResourceGroupId()
  */
@@ -394,6 +247,10 @@ class UploadServerCertificate extends Request
  * @method string getBackendServers()
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
+ * @method $this setaccess_key_id($access_key_id)
+ * @method string getaccess_key_id()
+ * @method $this setTags($tags)
+ * @method string getTags()
  */
 class RemoveBackendServers extends Request
 {
@@ -407,6 +264,10 @@ class RemoveBackendServers extends Request
  * @method int getResourceOwnerId()
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
+ * @method $this setaccess_key_id($access_key_id)
+ * @method string getaccess_key_id()
+ * @method $this setTags($tags)
+ * @method string getTags()
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
  * @method $this setAclId($aclId)
@@ -464,10 +325,16 @@ class RemoveAccessControlListEntry extends Request
  * @method int getHealthCheckInterval()
  * @method $this setHealthCheckHttpCode($healthCheckHttpCode)
  * @method string getHealthCheckHttpCode()
+ * @method $this setMaxConnection($maxConnection)
+ * @method int getMaxConnection()
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
+ * @method $this setaccess_key_id($access_key_id)
+ * @method string getaccess_key_id()
  * @method $this setVServerGroupId($vServerGroupId)
  * @method string getVServerGroupId()
+ * @method $this setTags($tags)
+ * @method string getTags()
  * @method $this setXForwardedFor_SLBIP($xForwardedFor_SLBIP)
  * @method string getXForwardedFor_SLBIP()
  * @method $this setXForwardedFor_SLBID($xForwardedFor_SLBID)
@@ -482,6 +349,8 @@ class RemoveAccessControlListEntry extends Request
  * @method string getAclType()
  * @method $this setAclStatus($aclStatus)
  * @method string getAclStatus()
+ * @method $this setVpcIds($vpcIds)
+ * @method string getVpcIds()
  * @method $this setDescription($description)
  * @method string getDescription()
  * @method $this setListenerForward($listenerForward)
@@ -505,6 +374,8 @@ class CreateLoadBalancerHTTPListener extends Request
  * @method int getResourceOwnerId()
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
+ * @method $this setaccess_key_id($access_key_id)
+ * @method string getaccess_key_id()
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
  * @method $this setLoadBalancerId($loadBalancerId)
@@ -513,29 +384,6 @@ class CreateLoadBalancerHTTPListener extends Request
  * @method string getTags()
  */
 class AddTags extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setDomainName($domainName)
- * @method string getDomainName()
- * @method $this setWafPolicyLevel($wafPolicyLevel)
- * @method string getWafPolicyLevel()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setaccess_key_id($access_key_id)
- * @method string getaccess_key_id()
- * @method $this setTags($tags)
- * @method string getTags()
- */
-class CreateProtectedDomain extends Request
 {
 
 }/**
@@ -553,6 +401,10 @@ class CreateProtectedDomain extends Request
  * @method int getListenerPort()
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
+ * @method $this setaccess_key_id($access_key_id)
+ * @method string getaccess_key_id()
+ * @method $this setTags($tags)
+ * @method string getTags()
  */
 class DescribeLoadBalancerTCPListenerAttribute extends Request
 {
@@ -570,6 +422,8 @@ class DescribeLoadBalancerTCPListenerAttribute extends Request
  * @method string getOwnerAccount()
  * @method $this setaccess_key_id($access_key_id)
  * @method string getaccess_key_id()
+ * @method $this setTags($tags)
+ * @method string getTags()
  * @method $this setMasterSlaveVServerGroupId($masterSlaveVServerGroupId)
  * @method string getMasterSlaveVServerGroupId()
  */
@@ -583,33 +437,14 @@ class DescribeMasterSlaveVServerGroupAttribute extends Request
  * @method string getResourceOwnerAccount()
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setResourceType($resourceType)
- * @method string getResourceType()
- * @method $this setResourceId($resourceId)
- * @method array getResourceId()
- * @method $this setTagKey($tagKey)
- * @method array getTagKey()
- * @method $this setAll($all)
- * @method bool getAll()
- */
-class UntagResources extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
+ * @method $this setaccess_key_id($access_key_id)
+ * @method string getaccess_key_id()
+ * @method $this setTags($tags)
+ * @method string getTags()
  * @method $this setLoadBalancerId($loadBalancerId)
  * @method string getLoadBalancerId()
  * @method $this setListenerPort($listenerPort)
@@ -633,6 +468,10 @@ class CreateRules extends Request
  * @method string getRegionId()
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
+ * @method $this setaccess_key_id($access_key_id)
+ * @method string getaccess_key_id()
+ * @method $this setTags($tags)
+ * @method string getTags()
  * @method $this setRuleId($ruleId)
  * @method string getRuleId()
  * @method $this setVServerGroupId($vServerGroupId)
@@ -682,6 +521,8 @@ class SetRule extends Request
  * @method int getResourceOwnerId()
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
+ * @method $this setaccess_key_id($access_key_id)
+ * @method string getaccess_key_id()
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
  * @method $this setLoadBalancerId($loadBalancerId)
@@ -705,8 +546,14 @@ class RemoveTags extends Request
  * @method string getServerCertificateId()
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
+ * @method $this setaccess_key_id($access_key_id)
+ * @method string getaccess_key_id()
+ * @method $this setTags($tags)
+ * @method string getTags()
  * @method $this setResourceGroupId($resourceGroupId)
  * @method string getResourceGroupId()
+ * @method $this setTag($tag)
+ * @method array getTag()
  */
 class DescribeServerCertificates extends Request
 {
@@ -724,6 +571,10 @@ class DescribeServerCertificates extends Request
  * @method string getServerCertificateId()
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
+ * @method $this setaccess_key_id($access_key_id)
+ * @method string getaccess_key_id()
+ * @method $this setTags($tags)
+ * @method string getTags()
  */
 class DeleteServerCertificate extends Request
 {
@@ -739,6 +590,10 @@ class DeleteServerCertificate extends Request
  * @method string getRegionId()
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
+ * @method $this setaccess_key_id($access_key_id)
+ * @method string getaccess_key_id()
+ * @method $this setTags($tags)
+ * @method string getTags()
  * @method $this setLoadBalancerId($loadBalancerId)
  * @method string getLoadBalancerId()
  * @method $this setPayType($payType)
@@ -762,123 +617,16 @@ class ModifyLoadBalancerPayType extends Request
  * @method int getResourceOwnerId()
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
- * @method $this setDomainName($domainName)
- * @method string getDomainName()
- * @method $this setWafPolicyLevel($wafPolicyLevel)
- * @method string getWafPolicyLevel()
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
  * @method $this setaccess_key_id($access_key_id)
  * @method string getaccess_key_id()
  * @method $this setTags($tags)
  * @method string getTags()
- */
-class ModifyProtectedDomainSpec extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setaccess_key_id($access_key_id)
- * @method string getaccess_key_id()
  * @method $this setMasterSlaveVServerGroupId($masterSlaveVServerGroupId)
  * @method string getMasterSlaveVServerGroupId()
  */
 class DeleteMasterSlaveVServerGroup extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setDomainName($domainName)
- * @method string getDomainName()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setaccess_key_id($access_key_id)
- * @method string getaccess_key_id()
- * @method $this setTags($tags)
- * @method string getTags()
- */
-class DeleteProtectedDomain extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setAddressType($addressType)
- * @method string getAddressType()
- * @method $this setInternetChargeType($internetChargeType)
- * @method string getInternetChargeType()
- * @method $this setBandwidth($bandwidth)
- * @method int getBandwidth()
- * @method $this setClientToken($clientToken)
- * @method string getClientToken()
- * @method $this setLoadBalancerName($loadBalancerName)
- * @method string getLoadBalancerName()
- * @method $this setLoadBalancerMode($loadBalancerMode)
- * @method string getLoadBalancerMode()
- * @method $this setAddress($address)
- * @method string getAddress()
- * @method $this setVpcId($vpcId)
- * @method string getVpcId()
- * @method $this setVSwitchId($vSwitchId)
- * @method string getVSwitchId()
- * @method $this setSuName($suName)
- * @method string getSuName()
- * @method $this setCidrType($cidrType)
- * @method string getCidrType()
- * @method $this setTunnelType($tunnelType)
- * @method string getTunnelType()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setMasterZoneId($masterZoneId)
- * @method string getMasterZoneId()
- * @method $this setSlaveZoneId($slaveZoneId)
- * @method string getSlaveZoneId()
- * @method $this setaccess_key_id($access_key_id)
- * @method string getaccess_key_id()
- * @method $this setTags($tags)
- * @method string getTags()
- * @method $this setEnableVpcVipFlow($enableVpcVipFlow)
- * @method string getEnableVpcVipFlow()
- * @method $this setLoadBalancerSpec($loadBalancerSpec)
- * @method string getLoadBalancerSpec()
- * @method $this setResourceGroupId($resourceGroupId)
- * @method string getResourceGroupId()
- * @method $this setPayType($payType)
- * @method string getPayType()
- * @method $this setPricingCycle($pricingCycle)
- * @method string getPricingCycle()
- * @method $this setDuration($duration)
- * @method int getDuration()
- * @method $this setAddressIPVersion($addressIPVersion)
- * @method string getAddressIPVersion()
- * @method $this setAutoPay($autoPay)
- * @method bool getAutoPay()
- * @method $this setRatio($ratio)
- * @method int getRatio()
- */
-class CreateLoadBalancerPro extends Request
 {
 
 }/**
@@ -896,8 +644,12 @@ class CreateLoadBalancerPro extends Request
  * @method int getListenerPort()
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
+ * @method $this setaccess_key_id($access_key_id)
+ * @method string getaccess_key_id()
  * @method $this setListenerProtocol($listenerProtocol)
  * @method string getListenerProtocol()
+ * @method $this setTags($tags)
+ * @method string getTags()
  */
 class StartLoadBalancerListener extends Request
 {
@@ -909,29 +661,12 @@ class StartLoadBalancerListener extends Request
  * @method string getResourceOwnerAccount()
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setDomainName($domainName)
- * @method string getDomainName()
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
  * @method $this setaccess_key_id($access_key_id)
  * @method string getaccess_key_id()
  * @method $this setTags($tags)
  * @method string getTags()
- */
-class DescribeDomainWafBlackList extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
  * @method $this setAclId($aclId)
@@ -951,6 +686,10 @@ class DeleteAccessControlList extends Request
  * @method string getRegionId()
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
+ * @method $this setaccess_key_id($access_key_id)
+ * @method string getaccess_key_id()
+ * @method $this setTags($tags)
+ * @method string getTags()
  * @method $this setRuleIds($ruleIds)
  * @method string getRuleIds()
  */
@@ -974,6 +713,10 @@ class DeleteRules extends Request
  * @method string getListenerProtocol()
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
+ * @method $this setaccess_key_id($access_key_id)
+ * @method string getaccess_key_id()
+ * @method $this setTags($tags)
+ * @method string getTags()
  */
 class DescribeListenerAccessControlAttribute extends Request
 {
@@ -989,6 +732,10 @@ class DescribeListenerAccessControlAttribute extends Request
  * @method string getRegionId()
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
+ * @method $this setaccess_key_id($access_key_id)
+ * @method string getaccess_key_id()
+ * @method $this setTags($tags)
+ * @method string getTags()
  * @method $this setVServerGroupId($vServerGroupId)
  * @method string getVServerGroupId()
  * @method $this setOldBackendServers($oldBackendServers)
@@ -1006,69 +753,6 @@ class ModifyVServerGroupBackendServers extends Request
  * @method string getResourceOwnerAccount()
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setAddressType($addressType)
- * @method string getAddressType()
- * @method $this setAddressIPVersion($addressIPVersion)
- * @method string getAddressIPVersion()
- */
-class DescribeAvailableResource extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setDomainName($domainName)
- * @method string getDomainName()
- * @method $this setList($list)
- * @method string getList()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setaccess_key_id($access_key_id)
- * @method string getaccess_key_id()
- * @method $this setTags($tags)
- * @method string getTags()
- */
-class RemoveDomainCcWhiteList extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setTags($tags)
- * @method string getTags()
- * @method $this setLoadBalancerId($loadBalancerId)
- * @method string getLoadBalancerId()
- * @method $this setLogsDownloadAttributes($logsDownloadAttributes)
- * @method string getLogsDownloadAttributes()
- */
-class DeleteAccessLogsDownloadAttribute extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
  * @method $this setOwnerAccount($ownerAccount)
@@ -1077,113 +761,6 @@ class DeleteAccessLogsDownloadAttribute extends Request
  * @method string getaccess_key_id()
  * @method $this setTags($tags)
  * @method string getTags()
- * @method $this setLogsDownloadStatus($logsDownloadStatus)
- * @method string getLogsDownloadStatus()
- * @method $this setRoleName($roleName)
- * @method string getRoleName()
- */
-class SetLogsDownloadStatus extends Request
-{
-
-}/**
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setaccess_key_id($access_key_id)
- * @method string getaccess_key_id()
- * @method $this setNamespace($namespace)
- * @method string getNamespace()
- * @method $this setNamespaceUid($namespaceUid)
- * @method string getNamespaceUid()
- * @method $this setTags($tags)
- * @method string getTags()
- */
-class DescribeLocations extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setServerCertificateId($serverCertificateId)
- * @method string getServerCertificateId()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setaccess_key_id($access_key_id)
- * @method string getaccess_key_id()
- * @method $this setTags($tags)
- * @method string getTags()
- */
-class DescribeServerCertificate extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setDomainName($domainName)
- * @method string getDomainName()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setaccess_key_id($access_key_id)
- * @method string getaccess_key_id()
- * @method $this setTags($tags)
- * @method string getTags()
- */
-class DescribeDomainWafWhiteList extends Request
-{
-
-}/**
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setLoadBalancerId($loadBalancerId)
- * @method string getLoadBalancerId()
- * @method $this setClientToken($clientToken)
- * @method string getClientToken()
- * @method $this setBackendServers($backendServers)
- * @method string getBackendServers()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setTags($tags)
- * @method string getTags()
- */
-class SetBackendServersAsyn extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
  * @method $this setDomainExtensionId($domainExtensionId)
  * @method string getDomainExtensionId()
  * @method $this setServerCertificateId($serverCertificateId)
@@ -1205,6 +782,8 @@ class SetDomainExtensionAttribute extends Request
  * @method string getOwnerAccount()
  * @method $this setaccess_key_id($access_key_id)
  * @method string getaccess_key_id()
+ * @method $this setTags($tags)
+ * @method string getTags()
  * @method $this setLoadBalancerId($loadBalancerId)
  * @method string getLoadBalancerId()
  * @method $this setMasterSlaveVServerGroupName($masterSlaveVServerGroupName)
@@ -1264,12 +843,18 @@ class CreateMasterSlaveVServerGroup extends Request
  * @method string getHealthCheckHttpCode()
  * @method $this setServerCertificateId($serverCertificateId)
  * @method string getServerCertificateId()
+ * @method $this setMaxConnection($maxConnection)
+ * @method int getMaxConnection()
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
+ * @method $this setaccess_key_id($access_key_id)
+ * @method string getaccess_key_id()
  * @method $this setVServerGroupId($vServerGroupId)
  * @method string getVServerGroupId()
  * @method $this setCACertificateId($cACertificateId)
  * @method string getCACertificateId()
+ * @method $this setTags($tags)
+ * @method string getTags()
  * @method $this setXForwardedFor_SLBIP($xForwardedFor_SLBIP)
  * @method string getXForwardedFor_SLBIP()
  * @method $this setXForwardedFor_SLBID($xForwardedFor_SLBID)
@@ -1284,6 +869,8 @@ class CreateMasterSlaveVServerGroup extends Request
  * @method string getAclType()
  * @method $this setAclStatus($aclStatus)
  * @method string getAclStatus()
+ * @method $this setVpcIds($vpcIds)
+ * @method string getVpcIds()
  * @method $this setDescription($description)
  * @method string getDescription()
  * @method $this setIdleTimeout($idleTimeout)
@@ -1296,69 +883,6 @@ class CreateMasterSlaveVServerGroup extends Request
  * @method string getTLSCipherPolicy()
  */
 class CreateLoadBalancerHTTPSListener extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setDomainName($domainName)
- * @method string getDomainName()
- * @method $this setList($list)
- * @method string getList()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setaccess_key_id($access_key_id)
- * @method string getaccess_key_id()
- * @method $this setTags($tags)
- * @method string getTags()
- */
-class RemoveDomainCcBlackList extends Request
-{
-
-}/**
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setTags($tags)
- * @method string getTags()
- */
-class DescribeLoadBalancerSpecs extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setDomainName($domainName)
- * @method string getDomainName()
- * @method $this setList($list)
- * @method string getList()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setaccess_key_id($access_key_id)
- * @method string getaccess_key_id()
- * @method $this setTags($tags)
- * @method string getTags()
- */
-class AddDomainWafBlackList extends Request
 {
 
 }/**
@@ -1406,8 +930,12 @@ class AddDomainWafBlackList extends Request
  * @method int getHealthCheckConnectPort()
  * @method $this setHealthCheckHttpCode($healthCheckHttpCode)
  * @method string getHealthCheckHttpCode()
+ * @method $this setMaxConnection($maxConnection)
+ * @method int getMaxConnection()
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
+ * @method $this setaccess_key_id($access_key_id)
+ * @method string getaccess_key_id()
  * @method $this setServerCertificateId($serverCertificateId)
  * @method string getServerCertificateId()
  * @method $this setCACertificateId($cACertificateId)
@@ -1416,6 +944,8 @@ class AddDomainWafBlackList extends Request
  * @method string getVServerGroup()
  * @method $this setVServerGroupId($vServerGroupId)
  * @method string getVServerGroupId()
+ * @method $this setTags($tags)
+ * @method string getTags()
  * @method $this setXForwardedFor_SLBIP($xForwardedFor_SLBIP)
  * @method string getXForwardedFor_SLBIP()
  * @method $this setXForwardedFor_SLBID($xForwardedFor_SLBID)
@@ -1430,6 +960,8 @@ class AddDomainWafBlackList extends Request
  * @method string getAclType()
  * @method $this setAclStatus($aclStatus)
  * @method string getAclStatus()
+ * @method $this setVpcIds($vpcIds)
+ * @method string getVpcIds()
  * @method $this setIdleTimeout($idleTimeout)
  * @method int getIdleTimeout()
  * @method $this setRequestTimeout($requestTimeout)
@@ -1453,12 +985,16 @@ class SetLoadBalancerHTTPSListenerAttribute extends Request
  * @method int getResourceOwnerId()
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
+ * @method $this setaccess_key_id($access_key_id)
+ * @method string getaccess_key_id()
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
  * @method $this setCACertificateId($cACertificateId)
  * @method string getCACertificateId()
  * @method $this setResourceGroupId($resourceGroupId)
  * @method string getResourceGroupId()
+ * @method $this setTag($tag)
+ * @method array getTag()
  */
 class DescribeCACertificates extends Request
 {
@@ -1472,6 +1008,10 @@ class DescribeCACertificates extends Request
  * @method int getResourceOwnerId()
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
+ * @method $this setaccess_key_id($access_key_id)
+ * @method string getaccess_key_id()
+ * @method $this setTags($tags)
+ * @method string getTags()
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
  * @method $this setAclName($aclName)
@@ -1499,52 +1039,14 @@ class CreateAccessControlList extends Request
  * @method int getListenerPort()
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
+ * @method $this setaccess_key_id($access_key_id)
+ * @method string getaccess_key_id()
  * @method $this setListenerProtocol($listenerProtocol)
  * @method string getListenerProtocol()
- */
-class StopLoadBalancerListener extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setdata($data)
- * @method string getdata()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setaccess_key_id($access_key_id)
- * @method string getaccess_key_id()
- */
-class FillSlbParams extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setDomainName($domainName)
- * @method string getDomainName()
- * @method $this setList($list)
- * @method string getList()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setaccess_key_id($access_key_id)
- * @method string getaccess_key_id()
  * @method $this setTags($tags)
  * @method string getTags()
  */
-class AddDomainCcWhiteList extends Request
+class StopLoadBalancerListener extends Request
 {
 
 }/**
@@ -1562,195 +1064,35 @@ class AddDomainCcWhiteList extends Request
  * @method string getBackendServers()
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
+ * @method $this setaccess_key_id($access_key_id)
+ * @method string getaccess_key_id()
+ * @method $this setTags($tags)
+ * @method string getTags()
  */
 class SetBackendServers extends Request
 {
 
 }/**
+ * @method $this setRegionId($regionId)
+ * @method string getRegionId()
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
  * @method $this setResourceOwnerAccount($resourceOwnerAccount)
  * @method string getResourceOwnerAccount()
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
+ * @method $this setLoadBalancerId($loadBalancerId)
+ * @method string getLoadBalancerId()
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
+ * @method $this setaccess_key_id($access_key_id)
+ * @method string getaccess_key_id()
  * @method $this setTags($tags)
  * @method string getTags()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setLoadBalancerId($loadBalancerId)
- * @method string getLoadBalancerId()
- * @method $this setLogProject($logProject)
- * @method string getLogProject()
- * @method $this setLogStore($logStore)
- * @method string getLogStore()
- * @method $this setLogType($logType)
- * @method string getLogType()
- * @method $this setStatus($status)
- * @method string getStatus()
- */
-class SetHighDefinitionMonitorLogStatus extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setServerId($serverId)
- * @method string getServerId()
- * @method $this setLoadBalancerId($loadBalancerId)
- * @method string getLoadBalancerId()
- * @method $this setLoadBalancerName($loadBalancerName)
- * @method string getLoadBalancerName()
- * @method $this setServerIntranetAddress($serverIntranetAddress)
- * @method string getServerIntranetAddress()
- * @method $this setAddressType($addressType)
- * @method string getAddressType()
- * @method $this setInternetChargeType($internetChargeType)
- * @method string getInternetChargeType()
- * @method $this setVpcId($vpcId)
- * @method string getVpcId()
- * @method $this setVSwitchId($vSwitchId)
- * @method string getVSwitchId()
- * @method $this setNetworkType($networkType)
- * @method string getNetworkType()
- * @method $this setAddress($address)
- * @method string getAddress()
- * @method $this setMasterZoneId($masterZoneId)
- * @method string getMasterZoneId()
- * @method $this setSlaveZoneId($slaveZoneId)
- * @method string getSlaveZoneId()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setTags($tags)
- * @method string getTags()
- * @method $this setPayType($payType)
- * @method string getPayType()
- * @method $this setResourceGroupId($resourceGroupId)
- * @method string getResourceGroupId()
- * @method $this setPageNumber($pageNumber)
- * @method int getPageNumber()
- * @method $this setPageSize($pageSize)
- * @method int getPageSize()
- * @method $this setFilterFuzzyMode($filterFuzzyMode)
- * @method string getFilterFuzzyMode()
- */
-class DescribeLoadBalancersPro extends Request
-{
-
-}/**
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setLoadBalancerId($loadBalancerId)
- * @method string getLoadBalancerId()
- * @method $this setListenerPort($listenerPort)
- * @method int getListenerPort()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setTags($tags)
- * @method string getTags()
- */
-class DescribeLoadBalancerTCPListenerAttributePro extends Request
-{
-
-}/**
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setLoadBalancerId($loadBalancerId)
- * @method string getLoadBalancerId()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
+ * @method $this setIncludeReservedData($includeReservedData)
+ * @method bool getIncludeReservedData()
  */
 class DescribeLoadBalancerAttribute extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setTags($tags)
- * @method string getTags()
- * @method $this setLoadBalancerId($loadBalancerId)
- * @method string getLoadBalancerId()
- * @method $this setRenewalDuration($renewalDuration)
- * @method int getRenewalDuration()
- * @method $this setRenewalCycUnit($renewalCycUnit)
- * @method string getRenewalCycUnit()
- * @method $this setRenewalStatus($renewalStatus)
- * @method string getRenewalStatus()
- */
-class SetAutoRenewStatus extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setDomainName($domainName)
- * @method string getDomainName()
- * @method $this setList($list)
- * @method string getList()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setaccess_key_id($access_key_id)
- * @method string getaccess_key_id()
- * @method $this setTags($tags)
- * @method string getTags()
- */
-class AddDomainWafWhiteList extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setDomainName($domainName)
- * @method string getDomainName()
- * @method $this setList($list)
- * @method string getList()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setaccess_key_id($access_key_id)
- * @method string getaccess_key_id()
- * @method $this setTags($tags)
- * @method string getTags()
- */
-class AddDomainCcBlackList extends Request
 {
 
 }/**
@@ -1768,52 +1110,12 @@ class AddDomainCcBlackList extends Request
  * @method string getServerCertificateName()
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
- */
-class SetServerCertificateName extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setLoadBalancerId($loadBalancerId)
- * @method string getLoadBalancerId()
- * @method $this setHostEcsInstanceId($hostEcsInstanceId)
- * @method string getHostEcsInstanceId()
- * @method $this setBackendServers($backendServers)
- * @method string getBackendServers()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
  * @method $this setaccess_key_id($access_key_id)
  * @method string getaccess_key_id()
  * @method $this setTags($tags)
  * @method string getTags()
  */
-class SetNcServers extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setTags($tags)
- * @method string getTags()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setLoadBalancerId($loadBalancerId)
- * @method string getLoadBalancerId()
- */
-class DescribeHighDefinitionMonitorLogAttribute extends Request
+class SetServerCertificateName extends Request
 {
 
 }/**
@@ -1829,6 +1131,10 @@ class DescribeHighDefinitionMonitorLogAttribute extends Request
  * @method int getListenerPort()
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
+ * @method $this setaccess_key_id($access_key_id)
+ * @method string getaccess_key_id()
+ * @method $this setTags($tags)
+ * @method string getTags()
  * @method $this setListenerProtocol($listenerProtocol)
  * @method string getListenerProtocol()
  * @method $this setRegionId($regionId)
@@ -1844,27 +1150,14 @@ class DescribeHealthStatus extends Request
  * @method string getResourceOwnerAccount()
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
+ * @method $this setRegionId($regionId)
+ * @method string getRegionId()
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
  * @method $this setaccess_key_id($access_key_id)
  * @method string getaccess_key_id()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- */
-class DescribeAliCloudCertificates extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
+ * @method $this setTags($tags)
+ * @method string getTags()
  * @method $this setVServerGroupId($vServerGroupId)
  * @method string getVServerGroupId()
  */
@@ -1882,73 +1175,14 @@ class DescribeVServerGroupAttribute extends Request
  * @method int getResourceOwnerId()
  * @method $this setLoadBalancerId($loadBalancerId)
  * @method string getLoadBalancerId()
- * @method $this setBackendServers($backendServers)
- * @method string getBackendServers()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setTags($tags)
- * @method string getTags()
- */
-class RemoveBackendServersAsyn extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setaccess_key_id($access_key_id)
- * @method string getaccess_key_id()
- * @method $this setOnlyAmount($onlyAmount)
- * @method bool getOnlyAmount()
- */
-class DescribeIdleInstancesForGlobal extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setTags($tags)
- * @method string getTags()
- * @method $this setVServerGroupId($vServerGroupId)
- * @method string getVServerGroupId()
- * @method $this setOldBackendServers($oldBackendServers)
- * @method string getOldBackendServers()
- * @method $this setNewBackendServers($newBackendServers)
- * @method string getNewBackendServers()
- */
-class ModifyVServerGroupBackendServersAsyn extends Request
-{
-
-}/**
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setLoadBalancerId($loadBalancerId)
- * @method string getLoadBalancerId()
  * @method $this setListenerPort($listenerPort)
  * @method int getListenerPort()
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
+ * @method $this setaccess_key_id($access_key_id)
+ * @method string getaccess_key_id()
+ * @method $this setTags($tags)
+ * @method string getTags()
  */
 class DescribeLoadBalancerHTTPSListenerAttribute extends Request
 {
@@ -1960,52 +1194,12 @@ class DescribeLoadBalancerHTTPSListenerAttribute extends Request
  * @method string getResourceOwnerAccount()
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setCertificateId($certificateId)
- * @method string getCertificateId()
- * @method $this setCertType($certType)
- * @method string getCertType()
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
+ * @method $this setaccess_key_id($access_key_id)
+ * @method string getaccess_key_id()
  * @method $this setTags($tags)
  * @method string getTags()
- */
-class DescribeCertificateRelations extends Request
-{
-
-}/**
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setLoadBalancerId($loadBalancerId)
- * @method string getLoadBalancerId()
- * @method $this setEcsInstances($ecsInstances)
- * @method string getEcsInstances()
- * @method $this setVServerGroupId($vServerGroupId)
- * @method string getVServerGroupId()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setTags($tags)
- * @method string getTags()
- */
-class DescribeLoadBalancerBackendServers extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
  * @method $this setAclId($aclId)
@@ -2025,6 +1219,8 @@ class SetAccessControlListAttribute extends Request
  * @method int getResourceOwnerId()
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
+ * @method $this setaccess_key_id($access_key_id)
+ * @method string getaccess_key_id()
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
  * @method $this setCACertificate($cACertificate)
@@ -2054,8 +1250,12 @@ class UploadCACertificate extends Request
  * @method string getSourceItems()
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
+ * @method $this setaccess_key_id($access_key_id)
+ * @method string getaccess_key_id()
  * @method $this setListenerProtocol($listenerProtocol)
  * @method string getListenerProtocol()
+ * @method $this setTags($tags)
+ * @method string getTags()
  */
 class AddListenerWhiteListItem extends Request
 {
@@ -2069,6 +1269,10 @@ class AddListenerWhiteListItem extends Request
  * @method int getResourceOwnerId()
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
+ * @method $this setaccess_key_id($access_key_id)
+ * @method string getaccess_key_id()
+ * @method $this setTags($tags)
+ * @method string getTags()
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
  * @method $this setAclName($aclName)
@@ -2081,13 +1285,13 @@ class AddListenerWhiteListItem extends Request
  * @method int getPageNumber()
  * @method $this setResourceGroupId($resourceGroupId)
  * @method string getResourceGroupId()
+ * @method $this setTag($tag)
+ * @method array getTag()
  */
 class DescribeAccessControlLists extends Request
 {
 
 }/**
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
  * @method $this setResourceOwnerAccount($resourceOwnerAccount)
@@ -2096,71 +1300,14 @@ class DescribeAccessControlLists extends Request
  * @method int getResourceOwnerId()
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
- * @method $this setTags($tags)
- * @method string getTags()
- * @method $this setLoadBalancerId($loadBalancerId)
- * @method string getLoadBalancerId()
- * @method $this setAddress($address)
- * @method string getAddress()
- */
-class ModifyLoadBalancerVPCAddress extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
+ * @method $this setaccess_key_id($access_key_id)
+ * @method string getaccess_key_id()
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
  * @method $this setCACertificateId($cACertificateId)
  * @method string getCACertificateId()
  */
 class DeleteCACertificate extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setTags($tags)
- * @method string getTags()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setLoadBalancerId($loadBalancerId)
- * @method string getLoadBalancerId()
- */
-class DescribeLoadBalancerAutoReleaseTime extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setDomainName($domainName)
- * @method string getDomainName()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setaccess_key_id($access_key_id)
- * @method string getaccess_key_id()
- * @method $this setTags($tags)
- * @method string getTags()
- */
-class DescribeProtectedDomain extends Request
 {
 
 }/**
@@ -2182,6 +1329,8 @@ class DescribeProtectedDomain extends Request
  * @method int getBandwidth()
  * @method $this setScheduler($scheduler)
  * @method string getScheduler()
+ * @method $this setPersistenceTimeout($persistenceTimeout)
+ * @method int getPersistenceTimeout()
  * @method $this setHealthyThreshold($healthyThreshold)
  * @method int getHealthyThreshold()
  * @method $this setUnhealthyThreshold($unhealthyThreshold)
@@ -2196,68 +1345,30 @@ class DescribeProtectedDomain extends Request
  * @method string gethealthCheckReq()
  * @method $this sethealthCheckExp($healthCheckExp)
  * @method string gethealthCheckExp()
+ * @method $this setMaxConnection($maxConnection)
+ * @method int getMaxConnection()
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
+ * @method $this setaccess_key_id($access_key_id)
+ * @method string getaccess_key_id()
  * @method $this setVServerGroupId($vServerGroupId)
  * @method string getVServerGroupId()
  * @method $this setMasterSlaveServerGroupId($masterSlaveServerGroupId)
  * @method string getMasterSlaveServerGroupId()
+ * @method $this setTags($tags)
+ * @method string getTags()
  * @method $this setAclId($aclId)
  * @method string getAclId()
  * @method $this setAclType($aclType)
  * @method string getAclType()
  * @method $this setAclStatus($aclStatus)
  * @method string getAclStatus()
+ * @method $this setVpcIds($vpcIds)
+ * @method string getVpcIds()
  * @method $this setDescription($description)
  * @method string getDescription()
  */
 class CreateLoadBalancerUDPListener extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setTags($tags)
- * @method string getTags()
- * @method $this setVServerGroupId($vServerGroupId)
- * @method string getVServerGroupId()
- * @method $this setVServerGroupName($vServerGroupName)
- * @method string getVServerGroupName()
- * @method $this setBackendServers($backendServers)
- * @method string getBackendServers()
- */
-class SetVServerGroupAttributeAsyn extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setClientToken($clientToken)
- * @method string getClientToken()
- * @method $this setTags($tags)
- * @method string getTags()
- * @method $this setVServerGroupId($vServerGroupId)
- * @method string getVServerGroupId()
- * @method $this setBackendServers($backendServers)
- * @method string getBackendServers()
- */
-class AddVServerGroupBackendServersAsyn extends Request
 {
 
 }/**
@@ -2273,6 +1384,10 @@ class AddVServerGroupBackendServersAsyn extends Request
  * @method int getResourceOwnerId()
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
+ * @method $this setaccess_key_id($access_key_id)
+ * @method string getaccess_key_id()
+ * @method $this setTags($tags)
+ * @method string getTags()
  */
 class DescribeRegions extends Request
 {
@@ -2286,31 +1401,12 @@ class DescribeRegions extends Request
  * @method int getResourceOwnerId()
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
- * @method $this setDomainName($domainName)
- * @method string getDomainName()
- * @method $this setList($list)
- * @method string getList()
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
  * @method $this setaccess_key_id($access_key_id)
  * @method string getaccess_key_id()
  * @method $this setTags($tags)
  * @method string getTags()
- */
-class RemoveDomainWafWhiteList extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
  * @method $this setMasterSlaveServerGroupId($masterSlaveServerGroupId)
  * @method string getMasterSlaveServerGroupId()
  */
@@ -2332,8 +1428,205 @@ class DeleteMasterSlaveServerGroup extends Request
  * @method int getListenerPort()
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
+ * @method $this setaccess_key_id($access_key_id)
+ * @method string getaccess_key_id()
+ * @method $this setTags($tags)
+ * @method string getTags()
  */
 class DescribeLoadBalancerUDPListenerAttribute extends Request
+{
+
+}/**
+ * @method $this setRegionId($regionId)
+ * @method string getRegionId()
+ * @method $this setOwnerId($ownerId)
+ * @method int getOwnerId()
+ * @method $this setResourceOwnerAccount($resourceOwnerAccount)
+ * @method string getResourceOwnerAccount()
+ * @method $this setResourceOwnerId($resourceOwnerId)
+ * @method int getResourceOwnerId()
+ * @method $this setLoadBalancerId($loadBalancerId)
+ * @method string getLoadBalancerId()
+ * @method $this setOwnerAccount($ownerAccount)
+ * @method string getOwnerAccount()
+ * @method $this setaccess_key_id($access_key_id)
+ * @method string getaccess_key_id()
+ * @method $this setTags($tags)
+ * @method string getTags()
+ * @method $this setLoadBalancerSpec($loadBalancerSpec)
+ * @method string getLoadBalancerSpec()
+ * @method $this setAutoPay($autoPay)
+ * @method bool getAutoPay()
+ */
+class ModifyLoadBalancerInstanceSpec extends Request
+{
+
+}/**
+ * @method $this setRegionId($regionId)
+ * @method string getRegionId()
+ * @method $this setOwnerId($ownerId)
+ * @method int getOwnerId()
+ * @method $this setResourceOwnerAccount($resourceOwnerAccount)
+ * @method string getResourceOwnerAccount()
+ * @method $this setResourceOwnerId($resourceOwnerId)
+ * @method int getResourceOwnerId()
+ * @method $this setLoadBalancerId($loadBalancerId)
+ * @method string getLoadBalancerId()
+ * @method $this setListenerPort($listenerPort)
+ * @method int getListenerPort()
+ * @method $this setBackendServerPort($backendServerPort)
+ * @method int getBackendServerPort()
+ * @method $this setBandwidth($bandwidth)
+ * @method int getBandwidth()
+ * @method $this setScheduler($scheduler)
+ * @method string getScheduler()
+ * @method $this setPersistenceTimeout($persistenceTimeout)
+ * @method int getPersistenceTimeout()
+ * @method $this setEstablishedTimeout($establishedTimeout)
+ * @method int getEstablishedTimeout()
+ * @method $this setHealthyThreshold($healthyThreshold)
+ * @method int getHealthyThreshold()
+ * @method $this setUnhealthyThreshold($unhealthyThreshold)
+ * @method int getUnhealthyThreshold()
+ * @method $this setHealthCheckConnectTimeout($healthCheckConnectTimeout)
+ * @method int getHealthCheckConnectTimeout()
+ * @method $this setHealthCheckConnectPort($healthCheckConnectPort)
+ * @method int getHealthCheckConnectPort()
+ * @method $this sethealthCheckInterval($healthCheckInterval)
+ * @method int gethealthCheckInterval()
+ * @method $this setHealthCheckDomain($healthCheckDomain)
+ * @method string getHealthCheckDomain()
+ * @method $this setHealthCheckURI($healthCheckURI)
+ * @method string getHealthCheckURI()
+ * @method $this setHealthCheckHttpCode($healthCheckHttpCode)
+ * @method string getHealthCheckHttpCode()
+ * @method $this setHealthCheckType($healthCheckType)
+ * @method string getHealthCheckType()
+ * @method $this setMaxConnection($maxConnection)
+ * @method int getMaxConnection()
+ * @method $this setOwnerAccount($ownerAccount)
+ * @method string getOwnerAccount()
+ * @method $this setaccess_key_id($access_key_id)
+ * @method string getaccess_key_id()
+ * @method $this setVServerGroupId($vServerGroupId)
+ * @method string getVServerGroupId()
+ * @method $this setMasterSlaveServerGroupId($masterSlaveServerGroupId)
+ * @method string getMasterSlaveServerGroupId()
+ * @method $this setTags($tags)
+ * @method string getTags()
+ * @method $this setAclId($aclId)
+ * @method string getAclId()
+ * @method $this setAclType($aclType)
+ * @method string getAclType()
+ * @method $this setAclStatus($aclStatus)
+ * @method string getAclStatus()
+ * @method $this setVpcIds($vpcIds)
+ * @method string getVpcIds()
+ * @method $this setDescription($description)
+ * @method string getDescription()
+ */
+class CreateLoadBalancerTCPListener extends Request
+{
+
+}/**
+ * @method $this setOwnerId($ownerId)
+ * @method int getOwnerId()
+ * @method $this setResourceOwnerAccount($resourceOwnerAccount)
+ * @method string getResourceOwnerAccount()
+ * @method $this setResourceOwnerId($resourceOwnerId)
+ * @method int getResourceOwnerId()
+ * @method $this setRegionId($regionId)
+ * @method string getRegionId()
+ * @method $this setAddressType($addressType)
+ * @method string getAddressType()
+ * @method $this setInternetChargeType($internetChargeType)
+ * @method string getInternetChargeType()
+ * @method $this setBandwidth($bandwidth)
+ * @method int getBandwidth()
+ * @method $this setClientToken($clientToken)
+ * @method string getClientToken()
+ * @method $this setLoadBalancerName($loadBalancerName)
+ * @method string getLoadBalancerName()
+ * @method $this setVpcId($vpcId)
+ * @method string getVpcId()
+ * @method $this setVSwitchId($vSwitchId)
+ * @method string getVSwitchId()
+ * @method $this setOwnerAccount($ownerAccount)
+ * @method string getOwnerAccount()
+ * @method $this setMasterZoneId($masterZoneId)
+ * @method string getMasterZoneId()
+ * @method $this setSlaveZoneId($slaveZoneId)
+ * @method string getSlaveZoneId()
+ * @method $this setaccess_key_id($access_key_id)
+ * @method string getaccess_key_id()
+ * @method $this setTags($tags)
+ * @method string getTags()
+ * @method $this setEnableVpcVipFlow($enableVpcVipFlow)
+ * @method string getEnableVpcVipFlow()
+ * @method $this setLoadBalancerSpec($loadBalancerSpec)
+ * @method string getLoadBalancerSpec()
+ * @method $this setResourceGroupId($resourceGroupId)
+ * @method string getResourceGroupId()
+ * @method $this setPayType($payType)
+ * @method string getPayType()
+ * @method $this setPricingCycle($pricingCycle)
+ * @method string getPricingCycle()
+ * @method $this setDuration($duration)
+ * @method int getDuration()
+ * @method $this setAutoPay($autoPay)
+ * @method bool getAutoPay()
+ * @method $this setAddressIPVersion($addressIPVersion)
+ * @method string getAddressIPVersion()
+ * @method $this setAddress($address)
+ * @method string getAddress()
+ * @method $this setRatio($ratio)
+ * @method int getRatio()
+ */
+class CreateLoadBalancer extends Request
+{
+
+}/**
+ * @method $this setOwnerId($ownerId)
+ * @method int getOwnerId()
+ * @method $this setResourceOwnerAccount($resourceOwnerAccount)
+ * @method string getResourceOwnerAccount()
+ * @method $this setResourceOwnerId($resourceOwnerId)
+ * @method int getResourceOwnerId()
+ * @method $this setOwnerAccount($ownerAccount)
+ * @method string getOwnerAccount()
+ * @method $this setaccess_key_id($access_key_id)
+ * @method string getaccess_key_id()
+ * @method $this setTags($tags)
+ * @method string getTags()
+ * @method $this setRegionId($regionId)
+ * @method string getRegionId()
+ * @method $this setAclId($aclId)
+ * @method string getAclId()
+ * @method $this setAclEntrys($aclEntrys)
+ * @method string getAclEntrys()
+ */
+class AddAccessControlListEntry extends Request
+{
+
+}/**
+ * @method $this setRegionId($regionId)
+ * @method string getRegionId()
+ * @method $this setOwnerId($ownerId)
+ * @method int getOwnerId()
+ * @method $this setResourceOwnerAccount($resourceOwnerAccount)
+ * @method string getResourceOwnerAccount()
+ * @method $this setResourceOwnerId($resourceOwnerId)
+ * @method int getResourceOwnerId()
+ * @method $this setLoadBalancerId($loadBalancerId)
+ * @method string getLoadBalancerId()
+ * @method $this setOwnerAccount($ownerAccount)
+ * @method string getOwnerAccount()
+ * @method $this setaccess_key_id($access_key_id)
+ * @method string getaccess_key_id()
+ * @method $this setTags($tags)
+ * @method string getTags()
+ */
+class DeleteLoadBalancer extends Request
 {
 
 }/**
@@ -2381,6 +1674,8 @@ class DescribeLoadBalancerUDPListenerAttribute extends Request
  * @method int getMaxConnection()
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
+ * @method $this setaccess_key_id($access_key_id)
+ * @method string getaccess_key_id()
  * @method $this setTags($tags)
  * @method string getTags()
  * @method $this setVServerGroup($vServerGroup)
@@ -2401,332 +1696,8 @@ class DescribeLoadBalancerUDPListenerAttribute extends Request
  * @method string getVpcIds()
  * @method $this setDescription($description)
  * @method string getDescription()
- * @method $this setMss($mss)
- * @method int getMss()
- */
-class SetLoadBalancerTCPListenerAttributePro extends Request
-{
-
-}/**
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setLoadBalancerId($loadBalancerId)
- * @method string getLoadBalancerId()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setLoadBalancerSpec($loadBalancerSpec)
- * @method string getLoadBalancerSpec()
- * @method $this setAutoPay($autoPay)
- * @method bool getAutoPay()
- */
-class ModifyLoadBalancerInstanceSpec extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setDomainName($domainName)
- * @method string getDomainName()
- * @method $this setList($list)
- * @method string getList()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setaccess_key_id($access_key_id)
- * @method string getaccess_key_id()
- * @method $this setTags($tags)
- * @method string getTags()
- */
-class RemoveDomainWafBlackList extends Request
-{
-
-}/**
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setLoadBalancerId($loadBalancerId)
- * @method string getLoadBalancerId()
- * @method $this setListenerPort($listenerPort)
- * @method int getListenerPort()
- * @method $this setBackendServerPort($backendServerPort)
- * @method int getBackendServerPort()
- * @method $this setBandwidth($bandwidth)
- * @method int getBandwidth()
- * @method $this setScheduler($scheduler)
- * @method string getScheduler()
- * @method $this setPersistenceTimeout($persistenceTimeout)
- * @method int getPersistenceTimeout()
- * @method $this setEstablishedTimeout($establishedTimeout)
- * @method int getEstablishedTimeout()
- * @method $this setHealthyThreshold($healthyThreshold)
- * @method int getHealthyThreshold()
- * @method $this setUnhealthyThreshold($unhealthyThreshold)
- * @method int getUnhealthyThreshold()
- * @method $this setHealthCheckConnectTimeout($healthCheckConnectTimeout)
- * @method int getHealthCheckConnectTimeout()
- * @method $this setHealthCheckConnectPort($healthCheckConnectPort)
- * @method int getHealthCheckConnectPort()
- * @method $this sethealthCheckInterval($healthCheckInterval)
- * @method int gethealthCheckInterval()
- * @method $this setHealthCheckDomain($healthCheckDomain)
- * @method string getHealthCheckDomain()
- * @method $this setHealthCheckURI($healthCheckURI)
- * @method string getHealthCheckURI()
- * @method $this setHealthCheckHttpCode($healthCheckHttpCode)
- * @method string getHealthCheckHttpCode()
- * @method $this setHealthCheckType($healthCheckType)
- * @method string getHealthCheckType()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setVServerGroupId($vServerGroupId)
- * @method string getVServerGroupId()
- * @method $this setMasterSlaveServerGroupId($masterSlaveServerGroupId)
- * @method string getMasterSlaveServerGroupId()
- * @method $this setAclId($aclId)
- * @method string getAclId()
- * @method $this setAclType($aclType)
- * @method string getAclType()
- * @method $this setAclStatus($aclStatus)
- * @method string getAclStatus()
- * @method $this setDescription($description)
- * @method string getDescription()
- */
-class CreateLoadBalancerTCPListener extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setAddressType($addressType)
- * @method string getAddressType()
- * @method $this setInternetChargeType($internetChargeType)
- * @method string getInternetChargeType()
- * @method $this setBandwidth($bandwidth)
- * @method int getBandwidth()
- * @method $this setClientToken($clientToken)
- * @method string getClientToken()
- * @method $this setLoadBalancerName($loadBalancerName)
- * @method string getLoadBalancerName()
- * @method $this setVpcId($vpcId)
- * @method string getVpcId()
- * @method $this setVSwitchId($vSwitchId)
- * @method string getVSwitchId()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setMasterZoneId($masterZoneId)
- * @method string getMasterZoneId()
- * @method $this setSlaveZoneId($slaveZoneId)
- * @method string getSlaveZoneId()
- * @method $this setLoadBalancerSpec($loadBalancerSpec)
- * @method string getLoadBalancerSpec()
- * @method $this setResourceGroupId($resourceGroupId)
- * @method string getResourceGroupId()
- * @method $this setPayType($payType)
- * @method string getPayType()
- * @method $this setPricingCycle($pricingCycle)
- * @method string getPricingCycle()
- * @method $this setDuration($duration)
- * @method int getDuration()
- * @method $this setAutoPay($autoPay)
- * @method bool getAutoPay()
- * @method $this setAddressIPVersion($addressIPVersion)
- * @method string getAddressIPVersion()
- * @method $this setAddress($address)
- * @method string getAddress()
- */
-class CreateLoadBalancer extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setaccess_key_id($access_key_id)
- * @method string getaccess_key_id()
- * @method $this setTags($tags)
- * @method string getTags()
- * @method $this setLogType($logType)
- * @method string getLogType()
- * @method $this setOSSBucketName($oSSBucketName)
- * @method string getOSSBucketName()
- * @method $this setRoleName($roleName)
- * @method string getRoleName()
- */
-class SetLogsDownloadAttribute extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setAclId($aclId)
- * @method string getAclId()
- * @method $this setAclEntrys($aclEntrys)
- * @method string getAclEntrys()
- */
-class AddAccessControlListEntry extends Request
-{
-
-}/**
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setLoadBalancerId($loadBalancerId)
- * @method string getLoadBalancerId()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- */
-class DeleteLoadBalancer extends Request
-{
-
-}/**
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setLoadBalancerId($loadBalancerId)
- * @method string getLoadBalancerId()
- * @method $this setListenerPort($listenerPort)
- * @method int getListenerPort()
- * @method $this setBandwidth($bandwidth)
- * @method int getBandwidth()
- * @method $this setScheduler($scheduler)
- * @method string getScheduler()
- * @method $this setPersistenceTimeout($persistenceTimeout)
- * @method int getPersistenceTimeout()
- * @method $this setEstablishedTimeout($establishedTimeout)
- * @method int getEstablishedTimeout()
- * @method $this setHealthyThreshold($healthyThreshold)
- * @method int getHealthyThreshold()
- * @method $this setUnhealthyThreshold($unhealthyThreshold)
- * @method int getUnhealthyThreshold()
- * @method $this setHealthCheckConnectTimeout($healthCheckConnectTimeout)
- * @method int getHealthCheckConnectTimeout()
- * @method $this setHealthCheckConnectPort($healthCheckConnectPort)
- * @method int getHealthCheckConnectPort()
- * @method $this setHealthCheckInterval($healthCheckInterval)
- * @method int getHealthCheckInterval()
- * @method $this setHealthCheckDomain($healthCheckDomain)
- * @method string getHealthCheckDomain()
- * @method $this setHealthCheckURI($healthCheckURI)
- * @method string getHealthCheckURI()
- * @method $this setHealthCheckHttpCode($healthCheckHttpCode)
- * @method string getHealthCheckHttpCode()
- * @method $this setHealthCheckType($healthCheckType)
- * @method string getHealthCheckType()
- * @method $this setSynProxy($synProxy)
- * @method string getSynProxy()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setVServerGroup($vServerGroup)
- * @method string getVServerGroup()
- * @method $this setVServerGroupId($vServerGroupId)
- * @method string getVServerGroupId()
- * @method $this setMasterSlaveServerGroupId($masterSlaveServerGroupId)
- * @method string getMasterSlaveServerGroupId()
- * @method $this setMasterSlaveServerGroup($masterSlaveServerGroup)
- * @method string getMasterSlaveServerGroup()
- * @method $this setAclId($aclId)
- * @method string getAclId()
- * @method $this setAclType($aclType)
- * @method string getAclType()
- * @method $this setAclStatus($aclStatus)
- * @method string getAclStatus()
- * @method $this setDescription($description)
- * @method string getDescription()
  */
 class SetLoadBalancerTCPListenerAttribute extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setaccess_key_id($access_key_id)
- * @method string getaccess_key_id()
- * @method $this setTags($tags)
- * @method string getTags()
- * @method $this setRoleName($roleName)
- * @method string getRoleName()
- */
-class DeleteLogsDownloadAttribute extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setTags($tags)
- * @method string getTags()
- * @method $this setLoadBalancerId($loadBalancerId)
- * @method string getLoadBalancerId()
- * @method $this setLogType($logType)
- * @method string getLogType()
- * @method $this setPageNumber($pageNumber)
- * @method int getPageNumber()
- * @method $this setPageSize($pageSize)
- * @method int getPageSize()
- */
-class DescribeAccessLogsDownloadAttribute extends Request
 {
 
 }/**
@@ -2744,6 +1715,10 @@ class DescribeAccessLogsDownloadAttribute extends Request
  * @method string getLoadBalancerStatus()
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
+ * @method $this setaccess_key_id($access_key_id)
+ * @method string getaccess_key_id()
+ * @method $this setTags($tags)
+ * @method string getTags()
  */
 class SetLoadBalancerStatus extends Request
 {
@@ -2759,6 +1734,10 @@ class SetLoadBalancerStatus extends Request
  * @method string getRegionId()
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
+ * @method $this setaccess_key_id($access_key_id)
+ * @method string getaccess_key_id()
+ * @method $this setTags($tags)
+ * @method string getTags()
  * @method $this setLoadBalancerId($loadBalancerId)
  * @method string getLoadBalancerId()
  * @method $this setIncludeListener($includeListener)
@@ -2778,31 +1757,14 @@ class DescribeMasterSlaveServerGroups extends Request
  * @method int getResourceOwnerId()
  * @method $this setLoadBalancerId($loadBalancerId)
  * @method string getLoadBalancerId()
+ * @method $this setListenerPort($listenerPort)
+ * @method int getListenerPort()
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
  * @method $this setaccess_key_id($access_key_id)
  * @method string getaccess_key_id()
  * @method $this setTags($tags)
  * @method string getTags()
- */
-class EnableVpcVipFlow extends Request
-{
-
-}/**
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setLoadBalancerId($loadBalancerId)
- * @method string getLoadBalancerId()
- * @method $this setListenerPort($listenerPort)
- * @method int getListenerPort()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
  */
 class DescribeLoadBalancerHTTPListenerAttribute extends Request
 {
@@ -2814,31 +1776,14 @@ class DescribeLoadBalancerHTTPListenerAttribute extends Request
  * @method string getResourceOwnerAccount()
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setResourceType($resourceType)
- * @method string getResourceType()
- * @method $this setResourceId($resourceId)
- * @method array getResourceId()
- * @method $this setTag($tag)
- * @method array getTag()
- */
-class TagResources extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
+ * @method $this setaccess_key_id($access_key_id)
+ * @method string getaccess_key_id()
+ * @method $this setTags($tags)
+ * @method string getTags()
  * @method $this setMasterSlaveServerGroupId($masterSlaveServerGroupId)
  * @method string getMasterSlaveServerGroupId()
  */
@@ -2860,6 +1805,10 @@ class DescribeMasterSlaveServerGroupAttribute extends Request
  * @method string getLoadBalancerName()
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
+ * @method $this setaccess_key_id($access_key_id)
+ * @method string getaccess_key_id()
+ * @method $this setTags($tags)
+ * @method string getTags()
  */
 class SetLoadBalancerName extends Request
 {
@@ -2875,6 +1824,10 @@ class SetLoadBalancerName extends Request
  * @method string getRegionId()
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
+ * @method $this setaccess_key_id($access_key_id)
+ * @method string getaccess_key_id()
+ * @method $this setTags($tags)
+ * @method string getTags()
  * @method $this setLoadBalancerId($loadBalancerId)
  * @method string getLoadBalancerId()
  * @method $this setIncludeRule($includeRule)
@@ -2902,33 +1855,14 @@ class DescribeVServerGroups extends Request
  * @method string getAccessControlStatus()
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
+ * @method $this setaccess_key_id($access_key_id)
+ * @method string getaccess_key_id()
  * @method $this setListenerProtocol($listenerProtocol)
  * @method string getListenerProtocol()
- */
-class SetListenerAccessControlStatus extends Request
-{
-
-}/**
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setClientToken($clientToken)
- * @method string getClientToken()
- * @method $this setLoadBalancerId($loadBalancerId)
- * @method string getLoadBalancerId()
- * @method $this setBackendServers($backendServers)
- * @method string getBackendServers()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
  * @method $this setTags($tags)
  * @method string getTags()
  */
-class AddBackendServersAsyn extends Request
+class SetListenerAccessControlStatus extends Request
 {
 
 }/**
@@ -2948,8 +1882,12 @@ class AddBackendServersAsyn extends Request
  * @method string getSourceItems()
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
+ * @method $this setaccess_key_id($access_key_id)
+ * @method string getaccess_key_id()
  * @method $this setListenerProtocol($listenerProtocol)
  * @method string getListenerProtocol()
+ * @method $this setTags($tags)
+ * @method string getTags()
  */
 class RemoveListenerWhiteListItem extends Request
 {
@@ -2965,6 +1903,10 @@ class RemoveListenerWhiteListItem extends Request
  * @method string getRegionId()
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
+ * @method $this setaccess_key_id($access_key_id)
+ * @method string getaccess_key_id()
+ * @method $this setTags($tags)
+ * @method string getTags()
  * @method $this setVServerGroupId($vServerGroupId)
  * @method string getVServerGroupId()
  * @method $this setBackendServers($backendServers)
@@ -2974,35 +1916,20 @@ class AddVServerGroupBackendServers extends Request
 {
 
 }/**
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
  * @method $this setResourceOwnerAccount($resourceOwnerAccount)
  * @method string getResourceOwnerAccount()
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
+ * @method $this setRegionId($regionId)
+ * @method string getRegionId()
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
+ * @method $this setaccess_key_id($access_key_id)
+ * @method string getaccess_key_id()
  * @method $this setTags($tags)
  * @method string getTags()
- * @method $this setTaskId($taskId)
- * @method string getTaskId()
- */
-class DescribeAsynTaskResult extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
  * @method $this setVServerGroupId($vServerGroupId)
  * @method string getVServerGroupId()
  */
@@ -3048,6 +1975,8 @@ class DeleteVServerGroup extends Request
  * @method string getSlaveZoneId()
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
+ * @method $this setaccess_key_id($access_key_id)
+ * @method string getaccess_key_id()
  * @method $this setTags($tags)
  * @method string getTags()
  * @method $this setPayType($payType)
@@ -3058,6 +1987,10 @@ class DeleteVServerGroup extends Request
  * @method int getPageNumber()
  * @method $this setPageSize($pageSize)
  * @method int getPageSize()
+ * @method $this setTag($tag)
+ * @method array getTag()
+ * @method $this setFuzzy($fuzzy)
+ * @method string getFuzzy()
  */
 class DescribeLoadBalancers extends Request
 {
@@ -3073,6 +2006,10 @@ class DescribeLoadBalancers extends Request
  * @method string getRegionId()
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
+ * @method $this setaccess_key_id($access_key_id)
+ * @method string getaccess_key_id()
+ * @method $this setTags($tags)
+ * @method string getTags()
  * @method $this setLoadBalancerId($loadBalancerId)
  * @method string getLoadBalancerId()
  * @method $this setVServerGroupName($vServerGroupName)
@@ -3094,6 +2031,10 @@ class CreateVServerGroup extends Request
  * @method string getRegionId()
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
+ * @method $this setaccess_key_id($access_key_id)
+ * @method string getaccess_key_id()
+ * @method $this setTags($tags)
+ * @method string getTags()
  * @method $this setRuleId($ruleId)
  * @method string getRuleId()
  */
@@ -3109,6 +2050,8 @@ class DescribeRuleAttribute extends Request
  * @method int getResourceOwnerId()
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
+ * @method $this setaccess_key_id($access_key_id)
+ * @method string getaccess_key_id()
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
  * @method $this setLoadBalancerId($loadBalancerId)
@@ -3136,6 +2079,10 @@ class DescribeTags extends Request
  * @method string getRegionId()
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
+ * @method $this setaccess_key_id($access_key_id)
+ * @method string getaccess_key_id()
+ * @method $this setTags($tags)
+ * @method string getTags()
  * @method $this setVServerGroupId($vServerGroupId)
  * @method string getVServerGroupId()
  * @method $this setBackendServers($backendServers)
@@ -3157,6 +2104,8 @@ class RemoveVServerGroupBackendServers extends Request
  * @method string getOwnerAccount()
  * @method $this setaccess_key_id($access_key_id)
  * @method string getaccess_key_id()
+ * @method $this setTags($tags)
+ * @method string getTags()
  * @method $this setLoadBalancerId($loadBalancerId)
  * @method string getLoadBalancerId()
  */
@@ -3174,6 +2123,10 @@ class DescribeMasterSlaveVServerGroups extends Request
  * @method string getRegionId()
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
+ * @method $this setaccess_key_id($access_key_id)
+ * @method string getaccess_key_id()
+ * @method $this setTags($tags)
+ * @method string getTags()
  * @method $this setLoadBalancerId($loadBalancerId)
  * @method string getLoadBalancerId()
  * @method $this setListenerPort($listenerPort)
@@ -3195,6 +2148,10 @@ class CreateDomainExtension extends Request
  * @method int getResourceOwnerId()
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
+ * @method $this setaccess_key_id($access_key_id)
+ * @method string getaccess_key_id()
+ * @method $this setTags($tags)
+ * @method string getTags()
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
  */
@@ -3212,6 +2169,10 @@ class DescribeZones extends Request
  * @method string getRegionId()
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
+ * @method $this setaccess_key_id($access_key_id)
+ * @method string getaccess_key_id()
+ * @method $this setTags($tags)
+ * @method string getTags()
  * @method $this setLoadBalancerId($loadBalancerId)
  * @method string getLoadBalancerId()
  * @method $this setListenerProtocol($listenerProtocol)
@@ -3231,64 +2192,12 @@ class DescribeRules extends Request
  * @method int getResourceOwnerId()
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
- * @method $this setLoadBalancerId($loadBalancerId)
- * @method string getLoadBalancerId()
- * @method $this setBackendServers($backendServers)
- * @method string getBackendServers()
- * @method $this setHostEcsInstanceId($hostEcsInstanceId)
- * @method string getHostEcsInstanceId()
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
  * @method $this setaccess_key_id($access_key_id)
  * @method string getaccess_key_id()
  * @method $this setTags($tags)
  * @method string getTags()
- */
-class RemoveNcServers extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setaccess_key_id($access_key_id)
- * @method string getaccess_key_id()
- * @method $this setTags($tags)
- * @method string getTags()
- * @method $this setLoadBalancerId($loadBalancerId)
- * @method string getLoadBalancerId()
- * @method $this setLogType($logType)
- * @method string getLogType()
- * @method $this setLogStartTime($logStartTime)
- * @method string getLogStartTime()
- * @method $this setLogEndTime($logEndTime)
- * @method string getLogEndTime()
- * @method $this setPageNumber($pageNumber)
- * @method int getPageNumber()
- * @method $this setPageSize($pageSize)
- * @method int getPageSize()
- */
-class DescribeRealtimeLogs extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
  * @method $this setDomainExtensionId($domainExtensionId)
  * @method string getDomainExtensionId()
  */
@@ -3310,21 +2219,6 @@ class DeleteDomainExtension extends Request
  * @method string getaccess_key_id()
  * @method $this setTags($tags)
  * @method string getTags()
- */
-class DescribeLogsDownloadStatus extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
  * @method $this setLoadBalancerId($loadBalancerId)
  * @method string getLoadBalancerId()
  * @method $this setListenerPort($listenerPort)
@@ -3344,27 +2238,6 @@ class DescribeDomainExtensions extends Request
  * @method string getResourceOwnerAccount()
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setTags($tags)
- * @method string getTags()
- * @method $this setRegionAction($regionAction)
- * @method string getRegionAction()
- * @method $this setUidAction($uidAction)
- * @method string getUidAction()
- */
-class CheckProductFeatureControl extends Request
-{
-
-}/**
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
  * @method $this setLoadBalancerId($loadBalancerId)
  * @method string getLoadBalancerId()
  * @method $this setInternetChargeType($internetChargeType)
@@ -3373,8 +2246,14 @@ class CheckProductFeatureControl extends Request
  * @method int getBandwidth()
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
+ * @method $this setaccess_key_id($access_key_id)
+ * @method string getaccess_key_id()
+ * @method $this setTags($tags)
+ * @method string getTags()
  * @method $this setAutoPay($autoPay)
  * @method bool getAutoPay()
+ * @method $this setRatio($ratio)
+ * @method int getRatio()
  */
 class ModifyLoadBalancerInternetSpec extends Request
 {
@@ -3424,12 +2303,18 @@ class ModifyLoadBalancerInternetSpec extends Request
  * @method int getHealthCheckConnectPort()
  * @method $this setHealthCheckHttpCode($healthCheckHttpCode)
  * @method string getHealthCheckHttpCode()
+ * @method $this setMaxConnection($maxConnection)
+ * @method int getMaxConnection()
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
+ * @method $this setaccess_key_id($access_key_id)
+ * @method string getaccess_key_id()
  * @method $this setVServerGroup($vServerGroup)
  * @method string getVServerGroup()
  * @method $this setVServerGroupId($vServerGroupId)
  * @method string getVServerGroupId()
+ * @method $this setTags($tags)
+ * @method string getTags()
  * @method $this setXForwardedFor_SLBIP($xForwardedFor_SLBIP)
  * @method string getXForwardedFor_SLBIP()
  * @method $this setXForwardedFor_SLBID($xForwardedFor_SLBID)
@@ -3444,6 +2329,8 @@ class ModifyLoadBalancerInternetSpec extends Request
  * @method string getAclType()
  * @method $this setAclStatus($aclStatus)
  * @method string getAclStatus()
+ * @method $this setVpcIds($vpcIds)
+ * @method string getVpcIds()
  * @method $this setIdleTimeout($idleTimeout)
  * @method int getIdleTimeout()
  * @method $this setRequestTimeout($requestTimeout)
@@ -3461,60 +2348,12 @@ class SetLoadBalancerHTTPListenerAttribute extends Request
  * @method string getResourceOwnerAccount()
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setResourceId($resourceId)
- * @method string getResourceId()
- * @method $this setResourceType($resourceType)
- * @method string getResourceType()
- * @method $this setNewResourceGroupId($newResourceGroupId)
- * @method string getNewResourceGroupId()
- * @method $this setResourceGroupId($resourceGroupId)
- * @method string getResourceGroupId()
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
  * @method $this setaccess_key_id($access_key_id)
  * @method string getaccess_key_id()
  * @method $this setTags($tags)
  * @method string getTags()
- */
-class MoveResourceGroup extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setDomainName($domainName)
- * @method string getDomainName()
- * @method $this setWafStatus($wafStatus)
- * @method string getWafStatus()
- * @method $this setCcStatus($ccStatus)
- * @method string getCcStatus()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setaccess_key_id($access_key_id)
- * @method string getaccess_key_id()
- * @method $this setTags($tags)
- * @method string getTags()
- */
-class SetProtectedDomainStatus extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
  * @method $this setAclId($aclId)
@@ -3523,90 +2362,6 @@ class SetProtectedDomainStatus extends Request
  * @method string getAclEntryComment()
  */
 class DescribeAccessControlListAttribute extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setLoadBalancerId($loadBalancerId)
- * @method string getLoadBalancerId()
- * @method $this setHostEcsInstanceId($hostEcsInstanceId)
- * @method string getHostEcsInstanceId()
- * @method $this setBackendServers($backendServers)
- * @method string getBackendServers()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setaccess_key_id($access_key_id)
- * @method string getaccess_key_id()
- * @method $this setTags($tags)
- * @method string getTags()
- */
-class AddNcServers extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setTags($tags)
- * @method string getTags()
- * @method $this setLoadBalancerId($loadBalancerId)
- * @method string getLoadBalancerId()
- * @method $this setLogsDownloadAttributes($logsDownloadAttributes)
- * @method string getLogsDownloadAttributes()
- */
-class SetAccessLogsDownloadAttribute extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setClientToken($clientToken)
- * @method string getClientToken()
- * @method $this setTags($tags)
- * @method string getTags()
- * @method $this setVServerGroupId($vServerGroupId)
- * @method string getVServerGroupId()
- * @method $this setBackendServers($backendServers)
- * @method string getBackendServers()
- */
-class RemoveVServerGroupBackendServersAsyn extends Request
-{
-
-}/**
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- */
-class DescribeRegions4Location extends Request
 {
 
 }/**
@@ -3626,124 +2381,29 @@ class DescribeRegions4Location extends Request
  * @method string getListenerProtocol()
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
+ * @method $this setaccess_key_id($access_key_id)
+ * @method string getaccess_key_id()
+ * @method $this setTags($tags)
+ * @method string getTags()
  */
 class DeleteLoadBalancerListener extends Request
 {
 
 }/**
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
  * @method $this setResourceOwnerAccount($resourceOwnerAccount)
  * @method string getResourceOwnerAccount()
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
- * @method $this setLoadBalancerId($loadBalancerId)
- * @method string getLoadBalancerId()
- * @method $this setListenerPort($listenerPort)
- * @method int getListenerPort()
- * @method $this setSecurityStatus($securityStatus)
- * @method string getSecurityStatus()
+ * @method $this setRegionId($regionId)
+ * @method string getRegionId()
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
  * @method $this setaccess_key_id($access_key_id)
  * @method string getaccess_key_id()
  * @method $this setTags($tags)
  * @method string getTags()
- */
-class SetListenerSecurityStatus extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setdata($data)
- * @method string getdata()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setaccess_key_id($access_key_id)
- * @method string getaccess_key_id()
- */
-class ProduceSlbInstance extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setDomainName($domainName)
- * @method string getDomainName()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setaccess_key_id($access_key_id)
- * @method string getaccess_key_id()
- * @method $this setTags($tags)
- * @method string getTags()
- */
-class DescribeDomainCcWhiteList extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setdata($data)
- * @method string getdata()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setaccess_key_id($access_key_id)
- * @method string getaccess_key_id()
- */
-class ProducePrepaidSlbInstance extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setdata($data)
- * @method string getdata()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setaccess_key_id($access_key_id)
- * @method string getaccess_key_id()
- */
-class CheckSlbOrder extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
  * @method $this setLoadBalancerId($loadBalancerId)
  * @method string getLoadBalancerId()
  * @method $this setMasterSlaveServerGroupName($masterSlaveServerGroupName)
@@ -3763,124 +2423,8 @@ class CreateMasterSlaveServerGroup extends Request
  * @method int getResourceOwnerId()
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setResourceType($resourceType)
- * @method string getResourceType()
- * @method $this setNextToken($nextToken)
- * @method string getNextToken()
- * @method $this setResourceId($resourceId)
- * @method array getResourceId()
- * @method $this setTag($tag)
- * @method array getTag()
- */
-class ListTagResources extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
  * @method $this setaccess_key_id($access_key_id)
  * @method string getaccess_key_id()
- * @method $this setTags($tags)
- * @method string getTags()
- */
-class DescribeLogsDownloadAttribute extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setaccess_key_id($access_key_id)
- * @method string getaccess_key_id()
- * @method $this setTags($tags)
- * @method string getTags()
- */
-class DescribeProtectedDomains extends Request
-{
-
-}/**
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- */
-class DescribeSlbQuotas extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setDomainName($domainName)
- * @method string getDomainName()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setaccess_key_id($access_key_id)
- * @method string getaccess_key_id()
- * @method $this setTags($tags)
- * @method string getTags()
- */
-class DescribeDomainCcBlackList extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setaccess_key_id($access_key_id)
- * @method string getaccess_key_id()
- * @method $this setTags($tags)
- * @method string getTags()
- * @method $this setLoadBalancerId($loadBalancerId)
- * @method string getLoadBalancerId()
- */
-class DescribeLoadBalancersEcs extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
  * @method $this setCACertificateId($cACertificateId)

@@ -16,6 +16,7 @@ use aliyun\sdk\core\lib\Request;
  * @method UpdateFace UpdateFace()
  * @method RegisterFace RegisterFace()
  * @method QueryUsers QueryUsers()
+ * @method QueryGroups QueryGroups()
  * @method QueryFace QueryFace()
  * @method SyncFacePictures SyncFacePictures()
  * @method LinkFace LinkFace()
@@ -89,6 +90,11 @@ class RegisterFace extends Request
  * @method string getGroupId()
  */
 class QueryUsers extends Request
+{
+
+}/**
+ */
+class QueryGroups extends Request
 {
 
 }/**

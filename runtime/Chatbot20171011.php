@@ -8,7 +8,6 @@ use aliyun\sdk\core\lib\Request;
  * Class V20171011
  *
  * @package aliyun\sdk\services\Chatbot20171011
- * @method DeleteMachineReadingArticle DeleteMachineReadingArticle()
  * @method DisableKnowledge DisableKnowledge()
  * @method UpdateCoreWord UpdateCoreWord()
  * @method QueryKnowledges QueryKnowledges()
@@ -16,37 +15,27 @@ use aliyun\sdk\core\lib\Request;
  * @method UpdateCategory UpdateCategory()
  * @method DisableDialogFlow DisableDialogFlow()
  * @method PublishDialogFlow PublishDialogFlow()
- * @method UpdateMachineReadingArticle UpdateMachineReadingArticle()
  * @method QueryCategories QueryCategories()
  * @method TestDialogFlow TestDialogFlow()
  * @method UpdatePerspective UpdatePerspective()
  * @method QueryDialogs QueryDialogs()
  * @method UpdateIntent UpdateIntent()
  * @method DeleteEntity DeleteEntity()
- * @method CreateMachineReadingArticle CreateMachineReadingArticle()
  * @method CreateIntent CreateIntent()
  * @method DeleteDialog DeleteDialog()
  * @method UpdateKnowledge UpdateKnowledge()
  * @method QueryEntities QueryEntities()
  * @method DescribeDialog DescribeDialog()
  * @method DescribeKnowledge DescribeKnowledge()
- * @method CreateCordWord CreateCordWord()
- * @method DeleteBot DeleteBot()
  * @method CreateCategory CreateCategory()
- * @method DescribeMachineReadingArticle DescribeMachineReadingArticle()
  * @method DescribePerspective DescribePerspective()
  * @method CreateCoreWord CreateCoreWord()
- * @method UpdateBot UpdateBot()
  * @method DeleteCategory DeleteCategory()
  * @method CreateKnowledge CreateKnowledge()
- * @method LinkBotCategory LinkBotCategory()
- * @method CreateBot CreateBot()
  * @method DescribeCategory DescribeCategory()
  * @method DescribeCoreWord DescribeCoreWord()
  * @method PublishKnowledge PublishKnowledge()
  * @method QueryCoreWords QueryCoreWords()
- * @method QueryBots QueryBots()
- * @method GetDashboardData GetDashboardData()
  * @method QueryIntents QueryIntents()
  * @method ActivatePerspective ActivatePerspective()
  * @method UpdateEntity UpdateEntity()
@@ -54,11 +43,10 @@ use aliyun\sdk\core\lib\Request;
  * @method DeleteIntent DeleteIntent()
  * @method DescribeIntent DescribeIntent()
  * @method UpdateDialogFlow UpdateDialogFlow()
- * @method DescribeBot DescribeBot()
+ * @method QueryPerspectives QueryPerspectives()
  * @method AddSynonym AddSynonym()
  * @method DescribeEntities DescribeEntities()
  * @method DescribeDialogFlow DescribeDialogFlow()
- * @method QueryMachineReadingArticles QueryMachineReadingArticles()
  * @method QuerySystemEntities QuerySystemEntities()
  * @method CreateEntity CreateEntity()
  * @method UpdateDialog UpdateDialog()
@@ -69,21 +57,12 @@ use aliyun\sdk\core\lib\Request;
  * @method DeleteKnowledge DeleteKnowledge()
  * @method Chat Chat()
  * @method RemoveSynonym RemoveSynonym()
- * @method SearchKnowledges SearchKnowledges()
- * @method UpdateAndPushDialogFlowToSandbox UpdateAndPushDialogFlowToSandbox()
  */
 class V20171011
 {
 }
 
 /**
- * @method $this setMachineReadingId($machineReadingId)
- * @method int getMachineReadingId()
- */
-class DeleteMachineReadingArticle extends Request
-{
-
-}/**
  * @method $this setKnowledgeId($knowledgeId)
  * @method int getKnowledgeId()
  */
@@ -147,27 +126,6 @@ class PublishDialogFlow extends Request
 {
 
 }/**
- * @method $this setTitle($title)
- * @method string getTitle()
- * @method $this setCategoryId($categoryId)
- * @method int getCategoryId()
- * @method $this setCoreWord($coreWord)
- * @method string getCoreWord()
- * @method $this setPerspectiveIds($perspectiveIds)
- * @method string getPerspectiveIds()
- * @method $this setContent($content)
- * @method string getContent()
- * @method $this setMachineReadingId($machineReadingId)
- * @method int getMachineReadingId()
- * @method $this setCode($code)
- * @method string getCode()
- * @method $this setBizDataRanges($bizDataRanges)
- * @method string getBizDataRanges()
- */
-class UpdateMachineReadingArticle extends Request
-{
-
-}/**
  * @method $this setParentCategoryId($parentCategoryId)
  * @method int getParentCategoryId()
  * @method $this setShowChildrens($showChildrens)
@@ -222,25 +180,6 @@ class DeleteEntity extends Request
 {
 
 }/**
- * @method $this setTitle($title)
- * @method string getTitle()
- * @method $this setCategoryId($categoryId)
- * @method int getCategoryId()
- * @method $this setCoreWord($coreWord)
- * @method string getCoreWord()
- * @method $this setContent($content)
- * @method string getContent()
- * @method $this setCode($code)
- * @method string getCode()
- * @method $this setPerspectiveIds($perspectiveIds)
- * @method string getPerspectiveIds()
- * @method $this setBizDataRanges($bizDataRanges)
- * @method string getBizDataRanges()
- */
-class CreateMachineReadingArticle extends Request
-{
-
-}/**
  * @method $this setIntentDefinition($intentDefinition)
  * @method string getIntentDefinition()
  * @method $this setDialogId($dialogId)
@@ -291,33 +230,12 @@ class DescribeKnowledge extends Request
 {
 
 }/**
- * @method $this setCoreWordName($coreWordName)
- * @method string getCoreWordName()
- */
-class CreateCordWord extends Request
-{
-
-}/**
- * @method $this setInstanceId($instanceId)
- * @method string getInstanceId()
- */
-class DeleteBot extends Request
-{
-
-}/**
  * @method $this setParentCategoryId($parentCategoryId)
  * @method int getParentCategoryId()
  * @method $this setName($name)
  * @method string getName()
  */
 class CreateCategory extends Request
-{
-
-}/**
- * @method $this setMachineReadingId($machineReadingId)
- * @method int getMachineReadingId()
- */
-class DescribeMachineReadingArticle extends Request
 {
 
 }/**
@@ -335,19 +253,6 @@ class CreateCoreWord extends Request
 {
 
 }/**
- * @method $this setInstanceId($instanceId)
- * @method string getInstanceId()
- * @method $this setName($name)
- * @method string getName()
- * @method $this setIntroduction($introduction)
- * @method string getIntroduction()
- * @method $this setAvatar($avatar)
- * @method string getAvatar()
- */
-class UpdateBot extends Request
-{
-
-}/**
  * @method $this setCategoryId($categoryId)
  * @method int getCategoryId()
  */
@@ -359,30 +264,6 @@ class DeleteCategory extends Request
  * @method string getKnowledge()
  */
 class CreateKnowledge extends Request
-{
-
-}/**
- * @method $this setInstanceId($instanceId)
- * @method string getInstanceId()
- * @method $this setCategoryIds($categoryIds)
- * @method string getCategoryIds()
- */
-class LinkBotCategory extends Request
-{
-
-}/**
- * @method $this setLanguageCode($languageCode)
- * @method string getLanguageCode()
- * @method $this setTimeZone($timeZone)
- * @method string getTimeZone()
- * @method $this setName($name)
- * @method string getName()
- * @method $this setAvatar($avatar)
- * @method string getAvatar()
- * @method $this setIntroduction($introduction)
- * @method string getIntroduction()
- */
-class CreateBot extends Request
 {
 
 }/**
@@ -417,32 +298,6 @@ class PublishKnowledge extends Request
  * @method string getSynonym()
  */
 class QueryCoreWords extends Request
-{
-
-}/**
- * @method $this setPageNumber($pageNumber)
- * @method int getPageNumber()
- * @method $this setPageSize($pageSize)
- * @method int getPageSize()
- */
-class QueryBots extends Request
-{
-
-}/**
- * @method $this setCubeId($cubeId)
- * @method string getCubeId()
- * @method $this setMeasures($measures)
- * @method string getMeasures()
- * @method $this setDimensions($dimensions)
- * @method string getDimensions()
- * @method $this setFilters($filters)
- * @method string getFilters()
- * @method $this setOrders($orders)
- * @method string getOrders()
- * @method $this setLimit($limit)
- * @method int getLimit()
- */
-class GetDashboardData extends Request
 {
 
 }/**
@@ -515,10 +370,8 @@ class UpdateDialogFlow extends Request
 {
 
 }/**
- * @method $this setInstanceId($instanceId)
- * @method string getInstanceId()
  */
-class DescribeBot extends Request
+class QueryPerspectives extends Request
 {
 
 }/**
@@ -542,19 +395,6 @@ class DescribeEntities extends Request
  * @method int getDialogId()
  */
 class DescribeDialogFlow extends Request
-{
-
-}/**
- * @method $this setCategoryId($categoryId)
- * @method int getCategoryId()
- * @method $this setPageNumber($pageNumber)
- * @method int getPageNumber()
- * @method $this setPageSize($pageSize)
- * @method int getPageSize()
- * @method $this setTitle($title)
- * @method string getTitle()
- */
-class QueryMachineReadingArticles extends Request
 {
 
 }/**
@@ -669,56 +509,6 @@ class Chat extends Request
  * @method string getSynonym()
  */
 class RemoveSynonym extends Request
-{
-
-}/**
- * @method $this setUserQuery($userQuery)
- * @method string getUserQuery()
- * @method $this setCategoryId($categoryId)
- * @method int getCategoryId()
- * @method $this setKnowledgeId($knowledgeId)
- * @method int getKnowledgeId()
- * @method $this setKnowledgeStatus($knowledgeStatus)
- * @method int getKnowledgeStatus()
- * @method $this setKnowledgeType($knowledgeType)
- * @method int getKnowledgeType()
- * @method $this setCreateUserName($createUserName)
- * @method string getCreateUserName()
- * @method $this setModifyUserName($modifyUserName)
- * @method string getModifyUserName()
- * @method $this setCreateTimeBegin($createTimeBegin)
- * @method string getCreateTimeBegin()
- * @method $this setCreateTimeEnd($createTimeEnd)
- * @method string getCreateTimeEnd()
- * @method $this setModifyTimeBegin($modifyTimeBegin)
- * @method string getModifyTimeBegin()
- * @method $this setModifyTimeEnd($modifyTimeEnd)
- * @method string getModifyTimeEnd()
- * @method $this setStartTimeBegin($startTimeBegin)
- * @method string getStartTimeBegin()
- * @method $this setStartTimeEnd($startTimeEnd)
- * @method string getStartTimeEnd()
- * @method $this setEndTimeBegin($endTimeBegin)
- * @method string getEndTimeBegin()
- * @method $this setEndTimeEnd($endTimeEnd)
- * @method string getEndTimeEnd()
- * @method $this setDataType($dataType)
- * @method string getDataType()
- * @method $this setPageNumber($pageNumber)
- * @method int getPageNumber()
- * @method $this setPageSize($pageSize)
- * @method int getPageSize()
- */
-class SearchKnowledges extends Request
-{
-
-}/**
- * @method $this setDialogId($dialogId)
- * @method int getDialogId()
- * @method $this setModulePassDTO($modulePassDTO)
- * @method string getModulePassDTO()
- */
-class UpdateAndPushDialogFlowToSandbox extends Request
 {
 
 }

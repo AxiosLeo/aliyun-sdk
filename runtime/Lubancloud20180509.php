@@ -20,8 +20,6 @@ class V20180509
 }
 
 /**
- * @method $this setTaskId($taskId)
- * @method int getTaskId()
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
  */
@@ -29,8 +27,6 @@ class QueryCutoutTaskResult extends Request
 {
 
 }/**
- * @method $this setTaskId($taskId)
- * @method int getTaskId()
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
  */
@@ -45,8 +41,6 @@ class GetStyles extends Request
 {
 
 }/**
- * @method $this setPictureUrl($pictureUrl)
- * @method array getPictureUrl()
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
  */
@@ -54,8 +48,6 @@ class SubmitCutoutTask extends Request
 {
 
 }/**
- * @method $this setPictureId($pictureId)
- * @method array getPictureId()
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
  */

@@ -19,12 +19,15 @@ use aliyun\sdk\core\lib\Request;
  * @method DescribeCheckWarnings DescribeCheckWarnings()
  * @method DescribeDefenceThread DescribeDefenceThread()
  * @method AutoUpgradeSas AutoUpgradeSas()
+ * @method AutoUpgradeToSasAdvancedVersion AutoUpgradeToSasAdvancedVersion()
+ * @method DescribeAnalysisSlsIndex DescribeAnalysisSlsIndex()
  * @method RollbackSuspEventQuaraFile RollbackSuspEventQuaraFile()
  * @method DescribeVulLevelStatistics DescribeVulLevelStatistics()
  * @method QueryLoginEvent QueryLoginEvent()
  * @method DescribeBizStatSimpleQueryResult DescribeBizStatSimpleQueryResult()
  * @method DescribeSecurityStatInfo DescribeSecurityStatInfo()
  * @method CreatScreenSetting CreatScreenSetting()
+ * @method DescribeScreenOssUploadInfo DescribeScreenOssUploadInfo()
  * @method CreateLogQuery CreateLogQuery()
  * @method DeleteDingTalk DeleteDingTalk()
  * @method DescribeGroupedVul DescribeGroupedVul()
@@ -37,6 +40,7 @@ use aliyun\sdk\core\lib\Request;
  * @method ModifySearchCondition ModifySearchCondition()
  * @method DescribeAnalysisHistograms DescribeAnalysisHistograms()
  * @method DescribeVulBatch DescribeVulBatch()
+ * @method DescribeCanUpgradeSas DescribeCanUpgradeSas()
  * @method QueryCrackEvent QueryCrackEvent()
  * @method DescribeLogItems DescribeLogItems()
  * @method DescribeWebLockEvents DescribeWebLockEvents()
@@ -48,6 +52,7 @@ use aliyun\sdk\core\lib\Request;
  * @method DescribeTargetConfig DescribeTargetConfig()
  * @method DescribeResultList DescribeResultList()
  * @method DescribeScreenBizStatSimpleQueryResult DescribeScreenBizStatSimpleQueryResult()
+ * @method DescribeScreenHostStatistics DescribeScreenHostStatistics()
  * @method DescribeScreenSummaryInfo DescribeScreenSummaryInfo()
  * @method OperateSuspiciousTargetConfig OperateSuspiciousTargetConfig()
  * @method DescribeAssetSummary DescribeAssetSummary()
@@ -67,8 +72,11 @@ use aliyun\sdk\core\lib\Request;
  * @method DescribeExportInfo DescribeExportInfo()
  * @method DescribeConcernNecessity DescribeConcernNecessity()
  * @method DeleteRule DeleteRule()
+ * @method DescribeScreenTopRequestAndFlow DescribeScreenTopRequestAndFlow()
+ * @method DescribeTopicList DescribeTopicList()
  * @method DescribeLogShipperStatus DescribeLogShipperStatus()
  * @method DescribeSuspiciousUUIDConfig DescribeSuspiciousUUIDConfig()
+ * @method DescribeScreenEmerRisk DescribeScreenEmerRisk()
  * @method DescribeEcsStsStatus DescribeEcsStsStatus()
  * @method DescribeSlsProject DescribeSlsProject()
  * @method DescribeSuspiciousExportInfo DescribeSuspiciousExportInfo()
@@ -109,9 +117,11 @@ use aliyun\sdk\core\lib\Request;
  * @method CreateSuspiciousExport CreateSuspiciousExport()
  * @method DescribeVulExportInfo DescribeVulExportInfo()
  * @method ExportVul ExportVul()
+ * @method DescribeScreenTitles DescribeScreenTitles()
  * @method DescribeMacConfig DescribeMacConfig()
  * @method SaveSuspEventUserSetting SaveSuspEventUserSetting()
  * @method DescribeVulRelatedProcess DescribeVulRelatedProcess()
+ * @method DescribeScreenFlowRequestCount DescribeScreenFlowRequestCount()
  * @method DescribeBuySummary DescribeBuySummary()
  * @method DescribeGrayFunc DescribeGrayFunc()
  * @method DescribeDataSource DescribeDataSource()
@@ -123,6 +133,7 @@ use aliyun\sdk\core\lib\Request;
  * @method DescribeStratety DescribeStratety()
  * @method DescribeEventCountCurve DescribeEventCountCurve()
  * @method DescribeWebshell DescribeWebshell()
+ * @method CanTrySas CanTrySas()
  * @method DescribeInstanceStatistics DescribeInstanceStatistics()
  * @method DescribeWhiteListProcess DescribeWhiteListProcess()
  * @method ModifyVulTarget ModifyVulTarget()
@@ -133,6 +144,7 @@ use aliyun\sdk\core\lib\Request;
  * @method UpdateWhiteListProcessStatus UpdateWhiteListProcessStatus()
  * @method ModifyVulConfig ModifyVulConfig()
  * @method DescribeTopRiskyAssets DescribeTopRiskyAssets()
+ * @method DescribeAnalysisStatistics DescribeAnalysisStatistics()
  * @method GetAccountStatistics GetAccountStatistics()
  * @method Describesummary Describesummary()
  * @method DescribeWebLockConfigList DescribeWebLockConfigList()
@@ -156,12 +168,15 @@ use aliyun\sdk\core\lib\Request;
  * @method DeleteVulWhitelist DeleteVulWhitelist()
  * @method DescribeScreenCityMonitorData DescribeScreenCityMonitorData()
  * @method DescribeVulLevel DescribeVulLevel()
+ * @method DescribeAnalysisShipperStatus DescribeAnalysisShipperStatus()
  * @method DescribeAttackAnalysisData DescribeAttackAnalysisData()
  * @method DescribeAnalysisLogs DescribeAnalysisLogs()
  * @method DescribeSuspiciousEvents DescribeSuspiciousEvents()
  * @method DescribeAssetList DescribeAssetList()
  * @method DescribeRiskWhiteList DescribeRiskWhiteList()
+ * @method DescribeScreenDataMap DescribeScreenDataMap()
  * @method DescribeRiskType DescribeRiskType()
+ * @method DescribeScreenCloudHcRisk DescribeScreenCloudHcRisk()
  * @method DescribeSuspEventUserSetting DescribeSuspEventUserSetting()
  * @method DescribeSuspTrendStatistics DescribeSuspTrendStatistics()
  * @method ModifyWebLockCreateConfig ModifyWebLockCreateConfig()
@@ -174,6 +189,7 @@ use aliyun\sdk\core\lib\Request;
  * @method DeleteJoinRule DeleteJoinRule()
  * @method ExportSuspEvents ExportSuspEvents()
  * @method DescribeAlarmEventDetail DescribeAlarmEventDetail()
+ * @method DescribeListAccessKeyIdAuth DescribeListAccessKeyIdAuth()
  * @method ModifyTargetConfig ModifyTargetConfig()
  * @method GetCrackStatistics GetCrackStatistics()
  * @method DescribeGroupStruct DescribeGroupStruct()
@@ -197,6 +213,7 @@ use aliyun\sdk\core\lib\Request;
  * @method DescribeWebLockStatus DescribeWebLockStatus()
  * @method CreateOrUpdateJoinRule CreateOrUpdateJoinRule()
  * @method DescribeVulList DescribeVulList()
+ * @method DescribeScreenSettings DescribeScreenSettings()
  * @method DescribeStrategyExecDetail DescribeStrategyExecDetail()
  * @method ModifyConcernNecessity ModifyConcernNecessity()
  * @method DescribeMachineConfig DescribeMachineConfig()
@@ -211,6 +228,7 @@ use aliyun\sdk\core\lib\Request;
  * @method UpdateWhiteListStrategyRelation UpdateWhiteListStrategyRelation()
  * @method DescribeDingTalk DescribeDingTalk()
  * @method DescribeMetaData DescribeMetaData()
+ * @method DescribeCanTrySas DescribeCanTrySas()
  * @method RenewInstance RenewInstance()
  * @method DescribeStrategyProcess DescribeStrategyProcess()
  * @method DescribeScreenVersionConfig DescribeScreenVersionConfig()
@@ -368,6 +386,20 @@ class AutoUpgradeSas extends Request
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
+ */
+class AutoUpgradeToSasAdvancedVersion extends Request
+{
+
+}/**
+ * @method $this setSourceIp($sourceIp)
+ * @method string getSourceIp()
+ */
+class DescribeAnalysisSlsIndex extends Request
+{
+
+}/**
+ * @method $this setSourceIp($sourceIp)
+ * @method string getSourceIp()
  * @method $this setQuaraFileId($quaraFileId)
  * @method int getQuaraFileId()
  * @method $this setFrom($from)
@@ -405,6 +437,8 @@ class QueryLoginEvent extends Request
 {
 
 }/**
+ * @method $this setSourceIp($sourceIp)
+ * @method string getSourceIp()
  * @method $this setStartTime($startTime)
  * @method string getStartTime()
  * @method $this setEndTime($endTime)
@@ -427,12 +461,21 @@ class DescribeSecurityStatInfo extends Request
 {
 
 }/**
+ * @method $this setSourceIp($sourceIp)
+ * @method string getSourceIp()
  * @method $this setScreenTitle($screenTitle)
  * @method string getScreenTitle()
  * @method $this setScreenIdSetting($screenIdSetting)
  * @method string getScreenIdSetting()
  */
 class CreatScreenSetting extends Request
+{
+
+}/**
+ * @method $this setSourceIp($sourceIp)
+ * @method string getSourceIp()
+ */
+class DescribeScreenOssUploadInfo extends Request
 {
 
 }/**
@@ -449,6 +492,8 @@ class CreateLogQuery extends Request
 {
 
 }/**
+ * @method $this setSourceIp($sourceIp)
+ * @method string getSourceIp()
  * @method $this setIds($ids)
  * @method string getIds()
  */
@@ -506,6 +551,8 @@ class DescribeSasAssetStatisticsColumn extends Request
 {
 
 }/**
+ * @method $this setSourceIp($sourceIp)
+ * @method string getSourceIp()
  * @method $this setremark($remark)
  * @method int getremark()
  * @method $this setWarnLevel($warnLevel)
@@ -578,6 +625,8 @@ class ModifySearchCondition extends Request
 {
 
 }/**
+ * @method $this setSourceIp($sourceIp)
+ * @method string getSourceIp()
  * @method $this setQuery($query)
  * @method string getQuery()
  * @method $this setFrom($from)
@@ -595,6 +644,13 @@ class DescribeAnalysisHistograms extends Request
  * @method string getResource()
  */
 class DescribeVulBatch extends Request
+{
+
+}/**
+ * @method $this setSourceIp($sourceIp)
+ * @method string getSourceIp()
+ */
+class DescribeCanUpgradeSas extends Request
 {
 
 }/**
@@ -691,6 +747,8 @@ class CreateUserSetting extends Request
 {
 
 }/**
+ * @method $this setSourceIp($sourceIp)
+ * @method string getSourceIp()
  * @method $this setLang($lang)
  * @method string getLang()
  * @method $this setFrom($from)
@@ -737,6 +795,8 @@ class DescribeTargetConfig extends Request
 {
 
 }/**
+ * @method $this setSourceIp($sourceIp)
+ * @method string getSourceIp()
  * @method $this setRuleName($ruleName)
  * @method string getRuleName()
  * @method $this setRemark($remark)
@@ -758,6 +818,8 @@ class DescribeResultList extends Request
 {
 
 }/**
+ * @method $this setSourceIp($sourceIp)
+ * @method string getSourceIp()
  * @method $this setStartTime($startTime)
  * @method int getStartTime()
  * @method $this setEndTime($endTime)
@@ -770,6 +832,13 @@ class DescribeResultList extends Request
  * @method string getCustomQuery()
  */
 class DescribeScreenBizStatSimpleQueryResult extends Request
+{
+
+}/**
+ * @method $this setSourceIp($sourceIp)
+ * @method string getSourceIp()
+ */
+class DescribeScreenHostStatistics extends Request
 {
 
 }/**
@@ -890,6 +959,8 @@ class ModifyWebLockRefresh extends Request
 {
 
 }/**
+ * @method $this setSourceIp($sourceIp)
+ * @method string getSourceIp()
  * @method $this setId($id)
  * @method string getId()
  */
@@ -912,6 +983,8 @@ class SaveWhiteListStrategy extends Request
 {
 
 }/**
+ * @method $this setSourceIp($sourceIp)
+ * @method string getSourceIp()
  * @method $this setDatasourceDescription($datasourceDescription)
  * @method string getDatasourceDescription()
  * @method $this setLogStoreName($logStoreName)
@@ -936,6 +1009,8 @@ class DescribeUuidConfig extends Request
 {
 
 }/**
+ * @method $this setSourceIp($sourceIp)
+ * @method string getSourceIp()
  * @method $this setScreenTitle($screenTitle)
  * @method string getScreenTitle()
  * @method $this setScreenIdSetting($screenIdSetting)
@@ -1014,6 +1089,20 @@ class DeleteRule extends Request
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
+ */
+class DescribeScreenTopRequestAndFlow extends Request
+{
+
+}/**
+ * @method $this setSourceIp($sourceIp)
+ * @method string getSourceIp()
+ */
+class DescribeTopicList extends Request
+{
+
+}/**
+ * @method $this setSourceIp($sourceIp)
+ * @method string getSourceIp()
  * @method $this setLang($lang)
  * @method string getLang()
  * @method $this setFrom($from)
@@ -1036,6 +1125,13 @@ class DescribeSuspiciousUUIDConfig extends Request
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
+ */
+class DescribeScreenEmerRisk extends Request
+{
+
+}/**
+ * @method $this setSourceIp($sourceIp)
+ * @method string getSourceIp()
  * @method $this setLang($lang)
  * @method string getLang()
  */
@@ -1043,6 +1139,8 @@ class DescribeEcsStsStatus extends Request
 {
 
 }/**
+ * @method $this setSourceIp($sourceIp)
+ * @method string getSourceIp()
  * @method $this setRegionNo($regionNo)
  * @method string getRegionNo()
  */
@@ -1148,6 +1246,8 @@ class ModifyWebLockMachineList extends Request
 {
 
 }/**
+ * @method $this setSourceIp($sourceIp)
+ * @method string getSourceIp()
  * @method $this setType($type)
  * @method string getType()
  */
@@ -1251,6 +1351,8 @@ class GetStatisticsByUuid extends Request
 {
 
 }/**
+ * @method $this setSourceIp($sourceIp)
+ * @method string getSourceIp()
  * @method $this setStartTime($startTime)
  * @method int getStartTime()
  * @method $this setEndTime($endTime)
@@ -1362,6 +1464,8 @@ class ModifyLogMetaStatus extends Request
 {
 
 }/**
+ * @method $this setSourceIp($sourceIp)
+ * @method string getSourceIp()
  * @method $this setLang($lang)
  * @method string getLang()
  * @method $this setFrom($from)
@@ -1391,6 +1495,8 @@ class DescribeWhiteListAuthorize extends Request
 {
 
 }/**
+ * @method $this setSourceIp($sourceIp)
+ * @method string getSourceIp()
  * @method $this setId($id)
  * @method int getId()
  * @method $this setRuleActionName($ruleActionName)
@@ -1450,6 +1556,8 @@ class DescribeSuspEventExportInfo extends Request
 {
 
 }/**
+ * @method $this setSourceIp($sourceIp)
+ * @method string getSourceIp()
  * @method $this setLogStoreName($logStoreName)
  * @method string getLogStoreName()
  * @method $this setProjectName($projectName)
@@ -1578,6 +1686,13 @@ class ExportVul extends Request
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
+ */
+class DescribeScreenTitles extends Request
+{
+
+}/**
+ * @method $this setSourceIp($sourceIp)
+ * @method string getSourceIp()
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
  * @method $this setTarget($target)
@@ -1606,12 +1721,21 @@ class SaveSuspEventUserSetting extends Request
 {
 
 }/**
+ * @method $this setSourceIp($sourceIp)
+ * @method string getSourceIp()
  * @method $this setId($id)
  * @method int getId()
  * @method $this setPpid($ppid)
  * @method string getPpid()
  */
 class DescribeVulRelatedProcess extends Request
+{
+
+}/**
+ * @method $this setSourceIp($sourceIp)
+ * @method string getSourceIp()
+ */
+class DescribeScreenFlowRequestCount extends Request
 {
 
 }/**
@@ -1646,6 +1770,8 @@ class DescribeDataSource extends Request
 {
 
 }/**
+ * @method $this setSourceIp($sourceIp)
+ * @method string getSourceIp()
  * @method $this setIds($ids)
  * @method string getIds()
  * @method $this setStatus($status)
@@ -1687,6 +1813,8 @@ class DescribeSuspEventDetail extends Request
 {
 
 }/**
+ * @method $this setSourceIp($sourceIp)
+ * @method string getSourceIp()
  * @method $this setTitle($title)
  * @method string getTitle()
  * @method $this setScreenDataMap($screenDataMap)
@@ -1757,6 +1885,13 @@ class DescribeEventCountCurve extends Request
  * @method string getDealed()
  */
 class DescribeWebshell extends Request
+{
+
+}/**
+ * @method $this setSourceIp($sourceIp)
+ * @method string getSourceIp()
+ */
+class CanTrySas extends Request
 {
 
 }/**
@@ -1895,6 +2030,13 @@ class ModifyVulConfig extends Request
  * @method int getPageSize()
  */
 class DescribeTopRiskyAssets extends Request
+{
+
+}/**
+ * @method $this setSourceIp($sourceIp)
+ * @method string getSourceIp()
+ */
+class DescribeAnalysisStatistics extends Request
 {
 
 }/**
@@ -2088,6 +2230,8 @@ class DescribeEventLevelCount extends Request
 {
 
 }/**
+ * @method $this setSourceIp($sourceIp)
+ * @method string getSourceIp()
  * @method $this setRuleId($ruleId)
  * @method int getRuleId()
  * @method $this setMessage($message)
@@ -2166,6 +2310,8 @@ class DescribeSummaryInfo extends Request
 {
 
 }/**
+ * @method $this setSourceIp($sourceIp)
+ * @method string getSourceIp()
  * @method $this setId($id)
  * @method string getId()
  */
@@ -2197,6 +2343,8 @@ class DeleteVulWhitelist extends Request
 {
 
 }/**
+ * @method $this setSourceIp($sourceIp)
+ * @method string getSourceIp()
  * @method $this setScreenId($screenId)
  * @method int getScreenId()
  * @method $this setDateType($dateType)
@@ -2210,6 +2358,13 @@ class DescribeScreenCityMonitorData extends Request
  * @method string getSourceIp()
  */
 class DescribeVulLevel extends Request
+{
+
+}/**
+ * @method $this setSourceIp($sourceIp)
+ * @method string getSourceIp()
+ */
+class DescribeAnalysisShipperStatus extends Request
 {
 
 }/**
@@ -2236,6 +2391,8 @@ class DescribeAttackAnalysisData extends Request
 {
 
 }/**
+ * @method $this setSourceIp($sourceIp)
+ * @method string getSourceIp()
  * @method $this setQuery($query)
  * @method string getQuery()
  * @method $this setPageSize($pageSize)
@@ -2304,6 +2461,13 @@ class DescribeRiskWhiteList extends Request
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
+ */
+class DescribeScreenDataMap extends Request
+{
+
+}/**
+ * @method $this setSourceIp($sourceIp)
+ * @method string getSourceIp()
  * @method $this setLang($lang)
  * @method string getLang()
  * @method $this setUuids($uuids)
@@ -2312,6 +2476,13 @@ class DescribeRiskWhiteList extends Request
  * @method int getStrategyId()
  */
 class DescribeRiskType extends Request
+{
+
+}/**
+ * @method $this setSourceIp($sourceIp)
+ * @method string getSourceIp()
+ */
+class DescribeScreenCloudHcRisk extends Request
 {
 
 }/**
@@ -2370,6 +2541,8 @@ class DescribeTarget extends Request
 {
 
 }/**
+ * @method $this setSourceIp($sourceIp)
+ * @method string getSourceIp()
  * @method $this setBuyVersion($buyVersion)
  * @method string getBuyVersion()
  */
@@ -2412,6 +2585,8 @@ class DescribeVulWhitelist extends Request
 {
 
 }/**
+ * @method $this setSourceIp($sourceIp)
+ * @method string getSourceIp()
  * @method $this setIds($ids)
  * @method string getIds()
  */
@@ -2456,6 +2631,13 @@ class ExportSuspEvents extends Request
  * @method string getFrom()
  */
 class DescribeAlarmEventDetail extends Request
+{
+
+}/**
+ * @method $this setSourceIp($sourceIp)
+ * @method string getSourceIp()
+ */
+class DescribeListAccessKeyIdAuth extends Request
 {
 
 }/**
@@ -2524,6 +2706,8 @@ class ModifyWebLockUpdateConfig extends Request
 {
 
 }/**
+ * @method $this setSourceIp($sourceIp)
+ * @method string getSourceIp()
  * @method $this setOperation($operation)
  * @method string getOperation()
  * @method $this setEventIds($eventIds)
@@ -2630,6 +2814,8 @@ class DescribeLoginLogs extends Request
 {
 
 }/**
+ * @method $this setSourceIp($sourceIp)
+ * @method string getSourceIp()
  * @method $this setStartTimeStamp($startTimeStamp)
  * @method int getStartTimeStamp()
  * @method $this setEndTimeStamp($endTimeStamp)
@@ -2734,6 +2920,8 @@ class DescribeWebLockStatus extends Request
 {
 
 }/**
+ * @method $this setSourceIp($sourceIp)
+ * @method string getSourceIp()
  * @method $this setActions($actions)
  * @method string getActions()
  * @method $this setDataSourceId1($dataSourceId1)
@@ -2799,6 +2987,13 @@ class CreateOrUpdateJoinRule extends Request
  * @method int getPageSize()
  */
 class DescribeVulList extends Request
+{
+
+}/**
+ * @method $this setSourceIp($sourceIp)
+ * @method string getSourceIp()
+ */
+class DescribeScreenSettings extends Request
 {
 
 }/**
@@ -2996,6 +3191,8 @@ class UpdateWhiteListStrategyRelation extends Request
 {
 
 }/**
+ * @method $this setSourceIp($sourceIp)
+ * @method string getSourceIp()
  * @method $this setRuleActionName($ruleActionName)
  * @method string getRuleActionName()
  */
@@ -3003,6 +3200,8 @@ class DescribeDingTalk extends Request
 {
 
 }/**
+ * @method $this setSourceIp($sourceIp)
+ * @method string getSourceIp()
  * @method $this setLogStoreName($logStoreName)
  * @method string getLogStoreName()
  * @method $this setProjectName($projectName)
@@ -3011,6 +3210,13 @@ class DescribeDingTalk extends Request
  * @method string getRegionNo()
  */
 class DescribeMetaData extends Request
+{
+
+}/**
+ * @method $this setSourceIp($sourceIp)
+ * @method string getSourceIp()
+ */
+class DescribeCanTrySas extends Request
 {
 
 }/**
@@ -3165,6 +3371,8 @@ class DescribeLogQuery extends Request
 {
 
 }/**
+ * @method $this setSourceIp($sourceIp)
+ * @method string getSourceIp()
  * @method $this setUuid($uuid)
  * @method string getUuid()
  */

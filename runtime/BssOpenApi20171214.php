@@ -9,25 +9,18 @@ use aliyun\sdk\core\lib\Request;
  *
  * @package aliyun\sdk\services\BssOpenApi20171214
  * @method QueryInstanceGaapCost QueryInstanceGaapCost()
- * @method QueryUserAlarmThreshold QueryUserAlarmThreshold()
  * @method QuerySettlementBill QuerySettlementBill()
  * @method QueryBillOverview QueryBillOverview()
  * @method GetOrderDetail GetOrderDetail()
  * @method DescribeResourcePackageProduct DescribeResourcePackageProduct()
- * @method CreateUserQuota CreateUserQuota()
- * @method ChangeConsumeAmount ChangeConsumeAmount()
- * @method QueryPriceList QueryPriceList()
+ * @method QueryAccountBalance QueryAccountBalance()
  * @method UnsubscribeBillToOSS UnsubscribeBillToOSS()
- * @method SetUserQuota SetUserQuota()
  * @method QueryUserOmsData QueryUserOmsData()
  * @method QueryInstanceBill QueryInstanceBill()
  * @method GetSubscriptionPrice GetSubscriptionPrice()
- * @method SetUserAlarmThreshold SetUserAlarmThreshold()
  * @method SetRenewal SetRenewal()
- * @method SubscribeDetail SubscribeDetail()
  * @method DescribePricingModule DescribePricingModule()
  * @method QueryEvaluateList QueryEvaluateList()
- * @method QueryAvaliableQuota QueryAvaliableQuota()
  * @method SubscribeBillToOSS SubscribeBillToOSS()
  * @method QueryBill QueryBill()
  * @method QueryRedeem QueryRedeem()
@@ -36,13 +29,9 @@ use aliyun\sdk\core\lib\Request;
  * @method GetResourcePackagePrice GetResourcePackagePrice()
  * @method QueryOrders QueryOrders()
  * @method QueryCashCoupons QueryCashCoupons()
- * @method QueryEnduserStatus QueryEnduserStatus()
- * @method QueryPrice QueryPrice()
  * @method QueryPrepaidCards QueryPrepaidCards()
  * @method QueryResourcePackageInstances QueryResourcePackageInstances()
- * @method SubscribeExportToOSS SubscribeExportToOSS()
  * @method QueryProductList QueryProductList()
- * @method SetEnduserStatus SetEnduserStatus()
  * @method QueryAvailableInstances QueryAvailableInstances()
  * @method ApplyInvoice ApplyInvoice()
  * @method ModifyInstance ModifyInstance()
@@ -54,7 +43,6 @@ use aliyun\sdk\core\lib\Request;
  * @method CancelOrder CancelOrder()
  * @method RenewInstance RenewInstance()
  * @method CreateResourcePackage CreateResourcePackage()
- * @method QueryAccountBookList QueryAccountBookList()
  * @method QueryCustomerAddressList QueryCustomerAddressList()
  */
 class V20171214
@@ -76,19 +64,6 @@ class V20171214
  * @method string getSubscriptionType()
  */
 class QueryInstanceGaapCost extends Request
-{
-
-}/**
- * @method $this setUid($uid)
- * @method int getUid()
- * @method $this setBid($bid)
- * @method string getBid()
- * @method $this setAlarmType($alarmType)
- * @method string getAlarmType()
- * @method $this setAlarmThresholds($alarmThresholds)
- * @method string getAlarmThresholds()
- */
-class QueryUserAlarmThreshold extends Request
 {
 
 }/**
@@ -148,56 +123,8 @@ class DescribeResourcePackageProduct extends Request
 {
 
 }/**
- * @method $this setUid($uid)
- * @method int getUid()
- * @method $this setBid($bid)
- * @method string getBid()
- * @method $this setAmount($amount)
- * @method string getAmount()
- * @method $this setCurrency($currency)
- * @method string getCurrency()
- * @method $this setOutBizId($outBizId)
- * @method string getOutBizId()
  */
-class CreateUserQuota extends Request
-{
-
-}/**
- * @method $this setUid($uid)
- * @method int getUid()
- * @method $this setBid($bid)
- * @method string getBid()
- * @method $this setAdjustType($adjustType)
- * @method string getAdjustType()
- * @method $this setAmount($amount)
- * @method string getAmount()
- * @method $this setCurrency($currency)
- * @method string getCurrency()
- * @method $this setBusinessType($businessType)
- * @method string getBusinessType()
- * @method $this setSource($source)
- * @method string getSource()
- * @method $this setOutBizId($outBizId)
- * @method string getOutBizId()
- * @method $this setExtendMap($extendMap)
- * @method string getExtendMap()
- */
-class ChangeConsumeAmount extends Request
-{
-
-}/**
- * @method $this setSubscriptionType($subscriptionType)
- * @method string getSubscriptionType()
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setProductCode($productCode)
- * @method string getProductCode()
- * @method $this setProductType($productType)
- * @method string getProductType()
- * @method $this setModuleCode($moduleCode)
- * @method string getModuleCode()
- */
-class QueryPriceList extends Request
+class QueryAccountBalance extends Request
 {
 
 }/**
@@ -205,21 +132,6 @@ class QueryPriceList extends Request
  * @method string getSubscribeType()
  */
 class UnsubscribeBillToOSS extends Request
-{
-
-}/**
- * @method $this setUid($uid)
- * @method int getUid()
- * @method $this setBid($bid)
- * @method string getBid()
- * @method $this setAmount($amount)
- * @method string getAmount()
- * @method $this setCurrency($currency)
- * @method string getCurrency()
- * @method $this setOutBizId($outBizId)
- * @method string getOutBizId()
- */
-class SetUserQuota extends Request
 {
 
 }/**
@@ -292,19 +204,6 @@ class GetSubscriptionPrice extends Request
 {
 
 }/**
- * @method $this setUid($uid)
- * @method int getUid()
- * @method $this setBid($bid)
- * @method string getBid()
- * @method $this setAlarmType($alarmType)
- * @method string getAlarmType()
- * @method $this setAlarmThresholds($alarmThresholds)
- * @method string getAlarmThresholds()
- */
-class SetUserAlarmThreshold extends Request
-{
-
-}/**
  * @method $this setRenewalPeriod($renewalPeriod)
  * @method int getRenewalPeriod()
  * @method $this setInstanceIDs($instanceIDs)
@@ -323,17 +222,6 @@ class SetUserAlarmThreshold extends Request
  * @method string getRenewalStatus()
  */
 class SetRenewal extends Request
-{
-
-}/**
- * @method $this setSubscribeBucket($subscribeBucket)
- * @method string getSubscribeBucket()
- * @method $this setBucketOwnerId($bucketOwnerId)
- * @method int getBucketOwnerId()
- * @method $this setSubscribeType($subscribeType)
- * @method array getSubscribeType()
- */
-class SubscribeDetail extends Request
 {
 
 }/**
@@ -384,17 +272,6 @@ class DescribePricingModule extends Request
  * @method int getcallerBid()
  */
 class QueryEvaluateList extends Request
-{
-
-}/**
- * @method $this setUid($uid)
- * @method int getUid()
- * @method $this setBid($bid)
- * @method string getBid()
- * @method $this setItemCodes($itemCodes)
- * @method string getItemCodes()
- */
-class QueryAvaliableQuota extends Request
 {
 
 }/**
@@ -532,26 +409,6 @@ class QueryCashCoupons extends Request
 {
 
 }/**
- * @method $this setUid($uid)
- * @method int getUid()
- * @method $this setPrimaryAccount($primaryAccount)
- * @method string getPrimaryAccount()
- * @method $this setStatus($status)
- * @method string getStatus()
- * @method $this setBusinessType($businessType)
- * @method string getBusinessType()
- */
-class QueryEnduserStatus extends Request
-{
-
-}/**
- * @method $this setParamStr($paramStr)
- * @method string getParamStr()
- */
-class QueryPrice extends Request
-{
-
-}/**
  * @method $this setExpiryTimeEnd($expiryTimeEnd)
  * @method string getExpiryTimeEnd()
  * @method $this setExpiryTimeStart($expiryTimeStart)
@@ -580,17 +437,6 @@ class QueryResourcePackageInstances extends Request
 {
 
 }/**
- * @method $this setSubscribeBucket($subscribeBucket)
- * @method string getSubscribeBucket()
- * @method $this setBucketOwnerId($bucketOwnerId)
- * @method int getBucketOwnerId()
- * @method $this setSubscribeType($subscribeType)
- * @method array getSubscribeType()
- */
-class SubscribeExportToOSS extends Request
-{
-
-}/**
  * @method $this setQueryTotalCount($queryTotalCount)
  * @method bool getQueryTotalCount()
  * @method $this setPageNum($pageNum)
@@ -599,19 +445,6 @@ class SubscribeExportToOSS extends Request
  * @method int getPageSize()
  */
 class QueryProductList extends Request
-{
-
-}/**
- * @method $this setUid($uid)
- * @method int getUid()
- * @method $this setPrimaryAccount($primaryAccount)
- * @method string getPrimaryAccount()
- * @method $this setStatus($status)
- * @method string getStatus()
- * @method $this setBusinessType($businessType)
- * @method string getBusinessType()
- */
-class SetEnduserStatus extends Request
 {
 
 }/**
@@ -801,17 +634,6 @@ class RenewInstance extends Request
  * @method string getPricingCycle()
  */
 class CreateResourcePackage extends Request
-{
-
-}/**
- * @method $this setUid($uid)
- * @method int getUid()
- * @method $this setBid($bid)
- * @method string getBid()
- * @method $this setItemCodes($itemCodes)
- * @method string getItemCodes()
- */
-class QueryAccountBookList extends Request
 {
 
 }/**

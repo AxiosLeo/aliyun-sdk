@@ -24,25 +24,18 @@ use aliyun\sdk\core\lib\Request;
  * @method CreateDomain CreateDomain()
  * @method CreateReceiver CreateReceiver()
  * @method GetSenderAddressList GetSenderAddressList()
- * @method ModifyAccountNotification ModifyAccountNotification()
  * @method ModifyMailAddress ModifyMailAddress()
  * @method SingleSendMail SingleSendMail()
- * @method ApproveTemplate ApproveTemplate()
  * @method SaveReceiverDetail SaveReceiverDetail()
  * @method QueryTemplateByParam QueryTemplateByParam()
- * @method UpdateDomainTrackName UpdateDomainTrackName()
- * @method ApproveReplyMailAddress ApproveReplyMailAddress()
  * @method ModifyTemplate ModifyTemplate()
  * @method DescDomain DescDomain()
  * @method QueryInvalidAddress QueryInvalidAddress()
  * @method DeleteMailAddress DeleteMailAddress()
  * @method QueryTaskByParam QueryTaskByParam()
- * @method ApproveMailTemplate ApproveMailTemplate()
  * @method CreateMailAddress CreateMailAddress()
- * @method SetMaxQuotaLevel SetMaxQuotaLevel()
  * @method SendTestByTemplate SendTestByTemplate()
  * @method CheckDomain CheckDomain()
- * @method ModifySenderAddressNotification ModifySenderAddressNotification()
  * @method QueryReceiverByParam QueryReceiverByParam()
  * @method GetIpProtection GetIpProtection()
  * @method DeleteTemplate DeleteTemplate()
@@ -59,7 +52,6 @@ use aliyun\sdk\core\lib\Request;
  * @method QuerySmsStatistics QuerySmsStatistics()
  * @method UpdateIpProtection UpdateIpProtection()
  * @method GetTrackList GetTrackList()
- * @method EnableAccount EnableAccount()
  */
 class V20170622
 {
@@ -358,21 +350,6 @@ class GetSenderAddressList extends Request
  * @method string getResourceOwnerAccount()
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
- * @method $this setRegion($region)
- * @method string getRegion()
- * @method $this setStatus($status)
- * @method string getStatus()
- */
-class ModifyAccountNotification extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
  * @method $this setMailAddressId($mailAddressId)
  * @method int getMailAddressId()
  * @method $this setReplyAddress($replyAddress)
@@ -425,21 +402,6 @@ class SingleSendMail extends Request
  * @method string getResourceOwnerAccount()
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
- * @method $this setTemplateId($templateId)
- * @method int getTemplateId()
- * @method $this setFromType($fromType)
- * @method int getFromType()
- */
-class ApproveTemplate extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
  * @method $this setReceiverId($receiverId)
  * @method string getReceiverId()
  * @method $this setDetail($detail)
@@ -467,34 +429,6 @@ class SaveReceiverDetail extends Request
  * @method int getFromType()
  */
 class QueryTemplateByParam extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setDomainId($domainId)
- * @method int getDomainId()
- * @method $this setCnameTrackRecord($cnameTrackRecord)
- * @method string getCnameTrackRecord()
- */
-class UpdateDomainTrackName extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setTicket($ticket)
- * @method string getTicket()
- */
-class ApproveReplyMailAddress extends Request
 {
 
 }/**
@@ -599,21 +533,6 @@ class QueryTaskByParam extends Request
  * @method string getResourceOwnerAccount()
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
- * @method $this setTemplateId($templateId)
- * @method int getTemplateId()
- * @method $this setFromType($fromType)
- * @method int getFromType()
- */
-class ApproveMailTemplate extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
  * @method $this setAccountName($accountName)
  * @method string getAccountName()
  * @method $this setReplyAddress($replyAddress)
@@ -622,19 +541,6 @@ class ApproveMailTemplate extends Request
  * @method string getSendtype()
  */
 class CreateMailAddress extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setMaxQuotaLevel($maxQuotaLevel)
- * @method string getMaxQuotaLevel()
- */
-class SetMaxQuotaLevel extends Request
 {
 
 }/**
@@ -675,25 +581,6 @@ class SendTestByTemplate extends Request
  * @method int getDomainId()
  */
 class CheckDomain extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setSenderAddressId($senderAddressId)
- * @method string getSenderAddressId()
- * @method $this setSenderAddress($senderAddress)
- * @method string getSenderAddress()
- * @method $this setRegion($region)
- * @method string getRegion()
- * @method $this setStatus($status)
- * @method string getStatus()
- */
-class ModifySenderAddressNotification extends Request
 {
 
 }/**
@@ -960,17 +847,6 @@ class UpdateIpProtection extends Request
  * @method string getPageNumber()
  */
 class GetTrackList extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- */
-class EnableAccount extends Request
 {
 
 }

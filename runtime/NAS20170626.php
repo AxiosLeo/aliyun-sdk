@@ -12,7 +12,6 @@ use aliyun\sdk\core\lib\Request;
  * @method DescribeFileSystems DescribeFileSystems()
  * @method ModifyTieringJob ModifyTieringJob()
  * @method ModifyMountTarget ModifyMountTarget()
- * @method CPFSModifyFileSystem CPFSModifyFileSystem()
  * @method DescribeMountTargets DescribeMountTargets()
  * @method DeleteMountTarget DeleteMountTarget()
  * @method DeleteAccessRule DeleteAccessRule()
@@ -22,18 +21,16 @@ use aliyun\sdk\core\lib\Request;
  * @method ModifyTieringPolicy ModifyTieringPolicy()
  * @method DescribeRegions DescribeRegions()
  * @method CreateFileSystem CreateFileSystem()
- * @method CPFSCreateFileSystem CPFSCreateFileSystem()
- * @method CPFSDescribeRegions CPFSDescribeRegions()
+ * @method DescribeTieringPolicies DescribeTieringPolicies()
  * @method DescribeAccessGroups DescribeAccessGroups()
  * @method CreateTieringPolicy CreateTieringPolicy()
  * @method DescribeAccessRules DescribeAccessRules()
  * @method CreateTieringJob CreateTieringJob()
- * @method CPFSDescribeFileSystems CPFSDescribeFileSystems()
  * @method ModifyAccessGroup ModifyAccessGroup()
+ * @method DescribeZones DescribeZones()
  * @method CreateMountTarget CreateMountTarget()
  * @method DeleteTieringJob DeleteTieringJob()
  * @method DeleteAccessGroup DeleteAccessGroup()
- * @method CPFSDeleteFileSystem CPFSDeleteFileSystem()
  * @method DeleteFileSystem DeleteFileSystem()
  * @method DescribeTieringJobs DescribeTieringJobs()
  * @method ModifyAccessRule ModifyAccessRule()
@@ -98,17 +95,6 @@ class ModifyTieringJob extends Request
  * @method string getStatus()
  */
 class ModifyMountTarget extends Request
-{
-
-}/**
- * @method $this setFsId($fsId)
- * @method string getFsId()
- * @method $this setFsDesc($fsDesc)
- * @method string getFsDesc()
- * @method $this setLdapUrl($ldapUrl)
- * @method string getLdapUrl()
- */
-class CPFSModifyFileSystem extends Request
 {
 
 }/**
@@ -215,33 +201,8 @@ class CreateFileSystem extends Request
 {
 
 }/**
- * @method $this setFsDesc($fsDesc)
- * @method string getFsDesc()
- * @method $this setFsSpec($fsSpec)
- * @method string getFsSpec()
- * @method $this setBandwidth($bandwidth)
- * @method int getBandwidth()
- * @method $this setCapacity($capacity)
- * @method int getCapacity()
- * @method $this setNetworkType($networkType)
- * @method string getNetworkType()
- * @method $this setZoneId($zoneId)
- * @method string getZoneId()
- * @method $this setVpcId($vpcId)
- * @method string getVpcId()
- * @method $this setVSwitchId($vSwitchId)
- * @method string getVSwitchId()
  */
-class CPFSCreateFileSystem extends Request
-{
-
-}/**
- * @method $this setPageSize($pageSize)
- * @method int getPageSize()
- * @method $this setPageNumber($pageNumber)
- * @method int getPageNumber()
- */
-class CPFSDescribeRegions extends Request
+class DescribeTieringPolicies extends Request
 {
 
 }/**
@@ -272,6 +233,8 @@ class DescribeAccessGroups extends Request
  * @method string getFileName()
  * @method $this setRecallTime($recallTime)
  * @method int getRecallTime()
+ * @method $this setCheckLimit($checkLimit)
+ * @method bool getCheckLimit()
  */
 class CreateTieringPolicy extends Request
 {
@@ -313,23 +276,17 @@ class CreateTieringJob extends Request
 {
 
 }/**
- * @method $this setFsId($fsId)
- * @method string getFsId()
- * @method $this setPageSize($pageSize)
- * @method int getPageSize()
- * @method $this setPageNumber($pageNumber)
- * @method int getPageNumber()
- */
-class CPFSDescribeFileSystems extends Request
-{
-
-}/**
  * @method $this setAccessGroupName($accessGroupName)
  * @method string getAccessGroupName()
  * @method $this setDescription($description)
  * @method string getDescription()
  */
 class ModifyAccessGroup extends Request
+{
+
+}/**
+ */
+class DescribeZones extends Request
 {
 
 }/**
@@ -361,13 +318,6 @@ class DeleteTieringJob extends Request
  * @method string getAccessGroupName()
  */
 class DeleteAccessGroup extends Request
-{
-
-}/**
- * @method $this setFsId($fsId)
- * @method string getFsId()
- */
-class CPFSDeleteFileSystem extends Request
 {
 
 }/**

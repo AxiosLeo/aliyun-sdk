@@ -10,17 +10,21 @@ use aliyun\sdk\core\lib\Request;
  * @package aliyun\sdk\services\CS20180418
  * @method DescribeClusters DescribeClusters()
  * @method DescribeClusterDetail DescribeClusterDetail()
+ * @method CreateCluster CreateCluster()
  * @method DeleteCluster DeleteCluster()
+ * @method CheckAliyunCSServiceRole CheckAliyunCSServiceRole()
  * @method DescribeClusterNodeInfo DescribeClusterNodeInfo()
  * @method DescribeClusterCerts DescribeClusterCerts()
  * @method DescribeTemplateAttribute DescribeTemplateAttribute()
  * @method GetTriggerHook GetTriggerHook()
+ * @method UpdateSubUserResouces UpdateSubUserResouces()
  * @method DescribeClusterServices DescribeClusterServices()
  * @method ResetClusterNode ResetClusterNode()
  * @method DescribeClusterLogs DescribeClusterLogs()
  * @method DescribeImages DescribeImages()
  * @method CallbackClusterToken CallbackClusterToken()
  * @method DescribeClusterScaledNode DescribeClusterScaledNode()
+ * @method DescribeTemplates DescribeTemplates()
  * @method DescribeKubernetesTemplates DescribeKubernetesTemplates()
  * @method DescribeClusterHosts DescribeClusterHosts()
  * @method CreateClusterToken CreateClusterToken()
@@ -28,11 +32,14 @@ use aliyun\sdk\core\lib\Request;
  * @method RevokeClusterToken RevokeClusterToken()
  * @method CallBackAgilityCluster CallBackAgilityCluster()
  * @method ScaleInCluster ScaleInCluster()
+ * @method AddAgilityCluster AddAgilityCluster()
  * @method DescribeClusterNodeInfoWithInstance DescribeClusterNodeInfoWithInstance()
  * @method DeleteClusterNode DeleteClusterNode()
  * @method DescribeAgilityTunnelAgentInfo DescribeAgilityTunnelAgentInfo()
  * @method DescribeClusterNodes DescribeClusterNodes()
+ * @method CreateTemplate CreateTemplate()
  * @method DescribeTaskInfo DescribeTaskInfo()
+ * @method DescribeApiVersion DescribeApiVersion()
  * @method GetClusterProjects GetClusterProjects()
  * @method GatherLogsToken GatherLogsToken()
  * @method UpgradeClusterComponents UpgradeClusterComponents()
@@ -44,6 +51,7 @@ use aliyun\sdk\core\lib\Request;
  * @method DescribeAgilityTunnelCerts DescribeAgilityTunnelCerts()
  * @method DescribeKubernetesTemplate DescribeKubernetesTemplate()
  * @method GetProjectEvents GetProjectEvents()
+ * @method ModifyClusterName ModifyClusterName()
  */
 class V20180418
 {
@@ -66,10 +74,20 @@ class DescribeClusterDetail extends Request
 {
 
 }/**
+ */
+class CreateCluster extends Request
+{
+
+}/**
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
  */
 class DeleteCluster extends Request
+{
+
+}/**
+ */
+class CheckAliyunCSServiceRole extends Request
 {
 
 }/**
@@ -100,6 +118,11 @@ class DescribeTemplateAttribute extends Request
  * @method string getProjectId()
  */
 class GetTriggerHook extends Request
+{
+
+}/**
+ */
+class UpdateSubUserResouces extends Request
 {
 
 }/**
@@ -150,6 +173,11 @@ class CallbackClusterToken extends Request
  * @method string getClusterId()
  */
 class DescribeClusterScaledNode extends Request
+{
+
+}/**
+ */
+class DescribeTemplates extends Request
 {
 
 }/**
@@ -208,6 +236,11 @@ class ScaleInCluster extends Request
 {
 
 }/**
+ */
+class AddAgilityCluster extends Request
+{
+
+}/**
  * @method $this setToken($token)
  * @method string getToken()
  * @method $this setInstanceId($instanceId)
@@ -248,10 +281,20 @@ class DescribeClusterNodes extends Request
 {
 
 }/**
+ */
+class CreateTemplate extends Request
+{
+
+}/**
  * @method $this setTaskId($taskId)
  * @method string getTaskId()
  */
 class DescribeTaskInfo extends Request
+{
+
+}/**
+ */
+class DescribeApiVersion extends Request
 {
 
 }/**
@@ -337,6 +380,11 @@ class DescribeKubernetesTemplate extends Request
  * @method string getProjectId()
  */
 class GetProjectEvents extends Request
+{
+
+}/**
+ */
+class ModifyClusterName extends Request
 {
 
 }

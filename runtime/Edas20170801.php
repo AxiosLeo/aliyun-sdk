@@ -12,32 +12,33 @@ use aliyun\sdk\core\lib\Request;
  * @method ListDegradeControls ListDegradeControls()
  * @method InsertFlowControl InsertFlowControl()
  * @method QueryConfigCenter QueryConfigCenter()
+ * @method ListVpc ListVpc()
  * @method GetChangeOrderInfo GetChangeOrderInfo()
  * @method EnableDegradeControl EnableDegradeControl()
  * @method ListConsumedServices ListConsumedServices()
+ * @method ListBuildPack ListBuildPack()
  * @method DeleteEcu DeleteEcu()
  * @method TransformClusterMember TransformClusterMember()
  * @method UpdateK8sApplicationConfig UpdateK8sApplicationConfig()
  * @method DeleteCluster DeleteCluster()
  * @method ListClusterMembers ListClusterMembers()
  * @method DeleteRole DeleteRole()
- * @method DeleteServiceAuthorization DeleteServiceAuthorization()
  * @method InsertServerlessApplication InsertServerlessApplication()
  * @method UpdateContainerConfiguration UpdateContainerConfiguration()
- * @method InsertServiceAuthorization InsertServiceAuthorization()
  * @method ListConvertableEcu ListConvertableEcu()
+ * @method ListSubAccount ListSubAccount()
  * @method StartApplication StartApplication()
  * @method ResetApplication ResetApplication()
  * @method DeleteDeployGroup DeleteDeployGroup()
  * @method ListEcsNotInCluster ListEcsNotInCluster()
  * @method GetJvmConfiguration GetJvmConfiguration()
+ * @method ListAuthority ListAuthority()
  * @method ListCluster ListCluster()
- * @method GetServiceAuthorization GetServiceAuthorization()
+ * @method ListRole ListRole()
  * @method GetApplication GetApplication()
  * @method BindK8sSlb BindK8sSlb()
  * @method GetServerlessAppConfigDetail GetServerlessAppConfigDetail()
  * @method SynchronizeResource SynchronizeResource()
- * @method ListServiceMethods ListServiceMethods()
  * @method BindSlb BindSlb()
  * @method AuthorizeResourceGroup AuthorizeResourceGroup()
  * @method InsertConfigCenter InsertConfigCenter()
@@ -55,6 +56,7 @@ use aliyun\sdk\core\lib\Request;
  * @method EnableFlowControl EnableFlowControl()
  * @method ScaleK8sApplication ScaleK8sApplication()
  * @method StopApplication StopApplication()
+ * @method ListComponents ListComponents()
  * @method InsertServiceGroup InsertServiceGroup()
  * @method GetSecureToken GetSecureToken()
  * @method UpdateContainer UpdateContainer()
@@ -63,7 +65,6 @@ use aliyun\sdk\core\lib\Request;
  * @method BindServerlessSlb BindServerlessSlb()
  * @method InsertApplication InsertApplication()
  * @method ListConfigCenters ListConfigCenters()
- * @method GetVpc GetVpc()
  * @method InstallAgent InstallAgent()
  * @method RollbackApplication RollbackApplication()
  * @method DeleteDegradeControl DeleteDegradeControl()
@@ -73,9 +74,7 @@ use aliyun\sdk\core\lib\Request;
  * @method UpdateK8sSlb UpdateK8sSlb()
  * @method DeleteApplication DeleteApplication()
  * @method MigrateEcu MigrateEcu()
- * @method ListApplicationEcc ListApplicationEcc()
- * @method DeleteVpc DeleteVpc()
- * @method ListInvokeChain ListInvokeChain()
+ * @method ListApplicationEcu ListApplicationEcu()
  * @method QueryMigrateRegionList QueryMigrateRegionList()
  * @method GetCluster GetCluster()
  * @method InsertDegradeControl InsertDegradeControl()
@@ -85,34 +84,37 @@ use aliyun\sdk\core\lib\Request;
  * @method ScaleOutApplication ScaleOutApplication()
  * @method UpdateDegradeControl UpdateDegradeControl()
  * @method InsertRole InsertRole()
+ * @method QueryRegionConfig QueryRegionConfig()
  * @method DisableFlowControl DisableFlowControl()
  * @method InsertClusterMember InsertClusterMember()
+ * @method ListAliyunRegion ListAliyunRegion()
  * @method ListPublishedServices ListPublishedServices()
  * @method DeployK8sApplication DeployK8sApplication()
  * @method QueryMigrateEcuList QueryMigrateEcuList()
- * @method QueryTraceDetail QueryTraceDetail()
  * @method CreateServerlessApplication CreateServerlessApplication()
  * @method DeleteConfigCenter DeleteConfigCenter()
+ * @method ListResourceGroup ListResourceGroup()
  * @method InsertDeployGroup InsertDeployGroup()
  * @method ImportK8sCluster ImportK8sCluster()
  * @method ScaleServerlessApplication ScaleServerlessApplication()
  * @method DeleteUserDefineRegion DeleteUserDefineRegion()
  * @method ListFlowControls ListFlowControls()
+ * @method ListApplication ListApplication()
  * @method DeployApplication DeployApplication()
+ * @method ListSlb ListSlb()
+ * @method ListServiceGroups ListServiceGroups()
  * @method DeleteK8sApplication DeleteK8sApplication()
+ * @method GetPackageStorageCredential GetPackageStorageCredential()
  * @method UpdateFlowControl UpdateFlowControl()
  * @method DisableDegradeControl DisableDegradeControl()
  * @method UpdateAccountInfo UpdateAccountInfo()
  * @method DeleteServiceGroup DeleteServiceGroup()
  * @method DeleteFlowControl DeleteFlowControl()
- * @method ListServiceConsumers ListServiceConsumers()
- * @method InsertVpc InsertVpc()
  * @method UnbindSlb UnbindSlb()
  * @method DeleteServerlessApplication DeleteServerlessApplication()
  * @method InsertK8sApplication InsertK8sApplication()
  * @method InsertOrUpdateRegion InsertOrUpdateRegion()
  * @method InsertCluster InsertCluster()
- * @method ListServiceMonitors ListServiceMonitors()
  */
 class V20170801
 {
@@ -177,6 +179,11 @@ class QueryConfigCenter extends Request
 {
 
 }/**
+ */
+class ListVpc extends Request
+{
+
+}/**
  * @method $this setChangeOrderId($changeOrderId)
  * @method string getChangeOrderId()
  */
@@ -197,6 +204,11 @@ class EnableDegradeControl extends Request
  * @method string getAppId()
  */
 class ListConsumedServices extends Request
+{
+
+}/**
+ */
+class ListBuildPack extends Request
 {
 
 }/**
@@ -253,21 +265,6 @@ class ListClusterMembers extends Request
  * @method int getRoleId()
  */
 class DeleteRole extends Request
-{
-
-}/**
- * @method $this setAppId($appId)
- * @method string getAppId()
- * @method $this setAuthAppId($authAppId)
- * @method array getAuthAppId()
- * @method $this setUniqueServiceName($uniqueServiceName)
- * @method string getUniqueServiceName()
- * @method $this setMethodName($methodName)
- * @method string getMethodName()
- * @method $this setAuthType($authType)
- * @method string getAuthType()
- */
-class DeleteServiceAuthorization extends Request
 {
 
 }/**
@@ -343,27 +340,15 @@ class UpdateContainerConfiguration extends Request
 {
 
 }/**
- * @method $this setAppId($appId)
- * @method string getAppId()
- * @method $this setAppWithAppId($appWithAppId)
- * @method array getAppWithAppId()
- * @method $this setServiceWithAppId($serviceWithAppId)
- * @method array getServiceWithAppId()
- * @method $this setMethodWithAppId($methodWithAppId)
- * @method array getMethodWithAppId()
- * @method $this setUniqueServiceName($uniqueServiceName)
- * @method string getUniqueServiceName()
- * @method $this setMethodName($methodName)
- * @method string getMethodName()
- */
-class InsertServiceAuthorization extends Request
-{
-
-}/**
  * @method $this setclusterId($clusterId)
  * @method string getclusterId()
  */
 class ListConvertableEcu extends Request
+{
+
+}/**
+ */
+class ListSubAccount extends Request
 {
 
 }/**
@@ -412,6 +397,11 @@ class GetJvmConfiguration extends Request
 {
 
 }/**
+ */
+class ListAuthority extends Request
+{
+
+}/**
  * @method $this setLogicalRegionId($logicalRegionId)
  * @method string getLogicalRegionId()
  */
@@ -419,10 +409,8 @@ class ListCluster extends Request
 {
 
 }/**
- * @method $this setAppId($appId)
- * @method string getAppId()
  */
-class GetServiceAuthorization extends Request
+class ListRole extends Request
 {
 
 }/**
@@ -463,17 +451,6 @@ class GetServerlessAppConfigDetail extends Request
  * @method string getType()
  */
 class SynchronizeResource extends Request
-{
-
-}/**
- * @method $this setAppId($appId)
- * @method string getAppId()
- * @method $this setServiceGroup($serviceGroup)
- * @method string getServiceGroup()
- * @method $this setServiceName($serviceName)
- * @method string getServiceName()
- */
-class ListServiceMethods extends Request
 {
 
 }/**
@@ -684,6 +661,11 @@ class StopApplication extends Request
 {
 
 }/**
+ */
+class ListComponents extends Request
+{
+
+}/**
  * @method $this setGroupName($groupName)
  * @method string getGroupName()
  */
@@ -777,17 +759,6 @@ class InsertApplication extends Request
  * @method string getAppName()
  */
 class ListConfigCenters extends Request
-{
-
-}/**
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setCurrentPage($currentPage)
- * @method int getCurrentPage()
- * @method $this setPageSize($pageSize)
- * @method int getPageSize()
- */
-class GetVpc extends Request
 {
 
 }/**
@@ -886,56 +857,8 @@ class MigrateEcu extends Request
 {
 
 }/**
- * @method $this setAppId($appId)
- * @method string getAppId()
  */
-class ListApplicationEcc extends Request
-{
-
-}/**
- * @method $this setVpcIds($vpcIds)
- * @method string getVpcIds()
- */
-class DeleteVpc extends Request
-{
-
-}/**
- * @method $this setBeginTimeStr($beginTimeStr)
- * @method string getBeginTimeStr()
- * @method $this setClientApp($clientApp)
- * @method string getClientApp()
- * @method $this setServerApp($serverApp)
- * @method string getServerApp()
- * @method $this setClientIp($clientIp)
- * @method string getClientIp()
- * @method $this setClientOrServerApp($clientOrServerApp)
- * @method string getClientOrServerApp()
- * @method $this setInsideEnable($insideEnable)
- * @method string getInsideEnable()
- * @method $this setIsError($isError)
- * @method string getIsError()
- * @method $this setLimit($limit)
- * @method string getLimit()
- * @method $this setMsOfSpan($msOfSpan)
- * @method string getMsOfSpan()
- * @method $this setRepSize($repSize)
- * @method string getRepSize()
- * @method $this setReqSize($reqSize)
- * @method string getReqSize()
- * @method $this setResultCode($resultCode)
- * @method string getResultCode()
- * @method $this setRootIp($rootIp)
- * @method string getRootIp()
- * @method $this setRpcType($rpcType)
- * @method string getRpcType()
- * @method $this setServerIp($serverIp)
- * @method string getServerIp()
- * @method $this setService($service)
- * @method string getService()
- * @method $this setTimeRange($timeRange)
- * @method string getTimeRange()
- */
-class ListInvokeChain extends Request
+class ListApplicationEcu extends Request
 {
 
 }/**
@@ -1046,6 +969,11 @@ class InsertRole extends Request
 {
 
 }/**
+ */
+class QueryRegionConfig extends Request
+{
+
+}/**
  * @method $this setAppId($appId)
  * @method string getAppId()
  * @method $this setRuleId($ruleId)
@@ -1063,6 +991,11 @@ class DisableFlowControl extends Request
  * @method string getpassword()
  */
 class InsertClusterMember extends Request
+{
+
+}/**
+ */
+class ListAliyunRegion extends Request
 {
 
 }/**
@@ -1122,13 +1055,6 @@ class DeployK8sApplication extends Request
  * @method string getLogicalRegionId()
  */
 class QueryMigrateEcuList extends Request
-{
-
-}/**
- * @method $this setTraceId($traceId)
- * @method string getTraceId()
- */
-class QueryTraceDetail extends Request
 {
 
 }/**
@@ -1196,6 +1122,11 @@ class DeleteConfigCenter extends Request
 {
 
 }/**
+ */
+class ListResourceGroup extends Request
+{
+
+}/**
  * @method $this setAppId($appId)
  * @method string getAppId()
  * @method $this setGroupName($groupName)
@@ -1239,6 +1170,11 @@ class ListFlowControls extends Request
 {
 
 }/**
+ */
+class ListApplication extends Request
+{
+
+}/**
  * @method $this setAppId($appId)
  * @method string getAppId()
  * @method $this setPackageVersion($packageVersion)
@@ -1268,10 +1204,25 @@ class DeployApplication extends Request
 {
 
 }/**
+ */
+class ListSlb extends Request
+{
+
+}/**
+ */
+class ListServiceGroups extends Request
+{
+
+}/**
  * @method $this setAppId($appId)
  * @method string getAppId()
  */
 class DeleteK8sApplication extends Request
+{
+
+}/**
+ */
+class GetPackageStorageCredential extends Request
 {
 
 }/**
@@ -1338,24 +1289,6 @@ class DeleteFlowControl extends Request
 }/**
  * @method $this setAppId($appId)
  * @method string getAppId()
- * @method $this setServiceGroup($serviceGroup)
- * @method string getServiceGroup()
- * @method $this setServiceName($serviceName)
- * @method string getServiceName()
- */
-class ListServiceConsumers extends Request
-{
-
-}/**
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- */
-class InsertVpc extends Request
-{
-
-}/**
- * @method $this setAppId($appId)
- * @method string getAppId()
  * @method $this setSlbId($slbId)
  * @method string getSlbId()
  * @method $this setType($type)
@@ -1367,6 +1300,8 @@ class UnbindSlb extends Request
 }/**
  * @method $this setAppId($appId)
  * @method string getAppId()
+ * @method $this setAct($act)
+ * @method string getAct()
  */
 class DeleteServerlessApplication extends Request
 {
@@ -1470,13 +1405,6 @@ class InsertOrUpdateRegion extends Request
  * @method string getIaasProvider()
  */
 class InsertCluster extends Request
-{
-
-}/**
- * @method $this setData($data)
- * @method string getData()
- */
-class ListServiceMonitors extends Request
 {
 
 }

@@ -27,7 +27,6 @@ use aliyun\sdk\core\lib\Request;
  * @method CreateUploadToken CreateUploadToken()
  * @method DeleteStreamPredict DeleteStreamPredict()
  * @method PredictImage PredictImage()
- * @method DescribeIvisionServiceStatus DescribeIvisionServiceStatus()
  * @method CreateTrainDatasFromUrls CreateTrainDatasFromUrls()
  * @method CreateTrainDatasFromPrediction CreateTrainDatasFromPrediction()
  * @method CreateProject CreateProject()
@@ -50,6 +49,8 @@ class V20190308
 /**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
+ * @method $this setShowLog($showLog)
+ * @method string getShowLog()
  * @method $this setProjectId($projectId)
  * @method string getProjectId()
  * @method $this setDataId($dataId)
@@ -63,6 +64,8 @@ class ModifyTrainDataRegionTagAttribute extends Request
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
+ * @method $this setShowLog($showLog)
+ * @method string getShowLog()
  * @method $this setPredictId($predictId)
  * @method string getPredictId()
  */
@@ -72,6 +75,8 @@ class StartStreamPredict extends Request
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
+ * @method $this setShowLog($showLog)
+ * @method string getShowLog()
  * @method $this setProjectId($projectId)
  * @method string getProjectId()
  * @method $this setIterationId($iterationId)
@@ -93,6 +98,8 @@ class DescribeTrainDatas extends Request
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
+ * @method $this setShowLog($showLog)
+ * @method string getShowLog()
  * @method $this setProjectId($projectId)
  * @method string getProjectId()
  * @method $this setName($name)
@@ -106,6 +113,8 @@ class ModifyProjectAttribute extends Request
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
+ * @method $this setShowLog($showLog)
+ * @method string getShowLog()
  * @method $this setProjectId($projectId)
  * @method string getProjectId()
  * @method $this setDataId($dataId)
@@ -119,6 +128,8 @@ class ModifyTrainDataTagAttribute extends Request
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
+ * @method $this setShowLog($showLog)
+ * @method string getShowLog()
  * @method $this setProjectId($projectId)
  * @method string getProjectId()
  * @method $this setIterationId($iterationId)
@@ -132,6 +143,8 @@ class DescribeTrainResult extends Request
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
+ * @method $this setShowLog($showLog)
+ * @method string getShowLog()
  * @method $this setProjectId($projectId)
  * @method string getProjectId()
  * @method $this setTagId($tagId)
@@ -143,6 +156,8 @@ class DeleteTag extends Request
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
+ * @method $this setShowLog($showLog)
+ * @method string getShowLog()
  * @method $this setProjectId($projectId)
  * @method string getProjectId()
  * @method $this setIterationId($iterationId)
@@ -168,6 +183,8 @@ class DescribePredictDatas extends Request
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
+ * @method $this setShowLog($showLog)
+ * @method string getShowLog()
  * @method $this setProjectId($projectId)
  * @method string getProjectId()
  * @method $this setName($name)
@@ -181,6 +198,8 @@ class CreateTag extends Request
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
+ * @method $this setShowLog($showLog)
+ * @method string getShowLog()
  * @method $this setPredictIds($predictIds)
  * @method string getPredictIds()
  * @method $this setNextPageToken($nextPageToken)
@@ -196,6 +215,8 @@ class DescribeStreamPredicts extends Request
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
+ * @method $this setShowLog($showLog)
+ * @method string getShowLog()
  * @method $this setProjectId($projectId)
  * @method string getProjectId()
  * @method $this setIterationId($iterationId)
@@ -209,6 +230,8 @@ class DeletePredictDatas extends Request
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
+ * @method $this setShowLog($showLog)
+ * @method string getShowLog()
  * @method $this setProjectId($projectId)
  * @method string getProjectId()
  * @method $this setIterationIds($iterationIds)
@@ -224,6 +247,8 @@ class DescribeIterations extends Request
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
+ * @method $this setShowLog($showLog)
+ * @method string getShowLog()
  * @method $this setPredictId($predictId)
  * @method string getPredictId()
  * @method $this setModelId($modelId)
@@ -247,6 +272,8 @@ class DescribeStreamPredictResult extends Request
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
+ * @method $this setShowLog($showLog)
+ * @method string getShowLog()
  * @method $this setProjectId($projectId)
  * @method string getProjectId()
  * @method $this setDataIds($dataIds)
@@ -260,6 +287,8 @@ class DeleteTrainDatasTag extends Request
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
+ * @method $this setShowLog($showLog)
+ * @method string getShowLog()
  * @method $this setPredictId($predictId)
  * @method string getPredictId()
  */
@@ -269,6 +298,8 @@ class StopStreamPredict extends Request
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
+ * @method $this setShowLog($showLog)
+ * @method string getShowLog()
  * @method $this setProjectId($projectId)
  * @method string getProjectId()
  * @method $this setDataId($dataId)
@@ -282,6 +313,8 @@ class CreateTrainDataRegionTag extends Request
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
+ * @method $this setShowLog($showLog)
+ * @method string getShowLog()
  * @method $this setProjectId($projectId)
  * @method string getProjectId()
  * @method $this setFileName($fileName)
@@ -293,6 +326,8 @@ class CreateUploadToken extends Request
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
+ * @method $this setShowLog($showLog)
+ * @method string getShowLog()
  * @method $this setPredictId($predictId)
  * @method string getPredictId()
  */
@@ -302,6 +337,8 @@ class DeleteStreamPredict extends Request
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
+ * @method $this setShowLog($showLog)
+ * @method string getShowLog()
  * @method $this setProjectId($projectId)
  * @method string getProjectId()
  * @method $this setIterationId($iterationId)
@@ -313,13 +350,10 @@ class PredictImage extends Request
 {
 
 }/**
- */
-class DescribeIvisionServiceStatus extends Request
-{
-
-}/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
+ * @method $this setShowLog($showLog)
+ * @method string getShowLog()
  * @method $this setProjectId($projectId)
  * @method string getProjectId()
  * @method $this setUrls($urls)
@@ -333,6 +367,8 @@ class CreateTrainDatasFromUrls extends Request
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
+ * @method $this setShowLog($showLog)
+ * @method string getShowLog()
  * @method $this setProjectId($projectId)
  * @method string getProjectId()
  * @method $this setIterationId($iterationId)
@@ -348,6 +384,8 @@ class CreateTrainDatasFromPrediction extends Request
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
+ * @method $this setShowLog($showLog)
+ * @method string getShowLog()
  * @method $this setName($name)
  * @method string getName()
  * @method $this setDescription($description)
@@ -363,6 +401,8 @@ class CreateProject extends Request
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
+ * @method $this setShowLog($showLog)
+ * @method string getShowLog()
  * @method $this setProjectId($projectId)
  * @method string getProjectId()
  */
@@ -372,6 +412,8 @@ class DeleteProject extends Request
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
+ * @method $this setShowLog($showLog)
+ * @method string getShowLog()
  * @method $this setProjectId($projectId)
  * @method string getProjectId()
  * @method $this setDataIds($dataIds)
@@ -385,6 +427,8 @@ class CreateTrainDatasTag extends Request
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
+ * @method $this setShowLog($showLog)
+ * @method string getShowLog()
  * @method $this setProjectIds($projectIds)
  * @method string getProjectIds()
  * @method $this setNextPageToken($nextPageToken)
@@ -400,6 +444,8 @@ class DescribeProjects extends Request
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
+ * @method $this setShowLog($showLog)
+ * @method string getShowLog()
  * @method $this setProjectId($projectId)
  * @method string getProjectId()
  */
@@ -409,6 +455,8 @@ class TrainProject extends Request
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
+ * @method $this setShowLog($showLog)
+ * @method string getShowLog()
  * @method $this setProjectId($projectId)
  * @method string getProjectId()
  * @method $this setTagId($tagId)
@@ -424,6 +472,8 @@ class ModifyTagAttribute extends Request
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
+ * @method $this setShowLog($showLog)
+ * @method string getShowLog()
  * @method $this setStreamType($streamType)
  * @method string getStreamType()
  * @method $this setStreamId($streamId)
@@ -447,6 +497,8 @@ class CreateStreamPredict extends Request
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
+ * @method $this setShowLog($showLog)
+ * @method string getShowLog()
  * @method $this setProjectId($projectId)
  * @method string getProjectId()
  * @method $this setIterationId($iterationId)
@@ -466,6 +518,8 @@ class DescribeTags extends Request
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
+ * @method $this setShowLog($showLog)
+ * @method string getShowLog()
  * @method $this setProjectId($projectId)
  * @method string getProjectId()
  * @method $this setIterationId($iterationId)
@@ -479,6 +533,8 @@ class DescribeTrainDatasByIds extends Request
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
+ * @method $this setShowLog($showLog)
+ * @method string getShowLog()
  * @method $this setProjectId($projectId)
  * @method string getProjectId()
  * @method $this setIterationId($iterationId)
@@ -490,6 +546,8 @@ class DeleteIteration extends Request
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
+ * @method $this setShowLog($showLog)
+ * @method string getShowLog()
  * @method $this setProjectId($projectId)
  * @method string getProjectId()
  * @method $this setDataId($dataId)
@@ -503,6 +561,8 @@ class CreateTrainDataTag extends Request
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
+ * @method $this setShowLog($showLog)
+ * @method string getShowLog()
  * @method $this setProjectId($projectId)
  * @method string getProjectId()
  * @method $this setDataIds($dataIds)

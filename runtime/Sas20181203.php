@@ -27,6 +27,7 @@ use aliyun\sdk\core\lib\Request;
  * @method DescribeRiskCheckResult DescribeRiskCheckResult()
  * @method DescribeSuspEvents DescribeSuspEvents()
  * @method ModifyDeleteVulWhitelist ModifyDeleteVulWhitelist()
+ * @method DescribeAutoDelConfig DescribeAutoDelConfig()
  * @method DescribeVulWhitelist DescribeVulWhitelist()
  * @method StartBaselineSecurityCheck StartBaselineSecurityCheck()
  * @method ModifyCreateVulWhitelist ModifyCreateVulWhitelist()
@@ -85,6 +86,8 @@ class ModifyPushAllTask extends Request
 {
 
 }/**
+ * @method $this setSourceIp($sourceIp)
+ * @method string getSourceIp()
  * @method $this setLang($lang)
  * @method string getLang()
  * @method $this setType($type)
@@ -148,6 +151,8 @@ class DescribeAlarmEventList extends Request
 {
 
 }/**
+ * @method $this setSourceIp($sourceIp)
+ * @method string getSourceIp()
  * @method $this setLang($lang)
  * @method string getLang()
  */
@@ -166,6 +171,8 @@ class DescribeSecurityCheckScheduleConfig extends Request
 {
 
 }/**
+ * @method $this setSourceIp($sourceIp)
+ * @method string getSourceIp()
  * @method $this setDays($days)
  * @method int getDays()
  */
@@ -173,6 +180,8 @@ class ModifyAutoDelConfig extends Request
 {
 
 }/**
+ * @method $this setSourceIp($sourceIp)
+ * @method string getSourceIp()
  * @method $this setLang($lang)
  * @method string getLang()
  * @method $this setName($name)
@@ -250,6 +259,8 @@ class DescribeCheckWarningSummary extends Request
 {
 
 }/**
+ * @method $this setSourceIp($sourceIp)
+ * @method string getSourceIp()
  * @method $this setLang($lang)
  * @method string getLang()
  */
@@ -322,6 +333,8 @@ class DescribeSuspEvents extends Request
 {
 
 }/**
+ * @method $this setSourceIp($sourceIp)
+ * @method string getSourceIp()
  * @method $this setWhitelist($whitelist)
  * @method string getWhitelist()
  */
@@ -329,6 +342,15 @@ class ModifyDeleteVulWhitelist extends Request
 {
 
 }/**
+ * @method $this setSourceIp($sourceIp)
+ * @method string getSourceIp()
+ */
+class DescribeAutoDelConfig extends Request
+{
+
+}/**
+ * @method $this setSourceIp($sourceIp)
+ * @method string getSourceIp()
  * @method $this setCurrentPage($currentPage)
  * @method int getCurrentPage()
  * @method $this setPageSize($pageSize)
@@ -355,6 +377,8 @@ class StartBaselineSecurityCheck extends Request
 {
 
 }/**
+ * @method $this setSourceIp($sourceIp)
+ * @method string getSourceIp()
  * @method $this setWhitelist($whitelist)
  * @method string getWhitelist()
  * @method $this setReason($reason)
@@ -399,6 +423,8 @@ class DescribeCheckWarningDetail extends Request
 {
 
 }/**
+ * @method $this setSourceIp($sourceIp)
+ * @method string getSourceIp()
  * @method $this setLang($lang)
  * @method string getLang()
  * @method $this setRemark($remark)
@@ -431,6 +457,8 @@ class DescribeStrategyExecDetail extends Request
 {
 
 }/**
+ * @method $this setSourceIp($sourceIp)
+ * @method string getSourceIp()
  * @method $this setLang($lang)
  * @method string getLang()
  * @method $this setConcernNecessity($concernNecessity)
@@ -451,6 +479,8 @@ class DescribeRiskCheckSummary extends Request
 {
 
 }/**
+ * @method $this setSourceIp($sourceIp)
+ * @method string getSourceIp()
  * @method $this setInfo($info)
  * @method string getInfo()
  * @method $this setOperateType($operateType)
@@ -485,6 +515,8 @@ class DescribeWarningMachines extends Request
 {
 
 }/**
+ * @method $this setSourceIp($sourceIp)
+ * @method string getSourceIp()
  * @method $this setLang($lang)
  * @method string getLang()
  * @method $this setType($type)

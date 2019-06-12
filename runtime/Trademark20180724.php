@@ -12,23 +12,17 @@ use aliyun\sdk\core\lib\Request;
  * @method UpdateSendMaterialNum UpdateSendMaterialNum()
  * @method QuerySupplementDetail QuerySupplementDetail()
  * @method QueryMaterial QueryMaterial()
- * @method PostTransferMaterial PostTransferMaterial()
  * @method QueryTradeProduceList QueryTradeProduceList()
- * @method AcceptedTransferMaterail AcceptedTransferMaterail()
  * @method QueryCommunicationLogs QueryCommunicationLogs()
- * @method RefuseTransfer RefuseTransfer()
  * @method DenySupplement DenySupplement()
  * @method QueryCredentialsInfo QueryCredentialsInfo()
  * @method InsertMaterial InsertMaterial()
- * @method TradeFail TradeFail()
- * @method SubmittedTransferMaterail SubmittedTransferMaterail()
  * @method InsertTmMonitorRule InsertTmMonitorRule()
  * @method StartNotary StartNotary()
  * @method CheckLoaFill CheckLoaFill()
  * @method QueryTaskList QueryTaskList()
  * @method QueryTradeIntentionUserList QueryTradeIntentionUserList()
  * @method UpdateTmMonitorRule UpdateTmMonitorRule()
- * @method ApprovedTransfer ApprovedTransfer()
  * @method QueryMaterialList QueryMaterialList()
  * @method QueryQrCodeUploadStatus QueryQrCodeUploadStatus()
  * @method QueryTradeMarkApplications QueryTradeMarkApplications()
@@ -41,8 +35,6 @@ use aliyun\sdk\core\lib\Request;
  * @method DeleteMaterial DeleteMaterial()
  * @method InsertTradeIntentionUser InsertTradeIntentionUser()
  * @method ListNotaryOrders ListNotaryOrders()
- * @method ConfirmOrder ConfirmOrder()
- * @method SupplyMaterail SupplyMaterail()
  * @method InsertRenewInfo InsertRenewInfo()
  * @method QueryMonitorKeywords QueryMonitorKeywords()
  * @method GenerateQrCode GenerateQrCode()
@@ -54,13 +46,9 @@ use aliyun\sdk\core\lib\Request;
  * @method ApplyNotaryPost ApplyNotaryPost()
  * @method QueryOssResources QueryOssResources()
  * @method FillLogistics FillLogistics()
- * @method WriteCommunicationLog WriteCommunicationLog()
- * @method TradeSuccess TradeSuccess()
- * @method RefuseOrder RefuseOrder()
  * @method QueryTrademarkMonitorResults QueryTrademarkMonitorResults()
  * @method StoreMaterialTemporarily StoreMaterialTemporarily()
  * @method RefundProduce RefundProduce()
- * @method ReceivedTransferMaterail ReceivedTransferMaterail()
  * @method CancelTradeOrder CancelTradeOrder()
  * @method ConvertImageToGray ConvertImageToGray()
  * @method QueryTradeProduceDetail QueryTradeProduceDetail()
@@ -142,17 +130,6 @@ class QueryMaterial extends Request
 {
 
 }/**
- * @method $this setBizId($bizId)
- * @method string getBizId()
- * @method $this setLogistics($logistics)
- * @method string getLogistics()
- * @method $this setNote($note)
- * @method string getNote()
- */
-class PostTransferMaterial extends Request
-{
-
-}/**
  * @method $this setRegisterNumber($registerNumber)
  * @method string getRegisterNumber()
  * @method $this setPageNum($pageNum)
@@ -176,26 +153,8 @@ class QueryTradeProduceList extends Request
 }/**
  * @method $this setBizId($bizId)
  * @method string getBizId()
- * @method $this setNote($note)
- * @method string getNote()
- */
-class AcceptedTransferMaterail extends Request
-{
-
-}/**
- * @method $this setBizId($bizId)
- * @method string getBizId()
  */
 class QueryCommunicationLogs extends Request
-{
-
-}/**
- * @method $this setBizId($bizId)
- * @method string getBizId()
- * @method $this setNote($note)
- * @method string getNote()
- */
-class RefuseTransfer extends Request
 {
 
 }/**
@@ -264,24 +223,6 @@ class InsertMaterial extends Request
 {
 
 }/**
- * @method $this setBizId($bizId)
- * @method string getBizId()
- * @method $this setNote($note)
- * @method string getNote()
- */
-class TradeFail extends Request
-{
-
-}/**
- * @method $this setBizId($bizId)
- * @method string getBizId()
- * @method $this setNote($note)
- * @method string getNote()
- */
-class SubmittedTransferMaterail extends Request
-{
-
-}/**
  * @method $this setRuleSource($ruleSource)
  * @method string getRuleSource()
  * @method $this setRuleName($ruleName)
@@ -343,15 +284,6 @@ class QueryTradeIntentionUserList extends Request
  * @method array getNotifyStatus()
  */
 class UpdateTmMonitorRule extends Request
-{
-
-}/**
- * @method $this setBizId($bizId)
- * @method string getBizId()
- * @method $this setNote($note)
- * @method string getNote()
- */
-class ApprovedTransfer extends Request
 {
 
 }/**
@@ -535,58 +467,6 @@ class ListNotaryOrders extends Request
 {
 
 }/**
- * @method $this setBizId($bizId)
- * @method string getBizId()
- * @method $this setNote($note)
- * @method string getNote()
- */
-class ConfirmOrder extends Request
-{
-
-}/**
- * @method $this setBizId($bizId)
- * @method string getBizId()
- * @method $this setNote($note)
- * @method string getNote()
- * @method $this setBuyerName($buyerName)
- * @method string getBuyerName()
- * @method $this setBuyerAddress($buyerAddress)
- * @method string getBuyerAddress()
- * @method $this setUserType($userType)
- * @method string getUserType()
- * @method $this setCardNo($cardNo)
- * @method string getCardNo()
- * @method $this setContactName($contactName)
- * @method string getContactName()
- * @method $this setContactMobile($contactMobile)
- * @method string getContactMobile()
- * @method $this setContactEmail($contactEmail)
- * @method string getContactEmail()
- * @method $this setBuyerBusinessLicense($buyerBusinessLicense)
- * @method string getBuyerBusinessLicense()
- * @method $this setBuyerIdCard($buyerIdCard)
- * @method string getBuyerIdCard()
- * @method $this setRegistrationCert($registrationCert)
- * @method string getRegistrationCert()
- * @method $this setNotarization($notarization)
- * @method string getNotarization()
- * @method $this setSellerBusinessLicense($sellerBusinessLicense)
- * @method string getSellerBusinessLicense()
- * @method $this setSellerIdCard($sellerIdCard)
- * @method string getSellerIdCard()
- * @method $this setSellerProxy($sellerProxy)
- * @method string getSellerProxy()
- * @method $this setSellerApply($sellerApply)
- * @method string getSellerApply()
- * @method $this setOther($other)
- * @method string getOther()
- * @method $this setComplete($complete)
- * @method bool getComplete()
- */
-class SupplyMaterail extends Request
-{
-
-}/**
  * @method $this setName($name)
  * @method string getName()
  * @method $this setEngName($engName)
@@ -730,33 +610,6 @@ class FillLogistics extends Request
 {
 
 }/**
- * @method $this setBizId($bizId)
- * @method string getBizId()
- * @method $this setNote($note)
- * @method string getNote()
- */
-class WriteCommunicationLog extends Request
-{
-
-}/**
- * @method $this setBizId($bizId)
- * @method string getBizId()
- * @method $this setNote($note)
- * @method string getNote()
- */
-class TradeSuccess extends Request
-{
-
-}/**
- * @method $this setBizId($bizId)
- * @method string getBizId()
- * @method $this setNote($note)
- * @method string getNote()
- */
-class RefuseOrder extends Request
-{
-
-}/**
  * @method $this setRuleId($ruleId)
  * @method int getRuleId()
  * @method $this setActionType($actionType)
@@ -831,15 +684,6 @@ class StoreMaterialTemporarily extends Request
  * @method string getBizId()
  */
 class RefundProduce extends Request
-{
-
-}/**
- * @method $this setBizId($bizId)
- * @method string getBizId()
- * @method $this setNote($note)
- * @method string getNote()
- */
-class ReceivedTransferMaterail extends Request
 {
 
 }/**

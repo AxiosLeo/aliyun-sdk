@@ -9,6 +9,8 @@ use aliyun\sdk\core\lib\Request;
  *
  * @package aliyun\sdk\services\Green20151209
  * @method ImageFeedback ImageFeedback()
+ * @method TextKeywordFilter TextKeywordFilter()
+ * @method ImageDetection ImageDetection()
  * @method ImageResult ImageResult()
  */
 class V20151209
@@ -20,6 +22,16 @@ class V20151209
  * @method string gettaskid()
  */
 class ImageFeedback extends Request
+{
+
+}/**
+ */
+class TextKeywordFilter extends Request
+{
+
+}/**
+ */
+class ImageDetection extends Request
 {
 
 }/**

@@ -12,11 +12,10 @@ use aliyun\sdk\core\lib\Request;
  * @method GetTasks GetTasks()
  * @method ReportVuser ReportVuser()
  * @method StopTask StopTask()
- * @method AliyunOrderCreate AliyunOrderCreate()
+ * @method GetKeySecret GetKeySecret()
  * @method SetTaskStatus SetTaskStatus()
  * @method CreateTransaction CreateTransaction()
  * @method ReportLogSample ReportLogSample()
- * @method AliyunOrderDefer AliyunOrderDefer()
  * @method ReportTestSample ReportTestSample()
  * @method GetScript GetScript()
  * @method SendWangWang SendWangWang()
@@ -70,20 +69,8 @@ class StopTask extends Request
 {
 
 }/**
- * @method $this setproduct($product)
- * @method string getproduct()
- * @method $this setversion($version)
- * @method string getversion()
- * @method $this setaction($action)
- * @method string getaction()
- * @method $this setregionId($regionId)
- * @method string getregionId()
- * @method $this setdomain($domain)
- * @method string getdomain()
- * @method $this setdata($data)
- * @method string getdata()
  */
-class AliyunOrderCreate extends Request
+class GetKeySecret extends Request
 {
 
 }/**
@@ -113,23 +100,6 @@ class CreateTransaction extends Request
  * @method string getLogSample()
  */
 class ReportLogSample extends Request
-{
-
-}/**
- * @method $this setproduct($product)
- * @method string getproduct()
- * @method $this setversion($version)
- * @method string getversion()
- * @method $this setaction($action)
- * @method string getaction()
- * @method $this setregionId($regionId)
- * @method string getregionId()
- * @method $this setdomain($domain)
- * @method string getdomain()
- * @method $this setdata($data)
- * @method string getdata()
- */
-class AliyunOrderDefer extends Request
 {
 
 }/**

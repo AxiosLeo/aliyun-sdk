@@ -24,6 +24,7 @@ use aliyun\sdk\core\lib\Request;
  * @method DescribeAlarms DescribeAlarms()
  * @method DeleteItem DeleteItem()
  * @method DescribeItems DescribeItems()
+ * @method DescribeCompany DescribeCompany()
  * @method DescribeStores DescribeStores()
  */
 class V20180801
@@ -201,6 +202,8 @@ class DescribeUserRamPolicy extends Request
  * @method string getType()
  * @method $this setShelfCode($shelfCode)
  * @method string getShelfCode()
+ * @method $this setEslStatus($eslStatus)
+ * @method string getEslStatus()
  * @method $this setPageNumber($pageNumber)
  * @method int getPageNumber()
  * @method $this setPageSize($pageSize)
@@ -266,8 +269,15 @@ class DeleteItem extends Request
  * @method int getPageNumber()
  * @method $this setPageSize($pageSize)
  * @method int getPageSize()
+ * @method $this setShelfCode($shelfCode)
+ * @method string getShelfCode()
  */
 class DescribeItems extends Request
+{
+
+}/**
+ */
+class DescribeCompany extends Request
 {
 
 }/**

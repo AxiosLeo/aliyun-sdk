@@ -69,6 +69,7 @@ use aliyun\sdk\core\lib\Request;
  * @method ModifyAppOpenStatus ModifyAppOpenStatus()
  * @method CreateDomainConfig CreateDomainConfig()
  * @method DescribeDomainRuleGroup DescribeDomainRuleGroup()
+ * @method DescribeRegions DescribeRegions()
  * @method DescribeRegionStatus DescribeRegionStatus()
  * @method DeleteDomainConfig DeleteDomainConfig()
  * @method DescribeDomainProtocolType DescribeDomainProtocolType()
@@ -369,6 +370,10 @@ class ModifyRuleGroup extends Request
 {
 
 }/**
+ * @method $this setSourceIp($sourceIp)
+ * @method string getSourceIp()
+ * @method $this setLang($lang)
+ * @method string getLang()
  * @method $this setDomain($domain)
  * @method string getDomain()
  * @method $this setId($id)
@@ -384,6 +389,10 @@ class ModifyProtectionRuleCacheStatus extends Request
 {
 
 }/**
+ * @method $this setSourceIp($sourceIp)
+ * @method string getSourceIp()
+ * @method $this setLang($lang)
+ * @method string getLang()
  * @method $this setDrainageId($drainageId)
  * @method string getDrainageId()
  * @method $this setInstanceId($instanceId)
@@ -452,6 +461,10 @@ class CreateAutoAccess extends Request
 {
 
 }/**
+ * @method $this setSourceIp($sourceIp)
+ * @method string getSourceIp()
+ * @method $this setLang($lang)
+ * @method string getLang()
  * @method $this setPageSize($pageSize)
  * @method int getPageSize()
  * @method $this setCurrentPage($currentPage)
@@ -641,6 +654,10 @@ class DescribeScreenAbnormalMonitor extends Request
 {
 
 }/**
+ * @method $this setSourceIp($sourceIp)
+ * @method string getSourceIp()
+ * @method $this setLang($lang)
+ * @method string getLang()
  * @method $this setDomain($domain)
  * @method string getDomain()
  * @method $this setDefense($defense)
@@ -777,6 +794,10 @@ class DescribeHttpsCertInUse extends Request
 {
 
 }/**
+ * @method $this setSourceIp($sourceIp)
+ * @method string getSourceIp()
+ * @method $this setLang($lang)
+ * @method string getLang()
  * @method $this setDomain($domain)
  * @method string getDomain()
  * @method $this setRegion($region)
@@ -900,6 +921,10 @@ class DescribeScreenAccessIpTop extends Request
 {
 
 }/**
+ * @method $this setSourceIp($sourceIp)
+ * @method string getSourceIp()
+ * @method $this setLang($lang)
+ * @method string getLang()
  * @method $this setUntractedId($untractedId)
  * @method string getUntractedId()
  * @method $this setInstanceId($instanceId)
@@ -911,6 +936,10 @@ class CreateIpDrainage extends Request
 {
 
 }/**
+ * @method $this setSourceIp($sourceIp)
+ * @method string getSourceIp()
+ * @method $this setLang($lang)
+ * @method string getLang()
  * @method $this setDomain($domain)
  * @method string getDomain()
  * @method $this setSourceIps($sourceIps)
@@ -951,6 +980,10 @@ class DescribeSlsAuthStatus extends Request
 {
 
 }/**
+ * @method $this setSourceIp($sourceIp)
+ * @method string getSourceIp()
+ * @method $this setLang($lang)
+ * @method string getLang()
  * @method $this setDomains($domains)
  * @method string getDomains()
  * @method $this setIds($ids)
@@ -1087,6 +1120,10 @@ class DescribeScreenPackage extends Request
 {
 
 }/**
+ * @method $this setSourceIp($sourceIp)
+ * @method string getSourceIp()
+ * @method $this setLang($lang)
+ * @method string getLang()
  * @method $this setRegion($region)
  * @method string getRegion()
  * @method $this setInstanceId($instanceId)
@@ -1181,6 +1218,10 @@ class ModifyAppOpenStatus extends Request
 {
 
 }/**
+ * @method $this setSourceIp($sourceIp)
+ * @method string getSourceIp()
+ * @method $this setLang($lang)
+ * @method string getLang()
  * @method $this setDomain($domain)
  * @method string getDomain()
  * @method $this setSourceIps($sourceIps)
@@ -1229,6 +1270,15 @@ class DescribeDomainRuleGroup extends Request
  * @method string getSourceIp()
  * @method $this setLang($lang)
  * @method string getLang()
+ */
+class DescribeRegions extends Request
+{
+
+}/**
+ * @method $this setSourceIp($sourceIp)
+ * @method string getSourceIp()
+ * @method $this setLang($lang)
+ * @method string getLang()
  * @method $this setInstanceSource($instanceSource)
  * @method string getInstanceSource()
  * @method $this setRegion($region)
@@ -1238,6 +1288,10 @@ class DescribeRegionStatus extends Request
 {
 
 }/**
+ * @method $this setSourceIp($sourceIp)
+ * @method string getSourceIp()
+ * @method $this setLang($lang)
+ * @method string getLang()
  * @method $this setDomain($domain)
  * @method string getDomain()
  * @method $this setInstanceId($instanceId)
@@ -1300,6 +1354,10 @@ class DescribeAccessWafSourcePvStatistics extends Request
 {
 
 }/**
+ * @method $this setSourceIp($sourceIp)
+ * @method string getSourceIp()
+ * @method $this setLang($lang)
+ * @method string getLang()
  * @method $this setDomain($domain)
  * @method string getDomain()
  * @method $this setDefense($defense)
@@ -1378,6 +1436,10 @@ class DescribeLogQuato extends Request
 {
 
 }/**
+ * @method $this setSourceIp($sourceIp)
+ * @method string getSourceIp()
+ * @method $this setLang($lang)
+ * @method string getLang()
  * @method $this setRegion($region)
  * @method string getRegion()
  * @method $this setInstanceId($instanceId)
@@ -1536,6 +1598,10 @@ class DescribeScreenPayInfo extends Request
 {
 
 }/**
+ * @method $this setSourceIp($sourceIp)
+ * @method string getSourceIp()
+ * @method $this setLang($lang)
+ * @method string getLang()
  * @method $this setPageSize($pageSize)
  * @method int getPageSize()
  * @method $this setCurrentPage($currentPage)
@@ -1591,6 +1657,10 @@ class DescribeDomainLogEnableds extends Request
 {
 
 }/**
+ * @method $this setSourceIp($sourceIp)
+ * @method string getSourceIp()
+ * @method $this setLang($lang)
+ * @method string getLang()
  * @method $this setRegion($region)
  * @method string getRegion()
  * @method $this setInstanceSource($instanceSource)
@@ -1600,6 +1670,10 @@ class DescribePayInfo extends Request
 {
 
 }/**
+ * @method $this setSourceIp($sourceIp)
+ * @method string getSourceIp()
+ * @method $this setLang($lang)
+ * @method string getLang()
  * @method $this setDomain($domain)
  * @method string getDomain()
  * @method $this setDefense($defense)
@@ -1805,6 +1879,10 @@ class DescribeRules extends Request
 {
 
 }/**
+ * @method $this setSourceIp($sourceIp)
+ * @method string getSourceIp()
+ * @method $this setLang($lang)
+ * @method string getLang()
  * @method $this setRules($rules)
  * @method string getRules()
  * @method $this setDomain($domain)
@@ -1835,6 +1913,10 @@ class DescribeAutoAccessStatus extends Request
 {
 
 }/**
+ * @method $this setSourceIp($sourceIp)
+ * @method string getSourceIp()
+ * @method $this setLang($lang)
+ * @method string getLang()
  * @method $this setRuleId($ruleId)
  * @method int getRuleId()
  * @method $this setDomain($domain)
@@ -1909,6 +1991,10 @@ class DescribeWebAttackTypePv extends Request
 {
 
 }/**
+ * @method $this setSourceIp($sourceIp)
+ * @method string getSourceIp()
+ * @method $this setLang($lang)
+ * @method string getLang()
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
  * @method $this setRegion($region)
@@ -1918,6 +2004,10 @@ class DescribeAuthorization extends Request
 {
 
 }/**
+ * @method $this setSourceIp($sourceIp)
+ * @method string getSourceIp()
+ * @method $this setLang($lang)
+ * @method string getLang()
  * @method $this setDomain($domain)
  * @method string getDomain()
  * @method $this setRules($rules)
@@ -1967,6 +2057,10 @@ class ModifyElasticBillConfig extends Request
 {
 
 }/**
+ * @method $this setSourceIp($sourceIp)
+ * @method string getSourceIp()
+ * @method $this setLang($lang)
+ * @method string getLang()
  * @method $this setRegion($region)
  * @method string getRegion()
  * @method $this setInstanceId($instanceId)
@@ -1978,6 +2072,10 @@ class DescribeDomainConfigStatus extends Request
 {
 
 }/**
+ * @method $this setSourceIp($sourceIp)
+ * @method string getSourceIp()
+ * @method $this setLang($lang)
+ * @method string getLang()
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
  * @method $this setRegion($region)
@@ -1987,6 +2085,10 @@ class DescribeAccessMode extends Request
 {
 
 }/**
+ * @method $this setSourceIp($sourceIp)
+ * @method string getSourceIp()
+ * @method $this setLang($lang)
+ * @method string getLang()
  * @method $this setRegion($region)
  * @method string getRegion()
  * @method $this setInstanceId($instanceId)
@@ -2153,6 +2255,10 @@ class DescribeScreenAttackTypes extends Request
 {
 
 }/**
+ * @method $this setSourceIp($sourceIp)
+ * @method string getSourceIp()
+ * @method $this setLang($lang)
+ * @method string getLang()
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
  * @method $this setRegion($region)
@@ -2196,6 +2302,10 @@ class DescribeBills extends Request
 {
 
 }/**
+ * @method $this setSourceIp($sourceIp)
+ * @method string getSourceIp()
+ * @method $this setLang($lang)
+ * @method string getLang()
  * @method $this setDrainageId($drainageId)
  * @method string getDrainageId()
  * @method $this setInstanceId($instanceId)
@@ -2207,6 +2317,10 @@ class ModifyIpDrainage extends Request
 {
 
 }/**
+ * @method $this setSourceIp($sourceIp)
+ * @method string getSourceIp()
+ * @method $this setLang($lang)
+ * @method string getLang()
  * @method $this setRegion($region)
  * @method string getRegion()
  * @method $this setInstanceId($instanceId)
@@ -2218,6 +2332,10 @@ class ModifyAccessMode extends Request
 {
 
 }/**
+ * @method $this setSourceIp($sourceIp)
+ * @method string getSourceIp()
+ * @method $this setLang($lang)
+ * @method string getLang()
  * @method $this setRegion($region)
  * @method string getRegion()
  * @method $this setDomain($domain)
@@ -2312,6 +2430,10 @@ class DescribeWebAttackType extends Request
 {
 
 }/**
+ * @method $this setSourceIp($sourceIp)
+ * @method string getSourceIp()
+ * @method $this setLang($lang)
+ * @method string getLang()
  * @method $this setPageSize($pageSize)
  * @method int getPageSize()
  * @method $this setCurrentPage($currentPage)

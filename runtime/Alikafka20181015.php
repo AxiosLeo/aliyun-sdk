@@ -63,6 +63,10 @@ class GetConsumerProgress extends Request
  * @method string getInstanceId()
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
+ * @method $this setCurrentPage($currentPage)
+ * @method string getCurrentPage()
+ * @method $this setPageSize($pageSize)
+ * @method string getPageSize()
  */
 class GetConsumerList extends Request
 {
@@ -70,6 +74,10 @@ class GetConsumerList extends Request
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
+ * @method $this setCurrentPage($currentPage)
+ * @method string getCurrentPage()
+ * @method $this setPageSize($pageSize)
+ * @method string getPageSize()
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
  */

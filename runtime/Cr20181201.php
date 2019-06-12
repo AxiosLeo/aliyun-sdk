@@ -14,12 +14,10 @@ use aliyun\sdk\core\lib\Request;
  * @method ListRepository ListRepository()
  * @method GetNamespace GetNamespace()
  * @method ListRepoBuildRecordLog ListRepoBuildRecordLog()
- * @method DeleteSourceCodeAccount DeleteSourceCodeAccount()
  * @method GetResourceQuota GetResourceQuota()
  * @method UpdateInstanceEndpointAclStatus UpdateInstanceEndpointAclStatus()
  * @method ListRepoTag ListRepoTag()
  * @method CreateRepoSourceCodeRepo CreateRepoSourceCodeRepo()
- * @method CheckServiceAuthorization CheckServiceAuthorization()
  * @method GetRepoTagManifest GetRepoTagManifest()
  * @method CreateRepository CreateRepository()
  * @method CreateBuildRecordByRule CreateBuildRecordByRule()
@@ -39,7 +37,6 @@ use aliyun\sdk\core\lib\Request;
  * @method ListSourceCodeRepo ListSourceCodeRepo()
  * @method DeleteNamespace DeleteNamespace()
  * @method ListInstance ListInstance()
- * @method UpdateRepoSourceCodeRepo UpdateRepoSourceCodeRepo()
  * @method GetInstanceStorageIntranetIn GetInstanceStorageIntranetIn()
  * @method UpdateRepoTrigger UpdateRepoTrigger()
  * @method CreateInstance CreateInstance()
@@ -163,17 +160,6 @@ class ListRepoBuildRecordLog extends Request
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
- * @method $this setInstanceId($instanceId)
- * @method string getInstanceId()
- * @method $this setAccountId($accountId)
- * @method string getAccountId()
- */
-class DeleteSourceCodeAccount extends Request
-{
-
-}/**
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
  * @method $this setResourceName($resourceName)
  * @method string getResourceName()
  * @method $this setScopeId($scopeId)
@@ -231,13 +217,6 @@ class ListRepoTag extends Request
  * @method bool getDisableCacheBuild()
  */
 class CreateRepoSourceCodeRepo extends Request
-{
-
-}/**
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- */
-class CheckServiceAuthorization extends Request
 {
 
 }/**
@@ -475,31 +454,6 @@ class DeleteNamespace extends Request
  * @method int getPageSize()
  */
 class ListInstance extends Request
-{
-
-}/**
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setInstanceId($instanceId)
- * @method string getInstanceId()
- * @method $this setRepoId($repoId)
- * @method string getRepoId()
- * @method $this setCodeRepoType($codeRepoType)
- * @method string getCodeRepoType()
- * @method $this setCodeRepoNamespaceName($codeRepoNamespaceName)
- * @method string getCodeRepoNamespaceName()
- * @method $this setCodeRepoName($codeRepoName)
- * @method string getCodeRepoName()
- * @method $this setAutoBuild($autoBuild)
- * @method string getAutoBuild()
- * @method $this setOverseaBuild($overseaBuild)
- * @method string getOverseaBuild()
- * @method $this setDisableCacheBuild($disableCacheBuild)
- * @method string getDisableCacheBuild()
- * @method $this setCodeRepoId($codeRepoId)
- * @method string getCodeRepoId()
- */
-class UpdateRepoSourceCodeRepo extends Request
 {
 
 }/**

@@ -8,6 +8,7 @@ use aliyun\sdk\core\lib\Request;
  * Class V20150501
  *
  * @package aliyun\sdk\services\Ram20150501
+ * @method ListVirtualMFADevices ListVirtualMFADevices()
  * @method CreatePolicy CreatePolicy()
  * @method GetRole GetRole()
  * @method GetUser GetUser()
@@ -40,8 +41,7 @@ use aliyun\sdk\core\lib\Request;
  * @method GetGroup GetGroup()
  * @method SetSecurityPreference SetSecurityPreference()
  * @method ChangePassword ChangePassword()
- * @method DeactivateService DeactivateService()
- * @method ActivateService ActivateService()
+ * @method GetAccountAlias GetAccountAlias()
  * @method AddUserToGroup AddUserToGroup()
  * @method AttachPolicyToGroup AttachPolicyToGroup()
  * @method DeleteLoginProfile DeleteLoginProfile()
@@ -60,15 +60,16 @@ use aliyun\sdk\core\lib\Request;
  * @method DeletePolicyVersion DeletePolicyVersion()
  * @method GetPublicKey GetPublicKey()
  * @method ListPublicKeys ListPublicKeys()
+ * @method GetPasswordPolicy GetPasswordPolicy()
+ * @method ClearAccountAlias ClearAccountAlias()
+ * @method GetSecurityPreference GetSecurityPreference()
  * @method ListPoliciesForRole ListPoliciesForRole()
  * @method UpdateAccessKey UpdateAccessKey()
  * @method ListPoliciesForUser ListPoliciesForUser()
  * @method DeletePolicy DeletePolicy()
- * @method ListRolesForService ListRolesForService()
  * @method RemoveUserFromGroup RemoveUserFromGroup()
  * @method UnbindMFADevice UnbindMFADevice()
  * @method SetAccountAlias SetAccountAlias()
- * @method GetServiceStatus GetServiceStatus()
  * @method UpdateLoginProfile UpdateLoginProfile()
  * @method GetAccessKeyLastUsed GetAccessKeyLastUsed()
  * @method SetDefaultPolicyVersion SetDefaultPolicyVersion()
@@ -79,6 +80,11 @@ class V20150501
 }
 
 /**
+ */
+class ListVirtualMFADevices extends Request
+{
+
+}/**
  * @method $this setPolicyName($policyName)
  * @method string getPolicyName()
  * @method $this setDescription($description)
@@ -391,17 +397,8 @@ class ChangePassword extends Request
 {
 
 }/**
- * @method $this setAccountId($accountId)
- * @method string getAccountId()
  */
-class DeactivateService extends Request
-{
-
-}/**
- * @method $this setAccountId($accountId)
- * @method string getAccountId()
- */
-class ActivateService extends Request
+class GetAccountAlias extends Request
 {
 
 }/**
@@ -571,6 +568,21 @@ class ListPublicKeys extends Request
 {
 
 }/**
+ */
+class GetPasswordPolicy extends Request
+{
+
+}/**
+ */
+class ClearAccountAlias extends Request
+{
+
+}/**
+ */
+class GetSecurityPreference extends Request
+{
+
+}/**
  * @method $this setRoleName($roleName)
  * @method string getRoleName()
  */
@@ -603,17 +615,6 @@ class DeletePolicy extends Request
 {
 
 }/**
- * @method $this setMarker($marker)
- * @method string getMarker()
- * @method $this setMaxItems($maxItems)
- * @method int getMaxItems()
- * @method $this setService($service)
- * @method string getService()
- */
-class ListRolesForService extends Request
-{
-
-}/**
  * @method $this setUserName($userName)
  * @method string getUserName()
  * @method $this setGroupName($groupName)
@@ -634,13 +635,6 @@ class UnbindMFADevice extends Request
  * @method string getAccountAlias()
  */
 class SetAccountAlias extends Request
-{
-
-}/**
- * @method $this setAccountId($accountId)
- * @method string getAccountId()
- */
-class GetServiceStatus extends Request
 {
 
 }/**

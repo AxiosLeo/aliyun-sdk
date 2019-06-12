@@ -9,9 +9,7 @@ use aliyun\sdk\core\lib\Request;
  *
  * @package aliyun\sdk\services\ARMS20181219
  * @method SearchTraces SearchTraces()
- * @method CreateApp CreateApp()
  * @method MetricQuery MetricQuery()
- * @method DeleteApp DeleteApp()
  * @method ARMSQueryDataSet ARMSQueryDataSet()
  * @method GetTrace GetTrace()
  * @method GetServices GetServices()
@@ -44,23 +42,6 @@ class SearchTraces extends Request
 {
 
 }/**
- * @method $this setAppId($appId)
- * @method string getAppId()
- * @method $this setAppName($appName)
- * @method string getAppName()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setType($type)
- * @method string getType()
- * @method $this setSource($source)
- * @method string getSource()
- * @method $this setConfig($config)
- * @method string getConfig()
- */
-class CreateApp extends Request
-{
-
-}/**
  * @method $this setFilters($filters)
  * @method array getFilters()
  * @method $this setIintervalInSec($iintervalInSec)
@@ -85,17 +66,6 @@ class CreateApp extends Request
  * @method string getRegionId()
  */
 class MetricQuery extends Request
-{
-
-}/**
- * @method $this setAppId($appId)
- * @method string getAppId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setType($type)
- * @method string getType()
- */
-class DeleteApp extends Request
 {
 
 }/**

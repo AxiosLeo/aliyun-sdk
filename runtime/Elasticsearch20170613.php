@@ -20,7 +20,9 @@ use aliyun\sdk\core\lib\Request;
  * @method UpdateSnapshotSetting UpdateSnapshotSetting()
  * @method DeleteInstance DeleteInstance()
  * @method ListInstance ListInstance()
+ * @method createInstance createInstance()
  * @method UpdateDict UpdateDict()
+ * @method CreateProject CreateProject()
  * @method DeleteProject DeleteProject()
  * @method UpdateWhiteIps UpdateWhiteIps()
  * @method DescribeInstance DescribeInstance()
@@ -30,8 +32,8 @@ use aliyun\sdk\core\lib\Request;
  * @method UpdateSynonymsDicts UpdateSynonymsDicts()
  * @method UpdatePublicWhiteIps UpdatePublicWhiteIps()
  * @method UninstallPlugin UninstallPlugin()
- * @method ListTagResources ListTagResources()
  * @method UpdateHotIkDicts UpdateHotIkDicts()
+ * @method GetRegionConfiguration GetRegionConfiguration()
  */
 class V20170613
 {
@@ -150,10 +152,20 @@ class ListInstance extends Request
 {
 
 }/**
+ */
+class createInstance extends Request
+{
+
+}/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
  */
 class UpdateDict extends Request
+{
+
+}/**
+ */
+class CreateProject extends Request
 {
 
 }/**
@@ -220,23 +232,15 @@ class UninstallPlugin extends Request
 {
 
 }/**
- * @method $this setPage($page)
- * @method int getPage()
- * @method $this setSize($size)
- * @method int getSize()
- * @method $this setResourceType($resourceType)
- * @method string getResourceType()
- * @method $this setNextToken($nextToken)
- * @method string getNextToken()
- */
-class ListTagResources extends Request
-{
-
-}/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
  */
 class UpdateHotIkDicts extends Request
+{
+
+}/**
+ */
+class GetRegionConfiguration extends Request
 {
 
 }

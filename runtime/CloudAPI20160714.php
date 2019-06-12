@@ -8,19 +8,14 @@ use aliyun\sdk\core\lib\Request;
  * Class V20160714
  *
  * @package aliyun\sdk\services\CloudAPI20160714
- * @method SetGroupAuthAppCode SetGroupAuthAppCode()
  * @method RemoveAppsAuthorities RemoveAppsAuthorities()
  * @method SetAppsAuthorities SetAppsAuthorities()
  * @method ModifyLogConfig ModifyLogConfig()
  * @method DeleteDomainCertificate DeleteDomainCertificate()
  * @method ImportSwagger ImportSwagger()
  * @method DescribeSystemParameters DescribeSystemParameters()
- * @method ModifyCatalog ModifyCatalog()
- * @method DescribePluginsByApi DescribePluginsByApi()
  * @method DeleteAllTrafficSpecialControl DeleteAllTrafficSpecialControl()
- * @method CreateCatalog CreateCatalog()
  * @method SetIpControlApis SetIpControlApis()
- * @method DeleteCatalog DeleteCatalog()
  * @method DeleteTrafficSpecialControl DeleteTrafficSpecialControl()
  * @method SetSignatureApis SetSignatureApis()
  * @method ModifySignature ModifySignature()
@@ -28,20 +23,15 @@ use aliyun\sdk\core\lib\Request;
  * @method ModifyTrafficControl ModifyTrafficControl()
  * @method DeleteLogConfig DeleteLogConfig()
  * @method DescribeTrafficControls DescribeTrafficControls()
- * @method DescribePlugins DescribePlugins()
- * @method AcquireGatewayToken AcquireGatewayToken()
  * @method AddIpControlPolicyItem AddIpControlPolicyItem()
  * @method AddTrafficSpecialControl AddTrafficSpecialControl()
  * @method DescribeApis DescribeApis()
  * @method CreateIntranetDomain CreateIntranetDomain()
- * @method RemoveCatalogRelations RemoveCatalogRelations()
  * @method DescribeApps DescribeApps()
  * @method DescribeApiIpControls DescribeApiIpControls()
- * @method DescribeInstances DescribeInstances()
  * @method DescribeHistoryApis DescribeHistoryApis()
  * @method DeleteSignature DeleteSignature()
  * @method CreateApp CreateApp()
- * @method AddCatalogRelations AddCatalogRelations()
  * @method CreateTrafficControl CreateTrafficControl()
  * @method DeployApi DeployApi()
  * @method DeleteApiGroup DeleteApiGroup()
@@ -51,41 +41,28 @@ use aliyun\sdk\core\lib\Request;
  * @method DescribeApisByTrafficControl DescribeApisByTrafficControl()
  * @method DescribeIpControls DescribeIpControls()
  * @method SwitchApi SwitchApi()
- * @method DescribePluginApis DescribePluginApis()
- * @method DeleteModel DeleteModel()
- * @method DescribeCatalogs DescribeCatalogs()
  * @method CreateApiGroup CreateApiGroup()
  * @method DeleteIpControl DeleteIpControl()
  * @method DescribePurchasedApiGroups DescribePurchasedApiGroups()
  * @method SdkGenerate SdkGenerate()
  * @method DeleteApp DeleteApp()
- * @method DescribeCatalog DescribeCatalog()
  * @method ModifyApp ModifyApp()
  * @method ModifyIpControlPolicyItem ModifyIpControlPolicyItem()
- * @method CreateModel CreateModel()
  * @method DescribePurchasedApis DescribePurchasedApis()
  * @method DescribeApiLatencyData DescribeApiLatencyData()
- * @method CreatePlugin CreatePlugin()
  * @method DescribeApi DescribeApi()
- * @method ClearCatalogRelations ClearCatalogRelations()
  * @method SdkGenerateByApp SdkGenerateByApp()
  * @method ResetAppSecret ResetAppSecret()
- * @method ModifyPlugin ModifyPlugin()
  * @method RemoveVpcAccess RemoveVpcAccess()
  * @method ModifyIpControl ModifyIpControl()
  * @method DescribeTrafficControlsByApi DescribeTrafficControlsByApi()
  * @method SetTrafficControlApis SetTrafficControlApis()
  * @method DescribeApp DescribeApp()
- * @method DetachPlugin DetachPlugin()
  * @method DescribeRegions DescribeRegions()
  * @method SetDomainWebSocketStatus SetDomainWebSocketStatus()
- * @method DeletePlugin DeletePlugin()
- * @method RemoveCatalogRelation RemoveCatalogRelation()
  * @method DescribeApiErrorData DescribeApiErrorData()
  * @method DescribeAuthorizedApis DescribeAuthorizedApis()
- * @method ModifyApiGroupNetworkPolicy ModifyApiGroupNetworkPolicy()
  * @method DescribeAuthorizedApps DescribeAuthorizedApps()
- * @method ModifyModel ModifyModel()
  * @method DescribeIpControlPolicyItems DescribeIpControlPolicyItems()
  * @method ModifyApiGroup ModifyApiGroup()
  * @method DescribeLogConfig DescribeLogConfig()
@@ -95,8 +72,6 @@ use aliyun\sdk\core\lib\Request;
  * @method DescribeApiTrafficData DescribeApiTrafficData()
  * @method DescribeAppSecurity DescribeAppSecurity()
  * @method CreateSignature CreateSignature()
- * @method GenerateInstanceToken GenerateInstanceToken()
- * @method ModifyApiGroupInstance ModifyApiGroupInstance()
  * @method DescribeAppAttributes DescribeAppAttributes()
  * @method SdkGenerateByGroup SdkGenerateByGroup()
  * @method CreateApi CreateApi()
@@ -110,7 +85,6 @@ use aliyun\sdk\core\lib\Request;
  * @method RemoveApisAuthorities RemoveApisAuthorities()
  * @method SetApisAuthorities SetApisAuthorities()
  * @method CreateIpControl CreateIpControl()
- * @method AddCatalogRelation AddCatalogRelation()
  * @method DescribeDomain DescribeDomain()
  * @method DescribeApiSignatures DescribeApiSignatures()
  * @method DescribeApiHistory DescribeApiHistory()
@@ -118,7 +92,6 @@ use aliyun\sdk\core\lib\Request;
  * @method ReactivateDomain ReactivateDomain()
  * @method DescribeApiGroups DescribeApiGroups()
  * @method DeleteDomain DeleteDomain()
- * @method DescribeModels DescribeModels()
  * @method DescribeApisBySignature DescribeApisBySignature()
  * @method DescribeDeployedApis DescribeDeployedApis()
  * @method SetDomain SetDomain()
@@ -133,7 +106,6 @@ use aliyun\sdk\core\lib\Request;
  * @method RemoveIpControlPolicyItem RemoveIpControlPolicyItem()
  * @method DescribeApiDoc DescribeApiDoc()
  * @method CreateApiStageVariable CreateApiStageVariable()
- * @method AttachPlugin AttachPlugin()
  * @method DescribeApiHistories DescribeApiHistories()
  */
 class V20160714
@@ -141,15 +113,6 @@ class V20160714
 }
 
 /**
- * @method $this setGroupId($groupId)
- * @method string getGroupId()
- * @method $this setAuthAppCode($authAppCode)
- * @method string getAuthAppCode()
- */
-class SetGroupAuthAppCode extends Request
-{
-
-}/**
  * @method $this setGroupId($groupId)
  * @method string getGroupId()
  * @method $this setApiId($apiId)
@@ -173,6 +136,8 @@ class RemoveAppsAuthorities extends Request
  * @method string getAppIds()
  * @method $this setDescription($description)
  * @method string getDescription()
+ * @method $this setAuthVaildTime($authVaildTime)
+ * @method string getAuthVaildTime()
  * @method $this setAuthValidTime($authValidTime)
  * @method string getAuthValidTime()
  */
@@ -222,43 +187,10 @@ class DescribeSystemParameters extends Request
 {
 
 }/**
- * @method $this setCatalogId($catalogId)
- * @method string getCatalogId()
- * @method $this setCatalogName($catalogName)
- * @method string getCatalogName()
- * @method $this setDescription($description)
- * @method string getDescription()
- */
-class ModifyCatalog extends Request
-{
-
-}/**
- * @method $this setGroupId($groupId)
- * @method string getGroupId()
- * @method $this setApiId($apiId)
- * @method string getApiId()
- * @method $this setStageName($stageName)
- * @method string getStageName()
- */
-class DescribePluginsByApi extends Request
-{
-
-}/**
  * @method $this setTrafficControlId($trafficControlId)
  * @method string getTrafficControlId()
  */
 class DeleteAllTrafficSpecialControl extends Request
-{
-
-}/**
- * @method $this setCatalogName($catalogName)
- * @method string getCatalogName()
- * @method $this setDescription($description)
- * @method string getDescription()
- * @method $this setParentId($parentId)
- * @method string getParentId()
- */
-class CreateCatalog extends Request
 {
 
 }/**
@@ -272,13 +204,6 @@ class CreateCatalog extends Request
  * @method string getStageName()
  */
 class SetIpControlApis extends Request
-{
-
-}/**
- * @method $this setCatalogId($catalogId)
- * @method string getCatalogId()
- */
-class DeleteCatalog extends Request
 {
 
 }/**
@@ -377,32 +302,6 @@ class DescribeTrafficControls extends Request
 {
 
 }/**
- * @method $this setPluginId($pluginId)
- * @method string getPluginId()
- * @method $this setPluginType($pluginType)
- * @method string getPluginType()
- * @method $this setPluginName($pluginName)
- * @method string getPluginName()
- * @method $this setPageNumber($pageNumber)
- * @method int getPageNumber()
- * @method $this setPageSize($pageSize)
- * @method int getPageSize()
- */
-class DescribePlugins extends Request
-{
-
-}/**
- * @method $this setClientToken($clientToken)
- * @method string getClientToken()
- * @method $this setInstanceId($instanceId)
- * @method string getInstanceId()
- * @method $this setTokenType($tokenType)
- * @method string getTokenType()
- */
-class AcquireGatewayToken extends Request
-{
-
-}/**
  * @method $this setIpControlId($ipControlId)
  * @method string getIpControlId()
  * @method $this setAppId($appId)
@@ -448,15 +347,10 @@ class DescribeApis extends Request
 }/**
  * @method $this setGroupId($groupId)
  * @method string getGroupId()
+ * @method $this setDeleteInternetDomain($deleteInternetDomain)
+ * @method bool getDeleteInternetDomain()
  */
 class CreateIntranetDomain extends Request
-{
-
-}/**
- * @method $this setCatalogId($catalogId)
- * @method string getCatalogId()
- */
-class RemoveCatalogRelations extends Request
 {
 
 }/**
@@ -485,15 +379,6 @@ class DescribeApps extends Request
  * @method int getPageSize()
  */
 class DescribeApiIpControls extends Request
-{
-
-}/**
- * @method $this setInstanceId($instanceId)
- * @method string getInstanceId()
- * @method $this setLanguage($language)
- * @method string getLanguage()
- */
-class DescribeInstances extends Request
 {
 
 }/**
@@ -527,15 +412,6 @@ class DeleteSignature extends Request
  * @method string getDescription()
  */
 class CreateApp extends Request
-{
-
-}/**
- * @method $this setCatalogId($catalogId)
- * @method string getCatalogId()
- * @method $this setApiIds($apiIds)
- * @method string getApiIds()
- */
-class AddCatalogRelations extends Request
 {
 
 }/**
@@ -652,35 +528,12 @@ class SwitchApi extends Request
 {
 
 }/**
- * @method $this setPluginId($pluginId)
- * @method string getPluginId()
- * @method $this setPageSize($pageSize)
- * @method int getPageSize()
- * @method $this setPageNumber($pageNumber)
- * @method int getPageNumber()
- */
-class DescribePluginApis extends Request
-{
-
-}/**
- * @method $this setModelName($modelName)
- * @method string getModelName()
- * @method $this setGroupId($groupId)
- * @method string getGroupId()
- */
-class DeleteModel extends Request
-{
-
-}/**
- */
-class DescribeCatalogs extends Request
-{
-
-}/**
  * @method $this setGroupName($groupName)
  * @method string getGroupName()
  * @method $this setDescription($description)
  * @method string getDescription()
+ * @method $this setSource($source)
+ * @method string getSource()
  */
 class CreateApiGroup extends Request
 {
@@ -720,13 +573,6 @@ class DeleteApp extends Request
 {
 
 }/**
- * @method $this setCatalogId($catalogId)
- * @method string getCatalogId()
- */
-class DescribeCatalog extends Request
-{
-
-}/**
  * @method $this setAppId($appId)
  * @method int getAppId()
  * @method $this setAppName($appName)
@@ -748,19 +594,6 @@ class ModifyApp extends Request
  * @method string getCidrIp()
  */
 class ModifyIpControlPolicyItem extends Request
-{
-
-}/**
- * @method $this setModelName($modelName)
- * @method string getModelName()
- * @method $this setGroupId($groupId)
- * @method string getGroupId()
- * @method $this setSchema($schema)
- * @method string getSchema()
- * @method $this setDescription($description)
- * @method string getDescription()
- */
-class CreateModel extends Request
 {
 
 }/**
@@ -796,32 +629,12 @@ class DescribeApiLatencyData extends Request
 {
 
 }/**
- * @method $this setPluginName($pluginName)
- * @method string getPluginName()
- * @method $this setPluginType($pluginType)
- * @method string getPluginType()
- * @method $this setPluginData($pluginData)
- * @method string getPluginData()
- * @method $this setDescription($description)
- * @method string getDescription()
- */
-class CreatePlugin extends Request
-{
-
-}/**
  * @method $this setGroupId($groupId)
  * @method string getGroupId()
  * @method $this setApiId($apiId)
  * @method string getApiId()
  */
 class DescribeApi extends Request
-{
-
-}/**
- * @method $this setCatalogId($catalogId)
- * @method string getCatalogId()
- */
-class ClearCatalogRelations extends Request
 {
 
 }/**
@@ -838,19 +651,6 @@ class SdkGenerateByApp extends Request
  * @method string getAppKey()
  */
 class ResetAppSecret extends Request
-{
-
-}/**
- * @method $this setPluginId($pluginId)
- * @method string getPluginId()
- * @method $this setPluginName($pluginName)
- * @method string getPluginName()
- * @method $this setPluginData($pluginData)
- * @method string getPluginData()
- * @method $this setDescription($description)
- * @method string getDescription()
- */
-class ModifyPlugin extends Request
 {
 
 }/**
@@ -907,19 +707,6 @@ class DescribeApp extends Request
 {
 
 }/**
- * @method $this setPluginId($pluginId)
- * @method string getPluginId()
- * @method $this setGroupId($groupId)
- * @method string getGroupId()
- * @method $this setStageName($stageName)
- * @method string getStageName()
- * @method $this setApiId($apiId)
- * @method string getApiId()
- */
-class DetachPlugin extends Request
-{
-
-}/**
  * @method $this setLanguage($language)
  * @method string getLanguage()
  */
@@ -935,22 +722,6 @@ class DescribeRegions extends Request
  * @method string getActionValue()
  */
 class SetDomainWebSocketStatus extends Request
-{
-
-}/**
- * @method $this setPluginId($pluginId)
- * @method string getPluginId()
- */
-class DeletePlugin extends Request
-{
-
-}/**
- * @method $this setCatalogId($catalogId)
- * @method string getCatalogId()
- * @method $this setApiId($apiId)
- * @method string getApiId()
- */
-class RemoveCatalogRelation extends Request
 {
 
 }/**
@@ -980,19 +751,6 @@ class DescribeAuthorizedApis extends Request
 }/**
  * @method $this setGroupId($groupId)
  * @method string getGroupId()
- * @method $this setInternetEnable($internetEnable)
- * @method bool getInternetEnable()
- * @method $this setVpcIntranetEnable($vpcIntranetEnable)
- * @method bool getVpcIntranetEnable()
- * @method $this setHttpsPolicy($httpsPolicy)
- * @method string getHttpsPolicy()
- */
-class ModifyApiGroupNetworkPolicy extends Request
-{
-
-}/**
- * @method $this setGroupId($groupId)
- * @method string getGroupId()
  * @method $this setStageName($stageName)
  * @method string getStageName()
  * @method $this setApiId($apiId)
@@ -1009,21 +767,6 @@ class ModifyApiGroupNetworkPolicy extends Request
  * @method int getAppOwnerId()
  */
 class DescribeAuthorizedApps extends Request
-{
-
-}/**
- * @method $this setModelName($modelName)
- * @method string getModelName()
- * @method $this setDescription($description)
- * @method string getDescription()
- * @method $this setSchema($schema)
- * @method string getSchema()
- * @method $this setGroupId($groupId)
- * @method string getGroupId()
- * @method $this setNewModelName($newModelName)
- * @method string getNewModelName()
- */
-class ModifyModel extends Request
 {
 
 }/**
@@ -1125,24 +868,6 @@ class DescribeAppSecurity extends Request
  * @method string getSignatureSecret()
  */
 class CreateSignature extends Request
-{
-
-}/**
- * @method $this setInstanceId($instanceId)
- * @method string getInstanceId()
- */
-class GenerateInstanceToken extends Request
-{
-
-}/**
- * @method $this setGroupId($groupId)
- * @method string getGroupId()
- * @method $this setTargetInstanceId($targetInstanceId)
- * @method string getTargetInstanceId()
- * @method $this setRemark($remark)
- * @method string getRemark()
- */
-class ModifyApiGroupInstance extends Request
 {
 
 }/**
@@ -1359,6 +1084,8 @@ class RemoveApisAuthorities extends Request
  * @method string getApiIds()
  * @method $this setDescription($description)
  * @method string getDescription()
+ * @method $this setAuthVaildTime($authVaildTime)
+ * @method string getAuthVaildTime()
  * @method $this setAuthValidTime($authValidTime)
  * @method string getAuthValidTime()
  */
@@ -1376,15 +1103,6 @@ class SetApisAuthorities extends Request
  * @method array getIpControlPolicys()
  */
 class CreateIpControl extends Request
-{
-
-}/**
- * @method $this setCatalogId($catalogId)
- * @method string getCatalogId()
- * @method $this setApiId($apiId)
- * @method string getApiId()
- */
-class AddCatalogRelation extends Request
 {
 
 }/**
@@ -1466,21 +1184,6 @@ class DescribeApiGroups extends Request
  * @method string getDomainName()
  */
 class DeleteDomain extends Request
-{
-
-}/**
- * @method $this setGroupId($groupId)
- * @method string getGroupId()
- * @method $this setModelName($modelName)
- * @method string getModelName()
- * @method $this setPageSize($pageSize)
- * @method int getPageSize()
- * @method $this setPageNumber($pageNumber)
- * @method int getPageNumber()
- * @method $this setModelId($modelId)
- * @method string getModelId()
- */
-class DescribeModels extends Request
 {
 
 }/**
@@ -1647,21 +1350,6 @@ class DescribeApiDoc extends Request
  * @method string getStageRouteModel()
  */
 class CreateApiStageVariable extends Request
-{
-
-}/**
- * @method $this setPluginId($pluginId)
- * @method string getPluginId()
- * @method $this setGroupId($groupId)
- * @method string getGroupId()
- * @method $this setApiIds($apiIds)
- * @method string getApiIds()
- * @method $this setStageName($stageName)
- * @method string getStageName()
- * @method $this setApiId($apiId)
- * @method string getApiId()
- */
-class AttachPlugin extends Request
 {
 
 }/**

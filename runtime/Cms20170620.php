@@ -8,6 +8,7 @@ use aliyun\sdk\core\lib\Request;
  * Class V20170620
  *
  * @package aliyun\sdk\services\Cms20170620
+ * @method GetProductGroupsAction GetProductGroupsAction()
  * @method ListAlertTemplate ListAlertTemplate()
  * @method UpdateTemplateApplyGroups UpdateTemplateApplyGroups()
  * @method PutAlertTemplate PutAlertTemplate()
@@ -18,6 +19,11 @@ class V20170620
 }
 
 /**
+ */
+class GetProductGroupsAction extends Request
+{
+
+}/**
  * @method $this setTemplateId($templateId)
  * @method int getTemplateId()
  * @method $this setPage($page)

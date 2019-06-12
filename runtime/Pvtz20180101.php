@@ -9,31 +9,23 @@ use aliyun\sdk\core\lib\Request;
  *
  * @package aliyun\sdk\services\Pvtz20180101
  * @method BindZoneVpc BindZoneVpc()
- * @method DescribeZoneStatisticsHistory DescribeZoneStatisticsHistory()
  * @method CheckZoneName CheckZoneName()
- * @method DescribeRecordStatisticsSummary DescribeRecordStatisticsSummary()
  * @method SetProxyPattern SetProxyPattern()
- * @method DescribeZoneStatisticsSummary DescribeZoneStatisticsSummary()
  * @method DeleteZoneRecord DeleteZoneRecord()
  * @method AddZoneRecord AddZoneRecord()
  * @method DescribeZoneVpcTree DescribeZoneVpcTree()
  * @method DescribeZoneRecords DescribeZoneRecords()
  * @method DescribeRequestGraph DescribeRequestGraph()
- * @method DescribeRecordStatisticsHistory DescribeRecordStatisticsHistory()
  * @method AddZone AddZone()
  * @method DescribeChangeLogs DescribeChangeLogs()
  * @method DescribeRegions DescribeRegions()
- * @method DescribeImportResult DescribeImportResult()
- * @method ImportZoneRecord ImportZoneRecord()
  * @method DescribeZoneInfo DescribeZoneInfo()
  * @method SetZoneRecordStatus SetZoneRecordStatus()
  * @method DeleteZone DeleteZone()
  * @method DescribeUserServiceStatus DescribeUserServiceStatus()
  * @method DescribeZones DescribeZones()
  * @method UpdateZoneRecord UpdateZoneRecord()
- * @method MoveResourceGroup MoveResourceGroup()
  * @method DescribeStatisticSummary DescribeStatisticSummary()
- * @method ImportEcsHostName ImportEcsHostName()
  * @method UpdateZoneRemark UpdateZoneRemark()
  */
 class V20180101
@@ -56,52 +48,12 @@ class BindZoneVpc extends Request
 }/**
  * @method $this setLang($lang)
  * @method string getLang()
- * @method $this setStartDate($startDate)
- * @method string getStartDate()
- * @method $this setEndDate($endDate)
- * @method string getEndDate()
- * @method $this setZoneId($zoneId)
- * @method string getZoneId()
- */
-class DescribeZoneStatisticsHistory extends Request
-{
-
-}/**
- * @method $this setLang($lang)
- * @method string getLang()
  * @method $this setZoneName($zoneName)
  * @method string getZoneName()
  * @method $this setUserClientIp($userClientIp)
  * @method string getUserClientIp()
  */
 class CheckZoneName extends Request
-{
-
-}/**
- * @method $this setLang($lang)
- * @method string getLang()
- * @method $this setPageNumber($pageNumber)
- * @method int getPageNumber()
- * @method $this setPageSize($pageSize)
- * @method int getPageSize()
- * @method $this setStartDate($startDate)
- * @method string getStartDate()
- * @method $this setEndDate($endDate)
- * @method string getEndDate()
- * @method $this setOrderBy($orderBy)
- * @method string getOrderBy()
- * @method $this setDirection($direction)
- * @method string getDirection()
- * @method $this setZoneId($zoneId)
- * @method string getZoneId()
- * @method $this setSearchMode($searchMode)
- * @method string getSearchMode()
- * @method $this setKeyword($keyword)
- * @method string getKeyword()
- * @method $this setThreshold($threshold)
- * @method int getThreshold()
- */
-class DescribeRecordStatisticsSummary extends Request
 {
 
 }/**
@@ -115,31 +67,6 @@ class DescribeRecordStatisticsSummary extends Request
  * @method string getUserClientIp()
  */
 class SetProxyPattern extends Request
-{
-
-}/**
- * @method $this setLang($lang)
- * @method string getLang()
- * @method $this setPageNumber($pageNumber)
- * @method int getPageNumber()
- * @method $this setPageSize($pageSize)
- * @method int getPageSize()
- * @method $this setStartDate($startDate)
- * @method string getStartDate()
- * @method $this setEndDate($endDate)
- * @method string getEndDate()
- * @method $this setOrderBy($orderBy)
- * @method string getOrderBy()
- * @method $this setDirection($direction)
- * @method string getDirection()
- * @method $this setSearchMode($searchMode)
- * @method string getSearchMode()
- * @method $this setKeyword($keyword)
- * @method string getKeyword()
- * @method $this setThreshold($threshold)
- * @method int getThreshold()
- */
-class DescribeZoneStatisticsSummary extends Request
 {
 
 }/**
@@ -224,21 +151,6 @@ class DescribeRequestGraph extends Request
 }/**
  * @method $this setLang($lang)
  * @method string getLang()
- * @method $this setStartDate($startDate)
- * @method string getStartDate()
- * @method $this setEndDate($endDate)
- * @method string getEndDate()
- * @method $this setZoneId($zoneId)
- * @method string getZoneId()
- * @method $this setRr($rr)
- * @method string getRr()
- */
-class DescribeRecordStatisticsHistory extends Request
-{
-
-}/**
- * @method $this setLang($lang)
- * @method string getLang()
  * @method $this setZoneName($zoneName)
  * @method string getZoneName()
  * @method $this setUserClientIp($userClientIp)
@@ -283,34 +195,6 @@ class DescribeChangeLogs extends Request
  * @method string getAcceptLanguage()
  */
 class DescribeRegions extends Request
-{
-
-}/**
- * @method $this setLang($lang)
- * @method string getLang()
- * @method $this setUserClientIp($userClientIp)
- * @method string getUserClientIp()
- * @method $this setTaskId($taskId)
- * @method string getTaskId()
- * @method $this setPageSize($pageSize)
- * @method int getPageSize()
- * @method $this setPageNumber($pageNumber)
- * @method int getPageNumber()
- */
-class DescribeImportResult extends Request
-{
-
-}/**
- * @method $this setLang($lang)
- * @method string getLang()
- * @method $this setZoneId($zoneId)
- * @method string getZoneId()
- * @method $this setFileName($fileName)
- * @method string getFileName()
- * @method $this setUserClientIp($userClientIp)
- * @method string getUserClientIp()
- */
-class ImportZoneRecord extends Request
 {
 
 }/**
@@ -366,6 +250,8 @@ class DescribeUserServiceStatus extends Request
  * @method int getPageSize()
  * @method $this setKeyword($keyword)
  * @method string getKeyword()
+ * @method $this setUserClientIp($userClientIp)
+ * @method string getUserClientIp()
  * @method $this setSearchMode($searchMode)
  * @method string getSearchMode()
  * @method $this setQueryRegionId($queryRegionId)
@@ -402,36 +288,10 @@ class UpdateZoneRecord extends Request
 }/**
  * @method $this setLang($lang)
  * @method string getLang()
- * @method $this setResourceId($resourceId)
- * @method string getResourceId()
- * @method $this setUserClientIp($userClientIp)
- * @method string getUserClientIp()
- * @method $this setNewResourceGroupId($newResourceGroupId)
- * @method string getNewResourceGroupId()
- */
-class MoveResourceGroup extends Request
-{
-
-}/**
- * @method $this setLang($lang)
- * @method string getLang()
  * @method $this setUserClientIp($userClientIp)
  * @method string getUserClientIp()
  */
 class DescribeStatisticSummary extends Request
-{
-
-}/**
- * @method $this setLang($lang)
- * @method string getLang()
- * @method $this setZoneId($zoneId)
- * @method string getZoneId()
- * @method $this setEcsRegionId($ecsRegionId)
- * @method string getEcsRegionId()
- * @method $this setUserClientIp($userClientIp)
- * @method string getUserClientIp()
- */
-class ImportEcsHostName extends Request
 {
 
 }/**

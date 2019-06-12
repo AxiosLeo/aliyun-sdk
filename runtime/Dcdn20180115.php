@@ -19,14 +19,12 @@ use aliyun\sdk\core\lib\Request;
  * @method AddDcdnDomain AddDcdnDomain()
  * @method DescribeDcdnIpaDomainConfigs DescribeDcdnIpaDomainConfigs()
  * @method SetDcdnDomainCertificate SetDcdnDomainCertificate()
- * @method DescribeDcdnUserBillType DescribeDcdnUserBillType()
  * @method BatchSetDcdnDomainConfigs BatchSetDcdnDomainConfigs()
  * @method UpdateDcdnIpaDomain UpdateDcdnIpaDomain()
  * @method DescribeDcdnRefreshQuota DescribeDcdnRefreshQuota()
  * @method BatchSetDcdnIpaDomainConfigs BatchSetDcdnIpaDomainConfigs()
  * @method DescribeDcdnDomainIpaBpsData DescribeDcdnDomainIpaBpsData()
  * @method DescribeDcdnDomainPvData DescribeDcdnDomainPvData()
- * @method DescribeDcdnUserBillHistory DescribeDcdnUserBillHistory()
  * @method DescribeDcdnUserResourcePackage DescribeDcdnUserResourcePackage()
  * @method AddDcdnIpaDomain AddDcdnIpaDomain()
  * @method DescribeDcdnDomainTopReferVisit DescribeDcdnDomainTopReferVisit()
@@ -48,15 +46,11 @@ use aliyun\sdk\core\lib\Request;
  * @method StopDcdnDomain StopDcdnDomain()
  * @method DescribeDcdnDomainCname DescribeDcdnDomainCname()
  * @method DescribeDcdnDomainLog DescribeDcdnDomainLog()
- * @method DescribeDcdnDomainRealTimeSrcHttpCodeData DescribeDcdnDomainRealTimeSrcHttpCodeData()
- * @method BatchStopDcdnDomain BatchStopDcdnDomain()
  * @method DescribeUserDcdnIpaStatus DescribeUserDcdnIpaStatus()
- * @method SetDcdnUserConfig SetDcdnUserConfig()
  * @method DescribeDcdnDomainBpsData DescribeDcdnDomainBpsData()
  * @method DescribeDcdnDomainRealTimeQpsData DescribeDcdnDomainRealTimeQpsData()
  * @method DescribeDcdnRefreshTasks DescribeDcdnRefreshTasks()
  * @method StartDcdnDomain StartDcdnDomain()
- * @method DeleteDcdnIpaSpecificConfig DeleteDcdnIpaSpecificConfig()
  * @method StartDcdnIpaDomain StartDcdnIpaDomain()
  * @method DescribeDcdnDomainOriginBpsData DescribeDcdnDomainOriginBpsData()
  * @method DescribeDcdnDomainRealTimeHttpCodeData DescribeDcdnDomainRealTimeHttpCodeData()
@@ -66,16 +60,12 @@ use aliyun\sdk\core\lib\Request;
  * @method DescribeDcdnTopDomainsByFlow DescribeDcdnTopDomainsByFlow()
  * @method DeleteDcdnIpaDomain DeleteDcdnIpaDomain()
  * @method DescribeDcdnDomainRealTimeByteHitRateData DescribeDcdnDomainRealTimeByteHitRateData()
- * @method BatchStartDcdnDomain BatchStartDcdnDomain()
  * @method DescribeDcdnDomainWebsocketTrafficData DescribeDcdnDomainWebsocketTrafficData()
- * @method DescribeDcdnDomainRealTimeTrafficData DescribeDcdnDomainRealTimeTrafficData()
  * @method DescribeDcdnUserDomains DescribeDcdnUserDomains()
  * @method DescribeDcdnIpaDomainDetail DescribeDcdnIpaDomainDetail()
- * @method DeleteDcdnSpecificConfig DeleteDcdnSpecificConfig()
  * @method DescribeDcdnDomainWebsocketHttpCodeData DescribeDcdnDomainWebsocketHttpCodeData()
  * @method DescribeDcdnDomainWebsocketBpsData DescribeDcdnDomainWebsocketBpsData()
  * @method StopDcdnIpaDomain StopDcdnIpaDomain()
- * @method IsDiamondUser IsDiamondUser()
  * @method PreloadDcdnObjectCaches PreloadDcdnObjectCaches()
  * @method DescribeDcdnIpaService DescribeDcdnIpaService()
  * @method DescribeDcdnDomainRealTimeSrcTrafficData DescribeDcdnDomainRealTimeSrcTrafficData()
@@ -266,17 +256,6 @@ class SetDcdnDomainCertificate extends Request
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
- * @method $this setStartTime($startTime)
- * @method string getStartTime()
- * @method $this setEndTime($endTime)
- * @method string getEndTime()
- */
-class DescribeDcdnUserBillType extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
  * @method $this setDomainNames($domainNames)
@@ -356,17 +335,6 @@ class DescribeDcdnDomainIpaBpsData extends Request
  * @method string getEndTime()
  */
 class DescribeDcdnDomainPvData extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setStartTime($startTime)
- * @method string getStartTime()
- * @method $this setEndTime($endTime)
- * @method string getEndTime()
- */
-class DescribeDcdnUserBillHistory extends Request
 {
 
 }/**
@@ -655,47 +623,8 @@ class DescribeDcdnDomainLog extends Request
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
- * @method $this setDomainName($domainName)
- * @method string getDomainName()
- * @method $this setStartTime($startTime)
- * @method string getStartTime()
- * @method $this setEndTime($endTime)
- * @method string getEndTime()
- * @method $this setIspNameEn($ispNameEn)
- * @method string getIspNameEn()
- * @method $this setLocationNameEn($locationNameEn)
- * @method string getLocationNameEn()
- */
-class DescribeDcdnDomainRealTimeSrcHttpCodeData extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setDomainNames($domainNames)
- * @method string getDomainNames()
- */
-class BatchStopDcdnDomain extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
  */
 class DescribeUserDcdnIpaStatus extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setFunctionId($functionId)
- * @method int getFunctionId()
- * @method $this setConfigs($configs)
- * @method string getConfigs()
- */
-class SetDcdnUserConfig extends Request
 {
 
 }/**
@@ -772,17 +701,6 @@ class DescribeDcdnRefreshTasks extends Request
  * @method string getDomainName()
  */
 class StartDcdnDomain extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setDomainName($domainName)
- * @method string getDomainName()
- * @method $this setConfigId($configId)
- * @method string getConfigId()
- */
-class DeleteDcdnIpaSpecificConfig extends Request
 {
 
 }/**
@@ -905,15 +823,6 @@ class DescribeDcdnDomainRealTimeByteHitRateData extends Request
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
- * @method $this setDomainNames($domainNames)
- * @method string getDomainNames()
- */
-class BatchStartDcdnDomain extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
  * @method $this setDomainName($domainName)
  * @method string getDomainName()
  * @method $this setStartTime($startTime)
@@ -932,19 +841,6 @@ class BatchStartDcdnDomain extends Request
  * @method string getLocationNameEn()
  */
 class DescribeDcdnDomainWebsocketTrafficData extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setDomainName($domainName)
- * @method string getDomainName()
- * @method $this setStartTime($startTime)
- * @method string getStartTime()
- * @method $this setEndTime($endTime)
- * @method string getEndTime()
- */
-class DescribeDcdnDomainRealTimeTrafficData extends Request
 {
 
 }/**
@@ -979,17 +875,6 @@ class DescribeDcdnUserDomains extends Request
  * @method string getDomainName()
  */
 class DescribeDcdnIpaDomainDetail extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setDomainName($domainName)
- * @method string getDomainName()
- * @method $this setConfigId($configId)
- * @method string getConfigId()
- */
-class DeleteDcdnSpecificConfig extends Request
 {
 
 }/**
@@ -1041,15 +926,6 @@ class DescribeDcdnDomainWebsocketBpsData extends Request
  * @method string getDomainName()
  */
 class StopDcdnIpaDomain extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setDiamondDataId($diamondDataId)
- * @method string getDiamondDataId()
- */
-class IsDiamondUser extends Request
 {
 
 }/**

@@ -8,40 +8,25 @@ use aliyun\sdk\core\lib\Request;
  * Class V20170912
  *
  * @package aliyun\sdk\services\Cbn20170912
- * @method DescribeCbnRegionDomainRouteEntries DescribeCbnRegionDomainRouteEntries()
- * @method DescribeCbnVbrHealthCheck DescribeCbnVbrHealthCheck()
  * @method CreateCenRouteMap CreateCenRouteMap()
- * @method AttachCbnChildInstance AttachCbnChildInstance()
  * @method DisableCenVbrHealthCheck DisableCenVbrHealthCheck()
  * @method UntagResources UntagResources()
- * @method DeleteCbnBandwidthPackage DeleteCbnBandwidthPackage()
- * @method AssociateCbnBandwidthPackage AssociateCbnBandwidthPackage()
  * @method DescribeCenRouteMaps DescribeCenRouteMaps()
  * @method DescribeCenBandwidthPackages DescribeCenBandwidthPackages()
- * @method DescribeCbnGeographicSpanRemainingBandwidth DescribeCbnGeographicSpanRemainingBandwidth()
  * @method DescribeCenGeographicSpanRemainingBandwidth DescribeCenGeographicSpanRemainingBandwidth()
- * @method UnassociateCbnBandwidthPackage UnassociateCbnBandwidthPackage()
- * @method EnableCbnVbrHealthCheck EnableCbnVbrHealthCheck()
  * @method ModifyCenBandwidthPackageSpec ModifyCenBandwidthPackageSpec()
  * @method DetachCenChildInstance DetachCenChildInstance()
  * @method DescribeRouteConflict DescribeRouteConflict()
  * @method AttachCenChildInstance AttachCenChildInstance()
- * @method CreateCbnBandwidthPackage CreateCbnBandwidthPackage()
- * @method DescribeCbnAttachedChildInstances DescribeCbnAttachedChildInstances()
- * @method ModifyCbnBandwidthPackageAttribute ModifyCbnBandwidthPackageAttribute()
  * @method DeleteRouteServiceInCen DeleteRouteServiceInCen()
  * @method UnroutePrivateZoneInCenToVpc UnroutePrivateZoneInCenToVpc()
  * @method DescribeCenGeographicSpans DescribeCenGeographicSpans()
  * @method ModifyCenBandwidthPackageAttribute ModifyCenBandwidthPackageAttribute()
- * @method DetachCbnChildInstance DetachCbnChildInstance()
  * @method DescribeChildInstanceRegions DescribeChildInstanceRegions()
  * @method DescribeGeographicRegionMembership DescribeGeographicRegionMembership()
  * @method DescribeCenAttachedChildInstances DescribeCenAttachedChildInstances()
  * @method DescribeCenRegionDomainRouteEntries DescribeCenRegionDomainRouteEntries()
- * @method ModifyCbnAttribute ModifyCbnAttribute()
- * @method DisableCbnVbrHealthCheck DisableCbnVbrHealthCheck()
  * @method DeleteCen DeleteCen()
- * @method ModifyCbnBandwidthPackageSpec ModifyCbnBandwidthPackageSpec()
  * @method DescribeCenInterRegionBandwidthLimits DescribeCenInterRegionBandwidthLimits()
  * @method DescribeCens DescribeCens()
  * @method CreateCen CreateCen()
@@ -50,83 +35,27 @@ use aliyun\sdk\core\lib\Request;
  * @method DescribePublishedRouteEntries DescribePublishedRouteEntries()
  * @method DescribeCenAttachedChildInstanceAttribute DescribeCenAttachedChildInstanceAttribute()
  * @method EnableCenVbrHealthCheck EnableCenVbrHealthCheck()
- * @method TagResources TagResources()
  * @method DeleteCenBandwidthPackage DeleteCenBandwidthPackage()
  * @method ModifyCenAttribute ModifyCenAttribute()
  * @method AssociateCenBandwidthPackage AssociateCenBandwidthPackage()
  * @method RoutePrivateZoneInCenToVpc RoutePrivateZoneInCenToVpc()
  * @method DescribeCenPrivateZoneRoutes DescribeCenPrivateZoneRoutes()
  * @method DescribeCenChildInstanceRouteEntries DescribeCenChildInstanceRouteEntries()
- * @method SetCbnInterRegionBandwidthLimit SetCbnInterRegionBandwidthLimit()
- * @method DescribeCbnBandwidthPackageAssociatedCbns DescribeCbnBandwidthPackageAssociatedCbns()
  * @method DescribeGrantRulesToCen DescribeGrantRulesToCen()
- * @method DescribeCbnInterRegionBandwidthLimits DescribeCbnInterRegionBandwidthLimits()
  * @method PublishRouteEntries PublishRouteEntries()
  * @method DescribeRouteServicesInCen DescribeRouteServicesInCen()
  * @method ModifyCenRouteMap ModifyCenRouteMap()
- * @method DescribeCbns DescribeCbns()
  * @method CreateCenBandwidthPackage CreateCenBandwidthPackage()
- * @method DeleteCbn DeleteCbn()
  * @method ResolveAndRouteServiceInCen ResolveAndRouteServiceInCen()
  * @method SetCenInterRegionBandwidthLimit SetCenInterRegionBandwidthLimit()
- * @method DescribeCbnBandwidthPackages DescribeCbnBandwidthPackages()
- * @method DescribeCbnAssociatedBandwidthPackages DescribeCbnAssociatedBandwidthPackages()
  * @method DeleteCenRouteMap DeleteCenRouteMap()
  * @method WithdrawPublishedRouteEntries WithdrawPublishedRouteEntries()
- * @method ListTagResources ListTagResources()
- * @method CreateCbn CreateCbn()
  */
 class V20170912
 {
 }
 
 /**
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setCbnId($cbnId)
- * @method string getCbnId()
- * @method $this setCbnRegionId($cbnRegionId)
- * @method string getCbnRegionId()
- * @method $this setPageNumber($pageNumber)
- * @method int getPageNumber()
- * @method $this setPageSize($pageSize)
- * @method int getPageSize()
- */
-class DescribeCbnRegionDomainRouteEntries extends Request
-{
-
-}/**
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setCbnId($cbnId)
- * @method string getCbnId()
- * @method $this setVbrInstanceRegionId($vbrInstanceRegionId)
- * @method string getVbrInstanceRegionId()
- * @method $this setVbrInstanceId($vbrInstanceId)
- * @method string getVbrInstanceId()
- * @method $this setVbrInstanceOwnerId($vbrInstanceOwnerId)
- * @method int getVbrInstanceOwnerId()
- * @method $this setPageNumber($pageNumber)
- * @method int getPageNumber()
- * @method $this setPageSize($pageSize)
- * @method int getPageSize()
- */
-class DescribeCbnVbrHealthCheck extends Request
-{
-
-}/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
  * @method $this setOwnerId($ownerId)
@@ -198,29 +127,6 @@ class CreateCenRouteMap extends Request
  * @method string getResourceOwnerAccount()
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
- * @method $this setCbnId($cbnId)
- * @method string getCbnId()
- * @method $this setChildInstanceId($childInstanceId)
- * @method string getChildInstanceId()
- * @method $this setChildInstanceType($childInstanceType)
- * @method string getChildInstanceType()
- * @method $this setChildInstanceRegionId($childInstanceRegionId)
- * @method string getChildInstanceRegionId()
- * @method $this setChildInstanceOwnerId($childInstanceOwnerId)
- * @method int getChildInstanceOwnerId()
- */
-class AttachCbnChildInstance extends Request
-{
-
-}/**
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
  * @method $this setCenId($cenId)
  * @method string getCenId()
  * @method $this setVbrInstanceRegionId($vbrInstanceRegionId)
@@ -254,38 +160,6 @@ class DisableCenVbrHealthCheck extends Request
  * @method array getTagKey()
  */
 class UntagResources extends Request
-{
-
-}/**
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setCbnBandwidthPackageId($cbnBandwidthPackageId)
- * @method string getCbnBandwidthPackageId()
- */
-class DeleteCbnBandwidthPackage extends Request
-{
-
-}/**
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setCbnId($cbnId)
- * @method string getCbnId()
- * @method $this setCbnBandwidthPackageId($cbnBandwidthPackageId)
- * @method string getCbnBandwidthPackageId()
- */
-class AssociateCbnBandwidthPackage extends Request
 {
 
 }/**
@@ -347,29 +221,6 @@ class DescribeCenBandwidthPackages extends Request
  * @method int getPageNumber()
  * @method $this setPageSize($pageSize)
  * @method int getPageSize()
- * @method $this setCbnId($cbnId)
- * @method string getCbnId()
- * @method $this setGeographicRegionAId($geographicRegionAId)
- * @method string getGeographicRegionAId()
- * @method $this setGeographicRegionBId($geographicRegionBId)
- * @method string getGeographicRegionBId()
- */
-class DescribeCbnGeographicSpanRemainingBandwidth extends Request
-{
-
-}/**
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setPageNumber($pageNumber)
- * @method int getPageNumber()
- * @method $this setPageSize($pageSize)
- * @method int getPageSize()
  * @method $this setCenId($cenId)
  * @method string getCenId()
  * @method $this setGeographicRegionAId($geographicRegionAId)
@@ -378,48 +229,6 @@ class DescribeCbnGeographicSpanRemainingBandwidth extends Request
  * @method string getGeographicRegionBId()
  */
 class DescribeCenGeographicSpanRemainingBandwidth extends Request
-{
-
-}/**
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setCbnId($cbnId)
- * @method string getCbnId()
- * @method $this setCbnBandwidthPackageId($cbnBandwidthPackageId)
- * @method string getCbnBandwidthPackageId()
- */
-class UnassociateCbnBandwidthPackage extends Request
-{
-
-}/**
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setCbnId($cbnId)
- * @method string getCbnId()
- * @method $this setVbrInstanceRegionId($vbrInstanceRegionId)
- * @method string getVbrInstanceRegionId()
- * @method $this setVbrInstanceId($vbrInstanceId)
- * @method string getVbrInstanceId()
- * @method $this setHealthCheckSourceIp($healthCheckSourceIp)
- * @method string getHealthCheckSourceIp()
- * @method $this setHealthCheckTargetIp($healthCheckTargetIp)
- * @method string getHealthCheckTargetIp()
- * @method $this setVbrInstanceOwnerId($vbrInstanceOwnerId)
- * @method int getVbrInstanceOwnerId()
- */
-class EnableCbnVbrHealthCheck extends Request
 {
 
 }/**
@@ -523,71 +332,6 @@ class AttachCenChildInstance extends Request
  * @method string getResourceOwnerAccount()
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
- * @method $this setClientToken($clientToken)
- * @method string getClientToken()
- * @method $this setName($name)
- * @method string getName()
- * @method $this setDescription($description)
- * @method string getDescription()
- * @method $this setBandwidth($bandwidth)
- * @method int getBandwidth()
- * @method $this setGeographicRegionAId($geographicRegionAId)
- * @method string getGeographicRegionAId()
- * @method $this setGeographicRegionBId($geographicRegionBId)
- * @method string getGeographicRegionBId()
- * @method $this setBandwidthPackageChargeType($bandwidthPackageChargeType)
- * @method string getBandwidthPackageChargeType()
- */
-class CreateCbnBandwidthPackage extends Request
-{
-
-}/**
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setPageNumber($pageNumber)
- * @method int getPageNumber()
- * @method $this setPageSize($pageSize)
- * @method int getPageSize()
- * @method $this setCbnId($cbnId)
- * @method string getCbnId()
- */
-class DescribeCbnAttachedChildInstances extends Request
-{
-
-}/**
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setName($name)
- * @method string getName()
- * @method $this setDescription($description)
- * @method string getDescription()
- * @method $this setCbnBandwidthPackageId($cbnBandwidthPackageId)
- * @method string getCbnBandwidthPackageId()
- */
-class ModifyCbnBandwidthPackageAttribute extends Request
-{
-
-}/**
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
  * @method $this setCenId($cenId)
  * @method string getCenId()
  * @method $this setHost($host)
@@ -653,29 +397,6 @@ class DescribeCenGeographicSpans extends Request
  * @method string getCenBandwidthPackageId()
  */
 class ModifyCenBandwidthPackageAttribute extends Request
-{
-
-}/**
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setCbnId($cbnId)
- * @method string getCbnId()
- * @method $this setChildInstanceId($childInstanceId)
- * @method string getChildInstanceId()
- * @method $this setChildInstanceType($childInstanceType)
- * @method string getChildInstanceType()
- * @method $this setChildInstanceRegionId($childInstanceRegionId)
- * @method string getChildInstanceRegionId()
- * @method $this setChildInstanceOwnerId($childInstanceOwnerId)
- * @method int getChildInstanceOwnerId()
- */
-class DetachCbnChildInstance extends Request
 {
 
 }/**
@@ -767,67 +488,10 @@ class DescribeCenRegionDomainRouteEntries extends Request
  * @method string getResourceOwnerAccount()
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
- * @method $this setCbnId($cbnId)
- * @method string getCbnId()
- * @method $this setName($name)
- * @method string getName()
- * @method $this setDescription($description)
- * @method string getDescription()
- */
-class ModifyCbnAttribute extends Request
-{
-
-}/**
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setCbnId($cbnId)
- * @method string getCbnId()
- * @method $this setVbrInstanceRegionId($vbrInstanceRegionId)
- * @method string getVbrInstanceRegionId()
- * @method $this setVbrInstanceId($vbrInstanceId)
- * @method string getVbrInstanceId()
- * @method $this setVbrInstanceOwnerId($vbrInstanceOwnerId)
- * @method int getVbrInstanceOwnerId()
- */
-class DisableCbnVbrHealthCheck extends Request
-{
-
-}/**
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
  * @method $this setCenId($cenId)
  * @method string getCenId()
  */
 class DeleteCen extends Request
-{
-
-}/**
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setCbnBandwidthPackageId($cbnBandwidthPackageId)
- * @method string getCbnBandwidthPackageId()
- * @method $this setBandwidth($bandwidth)
- * @method int getBandwidth()
- */
-class ModifyCbnBandwidthPackageSpec extends Request
 {
 
 }/**
@@ -1013,31 +677,6 @@ class EnableCenVbrHealthCheck extends Request
  * @method string getResourceOwnerAccount()
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
- * @method $this setScope($scope)
- * @method string getScope()
- * @method $this setTagOwnerBid($tagOwnerBid)
- * @method string getTagOwnerBid()
- * @method $this setTagOwnerUid($tagOwnerUid)
- * @method int getTagOwnerUid()
- * @method $this setResourceType($resourceType)
- * @method string getResourceType()
- * @method $this setResourceId($resourceId)
- * @method array getResourceId()
- * @method $this setTag($tag)
- * @method array getTag()
- */
-class TagResources extends Request
-{
-
-}/**
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
  * @method $this setCenBandwidthPackageId($cenBandwidthPackageId)
  * @method string getCenBandwidthPackageId()
  */
@@ -1158,46 +797,6 @@ class DescribeCenChildInstanceRouteEntries extends Request
  * @method string getResourceOwnerAccount()
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
- * @method $this setCbnId($cbnId)
- * @method string getCbnId()
- * @method $this setLocalRegionId($localRegionId)
- * @method string getLocalRegionId()
- * @method $this setOppositeRegionId($oppositeRegionId)
- * @method string getOppositeRegionId()
- * @method $this setBandwidthLimit($bandwidthLimit)
- * @method int getBandwidthLimit()
- */
-class SetCbnInterRegionBandwidthLimit extends Request
-{
-
-}/**
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setPageNumber($pageNumber)
- * @method int getPageNumber()
- * @method $this setPageSize($pageSize)
- * @method int getPageSize()
- * @method $this setCbnBandwidthPackageId($cbnBandwidthPackageId)
- * @method string getCbnBandwidthPackageId()
- */
-class DescribeCbnBandwidthPackageAssociatedCbns extends Request
-{
-
-}/**
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
  * @method $this setCenId($cenId)
@@ -1206,25 +805,6 @@ class DescribeCbnBandwidthPackageAssociatedCbns extends Request
  * @method string getProductType()
  */
 class DescribeGrantRulesToCen extends Request
-{
-
-}/**
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setPageNumber($pageNumber)
- * @method int getPageNumber()
- * @method $this setPageSize($pageSize)
- * @method int getPageSize()
- * @method $this setCbnId($cbnId)
- * @method string getCbnId()
- */
-class DescribeCbnInterRegionBandwidthLimits extends Request
 {
 
 }/**
@@ -1345,25 +925,6 @@ class ModifyCenRouteMap extends Request
  * @method string getResourceOwnerAccount()
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
- * @method $this setPageNumber($pageNumber)
- * @method int getPageNumber()
- * @method $this setPageSize($pageSize)
- * @method int getPageSize()
- * @method $this setFilter($filter)
- * @method array getFilter()
- */
-class DescribeCbns extends Request
-{
-
-}/**
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
  * @method $this setClientToken($clientToken)
  * @method string getClientToken()
  * @method $this setName($name)
@@ -1386,21 +947,6 @@ class DescribeCbns extends Request
  * @method bool getAutoPay()
  */
 class CreateCenBandwidthPackage extends Request
-{
-
-}/**
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setCbnId($cbnId)
- * @method string getCbnId()
- */
-class DeleteCbn extends Request
 {
 
 }/**
@@ -1458,46 +1004,6 @@ class SetCenInterRegionBandwidthLimit extends Request
  * @method string getResourceOwnerAccount()
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
- * @method $this setPageNumber($pageNumber)
- * @method int getPageNumber()
- * @method $this setPageSize($pageSize)
- * @method int getPageSize()
- * @method $this setFilter($filter)
- * @method array getFilter()
- * @method $this setIsOrKey($isOrKey)
- * @method bool getIsOrKey()
- */
-class DescribeCbnBandwidthPackages extends Request
-{
-
-}/**
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setPageNumber($pageNumber)
- * @method int getPageNumber()
- * @method $this setPageSize($pageSize)
- * @method int getPageSize()
- * @method $this setCbnId($cbnId)
- * @method string getCbnId()
- */
-class DescribeCbnAssociatedBandwidthPackages extends Request
-{
-
-}/**
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
  * @method $this setCenId($cenId)
  * @method string getCenId()
  * @method $this setCenRegionId($cenRegionId)
@@ -1527,54 +1033,6 @@ class DeleteCenRouteMap extends Request
  * @method string getDestinationCidrBlock()
  */
 class WithdrawPublishedRouteEntries extends Request
-{
-
-}/**
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setScope($scope)
- * @method string getScope()
- * @method $this setTagOwnerBid($tagOwnerBid)
- * @method string getTagOwnerBid()
- * @method $this setTagOwnerUid($tagOwnerUid)
- * @method int getTagOwnerUid()
- * @method $this setResourceType($resourceType)
- * @method string getResourceType()
- * @method $this setResourceId($resourceId)
- * @method array getResourceId()
- * @method $this setTag($tag)
- * @method array getTag()
- * @method $this setNextToken($nextToken)
- * @method string getNextToken()
- * @method $this setPageSize($pageSize)
- * @method int getPageSize()
- */
-class ListTagResources extends Request
-{
-
-}/**
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setClientToken($clientToken)
- * @method string getClientToken()
- * @method $this setName($name)
- * @method string getName()
- * @method $this setDescription($description)
- * @method string getDescription()
- */
-class CreateCbn extends Request
 {
 
 }

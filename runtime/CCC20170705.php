@@ -17,6 +17,7 @@ use aliyun\sdk\core\lib\Request;
  * @method PickOutboundNumbers PickOutboundNumbers()
  * @method ListVoiceAppraise ListVoiceAppraise()
  * @method RefreshToken RefreshToken()
+ * @method ListScenarioTemplates ListScenarioTemplates()
  * @method ListSkillGroupsOfUser ListSkillGroupsOfUser()
  * @method DialEx DialEx()
  * @method ListUsers ListUsers()
@@ -109,7 +110,6 @@ use aliyun\sdk\core\lib\Request;
  * @method RemoveUsers RemoveUsers()
  * @method ModifyNotificationConfig ModifyNotificationConfig()
  * @method ListJobStatus ListJobStatus()
- * @method Encrypt Encrypt()
  * @method RemovePhoneNumber RemovePhoneNumber()
  * @method ListPrivilegesOfUser ListPrivilegesOfUser()
  * @method DownloadOriginalStatisticsReport DownloadOriginalStatisticsReport()
@@ -261,6 +261,11 @@ class ListVoiceAppraise extends Request
  * @method string getInstanceId()
  */
 class RefreshToken extends Request
+{
+
+}/**
+ */
+class ListScenarioTemplates extends Request
 {
 
 }/**
@@ -1529,15 +1534,6 @@ class ModifyNotificationConfig extends Request
  * @method int getPageSize()
  */
 class ListJobStatus extends Request
-{
-
-}/**
- * @method $this setPublicKey($publicKey)
- * @method string getPublicKey()
- * @method $this setPlainText($plainText)
- * @method array getPlainText()
- */
-class Encrypt extends Request
 {
 
 }/**

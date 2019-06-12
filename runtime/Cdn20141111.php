@@ -10,17 +10,11 @@ use aliyun\sdk\core\lib\Request;
  * @package aliyun\sdk\services\Cdn20141111
  * @method DescribeDomainRealTimeHttpCodeData DescribeDomainRealTimeHttpCodeData()
  * @method DescribeDomainTopUrlVisit DescribeDomainTopUrlVisit()
- * @method GetDomain GetDomain()
  * @method AddLiveDomainMapping AddLiveDomainMapping()
  * @method DescribeDomainsBySource DescribeDomainsBySource()
  * @method SetDynamicConfig SetDynamicConfig()
  * @method DescribeDomainConfigs DescribeDomainConfigs()
- * @method DescribeLiveStreamTranscodeStreamNum DescribeLiveStreamTranscodeStreamNum()
  * @method ModifyHttpHeaderConfig ModifyHttpHeaderConfig()
- * @method SetFileTypeForceTtlCodeConfig SetFileTypeForceTtlCodeConfig()
- * @method DescribeCdnDomainBaseDetail DescribeCdnDomainBaseDetail()
- * @method SetLocationAccessRestriction SetLocationAccessRestriction()
- * @method DescribeHistoryCharge95Info DescribeHistoryCharge95Info()
  * @method DescribeUserConfigs DescribeUserConfigs()
  * @method DescribeLiveStreamsOnlineList DescribeLiveStreamsOnlineList()
  * @method ListDomainsByLogConfigId ListDomainsByLogConfigId()
@@ -28,39 +22,25 @@ use aliyun\sdk\core\lib\Request;
  * @method DeleteCacheExpiredConfig DeleteCacheExpiredConfig()
  * @method DescribeDomainISPData DescribeDomainISPData()
  * @method AddFCTrigger AddFCTrigger()
- * @method DescribeDomainRealTimeData DescribeDomainRealTimeData()
  * @method SetReqAuthConfig SetReqAuthConfig()
  * @method DescribeL2VipsByDynamicDomain DescribeL2VipsByDynamicDomain()
  * @method ForbidLiveStream ForbidLiveStream()
  * @method SetPathCacheExpiredConfig SetPathCacheExpiredConfig()
  * @method SetForceRedirectConfig SetForceRedirectConfig()
- * @method ClearUserBlackList ClearUserBlackList()
- * @method DescribeLiveStreamRelayPushBitRate DescribeLiveStreamRelayPushBitRate()
  * @method SetRefererConfig SetRefererConfig()
- * @method SetAliAuthConfig SetAliAuthConfig()
  * @method DescribeDomainBpsDataByTimeStamp DescribeDomainBpsDataByTimeStamp()
  * @method SetWaitingRoomConfig SetWaitingRoomConfig()
- * @method DescribeDomainUpstreamOfCenter DescribeDomainUpstreamOfCenter()
  * @method SetReqHeaderConfig SetReqHeaderConfig()
  * @method DeleteFCTrigger DeleteFCTrigger()
  * @method DescribeDomainCustomLogConfig DescribeDomainCustomLogConfig()
- * @method DescribeLiveStreamHlsOnlineUserNumByDomain DescribeLiveStreamHlsOnlineUserNumByDomain()
  * @method SetErrorPageConfig SetErrorPageConfig()
  * @method DescribeRangeDataByLocateAndIspService DescribeRangeDataByLocateAndIspService()
- * @method DescribeMacAppInfo DescribeMacAppInfo()
- * @method PurgeObjectCaches PurgeObjectCaches()
- * @method BlockObjectCaches BlockObjectCaches()
- * @method DescribeDomainWafData DescribeDomainWafData()
  * @method DescribeDomainCname DescribeDomainCname()
- * @method DescribeLiveStreamOnlineUserNumByDomain DescribeLiveStreamOnlineUserNumByDomain()
  * @method DescribeCdnTypes DescribeCdnTypes()
  * @method SetPageCompressConfig SetPageCompressConfig()
  * @method RefreshObjectCaches RefreshObjectCaches()
  * @method DescribeLiveStreamsBlockList DescribeLiveStreamsBlockList()
- * @method DescribeDiamondData DescribeDiamondData()
- * @method DescribeLiveStreamPushData DescribeLiveStreamPushData()
  * @method CreateLiveStreamRecordIndexFiles CreateLiveStreamRecordIndexFiles()
- * @method DescribeExtensiveDomainData DescribeExtensiveDomainData()
  * @method AddCdnDomain AddCdnDomain()
  * @method DescribeDomainMax95BpsData DescribeDomainMax95BpsData()
  * @method SetIpAllowListConfig SetIpAllowListConfig()
@@ -69,64 +49,43 @@ use aliyun\sdk\core\lib\Request;
  * @method DeleteHttpHeaderConfig DeleteHttpHeaderConfig()
  * @method DescribeCdnDomainDetail DescribeCdnDomainDetail()
  * @method DescribeLiveStreamsControlHistory DescribeLiveStreamsControlHistory()
- * @method DescribeLiveStreamStreamStatus DescribeLiveStreamStreamStatus()
  * @method DescribeDomainPathData DescribeDomainPathData()
- * @method ClearUserDomainBlackList ClearUserDomainBlackList()
- * @method SetUserBlackList SetUserBlackList()
  * @method DescribeDomainRealTimeBpsData DescribeDomainRealTimeBpsData()
- * @method DescribeLiveStreamNumberList DescribeLiveStreamNumberList()
  * @method DescribeLiveStreamOnlineUserNum DescribeLiveStreamOnlineUserNum()
  * @method DescribeDomainRealTimeSrcBpsData DescribeDomainRealTimeSrcBpsData()
  * @method DescribeRefreshTasks DescribeRefreshTasks()
  * @method DescribeCdnDomainConfigs DescribeCdnDomainConfigs()
- * @method DescribeLiveStreamBpsData DescribeLiveStreamBpsData()
  * @method ModifyCdnDomain ModifyCdnDomain()
  * @method DescribeCdnService DescribeCdnService()
- * @method OpenWafConfig OpenWafConfig()
- * @method DescribeLiveStreamRelayPushData DescribeLiveStreamRelayPushData()
- * @method DescribeLiveStreamFrameLossRatio DescribeLiveStreamFrameLossRatio()
- * @method DescribeDomainRealTimeMetric DescribeDomainRealTimeMetric()
  * @method SetIgnoreQueryStringConfig SetIgnoreQueryStringConfig()
- * @method MigrateDomainToHttpsDelivery MigrateDomainToHttpsDelivery()
  * @method DescribeDomainRealTimeSrcTrafficData DescribeDomainRealTimeSrcTrafficData()
  * @method SetDomainGreenManagerConfig SetDomainGreenManagerConfig()
  * @method SetHttpErrorPageConfig SetHttpErrorPageConfig()
  * @method StopMixStreamsService StopMixStreamsService()
  * @method DescribeLiveStreamTranscodeInfo DescribeLiveStreamTranscodeInfo()
  * @method ModifyCdnService ModifyCdnService()
- * @method BatchStopCdnDomain BatchStopCdnDomain()
  * @method DescribeDomainUvData DescribeDomainUvData()
  * @method DescribeLiveRecordConfig DescribeLiveRecordConfig()
  * @method StopCdnDomain StopCdnDomain()
  * @method DescribeDomainRealTimeQpsData DescribeDomainRealTimeQpsData()
  * @method PushObjectCache PushObjectCache()
  * @method ModifyPathCacheExpiredConfig ModifyPathCacheExpiredConfig()
- * @method DescribeLiveStreamFrameAndBitRateByDomain DescribeLiveStreamFrameAndBitRateByDomain()
  * @method DescribeDomainSlowRatio DescribeDomainSlowRatio()
  * @method SetVideoSeekConfig SetVideoSeekConfig()
  * @method DeleteCdnDomain DeleteCdnDomain()
- * @method SetPathForceTtlCodeConfig SetPathForceTtlCodeConfig()
- * @method DescribeDomainWafAttackInfo DescribeDomainWafAttackInfo()
- * @method DescribeDomainUpstreamBpsOfEdge DescribeDomainUpstreamBpsOfEdge()
  * @method DescribeL2VipsByDomain DescribeL2VipsByDomain()
  * @method SetCcConfig SetCcConfig()
  * @method DescribeDomainSrcBpsData DescribeDomainSrcBpsData()
  * @method SetOptimizeConfig SetOptimizeConfig()
- * @method DescribeLiveStreamPushErrors DescribeLiveStreamPushErrors()
- * @method DescribeOneMinuteData DescribeOneMinuteData()
  * @method DescribeDomainTopReferVisit DescribeDomainTopReferVisit()
- * @method DescribeDomainRealTimeSrcHttpCodeData DescribeDomainRealTimeSrcHttpCodeData()
  * @method DescribeLiveStreamSnapshotInfo DescribeLiveStreamSnapshotInfo()
- * @method DescribeLiveStreamRelayPushErrors DescribeLiveStreamRelayPushErrors()
  * @method StartMixStreamsService StartMixStreamsService()
  * @method OpenCdnService OpenCdnService()
- * @method DescribeDomainPnoData DescribeDomainPnoData()
  * @method SetHttpsOptionConfig SetHttpsOptionConfig()
  * @method DescribeLivePullStreamConfig DescribeLivePullStreamConfig()
  * @method DescribeLiveStreamRecordContent DescribeLiveStreamRecordContent()
  * @method SetRemoveQueryStringConfig SetRemoveQueryStringConfig()
  * @method DescribeCdnRegionAndIsp DescribeCdnRegionAndIsp()
- * @method DescribeDomainTopFileTypeVisit DescribeDomainTopFileTypeVisit()
  * @method AddLiveStreamTranscode AddLiveStreamTranscode()
  * @method ResumeLiveStream ResumeLiveStream()
  * @method UpdateLiveAppSnapshotConfig UpdateLiveAppSnapshotConfig()
@@ -135,36 +94,22 @@ use aliyun\sdk\core\lib\Request;
  * @method SetSourceHostConfig SetSourceHostConfig()
  * @method DescribeDomainReqHitRateData DescribeDomainReqHitRateData()
  * @method DeleteSpecificConfig DeleteSpecificConfig()
- * @method DescribeDomainMonthBillingBpsData DescribeDomainMonthBillingBpsData()
- * @method SetWafConfig SetWafConfig()
  * @method DescribeFCTrigger DescribeFCTrigger()
  * @method DescribeCdnDomainLogs DescribeCdnDomainLogs()
  * @method DescribeTopDomainsByFlow DescribeTopDomainsByFlow()
- * @method DescribeLiveSpecificDomainMapping DescribeLiveSpecificDomainMapping()
  * @method SetDomainServerCertificate SetDomainServerCertificate()
  * @method UpdateFCTrigger UpdateFCTrigger()
  * @method DeleteLiveAppSnapshotConfig DeleteLiveAppSnapshotConfig()
- * @method SetRemoteReqAuthConfig SetRemoteReqAuthConfig()
- * @method DescribeDomainLogConfig DescribeDomainLogConfig()
- * @method DescribeLiveAppRecordConfig DescribeLiveAppRecordConfig()
  * @method DescribeDomainsUsageByDay DescribeDomainsUsageByDay()
  * @method AddLiveAppSnapshotConfig AddLiveAppSnapshotConfig()
- * @method DescribeDomainDownstreamBpsOfEdge DescribeDomainDownstreamBpsOfEdge()
  * @method DescribeRefreshQuota DescribeRefreshQuota()
  * @method BatchDeleteCdnDomainConfig BatchDeleteCdnDomainConfig()
  * @method AddLiveAppRecordConfig AddLiveAppRecordConfig()
  * @method DescribeDomainCertificateInfo DescribeDomainCertificateInfo()
- * @method SetMacServiceConfig SetMacServiceConfig()
  * @method SetUserGreenManagerConfig SetUserGreenManagerConfig()
- * @method DescribeDomainOnlineUserNumber DescribeDomainOnlineUserNumber()
- * @method DescribeLiveStreamDomainAppInfo DescribeLiveStreamDomainAppInfo()
- * @method DescribeLiveStreamRoomBitRate DescribeLiveStreamRoomBitRate()
- * @method DescribeLiveStreamRoomUserNumber DescribeLiveStreamRoomUserNumber()
  * @method DescribeCdnUserQuota DescribeCdnUserQuota()
  * @method DescribeDomainPvData DescribeDomainPvData()
- * @method BatchUpdateCdnDomain BatchUpdateCdnDomain()
  * @method DescribeDomainCCAttackInfo DescribeDomainCCAttackInfo()
- * @method SetAliBusinessConfig SetAliBusinessConfig()
  * @method DescribeLiveStreamRecordIndexFile DescribeLiveStreamRecordIndexFile()
  * @method SetFileCacheExpiredConfig SetFileCacheExpiredConfig()
  * @method SetHttpHeaderConfig SetHttpHeaderConfig()
@@ -173,59 +118,32 @@ use aliyun\sdk\core\lib\Request;
  * @method ModifyDomainCustomLogConfig ModifyDomainCustomLogConfig()
  * @method DescribeLiveStreamBitRateData DescribeLiveStreamBitRateData()
  * @method DescribeDomainHitRateData DescribeDomainHitRateData()
- * @method AddLivePullStreamInfo AddLivePullStreamInfo()
  * @method DescribeLiveStreamsFrameRateAndBitRateData DescribeLiveStreamsFrameRateAndBitRateData()
  * @method DescribeDomainFileSizeProportionData DescribeDomainFileSizeProportionData()
- * @method GetUserDomainBlackList GetUserDomainBlackList()
- * @method DescribeCurrentCharge95Info DescribeCurrentCharge95Info()
- * @method DescribeDomainQoSRt DescribeDomainQoSRt()
  * @method DescribeIpInfo DescribeIpInfo()
  * @method DescribeCdnMonitorData DescribeCdnMonitorData()
  * @method DescribeLiveStreamsPublishList DescribeLiveStreamsPublishList()
- * @method SetVarsConfig SetVarsConfig()
  * @method ModifyFileCacheExpiredConfig ModifyFileCacheExpiredConfig()
- * @method DescribeDomainsByCustomLogConfig DescribeDomainsByCustomLogConfig()
  * @method SetL2OssKeyConfig SetL2OssKeyConfig()
- * @method DescribeDomainHttpsData DescribeDomainHttpsData()
  * @method SetLiveStreamsNotifyUrlConfig SetLiveStreamsNotifyUrlConfig()
- * @method DescribeDomainIspLocationDetailData DescribeDomainIspLocationDetailData()
- * @method ListUserCustomLogConfig ListUserCustomLogConfig()
- * @method IsGreyUser IsGreyUser()
  * @method DescribeDomainFlowData DescribeDomainFlowData()
- * @method DeleteLivePullStreamInfo DeleteLivePullStreamInfo()
- * @method BatchStartCdnDomain BatchStartCdnDomain()
- * @method DescribeLiveStreamOnlineBps DescribeLiveStreamOnlineBps()
- * @method SetUserAgentAcessRestriction SetUserAgentAcessRestriction()
  * @method DescribeDomainSrcFlowData DescribeDomainSrcFlowData()
  * @method DeleteLiveAppRecordConfig DeleteLiveAppRecordConfig()
  * @method DescribeDomainAverageResponseTime DescribeDomainAverageResponseTime()
- * @method DescribeDomainRealTimeTrafficData DescribeDomainRealTimeTrafficData()
- * @method DescribeLiveStreamFrameInfo DescribeLiveStreamFrameInfo()
  * @method SetRangeConfig SetRangeConfig()
  * @method DescribeDomainQpsData DescribeDomainQpsData()
- * @method SetUserDomainBlackList SetUserDomainBlackList()
- * @method SetOssLogConfig SetOssLogConfig()
  * @method DescribeUserCustomLogConfig DescribeUserCustomLogConfig()
  * @method DescribeDomainRealTimeByteHitRateData DescribeDomainRealTimeByteHitRateData()
  * @method BatchSetCdnDomainConfig BatchSetCdnDomainConfig()
- * @method DescribeMacStatistic DescribeMacStatistic()
- * @method BatchAddCdnDomain BatchAddCdnDomain()
  * @method StartCdnDomain StartCdnDomain()
- * @method IsDiamondUser IsDiamondUser()
- * @method BatchDescribeDomainBpsData BatchDescribeDomainBpsData()
  * @method DescribeDomainRealTimeReqHitRateData DescribeDomainRealTimeReqHitRateData()
- * @method DescribeUserVipsByDomain DescribeUserVipsByDomain()
  * @method DescribeLiveSnapshotConfig DescribeLiveSnapshotConfig()
  * @method SetIpBlackListConfig SetIpBlackListConfig()
  * @method DescribeDomainCCData DescribeDomainCCData()
  * @method DescribeUserCustomerLabels DescribeUserCustomerLabels()
- * @method DescribeCdnDomainBillingData DescribeCdnDomainBillingData()
- * @method PreloadObjectCaches PreloadObjectCaches()
  * @method DeleteLiveStreamTranscode DeleteLiveStreamTranscode()
- * @method DescribeLiveStreamLimitInfo DescribeLiveStreamLimitInfo()
  * @method DescribeLiveStreamRecordIndexFiles DescribeLiveStreamRecordIndexFiles()
  * @method DescribeCustomLogConfig DescribeCustomLogConfig()
- * @method SetRegexRuleConfig SetRegexRuleConfig()
  */
 class V20141111
 {
@@ -259,13 +177,6 @@ class DescribeDomainRealTimeHttpCodeData extends Request
  * @method string getSortBy()
  */
 class DescribeDomainTopUrlVisit extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- */
-class GetDomain extends Request
 {
 
 }/**
@@ -321,17 +232,6 @@ class DescribeDomainConfigs extends Request
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
- * @method $this setPullDomain($pullDomain)
- * @method string getPullDomain()
- * @method $this setPushDomain($pushDomain)
- * @method string getPushDomain()
- */
-class DescribeLiveStreamTranscodeStreamNum extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
  * @method $this setDomainName($domainName)
  * @method string getDomainName()
  * @method $this setHeaderKey($headerKey)
@@ -342,60 +242,6 @@ class DescribeLiveStreamTranscodeStreamNum extends Request
  * @method string getConfigID()
  */
 class ModifyHttpHeaderConfig extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setDomainName($domainName)
- * @method string getDomainName()
- * @method $this setFileType($fileType)
- * @method string getFileType()
- * @method $this setCodeString($codeString)
- * @method string getCodeString()
- */
-class SetFileTypeForceTtlCodeConfig extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setDomainName($domainName)
- * @method string getDomainName()
- */
-class DescribeCdnDomainBaseDetail extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setDomainName($domainName)
- * @method string getDomainName()
- * @method $this setLocation($location)
- * @method string getLocation()
- * @method $this setType($type)
- * @method string getType()
- */
-class SetLocationAccessRestriction extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setDomainName($domainName)
- * @method string getDomainName()
- * @method $this setChargeItem($chargeItem)
- * @method string getChargeItem()
- * @method $this setPageSize($pageSize)
- * @method int getPageSize()
- * @method $this setPageNumber($pageNumber)
- * @method int getPageNumber()
- * @method $this setStartTime($startTime)
- * @method string getStartTime()
- * @method $this setEndTime($endTime)
- * @method string getEndTime()
- */
-class DescribeHistoryCharge95Info extends Request
 {
 
 }/**
@@ -500,21 +346,6 @@ class AddFCTrigger extends Request
  * @method int getOwnerId()
  * @method $this setDomainName($domainName)
  * @method string getDomainName()
- * @method $this setStartTime($startTime)
- * @method string getStartTime()
- * @method $this setEndTime($endTime)
- * @method string getEndTime()
- * @method $this setField($field)
- * @method string getField()
- */
-class DescribeDomainRealTimeData extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setDomainName($domainName)
- * @method string getDomainName()
  * @method $this setAuthType($authType)
  * @method string getAuthType()
  * @method $this setKey1($key1)
@@ -584,28 +415,6 @@ class SetForceRedirectConfig extends Request
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- */
-class ClearUserBlackList extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setDomainName($domainName)
- * @method string getDomainName()
- * @method $this setAppName($appName)
- * @method string getAppName()
- * @method $this setStreamName($streamName)
- * @method string getStreamName()
- */
-class DescribeLiveStreamRelayPushBitRate extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
  * @method $this setDomainName($domainName)
  * @method string getDomainName()
  * @method $this setReferType($referType)
@@ -618,21 +427,6 @@ class DescribeLiveStreamRelayPushBitRate extends Request
  * @method string getDisableAst()
  */
 class SetRefererConfig extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setDomainName($domainName)
- * @method string getDomainName()
- * @method $this setAuthType($authType)
- * @method string getAuthType()
- * @method $this setAliAuthDual($aliAuthDual)
- * @method string getAliAuthDual()
- * @method $this setConfigId($configId)
- * @method int getConfigId()
- */
-class SetAliAuthConfig extends Request
 {
 
 }/**
@@ -674,19 +468,6 @@ class SetWaitingRoomConfig extends Request
  * @method int getOwnerId()
  * @method $this setDomainName($domainName)
  * @method string getDomainName()
- * @method $this setStartTime($startTime)
- * @method string getStartTime()
- * @method $this setEndTime($endTime)
- * @method string getEndTime()
- */
-class DescribeDomainUpstreamOfCenter extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setDomainName($domainName)
- * @method string getDomainName()
  * @method $this setKey($key)
  * @method string getKey()
  * @method $this setValue($value)
@@ -713,23 +494,6 @@ class DeleteFCTrigger extends Request
  * @method string getDomainName()
  */
 class DescribeDomainCustomLogConfig extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setDomainName($domainName)
- * @method string getDomainName()
- * @method $this setAppName($appName)
- * @method string getAppName()
- * @method $this setHlsSwitch($hlsSwitch)
- * @method string getHlsSwitch()
- * @method $this setPageNumber($pageNumber)
- * @method int getPageNumber()
- * @method $this setPageSize($pageSize)
- * @method int getPageSize()
- */
-class DescribeLiveStreamHlsOnlineUserNumByDomain extends Request
 {
 
 }/**
@@ -765,73 +529,10 @@ class DescribeRangeDataByLocateAndIspService extends Request
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
- */
-class DescribeMacAppInfo extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setDomainName($domainName)
- * @method string getDomainName()
- * @method $this setObjectPath($objectPath)
- * @method string getObjectPath()
- * @method $this setObjectType($objectType)
- * @method string getObjectType()
- */
-class PurgeObjectCaches extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setObjectPath($objectPath)
- * @method string getObjectPath()
- * @method $this setType($type)
- * @method string getType()
- * @method $this setMaxage($maxage)
- * @method int getMaxage()
- */
-class BlockObjectCaches extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setDomainName($domainName)
- * @method string getDomainName()
- * @method $this setStartTime($startTime)
- * @method string getStartTime()
- * @method $this setEndTime($endTime)
- * @method string getEndTime()
- */
-class DescribeDomainWafData extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
  * @method $this setDomainName($domainName)
  * @method string getDomainName()
  */
 class DescribeDomainCname extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setDomainName($domainName)
- * @method string getDomainName()
- * @method $this setAppName($appName)
- * @method string getAppName()
- * @method $this setHlsSwitch($hlsSwitch)
- * @method string getHlsSwitch()
- * @method $this setPageNumber($pageNumber)
- * @method int getPageNumber()
- * @method $this setPageSize($pageSize)
- * @method int getPageSize()
- */
-class DescribeLiveStreamOnlineUserNumByDomain extends Request
 {
 
 }/**
@@ -877,28 +578,6 @@ class DescribeLiveStreamsBlockList extends Request
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
- * @method $this setDiamondDataId($diamondDataId)
- * @method string getDiamondDataId()
- */
-class DescribeDiamondData extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setDomainName($domainName)
- * @method string getDomainName()
- * @method $this setStartTime($startTime)
- * @method string getStartTime()
- * @method $this setEndTime($endTime)
- * @method string getEndTime()
- */
-class DescribeLiveStreamPushData extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
  * @method $this setDomainName($domainName)
  * @method string getDomainName()
  * @method $this setAppName($appName)
@@ -917,23 +596,6 @@ class DescribeLiveStreamPushData extends Request
  * @method string getEndTime()
  */
 class CreateLiveStreamRecordIndexFiles extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setExtensiveDomain($extensiveDomain)
- * @method string getExtensiveDomain()
- * @method $this setStartTime($startTime)
- * @method string getStartTime()
- * @method $this setEndTime($endTime)
- * @method string getEndTime()
- * @method $this setPageNumber($pageNumber)
- * @method int getPageNumber()
- * @method $this setPageSize($pageSize)
- * @method int getPageSize()
- */
-class DescribeExtensiveDomainData extends Request
 {
 
 }/**
@@ -1071,19 +733,6 @@ class DescribeLiveStreamsControlHistory extends Request
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
- * @method $this setDomainName($domainName)
- * @method string getDomainName()
- * @method $this setAppName($appName)
- * @method string getAppName()
- * @method $this setStreamName($streamName)
- * @method string getStreamName()
- */
-class DescribeLiveStreamStreamStatus extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
  * @method $this setPageNumber($pageNumber)
  * @method int getPageNumber()
  * @method $this setPageSize($pageSize)
@@ -1103,28 +752,6 @@ class DescribeDomainPathData extends Request
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setDomainName($domainName)
- * @method string getDomainName()
- */
-class ClearUserDomainBlackList extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setConfigUrl($configUrl)
- * @method string getConfigUrl()
- */
-class SetUserBlackList extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
  * @method $this setDomainName($domainName)
  * @method string getDomainName()
  * @method $this setIspNameEn($ispNameEn)
@@ -1137,21 +764,6 @@ class SetUserBlackList extends Request
  * @method string getEndTime()
  */
 class DescribeDomainRealTimeBpsData extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setDomainName($domainName)
- * @method string getDomainName()
- * @method $this setAppName($appName)
- * @method string getAppName()
- * @method $this setStartTime($startTime)
- * @method string getStartTime()
- * @method $this setEndTime($endTime)
- * @method string getEndTime()
- */
-class DescribeLiveStreamNumberList extends Request
 {
 
 }/**
@@ -1229,23 +841,6 @@ class DescribeCdnDomainConfigs extends Request
  * @method int getOwnerId()
  * @method $this setDomainName($domainName)
  * @method string getDomainName()
- * @method $this setAppName($appName)
- * @method string getAppName()
- * @method $this setStreamName($streamName)
- * @method string getStreamName()
- * @method $this setStartTime($startTime)
- * @method string getStartTime()
- * @method $this setEndTime($endTime)
- * @method string getEndTime()
- */
-class DescribeLiveStreamBpsData extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setDomainName($domainName)
- * @method string getDomainName()
  * @method $this setSourceType($sourceType)
  * @method string getSourceType()
  * @method $this setSourcePort($sourcePort)
@@ -1274,62 +869,6 @@ class DescribeCdnService extends Request
  * @method int getOwnerId()
  * @method $this setDomainName($domainName)
  * @method string getDomainName()
- */
-class OpenWafConfig extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setRelayDomain($relayDomain)
- * @method string getRelayDomain()
- * @method $this setStartTime($startTime)
- * @method string getStartTime()
- * @method $this setEndTime($endTime)
- * @method string getEndTime()
- */
-class DescribeLiveStreamRelayPushData extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setDomainName($domainName)
- * @method string getDomainName()
- * @method $this setAppName($appName)
- * @method string getAppName()
- * @method $this setStreamName($streamName)
- * @method string getStreamName()
- * @method $this setStartTime($startTime)
- * @method string getStartTime()
- * @method $this setEndTime($endTime)
- * @method string getEndTime()
- */
-class DescribeLiveStreamFrameLossRatio extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setPageNumber($pageNumber)
- * @method int getPageNumber()
- * @method $this setPageSize($pageSize)
- * @method int getPageSize()
- * @method $this setStartTime($startTime)
- * @method string getStartTime()
- * @method $this setEndTime($endTime)
- * @method string getEndTime()
- * @method $this setDomainName($domainName)
- * @method string getDomainName()
- */
-class DescribeDomainRealTimeMetric extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setDomainName($domainName)
- * @method string getDomainName()
  * @method $this setEnable($enable)
  * @method string getEnable()
  * @method $this setHashKeyArgs($hashKeyArgs)
@@ -1338,21 +877,6 @@ class DescribeDomainRealTimeMetric extends Request
  * @method string getKeepOssArgs()
  */
 class SetIgnoreQueryStringConfig extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setDomainName($domainName)
- * @method string getDomainName()
- * @method $this setServerCertificate($serverCertificate)
- * @method string getServerCertificate()
- * @method $this setPrivateKey($privateKey)
- * @method string getPrivateKey()
- */
-class MigrateDomainToHttpsDelivery extends Request
 {
 
 }/**
@@ -1427,15 +951,6 @@ class DescribeLiveStreamTranscodeInfo extends Request
  * @method string getInternetChargeType()
  */
 class ModifyCdnService extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setDomainNames($domainNames)
- * @method string getDomainNames()
- */
-class BatchStopCdnDomain extends Request
 {
 
 }/**
@@ -1517,21 +1032,6 @@ class ModifyPathCacheExpiredConfig extends Request
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
- * @method $this setDomainName($domainName)
- * @method string getDomainName()
- * @method $this setAppName($appName)
- * @method string getAppName()
- * @method $this setPageNumber($pageNumber)
- * @method int getPageNumber()
- * @method $this setPageSize($pageSize)
- * @method int getPageSize()
- */
-class DescribeLiveStreamFrameAndBitRateByDomain extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
  * @method $this setEndTime($endTime)
  * @method string getEndTime()
  * @method $this setDomainName($domainName)
@@ -1566,49 +1066,6 @@ class SetVideoSeekConfig extends Request
  * @method string getResourceGroupId()
  */
 class DeleteCdnDomain extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setDomainName($domainName)
- * @method string getDomainName()
- * @method $this setPath($path)
- * @method string getPath()
- * @method $this setCodeString($codeString)
- * @method string getCodeString()
- */
-class SetPathForceTtlCodeConfig extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setDomainName($domainName)
- * @method string getDomainName()
- * @method $this setStartTime($startTime)
- * @method string getStartTime()
- * @method $this setEndTime($endTime)
- * @method string getEndTime()
- * @method $this setPageNumber($pageNumber)
- * @method int getPageNumber()
- * @method $this setPageSize($pageSize)
- * @method int getPageSize()
- */
-class DescribeDomainWafAttackInfo extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setDomainName($domainName)
- * @method string getDomainName()
- * @method $this setStartTime($startTime)
- * @method string getStartTime()
- * @method $this setEndTime($endTime)
- * @method string getEndTime()
- */
-class DescribeDomainUpstreamBpsOfEdge extends Request
 {
 
 }/**
@@ -1670,55 +1127,10 @@ class SetOptimizeConfig extends Request
  * @method string getDomainName()
  * @method $this setStartTime($startTime)
  * @method string getStartTime()
- * @method $this setEndTime($endTime)
- * @method string getEndTime()
- */
-class DescribeLiveStreamPushErrors extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setDomainName($domainName)
- * @method string getDomainName()
- * @method $this setDataTime($dataTime)
- * @method string getDataTime()
- */
-class DescribeOneMinuteData extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setDomainName($domainName)
- * @method string getDomainName()
- * @method $this setStartTime($startTime)
- * @method string getStartTime()
  * @method $this setSortBy($sortBy)
  * @method string getSortBy()
  */
 class DescribeDomainTopReferVisit extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setDomainName($domainName)
- * @method string getDomainName()
- * @method $this setStartTime($startTime)
- * @method string getStartTime()
- * @method $this setEndTime($endTime)
- * @method string getEndTime()
- * @method $this setIspNameEn($ispNameEn)
- * @method string getIspNameEn()
- * @method $this setLocationNameEn($locationNameEn)
- * @method string getLocationNameEn()
- */
-class DescribeDomainRealTimeSrcHttpCodeData extends Request
 {
 
 }/**
@@ -1738,19 +1150,6 @@ class DescribeDomainRealTimeSrcHttpCodeData extends Request
  * @method string getEndTime()
  */
 class DescribeLiveStreamSnapshotInfo extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setRelayDomain($relayDomain)
- * @method string getRelayDomain()
- * @method $this setStartTime($startTime)
- * @method string getStartTime()
- * @method $this setEndTime($endTime)
- * @method string getEndTime()
- */
-class DescribeLiveStreamRelayPushErrors extends Request
 {
 
 }/**
@@ -1783,23 +1182,6 @@ class StartMixStreamsService extends Request
  * @method string getInternetChargeType()
  */
 class OpenCdnService extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setDomainName($domainName)
- * @method string getDomainName()
- * @method $this setStartTime($startTime)
- * @method string getStartTime()
- * @method $this setEndTime($endTime)
- * @method string getEndTime()
- * @method $this setNeedSum($needSum)
- * @method string getNeedSum()
- * @method $this setPno($pno)
- * @method string getPno()
- */
-class DescribeDomainPnoData extends Request
 {
 
 }/**
@@ -1857,17 +1239,6 @@ class SetRemoveQueryStringConfig extends Request
  * @method int getOwnerId()
  */
 class DescribeCdnRegionAndIsp extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setDomainName($domainName)
- * @method string getDomainName()
- * @method $this setStartTime($startTime)
- * @method string getStartTime()
- */
-class DescribeDomainTopFileTypeVisit extends Request
 {
 
 }/**
@@ -1991,32 +1362,6 @@ class DeleteSpecificConfig extends Request
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
- * @method $this setDomainName($domainName)
- * @method string getDomainName()
- * @method $this setStartTime($startTime)
- * @method string getStartTime()
- * @method $this setEndTime($endTime)
- * @method string getEndTime()
- * @method $this setInternetChargeType($internetChargeType)
- * @method string getInternetChargeType()
- */
-class DescribeDomainMonthBillingBpsData extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setDomainName($domainName)
- * @method string getDomainName()
- * @method $this setEnable($enable)
- * @method string getEnable()
- */
-class SetWafConfig extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
  * @method $this setTriggerARN($triggerARN)
  * @method string getTriggerARN()
  */
@@ -2055,17 +1400,6 @@ class DescribeCdnDomainLogs extends Request
  * @method int getLimit()
  */
 class DescribeTopDomainsByFlow extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setPushDomain($pushDomain)
- * @method string getPushDomain()
- * @method $this setPullDomain($pullDomain)
- * @method string getPullDomain()
- */
-class DescribeLiveSpecificDomainMapping extends Request
 {
 
 }/**
@@ -2124,51 +1458,6 @@ class DeleteLiveAppSnapshotConfig extends Request
  * @method int getOwnerId()
  * @method $this setDomainName($domainName)
  * @method string getDomainName()
- * @method $this setAuthType($authType)
- * @method string getAuthType()
- * @method $this setTimeOut($timeOut)
- * @method string getTimeOut()
- * @method $this setAuthAddr($authAddr)
- * @method string getAuthAddr()
- * @method $this setAuthCrash($authCrash)
- * @method string getAuthCrash()
- * @method $this setAuthEnable($authEnable)
- * @method string getAuthEnable()
- * @method $this setAuthProvider($authProvider)
- * @method string getAuthProvider()
- * @method $this setAuthPath($authPath)
- * @method string getAuthPath()
- * @method $this setAuthFileType($authFileType)
- * @method string getAuthFileType()
- */
-class SetRemoteReqAuthConfig extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setDomainName($domainName)
- * @method string getDomainName()
- */
-class DescribeDomainLogConfig extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setDomainName($domainName)
- * @method string getDomainName()
- * @method $this setAppName($appName)
- * @method string getAppName()
- */
-class DescribeLiveAppRecordConfig extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setDomainName($domainName)
- * @method string getDomainName()
  * @method $this setStartTime($startTime)
  * @method string getStartTime()
  * @method $this setEndTime($endTime)
@@ -2196,19 +1485,6 @@ class DescribeDomainsUsageByDay extends Request
  * @method string getSequenceOssObject()
  */
 class AddLiveAppSnapshotConfig extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setDomainName($domainName)
- * @method string getDomainName()
- * @method $this setStartTime($startTime)
- * @method string getStartTime()
- * @method $this setEndTime($endTime)
- * @method string getEndTime()
- */
-class DescribeDomainDownstreamBpsOfEdge extends Request
 {
 
 }/**
@@ -2260,85 +1536,12 @@ class DescribeDomainCertificateInfo extends Request
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
- * @method $this setDomainName($domainName)
- * @method string getDomainName()
- * @method $this setEnabled($enabled)
- * @method string getEnabled()
- * @method $this setProcessResult($processResult)
- * @method string getProcessResult()
- * @method $this setAppList($appList)
- * @method string getAppList()
- */
-class SetMacServiceConfig extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
  * @method $this setQuota($quota)
  * @method string getQuota()
  * @method $this setRatio($ratio)
  * @method string getRatio()
  */
 class SetUserGreenManagerConfig extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setDomainName($domainName)
- * @method string getDomainName()
- * @method $this setStartTime($startTime)
- * @method string getStartTime()
- * @method $this setEndTime($endTime)
- * @method string getEndTime()
- */
-class DescribeDomainOnlineUserNumber extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setAppDomain($appDomain)
- * @method string getAppDomain()
- */
-class DescribeLiveStreamDomainAppInfo extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setDomainName($domainName)
- * @method string getDomainName()
- * @method $this setAppName($appName)
- * @method string getAppName()
- * @method $this setStreamName($streamName)
- * @method string getStreamName()
- * @method $this setStartTime($startTime)
- * @method string getStartTime()
- * @method $this setEndTime($endTime)
- * @method string getEndTime()
- */
-class DescribeLiveStreamRoomBitRate extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setDomainName($domainName)
- * @method string getDomainName()
- * @method $this setAppName($appName)
- * @method string getAppName()
- * @method $this setStreamName($streamName)
- * @method string getStreamName()
- * @method $this setStartTime($startTime)
- * @method string getStartTime()
- * @method $this setEndTime($endTime)
- * @method string getEndTime()
- * @method $this setHlsSwitch($hlsSwitch)
- * @method string getHlsSwitch()
- */
-class DescribeLiveStreamRoomUserNumber extends Request
 {
 
 }/**
@@ -2364,29 +1567,6 @@ class DescribeDomainPvData extends Request
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setDomainNames($domainNames)
- * @method string getDomainNames()
- * @method $this setSourceType($sourceType)
- * @method string getSourceType()
- * @method $this setSources($sources)
- * @method string getSources()
- * @method $this setSourcePort($sourcePort)
- * @method int getSourcePort()
- * @method $this setResourceGroupId($resourceGroupId)
- * @method string getResourceGroupId()
- * @method $this setPriorities($priorities)
- * @method string getPriorities()
- * @method $this setTopLevelDomain($topLevelDomain)
- * @method string getTopLevelDomain()
- */
-class BatchUpdateCdnDomain extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
  * @method $this setDomainName($domainName)
  * @method string getDomainName()
  * @method $this setStartTime($startTime)
@@ -2395,21 +1575,6 @@ class BatchUpdateCdnDomain extends Request
  * @method string getEndTime()
  */
 class DescribeDomainCCAttackInfo extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setDomainName($domainName)
- * @method string getDomainName()
- * @method $this setAliBusinessType($aliBusinessType)
- * @method string getAliBusinessType()
- * @method $this setAliBusinessTable($aliBusinessTable)
- * @method string getAliBusinessTable()
- * @method $this setConfigId($configId)
- * @method int getConfigId()
- */
-class SetAliBusinessConfig extends Request
 {
 
 }/**
@@ -2553,25 +1718,6 @@ class DescribeDomainHitRateData extends Request
  * @method string getAppName()
  * @method $this setStreamName($streamName)
  * @method string getStreamName()
- * @method $this setSourceUrl($sourceUrl)
- * @method string getSourceUrl()
- * @method $this setStartTime($startTime)
- * @method string getStartTime()
- * @method $this setEndTime($endTime)
- * @method string getEndTime()
- */
-class AddLivePullStreamInfo extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setDomainName($domainName)
- * @method string getDomainName()
- * @method $this setAppName($appName)
- * @method string getAppName()
- * @method $this setStreamName($streamName)
- * @method string getStreamName()
  * @method $this setStartTime($startTime)
  * @method string getStartTime()
  * @method $this setEndTime($endTime)
@@ -2591,39 +1737,6 @@ class DescribeLiveStreamsFrameRateAndBitRateData extends Request
  * @method string getEndTime()
  */
 class DescribeDomainFileSizeProportionData extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setDomainName($domainName)
- * @method string getDomainName()
- */
-class GetUserDomainBlackList extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- */
-class DescribeCurrentCharge95Info extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setStartTime($startTime)
- * @method string getStartTime()
- * @method $this setEndTime($endTime)
- * @method string getEndTime()
- * @method $this setIp($ip)
- * @method string getIp()
- * @method $this setDomainName($domainName)
- * @method string getDomainName()
- */
-class DescribeDomainQoSRt extends Request
 {
 
 }/**
@@ -2676,21 +1789,6 @@ class DescribeLiveStreamsPublishList extends Request
  * @method int getOwnerId()
  * @method $this setDomainName($domainName)
  * @method string getDomainName()
- * @method $this setVarName($varName)
- * @method string getVarName()
- * @method $this setVarValue($varValue)
- * @method string getVarValue()
- * @method $this setConfigId($configId)
- * @method int getConfigId()
- */
-class SetVarsConfig extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setDomainName($domainName)
- * @method string getDomainName()
  * @method $this setConfigID($configID)
  * @method string getConfigID()
  * @method $this setCacheContent($cacheContent)
@@ -2701,15 +1799,6 @@ class SetVarsConfig extends Request
  * @method string getWeight()
  */
 class ModifyFileCacheExpiredConfig extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setConfigId($configId)
- * @method string getConfigId()
- */
-class DescribeDomainsByCustomLogConfig extends Request
 {
 
 }/**
@@ -2726,64 +1815,12 @@ class SetL2OssKeyConfig extends Request
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
- * @method $this setDomainNames($domainNames)
- * @method string getDomainNames()
- * @method $this setStartTime($startTime)
- * @method string getStartTime()
- * @method $this setEndTime($endTime)
- * @method string getEndTime()
- * @method $this setDomainType($domainType)
- * @method string getDomainType()
- * @method $this setTimeMerge($timeMerge)
- * @method string getTimeMerge()
- * @method $this setInterval($interval)
- * @method string getInterval()
- * @method $this setCls($cls)
- * @method string getCls()
- * @method $this setFixTimeGap($fixTimeGap)
- * @method string getFixTimeGap()
- */
-class DescribeDomainHttpsData extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
  * @method $this setDomainName($domainName)
  * @method string getDomainName()
  * @method $this setNotifyUrl($notifyUrl)
  * @method string getNotifyUrl()
  */
 class SetLiveStreamsNotifyUrlConfig extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setDomainName($domainName)
- * @method string getDomainName()
- * @method $this setStartTime($startTime)
- * @method string getStartTime()
- * @method $this setEndTime($endTime)
- * @method string getEndTime()
- */
-class DescribeDomainIspLocationDetailData extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- */
-class ListUserCustomLogConfig extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- */
-class IsGreyUser extends Request
 {
 
 }/**
@@ -2807,58 +1844,6 @@ class IsGreyUser extends Request
  * @method string getLocationNameEn()
  */
 class DescribeDomainFlowData extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setDomainName($domainName)
- * @method string getDomainName()
- * @method $this setAppName($appName)
- * @method string getAppName()
- * @method $this setStreamName($streamName)
- * @method string getStreamName()
- */
-class DeleteLivePullStreamInfo extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setDomainNames($domainNames)
- * @method string getDomainNames()
- */
-class BatchStartCdnDomain extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setDomainName($domainName)
- * @method string getDomainName()
- * @method $this setAppName($appName)
- * @method string getAppName()
- * @method $this setStreamName($streamName)
- * @method string getStreamName()
- * @method $this setStartTime($startTime)
- * @method string getStartTime()
- * @method $this setEndTime($endTime)
- * @method string getEndTime()
- */
-class DescribeLiveStreamOnlineBps extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setDomainName($domainName)
- * @method string getDomainName()
- * @method $this setUserAgent($userAgent)
- * @method string getUserAgent()
- * @method $this setType($type)
- * @method string getType()
- */
-class SetUserAgentAcessRestriction extends Request
 {
 
 }/**
@@ -2921,36 +1906,6 @@ class DescribeDomainAverageResponseTime extends Request
  * @method int getOwnerId()
  * @method $this setDomainName($domainName)
  * @method string getDomainName()
- * @method $this setStartTime($startTime)
- * @method string getStartTime()
- * @method $this setEndTime($endTime)
- * @method string getEndTime()
- */
-class DescribeDomainRealTimeTrafficData extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setDomainName($domainName)
- * @method string getDomainName()
- * @method $this setAppName($appName)
- * @method string getAppName()
- * @method $this setStreamName($streamName)
- * @method string getStreamName()
- * @method $this setStartTime($startTime)
- * @method string getStartTime()
- * @method $this setEndTime($endTime)
- * @method string getEndTime()
- */
-class DescribeLiveStreamFrameInfo extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setDomainName($domainName)
- * @method string getDomainName()
  * @method $this setEnable($enable)
  * @method string getEnable()
  */
@@ -2978,30 +1933,6 @@ class SetRangeConfig extends Request
  * @method string getLocationNameEn()
  */
 class DescribeDomainQpsData extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setDomainName($domainName)
- * @method string getDomainName()
- */
-class SetUserDomainBlackList extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setEnable($enable)
- * @method string getEnable()
- * @method $this setBucket($bucket)
- * @method string getBucket()
- * @method $this setPrefix($prefix)
- * @method string getPrefix()
- */
-class SetOssLogConfig extends Request
 {
 
 }/**
@@ -3042,84 +1973,8 @@ class BatchSetCdnDomainConfig extends Request
  * @method int getOwnerId()
  * @method $this setDomainName($domainName)
  * @method string getDomainName()
- * @method $this setRegion($region)
- * @method string getRegion()
- * @method $this setCarrierOperator($carrierOperator)
- * @method string getCarrierOperator()
- * @method $this setInterval($interval)
- * @method string getInterval()
- * @method $this setStartTime($startTime)
- * @method string getStartTime()
- * @method $this setEndTime($endTime)
- * @method string getEndTime()
- * @method $this setProtocol($protocol)
- * @method string getProtocol()
- */
-class DescribeMacStatistic extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setDomainNames($domainNames)
- * @method string getDomainNames()
- * @method $this setTopLevelDomain($topLevelDomain)
- * @method string getTopLevelDomain()
- * @method $this setResourceGroupId($resourceGroupId)
- * @method string getResourceGroupId()
- * @method $this setCdnType($cdnType)
- * @method string getCdnType()
- * @method $this setSourceType($sourceType)
- * @method string getSourceType()
- * @method $this setSources($sources)
- * @method string getSources()
- * @method $this setSourcePort($sourcePort)
- * @method int getSourcePort()
- * @method $this setCheckUrl($checkUrl)
- * @method string getCheckUrl()
- * @method $this setScope($scope)
- * @method string getScope()
- * @method $this setPriorities($priorities)
- * @method string getPriorities()
- */
-class BatchAddCdnDomain extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setDomainName($domainName)
- * @method string getDomainName()
  */
 class StartCdnDomain extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setDiamondDataId($diamondDataId)
- * @method string getDiamondDataId()
- */
-class IsDiamondUser extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setDomainName($domainName)
- * @method string getDomainName()
- * @method $this setStartTime($startTime)
- * @method string getStartTime()
- * @method $this setEndTime($endTime)
- * @method string getEndTime()
- * @method $this setPageNumber($pageNumber)
- * @method int getPageNumber()
- * @method $this setPageSize($pageSize)
- * @method int getPageSize()
- */
-class BatchDescribeDomainBpsData extends Request
 {
 
 }/**
@@ -3133,17 +1988,6 @@ class BatchDescribeDomainBpsData extends Request
  * @method string getEndTime()
  */
 class DescribeDomainRealTimeReqHitRateData extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setDomainName($domainName)
- * @method string getDomainName()
- * @method $this setAvailable($available)
- * @method string getAvailable()
- */
-class DescribeUserVipsByDomain extends Request
 {
 
 }/**
@@ -3201,40 +2045,6 @@ class DescribeUserCustomerLabels extends Request
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
- * @method $this setDomainName($domainName)
- * @method string getDomainName()
- * @method $this setStartTime($startTime)
- * @method string getStartTime()
- * @method $this setEndTime($endTime)
- * @method string getEndTime()
- * @method $this setDataType($dataType)
- * @method string getDataType()
- * @method $this setArea($area)
- * @method string getArea()
- * @method $this setProtocol($protocol)
- * @method string getProtocol()
- * @method $this setTrafficType($trafficType)
- * @method string getTrafficType()
- */
-class DescribeCdnDomainBillingData extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setDomainName($domainName)
- * @method string getDomainName()
- * @method $this setObjectPath($objectPath)
- * @method string getObjectPath()
- * @method $this setArea($area)
- * @method string getArea()
- */
-class PreloadObjectCaches extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
  * @method $this setDomain($domain)
@@ -3245,15 +2055,6 @@ class PreloadObjectCaches extends Request
  * @method string getApp()
  */
 class DeleteLiveStreamTranscode extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setLimitDomain($limitDomain)
- * @method string getLimitDomain()
- */
-class DescribeLiveStreamLimitInfo extends Request
 {
 
 }/**
@@ -3280,23 +2081,6 @@ class DescribeLiveStreamRecordIndexFiles extends Request
  * @method string getConfigId()
  */
 class DescribeCustomLogConfig extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setDomainName($domainName)
- * @method string getDomainName()
- * @method $this setEnabled($enabled)
- * @method string getEnabled()
- * @method $this setUri($uri)
- * @method string getUri()
- * @method $this setOrigin($origin)
- * @method string getOrigin()
- * @method $this setConfigId($configId)
- * @method int getConfigId()
- */
-class SetRegexRuleConfig extends Request
 {
 
 }

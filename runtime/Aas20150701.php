@@ -8,8 +8,6 @@ use aliyun\sdk\core\lib\Request;
  * Class V20150701
  *
  * @package aliyun\sdk\services\Aas20150701
- * @method GetBasicAccountInfoByPk GetBasicAccountInfoByPk()
- * @method GetSessionInfoByMiniTicketWithRoute GetSessionInfoByMiniTicketWithRoute()
  * @method UpdateAccessKeyStatusForAccount UpdateAccessKeyStatusForAccount()
  * @method GetAliyunAccountWithBindHid GetAliyunAccountWithBindHid()
  * @method CreateAliyunAccountWithBindHid CreateAliyunAccountWithBindHid()
@@ -19,45 +17,20 @@ use aliyun\sdk\core\lib\Request;
  * @method VerifyAccountLoginToken VerifyAccountLoginToken()
  * @method GetBasicInfoForAccount GetBasicInfoForAccount()
  * @method UpdateStatusForAccount UpdateStatusForAccount()
- * @method GetSessionInfoByTicketWithRouteSGPRO GetSessionInfoByTicketWithRouteSGPRO()
  * @method DeleteAccessKeyForAccount DeleteAccessKeyForAccount()
- * @method GetSessionInfoByMiniTicketWithRouteSHRO GetSessionInfoByMiniTicketWithRouteSHRO()
  * @method CreateIntlAliyunAccount CreateIntlAliyunAccount()
  * @method CreateShortTermAccessKeyForAccount CreateShortTermAccessKeyForAccount()
- * @method GetLoginConfigInfoByPK GetLoginConfigInfoByPK()
  * @method GenerateAccountLoginToken GenerateAccountLoginToken()
  * @method UpdatePasswordForAccount UpdatePasswordForAccount()
  * @method ListAliyunAccount ListAliyunAccount()
- * @method IsBindMfaByPk IsBindMfaByPk()
- * @method GetSessionInfoByMiniTicket GetSessionInfoByMiniTicket()
- * @method GetSessionInfoByMiniTicketWithRouteSGPRO GetSessionInfoByMiniTicketWithRouteSGPRO()
- * @method GetBasicAccountInfoByHavanaId GetBasicAccountInfoByHavanaId()
  * @method CreateAliyunAccount CreateAliyunAccount()
- * @method GetSessionInfoByTicketWithRoute GetSessionInfoByTicketWithRoute()
- * @method GetSessionInfoByTicket GetSessionInfoByTicket()
- * @method GetSessionInfoByTicketWithRouteSHRO GetSessionInfoByTicketWithRouteSHRO()
  * @method GetShortTermAccessKeyForAccount GetShortTermAccessKeyForAccount()
- * @method GetAccountKinshipInfoByPK GetAccountKinshipInfoByPK()
  */
 class V20150701
 {
 }
 
 /**
- * @method $this setPK($pK)
- * @method string getPK()
- */
-class GetBasicAccountInfoByPk extends Request
-{
-
-}/**
- * @method $this setTicket($ticket)
- * @method string getTicket()
- */
-class GetSessionInfoByMiniTicketWithRoute extends Request
-{
-
-}/**
  * @method $this setPK($pK)
  * @method string getPK()
  * @method $this setAKId($aKId)
@@ -133,26 +106,12 @@ class UpdateStatusForAccount extends Request
 {
 
 }/**
- * @method $this setTicket($ticket)
- * @method string getTicket()
- */
-class GetSessionInfoByTicketWithRouteSGPRO extends Request
-{
-
-}/**
  * @method $this setPK($pK)
  * @method string getPK()
  * @method $this setAKId($aKId)
  * @method string getAKId()
  */
 class DeleteAccessKeyForAccount extends Request
-{
-
-}/**
- * @method $this setTicket($ticket)
- * @method string getTicket()
- */
-class GetSessionInfoByMiniTicketWithRouteSHRO extends Request
 {
 
 }/**
@@ -171,13 +130,6 @@ class CreateIntlAliyunAccount extends Request
  * @method bool getIsMfaPresent()
  */
 class CreateShortTermAccessKeyForAccount extends Request
-{
-
-}/**
- * @method $this setPK($pK)
- * @method string getPK()
- */
-class GetLoginConfigInfoByPK extends Request
 {
 
 }/**
@@ -206,59 +158,10 @@ class ListAliyunAccount extends Request
 {
 
 }/**
- * @method $this setPK($pK)
- * @method string getPK()
- */
-class IsBindMfaByPk extends Request
-{
-
-}/**
- * @method $this setTicket($ticket)
- * @method string getTicket()
- */
-class GetSessionInfoByMiniTicket extends Request
-{
-
-}/**
- * @method $this setTicket($ticket)
- * @method string getTicket()
- */
-class GetSessionInfoByMiniTicketWithRouteSGPRO extends Request
-{
-
-}/**
- * @method $this setHavanaId($havanaId)
- * @method string getHavanaId()
- */
-class GetBasicAccountInfoByHavanaId extends Request
-{
-
-}/**
  * @method $this setAliyunId($aliyunId)
  * @method string getAliyunId()
  */
 class CreateAliyunAccount extends Request
-{
-
-}/**
- * @method $this setTicket($ticket)
- * @method string getTicket()
- */
-class GetSessionInfoByTicketWithRoute extends Request
-{
-
-}/**
- * @method $this setTicket($ticket)
- * @method string getTicket()
- */
-class GetSessionInfoByTicket extends Request
-{
-
-}/**
- * @method $this setTicket($ticket)
- * @method string getTicket()
- */
-class GetSessionInfoByTicketWithRouteSHRO extends Request
 {
 
 }/**
@@ -270,13 +173,6 @@ class GetSessionInfoByTicketWithRouteSHRO extends Request
  * @method bool getIsMfaPresent()
  */
 class GetShortTermAccessKeyForAccount extends Request
-{
-
-}/**
- * @method $this setPK($pK)
- * @method string getPK()
- */
-class GetAccountKinshipInfoByPK extends Request
 {
 
 }

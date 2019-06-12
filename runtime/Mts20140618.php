@@ -10,16 +10,11 @@ use aliyun\sdk\core\lib\Request;
  * @package aliyun\sdk\services\Mts20140618
  * @method DeleteMcuTemplate DeleteMcuTemplate()
  * @method UpdateWaterMarkTemplate UpdateWaterMarkTemplate()
- * @method ListVideoSummaryPipeline ListVideoSummaryPipeline()
  * @method QueryFacerecogJobList QueryFacerecogJobList()
  * @method AddCategory AddCategory()
  * @method UpdateMediaPublishState UpdateMediaPublishState()
- * @method SubmitCensorJob SubmitCensorJob()
- * @method StopMediaWorkflow StopMediaWorkflow()
  * @method DescribeMtsUserResourcePackage DescribeMtsUserResourcePackage()
- * @method StartWorkflowExecution StartWorkflowExecution()
  * @method QueryMcuJob QueryMcuJob()
- * @method SubmitMediaWorkflow SubmitMediaWorkflow()
  * @method SubmitTerrorismJob SubmitTerrorismJob()
  * @method SubmitImageQualityJob SubmitImageQualityJob()
  * @method QueryVideoPoseJobList QueryVideoPoseJobList()
@@ -33,9 +28,7 @@ use aliyun\sdk\core\lib\Request;
  * @method SubmitCoverJob SubmitCoverJob()
  * @method DeleteMediaWorkflow DeleteMediaWorkflow()
  * @method CheckResource CheckResource()
- * @method SetCdnDomainConfigsInner SetCdnDomainConfigsInner()
  * @method QueryCensorJobList QueryCensorJobList()
- * @method QueryMediaWorkflowListByName QueryMediaWorkflowListByName()
  * @method GetLicense GetLicense()
  * @method UpdateMediaCover UpdateMediaCover()
  * @method QueryCoverPipelineList QueryCoverPipelineList()
@@ -48,23 +41,17 @@ use aliyun\sdk\core\lib\Request;
  * @method UpdateCensorPipeline UpdateCensorPipeline()
  * @method ListJob ListJob()
  * @method ReportTagJobResult ReportTagJobResult()
- * @method StartMediaWorkflowExecution StartMediaWorkflowExecution()
  * @method ListTerrorismPipeline ListTerrorismPipeline()
  * @method QueryEditingJobList QueryEditingJobList()
  * @method PlayerAuth PlayerAuth()
  * @method QueryVideoSplitJobList QueryVideoSplitJobList()
  * @method AddPornPipeline AddPornPipeline()
- * @method UpdateMediaStorage UpdateMediaStorage()
- * @method CreateMediaStorage CreateMediaStorage()
  * @method DeleteMCTemplate DeleteMCTemplate()
  * @method UpdateMediaCategory UpdateMediaCategory()
  * @method SubmitImageSearchJob SubmitImageSearchJob()
  * @method QueryMediaWorkflowList QueryMediaWorkflowList()
  * @method ReportFpShotJobResult ReportFpShotJobResult()
- * @method RegisterMediaWorkflowType RegisterMediaWorkflowType()
- * @method SubmitMetaInfoJob SubmitMetaInfoJob()
  * @method QueryMediaDetailJobList QueryMediaDetailJobList()
- * @method RegisterWorkflowType RegisterWorkflowType()
  * @method SubmitVideoPoseJob SubmitVideoPoseJob()
  * @method ReportTerrorismJobResult ReportTerrorismJobResult()
  * @method SubmitMediaDetailJob SubmitMediaDetailJob()
@@ -90,10 +77,7 @@ use aliyun\sdk\core\lib\Request;
  * @method SubmitVideoGifJob SubmitVideoGifJob()
  * @method DeleteCategory DeleteCategory()
  * @method RegisterMediaDetailPerson RegisterMediaDetailPerson()
- * @method QueryMetaInfoJobList QueryMetaInfoJobList()
- * @method SearchJob SearchJob()
  * @method SubmitAnalysisJob SubmitAnalysisJob()
- * @method UpdateVideoSummaryPipeline UpdateVideoSummaryPipeline()
  * @method AddAsrPipeline AddAsrPipeline()
  * @method AddMCTemplate AddMCTemplate()
  * @method QuerySnapshotJobList QuerySnapshotJobList()
@@ -109,7 +93,6 @@ use aliyun\sdk\core\lib\Request;
  * @method QueryMCJobList QueryMCJobList()
  * @method AddMediaTag AddMediaTag()
  * @method AddMediaWorkflow AddMediaWorkflow()
- * @method DescribeMtsServiceStatus DescribeMtsServiceStatus()
  * @method ReportAnnotationJobResult ReportAnnotationJobResult()
  * @method QueryMediaFpDeleteJobList QueryMediaFpDeleteJobList()
  * @method SubmitMCJob SubmitMCJob()
@@ -131,39 +114,29 @@ use aliyun\sdk\core\lib\Request;
  * @method UpdateMediaWorkflow UpdateMediaWorkflow()
  * @method QueryTerrorismJobList QueryTerrorismJobList()
  * @method SubmitFpShotJob SubmitFpShotJob()
- * @method QueryServiceUsage QueryServiceUsage()
  * @method UpdatePipeline UpdatePipeline()
- * @method QueryJobListByFile QueryJobListByFile()
- * @method AddMediaBucket AddMediaBucket()
  * @method UnbindInputBucket UnbindInputBucket()
  * @method QueryMediaList QueryMediaList()
  * @method AddPipeline AddPipeline()
  * @method DecryptKey DecryptKey()
  * @method QueryTerrorismPipelineList QueryTerrorismPipelineList()
  * @method DeleteMcuJob DeleteMcuJob()
- * @method SearchMediaWorkflowExecution SearchMediaWorkflowExecution()
  * @method QueryCensorPipelineList QueryCensorPipelineList()
- * @method ListSystemTemplate ListSystemTemplate()
- * @method QueryJobListByPid QueryJobListByPid()
  * @method SubmitTagJob SubmitTagJob()
  * @method SearchTemplate SearchTemplate()
  * @method SearchMedia SearchMedia()
  * @method ListAllMediaBucket ListAllMediaBucket()
  * @method DeletePipeline DeletePipeline()
  * @method QueryAnnotationJobList QueryAnnotationJobList()
- * @method QuerySystemTemplateList QuerySystemTemplateList()
  * @method QueryWaterMarkTemplateList QueryWaterMarkTemplateList()
  * @method UpdateCategoryName UpdateCategoryName()
- * @method AddVideoSummaryPipeline AddVideoSummaryPipeline()
  * @method UpdateTemplate UpdateTemplate()
  * @method SubmitMediaInfoJob SubmitMediaInfoJob()
  * @method ReportCoverJobResult ReportCoverJobResult()
  * @method QuerySubtitleJobList QuerySubtitleJobList()
  * @method QueryAsrJobList QueryAsrJobList()
- * @method UpdateInputBucketSyncState UpdateInputBucketSyncState()
  * @method QueryMediaCensorJobList QueryMediaCensorJobList()
  * @method AddTemplate AddTemplate()
- * @method QueryVideoSummaryPipelineList QueryVideoSummaryPipelineList()
  * @method QueryPornPipelineList QueryPornPipelineList()
  * @method BindOutputBucket BindOutputBucket()
  * @method AddTerrorismPipeline AddTerrorismPipeline()
@@ -183,7 +156,6 @@ use aliyun\sdk\core\lib\Request;
  * @method CategoryTree CategoryTree()
  * @method QueryTagJobList QueryTagJobList()
  * @method AddMedia AddMedia()
- * @method DeleteMediaList DeleteMediaList()
  * @method ReportCensorJobResult ReportCensorJobResult()
  * @method DeleteMediaTag DeleteMediaTag()
  * @method AddWaterMarkTemplate AddWaterMarkTemplate()
@@ -242,25 +214,6 @@ class UpdateWaterMarkTemplate extends Request
  * @method string getResourceOwnerAccount()
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
- * @method $this setPageSize($pageSize)
- * @method int getPageSize()
- * @method $this setPageNumber($pageNumber)
- * @method int getPageNumber()
- * @method $this setState($state)
- * @method string getState()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- */
-class ListVideoSummaryPipeline extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
  * @method $this setFacerecogJobIds($facerecogJobIds)
  * @method string getFacerecogJobIds()
  * @method $this setOwnerAccount($ownerAccount)
@@ -306,69 +259,8 @@ class UpdateMediaPublishState extends Request
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setInput($input)
- * @method string getInput()
- * @method $this setCoverImages($coverImages)
- * @method string getCoverImages()
- * @method $this setTitle($title)
- * @method string getTitle()
- * @method $this setDescription($description)
- * @method string getDescription()
- * @method $this setBarrages($barrages)
- * @method string getBarrages()
- * @method $this setPipelineId($pipelineId)
- * @method string getPipelineId()
- * @method $this setCensorConfig($censorConfig)
- * @method string getCensorConfig()
- * @method $this setUserData($userData)
- * @method string getUserData()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- */
-class SubmitCensorJob extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setMediaWorkflowId($mediaWorkflowId)
- * @method string getMediaWorkflowId()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- */
-class StopMediaWorkflow extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
  */
 class DescribeMtsUserResourcePackage extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setInput($input)
- * @method string getInput()
- * @method $this setWorkflowType($workflowType)
- * @method string getWorkflowType()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- */
-class StartWorkflowExecution extends Request
 {
 
 }/**
@@ -384,21 +276,6 @@ class StartWorkflowExecution extends Request
  * @method string getJobIds()
  */
 class QueryMcuJob extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setMediaWorkflowId($mediaWorkflowId)
- * @method string getMediaWorkflowId()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- */
-class SubmitMediaWorkflow extends Request
 {
 
 }/**
@@ -648,33 +525,6 @@ class CheckResource extends Request
 
 }/**
  * @method $this setOwnerId($ownerId)
- * @method string getOwnerId()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method string getResourceOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setOSSDomain($oSSDomain)
- * @method string getOSSDomain()
- * @method $this setCDNDomain($cDNDomain)
- * @method string getCDNDomain()
- * @method $this setDomainStatus($domainStatus)
- * @method string getDomainStatus()
- * @method $this setAuthType($authType)
- * @method string getAuthType()
- * @method $this setKey1($key1)
- * @method string getKey1()
- * @method $this setKey2($key2)
- * @method string getKey2()
- * @method $this setRedirectType($redirectType)
- * @method string getRedirectType()
- */
-class SetCdnDomainConfigsInner extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
  * @method $this setResourceOwnerAccount($resourceOwnerAccount)
  * @method string getResourceOwnerAccount()
@@ -686,21 +536,6 @@ class SetCdnDomainConfigsInner extends Request
  * @method string getOwnerAccount()
  */
 class QueryCensorJobList extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setNames($names)
- * @method string getNames()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- */
-class QueryMediaWorkflowListByName extends Request
 {
 
 }/**
@@ -934,23 +769,6 @@ class ReportTagJobResult extends Request
  * @method string getResourceOwnerAccount()
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
- * @method $this setInput($input)
- * @method string getInput()
- * @method $this setName($name)
- * @method string getName()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- */
-class StartMediaWorkflowExecution extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
  * @method $this setPageSize($pageSize)
  * @method int getPageSize()
  * @method $this setPageNumber($pageNumber)
@@ -1023,42 +841,6 @@ class QueryVideoSplitJobList extends Request
  * @method string getOwnerAccount()
  */
 class AddPornPipeline extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setBucket($bucket)
- * @method string getBucket()
- * @method $this setSync($sync)
- * @method bool getSync()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- */
-class UpdateMediaStorage extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setBucket($bucket)
- * @method string getBucket()
- * @method $this setType($type)
- * @method string getType()
- * @method $this setSync($sync)
- * @method bool getSync()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- */
-class CreateMediaStorage extends Request
 {
 
 }/**
@@ -1159,67 +941,12 @@ class ReportFpShotJobResult extends Request
  * @method string getResourceOwnerAccount()
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
- * @method $this setName($name)
- * @method string getName()
- * @method $this setDefinition($definition)
- * @method string getDefinition()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- */
-class RegisterMediaWorkflowType extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setInput($input)
- * @method string getInput()
- * @method $this setUserData($userData)
- * @method string getUserData()
- * @method $this setPipelineId($pipelineId)
- * @method string getPipelineId()
- * @method $this setAsync($async)
- * @method bool getAsync()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- */
-class SubmitMetaInfoJob extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
  * @method $this setJobIds($jobIds)
  * @method string getJobIds()
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
  */
 class QueryMediaDetailJobList extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setName($name)
- * @method string getName()
- * @method $this setDefinition($definition)
- * @method string getDefinition()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- */
-class RegisterWorkflowType extends Request
 {
 
 }/**
@@ -1730,44 +1457,6 @@ class RegisterMediaDetailPerson extends Request
  * @method string getResourceOwnerAccount()
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
- * @method $this setMetaInfoJobIds($metaInfoJobIds)
- * @method string getMetaInfoJobIds()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- */
-class QueryMetaInfoJobList extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setPageSize($pageSize)
- * @method int getPageSize()
- * @method $this setPageNumber($pageNumber)
- * @method int getPageNumber()
- * @method $this setState($state)
- * @method string getState()
- * @method $this setStartOfJobCreatedTimeRange($startOfJobCreatedTimeRange)
- * @method string getStartOfJobCreatedTimeRange()
- * @method $this setEndOfJobCreatedTimeRange($endOfJobCreatedTimeRange)
- * @method string getEndOfJobCreatedTimeRange()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- */
-class SearchJob extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
  * @method $this setInput($input)
  * @method string getInput()
  * @method $this setAnalysisConfig($analysisConfig)
@@ -1782,29 +1471,6 @@ class SearchJob extends Request
  * @method string getOwnerAccount()
  */
 class SubmitAnalysisJob extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setPipelineId($pipelineId)
- * @method string getPipelineId()
- * @method $this setName($name)
- * @method string getName()
- * @method $this setState($state)
- * @method string getState()
- * @method $this setPriority($priority)
- * @method int getPriority()
- * @method $this setNotifyConfig($notifyConfig)
- * @method string getNotifyConfig()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- */
-class UpdateVideoSummaryPipeline extends Request
 {
 
 }/**
@@ -2122,13 +1788,6 @@ class AddMediaTag extends Request
  * @method string getOwnerAccount()
  */
 class AddMediaWorkflow extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- */
-class DescribeMtsServiceStatus extends Request
 {
 
 }/**
@@ -2569,31 +2228,6 @@ class SubmitFpShotJob extends Request
  * @method string getResourceOwnerAccount()
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
- * @method $this setType($type)
- * @method string getType()
- * @method $this setCodec($codec)
- * @method string getCodec()
- * @method $this setDefinition($definition)
- * @method string getDefinition()
- * @method $this setQueryRegion($queryRegion)
- * @method string getQueryRegion()
- * @method $this setStartOfDayRange($startOfDayRange)
- * @method string getStartOfDayRange()
- * @method $this setEndOfDayRange($endOfDayRange)
- * @method string getEndOfDayRange()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- */
-class QueryServiceUsage extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
  * @method $this setPipelineId($pipelineId)
  * @method string getPipelineId()
  * @method $this setName($name)
@@ -2608,42 +2242,6 @@ class QueryServiceUsage extends Request
  * @method string getOwnerAccount()
  */
 class UpdatePipeline extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setBucket($bucket)
- * @method string getBucket()
- * @method $this setLocation($location)
- * @method string getLocation()
- * @method $this setObject($object)
- * @method string getObject()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- */
-class QueryJobListByFile extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setBucket($bucket)
- * @method string getBucket()
- * @method $this setType($type)
- * @method string getType()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- */
-class AddMediaBucket extends Request
 {
 
 }/**
@@ -2763,69 +2361,12 @@ class DeleteMcuJob extends Request
  * @method string getResourceOwnerAccount()
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
- * @method $this setMediaWorkflowName($mediaWorkflowName)
- * @method string getMediaWorkflowName()
- * @method $this setFileURLs($fileURLs)
- * @method string getFileURLs()
- * @method $this setPageSize($pageSize)
- * @method int getPageSize()
- * @method $this setPageNumber($pageNumber)
- * @method int getPageNumber()
- * @method $this setStateList($stateList)
- * @method string getStateList()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- */
-class SearchMediaWorkflowExecution extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
  * @method $this setPipelineIds($pipelineIds)
  * @method string getPipelineIds()
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
  */
 class QueryCensorPipelineList extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setType($type)
- * @method string getType()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- */
-class ListSystemTemplate extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setPipelineId($pipelineId)
- * @method string getPipelineId()
- * @method $this setPageSize($pageSize)
- * @method int getPageSize()
- * @method $this setPageNumber($pageNumber)
- * @method int getPageNumber()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- */
-class QueryJobListByPid extends Request
 {
 
 }/**
@@ -2955,21 +2496,6 @@ class QueryAnnotationJobList extends Request
  * @method string getResourceOwnerAccount()
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
- * @method $this setTemplateIds($templateIds)
- * @method string getTemplateIds()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- */
-class QuerySystemTemplateList extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
  * @method $this setWaterMarkTemplateIds($waterMarkTemplateIds)
  * @method string getWaterMarkTemplateIds()
  * @method $this setOwnerAccount($ownerAccount)
@@ -2993,25 +2519,6 @@ class QueryWaterMarkTemplateList extends Request
  * @method string getOwnerAccount()
  */
 class UpdateCategoryName extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setName($name)
- * @method string getName()
- * @method $this setPriority($priority)
- * @method int getPriority()
- * @method $this setNotifyConfig($notifyConfig)
- * @method string getNotifyConfig()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- */
-class AddVideoSummaryPipeline extends Request
 {
 
 }/**
@@ -3116,23 +2623,6 @@ class QueryAsrJobList extends Request
  * @method string getResourceOwnerAccount()
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
- * @method $this setBucket($bucket)
- * @method string getBucket()
- * @method $this setSync($sync)
- * @method bool getSync()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- */
-class UpdateInputBucketSyncState extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
  * @method $this setJobId($jobId)
  * @method string getJobId()
  * @method $this setOwnerAccount($ownerAccount)
@@ -3176,21 +2666,6 @@ class QueryMediaCensorJobList extends Request
  * @method string getOwnerAccount()
  */
 class AddTemplate extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setPipelineIds($pipelineIds)
- * @method string getPipelineIds()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- */
-class QueryVideoSummaryPipelineList extends Request
 {
 
 }/**
@@ -3564,21 +3039,6 @@ class QueryTagJobList extends Request
  * @method string getOwnerAccount()
  */
 class AddMedia extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setMediaIds($mediaIds)
- * @method string getMediaIds()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- */
-class DeleteMediaList extends Request
 {
 
 }/**

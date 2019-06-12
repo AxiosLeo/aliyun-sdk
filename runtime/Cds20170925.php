@@ -12,6 +12,7 @@ use aliyun\sdk\core\lib\Request;
  * @method StopBuild StopBuild()
  * @method UpdateCredential UpdateCredential()
  * @method GetJob GetJob()
+ * @method GetCredentials GetCredentials()
  * @method GetBuild GetBuild()
  * @method CreateCredential CreateCredential()
  * @method RunJob RunJob()
@@ -60,6 +61,11 @@ class UpdateCredential extends Request
  * @method string getJobName()
  */
 class GetJob extends Request
+{
+
+}/**
+ */
+class GetCredentials extends Request
 {
 
 }/**

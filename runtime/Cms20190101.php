@@ -21,6 +21,7 @@ use aliyun\sdk\core\lib\Request;
  * @method PutMonitoringConfig PutMonitoringConfig()
  * @method PutContactGroup PutContactGroup()
  * @method DeleteMetricRules DeleteMetricRules()
+ * @method DescribeProductsOfActiveMetricRule DescribeProductsOfActiveMetricRule()
  * @method DescribeMonitorGroupInstances DescribeMonitorGroupInstances()
  * @method DescribeActiveMetricRuleList DescribeActiveMetricRuleList()
  * @method PutMonitorGroupDynamicRule PutMonitorGroupDynamicRule()
@@ -36,10 +37,12 @@ use aliyun\sdk\core\lib\Request;
  * @method DeleteMonitorGroupInstances DeleteMonitorGroupInstances()
  * @method DescribeMetricLast DescribeMetricLast()
  * @method DescribeSiteMonitorAttribute DescribeSiteMonitorAttribute()
+ * @method DescribeMonitoringAgentConfig DescribeMonitoringAgentConfig()
  * @method DeleteEventRules DeleteEventRules()
  * @method CreateMonitoringAgentProcess CreateMonitoringAgentProcess()
  * @method CreateMonitorGroupNotifyPolicy CreateMonitorGroupNotifyPolicy()
  * @method DescribeMetricRuleTemplateList DescribeMetricRuleTemplateList()
+ * @method DescribeSystemEventMetaList DescribeSystemEventMetaList()
  * @method DescribeMonitoringAgentStatuses DescribeMonitoringAgentStatuses()
  * @method DescribeMetricData DescribeMetricData()
  * @method DescribeMetricTop DescribeMetricTop()
@@ -57,6 +60,7 @@ use aliyun\sdk\core\lib\Request;
  * @method DeleteHostAvailability DeleteHostAvailability()
  * @method CreateGroupMetricRules CreateGroupMetricRules()
  * @method DescribeMetricRuleCount DescribeMetricRuleCount()
+ * @method DescribeMonitoringConfig DescribeMonitoringConfig()
  * @method DescribeMonitorGroupDynamicRules DescribeMonitorGroupDynamicRules()
  * @method CreateMetricRuleTemplate CreateMetricRuleTemplate()
  * @method DescribeMetricRuleTemplateAttribute DescribeMetricRuleTemplateAttribute()
@@ -74,9 +78,11 @@ use aliyun\sdk\core\lib\Request;
  * @method DescribeHostAvailabilityList DescribeHostAvailabilityList()
  * @method CreateHostAvailability CreateHostAvailability()
  * @method DescribeUnhealthyHostAvailability DescribeUnhealthyHostAvailability()
+ * @method DescribeMonitoringAgentAccessKey DescribeMonitoringAgentAccessKey()
  * @method PutGroupMetricRule PutGroupMetricRule()
  * @method UninstallMonitoringAgent UninstallMonitoringAgent()
  * @method DeleteEventRuleTargets DeleteEventRuleTargets()
+ * @method DescribeSiteMonitorQuota DescribeSiteMonitorQuota()
  * @method DescribeMetricRuleList DescribeMetricRuleList()
  * @method PutResourceMetricRule PutResourceMetricRule()
  * @method DescribeSiteMonitorISPCityList DescribeSiteMonitorISPCityList()
@@ -108,6 +114,10 @@ class V20190101
 }
 
 /**
+ * @method $this setBindUrls($bindUrls)
+ * @method string getBindUrls()
+ * @method $this setServiceId($serviceId)
+ * @method int getServiceId()
  * @method $this setGroupId($groupId)
  * @method string getGroupId()
  * @method $this setGroupName($groupName)
@@ -159,14 +169,14 @@ class DescribeContactGroupList extends Request
  * @method string getContactName()
  * @method $this setDescribe($describe)
  * @method string getDescribe()
- * @method $this setChannelsSMS($channelsSMS)
- * @method string getChannelsSMS()
- * @method $this setChannelsMail($channelsMail)
- * @method string getChannelsMail()
- * @method $this setChannelsAliIM($channelsAliIM)
- * @method string getChannelsAliIM()
- * @method $this setChannelsDingWebHook($channelsDingWebHook)
- * @method string getChannelsDingWebHook()
+ * @method $this setChannels_SMS($channels_SMS)
+ * @method string getChannels_SMS()
+ * @method $this setChannels_Mail($channels_Mail)
+ * @method string getChannels_Mail()
+ * @method $this setChannels_AliIM($channels_AliIM)
+ * @method string getChannels_AliIM()
+ * @method $this setChannels_DingWebHook($channels_DingWebHook)
+ * @method string getChannels_DingWebHook()
  */
 class PutContact extends Request
 {
@@ -256,6 +266,11 @@ class PutContactGroup extends Request
  * @method array getId()
  */
 class DeleteMetricRules extends Request
+{
+
+}/**
+ */
+class DescribeProductsOfActiveMetricRule extends Request
 {
 
 }/**
@@ -448,6 +463,11 @@ class DescribeSiteMonitorAttribute extends Request
 {
 
 }/**
+ */
+class DescribeMonitoringAgentConfig extends Request
+{
+
+}/**
  * @method $this setRuleNames($ruleNames)
  * @method array getRuleNames()
  */
@@ -493,6 +513,11 @@ class CreateMonitorGroupNotifyPolicy extends Request
  * @method bool getHistory()
  */
 class DescribeMetricRuleTemplateList extends Request
+{
+
+}/**
+ */
+class DescribeSystemEventMetaList extends Request
 {
 
 }/**
@@ -701,6 +726,11 @@ class DescribeMetricRuleCount extends Request
 {
 
 }/**
+ */
+class DescribeMonitoringConfig extends Request
+{
+
+}/**
  * @method $this setGroupId($groupId)
  * @method int getGroupId()
  */
@@ -902,28 +932,28 @@ class DescribeHostAvailabilityList extends Request
  * @method string getTaskScope()
  * @method $this setTaskType($taskType)
  * @method string getTaskType()
- * @method $this setTaskOptionHttpURI($taskOptionHttpURI)
- * @method string getTaskOptionHttpURI()
- * @method $this setTaskOptionTelnetOrPingHost($taskOptionTelnetOrPingHost)
- * @method string getTaskOptionTelnetOrPingHost()
- * @method $this setTaskOptionHttpResponseCharset($taskOptionHttpResponseCharset)
- * @method string getTaskOptionHttpResponseCharset()
- * @method $this setTaskOptionHttpResponseMatchContent($taskOptionHttpResponseMatchContent)
- * @method string getTaskOptionHttpResponseMatchContent()
- * @method $this setTaskOptionHttpMethod($taskOptionHttpMethod)
- * @method string getTaskOptionHttpMethod()
- * @method $this setTaskOptionHttpNegative($taskOptionHttpNegative)
- * @method bool getTaskOptionHttpNegative()
- * @method $this setAlertConfigNotifyType($alertConfigNotifyType)
- * @method int getAlertConfigNotifyType()
- * @method $this setAlertConfigStartTime($alertConfigStartTime)
- * @method int getAlertConfigStartTime()
- * @method $this setAlertConfigEndTime($alertConfigEndTime)
- * @method int getAlertConfigEndTime()
- * @method $this setAlertConfigSilenceTime($alertConfigSilenceTime)
- * @method int getAlertConfigSilenceTime()
- * @method $this setAlertConfigWebHook($alertConfigWebHook)
- * @method string getAlertConfigWebHook()
+ * @method $this setTaskOption_HttpURI($taskOption_HttpURI)
+ * @method string getTaskOption_HttpURI()
+ * @method $this setTaskOption_TelnetOrPingHost($taskOption_TelnetOrPingHost)
+ * @method string getTaskOption_TelnetOrPingHost()
+ * @method $this setTaskOption_HttpResponseCharset($taskOption_HttpResponseCharset)
+ * @method string getTaskOption_HttpResponseCharset()
+ * @method $this setTaskOption_HttpResponseMatchContent($taskOption_HttpResponseMatchContent)
+ * @method string getTaskOption_HttpResponseMatchContent()
+ * @method $this setTaskOption_HttpMethod($taskOption_HttpMethod)
+ * @method string getTaskOption_HttpMethod()
+ * @method $this setTaskOption_HttpNegative($taskOption_HttpNegative)
+ * @method bool getTaskOption_HttpNegative()
+ * @method $this setAlertConfig_NotifyType($alertConfig_NotifyType)
+ * @method int getAlertConfig_NotifyType()
+ * @method $this setAlertConfig_StartTime($alertConfig_StartTime)
+ * @method int getAlertConfig_StartTime()
+ * @method $this setAlertConfig_EndTime($alertConfig_EndTime)
+ * @method int getAlertConfig_EndTime()
+ * @method $this setAlertConfig_SilenceTime($alertConfig_SilenceTime)
+ * @method int getAlertConfig_SilenceTime()
+ * @method $this setAlertConfig_WebHook($alertConfig_WebHook)
+ * @method string getAlertConfig_WebHook()
  * @method $this setAlertConfigEscalationList($alertConfigEscalationList)
  * @method array getAlertConfigEscalationList()
  * @method $this setInstanceList($instanceList)
@@ -937,6 +967,11 @@ class CreateHostAvailability extends Request
  * @method array getId()
  */
 class DescribeUnhealthyHostAvailability extends Request
+{
+
+}/**
+ */
+class DescribeMonitoringAgentAccessKey extends Request
 {
 
 }/**
@@ -968,30 +1003,30 @@ class DescribeUnhealthyHostAvailability extends Request
  * @method string getWebhook()
  * @method $this setEmailSubject($emailSubject)
  * @method string getEmailSubject()
- * @method $this setEscalationsCriticalStatistics($escalationsCriticalStatistics)
- * @method string getEscalationsCriticalStatistics()
- * @method $this setEscalationsCriticalComparisonOperator($escalationsCriticalComparisonOperator)
- * @method string getEscalationsCriticalComparisonOperator()
- * @method $this setEscalationsCriticalThreshold($escalationsCriticalThreshold)
- * @method string getEscalationsCriticalThreshold()
- * @method $this setEscalationsCriticalTimes($escalationsCriticalTimes)
- * @method int getEscalationsCriticalTimes()
- * @method $this setEscalationsWarnStatistics($escalationsWarnStatistics)
- * @method string getEscalationsWarnStatistics()
- * @method $this setEscalationsWarnComparisonOperator($escalationsWarnComparisonOperator)
- * @method string getEscalationsWarnComparisonOperator()
- * @method $this setEscalationsWarnThreshold($escalationsWarnThreshold)
- * @method string getEscalationsWarnThreshold()
- * @method $this setEscalationsWarnTimes($escalationsWarnTimes)
- * @method int getEscalationsWarnTimes()
- * @method $this setEscalationsInfoStatistics($escalationsInfoStatistics)
- * @method string getEscalationsInfoStatistics()
- * @method $this setEscalationsInfoComparisonOperator($escalationsInfoComparisonOperator)
- * @method string getEscalationsInfoComparisonOperator()
- * @method $this setEscalationsInfoThreshold($escalationsInfoThreshold)
- * @method string getEscalationsInfoThreshold()
- * @method $this setEscalationsInfoTimes($escalationsInfoTimes)
- * @method int getEscalationsInfoTimes()
+ * @method $this setEscalations_Critical_Statistics($escalations_Critical_Statistics)
+ * @method string getEscalations_Critical_Statistics()
+ * @method $this setEscalations_Critical_ComparisonOperator($escalations_Critical_ComparisonOperator)
+ * @method string getEscalations_Critical_ComparisonOperator()
+ * @method $this setEscalations_Critical_Threshold($escalations_Critical_Threshold)
+ * @method string getEscalations_Critical_Threshold()
+ * @method $this setEscalations_Critical_Times($escalations_Critical_Times)
+ * @method int getEscalations_Critical_Times()
+ * @method $this setEscalations_Warn_Statistics($escalations_Warn_Statistics)
+ * @method string getEscalations_Warn_Statistics()
+ * @method $this setEscalations_Warn_ComparisonOperator($escalations_Warn_ComparisonOperator)
+ * @method string getEscalations_Warn_ComparisonOperator()
+ * @method $this setEscalations_Warn_Threshold($escalations_Warn_Threshold)
+ * @method string getEscalations_Warn_Threshold()
+ * @method $this setEscalations_Warn_Times($escalations_Warn_Times)
+ * @method int getEscalations_Warn_Times()
+ * @method $this setEscalations_Info_Statistics($escalations_Info_Statistics)
+ * @method string getEscalations_Info_Statistics()
+ * @method $this setEscalations_Info_ComparisonOperator($escalations_Info_ComparisonOperator)
+ * @method string getEscalations_Info_ComparisonOperator()
+ * @method $this setEscalations_Info_Threshold($escalations_Info_Threshold)
+ * @method string getEscalations_Info_Threshold()
+ * @method $this setEscalations_Info_Times($escalations_Info_Times)
+ * @method int getEscalations_Info_Times()
  */
 class PutGroupMetricRule extends Request
 {
@@ -1010,6 +1045,11 @@ class UninstallMonitoringAgent extends Request
  * @method array getIds()
  */
 class DeleteEventRuleTargets extends Request
+{
+
+}/**
+ */
+class DescribeSiteMonitorQuota extends Request
 {
 
 }/**
@@ -1064,30 +1104,30 @@ class DescribeMetricRuleList extends Request
  * @method string getInterval()
  * @method $this setEmailSubject($emailSubject)
  * @method string getEmailSubject()
- * @method $this setEscalationsCriticalStatistics($escalationsCriticalStatistics)
- * @method string getEscalationsCriticalStatistics()
- * @method $this setEscalationsCriticalComparisonOperator($escalationsCriticalComparisonOperator)
- * @method string getEscalationsCriticalComparisonOperator()
- * @method $this setEscalationsCriticalThreshold($escalationsCriticalThreshold)
- * @method string getEscalationsCriticalThreshold()
- * @method $this setEscalationsCriticalTimes($escalationsCriticalTimes)
- * @method int getEscalationsCriticalTimes()
- * @method $this setEscalationsWarnStatistics($escalationsWarnStatistics)
- * @method string getEscalationsWarnStatistics()
- * @method $this setEscalationsWarnComparisonOperator($escalationsWarnComparisonOperator)
- * @method string getEscalationsWarnComparisonOperator()
- * @method $this setEscalationsWarnThreshold($escalationsWarnThreshold)
- * @method string getEscalationsWarnThreshold()
- * @method $this setEscalationsWarnTimes($escalationsWarnTimes)
- * @method int getEscalationsWarnTimes()
- * @method $this setEscalationsInfoStatistics($escalationsInfoStatistics)
- * @method string getEscalationsInfoStatistics()
- * @method $this setEscalationsInfoComparisonOperator($escalationsInfoComparisonOperator)
- * @method string getEscalationsInfoComparisonOperator()
- * @method $this setEscalationsInfoThreshold($escalationsInfoThreshold)
- * @method string getEscalationsInfoThreshold()
- * @method $this setEscalationsInfoTimes($escalationsInfoTimes)
- * @method int getEscalationsInfoTimes()
+ * @method $this setEscalations_Critical_Statistics($escalations_Critical_Statistics)
+ * @method string getEscalations_Critical_Statistics()
+ * @method $this setEscalations_Critical_ComparisonOperator($escalations_Critical_ComparisonOperator)
+ * @method string getEscalations_Critical_ComparisonOperator()
+ * @method $this setEscalations_Critical_Threshold($escalations_Critical_Threshold)
+ * @method string getEscalations_Critical_Threshold()
+ * @method $this setEscalations_Critical_Times($escalations_Critical_Times)
+ * @method int getEscalations_Critical_Times()
+ * @method $this setEscalations_Warn_Statistics($escalations_Warn_Statistics)
+ * @method string getEscalations_Warn_Statistics()
+ * @method $this setEscalations_Warn_ComparisonOperator($escalations_Warn_ComparisonOperator)
+ * @method string getEscalations_Warn_ComparisonOperator()
+ * @method $this setEscalations_Warn_Threshold($escalations_Warn_Threshold)
+ * @method string getEscalations_Warn_Threshold()
+ * @method $this setEscalations_Warn_Times($escalations_Warn_Times)
+ * @method int getEscalations_Warn_Times()
+ * @method $this setEscalations_Info_Statistics($escalations_Info_Statistics)
+ * @method string getEscalations_Info_Statistics()
+ * @method $this setEscalations_Info_ComparisonOperator($escalations_Info_ComparisonOperator)
+ * @method string getEscalations_Info_ComparisonOperator()
+ * @method $this setEscalations_Info_Threshold($escalations_Info_Threshold)
+ * @method string getEscalations_Info_Threshold()
+ * @method $this setEscalations_Info_Times($escalations_Info_Times)
+ * @method int getEscalations_Info_Times()
  */
 class PutResourceMetricRule extends Request
 {
@@ -1110,28 +1150,28 @@ class DescribeSiteMonitorISPCityList extends Request
  * @method string getTaskName()
  * @method $this setTaskScope($taskScope)
  * @method string getTaskScope()
- * @method $this setTaskOptionHttpURI($taskOptionHttpURI)
- * @method string getTaskOptionHttpURI()
- * @method $this setTaskOptionTelnetOrPingHost($taskOptionTelnetOrPingHost)
- * @method string getTaskOptionTelnetOrPingHost()
- * @method $this setTaskOptionHttpResponseCharset($taskOptionHttpResponseCharset)
- * @method string getTaskOptionHttpResponseCharset()
- * @method $this setTaskOptionHttpResponseMatchContent($taskOptionHttpResponseMatchContent)
- * @method string getTaskOptionHttpResponseMatchContent()
- * @method $this setTaskOptionHttpMethod($taskOptionHttpMethod)
- * @method string getTaskOptionHttpMethod()
- * @method $this setTaskOptionHttpNegative($taskOptionHttpNegative)
- * @method bool getTaskOptionHttpNegative()
- * @method $this setAlertConfigNotifyType($alertConfigNotifyType)
- * @method int getAlertConfigNotifyType()
- * @method $this setAlertConfigStartTime($alertConfigStartTime)
- * @method int getAlertConfigStartTime()
- * @method $this setAlertConfigEndTime($alertConfigEndTime)
- * @method int getAlertConfigEndTime()
- * @method $this setAlertConfigSilenceTime($alertConfigSilenceTime)
- * @method int getAlertConfigSilenceTime()
- * @method $this setAlertConfigWebHook($alertConfigWebHook)
- * @method string getAlertConfigWebHook()
+ * @method $this setTaskOption_HttpURI($taskOption_HttpURI)
+ * @method string getTaskOption_HttpURI()
+ * @method $this setTaskOption_TelnetOrPingHost($taskOption_TelnetOrPingHost)
+ * @method string getTaskOption_TelnetOrPingHost()
+ * @method $this setTaskOption_HttpResponseCharset($taskOption_HttpResponseCharset)
+ * @method string getTaskOption_HttpResponseCharset()
+ * @method $this setTaskOption_HttpResponseMatchContent($taskOption_HttpResponseMatchContent)
+ * @method string getTaskOption_HttpResponseMatchContent()
+ * @method $this setTaskOption_HttpMethod($taskOption_HttpMethod)
+ * @method string getTaskOption_HttpMethod()
+ * @method $this setTaskOption_HttpNegative($taskOption_HttpNegative)
+ * @method bool getTaskOption_HttpNegative()
+ * @method $this setAlertConfig_NotifyType($alertConfig_NotifyType)
+ * @method int getAlertConfig_NotifyType()
+ * @method $this setAlertConfig_StartTime($alertConfig_StartTime)
+ * @method int getAlertConfig_StartTime()
+ * @method $this setAlertConfig_EndTime($alertConfig_EndTime)
+ * @method int getAlertConfig_EndTime()
+ * @method $this setAlertConfig_SilenceTime($alertConfig_SilenceTime)
+ * @method int getAlertConfig_SilenceTime()
+ * @method $this setAlertConfig_WebHook($alertConfig_WebHook)
+ * @method string getAlertConfig_WebHook()
  * @method $this setAlertConfigEscalationList($alertConfigEscalationList)
  * @method array getAlertConfigEscalationList()
  * @method $this setInstanceList($instanceList)
@@ -1313,10 +1353,18 @@ class DescribeEventRuleAttribute extends Request
 {
 
 }/**
+ * @method $this setType($type)
+ * @method string getType()
  * @method $this setGroupName($groupName)
  * @method string getGroupName()
+ * @method $this setServiceId($serviceId)
+ * @method int getServiceId()
+ * @method $this setBindUrl($bindUrl)
+ * @method string getBindUrl()
  * @method $this setContactGroups($contactGroups)
  * @method string getContactGroups()
+ * @method $this setOptions($options)
+ * @method string getOptions()
  */
 class CreateMonitorGroup extends Request
 {

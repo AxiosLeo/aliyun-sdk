@@ -8,34 +8,19 @@ use aliyun\sdk\core\lib\Request;
  * Class V20160201
  *
  * @package aliyun\sdk\services\Httpdns20160201
- * @method ResolveDomain ResolveDomain()
  * @method GetResolveCountSummary GetResolveCountSummary()
  * @method AddDomain AddDomain()
  * @method ListDomains ListDomains()
- * @method SetGrayIPRegion SetGrayIPRegion()
  * @method GetAccountInfo GetAccountInfo()
  * @method GetResolveStatistics GetResolveStatistics()
  * @method DescribeDomains DescribeDomains()
- * @method SwitchUnsignedInterface SwitchUnsignedInterface()
- * @method GetGrayIPRegion GetGrayIPRegion()
- * @method SetIPRegionResult SetIPRegionResult()
  * @method DeleteDomain DeleteDomain()
- * @method GetIPRegionResult GetIPRegionResult()
  */
 class V20160201
 {
 }
 
 /**
- * @method $this setDomainName($domainName)
- * @method string getDomainName()
- * @method $this setSourceIp($sourceIp)
- * @method string getSourceIp()
- */
-class ResolveDomain extends Request
-{
-
-}/**
  * @method $this setGranularity($granularity)
  * @method string getGranularity()
  * @method $this setTimeSpan($timeSpan)
@@ -60,15 +45,6 @@ class AddDomain extends Request
  * @method int getPageSize()
  */
 class ListDomains extends Request
-{
-
-}/**
- * @method $this setDomainName($domainName)
- * @method string getDomainName()
- * @method $this setPayload($payload)
- * @method string getPayload()
- */
-class SetGrayIPRegion extends Request
 {
 
 }/**
@@ -101,42 +77,12 @@ class DescribeDomains extends Request
 {
 
 }/**
- * @method $this setEnableInterface($enableInterface)
- * @method bool getEnableInterface()
- */
-class SwitchUnsignedInterface extends Request
-{
-
-}/**
- * @method $this setDomainName($domainName)
- * @method string getDomainName()
- */
-class GetGrayIPRegion extends Request
-{
-
-}/**
- * @method $this setDomainName($domainName)
- * @method string getDomainName()
- * @method $this setPayload($payload)
- * @method string getPayload()
- */
-class SetIPRegionResult extends Request
-{
-
-}/**
  * @method $this setAccountId($accountId)
  * @method string getAccountId()
  * @method $this setDomainName($domainName)
  * @method string getDomainName()
  */
 class DeleteDomain extends Request
-{
-
-}/**
- * @method $this setDomainName($domainName)
- * @method string getDomainName()
- */
-class GetIPRegionResult extends Request
 {
 
 }

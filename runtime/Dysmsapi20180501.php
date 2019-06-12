@@ -45,6 +45,8 @@ class QueryMessage extends Request
  * @method string getFrom()
  * @method $this setMessage($message)
  * @method string getMessage()
+ * @method $this setType($type)
+ * @method string getType()
  */
 class SendMessageToGlobe extends Request
 {

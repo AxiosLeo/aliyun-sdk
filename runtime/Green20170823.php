@@ -19,6 +19,7 @@ use aliyun\sdk\core\lib\Request;
  * @method CreateKeyword CreateKeyword()
  * @method SendVerifyCodeToPhone SendVerifyCodeToPhone()
  * @method DescribeKeywordLib DescribeKeywordLib()
+ * @method DescribeOssCallbackSetting DescribeOssCallbackSetting()
  * @method UpdateAuditSetting UpdateAuditSetting()
  * @method DescribeWebsiteInstanceKeyUrl DescribeWebsiteInstanceKeyUrl()
  * @method DescribeOssIncrementCheckSetting DescribeOssIncrementCheckSetting()
@@ -233,6 +234,13 @@ class DescribeKeywordLib extends Request
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
+ */
+class DescribeOssCallbackSetting extends Request
+{
+
+}/**
+ * @method $this setSourceIp($sourceIp)
+ * @method string getSourceIp()
  * @method $this setSeed($seed)
  * @method string getSeed()
  * @method $this setCallback($callback)
@@ -264,6 +272,8 @@ class DescribeOssIncrementCheckSetting extends Request
 {
 
 }/**
+ * @method $this setSourceIp($sourceIp)
+ * @method string getSourceIp()
  * @method $this setName($name)
  * @method string getName()
  * @method $this setImgUrl($imgUrl)
@@ -447,6 +457,8 @@ class CreateImageLib extends Request
 {
 
 }/**
+ * @method $this setSourceIp($sourceIp)
+ * @method string getSourceIp()
  * @method $this setId($id)
  * @method int getId()
  * @method $this setTestImgUrl($testImgUrl)
@@ -456,6 +468,8 @@ class VerifyCustomOcrTemplate extends Request
 {
 
 }/**
+ * @method $this setSourceIp($sourceIp)
+ * @method string getSourceIp()
  * @method $this setKeywordLibId($keywordLibId)
  * @method int getKeywordLibId()
  */
@@ -696,6 +710,8 @@ class CreateWebsiteIndexPageBaseline extends Request
 {
 
 }/**
+ * @method $this setSourceIp($sourceIp)
+ * @method string getSourceIp()
  * @method $this setId($id)
  * @method int getId()
  * @method $this setName($name)
@@ -817,6 +833,8 @@ class DescribeImageUploadInfo extends Request
 {
 
 }/**
+ * @method $this setSourceIp($sourceIp)
+ * @method string getSourceIp()
  * @method $this setKeywordLibId($keywordLibId)
  * @method int getKeywordLibId()
  * @method $this setKeywordsObject($keywordsObject)
@@ -970,6 +988,8 @@ class UpgradeCdiBaseBag extends Request
 {
 
 }/**
+ * @method $this setSourceIp($sourceIp)
+ * @method string getSourceIp()
  * @method $this setCallbackUrl($callbackUrl)
  * @method string getCallbackUrl()
  * @method $this setScanCallback($scanCallback)
@@ -987,6 +1007,8 @@ class UpdateOssCallbackSetting extends Request
 {
 
 }/**
+ * @method $this setSourceIp($sourceIp)
+ * @method string getSourceIp()
  * @method $this setTotalCount($totalCount)
  * @method int getTotalCount()
  * @method $this setPageSize($pageSize)
@@ -1052,6 +1074,8 @@ class DeleteImageFromLib extends Request
 {
 
 }/**
+ * @method $this setSourceIp($sourceIp)
+ * @method string getSourceIp()
  * @method $this setIds($ids)
  * @method string getIds()
  */
@@ -1096,6 +1120,8 @@ class UploadImageToLib extends Request
 {
 
 }/**
+ * @method $this setSourceIp($sourceIp)
+ * @method string getSourceIp()
  * @method $this setIds($ids)
  * @method string getIds()
  */

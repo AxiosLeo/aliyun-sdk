@@ -8,7 +8,6 @@ use aliyun\sdk\core\lib\Request;
  * Class V20160503
  *
  * @package aliyun\sdk\services\Ons20160503
- * @method OnsMqttBuyCheck OnsMqttBuyCheck()
  * @method OnsMqttQueryClientByTopic OnsMqttQueryClientByTopic()
  * @method OnsMqttQueryMsgByPubInfo OnsMqttQueryMsgByPubInfo()
  * @method OnsMessagePush OnsMessagePush()
@@ -22,15 +21,12 @@ use aliyun\sdk\core\lib\Request;
  * @method OnsWarnCreate OnsWarnCreate()
  * @method OnsSubscriptionGet OnsSubscriptionGet()
  * @method OnsMessageSend OnsMessageSend()
- * @method OnsMqttManualUpdateRule OnsMqttManualUpdateRule()
  * @method OnsMqttGroupIdList OnsMqttGroupIdList()
  * @method OnsTopicGet OnsTopicGet()
- * @method OnsMqttBuyProduce OnsMqttBuyProduce()
  * @method OnsConsumerGetConnection OnsConsumerGetConnection()
  * @method OnsTopicStatus OnsTopicStatus()
  * @method OnsConsumerTimeSpan OnsConsumerTimeSpan()
  * @method OnsEmpowerDelete OnsEmpowerDelete()
- * @method OnsMqttBuyRefund OnsMqttBuyRefund()
  * @method OnsTopicDelete OnsTopicDelete()
  * @method OnsMqttQueryClientByClientId OnsMqttQueryClientByClientId()
  * @method OnsClusterList OnsClusterList()
@@ -57,7 +53,6 @@ use aliyun\sdk\core\lib\Request;
  * @method OnsPublishSearch OnsPublishSearch()
  * @method OnsSubscriptionCreate OnsSubscriptionCreate()
  * @method OnsWarnDelete OnsWarnDelete()
- * @method OnsBuyOrdersProduce OnsBuyOrdersProduce()
  * @method OnsSubscriptionSearch OnsSubscriptionSearch()
  */
 class V20160503
@@ -65,19 +60,6 @@ class V20160503
 }
 
 /**
- * @method $this setOnsRegionId($onsRegionId)
- * @method string getOnsRegionId()
- * @method $this setOnsPlatform($onsPlatform)
- * @method string getOnsPlatform()
- * @method $this setPreventCache($preventCache)
- * @method int getPreventCache()
- * @method $this setdata($data)
- * @method string getdata()
- */
-class OnsMqttBuyCheck extends Request
-{
-
-}/**
  * @method $this setOnsRegionId($onsRegionId)
  * @method string getOnsRegionId()
  * @method $this setOnsPlatform($onsPlatform)
@@ -319,23 +301,6 @@ class OnsMessageSend extends Request
  * @method string getOnsPlatform()
  * @method $this setPreventCache($preventCache)
  * @method int getPreventCache()
- * @method $this setOwnerId($ownerId)
- * @method string getOwnerId()
- * @method $this setInstanceId($instanceId)
- * @method string getInstanceId()
- * @method $this setAdminKey($adminKey)
- * @method string getAdminKey()
- */
-class OnsMqttManualUpdateRule extends Request
-{
-
-}/**
- * @method $this setOnsRegionId($onsRegionId)
- * @method string getOnsRegionId()
- * @method $this setOnsPlatform($onsPlatform)
- * @method string getOnsPlatform()
- * @method $this setPreventCache($preventCache)
- * @method int getPreventCache()
  */
 class OnsMqttGroupIdList extends Request
 {
@@ -351,19 +316,6 @@ class OnsMqttGroupIdList extends Request
  * @method string getTopic()
  */
 class OnsTopicGet extends Request
-{
-
-}/**
- * @method $this setOnsRegionId($onsRegionId)
- * @method string getOnsRegionId()
- * @method $this setOnsPlatform($onsPlatform)
- * @method string getOnsPlatform()
- * @method $this setPreventCache($preventCache)
- * @method int getPreventCache()
- * @method $this setdata($data)
- * @method string getdata()
- */
-class OnsMqttBuyProduce extends Request
 {
 
 }/**
@@ -420,19 +372,6 @@ class OnsConsumerTimeSpan extends Request
  * @method string getTopic()
  */
 class OnsEmpowerDelete extends Request
-{
-
-}/**
- * @method $this setOnsRegionId($onsRegionId)
- * @method string getOnsRegionId()
- * @method $this setOnsPlatform($onsPlatform)
- * @method string getOnsPlatform()
- * @method $this setPreventCache($preventCache)
- * @method int getPreventCache()
- * @method $this setdata($data)
- * @method string getdata()
- */
-class OnsMqttBuyRefund extends Request
 {
 
 }/**
@@ -845,19 +784,6 @@ class OnsSubscriptionCreate extends Request
  * @method string getTopic()
  */
 class OnsWarnDelete extends Request
-{
-
-}/**
- * @method $this setOnsRegionId($onsRegionId)
- * @method string getOnsRegionId()
- * @method $this setOnsPlatform($onsPlatform)
- * @method string getOnsPlatform()
- * @method $this setPreventCache($preventCache)
- * @method int getPreventCache()
- * @method $this setdata($data)
- * @method string getdata()
- */
-class OnsBuyOrdersProduce extends Request
 {
 
 }/**

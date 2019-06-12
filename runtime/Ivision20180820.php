@@ -23,7 +23,6 @@ use aliyun\sdk\core\lib\Request;
  * @method StartLivePredict StartLivePredict()
  * @method CreateDataLabel CreateDataLabel()
  * @method DeleteLabel DeleteLabel()
- * @method DescribeIvisionServiceStatus DescribeIvisionServiceStatus()
  * @method CreateProject CreateProject()
  * @method DeleteProject DeleteProject()
  * @method QueryLivePredictResult QueryLivePredictResult()
@@ -245,13 +244,6 @@ class CreateDataLabel extends Request
  * @method string getLabelId()
  */
 class DeleteLabel extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- */
-class DescribeIvisionServiceStatus extends Request
 {
 
 }/**

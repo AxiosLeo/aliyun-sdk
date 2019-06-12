@@ -11,7 +11,6 @@ use aliyun\sdk\core\lib\Request;
  * @method DeleteAlbums DeleteAlbums()
  * @method RenameFace RenameFace()
  * @method GetThumbnail GetThumbnail()
- * @method Check Check()
  * @method GetPhotoStore GetPhotoStore()
  * @method ListTagPhotos ListTagPhotos()
  * @method SetAlbumCover SetAlbumCover()
@@ -43,6 +42,7 @@ use aliyun\sdk\core\lib\Request;
  * @method CreatePhotostore CreatePhotostore()
  * @method ListFacePhotos ListFacePhotos()
  * @method RestorePhotos RestorePhotos()
+ * @method ListPhotostores ListPhotostores()
  * @method GetQuota GetQuota()
  * @method mergeFace mergeFace()
  * @method ListTags ListTags()
@@ -80,19 +80,6 @@ class RenameFace extends Request
  * @method string getStoreName()
  */
 class GetThumbnail extends Request
-{
-
-}/**
- * @method $this setPage($page)
- * @method int getPage()
- * @method $this setSize($size)
- * @method int getSize()
- * @method $this setLastUpdateAt($lastUpdateAt)
- * @method int getLastUpdateAt()
- * @method $this setState($state)
- * @method string getState()
- */
-class Check extends Request
 {
 
 }/**
@@ -468,6 +455,11 @@ class ListFacePhotos extends Request
  * @method string getStoreName()
  */
 class RestorePhotos extends Request
+{
+
+}/**
+ */
+class ListPhotostores extends Request
 {
 
 }/**

@@ -14,6 +14,7 @@ use aliyun\sdk\core\lib\Request;
  * @method RefundNasPackage RefundNasPackage()
  * @method CreateExtremeAccessGroup CreateExtremeAccessGroup()
  * @method CheckNasPackageOrder CheckNasPackageOrder()
+ * @method ListNasSmbBeta ListNasSmbBeta()
  * @method AddBackupDemand AddBackupDemand()
  * @method CreateAccessGroup CreateAccessGroup()
  * @method DescribeFileSystems DescribeFileSystems()
@@ -36,6 +37,7 @@ use aliyun\sdk\core\lib\Request;
  * @method RestoreBackup RestoreBackup()
  * @method DeleteExtremeFileSystem DeleteExtremeFileSystem()
  * @method DeleteFileSystemOptionalUser DeleteFileSystemOptionalUser()
+ * @method ListRegion ListRegion()
  * @method RemoveFiNasPoolUserFromVolume RemoveFiNasPoolUserFromVolume()
  * @method UnBindVolumeStoragePackage UnBindVolumeStoragePackage()
  * @method DeleteFiNasPoolUser DeleteFiNasPoolUser()
@@ -70,6 +72,7 @@ use aliyun\sdk\core\lib\Request;
  * @method ModifyAccessGroup ModifyAccessGroup()
  * @method CreateFiNasStoragePool CreateFiNasStoragePool()
  * @method CreateMountTarget CreateMountTarget()
+ * @method ListNasPlusBeta ListNasPlusBeta()
  * @method SetUserVolumeSkipAuth SetUserVolumeSkipAuth()
  * @method ModifyMountTargetAccessGroup ModifyMountTargetAccessGroup()
  * @method DeleteMountTargetInternal DeleteMountTargetInternal()
@@ -84,6 +87,8 @@ use aliyun\sdk\core\lib\Request;
  * @method SetNasPlusBetaStatus SetNasPlusBetaStatus()
  * @method DeleteFileSystem DeleteFileSystem()
  * @method SetNasSmbBetaStatus SetNasSmbBetaStatus()
+ * @method CheckNasPlusBeta CheckNasPlusBeta()
+ * @method CheckNasSmbBeta CheckNasSmbBeta()
  * @method DescribeExtremeMountTargets DescribeExtremeMountTargets()
  * @method ModifyExtremeMountTarget ModifyExtremeMountTarget()
  * @method CreateExtremeAccessRule CreateExtremeAccessRule()
@@ -174,6 +179,11 @@ class CreateExtremeAccessGroup extends Request
  * @method string getdomain()
  */
 class CheckNasPackageOrder extends Request
+{
+
+}/**
+ */
+class ListNasSmbBeta extends Request
 {
 
 }/**
@@ -462,6 +472,11 @@ class DeleteExtremeFileSystem extends Request
  * @method string getFileSystemUser()
  */
 class DeleteFileSystemOptionalUser extends Request
+{
+
+}/**
+ */
+class ListRegion extends Request
 {
 
 }/**
@@ -871,6 +886,11 @@ class CreateMountTarget extends Request
 {
 
 }/**
+ */
+class ListNasPlusBeta extends Request
+{
+
+}/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
  * @method $this setVolumes($volumes)
@@ -1022,6 +1042,16 @@ class DeleteFileSystem extends Request
  * @method string getStatus()
  */
 class SetNasSmbBetaStatus extends Request
+{
+
+}/**
+ */
+class CheckNasPlusBeta extends Request
+{
+
+}/**
+ */
+class CheckNasSmbBeta extends Request
 {
 
 }/**

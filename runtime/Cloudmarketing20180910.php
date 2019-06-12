@@ -12,6 +12,7 @@ use aliyun\sdk\core\lib\Request;
  * @method DeleteCrowd DeleteCrowd()
  * @method AnalysisCrowd AnalysisCrowd()
  * @method RedefineTag RedefineTag()
+ * @method RequestUploadFile RequestUploadFile()
  * @method CalCrowdScale CalCrowdScale()
  * @method SyncCrowd SyncCrowd()
  * @method UpdateCategory UpdateCategory()
@@ -29,9 +30,11 @@ use aliyun\sdk\core\lib\Request;
  * @method DescribeFile DescribeFile()
  * @method CreateCategory CreateCategory()
  * @method DefineFileSchema DefineFileSchema()
+ * @method DescribeChannelBrand DescribeChannelBrand()
  * @method DescribeCategory DescribeCategory()
  * @method UpdateBrand UpdateBrand()
  * @method Auth2Brand Auth2Brand()
+ * @method DescribeAuthChannelBrand DescribeAuthChannelBrand()
  * @method DefineTag DefineTag()
  * @method DescribeCrowd DescribeCrowd()
  * @method FetchFileSchema FetchFileSchema()
@@ -87,6 +90,11 @@ class AnalysisCrowd extends Request
  * @method int getTagId()
  */
 class RedefineTag extends Request
+{
+
+}/**
+ */
+class RequestUploadFile extends Request
 {
 
 }/**
@@ -237,6 +245,11 @@ class DefineFileSchema extends Request
 {
 
 }/**
+ */
+class DescribeChannelBrand extends Request
+{
+
+}/**
  * @method $this setCategoryId($categoryId)
  * @method int getCategoryId()
  * @method $this setRecursive($recursive)
@@ -265,6 +278,11 @@ class UpdateBrand extends Request
  * @method array getChannelBrandReqs()
  */
 class Auth2Brand extends Request
+{
+
+}/**
+ */
+class DescribeAuthChannelBrand extends Request
 {
 
 }/**

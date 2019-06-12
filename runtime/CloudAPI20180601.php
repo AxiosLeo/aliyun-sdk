@@ -15,13 +15,11 @@ use aliyun\sdk\core\lib\Request;
  * @method DeleteAllTrafficSpecialControl DeleteAllTrafficSpecialControl()
  * @method ResetAppKeySecret ResetAppKeySecret()
  * @method RecoveryApiDefineFromHistorical RecoveryApiDefineFromHistorical()
- * @method DescribeApisForBackend DescribeApisForBackend()
  * @method SetIpControlApis SetIpControlApis()
  * @method DeleteTrafficSpecialControl DeleteTrafficSpecialControl()
  * @method DescribeApiStageDetail DescribeApiStageDetail()
  * @method DeleteSecretKey DeleteSecretKey()
  * @method AbolishApi AbolishApi()
- * @method DescribeApiGroupDetailForBackend DescribeApiGroupDetailForBackend()
  * @method VpcModifyAccess VpcModifyAccess()
  * @method ModifyTrafficControl ModifyTrafficControl()
  * @method DeleteLogConfig DeleteLogConfig()
@@ -62,7 +60,6 @@ use aliyun\sdk\core\lib\Request;
  * @method DescribeApiQps DescribeApiQps()
  * @method DescribeSecretKeys DescribeSecretKeys()
  * @method DescribeApiLatency DescribeApiLatency()
- * @method DescribeApiGroupsForBackend DescribeApiGroupsForBackend()
  * @method SdkGenerateByApp SdkGenerateByApp()
  * @method VpcGrantAccess VpcGrantAccess()
  * @method ModifyIpControl ModifyIpControl()
@@ -98,12 +95,10 @@ use aliyun\sdk\core\lib\Request;
  * @method ModifyApi ModifyApi()
  * @method ResetCustomized ResetCustomized()
  * @method DeleteApi DeleteApi()
- * @method UpdateConsumerOpenInvokeTimesNow UpdateConsumerOpenInvokeTimesNow()
  * @method CreateLogConfig CreateLogConfig()
  * @method CreateIpControl CreateIpControl()
  * @method GetApiMethods GetApiMethods()
  * @method DescribeDomain DescribeDomain()
- * @method DescribeApiForBackend DescribeApiForBackend()
  * @method DescribeHistoryApi DescribeHistoryApi()
  * @method GetCustomizedInfo GetCustomizedInfo()
  * @method RemoveAllBlackList RemoveAllBlackList()
@@ -117,7 +112,6 @@ use aliyun\sdk\core\lib\Request;
  * @method RefreshDomain RefreshDomain()
  * @method DeleteApiStageVariable DeleteApiStageVariable()
  * @method RecoveryApiFromHistorical RecoveryApiFromHistorical()
- * @method DescribeDeployedApiForBackend DescribeDeployedApiForBackend()
  * @method RemoveAccessPermissionByApis RemoveAccessPermissionByApis()
  * @method DeleteTrafficControl DeleteTrafficControl()
  * @method RemoveIpControlPolicyItem RemoveIpControlPolicyItem()
@@ -203,25 +197,6 @@ class RecoveryApiDefineFromHistorical extends Request
 {
 
 }/**
- * @method $this setGroupId($groupId)
- * @method string getGroupId()
- * @method $this setStageName($stageName)
- * @method string getStageName()
- * @method $this setApiId($apiId)
- * @method string getApiId()
- * @method $this setApiName($apiName)
- * @method string getApiName()
- * @method $this setVisibility($visibility)
- * @method string getVisibility()
- * @method $this setPageSize($pageSize)
- * @method int getPageSize()
- * @method $this setPageNumber($pageNumber)
- * @method int getPageNumber()
- */
-class DescribeApisForBackend extends Request
-{
-
-}/**
  * @method $this setIpControlId($ipControlId)
  * @method string getIpControlId()
  * @method $this setGroupId($groupId)
@@ -270,13 +245,6 @@ class DeleteSecretKey extends Request
  * @method string getStageName()
  */
 class AbolishApi extends Request
-{
-
-}/**
- * @method $this setGroupId($groupId)
- * @method string getGroupId()
- */
-class DescribeApiGroupDetailForBackend extends Request
 {
 
 }/**
@@ -814,19 +782,6 @@ class DescribeApiLatency extends Request
 {
 
 }/**
- * @method $this setGroupId($groupId)
- * @method string getGroupId()
- * @method $this setGroupName($groupName)
- * @method string getGroupName()
- * @method $this setPageNumber($pageNumber)
- * @method int getPageNumber()
- * @method $this setPageSize($pageSize)
- * @method int getPageSize()
- */
-class DescribeApiGroupsForBackend extends Request
-{
-
-}/**
  * @method $this setAppId($appId)
  * @method int getAppId()
  * @method $this setLanguage($language)
@@ -1276,13 +1231,6 @@ class DeleteApi extends Request
 {
 
 }/**
- * @method $this setInvokeParams($invokeParams)
- * @method string getInvokeParams()
- */
-class UpdateConsumerOpenInvokeTimesNow extends Request
-{
-
-}/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
  * @method $this setSlsProject($slsProject)
@@ -1326,15 +1274,6 @@ class GetApiMethods extends Request
  * @method string getDomainName()
  */
 class DescribeDomain extends Request
-{
-
-}/**
- * @method $this setGroupId($groupId)
- * @method string getGroupId()
- * @method $this setApiId($apiId)
- * @method string getApiId()
- */
-class DescribeApiForBackend extends Request
 {
 
 }/**
@@ -1490,17 +1429,6 @@ class DeleteApiStageVariable extends Request
  * @method string getHistoryVersion()
  */
 class RecoveryApiFromHistorical extends Request
-{
-
-}/**
- * @method $this setGroupId($groupId)
- * @method string getGroupId()
- * @method $this setApiId($apiId)
- * @method string getApiId()
- * @method $this setStageName($stageName)
- * @method string getStageName()
- */
-class DescribeDeployedApiForBackend extends Request
 {
 
 }/**

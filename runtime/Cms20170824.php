@@ -9,56 +9,40 @@ use aliyun\sdk\core\lib\Request;
  *
  * @package aliyun\sdk\services\Cms20170824
  * @method DeleteTask DeleteTask()
- * @method PutDashboardConfig PutDashboardConfig()
  * @method getIspCityTrend getIspCityTrend()
- * @method DescribeTaskDetail DescribeTaskDetail()
  * @method BatchDeleteTask BatchDeleteTask()
  * @method ListMetricMeta ListMetricMeta()
- * @method DeleteDashboardConfig DeleteDashboardConfig()
- * @method QueryTaskInfo QueryTaskInfo()
  * @method QuerySlaTask QuerySlaTask()
  * @method UpdateTask UpdateTask()
  * @method GetAccessStrategy GetAccessStrategy()
- * @method CopyGroupDashboard CopyGroupDashboard()
  * @method GetAgentAllCityTrend GetAgentAllCityTrend()
- * @method putProductGroup putProductGroup()
+ * @method DescribeISPAreaCity DescribeISPAreaCity()
  * @method DeleteTasks DeleteTasks()
- * @method PutChartMetric PutChartMetric()
- * @method ListAlertTemplate ListAlertTemplate()
+ * @method ListMetricMetaProject ListMetricMetaProject()
  * @method CountTaskInfo CountTaskInfo()
- * @method DeleteMetricMeta DeleteMetricMeta()
  * @method GetErrorInfoUnconverge GetErrorInfoUnconverge()
  * @method GetAgentIspTrend GetAgentIspTrend()
  * @method StopTasks StopTasks()
  * @method GetAgentCountryTrend GetAgentCountryTrend()
  * @method GetErrorRateTrend GetErrorRateTrend()
- * @method UpdateTemplateApplyGroups UpdateTemplateApplyGroups()
  * @method DescribeTasks DescribeTasks()
  * @method CreateTask CreateTask()
+ * @method GetISPAreaCity GetISPAreaCity()
  * @method GetAgentCityTrend GetAgentCityTrend()
  * @method PauseTasks PauseTasks()
- * @method QueryTaskRate QueryTaskRate()
  * @method GetAgentAllCityAvailRate GetAgentAllCityAvailRate()
- * @method PutAlertTemplate PutAlertTemplate()
- * @method GetProductGroupInstances GetProductGroupInstances()
- * @method GetProductGroups GetProductGroups()
  * @method GetAgentSingleIndexTrend GetAgentSingleIndexTrend()
  * @method GetTracerouteRouteInfo GetTracerouteRouteInfo()
- * @method DeleteProductGroup DeleteProductGroup()
  * @method QueryOverdueTask QueryOverdueTask()
  * @method BatchCreateOnceTask BatchCreateOnceTask()
- * @method DeleteAlertTemplate DeleteAlertTemplate()
  * @method GetErrorKindRateTrend GetErrorKindRateTrend()
  * @method QueryTask QueryTask()
- * @method GetDashboardConfig GetDashboardConfig()
  * @method GetErrorInfo GetErrorInfo()
  * @method GetIspRegionTrend GetIspRegionTrend()
  * @method GetAgentIndexCombineTrend GetAgentIndexCombineTrend()
- * @method DeleteChartMetric DeleteChartMetric()
  * @method GetAgentIndexTrend GetAgentIndexTrend()
  * @method GetLastRecord GetLastRecord()
  * @method ModifyTask ModifyTask()
- * @method MoveMetric MoveMetric()
  * @method StartTasks StartTasks()
  * @method QueryReportTask QueryReportTask()
  * @method GetAgentRegionTrend GetAgentRegionTrend()
@@ -76,23 +60,6 @@ class DeleteTask extends Request
 {
 
 }/**
- * @method $this setgroupName($groupName)
- * @method string getgroupName()
- * @method $this settimeRange($timeRange)
- * @method int gettimeRange()
- * @method $this setinterval($interval)
- * @method int getinterval()
- * @method $this setparams($params)
- * @method string getparams()
- * @method $this setgroupId($groupId)
- * @method string getgroupId()
- * @method $this settype($type)
- * @method string gettype()
- */
-class PutDashboardConfig extends Request
-{
-
-}/**
  * @method $this settaskIds($taskIds)
  * @method string gettaskIds()
  * @method $this setstartTime($startTime)
@@ -103,13 +70,6 @@ class PutDashboardConfig extends Request
  * @method string gettaskType()
  */
 class getIspCityTrend extends Request
-{
-
-}/**
- * @method $this settaskId($taskId)
- * @method string gettaskId()
- */
-class DescribeTaskDetail extends Request
 {
 
 }/**
@@ -130,20 +90,6 @@ class BatchDeleteTask extends Request
  * @method string getPageSize()
  */
 class ListMetricMeta extends Request
-{
-
-}/**
- * @method $this setgroupIds($groupIds)
- * @method string getgroupIds()
- */
-class DeleteDashboardConfig extends Request
-{
-
-}/**
- * @method $this settaskId($taskId)
- * @method string gettaskId()
- */
-class QueryTaskInfo extends Request
 {
 
 }/**
@@ -206,15 +152,6 @@ class GetAccessStrategy extends Request
 {
 
 }/**
- * @method $this setfromGroupId($fromGroupId)
- * @method string getfromGroupId()
- * @method $this settoGroupId($toGroupId)
- * @method string gettoGroupId()
- */
-class CopyGroupDashboard extends Request
-{
-
-}/**
  * @method $this settaskIds($taskIds)
  * @method string gettaskIds()
  * @method $this setstartTime($startTime)
@@ -228,10 +165,8 @@ class GetAgentAllCityTrend extends Request
 {
 
 }/**
- * @method $this setgroupJson($groupJson)
- * @method string getgroupJson()
  */
-class putProductGroup extends Request
+class DescribeISPAreaCity extends Request
 {
 
 }/**
@@ -242,45 +177,8 @@ class DeleteTasks extends Request
 {
 
 }/**
- * @method $this setheight($height)
- * @method int getheight()
- * @method $this setgroupId($groupId)
- * @method string getgroupId()
- * @method $this setchartName($chartName)
- * @method string getchartName()
- * @method $this setchartType($chartType)
- * @method string getchartType()
- * @method $this setmetrics($metrics)
- * @method string getmetrics()
- * @method $this setwidth($width)
- * @method int getwidth()
- * @method $this setstyle($style)
- * @method string getstyle()
- * @method $this seti18nKey($i18nKey)
- * @method string geti18nKey()
- * @method $this setid($id)
- * @method string getid()
- * @method $this setparams($params)
- * @method string getparams()
- * @method $this setunit($unit)
- * @method string getunit()
- * @method $this setvalueRange($valueRange)
- * @method string getvalueRange()
- * @method $this settype($type)
- * @method string gettype()
  */
-class PutChartMetric extends Request
-{
-
-}/**
- * @method $this setTemplateId($templateId)
- * @method int getTemplateId()
- * @method $this setPage($page)
- * @method int getPage()
- * @method $this setPageSize($pageSize)
- * @method int getPageSize()
- */
-class ListAlertTemplate extends Request
+class ListMetricMetaProject extends Request
 {
 
 }/**
@@ -294,15 +192,6 @@ class ListAlertTemplate extends Request
  * @method int getpageSize()
  */
 class CountTaskInfo extends Request
-{
-
-}/**
- * @method $this setProject($project)
- * @method string getProject()
- * @method $this setMetric($metric)
- * @method string getMetric()
- */
-class DeleteMetricMeta extends Request
 {
 
 }/**
@@ -365,15 +254,6 @@ class GetErrorRateTrend extends Request
 {
 
 }/**
- * @method $this setTemplateId($templateId)
- * @method string getTemplateId()
- * @method $this setGroupIds($groupIds)
- * @method string getGroupIds()
- */
-class UpdateTemplateApplyGroups extends Request
-{
-
-}/**
  * @method $this settaskId($taskId)
  * @method string gettaskId()
  * @method $this settaskType($taskType)
@@ -428,6 +308,11 @@ class CreateTask extends Request
 {
 
 }/**
+ */
+class GetISPAreaCity extends Request
+{
+
+}/**
  * @method $this settaskIds($taskIds)
  * @method string gettaskIds()
  * @method $this setstartTime($startTime)
@@ -450,13 +335,6 @@ class PauseTasks extends Request
 }/**
  * @method $this settaskIds($taskIds)
  * @method string gettaskIds()
- */
-class QueryTaskRate extends Request
-{
-
-}/**
- * @method $this settaskIds($taskIds)
- * @method string gettaskIds()
  * @method $this setstartTime($startTime)
  * @method string getstartTime()
  * @method $this setendTime($endTime)
@@ -465,49 +343,6 @@ class QueryTaskRate extends Request
  * @method string gettaskType()
  */
 class GetAgentAllCityAvailRate extends Request
-{
-
-}/**
- * @method $this setTemplateId($templateId)
- * @method int getTemplateId()
- * @method $this setTemplateName($templateName)
- * @method string getTemplateName()
- * @method $this setTemplateDescribe($templateDescribe)
- * @method string getTemplateDescribe()
- * @method $this setSilenceTime($silenceTime)
- * @method string getSilenceTime()
- * @method $this setEnableStartTime($enableStartTime)
- * @method string getEnableStartTime()
- * @method $this setEnableEndTime($enableEndTime)
- * @method string getEnableEndTime()
- * @method $this setNotifyLevel($notifyLevel)
- * @method string getNotifyLevel()
- * @method $this setTemplateType($templateType)
- * @method string getTemplateType()
- * @method $this setApplyGroups($applyGroups)
- * @method string getApplyGroups()
- * @method $this setAlarmTemplateItems($alarmTemplateItems)
- * @method string getAlarmTemplateItems()
- */
-class PutAlertTemplate extends Request
-{
-
-}/**
- * @method $this setgroupId($groupId)
- * @method int getgroupId()
- * @method $this setgroupName($groupName)
- * @method string getgroupName()
- */
-class GetProductGroupInstances extends Request
-{
-
-}/**
- * @method $this setcategory($category)
- * @method string getcategory()
- * @method $this setinstanceId($instanceId)
- * @method string getinstanceId()
- */
-class GetProductGroups extends Request
 {
 
 }/**
@@ -537,13 +372,6 @@ class GetTracerouteRouteInfo extends Request
 {
 
 }/**
- * @method $this setgroupId($groupId)
- * @method int getgroupId()
- */
-class DeleteProductGroup extends Request
-{
-
-}/**
  * @method $this setstartTime($startTime)
  * @method string getstartTime()
  * @method $this setendTime($endTime)
@@ -561,13 +389,6 @@ class QueryOverdueTask extends Request
  * @method string gettaskList()
  */
 class BatchCreateOnceTask extends Request
-{
-
-}/**
- * @method $this setTemplateId($templateId)
- * @method int getTemplateId()
- */
-class DeleteAlertTemplate extends Request
 {
 
 }/**
@@ -596,15 +417,6 @@ class GetErrorKindRateTrend extends Request
  * @method int getPageSize()
  */
 class QueryTask extends Request
-{
-
-}/**
- * @method $this setgroupId($groupId)
- * @method string getgroupId()
- * @method $this settype($type)
- * @method string gettype()
- */
-class GetDashboardConfig extends Request
 {
 
 }/**
@@ -644,17 +456,6 @@ class GetIspRegionTrend extends Request
  * @method string gettaskType()
  */
 class GetAgentIndexCombineTrend extends Request
-{
-
-}/**
- * @method $this setgroupId($groupId)
- * @method string getgroupId()
- * @method $this setids($ids)
- * @method string getids()
- * @method $this settype($type)
- * @method string gettype()
- */
-class DeleteChartMetric extends Request
 {
 
 }/**
@@ -720,17 +521,6 @@ class GetLastRecord extends Request
  * @method string getip()
  */
 class ModifyTask extends Request
-{
-
-}/**
- * @method $this setgroupId($groupId)
- * @method string getgroupId()
- * @method $this setsortGroups($sortGroups)
- * @method string getsortGroups()
- * @method $this settype($type)
- * @method string gettype()
- */
-class MoveMetric extends Request
 {
 
 }/**

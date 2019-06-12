@@ -10,7 +10,10 @@ use aliyun\sdk\core\lib\Request;
  * @package aliyun\sdk\services\Green20160118
  * @method SiteSuspectUrls SiteSuspectUrls()
  * @method ImageFeedback ImageFeedback()
+ * @method TextKeywordFilter TextKeywordFilter()
+ * @method ImageDetection ImageDetection()
  * @method ImageResult ImageResult()
+ * @method TextWordCorrect TextWordCorrect()
  */
 class V20160118
 {
@@ -31,10 +34,25 @@ class ImageFeedback extends Request
 {
 
 }/**
+ */
+class TextKeywordFilter extends Request
+{
+
+}/**
+ */
+class ImageDetection extends Request
+{
+
+}/**
  * @method $this settaskid($taskid)
  * @method string gettaskid()
  */
 class ImageResult extends Request
+{
+
+}/**
+ */
+class TextWordCorrect extends Request
 {
 
 }

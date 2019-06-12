@@ -10,8 +10,6 @@ use aliyun\sdk\core\lib\Request;
  * @package aliyun\sdk\services\DDoSPro20170726
  * @method DescribeBizReportDownloadUrl DescribeBizReportDownloadUrl()
  * @method UploadCertificate UploadCertificate()
- * @method DescribeUploadPreSign DescribeUploadPreSign()
- * @method UpdateSupportContact UpdateSupportContact()
  * @method ModifyRealServers ModifyRealServers()
  * @method DescribeWebLogDownloadFilePage DescribeWebLogDownloadFilePage()
  * @method CreateCcCustomedRule CreateCcCustomedRule()
@@ -27,15 +25,12 @@ use aliyun\sdk\core\lib\Request;
  * @method ModifyDomainBlackWhiteList ModifyDomainBlackWhiteList()
  * @method CreateWebLogDownloadTask CreateWebLogDownloadTask()
  * @method DescribeCcMode DescribeCcMode()
- * @method CommitPortHealthFile CommitPortHealthFile()
  * @method DescribeSlsAuthStatus DescribeSlsAuthStatus()
  * @method DeleteBlockhole DeleteBlockhole()
- * @method DescribeSupportQRCodeByInstanceId DescribeSupportQRCodeByInstanceId()
  * @method ModifyCcStatus ModifyCcStatus()
  * @method DescribeWebLogPage DescribeWebLogPage()
  * @method DescribeUnBlackholeCount DescribeUnBlackholeCount()
  * @method DescribeDomainConfigPage DescribeDomainConfigPage()
- * @method CommitPortFile CommitPortFile()
  * @method ConfigDDoSFlowPack ConfigDDoSFlowPack()
  * @method ModifyDomainCnameStatus ModifyDomainCnameStatus()
  * @method ModifyDomainProxy ModifyDomainProxy()
@@ -43,9 +38,7 @@ use aliyun\sdk\core\lib\Request;
  * @method DeleteCcCustomedRule DeleteCcCustomedRule()
  * @method CreateTransmitLine CreateTransmitLine()
  * @method DeleteTransmitLine DeleteTransmitLine()
- * @method CommitDomainFile CommitDomainFile()
  * @method DescribeUnBlockholeCount DescribeUnBlockholeCount()
- * @method CommitPortDdosFile CommitPortDdosFile()
  * @method ModifyIpCnameStatus ModifyIpCnameStatus()
  * @method DeleteBlackHole DeleteBlackHole()
  * @method ModifyCcMode ModifyCcMode()
@@ -104,30 +97,6 @@ class DescribeBizReportDownloadUrl extends Request
  * @method string getCertName()
  */
 class UploadCertificate extends Request
-{
-
-}/**
- * @method $this setSourceIp($sourceIp)
- * @method string getSourceIp()
- * @method $this setLang($lang)
- * @method string getLang()
- * @method $this setUploadType($uploadType)
- * @method string getUploadType()
- */
-class DescribeUploadPreSign extends Request
-{
-
-}/**
- * @method $this setSourceIp($sourceIp)
- * @method string getSourceIp()
- * @method $this setLang($lang)
- * @method string getLang()
- * @method $this setInstanceId($instanceId)
- * @method string getInstanceId()
- * @method $this setMobile($mobile)
- * @method string getMobile()
- */
-class UpdateSupportContact extends Request
 {
 
 }/**
@@ -368,17 +337,6 @@ class DescribeCcMode extends Request
  * @method string getSourceIp()
  * @method $this setLang($lang)
  * @method string getLang()
- * @method $this setUploadFileName($uploadFileName)
- * @method string getUploadFileName()
- */
-class CommitPortHealthFile extends Request
-{
-
-}/**
- * @method $this setSourceIp($sourceIp)
- * @method string getSourceIp()
- * @method $this setLang($lang)
- * @method string getLang()
  */
 class DescribeSlsAuthStatus extends Request
 {
@@ -392,17 +350,6 @@ class DescribeSlsAuthStatus extends Request
  * @method string getVip()
  */
 class DeleteBlockhole extends Request
-{
-
-}/**
- * @method $this setSourceIp($sourceIp)
- * @method string getSourceIp()
- * @method $this setLang($lang)
- * @method string getLang()
- * @method $this setInstanceId($instanceId)
- * @method string getInstanceId()
- */
-class DescribeSupportQRCodeByInstanceId extends Request
 {
 
 }/**
@@ -459,17 +406,6 @@ class DescribeUnBlackholeCount extends Request
  * @method int getPageNo()
  */
 class DescribeDomainConfigPage extends Request
-{
-
-}/**
- * @method $this setSourceIp($sourceIp)
- * @method string getSourceIp()
- * @method $this setLang($lang)
- * @method string getLang()
- * @method $this setUploadFileName($uploadFileName)
- * @method string getUploadFileName()
- */
-class CommitPortFile extends Request
 {
 
 }/**
@@ -566,32 +502,10 @@ class DeleteTransmitLine extends Request
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
- * @method $this setLang($lang)
- * @method string getLang()
- * @method $this setUploadFileName($uploadFileName)
- * @method string getUploadFileName()
- */
-class CommitDomainFile extends Request
-{
-
-}/**
- * @method $this setSourceIp($sourceIp)
- * @method string getSourceIp()
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
  */
 class DescribeUnBlockholeCount extends Request
-{
-
-}/**
- * @method $this setSourceIp($sourceIp)
- * @method string getSourceIp()
- * @method $this setLang($lang)
- * @method string getLang()
- * @method $this setUploadFileName($uploadFileName)
- * @method string getUploadFileName()
- */
-class CommitPortDdosFile extends Request
 {
 
 }/**

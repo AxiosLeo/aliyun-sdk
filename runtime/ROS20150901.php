@@ -9,16 +9,21 @@ use aliyun\sdk\core\lib\Request;
  *
  * @package aliyun\sdk\services\ROS20150901
  * @method DescribeStackDetail DescribeStackDetail()
+ * @method PreviewStack PreviewStack()
+ * @method CreateStacks CreateStacks()
  * @method SetStackPolicy SetStackPolicy()
  * @method GetStackPolicy GetStackPolicy()
  * @method ExecuteChangeSet ExecuteChangeSet()
  * @method AbandonStack AbandonStack()
  * @method DescribeChangeSetDetail DescribeChangeSetDetail()
  * @method DescribeTemplate DescribeTemplate()
+ * @method ValidateTemplate ValidateTemplate()
  * @method DescribeResourceTypes DescribeResourceTypes()
  * @method WaitConditions WaitConditions()
  * @method DeleteChangeSet DeleteChangeSet()
+ * @method DescribeRegions DescribeRegions()
  * @method DeleteStack DeleteStack()
+ * @method InquiryStack InquiryStack()
  * @method CancelUpdateStack CancelUpdateStack()
  * @method DescribeResourceTypeTemplate DescribeResourceTypeTemplate()
  * @method DescribeEvents DescribeEvents()
@@ -29,6 +34,7 @@ use aliyun\sdk\core\lib\Request;
  * @method UpdateStack UpdateStack()
  * @method DescribeStacks DescribeStacks()
  * @method DescribeResourceDetail DescribeResourceDetail()
+ * @method CreateChangeSet CreateChangeSet()
  * @method ContinueCreateStack ContinueCreateStack()
  */
 class V20150901
@@ -42,6 +48,16 @@ class V20150901
  * @method string getStackId()
  */
 class DescribeStackDetail extends Request
+{
+
+}/**
+ */
+class PreviewStack extends Request
+{
+
+}/**
+ */
+class CreateStacks extends Request
 {
 
 }/**
@@ -103,6 +119,11 @@ class DescribeTemplate extends Request
 {
 
 }/**
+ */
+class ValidateTemplate extends Request
+{
+
+}/**
  * @method $this setSupportStatus($supportStatus)
  * @method string getSupportStatus()
  */
@@ -136,6 +157,11 @@ class DeleteChangeSet extends Request
 {
 
 }/**
+ */
+class DescribeRegions extends Request
+{
+
+}/**
  * @method $this setStackName($stackName)
  * @method string getStackName()
  * @method $this setStackId($stackId)
@@ -144,6 +170,11 @@ class DeleteChangeSet extends Request
  * @method string getRegionId()
  */
 class DeleteStack extends Request
+{
+
+}/**
+ */
+class InquiryStack extends Request
 {
 
 }/**
@@ -248,6 +279,11 @@ class DescribeStacks extends Request
  * @method string getResourceName()
  */
 class DescribeResourceDetail extends Request
+{
+
+}/**
+ */
+class CreateChangeSet extends Request
 {
 
 }/**

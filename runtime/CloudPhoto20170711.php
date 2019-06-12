@@ -10,11 +10,9 @@ use aliyun\sdk\core\lib\Request;
  * @package aliyun\sdk\services\CloudPhoto20170711
  * @method DeleteAlbums DeleteAlbums()
  * @method RenameFace RenameFace()
- * @method IndexLibrary IndexLibrary()
  * @method SetFaceCover SetFaceCover()
  * @method GetThumbnail GetThumbnail()
  * @method MergeFaces MergeFaces()
- * @method Check Check()
  * @method GetPhotoStore GetPhotoStore()
  * @method ListTagPhotos ListTagPhotos()
  * @method CreateEvent CreateEvent()
@@ -23,7 +21,6 @@ use aliyun\sdk\core\lib\Request;
  * @method FetchAlbumTagPhotos FetchAlbumTagPhotos()
  * @method GetPublicAccessUrls GetPublicAccessUrls()
  * @method ActivatePhotos ActivatePhotos()
- * @method CheckResource CheckResource()
  * @method DeleteEvent DeleteEvent()
  * @method ListEvents ListEvents()
  * @method SetAlbumCover SetAlbumCover()
@@ -38,7 +35,6 @@ use aliyun\sdk\core\lib\Request;
  * @method ListFaces ListFaces()
  * @method FetchMomentPhotos FetchMomentPhotos()
  * @method ListPhotoFaces ListPhotoFaces()
- * @method GetOSSPostObjectPolicy GetOSSPostObjectPolicy()
  * @method ListAlbumPhotos ListAlbumPhotos()
  * @method GetPhotosByMd5s GetPhotosByMd5s()
  * @method GetSimilarPhotos GetSimilarPhotos()
@@ -48,7 +44,6 @@ use aliyun\sdk\core\lib\Request;
  * @method EditPhotoStore EditPhotoStore()
  * @method InactivatePhotos InactivatePhotos()
  * @method ListMoments ListMoments()
- * @method LogicalDeleteResource LogicalDeleteResource()
  * @method CreateTransaction CreateTransaction()
  * @method ListRegisteredTags ListRegisteredTags()
  * @method GetVideoCover GetVideoCover()
@@ -60,7 +55,6 @@ use aliyun\sdk\core\lib\Request;
  * @method GetThumbnails GetThumbnails()
  * @method RegisterTag RegisterTag()
  * @method RemoveFacePhotos RemoveFacePhotos()
- * @method PhysicalDeleteResource PhysicalDeleteResource()
  * @method CreateAlbum CreateAlbum()
  * @method ListPhotos ListPhotos()
  * @method DeleteFaces DeleteFaces()
@@ -78,6 +72,7 @@ use aliyun\sdk\core\lib\Request;
  * @method ListFacePhotos ListFacePhotos()
  * @method RegisterPhoto RegisterPhoto()
  * @method ListTimeLines ListTimeLines()
+ * @method ListPhotoStores ListPhotoStores()
  * @method GetPhotos GetPhotos()
  * @method GetQuota GetQuota()
  * @method GetLibrary GetLibrary()
@@ -110,15 +105,6 @@ class DeleteAlbums extends Request
  * @method string getLibraryId()
  */
 class RenameFace extends Request
-{
-
-}/**
- * @method $this setStoreName($storeName)
- * @method string getStoreName()
- * @method $this setLibraryId($libraryId)
- * @method string getLibraryId()
- */
-class IndexLibrary extends Request
 {
 
 }/**
@@ -158,23 +144,6 @@ class GetThumbnail extends Request
  * @method string getLibraryId()
  */
 class MergeFaces extends Request
-{
-
-}/**
- * @method $this setPage($page)
- * @method int getPage()
- * @method $this setSize($size)
- * @method int getSize()
- * @method $this setLastUpdateAt($lastUpdateAt)
- * @method int getLastUpdateAt()
- * @method $this setStoreName($storeName)
- * @method string getStoreName()
- * @method $this setState($state)
- * @method string getState()
- * @method $this setLibraryId($libraryId)
- * @method string getLibraryId()
- */
-class Check extends Request
 {
 
 }/**
@@ -301,25 +270,6 @@ class GetPublicAccessUrls extends Request
  * @method string getLibraryId()
  */
 class ActivatePhotos extends Request
-{
-
-}/**
- * @method $this setpk($pk)
- * @method string getpk()
- * @method $this setbid($bid)
- * @method string getbid()
- * @method $this sethid($hid)
- * @method int gethid()
- * @method $this setcountry($country)
- * @method string getcountry()
- * @method $this settaskIdentifier($taskIdentifier)
- * @method string gettaskIdentifier()
- * @method $this settaskExtraData($taskExtraData)
- * @method string gettaskExtraData()
- * @method $this setgmtWakeup($gmtWakeup)
- * @method string getgmtWakeup()
- */
-class CheckResource extends Request
 {
 
 }/**
@@ -543,23 +493,6 @@ class ListPhotoFaces extends Request
 {
 
 }/**
- * @method $this setEndPoint($endPoint)
- * @method string getEndPoint()
- * @method $this setBucket($bucket)
- * @method string getBucket()
- * @method $this setAccessId($accessId)
- * @method string getAccessId()
- * @method $this setAccessKey($accessKey)
- * @method string getAccessKey()
- * @method $this setStsToken($stsToken)
- * @method string getStsToken()
- * @method $this setObjectKey($objectKey)
- * @method string getObjectKey()
- */
-class GetOSSPostObjectPolicy extends Request
-{
-
-}/**
  * @method $this setAlbumId($albumId)
  * @method int getAlbumId()
  * @method $this setDirection($direction)
@@ -682,25 +615,6 @@ class InactivatePhotos extends Request
  * @method string getLibraryId()
  */
 class ListMoments extends Request
-{
-
-}/**
- * @method $this setpk($pk)
- * @method string getpk()
- * @method $this setbid($bid)
- * @method string getbid()
- * @method $this sethid($hid)
- * @method int gethid()
- * @method $this setcountry($country)
- * @method string getcountry()
- * @method $this settaskIdentifier($taskIdentifier)
- * @method string gettaskIdentifier()
- * @method $this settaskExtraData($taskExtraData)
- * @method string gettaskExtraData()
- * @method $this setgmtWakeup($gmtWakeup)
- * @method string getgmtWakeup()
- */
-class LogicalDeleteResource extends Request
 {
 
 }/**
@@ -856,25 +770,6 @@ class RegisterTag extends Request
  * @method string getLibraryId()
  */
 class RemoveFacePhotos extends Request
-{
-
-}/**
- * @method $this setpk($pk)
- * @method string getpk()
- * @method $this setbid($bid)
- * @method string getbid()
- * @method $this sethid($hid)
- * @method int gethid()
- * @method $this setcountry($country)
- * @method string getcountry()
- * @method $this settaskIdentifier($taskIdentifier)
- * @method string gettaskIdentifier()
- * @method $this settaskExtraData($taskExtraData)
- * @method string gettaskExtraData()
- * @method $this setgmtWakeup($gmtWakeup)
- * @method string getgmtWakeup()
- */
-class PhysicalDeleteResource extends Request
 {
 
 }/**
@@ -1134,6 +1029,11 @@ class RegisterPhoto extends Request
  * @method string getLibraryId()
  */
 class ListTimeLines extends Request
+{
+
+}/**
+ */
+class ListPhotoStores extends Request
 {
 
 }/**

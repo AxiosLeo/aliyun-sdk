@@ -17,14 +17,14 @@ use aliyun\sdk\core\lib\Request;
  * @method ListInstances ListInstances()
  * @method CancelImage CancelImage()
  * @method ListClusterInstances ListClusterInstances()
- * @method UpdateTaskStatus UpdateTaskStatus()
+ * @method CreateApp CreateApp()
  * @method GetJob GetJob()
- * @method GetAppDetail GetAppDetail()
  * @method DeleteApp DeleteApp()
  * @method ModifyApp ModifyApp()
  * @method ReportTaskStatus ReportTaskStatus()
  * @method StartJob StartJob()
  * @method PollForTask PollForTask()
+ * @method ListApps ListApps()
  * @method DeleteProject DeleteProject()
  * @method GetCluster GetCluster()
  * @method DeleteJob DeleteJob()
@@ -38,14 +38,15 @@ use aliyun\sdk\core\lib\Request;
  * @method GetImage GetImage()
  * @method ListImages ListImages()
  * @method DeleteImage DeleteImage()
+ * @method ListAvailableInstanceType ListAvailableInstanceType()
  * @method ListJobs ListJobs()
  * @method GetQuota GetQuota()
  * @method ListClusters ListClusters()
+ * @method ListRegions ListRegions()
  * @method ListTasks ListTasks()
  * @method CreateImage CreateImage()
  * @method RenewClusterInstance RenewClusterInstance()
  * @method GetClusterInstance GetClusterInstance()
- * @method GetAppRevisions GetAppRevisions()
  */
 class V20151111
 {
@@ -141,14 +142,8 @@ class ListClusterInstances extends Request
 {
 
 }/**
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setClusterId($clusterId)
- * @method string getClusterId()
- * @method $this setWorkerId($workerId)
- * @method string getWorkerId()
  */
-class UpdateTaskStatus extends Request
+class CreateApp extends Request
 {
 
 }/**
@@ -158,13 +153,6 @@ class UpdateTaskStatus extends Request
  * @method string getResourceName()
  */
 class GetJob extends Request
-{
-
-}/**
- * @method $this setResourceName($resourceName)
- * @method string getResourceName()
- */
-class GetAppDetail extends Request
 {
 
 }/**
@@ -210,6 +198,11 @@ class StartJob extends Request
  * @method string getWorkerId()
  */
 class PollForTask extends Request
+{
+
+}/**
+ */
+class ListApps extends Request
 {
 
 }/**
@@ -334,6 +327,11 @@ class DeleteImage extends Request
 {
 
 }/**
+ */
+class ListAvailableInstanceType extends Request
+{
+
+}/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
  */
@@ -352,6 +350,11 @@ class GetQuota extends Request
  * @method string getRegionId()
  */
 class ListClusters extends Request
+{
+
+}/**
+ */
+class ListRegions extends Request
 {
 
 }/**
@@ -394,13 +397,6 @@ class RenewClusterInstance extends Request
  * @method string getInstanceId()
  */
 class GetClusterInstance extends Request
-{
-
-}/**
- * @method $this setResourceName($resourceName)
- * @method string getResourceName()
- */
-class GetAppRevisions extends Request
 {
 
 }

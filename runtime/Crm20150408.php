@@ -11,18 +11,12 @@ use aliyun\sdk\core\lib\Request;
  * @method QueryCustomerLabel QueryCustomerLabel()
  * @method BatchGetAliyunIdByAliyunPk BatchGetAliyunIdByAliyunPk()
  * @method CheckLabel CheckLabel()
- * @method AddIdentityCertifiedLabel AddIdentityCertifiedLabel()
  * @method AddLabelForBid AddLabelForBid()
- * @method ModifyPhoneForBidUser ModifyPhoneForBidUser()
- * @method QueryBidUserInfo QueryBidUserInfo()
  * @method AddLabel AddLabel()
- * @method FindServiceManager FindServiceManager()
  * @method DeleteLabel DeleteLabel()
  * @method QueryBidUserCertifiedInfo QueryBidUserCertifiedInfo()
  * @method DeleteLabelForBid DeleteLabelForBid()
- * @method RemoveIdentityCertifiedLabel RemoveIdentityCertifiedLabel()
  * @method AddIdentityCertifiedForBidUser AddIdentityCertifiedForBidUser()
- * @method AddOrUpdateBidUserInfo AddOrUpdateBidUserInfo()
  * @method GetAliyunPkByAliyunId GetAliyunPkByAliyunId()
  * @method RemoveIdentityCertifiedForBidUser RemoveIdentityCertifiedForBidUser()
  * @method CheckLabelForBid CheckLabelForBid()
@@ -59,13 +53,6 @@ class CheckLabel extends Request
 }/**
  * @method $this setPK($pK)
  * @method string getPK()
- */
-class AddIdentityCertifiedLabel extends Request
-{
-
-}/**
- * @method $this setPK($pK)
- * @method string getPK()
  * @method $this setLabel($label)
  * @method string getLabel()
  * @method $this setLabelSeries($labelSeries)
@@ -74,24 +61,6 @@ class AddIdentityCertifiedLabel extends Request
  * @method string getEndTime()
  */
 class AddLabelForBid extends Request
-{
-
-}/**
- * @method $this setPK($pK)
- * @method string getPK()
- * @method $this setBidType($bidType)
- * @method string getBidType()
- * @method $this setphone($phone)
- * @method string getphone()
- */
-class ModifyPhoneForBidUser extends Request
-{
-
-}/**
- * @method $this setPK($pK)
- * @method string getPK()
- */
-class QueryBidUserInfo extends Request
 {
 
 }/**
@@ -109,13 +78,6 @@ class QueryBidUserInfo extends Request
  * @method string getEndTime()
  */
 class AddLabel extends Request
-{
-
-}/**
- * @method $this setUserId($userId)
- * @method int getUserId()
- */
-class FindServiceManager extends Request
 {
 
 }/**
@@ -156,13 +118,6 @@ class DeleteLabelForBid extends Request
 }/**
  * @method $this setPK($pK)
  * @method string getPK()
- */
-class RemoveIdentityCertifiedLabel extends Request
-{
-
-}/**
- * @method $this setPK($pK)
- * @method string getPK()
  * @method $this setBidType($bidType)
  * @method string getBidType()
  * @method $this setPhone($phone)
@@ -177,23 +132,6 @@ class RemoveIdentityCertifiedLabel extends Request
  * @method bool getIsEnterprise()
  */
 class AddIdentityCertifiedForBidUser extends Request
-{
-
-}/**
- * @method $this setPK($pK)
- * @method string getPK()
- * @method $this setemail($email)
- * @method string getemail()
- * @method $this setphone($phone)
- * @method string getphone()
- * @method $this settrueName($trueName)
- * @method string gettrueName()
- * @method $this setcertType($certType)
- * @method string getcertType()
- * @method $this setcertNumber($certNumber)
- * @method string getcertNumber()
- */
-class AddOrUpdateBidUserInfo extends Request
 {
 
 }/**

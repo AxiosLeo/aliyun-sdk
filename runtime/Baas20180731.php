@@ -12,13 +12,13 @@ use aliyun\sdk\core\lib\Request;
  * @method DescribeOrganizationUserCerts DescribeOrganizationUserCerts()
  * @method AddEthereumNode AddEthereumNode()
  * @method DestroyConsortium DestroyConsortium()
- * @method AgreeInvite AgreeInvite()
  * @method GetBlockchainCreateTask GetBlockchainCreateTask()
  * @method DescribeLatest15Blocks DescribeLatest15Blocks()
  * @method DescribeEthereumInvitaion DescribeEthereumInvitaion()
  * @method DescribeResourceType DescribeResourceType()
  * @method DescribeBlockchainCreateTask DescribeBlockchainCreateTask()
  * @method CreateEthereum CreateEthereum()
+ * @method GetMyBlockchains GetMyBlockchains()
  * @method DescribeEthereumNodes DescribeEthereumNodes()
  * @method DescribeMembers DescribeMembers()
  * @method DescribeEthereumInvitee DescribeEthereumInvitee()
@@ -31,10 +31,8 @@ use aliyun\sdk\core\lib\Request;
  * @method CreateOrganizationUser CreateOrganizationUser()
  * @method DescribeOrganizationUsers DescribeOrganizationUsers()
  * @method ResetCertificate ResetCertificate()
- * @method DescribeAccounts DescribeAccounts()
  * @method DescribeOrgnaizationChaincodes DescribeOrgnaizationChaincodes()
  * @method DescribeMyBlockchains DescribeMyBlockchains()
- * @method DescribeNodes DescribeNodes()
  * @method CheckOrganizationDomain CheckOrganizationDomain()
  * @method SynchronizeChaincode SynchronizeChaincode()
  * @method DescribeChaincodeCollectionConfig DescribeChaincodeCollectionConfig()
@@ -74,12 +72,12 @@ use aliyun\sdk\core\lib\Request;
  * @method DescribeQRCodeAccessLog DescribeQRCodeAccessLog()
  * @method DescribeConsortiums DescribeConsortiums()
  * @method InstallChaincode InstallChaincode()
+ * @method DescribeMySuccessApplies DescribeMySuccessApplies()
  * @method DescribeOrganizationChannels DescribeOrganizationChannels()
  * @method DescribeConsortiumDeletable DescribeConsortiumDeletable()
  * @method DescribeCandidateOrganizations DescribeCandidateOrganizations()
  * @method InviteUser InviteUser()
  * @method CreateConsortiumMember CreateConsortiumMember()
- * @method GetAllBlockchains GetAllBlockchains()
  * @method CreateOwnAccount CreateOwnAccount()
  * @method DescribeInvitationList DescribeInvitationList()
  * @method CreateBlockchainApply CreateBlockchainApply()
@@ -104,6 +102,7 @@ use aliyun\sdk\core\lib\Request;
  * @method DescribeMySuccessfulApplication DescribeMySuccessfulApplication()
  * @method DownloadOrganizationSDK DownloadOrganizationSDK()
  * @method DescribeBlockchainConfigOption DescribeBlockchainConfigOption()
+ * @method GetTemplates GetTemplates()
  * @method DescribeOrganizations DescribeOrganizations()
  * @method DescribeEthereumNodeLogs DescribeEthereumNodeLogs()
  * @method DownloadSdk DownloadSdk()
@@ -129,21 +128,19 @@ use aliyun\sdk\core\lib\Request;
  * @method DescribeOrganizationChaincodes DescribeOrganizationChaincodes()
  * @method DescribeBlockchainInfo DescribeBlockchainInfo()
  * @method DescribeOrganization DescribeOrganization()
- * @method DescribeLatestTransaction DescribeLatestTransaction()
  * @method ResetUser ResetUser()
  * @method DescribeConsortiumOrderers DescribeConsortiumOrderers()
  * @method CreateChannelMember CreateChannelMember()
- * @method DescribeAllBlockchains DescribeAllBlockchains()
  * @method DescribeOrganizationPeers DescribeOrganizationPeers()
  * @method CreateOrganization CreateOrganization()
  * @method UpdateMemberRole UpdateMemberRole()
  * @method DescribeConsortiumMemberApproval DescribeConsortiumMemberApproval()
  * @method DescribeExplorerURL DescribeExplorerURL()
- * @method TestBatch TestBatch()
  * @method DescribeEthereums DescribeEthereums()
  * @method DescribeEthereumClientUsers DescribeEthereumClientUsers()
  * @method QueryEthereumDeletable QueryEthereumDeletable()
  * @method OperateUser OperateUser()
+ * @method GetMySuccessApplies GetMySuccessApplies()
  * @method DescribeEthereumNodeInfo DescribeEthereumNodeInfo()
  * @method DescribeEthereum DescribeEthereum()
  * @method GetOssProperties GetOssProperties()
@@ -153,10 +150,8 @@ use aliyun\sdk\core\lib\Request;
  * @method DestroyOrganization DestroyOrganization()
  * @method DescribeEthereumNode DescribeEthereumNode()
  * @method DescribeInviter DescribeInviter()
- * @method GetLatestTransaction GetLatestTransaction()
  * @method JoinChannel JoinChannel()
  * @method DescribeTransaction DescribeTransaction()
- * @method DescribeTransactionReceipt DescribeTransactionReceipt()
  */
 class V20180731
 {
@@ -204,15 +199,6 @@ class AddEthereumNode extends Request
  * @method string getConsortiumId()
  */
 class DestroyConsortium extends Request
-{
-
-}/**
- * @method $this setCode($code)
- * @method string getCode()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- */
-class AgreeInvite extends Request
 {
 
 }/**
@@ -281,6 +267,11 @@ class DescribeBlockchainCreateTask extends Request
  * @method array getNode()
  */
 class CreateEthereum extends Request
+{
+
+}/**
+ */
+class GetMyBlockchains extends Request
 {
 
 }/**
@@ -450,21 +441,6 @@ class ResetCertificate extends Request
 {
 
 }/**
- * @method $this setPageSize($pageSize)
- * @method int getPageSize()
- * @method $this setCurrent($current)
- * @method int getCurrent()
- * @method $this setTotal($total)
- * @method int getTotal()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setBizid($bizid)
- * @method string getBizid()
- */
-class DescribeAccounts extends Request
-{
-
-}/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
  * @method $this setOrganizationId($organizationId)
@@ -480,15 +456,6 @@ class DescribeOrgnaizationChaincodes extends Request
  * @method string getRegionId()
  */
 class DescribeMyBlockchains extends Request
-{
-
-}/**
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setBizid($bizid)
- * @method string getBizid()
- */
-class DescribeNodes extends Request
 {
 
 }/**
@@ -925,6 +892,11 @@ class InstallChaincode extends Request
 {
 
 }/**
+ */
+class DescribeMySuccessApplies extends Request
+{
+
+}/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
  * @method $this setOrganizationId($organizationId)
@@ -981,17 +953,6 @@ class InviteUser extends Request
  * @method string getCode()
  */
 class CreateConsortiumMember extends Request
-{
-
-}/**
- * @method $this setPageSize($pageSize)
- * @method int getPageSize()
- * @method $this setCurrent($current)
- * @method int getCurrent()
- * @method $this setTotal($total)
- * @method int getTotal()
- */
-class GetAllBlockchains extends Request
 {
 
 }/**
@@ -1274,6 +1235,11 @@ class DownloadOrganizationSDK extends Request
  * @method string getRegionId()
  */
 class DescribeBlockchainConfigOption extends Request
+{
+
+}/**
+ */
+class GetTemplates extends Request
 {
 
 }/**
@@ -1562,19 +1528,6 @@ class DescribeOrganization extends Request
 }/**
  * @method $this setBizid($bizid)
  * @method string getBizid()
- * @method $this setStart($start)
- * @method int getStart()
- * @method $this setEnd($end)
- * @method int getEnd()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- */
-class DescribeLatestTransaction extends Request
-{
-
-}/**
- * @method $this setBizid($bizid)
- * @method string getBizid()
  * @method $this setUserName($userName)
  * @method string getUserName()
  * @method $this setBid($bid)
@@ -1607,19 +1560,6 @@ class DescribeConsortiumOrderers extends Request
  * @method array getOrganization()
  */
 class CreateChannelMember extends Request
-{
-
-}/**
- * @method $this setPageSize($pageSize)
- * @method int getPageSize()
- * @method $this setCurrent($current)
- * @method int getCurrent()
- * @method $this setTotal($total)
- * @method int getTotal()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- */
-class DescribeAllBlockchains extends Request
 {
 
 }/**
@@ -1692,15 +1632,6 @@ class DescribeExplorerURL extends Request
 {
 
 }/**
- * @method $this setCode($code)
- * @method string getCode()
- * @method $this setIsAccepted($isAccepted)
- * @method bool getIsAccepted()
- */
-class TestBatch extends Request
-{
-
-}/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
  */
@@ -1738,6 +1669,11 @@ class QueryEthereumDeletable extends Request
  * @method string getRegionId()
  */
 class OperateUser extends Request
+{
+
+}/**
+ */
+class GetMySuccessApplies extends Request
 {
 
 }/**
@@ -1820,17 +1756,6 @@ class DescribeInviter extends Request
 {
 
 }/**
- * @method $this setBizid($bizid)
- * @method string getBizid()
- * @method $this setStart($start)
- * @method int getStart()
- * @method $this setEnd($end)
- * @method int getEnd()
- */
-class GetLatestTransaction extends Request
-{
-
-}/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
  * @method $this setChannelId($channelId)
@@ -1852,17 +1777,6 @@ class JoinChannel extends Request
  * @method string getRegionId()
  */
 class DescribeTransaction extends Request
-{
-
-}/**
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setBizid($bizid)
- * @method string getBizid()
- * @method $this setHash($hash)
- * @method string getHash()
- */
-class DescribeTransactionReceipt extends Request
 {
 
 }

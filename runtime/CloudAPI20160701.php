@@ -13,22 +13,18 @@ use aliyun\sdk\core\lib\Request;
  * @method DescribeApiError DescribeApiError()
  * @method ImportSwagger ImportSwagger()
  * @method DescribeSystemParameters DescribeSystemParameters()
- * @method DescribePluginsByApi DescribePluginsByApi()
  * @method DeleteAllTrafficSpecialControl DeleteAllTrafficSpecialControl()
  * @method ResetAppKeySecret ResetAppKeySecret()
  * @method RecoveryApiDefineFromHistorical RecoveryApiDefineFromHistorical()
- * @method DescribeApisForBackend DescribeApisForBackend()
  * @method SetIpControlApis SetIpControlApis()
  * @method DeleteTrafficSpecialControl DeleteTrafficSpecialControl()
  * @method DescribeApiStageDetail DescribeApiStageDetail()
  * @method DeleteSecretKey DeleteSecretKey()
  * @method AbolishApi AbolishApi()
- * @method DescribeApiGroupDetailForBackend DescribeApiGroupDetailForBackend()
  * @method VpcModifyAccess VpcModifyAccess()
  * @method ModifyTrafficControl ModifyTrafficControl()
  * @method DeleteLogConfig DeleteLogConfig()
  * @method DescribeTrafficControls DescribeTrafficControls()
- * @method DescribePlugins DescribePlugins()
  * @method CreateCustomizedInfo CreateCustomizedInfo()
  * @method AddIpControlPolicyItem AddIpControlPolicyItem()
  * @method AddTrafficSpecialControl AddTrafficSpecialControl()
@@ -38,7 +34,6 @@ use aliyun\sdk\core\lib\Request;
  * @method DescribeAppsByApi DescribeAppsByApi()
  * @method DescribeApps DescribeApps()
  * @method DescribeApiIpControls DescribeApiIpControls()
- * @method DescribeInstances DescribeInstances()
  * @method ModifySecretKey ModifySecretKey()
  * @method DescribeHistoryApis DescribeHistoryApis()
  * @method DescribeRulesByApi DescribeRulesByApi()
@@ -48,9 +43,7 @@ use aliyun\sdk\core\lib\Request;
  * @method DeleteApiGroup DeleteApiGroup()
  * @method DescribeIpControls DescribeIpControls()
  * @method SwitchApi SwitchApi()
- * @method DescribePluginApis DescribePluginApis()
  * @method SetAccessPermissions SetAccessPermissions()
- * @method DeleteModel DeleteModel()
  * @method CreateApiGroup CreateApiGroup()
  * @method DeleteIpControl DeleteIpControl()
  * @method DescribePurchasedApiGroups DescribePurchasedApiGroups()
@@ -61,18 +54,14 @@ use aliyun\sdk\core\lib\Request;
  * @method CreateRaceWorkForInner CreateRaceWorkForInner()
  * @method ModifyIpControlPolicyItem ModifyIpControlPolicyItem()
  * @method VpcRevokeAccess VpcRevokeAccess()
- * @method CreateModel CreateModel()
  * @method DescribePurchasedApis DescribePurchasedApis()
  * @method RecoverApiFromHistorical RecoverApiFromHistorical()
- * @method CreatePlugin CreatePlugin()
  * @method DescribeApi DescribeApi()
  * @method DescribePurchasedApi DescribePurchasedApi()
  * @method DescribeApiQps DescribeApiQps()
  * @method DescribeSecretKeys DescribeSecretKeys()
  * @method DescribeApiLatency DescribeApiLatency()
- * @method DescribeApiGroupsForBackend DescribeApiGroupsForBackend()
  * @method SdkGenerateByApp SdkGenerateByApp()
- * @method ModifyPlugin ModifyPlugin()
  * @method VpcGrantAccess VpcGrantAccess()
  * @method ModifyIpControl ModifyIpControl()
  * @method CreateInstance CreateInstance()
@@ -80,19 +69,15 @@ use aliyun\sdk\core\lib\Request;
  * @method DescribeSystemParams DescribeSystemParams()
  * @method DescribeApp DescribeApp()
  * @method DescribeAppsForProvider DescribeAppsForProvider()
- * @method DetachPlugin DetachPlugin()
  * @method DescribeRegions DescribeRegions()
  * @method DescribeApiRules DescribeApiRules()
  * @method SetDomainWebSocketStatus SetDomainWebSocketStatus()
  * @method CreateSecretKey CreateSecretKey()
  * @method RemoveBlackList RemoveBlackList()
- * @method DeletePlugin DeletePlugin()
  * @method RemoveApiRule RemoveApiRule()
  * @method DescribeBlackLists DescribeBlackLists()
  * @method SetApiRule SetApiRule()
  * @method DescribeApiGroupDetail DescribeApiGroupDetail()
- * @method ModifyApiGroupNetworkPolicy ModifyApiGroupNetworkPolicy()
- * @method ModifyModel ModifyModel()
  * @method DescribeIpControlPolicyItems DescribeIpControlPolicyItems()
  * @method ModifyApiGroup ModifyApiGroup()
  * @method DescribeLogConfig DescribeLogConfig()
@@ -103,7 +88,6 @@ use aliyun\sdk\core\lib\Request;
  * @method DescribeAppSecurity DescribeAppSecurity()
  * @method DescribeDomainResolution DescribeDomainResolution()
  * @method DescribeRaceWorkForInner DescribeRaceWorkForInner()
- * @method ModifyApiGroupInstance ModifyApiGroupInstance()
  * @method SdkGenerateByGroup SdkGenerateByGroup()
  * @method CreateApi CreateApi()
  * @method DescribeApiDocs DescribeApiDocs()
@@ -112,19 +96,16 @@ use aliyun\sdk\core\lib\Request;
  * @method ModifyApi ModifyApi()
  * @method ResetCustomized ResetCustomized()
  * @method DeleteApi DeleteApi()
- * @method UpdateConsumerOpenInvokeTimesNow UpdateConsumerOpenInvokeTimesNow()
  * @method CreateLogConfig CreateLogConfig()
  * @method CreateIpControl CreateIpControl()
  * @method GetApiMethods GetApiMethods()
  * @method DescribeDomain DescribeDomain()
- * @method DescribeApiForBackend DescribeApiForBackend()
  * @method DescribeHistoryApi DescribeHistoryApi()
  * @method GetCustomizedInfo GetCustomizedInfo()
  * @method RemoveAllBlackList RemoveAllBlackList()
  * @method ReactivateDomain ReactivateDomain()
  * @method DescribeApiGroups DescribeApiGroups()
  * @method DeleteDomain DeleteDomain()
- * @method DescribeModels DescribeModels()
  * @method DescribeDeployedApis DescribeDeployedApis()
  * @method SetDomain SetDomain()
  * @method DescribeApiGroupDetailForConsumer DescribeApiGroupDetailForConsumer()
@@ -132,14 +113,12 @@ use aliyun\sdk\core\lib\Request;
  * @method RefreshDomain RefreshDomain()
  * @method DeleteApiStageVariable DeleteApiStageVariable()
  * @method RecoveryApiFromHistorical RecoveryApiFromHistorical()
- * @method DescribeDeployedApiForBackend DescribeDeployedApiForBackend()
  * @method RemoveAccessPermissionByApis RemoveAccessPermissionByApis()
  * @method DeleteTrafficControl DeleteTrafficControl()
  * @method RemoveIpControlPolicyItem RemoveIpControlPolicyItem()
  * @method DescribeAppSecurities DescribeAppSecurities()
  * @method DescribeApiDoc DescribeApiDoc()
  * @method CreateApiStageVariable CreateApiStageVariable()
- * @method AttachPlugin AttachPlugin()
  * @method DescribeApisByRule DescribeApisByRule()
  * @method DescribeApiTraffic DescribeApiTraffic()
  * @method VpcDescribeAccesses VpcDescribeAccesses()
@@ -207,17 +186,6 @@ class DescribeSystemParameters extends Request
 {
 
 }/**
- * @method $this setGroupId($groupId)
- * @method string getGroupId()
- * @method $this setApiId($apiId)
- * @method string getApiId()
- * @method $this setStageName($stageName)
- * @method string getStageName()
- */
-class DescribePluginsByApi extends Request
-{
-
-}/**
  * @method $this setTrafficControlId($trafficControlId)
  * @method string getTrafficControlId()
  */
@@ -242,25 +210,6 @@ class ResetAppKeySecret extends Request
  * @method string getHistoryVersion()
  */
 class RecoveryApiDefineFromHistorical extends Request
-{
-
-}/**
- * @method $this setGroupId($groupId)
- * @method string getGroupId()
- * @method $this setStageName($stageName)
- * @method string getStageName()
- * @method $this setApiId($apiId)
- * @method string getApiId()
- * @method $this setApiName($apiName)
- * @method string getApiName()
- * @method $this setVisibility($visibility)
- * @method string getVisibility()
- * @method $this setPageSize($pageSize)
- * @method int getPageSize()
- * @method $this setPageNumber($pageNumber)
- * @method int getPageNumber()
- */
-class DescribeApisForBackend extends Request
 {
 
 }/**
@@ -312,15 +261,6 @@ class DeleteSecretKey extends Request
  * @method string getStageName()
  */
 class AbolishApi extends Request
-{
-
-}/**
- * @method $this setGroupId($groupId)
- * @method string getGroupId()
- * @method $this setAliUid($aliUid)
- * @method int getAliUid()
- */
-class DescribeApiGroupDetailForBackend extends Request
 {
 
 }/**
@@ -381,21 +321,6 @@ class DeleteLogConfig extends Request
  * @method int getPageSize()
  */
 class DescribeTrafficControls extends Request
-{
-
-}/**
- * @method $this setPluginId($pluginId)
- * @method string getPluginId()
- * @method $this setPluginType($pluginType)
- * @method string getPluginType()
- * @method $this setPluginName($pluginName)
- * @method string getPluginName()
- * @method $this setPageNumber($pageNumber)
- * @method int getPageNumber()
- * @method $this setPageSize($pageSize)
- * @method int getPageSize()
- */
-class DescribePlugins extends Request
 {
 
 }/**
@@ -482,6 +407,8 @@ class DescribeApis extends Request
 }/**
  * @method $this setGroupId($groupId)
  * @method string getGroupId()
+ * @method $this setDeleteInternetDomain($deleteInternetDomain)
+ * @method bool getDeleteInternetDomain()
  */
 class CreateIntranetDomain extends Request
 {
@@ -533,15 +460,6 @@ class DescribeApps extends Request
  * @method int getPageSize()
  */
 class DescribeApiIpControls extends Request
-{
-
-}/**
- * @method $this setInstanceId($instanceId)
- * @method string getInstanceId()
- * @method $this setLanguage($language)
- * @method string getLanguage()
- */
-class DescribeInstances extends Request
 {
 
 }/**
@@ -664,17 +582,6 @@ class SwitchApi extends Request
 {
 
 }/**
- * @method $this setPluginId($pluginId)
- * @method string getPluginId()
- * @method $this setPageSize($pageSize)
- * @method int getPageSize()
- * @method $this setPageNumber($pageNumber)
- * @method int getPageNumber()
- */
-class DescribePluginApis extends Request
-{
-
-}/**
  * @method $this setGroupId($groupId)
  * @method string getGroupId()
  * @method $this setApiId($apiId)
@@ -687,15 +594,6 @@ class DescribePluginApis extends Request
  * @method string getDescription()
  */
 class SetAccessPermissions extends Request
-{
-
-}/**
- * @method $this setModelName($modelName)
- * @method string getModelName()
- * @method $this setGroupId($groupId)
- * @method string getGroupId()
- */
-class DeleteModel extends Request
 {
 
 }/**
@@ -815,19 +713,6 @@ class VpcRevokeAccess extends Request
 {
 
 }/**
- * @method $this setModelName($modelName)
- * @method string getModelName()
- * @method $this setGroupId($groupId)
- * @method string getGroupId()
- * @method $this setSchema($schema)
- * @method string getSchema()
- * @method $this setDescription($description)
- * @method string getDescription()
- */
-class CreateModel extends Request
-{
-
-}/**
  * @method $this setGroupId($groupId)
  * @method string getGroupId()
  * @method $this setApiId($apiId)
@@ -853,19 +738,6 @@ class DescribePurchasedApis extends Request
  * @method string getHistoryVersion()
  */
 class RecoverApiFromHistorical extends Request
-{
-
-}/**
- * @method $this setPluginName($pluginName)
- * @method string getPluginName()
- * @method $this setPluginType($pluginType)
- * @method string getPluginType()
- * @method $this setPluginData($pluginData)
- * @method string getPluginData()
- * @method $this setDescription($description)
- * @method string getDescription()
- */
-class CreatePlugin extends Request
 {
 
 }/**
@@ -926,38 +798,12 @@ class DescribeApiLatency extends Request
 {
 
 }/**
- * @method $this setGroupId($groupId)
- * @method string getGroupId()
- * @method $this setGroupName($groupName)
- * @method string getGroupName()
- * @method $this setPageNumber($pageNumber)
- * @method int getPageNumber()
- * @method $this setPageSize($pageSize)
- * @method int getPageSize()
- */
-class DescribeApiGroupsForBackend extends Request
-{
-
-}/**
  * @method $this setAppId($appId)
  * @method int getAppId()
  * @method $this setLanguage($language)
  * @method string getLanguage()
  */
 class SdkGenerateByApp extends Request
-{
-
-}/**
- * @method $this setPluginId($pluginId)
- * @method string getPluginId()
- * @method $this setPluginName($pluginName)
- * @method string getPluginName()
- * @method $this setPluginData($pluginData)
- * @method string getPluginData()
- * @method $this setDescription($description)
- * @method string getDescription()
- */
-class ModifyPlugin extends Request
 {
 
 }/**
@@ -1032,21 +878,6 @@ class DescribeAppsForProvider extends Request
 {
 
 }/**
- * @method $this setPluginId($pluginId)
- * @method string getPluginId()
- * @method $this setGroupId($groupId)
- * @method string getGroupId()
- * @method $this setApiIds($apiIds)
- * @method string getApiIds()
- * @method $this setStageName($stageName)
- * @method string getStageName()
- * @method $this setApiUid($apiUid)
- * @method string getApiUid()
- */
-class DetachPlugin extends Request
-{
-
-}/**
  * @method $this setLanguage($language)
  * @method string getLanguage()
  */
@@ -1104,13 +935,6 @@ class RemoveBlackList extends Request
 {
 
 }/**
- * @method $this setPluginId($pluginId)
- * @method string getPluginId()
- */
-class DeletePlugin extends Request
-{
-
-}/**
  * @method $this setRuleId($ruleId)
  * @method string getRuleId()
  * @method $this setRuleType($ruleType)
@@ -1156,34 +980,6 @@ class SetApiRule extends Request
  * @method string getGroupId()
  */
 class DescribeApiGroupDetail extends Request
-{
-
-}/**
- * @method $this setGroupId($groupId)
- * @method string getGroupId()
- * @method $this setInternetEnable($internetEnable)
- * @method bool getInternetEnable()
- * @method $this setVpcIntranetEnable($vpcIntranetEnable)
- * @method bool getVpcIntranetEnable()
- * @method $this setHttpsPolicy($httpsPolicy)
- * @method string getHttpsPolicy()
- */
-class ModifyApiGroupNetworkPolicy extends Request
-{
-
-}/**
- * @method $this setGroupId($groupId)
- * @method string getGroupId()
- * @method $this setModelName($modelName)
- * @method string getModelName()
- * @method $this setDescription($description)
- * @method string getDescription()
- * @method $this setSchema($schema)
- * @method string getSchema()
- * @method $this setNewModelName($newModelName)
- * @method string getNewModelName()
- */
-class ModifyModel extends Request
 {
 
 }/**
@@ -1293,17 +1089,6 @@ class DescribeRaceWorkForInner extends Request
 }/**
  * @method $this setGroupId($groupId)
  * @method string getGroupId()
- * @method $this setTargetInstanceId($targetInstanceId)
- * @method string getTargetInstanceId()
- * @method $this setRemark($remark)
- * @method string getRemark()
- */
-class ModifyApiGroupInstance extends Request
-{
-
-}/**
- * @method $this setGroupId($groupId)
- * @method string getGroupId()
  * @method $this setLanguage($language)
  * @method string getLanguage()
  */
@@ -1385,6 +1170,8 @@ class DescribeApiDocs extends Request
  * @method string getApiIds()
  * @method $this setDescription($description)
  * @method string getDescription()
+ * @method $this setAuthVaildTime($authVaildTime)
+ * @method string getAuthVaildTime()
  * @method $this setAuthValidTime($authValidTime)
  * @method string getAuthValidTime()
  */
@@ -1476,13 +1263,6 @@ class DeleteApi extends Request
 {
 
 }/**
- * @method $this setInvokeParams($invokeParams)
- * @method string getInvokeParams()
- */
-class UpdateConsumerOpenInvokeTimesNow extends Request
-{
-
-}/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
  * @method $this setSlsProject($slsProject)
@@ -1526,15 +1306,6 @@ class GetApiMethods extends Request
  * @method string getDomainName()
  */
 class DescribeDomain extends Request
-{
-
-}/**
- * @method $this setGroupId($groupId)
- * @method string getGroupId()
- * @method $this setApiId($apiId)
- * @method string getApiId()
- */
-class DescribeApiForBackend extends Request
 {
 
 }/**
@@ -1601,21 +1372,6 @@ class DescribeApiGroups extends Request
  * @method string getDomainName()
  */
 class DeleteDomain extends Request
-{
-
-}/**
- * @method $this setGroupId($groupId)
- * @method string getGroupId()
- * @method $this setModelName($modelName)
- * @method string getModelName()
- * @method $this setPageSize($pageSize)
- * @method int getPageSize()
- * @method $this setPageNumber($pageNumber)
- * @method int getPageNumber()
- * @method $this setModelId($modelId)
- * @method string getModelId()
- */
-class DescribeModels extends Request
 {
 
 }/**
@@ -1710,17 +1466,6 @@ class RecoveryApiFromHistorical extends Request
 }/**
  * @method $this setGroupId($groupId)
  * @method string getGroupId()
- * @method $this setApiId($apiId)
- * @method string getApiId()
- * @method $this setStageName($stageName)
- * @method string getStageName()
- */
-class DescribeDeployedApiForBackend extends Request
-{
-
-}/**
- * @method $this setGroupId($groupId)
- * @method string getGroupId()
  * @method $this setAppId($appId)
  * @method int getAppId()
  * @method $this setStageName($stageName)
@@ -1782,21 +1527,6 @@ class DescribeApiDoc extends Request
  * @method string getStageRouteModel()
  */
 class CreateApiStageVariable extends Request
-{
-
-}/**
- * @method $this setPluginId($pluginId)
- * @method string getPluginId()
- * @method $this setGroupId($groupId)
- * @method string getGroupId()
- * @method $this setApiIds($apiIds)
- * @method string getApiIds()
- * @method $this setStageName($stageName)
- * @method string getStageName()
- * @method $this setApiUid($apiUid)
- * @method string getApiUid()
- */
-class AttachPlugin extends Request
 {
 
 }/**

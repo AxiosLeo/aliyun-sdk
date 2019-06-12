@@ -11,11 +11,15 @@ use aliyun\sdk\core\lib\Request;
  * @method GetDipperConfigure GetDipperConfigure()
  * @method QueryLatestUpdateInfo QueryLatestUpdateInfo()
  * @method GetSasEventDetail GetSasEventDetail()
+ * @method GetSasUserBuyVersion GetSasUserBuyVersion()
  * @method GetSasSecurityEventCount GetSasSecurityEventCount()
  * @method getSecurityEventCount getSecurityEventCount()
+ * @method IsSasServiceOpening IsSasServiceOpening()
  * @method GetSasEventsTrend GetSasEventsTrend()
  * @method IDataSyncService IDataSyncService()
  * @method GetSasEventsList GetSasEventsList()
+ * @method OpenSasService OpenSasService()
+ * @method getUserBuyVersion getUserBuyVersion()
  * @method getEventDetail getEventDetail()
  * @method QueryDipperConfigure QueryDipperConfigure()
  * @method getEventsList getEventsList()
@@ -50,6 +54,11 @@ class GetSasEventDetail extends Request
 {
 
 }/**
+ */
+class GetSasUserBuyVersion extends Request
+{
+
+}/**
  * @method $this setDate($date)
  * @method int getDate()
  */
@@ -61,6 +70,11 @@ class GetSasSecurityEventCount extends Request
  * @method int getDate()
  */
 class getSecurityEventCount extends Request
+{
+
+}/**
+ */
+class IsSasServiceOpening extends Request
 {
 
 }/**
@@ -86,6 +100,16 @@ class IDataSyncService extends Request
  * @method int getLimit()
  */
 class GetSasEventsList extends Request
+{
+
+}/**
+ */
+class OpenSasService extends Request
+{
+
+}/**
+ */
+class getUserBuyVersion extends Request
 {
 
 }/**

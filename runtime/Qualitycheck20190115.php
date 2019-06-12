@@ -60,7 +60,6 @@ use aliyun\sdk\core\lib\Request;
  * @method ListDataSetTask ListDataSetTask()
  * @method CreateAsrVocab CreateAsrVocab()
  * @method GetThesaurusBySynonymForApi GetThesaurusBySynonymForApi()
- * @method VerifyOrder VerifyOrder()
  * @method UpdateOnPurchaseSuccess UpdateOnPurchaseSuccess()
  * @method DeleteSubScoreForApi DeleteSubScoreForApi()
  * @method InvalidRule InvalidRule()
@@ -619,17 +618,6 @@ class CreateAsrVocab extends Request
  * @method string getJsonStr()
  */
 class GetThesaurusBySynonymForApi extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setData($data)
- * @method string getData()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- */
-class VerifyOrder extends Request
 {
 
 }/**

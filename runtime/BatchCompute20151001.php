@@ -17,7 +17,6 @@ use aliyun\sdk\core\lib\Request;
  * @method ListInstances ListInstances()
  * @method CancelImage CancelImage()
  * @method ListClusterInstances ListClusterInstances()
- * @method UpdateTaskStatus UpdateTaskStatus()
  * @method GetJob GetJob()
  * @method ReportTaskStatus ReportTaskStatus()
  * @method StartJob StartJob()
@@ -132,17 +131,6 @@ class CancelImage extends Request
  * @method string getGroupName()
  */
 class ListClusterInstances extends Request
-{
-
-}/**
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setClusterId($clusterId)
- * @method string getClusterId()
- * @method $this setWorkerId($workerId)
- * @method string getWorkerId()
- */
-class UpdateTaskStatus extends Request
 {
 
 }/**

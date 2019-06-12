@@ -10,44 +10,30 @@ use aliyun\sdk\core\lib\Request;
  * @package aliyun\sdk\services\Push20160801
  * @method UnbindPhone UnbindPhone()
  * @method RemoveTag RemoveTag()
- * @method TracePush TracePush()
  * @method PushMessageToAndroid PushMessageToAndroid()
  * @method QueryDeviceStat QueryDeviceStat()
  * @method QueryTags QueryTags()
- * @method ValidateAppCert ValidateAppCert()
  * @method QueryAliases QueryAliases()
- * @method QueryAppInfo QueryAppInfo()
  * @method ListPushRecords ListPushRecords()
- * @method CertPreflight CertPreflight()
  * @method CheckDevice CheckDevice()
  * @method BindTag BindTag()
- * @method CreateApp CreateApp()
  * @method BindAlias_GatedLaunch BindAlias_GatedLaunch()
  * @method QueryPushStatByMsg QueryPushStatByMsg()
- * @method QueryAppSecurityInfo QueryAppSecurityInfo()
- * @method DeleteApp DeleteApp()
- * @method QueryPushDetail QueryPushDetail()
  * @method QueryPushStatByApp QueryPushStatByApp()
- * @method UploadAppCert UploadAppCert()
  * @method PushNoticeToAndroid PushNoticeToAndroid()
  * @method UnbindAlias UnbindAlias()
  * @method UnbindAlias_GatedLaunch UnbindAlias_GatedLaunch()
  * @method PushMessageToiOS PushMessageToiOS()
- * @method ListApps ListApps()
  * @method UnbindTag UnbindTag()
  * @method QueryUniqueDeviceStat QueryUniqueDeviceStat()
- * @method ModifyAppExtensions ModifyAppExtensions()
  * @method BindAlias BindAlias()
  * @method QueryDevicesByAlias QueryDevicesByAlias()
- * @method TestSms TestSms()
  * @method ListSummaryApps ListSummaryApps()
  * @method Push Push()
  * @method QueryDevicesByAccount QueryDevicesByAccount()
- * @method ModifyAppConfig ModifyAppConfig()
  * @method QueryPushList QueryPushList()
  * @method CheckDevices CheckDevices()
  * @method CancelPush CancelPush()
- * @method QueryAppConfig QueryAppConfig()
  * @method Push_GatedLaunch Push_GatedLaunch()
  * @method QueryDeviceInfo QueryDeviceInfo()
  * @method PushNoticeToiOS PushNoticeToiOS()
@@ -74,17 +60,6 @@ class UnbindPhone extends Request
  * @method string getTagName()
  */
 class RemoveTag extends Request
-{
-
-}/**
- * @method $this setAppKey($appKey)
- * @method int getAppKey()
- * @method $this setMessageId($messageId)
- * @method int getMessageId()
- * @method $this setDeviceId($deviceId)
- * @method string getDeviceId()
- */
-class TracePush extends Request
 {
 
 }/**
@@ -133,28 +108,10 @@ class QueryTags extends Request
 }/**
  * @method $this setAppKey($appKey)
  * @method int getAppKey()
- * @method $this setCertPass($certPass)
- * @method string getCertPass()
- * @method $this setIsDevCert($isDevCert)
- * @method bool getIsDevCert()
- */
-class ValidateAppCert extends Request
-{
-
-}/**
- * @method $this setAppKey($appKey)
- * @method int getAppKey()
  * @method $this setDeviceId($deviceId)
  * @method string getDeviceId()
  */
 class QueryAliases extends Request
-{
-
-}/**
- * @method $this setAppKey($appKey)
- * @method int getAppKey()
- */
-class QueryAppInfo extends Request
 {
 
 }/**
@@ -172,21 +129,6 @@ class QueryAppInfo extends Request
  * @method int getPageSize()
  */
 class ListPushRecords extends Request
-{
-
-}/**
- * @method $this setAppKey($appKey)
- * @method int getAppKey()
- * @method $this setDeviceToken($deviceToken)
- * @method string getDeviceToken()
- * @method $this setPass($pass)
- * @method string getPass()
- * @method $this setBody($body)
- * @method string getBody()
- * @method $this setIsDevCert($isDevCert)
- * @method bool getIsDevCert()
- */
-class CertPreflight extends Request
 {
 
 }/**
@@ -212,17 +154,6 @@ class BindTag extends Request
 {
 
 }/**
- * @method $this setAppName($appName)
- * @method string getAppName()
- * @method $this setIndustryId($industryId)
- * @method int getIndustryId()
- * @method $this setDescription($description)
- * @method string getDescription()
- */
-class CreateApp extends Request
-{
-
-}/**
  * @method $this setAppKey($appKey)
  * @method int getAppKey()
  * @method $this setDeviceId($deviceId)
@@ -245,29 +176,6 @@ class QueryPushStatByMsg extends Request
 }/**
  * @method $this setAppKey($appKey)
  * @method int getAppKey()
- */
-class QueryAppSecurityInfo extends Request
-{
-
-}/**
- * @method $this setAppKey($appKey)
- * @method int getAppKey()
- */
-class DeleteApp extends Request
-{
-
-}/**
- * @method $this setAppKey($appKey)
- * @method int getAppKey()
- * @method $this setMessageId($messageId)
- * @method string getMessageId()
- */
-class QueryPushDetail extends Request
-{
-
-}/**
- * @method $this setAppKey($appKey)
- * @method int getAppKey()
  * @method $this setStartTime($startTime)
  * @method string getStartTime()
  * @method $this setEndTime($endTime)
@@ -276,17 +184,6 @@ class QueryPushDetail extends Request
  * @method string getGranularity()
  */
 class QueryPushStatByApp extends Request
-{
-
-}/**
- * @method $this setAppKey($appKey)
- * @method int getAppKey()
- * @method $this setFileItem($fileItem)
- * @method string getFileItem()
- * @method $this setIsDevCert($isDevCert)
- * @method bool getIsDevCert()
- */
-class UploadAppCert extends Request
 {
 
 }/**
@@ -352,11 +249,6 @@ class PushMessageToiOS extends Request
 {
 
 }/**
- */
-class ListApps extends Request
-{
-
-}/**
  * @method $this setAppKey($appKey)
  * @method int getAppKey()
  * @method $this setClientKey($clientKey)
@@ -385,25 +277,6 @@ class QueryUniqueDeviceStat extends Request
 }/**
  * @method $this setAppKey($appKey)
  * @method int getAppKey()
- * @method $this setXmAppSecretKey($xmAppSecretKey)
- * @method string getXmAppSecretKey()
- * @method $this setHwAppKey($hwAppKey)
- * @method string getHwAppKey()
- * @method $this setHwAppSecretKey($hwAppSecretKey)
- * @method string getHwAppSecretKey()
- * @method $this setGcmToken($gcmToken)
- * @method string getGcmToken()
- * @method $this setOppoAppKey($oppoAppKey)
- * @method string getOppoAppKey()
- * @method $this setOppoMasterSecret($oppoMasterSecret)
- * @method string getOppoMasterSecret()
- */
-class ModifyAppExtensions extends Request
-{
-
-}/**
- * @method $this setAppKey($appKey)
- * @method int getAppKey()
  * @method $this setDeviceId($deviceId)
  * @method string getDeviceId()
  * @method $this setAliasName($aliasName)
@@ -419,19 +292,6 @@ class BindAlias extends Request
  * @method string getAlias()
  */
 class QueryDevicesByAlias extends Request
-{
-
-}/**
- * @method $this setSmsTemplateName($smsTemplateName)
- * @method string getSmsTemplateName()
- * @method $this setSmsSign($smsSign)
- * @method string getSmsSign()
- * @method $this setSmsTemplateParams($smsTemplateParams)
- * @method string getSmsTemplateParams()
- * @method $this setSmsReceiver($smsReceiver)
- * @method string getSmsReceiver()
- */
-class TestSms extends Request
 {
 
 }/**
@@ -544,25 +404,6 @@ class QueryDevicesByAccount extends Request
 }/**
  * @method $this setAppKey($appKey)
  * @method int getAppKey()
- * @method $this setPackageName($packageName)
- * @method string getPackageName()
- * @method $this setDevCertKey($devCertKey)
- * @method string getDevCertKey()
- * @method $this setDevCertPass($devCertPass)
- * @method string getDevCertPass()
- * @method $this setProductCertKey($productCertKey)
- * @method string getProductCertKey()
- * @method $this setProductCertPass($productCertPass)
- * @method string getProductCertPass()
- * @method $this setBundleId($bundleId)
- * @method string getBundleId()
- */
-class ModifyAppConfig extends Request
-{
-
-}/**
- * @method $this setAppKey($appKey)
- * @method int getAppKey()
  * @method $this setPushType($pushType)
  * @method string getPushType()
  * @method $this setStartTime($startTime)
@@ -593,13 +434,6 @@ class CheckDevices extends Request
  * @method int getMessageId()
  */
 class CancelPush extends Request
-{
-
-}/**
- * @method $this setAppKey($appKey)
- * @method int getAppKey()
- */
-class QueryAppConfig extends Request
 {
 
 }/**

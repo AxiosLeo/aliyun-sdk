@@ -18,16 +18,12 @@ use aliyun\sdk\core\lib\Request;
  * @method ResetAppKeySecret ResetAppKeySecret()
  * @method RecoveryApiDefineFromHistorical RecoveryApiDefineFromHistorical()
  * @method DescribeRaceWorksForInner DescribeRaceWorksForInner()
- * @method DescribeApisForBackend DescribeApisForBackend()
  * @method DescribeAvailableVips DescribeAvailableVips()
  * @method VpcRegisterApp VpcRegisterApp()
  * @method DeleteTrafficSpecialControl DeleteTrafficSpecialControl()
  * @method ReactivateDomainForBackend ReactivateDomainForBackend()
- * @method DeleteDomainForBackend DeleteDomainForBackend()
- * @method ModifyGroupExtendForBackend ModifyGroupExtendForBackend()
  * @method DeleteSecretKey DeleteSecretKey()
  * @method AbolishApi AbolishApi()
- * @method DescribeApiGroupDetailForBackend DescribeApiGroupDetailForBackend()
  * @method VpcQueryAppServers VpcQueryAppServers()
  * @method ModifyTrafficControl ModifyTrafficControl()
  * @method DescribeTrafficControls DescribeTrafficControls()
@@ -43,13 +39,11 @@ use aliyun\sdk\core\lib\Request;
  * @method DescribeHistoryApis DescribeHistoryApis()
  * @method DescribeRulesByApi DescribeRulesByApi()
  * @method RefundInstance RefundInstance()
- * @method CheckServiceAddressForInner CheckServiceAddressForInner()
  * @method CreateApp CreateApp()
  * @method CreateTrafficControl CreateTrafficControl()
  * @method DeployApi DeployApi()
  * @method DeleteApiGroup DeleteApiGroup()
  * @method SwitchApi SwitchApi()
- * @method LoadVpcAccess LoadVpcAccess()
  * @method SetAccessPermissions SetAccessPermissions()
  * @method SetAccessPermissionsForInner SetAccessPermissionsForInner()
  * @method CreateApiGroup CreateApiGroup()
@@ -70,13 +64,10 @@ use aliyun\sdk\core\lib\Request;
  * @method DescribeApiQps DescribeApiQps()
  * @method DescribeSecretKeys DescribeSecretKeys()
  * @method DescribeApiLatency DescribeApiLatency()
- * @method DescribeApiGroupsForBackend DescribeApiGroupsForBackend()
- * @method DescribeApiGroupByApiForInner DescribeApiGroupByApiForInner()
  * @method IsInnerAccountForInner IsInnerAccountForInner()
  * @method CopyConsumerOpenForInner CopyConsumerOpenForInner()
  * @method CreateInstance CreateInstance()
  * @method DescribePurchasedApiGroupDetail DescribePurchasedApiGroupDetail()
- * @method ModifyGroupQpsForBackend ModifyGroupQpsForBackend()
  * @method DescribeSystemParams DescribeSystemParams()
  * @method DescribeApp DescribeApp()
  * @method DescribeAppsForProvider DescribeAppsForProvider()
@@ -112,11 +103,9 @@ use aliyun\sdk\core\lib\Request;
  * @method RemoveAccessPermissionByAppsForInner RemoveAccessPermissionByAppsForInner()
  * @method ModifyApi ModifyApi()
  * @method DeleteApi DeleteApi()
- * @method UpdateConsumerOpenInvokeTimesNow UpdateConsumerOpenInvokeTimesNow()
  * @method ModifyApiForInner ModifyApiForInner()
  * @method CheckAccountForInner CheckAccountForInner()
  * @method DescribeDomain DescribeDomain()
- * @method DescribeApiForBackend DescribeApiForBackend()
  * @method DescribeHistoryApi DescribeHistoryApi()
  * @method RemoveAllBlackList RemoveAllBlackList()
  * @method DescribeApiGroups DescribeApiGroups()
@@ -126,17 +115,13 @@ use aliyun\sdk\core\lib\Request;
  * @method SetDomain SetDomain()
  * @method RefreshDomain RefreshDomain()
  * @method RecoveryApiFromHistorical RecoveryApiFromHistorical()
- * @method DescribeDeployedApiForBackend DescribeDeployedApiForBackend()
  * @method RemoveAccessPermissionByApis RemoveAccessPermissionByApis()
- * @method ClearCacheForBackend ClearCacheForBackend()
  * @method DeleteTrafficControl DeleteTrafficControl()
  * @method DescribeAppSecurities DescribeAppSecurities()
- * @method ModifyGroupStatusForBackend ModifyGroupStatusForBackend()
  * @method DescribeApiDoc DescribeApiDoc()
  * @method DescribeApisByRule DescribeApisByRule()
  * @method DescribeApiTraffic DescribeApiTraffic()
  * @method DescribeBidByUserIdForInner DescribeBidByUserIdForInner()
- * @method ModifyDomainStatusForBackend ModifyDomainStatusForBackend()
  * @method RemoveAccessPermissionByApps RemoveAccessPermissionByApps()
  * @method VpcAddAppServer VpcAddAppServer()
  * @method CheckAoneAppAudit CheckAoneAppAudit()
@@ -241,25 +226,6 @@ class DescribeRaceWorksForInner extends Request
 {
 
 }/**
- * @method $this setGroupId($groupId)
- * @method string getGroupId()
- * @method $this setStageName($stageName)
- * @method string getStageName()
- * @method $this setApiId($apiId)
- * @method string getApiId()
- * @method $this setApiName($apiName)
- * @method string getApiName()
- * @method $this setVisibility($visibility)
- * @method string getVisibility()
- * @method $this setPageSize($pageSize)
- * @method int getPageSize()
- * @method $this setPageNumber($pageNumber)
- * @method int getPageNumber()
- */
-class DescribeApisForBackend extends Request
-{
-
-}/**
  * @method $this setVip($vip)
  * @method string getVip()
  */
@@ -302,26 +268,6 @@ class ReactivateDomainForBackend extends Request
 {
 
 }/**
- * @method $this setGroupId($groupId)
- * @method string getGroupId()
- * @method $this setDomainName($domainName)
- * @method string getDomainName()
- */
-class DeleteDomainForBackend extends Request
-{
-
-}/**
- * @method $this setAliUid($aliUid)
- * @method int getAliUid()
- * @method $this setGroupId($groupId)
- * @method string getGroupId()
- * @method $this setExcludeApis($excludeApis)
- * @method string getExcludeApis()
- */
-class ModifyGroupExtendForBackend extends Request
-{
-
-}/**
  * @method $this setSecretKeyId($secretKeyId)
  * @method string getSecretKeyId()
  */
@@ -337,13 +283,6 @@ class DeleteSecretKey extends Request
  * @method string getStageName()
  */
 class AbolishApi extends Request
-{
-
-}/**
- * @method $this setGroupId($groupId)
- * @method string getGroupId()
- */
-class DescribeApiGroupDetailForBackend extends Request
 {
 
 }/**
@@ -562,15 +501,6 @@ class RefundInstance extends Request
 {
 
 }/**
- * @method $this setAliUid($aliUid)
- * @method int getAliUid()
- * @method $this setServerAddress($serverAddress)
- * @method string getServerAddress()
- */
-class CheckServiceAddressForInner extends Request
-{
-
-}/**
  * @method $this setAppName($appName)
  * @method string getAppName()
  * @method $this setDescription($description)
@@ -629,19 +559,6 @@ class DeleteApiGroup extends Request
  * @method string getHistoryVersion()
  */
 class SwitchApi extends Request
-{
-
-}/**
- * @method $this setSourceVpcId($sourceVpcId)
- * @method string getSourceVpcId()
- * @method $this setTargetVpcId($targetVpcId)
- * @method string getTargetVpcId()
- * @method $this setTargetInstance($targetInstance)
- * @method string getTargetInstance()
- * @method $this setPort($port)
- * @method int getPort()
- */
-class LoadVpcAccess extends Request
 {
 
 }/**
@@ -921,28 +838,6 @@ class DescribeApiLatency extends Request
 {
 
 }/**
- * @method $this setGroupId($groupId)
- * @method string getGroupId()
- * @method $this setGroupName($groupName)
- * @method string getGroupName()
- * @method $this setPageNumber($pageNumber)
- * @method int getPageNumber()
- * @method $this setPageSize($pageSize)
- * @method int getPageSize()
- */
-class DescribeApiGroupsForBackend extends Request
-{
-
-}/**
- * @method $this setAliUid($aliUid)
- * @method int getAliUid()
- * @method $this setApiId($apiId)
- * @method string getApiId()
- */
-class DescribeApiGroupByApiForInner extends Request
-{
-
-}/**
  * @method $this setAliUid($aliUid)
  * @method int getAliUid()
  * @method $this setDefaultValue($defaultValue)
@@ -986,17 +881,6 @@ class CreateInstance extends Request
  * @method string getGroupId()
  */
 class DescribePurchasedApiGroupDetail extends Request
-{
-
-}/**
- * @method $this setAliUid($aliUid)
- * @method int getAliUid()
- * @method $this setGroupId($groupId)
- * @method string getGroupId()
- * @method $this setQpsLimit($qpsLimit)
- * @method int getQpsLimit()
- */
-class ModifyGroupQpsForBackend extends Request
 {
 
 }/**
@@ -1475,13 +1359,6 @@ class DeleteApi extends Request
 {
 
 }/**
- * @method $this setInvokeParams($invokeParams)
- * @method string getInvokeParams()
- */
-class UpdateConsumerOpenInvokeTimesNow extends Request
-{
-
-}/**
  * @method $this setAliUid($aliUid)
  * @method int getAliUid()
  * @method $this setGroupId($groupId)
@@ -1528,15 +1405,6 @@ class CheckAccountForInner extends Request
  * @method string getDomainName()
  */
 class DescribeDomain extends Request
-{
-
-}/**
- * @method $this setGroupId($groupId)
- * @method string getGroupId()
- * @method $this setApiId($apiId)
- * @method string getApiId()
- */
-class DescribeApiForBackend extends Request
 {
 
 }/**
@@ -1653,17 +1521,6 @@ class RecoveryApiFromHistorical extends Request
 }/**
  * @method $this setGroupId($groupId)
  * @method string getGroupId()
- * @method $this setApiId($apiId)
- * @method string getApiId()
- * @method $this setStageName($stageName)
- * @method string getStageName()
- */
-class DescribeDeployedApiForBackend extends Request
-{
-
-}/**
- * @method $this setGroupId($groupId)
- * @method string getGroupId()
  * @method $this setAppId($appId)
  * @method int getAppId()
  * @method $this setStageName($stageName)
@@ -1674,17 +1531,6 @@ class DescribeDeployedApiForBackend extends Request
  * @method string getDescription()
  */
 class RemoveAccessPermissionByApis extends Request
-{
-
-}/**
- * @method $this setcallerUid($callerUid)
- * @method int getcallerUid()
- * @method $this setCacheNamespace($cacheNamespace)
- * @method string getCacheNamespace()
- * @method $this setCacheKey($cacheKey)
- * @method string getCacheKey()
- */
-class ClearCacheForBackend extends Request
 {
 
 }/**
@@ -1699,21 +1545,6 @@ class DeleteTrafficControl extends Request
  * @method int getAppId()
  */
 class DescribeAppSecurities extends Request
-{
-
-}/**
- * @method $this setBillingStatus($billingStatus)
- * @method string getBillingStatus()
- * @method $this setIllegalStatus($illegalStatus)
- * @method string getIllegalStatus()
- * @method $this setGroupId($groupId)
- * @method string getGroupId()
- * @method $this setAliUid($aliUid)
- * @method int getAliUid()
- * @method $this setClientToken($clientToken)
- * @method string getClientToken()
- */
-class ModifyGroupStatusForBackend extends Request
 {
 
 }/**
@@ -1758,23 +1589,6 @@ class DescribeApiTraffic extends Request
  * @method int getAliUid()
  */
 class DescribeBidByUserIdForInner extends Request
-{
-
-}/**
- * @method $this setAliUid($aliUid)
- * @method int getAliUid()
- * @method $this setGroupId($groupId)
- * @method string getGroupId()
- * @method $this setDomainName($domainName)
- * @method string getDomainName()
- * @method $this setDomainStatus($domainStatus)
- * @method string getDomainStatus()
- * @method $this setRemark($remark)
- * @method string getRemark()
- * @method $this setBitValue($bitValue)
- * @method string getBitValue()
- */
-class ModifyDomainStatusForBackend extends Request
 {
 
 }/**

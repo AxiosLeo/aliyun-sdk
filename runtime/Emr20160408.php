@@ -9,14 +9,9 @@ use aliyun\sdk\core\lib\Request;
  *
  * @package aliyun\sdk\services\Emr20160408
  * @method DescribeHostPool DescribeHostPool()
- * @method DescribeClusterForInternal DescribeClusterForInternal()
- * @method CheckClusterEcsReleaseForAdmin CheckClusterEcsReleaseForAdmin()
- * @method DescribeClusterServiceForAdmin DescribeClusterServiceForAdmin()
  * @method MetastoreCreateDatabase MetastoreCreateDatabase()
- * @method ReleaseClusterForInternal ReleaseClusterForInternal()
  * @method CreateDataSource CreateDataSource()
  * @method CreateETLJob CreateETLJob()
- * @method ListEmrAlarmForAdmin ListEmrAlarmForAdmin()
  * @method MetastoreDeleteKafkaTopic MetastoreDeleteKafkaTopic()
  * @method DescribeScalingActivity DescribeScalingActivity()
  * @method ModifyAlertContact ModifyAlertContact()
@@ -25,8 +20,6 @@ use aliyun\sdk\core\lib\Request;
  * @method PlanHostName PlanHostName()
  * @method ListClusterOperationHostTask ListClusterOperationHostTask()
  * @method ListStack ListStack()
- * @method SyncClusterHostInfo SyncClusterHostInfo()
- * @method MetastoreSync MetastoreSync()
  * @method ListETLJobRelease ListETLJobRelease()
  * @method ModifyFlowProject ModifyFlowProject()
  * @method SubmitFlow SubmitFlow()
@@ -34,28 +27,19 @@ use aliyun\sdk\core\lib\Request;
  * @method ListClusterService ListClusterService()
  * @method ListJobExecutionInstanceTrend ListJobExecutionInstanceTrend()
  * @method ListFlowInstance ListFlowInstance()
- * @method ListClusterForOuter ListClusterForOuter()
- * @method QueryPriceForAdmin QueryPriceForAdmin()
- * @method CreateClusterWithTemplateForInternal CreateClusterWithTemplateForInternal()
- * @method RenewCluster RenewCluster()
- * @method CheckPrePaidEcsReleaseForAdmin CheckPrePaidEcsReleaseForAdmin()
  * @method RetryExecutionPlanInstance RetryExecutionPlanInstance()
- * @method ListApmEventNotificationConfig ListApmEventNotificationConfig()
- * @method CreateCluster CreateCluster()
  * @method ListFlowCategory ListFlowCategory()
  * @method ListNavSubTree ListNavSubTree()
  * @method MetastoreUpdateKafkaTopicBatch MetastoreUpdateKafkaTopicBatch()
  * @method DescribeClusterV2 DescribeClusterV2()
  * @method ListEmrAvailableConfig ListEmrAvailableConfig()
  * @method CloneDataSource CloneDataSource()
- * @method QueryClusterOrders QueryClusterOrders()
  * @method MetastoreListDataSource MetastoreListDataSource()
  * @method RemoveClusterHosts RemoveClusterHosts()
  * @method ListFlowJob ListFlowJob()
  * @method ListKafkaBroker ListKafkaBroker()
  * @method DeleteUser DeleteUser()
  * @method ModifyJobExecutionPlanFolder ModifyJobExecutionPlanFolder()
- * @method PassRole PassRole()
  * @method ListJobMigrateInfo ListJobMigrateInfo()
  * @method DeleteFlowProjectClusterSetting DeleteFlowProjectClusterSetting()
  * @method MigrateJobs MigrateJobs()
@@ -67,9 +51,7 @@ use aliyun\sdk\core\lib\Request;
  * @method DeleteFlowJob DeleteFlowJob()
  * @method DescribeEmrMainVersion DescribeEmrMainVersion()
  * @method DescribeKafkaBroker DescribeKafkaBroker()
- * @method CheckUserRole CheckUserRole()
  * @method ListResourcePool ListResourcePool()
- * @method DescribeClusterBasicInfoForAdmin DescribeClusterBasicInfoForAdmin()
  * @method GetUserOutputStatisticInfo GetUserOutputStatisticInfo()
  * @method CreateFlowJob CreateFlowJob()
  * @method MetastoreSearchTables MetastoreSearchTables()
@@ -78,133 +60,89 @@ use aliyun\sdk\core\lib\Request;
  * @method MetastoreListDatabases MetastoreListDatabases()
  * @method ListClusterServiceQuickLink ListClusterServiceQuickLink()
  * @method MetastoreModifyDataResource MetastoreModifyDataResource()
- * @method DescribeClusterScriptForAdmin DescribeClusterScriptForAdmin()
  * @method ListOpsOperation ListOpsOperation()
  * @method OperateExistsNodeCluster OperateExistsNodeCluster()
  * @method GetJobMigrateResult GetJobMigrateResult()
- * @method QueryPriceForRenewEcs QueryPriceForRenewEcs()
  * @method KillFlow KillFlow()
  * @method ModifyHostPool ModifyHostPool()
  * @method DeleteFlowProjectById DeleteFlowProjectById()
- * @method DescribeMetaDatabaseForOuter DescribeMetaDatabaseForOuter()
  * @method GetLogDownloadUrl GetLogDownloadUrl()
  * @method GetJobOutputStatisticInfo GetJobOutputStatisticInfo()
  * @method DeleteFlowProject DeleteFlowProject()
- * @method RestartCluster RestartCluster()
  * @method DeleteExecutionPlan DeleteExecutionPlan()
- * @method ListClusterHostForAdmin ListClusterHostForAdmin()
  * @method AddHpHost AddHpHost()
- * @method DescribeMetaTableForOuter DescribeMetaTableForOuter()
- * @method DeleteJobExecutionPlanFolder DeleteJobExecutionPlanFolder()
  * @method ListFailureJobExecutionInstances ListFailureJobExecutionInstances()
  * @method ListJobExecutionPlanParams ListJobExecutionPlanParams()
  * @method DescribeFlowNodeInstanceContainerLog DescribeFlowNodeInstanceContainerLog()
  * @method CreateUserStatistics CreateUserStatistics()
- * @method CheckRenewCluster CheckRenewCluster()
  * @method ListDataSource ListDataSource()
  * @method CreateUserPassword CreateUserPassword()
  * @method DescribeNote DescribeNote()
- * @method CancelOrderForAdmin CancelOrderForAdmin()
  * @method MetastoreDescribeDataSource MetastoreDescribeDataSource()
  * @method DeleteResourceQueue DeleteResourceQueue()
- * @method CreateEmrBizEvent CreateEmrBizEvent()
  * @method CreateAlertUserGroup CreateAlertUserGroup()
  * @method CreateClusterV2 CreateClusterV2()
  * @method ModifyExecutionPlanBasicInfo ModifyExecutionPlanBasicInfo()
  * @method CreateScalingRule CreateScalingRule()
  * @method SubmitFlowJob SubmitFlowJob()
- * @method ResizeDisk ResizeDisk()
- * @method ListClusterServiceStatusOverview ListClusterServiceStatusOverview()
- * @method ListApmEventConfig ListApmEventConfig()
  * @method ModifyResourceQueue ModifyResourceQueue()
  * @method ModifyExecutionPlan ModifyExecutionPlan()
- * @method CreateClusterForAdmin CreateClusterForAdmin()
  * @method RunETLJob RunETLJob()
  * @method ListFlowNodeInstanceContainerStatus ListFlowNodeInstanceContainerStatus()
  * @method ModifyFlowJob ModifyFlowJob()
  * @method MetastoreDropTable MetastoreDropTable()
  * @method ListDependedService ListDependedService()
- * @method CreateJobExecutionPlanFolder CreateJobExecutionPlanFolder()
  * @method MigrateClusterHostGroupHost MigrateClusterHostGroupHost()
  * @method DescribeScalingTaskGroup DescribeScalingTaskGroup()
  * @method StartFlow StartFlow()
- * @method GetApmApplicationDetail GetApmApplicationDetail()
- * @method LogicalDeleteEmrResource LogicalDeleteEmrResource()
  * @method CreateFlowProjectUser CreateFlowProjectUser()
- * @method ListClusterServiceForAdmin ListClusterServiceForAdmin()
  * @method ListClusterTemplates ListClusterTemplates()
- * @method CreateApmEventNotificationConfig CreateApmEventNotificationConfig()
- * @method ListMetaTablePartitionForOuter ListMetaTablePartitionForOuter()
  * @method CreateParagraph CreateParagraph()
- * @method QueryApmSnapshotForAdmin QueryApmSnapshotForAdmin()
  * @method QuerySlsMetricData QuerySlsMetricData()
- * @method QueryLogKey QueryLogKey()
- * @method ListClusterServiceStatus ListClusterServiceStatus()
  * @method UpdateKafkaReassignParam UpdateKafkaReassignParam()
  * @method GetUserSubmissionStatisticInfo GetUserSubmissionStatisticInfo()
  * @method DeleteFlowProjectUser DeleteFlowProjectUser()
  * @method ListFlowClusterAll ListFlowClusterAll()
  * @method DeleteResourcePool DeleteResourcePool()
  * @method ModifyAlertUserGroup ModifyAlertUserGroup()
- * @method ListClusterServiceQuickLinkForAdmin ListClusterServiceQuickLinkForAdmin()
  * @method GetQueueOutputStatisticInfo GetQueueOutputStatisticInfo()
  * @method ReassignKafka ReassignKafka()
- * @method DescribeClusterForAdmin DescribeClusterForAdmin()
  * @method ModifyFlowVariableCollection ModifyFlowVariableCollection()
- * @method ModifyPrepayInstanceSpec ModifyPrepayInstanceSpec()
- * @method OperateFullManagedClusterForAdmin OperateFullManagedClusterForAdmin()
  * @method CreateResourcePool CreateResourcePool()
  * @method ModifyUserStatistics ModifyUserStatistics()
- * @method ReleaseClusterForAdmin ReleaseClusterForAdmin()
  * @method ListETLJobInstance ListETLJobInstance()
  * @method RerunFlow RerunFlow()
  * @method ListClusterInstalledService ListClusterInstalledService()
  * @method MetastoreDataPreview MetastoreDataPreview()
- * @method MockPopHttp MockPopHttp()
  * @method DeleteAlertUserGroups DeleteAlertUserGroups()
  * @method ListClusterServiceCustomActionSupportConfig ListClusterServiceCustomActionSupportConfig()
- * @method QueryApmTrend QueryApmTrend()
  * @method DescribeClusterScript DescribeClusterScript()
  * @method SyncDataSourceSchemaDatabase SyncDataSourceSchemaDatabase()
- * @method DescribeCluster DescribeCluster()
- * @method SyncClusterHostInfoForAdmin SyncClusterHostInfoForAdmin()
  * @method ListEmrAvailableResource ListEmrAvailableResource()
  * @method DeleteNote DeleteNote()
- * @method QueryClusterOrdersForAdmin QueryClusterOrdersForAdmin()
  * @method ListFlowClusterHost ListFlowClusterHost()
- * @method ListEcsForAdmin ListEcsForAdmin()
  * @method ModifyJobExecutionPlanParam ModifyJobExecutionPlanParam()
  * @method ListFlowClusterAllHosts ListFlowClusterAllHosts()
  * @method DescribeFlowProject DescribeFlowProject()
- * @method ListClusterHostGroupForAdmin ListClusterHostGroupForAdmin()
  * @method CloneFlow CloneFlow()
  * @method DeleteAlertDingDingGroups DeleteAlertDingDingGroups()
- * @method ListApmApplication ListApmApplication()
  * @method DeleteFlowCategory DeleteFlowCategory()
  * @method DescribeFlowProjectClusterSetting DescribeFlowProjectClusterSetting()
- * @method ModifyChargeType ModifyChargeType()
- * @method GetApmUserHdfsResourceSummary GetApmUserHdfsResourceSummary()
- * @method ListEmrVersionsForAdmin ListEmrVersionsForAdmin()
  * @method DescribeClusterServiceConfig DescribeClusterServiceConfig()
  * @method MetastoreDescribeDatabase MetastoreDescribeDatabase()
  * @method DescribeParagraph DescribeParagraph()
- * @method ResizeCluster ResizeCluster()
  * @method CreateFlowCategory CreateFlowCategory()
  * @method ListFlowProject ListFlowProject()
  * @method CommonApiWhiteList CommonApiWhiteList()
- * @method QueryOssLogPathClusterBizId QueryOssLogPathClusterBizId()
  * @method ListAlertContacts ListAlertContacts()
  * @method SyncDataSourceSchemaTable SyncDataSourceSchemaTable()
  * @method ContextQueryLog ContextQueryLog()
  * @method RemoveHpHost RemoveHpHost()
  * @method ModifyFlow ModifyFlow()
- * @method ListClusterServiceConfigVersion ListClusterServiceConfigVersion()
  * @method RunParagraph RunParagraph()
- * @method DecryptBizId DecryptBizId()
  * @method QueryAlarmHistory QueryAlarmHistory()
  * @method SearchLog SearchLog()
  * @method DescribeClusterResourcePoolSchedulerType DescribeClusterResourcePoolSchedulerType()
- * @method QueryPriceForModifyConfig QueryPriceForModifyConfig()
  * @method DescribeFlowInstance DescribeFlowInstance()
  * @method ListServiceLog ListServiceLog()
  * @method MetastoreListTask MetastoreListTask()
@@ -216,17 +154,10 @@ use aliyun\sdk\core\lib\Request;
  * @method MetastoreListTablePartition MetastoreListTablePartition()
  * @method UpdateETLJob UpdateETLJob()
  * @method DescribeFlowCategory DescribeFlowCategory()
- * @method GetClusterStatus GetClusterStatus()
- * @method ListClusterScriptsForAdmin ListClusterScriptsForAdmin()
  * @method DescribeJob DescribeJob()
  * @method DescribeUserStatistics DescribeUserStatistics()
  * @method ListClusterScripts ListClusterScripts()
- * @method CheckUserRam CheckUserRam()
- * @method ListMetaTableForOuter ListMetaTableForOuter()
- * @method AuthRealName AuthRealName()
- * @method ListApmJobHeuristicResult ListApmJobHeuristicResult()
  * @method CreateFlowForWeb CreateFlowForWeb()
- * @method ListClusterNodeForAdmin ListClusterNodeForAdmin()
  * @method ListClusterServiceConfigHistory ListClusterServiceConfigHistory()
  * @method ReleaseCluster ReleaseCluster()
  * @method ListClusterTag ListClusterTag()
@@ -236,96 +167,61 @@ use aliyun\sdk\core\lib\Request;
  * @method ListHPHost ListHPHost()
  * @method AttachPubIp AttachPubIp()
  * @method MetastoreCreateKafkaTopic MetastoreCreateKafkaTopic()
- * @method PayOrderCallback PayOrderCallback()
  * @method DeleteDataSource DeleteDataSource()
  * @method StartKafkaBrokerDiskBalancer StartKafkaBrokerDiskBalancer()
- * @method DescribeServiceHealth DescribeServiceHealth()
  * @method CreateClusterScript CreateClusterScript()
  * @method ListClusterServiceComponentHealthInfo ListClusterServiceComponentHealthInfo()
  * @method CancelETLJobRelease CancelETLJobRelease()
  * @method RetryExecutionPlan RetryExecutionPlan()
- * @method QueryUserById QueryUserById()
- * @method CreateMainVersionForAdmin CreateMainVersionForAdmin()
  * @method GetJobRunningTimeStatisticInfo GetJobRunningTimeStatisticInfo()
- * @method ListClusterNodesForAdmin ListClusterNodesForAdmin()
  * @method CreateUsers CreateUsers()
  * @method DescribeClusterBasicInfo DescribeClusterBasicInfo()
  * @method ModifyAlertDingDingGroup ModifyAlertDingDingGroup()
- * @method ListAvailableConfig ListAvailableConfig()
  * @method ModifyFlowCategory ModifyFlowCategory()
- * @method CreateClusterForInternal CreateClusterForInternal()
  * @method DescribeDataSourceSchemaTable DescribeDataSourceSchemaTable()
- * @method MigrateInstanceForAdmin MigrateInstanceForAdmin()
  * @method ListEmrMainVersion ListEmrMainVersion()
  * @method GetQueueInputStatisticInfo GetQueueInputStatisticInfo()
  * @method ResumeExecutionPlanScheduler ResumeExecutionPlanScheduler()
  * @method DescribeDataSource DescribeDataSource()
- * @method QueryClusterNumberId QueryClusterNumberId()
  * @method DescribeFlowNodeInstance DescribeFlowNodeInstance()
- * @method QueryJobNumberId QueryJobNumberId()
- * @method QueryClusterByUser QueryClusterByUser()
  * @method MetastoreDescribeKafkaConsumerGroup MetastoreDescribeKafkaConsumerGroup()
- * @method CountApmEvent CountApmEvent()
  * @method ListScalingRule ListScalingRule()
  * @method MetastoreListKafkaConsumerGroup MetastoreListKafkaConsumerGroup()
  * @method ReleaseETLJob ReleaseETLJob()
  * @method ReleaseClusterHostGroup ReleaseClusterHostGroup()
- * @method ListHealthRule ListHealthRule()
  * @method DescribeClusterServiceConfigHistory DescribeClusterServiceConfigHistory()
- * @method DescribeFlowSLA DescribeFlowSLA()
  * @method TerminateClusterOperation TerminateClusterOperation()
- * @method ModifyHealthRuleConfig ModifyHealthRuleConfig()
  * @method DescribeFlowVariableCollection DescribeFlowVariableCollection()
  * @method ListSlsLogstoreInfo ListSlsLogstoreInfo()
- * @method DescribeServiceConfigDefinition DescribeServiceConfigDefinition()
- * @method ListHealthRuleResult ListHealthRuleResult()
- * @method ListClusterOperationHostForAdmin ListClusterOperationHostForAdmin()
- * @method QueryPrice QueryPrice()
  * @method ListDataSourceSchemaTable ListDataSourceSchemaTable()
- * @method ListClustersForAdmin ListClustersForAdmin()
  * @method DeleteScalingTaskGroup DeleteScalingTaskGroup()
  * @method MetastoreCreateTable MetastoreCreateTable()
  * @method DeleteFlow DeleteFlow()
  * @method DescribeClusterOperationHostTaskLog DescribeClusterOperationHostTaskLog()
  * @method ModifyExecutionPlanClusterInfo ModifyExecutionPlanClusterInfo()
- * @method PhysicalDeleteEmrResource PhysicalDeleteEmrResource()
- * @method ResizeClusterForAdmin ResizeClusterForAdmin()
  * @method SuspendExecutionPlanScheduler SuspendExecutionPlanScheduler()
  * @method DescribeClusterStatistics DescribeClusterStatistics()
- * @method ListApmJobHeuristicResultDetail ListApmJobHeuristicResultDetail()
  * @method GetSupportedOpsCommand GetSupportedOpsCommand()
  * @method DetachClusterForNote DetachClusterForNote()
- * @method CreateEmrMainVersionForAdmin CreateEmrMainVersionForAdmin()
  * @method CreateClusterWithHostPool CreateClusterWithHostPool()
  * @method MetastoreUpdateKafkaTopic MetastoreUpdateKafkaTopic()
  * @method ListResourceQueue ListResourceQueue()
- * @method ModifyEmrAlarmStatusForAdmin ModifyEmrAlarmStatusForAdmin()
- * @method QueryApmTrendForAdmin QueryApmTrendForAdmin()
- * @method QueryApmSnapshot QueryApmSnapshot()
  * @method ListExecutionPlanInstances ListExecutionPlanInstances()
- * @method ListApmMetricConfig ListApmMetricConfig()
  * @method ListDataSourceSchemaDatabase ListDataSourceSchemaDatabase()
  * @method ListFlowProjectClusterSetting ListFlowProjectClusterSetting()
  * @method ModifyClusterHostGroup ModifyClusterHostGroup()
  * @method DescribeDataSourceCommand DescribeDataSourceCommand()
- * @method CheckEmrResource CheckEmrResource()
  * @method ListStackService ListStackService()
  * @method DeleteJob DeleteJob()
  * @method MetastoreListDataResources MetastoreListDataResources()
- * @method ListClusterForAdmin ListClusterForAdmin()
  * @method ModifyJob ModifyJob()
  * @method CreateAlertDingDingGroup CreateAlertDingDingGroup()
- * @method ListApmEvent ListApmEvent()
- * @method DescribeMetaTablePartitionForOuter DescribeMetaTablePartitionForOuter()
  * @method DescribeClusterTemplate DescribeClusterTemplate()
- * @method ListClusterServiceConfig ListClusterServiceConfig()
  * @method DescribeClusterService DescribeClusterService()
  * @method ModifyClusterTemplate ModifyClusterTemplate()
- * @method ListApmEventConfigByCode ListApmEventConfigByCode()
  * @method DeleteClusterScript DeleteClusterScript()
  * @method DescribeScalingRule DescribeScalingRule()
  * @method RunOpsCommand RunOpsCommand()
- * @method RequestGatewayService RequestGatewayService()
  * @method CreateJob CreateJob()
  * @method ModifyExecutionPlanScheduleInfo ModifyExecutionPlanScheduleInfo()
  * @method ModifyResourcePool ModifyResourcePool()
@@ -333,60 +229,39 @@ use aliyun\sdk\core\lib\Request;
  * @method ListRequiredService ListRequiredService()
  * @method RenderResourcePoolXml RenderResourcePoolXml()
  * @method ListFlow ListFlow()
- * @method ListClusterOperationHostTaskForAdmin ListClusterOperationHostTaskForAdmin()
  * @method ResizeClusterV2 ResizeClusterV2()
- * @method ListEmrAvailableConfigForAdmin ListEmrAvailableConfigForAdmin()
  * @method DescribeETLJobSqlSchema DescribeETLJobSqlSchema()
  * @method CreateScalingTaskGroup CreateScalingTaskGroup()
  * @method DescribeFlowJobStatistic DescribeFlowJobStatistic()
- * @method RelateStackVersion RelateStackVersion()
  * @method CloneFlowJob CloneFlowJob()
- * @method ListClusterHealth ListClusterHealth()
  * @method QueryAlarmRules QueryAlarmRules()
  * @method DescribeETLJobStageOutputSchema DescribeETLJobStageOutputSchema()
  * @method DescribeSecurityGroupAttribute DescribeSecurityGroupAttribute()
  * @method MetastoreDropDatabase MetastoreDropDatabase()
- * @method ListApmMetricConfigForAdmin ListApmMetricConfigForAdmin()
  * @method GetLogHistogram GetLogHistogram()
- * @method QueryOssLogPathJobBizId QueryOssLogPathJobBizId()
  * @method ListClusterHostGroup ListClusterHostGroup()
- * @method ListClusterOperationForAdmin ListClusterOperationForAdmin()
  * @method ListExecutionPlanInstanceTrend ListExecutionPlanInstanceTrend()
  * @method ListClusterOperation ListClusterOperation()
  * @method CreateClusterTemplate CreateClusterTemplate()
  * @method ListClusterSupportService ListClusterSupportService()
  * @method DeleteScalingRule DeleteScalingRule()
  * @method ListFlowNodeSqlResult ListFlowNodeSqlResult()
- * @method RenewClusterForAdmin RenewClusterForAdmin()
- * @method ListClusterForInternal ListClusterForInternal()
- * @method UpdateApmEventNotificationConfig UpdateApmEventNotificationConfig()
  * @method DeleteAlertContacts DeleteAlertContacts()
  * @method ListJobExecutionInstances ListJobExecutionInstances()
  * @method KillETLJobInstance KillETLJobInstance()
  * @method ListETLJobTriggerEntity ListETLJobTriggerEntity()
- * @method ListRequiredServiceForAdmin ListRequiredServiceForAdmin()
- * @method DescribeEmrStackVersion DescribeEmrStackVersion()
  * @method CreateFlowProjectClusterSetting CreateFlowProjectClusterSetting()
- * @method ListClusterNodes ListClusterNodes()
- * @method ModifyEmrMainVersionForAdmin ModifyEmrMainVersionForAdmin()
- * @method ListEmrAvailableResourceForAdmin ListEmrAvailableResourceForAdmin()
  * @method CreateClusterWithTemplate CreateClusterWithTemplate()
  * @method StartKafkaPreferredReplicaElection StartKafkaPreferredReplicaElection()
  * @method DescribeFlowCategoryTree DescribeFlowCategoryTree()
- * @method ModifyClusterEasModel ModifyClusterEasModel()
- * @method ModifyUserChannelInfo ModifyUserChannelInfo()
  * @method MetastoreCreateDataResource MetastoreCreateDataResource()
- * @method ListClusterNode ListClusterNode()
  * @method ListKafkaTopicStatistics ListKafkaTopicStatistics()
  * @method CreateClusterHostGroup CreateClusterHostGroup()
- * @method DescribeStackRelation DescribeStackRelation()
  * @method ListFlowJobHistory ListFlowJobHistory()
  * @method ModifyExecutionPlanJobInfo ModifyExecutionPlanJobInfo()
  * @method AttachClusterForNote AttachClusterForNote()
  * @method GetJobInputStatisticInfo GetJobInputStatisticInfo()
- * @method GetApmEventNotificationConfig GetApmEventNotificationConfig()
  * @method StopParagraph StopParagraph()
- * @method CheckUserBalance CheckUserBalance()
  * @method CloneETLJob CloneETLJob()
  * @method DeleteClusterTemplate DeleteClusterTemplate()
  * @method ListExecutePlanMigrateInfo ListExecutePlanMigrateInfo()
@@ -398,14 +273,9 @@ use aliyun\sdk\core\lib\Request;
  * @method RefreshClusterResourcePool RefreshClusterResourcePool()
  * @method ModifyFlowForWeb ModifyFlowForWeb()
  * @method MetastoreListKafkaTopic MetastoreListKafkaTopic()
- * @method ResetSgPort ResetSgPort()
  * @method ModifyClusterServiceConfig ModifyClusterServiceConfig()
- * @method ListMetaTableColumnForOuter ListMetaTableColumnForOuter()
  * @method ListUserStatistics ListUserStatistics()
- * @method DeleteJobExecutionPlanParam DeleteJobExecutionPlanParam()
- * @method GetApmUserYarnResourceSummary GetApmUserYarnResourceSummary()
  * @method ListClusterHostComponent ListClusterHostComponent()
- * @method QueryMetricData QueryMetricData()
  * @method DescribeFlowNodeInstanceLauncherLog DescribeFlowNodeInstanceLauncherLog()
  * @method ModifyScalingTaskGroup ModifyScalingTaskGroup()
  * @method CreateFlowProject CreateFlowProject()
@@ -413,8 +283,6 @@ use aliyun\sdk\core\lib\Request;
  * @method MetastoreDescribeTask MetastoreDescribeTask()
  * @method KillExecutionJobInstance KillExecutionJobInstance()
  * @method ListAlertUserGroup ListAlertUserGroup()
- * @method DeleteMainVersionForAdmin DeleteMainVersionForAdmin()
- * @method OperateTunnel2HostForAdmin OperateTunnel2HostForAdmin()
  * @method ListNotes ListNotes()
  * @method ListFlowProjectUser ListFlowProjectUser()
  * @method CheckDataSource CheckDataSource()
@@ -423,27 +291,19 @@ use aliyun\sdk\core\lib\Request;
  * @method RetryCreateUserPassword RetryCreateUserPassword()
  * @method KillExecutionPlanInstance KillExecutionPlanInstance()
  * @method MetastoreListTables MetastoreListTables()
- * @method ListUserIdInLastTimeForAdmin ListUserIdInLastTimeForAdmin()
  * @method GetOpsCommandResult GetOpsCommandResult()
  * @method PlanComponentTopo PlanComponentTopo()
  * @method ResolveETLJobSqlSchema ResolveETLJobSqlSchema()
  * @method DeleteParagraph DeleteParagraph()
  * @method ListKafkaReassignTopic ListKafkaReassignTopic()
  * @method CreateNote CreateNote()
- * @method AssignIpv6Addresses AssignIpv6Addresses()
  * @method UpdateNavNode UpdateNavNode()
- * @method CreateJobExecutionPlanParam CreateJobExecutionPlanParam()
  * @method DeleteNavNode DeleteNavNode()
  * @method CreateHostPool CreateHostPool()
  * @method UpdateDataSource UpdateDataSource()
- * @method ListMetaDatabaseForOuter ListMetaDatabaseForOuter()
- * @method CreateClusterHostGroupForAdmin CreateClusterHostGroupForAdmin()
- * @method GetApmUserAlertEventSummary GetApmUserAlertEventSummary()
- * @method DeleteApmEventNotificationConfig DeleteApmEventNotificationConfig()
  * @method CreateAlertContact CreateAlertContact()
  * @method CreateNavNode CreateNavNode()
  * @method DeleteClusterHostGroup DeleteClusterHostGroup()
- * @method GetApmJobStatisticsInfo GetApmJobStatisticsInfo()
  * @method UpdateETLJobStage UpdateETLJobStage()
  * @method AuthorizeSecurityGroup AuthorizeSecurityGroup()
  * @method OfflineKafkaBroker OfflineKafkaBroker()
@@ -454,8 +314,6 @@ use aliyun\sdk\core\lib\Request;
  * @method GetOpsCommandResultOnce GetOpsCommandResultOnce()
  * @method ListAlertDingDingGroup ListAlertDingDingGroup()
  * @method MetastoreDescribeKafkaTopic MetastoreDescribeKafkaTopic()
- * @method CreateClusterTemplateForAdmin CreateClusterTemplateForAdmin()
- * @method ListApmMetricDatapoint ListApmMetricDatapoint()
  * @method MetastoreUpdateTable MetastoreUpdateTable()
  * @method DeleteETLJob DeleteETLJob()
  * @method RunExecutionPlan RunExecutionPlan()
@@ -466,7 +324,6 @@ use aliyun\sdk\core\lib\Request;
  * @method DeleteHostPool DeleteHostPool()
  * @method DescribeETLJob DescribeETLJob()
  * @method ListClusters ListClusters()
- * @method DescribeClusterOperationHostTaskLogForAdmin DescribeClusterOperationHostTaskLogForAdmin()
  * @method UpdateProjectSetting UpdateProjectSetting()
  * @method CreateVerificationCode CreateVerificationCode()
  * @method DescribeFlow DescribeFlow()
@@ -477,17 +334,11 @@ use aliyun\sdk\core\lib\Request;
  * @method CreateResourceQueue CreateResourceQueue()
  * @method ListScalingActivity ListScalingActivity()
  * @method DescribeDataSourceSchemaDatabase DescribeDataSourceSchemaDatabase()
- * @method DescribeMetaTableColumnForOuter DescribeMetaTableColumnForOuter()
  * @method ModifyClusterName ModifyClusterName()
- * @method DescribeClusterHealth DescribeClusterHealth()
- * @method ListApmEventConfigForAdmin ListApmEventConfigForAdmin()
- * @method ResetSoftwarePassword ResetSoftwarePassword()
  * @method KillFlowJob KillFlowJob()
- * @method ResetAutoRenewal ResetAutoRenewal()
  * @method ListFlowCluster ListFlowCluster()
  * @method SuspendExecutionPlanInstance SuspendExecutionPlanInstance()
  * @method CreateExecutionPlan CreateExecutionPlan()
- * @method ListApmEventConfigByCodeForAdmin ListApmEventConfigByCodeForAdmin()
  */
 class V20160408
 {
@@ -502,47 +353,6 @@ class V20160408
  * @method string getBizId()
  */
 class DescribeHostPool extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setUserId($userId)
- * @method string getUserId()
- * @method $this setClusterId($clusterId)
- * @method string getClusterId()
- */
-class DescribeClusterForInternal extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setClusterId($clusterId)
- * @method string getClusterId()
- * @method $this setUserId($userId)
- * @method string getUserId()
- * @method $this setForceRelease($forceRelease)
- * @method bool getForceRelease()
- */
-class CheckClusterEcsReleaseForAdmin extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setClusterId($clusterId)
- * @method string getClusterId()
- * @method $this setServiceName($serviceName)
- * @method string getServiceName()
- */
-class DescribeClusterServiceForAdmin extends Request
 {
 
 }/**
@@ -566,19 +376,6 @@ class DescribeClusterServiceForAdmin extends Request
  * @method string getComment()
  */
 class MetastoreCreateDatabase extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setUserId($userId)
- * @method string getUserId()
- * @method $this setClusterId($clusterId)
- * @method string getClusterId()
- */
-class ReleaseClusterForInternal extends Request
 {
 
 }/**
@@ -619,33 +416,6 @@ class CreateDataSource extends Request
  * @method string getNavParentId()
  */
 class CreateETLJob extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setEventType($eventType)
- * @method string getEventType()
- * @method $this setTopic($topic)
- * @method string getTopic()
- * @method $this setUniqueKey($uniqueKey)
- * @method string getUniqueKey()
- * @method $this setEntityId($entityId)
- * @method string getEntityId()
- * @method $this setPriority($priority)
- * @method int getPriority()
- * @method $this setStatus($status)
- * @method string getStatus()
- * @method $this setClusterBizId($clusterBizId)
- * @method string getClusterBizId()
- * @method $this setPageNumber($pageNumber)
- * @method int getPageNumber()
- * @method $this setPageSize($pageSize)
- * @method int getPageSize()
- */
-class ListEmrAlarmForAdmin extends Request
 {
 
 }/**
@@ -791,28 +561,6 @@ class ListStack extends Request
  * @method int getResourceOwnerId()
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
- * @method $this setClusterId($clusterId)
- * @method string getClusterId()
- */
-class SyncClusterHostInfo extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setInstruction($instruction)
- * @method string getInstruction()
- */
-class MetastoreSync extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
  * @method $this setPageSize($pageSize)
  * @method int getPageSize()
  * @method $this setPageNumber($pageNumber)
@@ -934,113 +682,6 @@ class ListFlowInstance extends Request
  * @method int getResourceOwnerId()
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
- * @method $this setPageNumber($pageNumber)
- * @method int getPageNumber()
- * @method $this setPageSize($pageSize)
- * @method int getPageSize()
- * @method $this setAllStatus($allStatus)
- * @method bool getAllStatus()
- * @method $this setClusterBizIdList($clusterBizIdList)
- * @method array getClusterBizIdList()
- */
-class ListClusterForOuter extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setZoneId($zoneId)
- * @method string getZoneId()
- * @method $this setMasterInstanceType($masterInstanceType)
- * @method string getMasterInstanceType()
- * @method $this setCoreInstanceType($coreInstanceType)
- * @method string getCoreInstanceType()
- * @method $this setTaskInstanceType($taskInstanceType)
- * @method string getTaskInstanceType()
- * @method $this setMasterInstanceQuantity($masterInstanceQuantity)
- * @method int getMasterInstanceQuantity()
- * @method $this setCoreInstanceQuantity($coreInstanceQuantity)
- * @method int getCoreInstanceQuantity()
- * @method $this setTaskInstanceQuantity($taskInstanceQuantity)
- * @method int getTaskInstanceQuantity()
- * @method $this setMasterDiskType($masterDiskType)
- * @method string getMasterDiskType()
- * @method $this setCoreDiskType($coreDiskType)
- * @method string getCoreDiskType()
- * @method $this setTaskDiskType($taskDiskType)
- * @method string getTaskDiskType()
- * @method $this setMasterDiskQuantity($masterDiskQuantity)
- * @method int getMasterDiskQuantity()
- * @method $this setCoreDiskQuantity($coreDiskQuantity)
- * @method int getCoreDiskQuantity()
- * @method $this setTaskDiskQuantity($taskDiskQuantity)
- * @method int getTaskDiskQuantity()
- * @method $this setDuration($duration)
- * @method int getDuration()
- * @method $this setIoOptimized($ioOptimized)
- * @method bool getIoOptimized()
- * @method $this setChargeType($chargeType)
- * @method string getChargeType()
- * @method $this setNetType($netType)
- * @method string getNetType()
- * @method $this setDepositType($depositType)
- * @method string getDepositType()
- * @method $this setPeriod($period)
- * @method int getPeriod()
- * @method $this setHostGroup($hostGroup)
- * @method array getHostGroup()
- * @method $this setUserId($userId)
- * @method string getUserId()
- */
-class QueryPriceForAdmin extends Request
-{
-
-}/**
- * @method $this setUserId($userId)
- * @method string getUserId()
- * @method $this setTemplateBizId($templateBizId)
- * @method string getTemplateBizId()
- * @method $this setUniqueTag($uniqueTag)
- * @method string getUniqueTag()
- */
-class CreateClusterWithTemplateForInternal extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setClusterId($clusterId)
- * @method string getClusterId()
- * @method $this setEmrPeriod($emrPeriod)
- * @method int getEmrPeriod()
- * @method $this setRenewEcsDo($renewEcsDo)
- * @method array getRenewEcsDo()
- */
-class RenewCluster extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setClusterId($clusterId)
- * @method string getClusterId()
- * @method $this setUserId($userId)
- * @method string getUserId()
- */
-class CheckPrePaidEcsReleaseForAdmin extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
  * @method $this setId($id)
  * @method string getId()
  * @method $this setArguments($arguments)
@@ -1049,92 +690,6 @@ class CheckPrePaidEcsReleaseForAdmin extends Request
  * @method bool getRerunFail()
  */
 class RetryExecutionPlanInstance extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setEnabled($enabled)
- * @method bool getEnabled()
- * @method $this setPageNumber($pageNumber)
- * @method int getPageNumber()
- * @method $this setPageSize($pageSize)
- * @method int getPageSize()
- */
-class ListApmEventNotificationConfig extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setName($name)
- * @method string getName()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setZoneId($zoneId)
- * @method string getZoneId()
- * @method $this setLogEnable($logEnable)
- * @method bool getLogEnable()
- * @method $this setLogPath($logPath)
- * @method string getLogPath()
- * @method $this setSecurityGroupId($securityGroupId)
- * @method string getSecurityGroupId()
- * @method $this setIsOpenPublicIp($isOpenPublicIp)
- * @method bool getIsOpenPublicIp()
- * @method $this setSecurityGroupName($securityGroupName)
- * @method string getSecurityGroupName()
- * @method $this setChargeType($chargeType)
- * @method string getChargeType()
- * @method $this setPeriod($period)
- * @method int getPeriod()
- * @method $this setAutoRenew($autoRenew)
- * @method bool getAutoRenew()
- * @method $this setVpcId($vpcId)
- * @method string getVpcId()
- * @method $this setVSwitchId($vSwitchId)
- * @method string getVSwitchId()
- * @method $this setNetType($netType)
- * @method string getNetType()
- * @method $this setUserDefinedEmrEcsRole($userDefinedEmrEcsRole)
- * @method string getUserDefinedEmrEcsRole()
- * @method $this setEmrVer($emrVer)
- * @method string getEmrVer()
- * @method $this setOptionSoftWareList($optionSoftWareList)
- * @method array getOptionSoftWareList()
- * @method $this setClusterType($clusterType)
- * @method string getClusterType()
- * @method $this setHighAvailabilityEnable($highAvailabilityEnable)
- * @method bool getHighAvailabilityEnable()
- * @method $this setUseLocalMetaDb($useLocalMetaDb)
- * @method bool getUseLocalMetaDb()
- * @method $this setIoOptimized($ioOptimized)
- * @method bool getIoOptimized()
- * @method $this setSshEnable($sshEnable)
- * @method bool getSshEnable()
- * @method $this setInstanceGeneration($instanceGeneration)
- * @method string getInstanceGeneration()
- * @method $this setDepositType($depositType)
- * @method string getDepositType()
- * @method $this setMachineType($machineType)
- * @method string getMachineType()
- * @method $this setMasterPwdEnable($masterPwdEnable)
- * @method bool getMasterPwdEnable()
- * @method $this setMasterPwd($masterPwd)
- * @method string getMasterPwd()
- * @method $this setEcsOrder($ecsOrder)
- * @method array getEcsOrder()
- * @method $this setBootstrapAction($bootstrapAction)
- * @method array getBootstrapAction()
- * @method $this setConfigurations($configurations)
- * @method string getConfigurations()
- * @method $this setEasEnable($easEnable)
- * @method bool getEasEnable()
- * @method $this setRelatedClusterId($relatedClusterId)
- * @method string getRelatedClusterId()
- */
-class CreateCluster extends Request
 {
 
 }/**
@@ -1213,19 +768,6 @@ class ListEmrAvailableConfig extends Request
  * @method string getName()
  */
 class CloneDataSource extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setId($id)
- * @method string getId()
- * @method $this setStatus($status)
- * @method string getStatus()
- */
-class QueryClusterOrders extends Request
 {
 
 }/**
@@ -1322,17 +864,6 @@ class DeleteUser extends Request
  * @method string getName()
  */
 class ModifyJobExecutionPlanFolder extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setConsoleRoleName($consoleRoleName)
- * @method string getConsoleRoleName()
- */
-class PassRole extends Request
 {
 
 }/**
@@ -1499,17 +1030,6 @@ class DescribeKafkaBroker extends Request
  * @method int getResourceOwnerId()
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
- * @method $this setConsoleRoleName($consoleRoleName)
- * @method string getConsoleRoleName()
- */
-class CheckUserRole extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
  * @method $this setPoolType($poolType)
@@ -1520,17 +1040,6 @@ class CheckUserRole extends Request
  * @method int getPageSize()
  */
 class ListResourcePool extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setClusterId($clusterId)
- * @method string getClusterId()
- */
-class DescribeClusterBasicInfoForAdmin extends Request
 {
 
 }/**
@@ -1684,17 +1193,6 @@ class MetastoreModifyDataResource extends Request
  * @method int getResourceOwnerId()
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
- * @method $this setId($id)
- * @method string getId()
- */
-class DescribeClusterScriptForAdmin extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
  * @method $this setPageNumber($pageNumber)
@@ -1770,25 +1268,6 @@ class GetJobMigrateResult extends Request
 {
 
 }/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setClusterId($clusterId)
- * @method string getClusterId()
- * @method $this setEcsId($ecsId)
- * @method string getEcsId()
- * @method $this setEcsIdList($ecsIdList)
- * @method string getEcsIdList()
- * @method $this setEcsPeriod($ecsPeriod)
- * @method int getEcsPeriod()
- * @method $this setEmrPeriod($emrPeriod)
- * @method int getEmrPeriod()
- */
-class QueryPriceForRenewEcs extends Request
-{
-
-}/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
  * @method $this setProjectId($projectId)
@@ -1821,17 +1300,6 @@ class ModifyHostPool extends Request
  * @method string getProjectId()
  */
 class DeleteFlowProjectById extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setDatabaseId($databaseId)
- * @method int getDatabaseId()
- */
-class DescribeMetaDatabaseForOuter extends Request
 {
 
 }/**
@@ -1884,52 +1352,10 @@ class DeleteFlowProject extends Request
  * @method int getResourceOwnerId()
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
- * @method $this setClusterId($clusterId)
- * @method string getClusterId()
- * @method $this setRollingRestart($rollingRestart)
- * @method bool getRollingRestart()
- * @method $this setUpgradedHostGroupOnly($upgradedHostGroupOnly)
- * @method bool getUpgradedHostGroupOnly()
- */
-class RestartCluster extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
  * @method $this setId($id)
  * @method string getId()
  */
 class DeleteExecutionPlan extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setClusterId($clusterId)
- * @method string getClusterId()
- * @method $this setHostInstanceId($hostInstanceId)
- * @method string getHostInstanceId()
- * @method $this setHostName($hostName)
- * @method string getHostName()
- * @method $this setPrivateIp($privateIp)
- * @method string getPrivateIp()
- * @method $this setPublicIp($publicIp)
- * @method string getPublicIp()
- * @method $this setGroupType($groupType)
- * @method string getGroupType()
- * @method $this setComponentName($componentName)
- * @method string getComponentName()
- * @method $this setPageNumber($pageNumber)
- * @method int getPageNumber()
- * @method $this setPageSize($pageSize)
- * @method int getPageSize()
- */
-class ListClusterHostForAdmin extends Request
 {
 
 }/**
@@ -1943,26 +1369,6 @@ class ListClusterHostForAdmin extends Request
  * @method array getHpHost()
  */
 class AddHpHost extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setTableId($tableId)
- * @method int getTableId()
- */
-class DescribeMetaTableForOuter extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setId($id)
- * @method int getId()
- */
-class DeleteJobExecutionPlanFolder extends Request
 {
 
 }/**
@@ -2022,17 +1428,6 @@ class CreateUserStatistics extends Request
  * @method int getResourceOwnerId()
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
- * @method $this setClusterId($clusterId)
- * @method string getClusterId()
- */
-class CheckRenewCluster extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
  * @method $this setPageSize($pageSize)
  * @method int getPageSize()
  * @method $this setPageNumber($pageNumber)
@@ -2082,19 +1477,6 @@ class DescribeNote extends Request
  * @method int getResourceOwnerId()
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
- * @method $this setClusterId($clusterId)
- * @method string getClusterId()
- * @method $this setUserId($userId)
- * @method string getUserId()
- */
-class CancelOrderForAdmin extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
  * @method $this setDataSourceId($dataSourceId)
  * @method string getDataSourceId()
  */
@@ -2112,19 +1494,6 @@ class MetastoreDescribeDataSource extends Request
  * @method string getRegionId()
  */
 class DeleteResourceQueue extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setTopic($topic)
- * @method string getTopic()
- * @method $this setMessageId($messageId)
- * @method string getMessageId()
- * @method $this setMessageBody($messageBody)
- * @method string getMessageBody()
- */
-class CreateEmrBizEvent extends Request
 {
 
 }/**
@@ -2297,55 +1666,6 @@ class SubmitFlowJob extends Request
 {
 
 }/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setClusterId($clusterId)
- * @method string getClusterId()
- * @method $this setDiskConfig($diskConfig)
- * @method array getDiskConfig()
- */
-class ResizeDisk extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- */
-class ListClusterServiceStatusOverview extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setEventCode($eventCode)
- * @method string getEventCode()
- * @method $this setEventFrom($eventFrom)
- * @method string getEventFrom()
- * @method $this setVisibility($visibility)
- * @method string getVisibility()
- * @method $this setLevel($level)
- * @method string getLevel()
- * @method $this setComponentName($componentName)
- * @method string getComponentName()
- * @method $this setServiceName($serviceName)
- * @method string getServiceName()
- * @method $this setCategory($category)
- * @method string getCategory()
- * @method $this setPageNumber($pageNumber)
- * @method int getPageNumber()
- * @method $this setPageSize($pageSize)
- * @method int getPageSize()
- */
-class ListApmEventConfig extends Request
-{
-
-}/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
  * @method $this setResourceOwnerId($resourceOwnerId)
@@ -2456,91 +1776,6 @@ class ModifyExecutionPlan extends Request
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
- * @method $this setName($name)
- * @method string getName()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setZoneId($zoneId)
- * @method string getZoneId()
- * @method $this setLogPath($logPath)
- * @method string getLogPath()
- * @method $this setSecurityGroupId($securityGroupId)
- * @method string getSecurityGroupId()
- * @method $this setIsOpenPublicIp($isOpenPublicIp)
- * @method bool getIsOpenPublicIp()
- * @method $this setSecurityGroupName($securityGroupName)
- * @method string getSecurityGroupName()
- * @method $this setChargeType($chargeType)
- * @method string getChargeType()
- * @method $this setPeriod($period)
- * @method int getPeriod()
- * @method $this setAutoRenew($autoRenew)
- * @method bool getAutoRenew()
- * @method $this setVpcId($vpcId)
- * @method string getVpcId()
- * @method $this setVSwitchId($vSwitchId)
- * @method string getVSwitchId()
- * @method $this setNetType($netType)
- * @method string getNetType()
- * @method $this setUserDefinedEmrEcsRole($userDefinedEmrEcsRole)
- * @method string getUserDefinedEmrEcsRole()
- * @method $this setEmrVer($emrVer)
- * @method string getEmrVer()
- * @method $this setUserId($userId)
- * @method string getUserId()
- * @method $this setOptionSoftWareList($optionSoftWareList)
- * @method array getOptionSoftWareList()
- * @method $this setClusterType($clusterType)
- * @method string getClusterType()
- * @method $this setHighAvailabilityEnable($highAvailabilityEnable)
- * @method bool getHighAvailabilityEnable()
- * @method $this setUseLocalMetaDb($useLocalMetaDb)
- * @method bool getUseLocalMetaDb()
- * @method $this setIoOptimized($ioOptimized)
- * @method bool getIoOptimized()
- * @method $this setSshEnable($sshEnable)
- * @method bool getSshEnable()
- * @method $this setInstanceGeneration($instanceGeneration)
- * @method string getInstanceGeneration()
- * @method $this setMasterPwd($masterPwd)
- * @method string getMasterPwd()
- * @method $this setKeyPairName($keyPairName)
- * @method string getKeyPairName()
- * @method $this setUserInfo($userInfo)
- * @method array getUserInfo()
- * @method $this setHostComponentInfo($hostComponentInfo)
- * @method array getHostComponentInfo()
- * @method $this setDepositType($depositType)
- * @method string getDepositType()
- * @method $this setMachineType($machineType)
- * @method string getMachineType()
- * @method $this setHostGroup($hostGroup)
- * @method array getHostGroup()
- * @method $this setBootstrapAction($bootstrapAction)
- * @method array getBootstrapAction()
- * @method $this setUseCustomHiveMetaDB($useCustomHiveMetaDB)
- * @method bool getUseCustomHiveMetaDB()
- * @method $this setInitCustomHiveMetaDB($initCustomHiveMetaDB)
- * @method bool getInitCustomHiveMetaDB()
- * @method $this setConfig($config)
- * @method array getConfig()
- * @method $this setConfigurations($configurations)
- * @method string getConfigurations()
- * @method $this setEasEnable($easEnable)
- * @method bool getEasEnable()
- * @method $this setRelatedClusterId($relatedClusterId)
- * @method string getRelatedClusterId()
- * @method $this setWhiteListType($whiteListType)
- * @method string getWhiteListType()
- * @method $this setAuthorizeContent($authorizeContent)
- * @method string getAuthorizeContent()
- */
-class CreateClusterForAdmin extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
  * @method $this setId($id)
@@ -2642,17 +1877,6 @@ class ListDependedService extends Request
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
- * @method $this setParentId($parentId)
- * @method int getParentId()
- * @method $this setName($name)
- * @method string getName()
- */
-class CreateJobExecutionPlanFolder extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
  * @method $this setClusterId($clusterId)
@@ -2690,56 +1914,6 @@ class StartFlow extends Request
 {
 
 }/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setClusterId($clusterId)
- * @method string getClusterId()
- * @method $this setAppId($appId)
- * @method string getAppId()
- */
-class GetApmApplicationDetail extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setInterrupt($interrupt)
- * @method bool getInterrupt()
- * @method $this setInvoker($invoker)
- * @method string getInvoker()
- * @method $this setPk($pk)
- * @method string getPk()
- * @method $this setBid($bid)
- * @method string getBid()
- * @method $this setHid($hid)
- * @method int getHid()
- * @method $this setCountry($country)
- * @method string getCountry()
- * @method $this setTaskIdentifier($taskIdentifier)
- * @method string getTaskIdentifier()
- * @method $this setTaskExtraData($taskExtraData)
- * @method string getTaskExtraData()
- * @method $this setGmtWakeup($gmtWakeup)
- * @method string getGmtWakeup()
- * @method $this setSuccess($success)
- * @method bool getSuccess()
- * @method $this setMessage($message)
- * @method string getMessage()
- * @method $this setLevel($level)
- * @method int getLevel()
- * @method $this setUrl($url)
- * @method string getUrl()
- * @method $this setPrompt($prompt)
- * @method string getPrompt()
- */
-class LogicalDeleteEmrResource extends Request
-{
-
-}/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
  * @method $this setProjectId($projectId)
@@ -2748,21 +1922,6 @@ class LogicalDeleteEmrResource extends Request
  * @method array getUser()
  */
 class CreateFlowProjectUser extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setClusterId($clusterId)
- * @method string getClusterId()
- * @method $this setPageNumber($pageNumber)
- * @method int getPageNumber()
- * @method $this setPageSize($pageSize)
- * @method int getPageSize()
- */
-class ListClusterServiceForAdmin extends Request
 {
 
 }/**
@@ -2783,54 +1942,6 @@ class ListClusterTemplates extends Request
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setName($name)
- * @method string getName()
- * @method $this setTargetClusterList($targetClusterList)
- * @method array getTargetClusterList()
- * @method $this setServiceList($serviceList)
- * @method array getServiceList()
- * @method $this setSeverityList($severityList)
- * @method array getSeverityList()
- * @method $this setEventTypeList($eventTypeList)
- * @method array getEventTypeList()
- * @method $this setEventCodeList($eventCodeList)
- * @method array getEventCodeList()
- * @method $this setDingGroupList($dingGroupList)
- * @method array getDingGroupList()
- * @method $this setUserGroupList($userGroupList)
- * @method array getUserGroupList()
- * @method $this setEnabled($enabled)
- * @method bool getEnabled()
- */
-class CreateApmEventNotificationConfig extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setPageNumber($pageNumber)
- * @method int getPageNumber()
- * @method $this setPageSize($pageSize)
- * @method int getPageSize()
- * @method $this setClusterBizId($clusterBizId)
- * @method string getClusterBizId()
- * @method $this setDatabaseId($databaseId)
- * @method int getDatabaseId()
- * @method $this setTableId($tableId)
- * @method int getTableId()
- * @method $this setPartitionName($partitionName)
- * @method string getPartitionName()
- */
-class ListMetaTablePartitionForOuter extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
  * @method $this setNoteId($noteId)
  * @method string getNoteId()
  * @method $this setRegionId($regionId)
@@ -2839,21 +1950,6 @@ class ListMetaTablePartitionForOuter extends Request
  * @method string getText()
  */
 class CreateParagraph extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setUserId($userId)
- * @method string getUserId()
- * @method $this setPayload($payload)
- * @method string getPayload()
- * @method $this setClusterBizId($clusterBizId)
- * @method array getClusterBizId()
- */
-class QueryApmSnapshotForAdmin extends Request
 {
 
 }/**
@@ -2875,40 +1971,6 @@ class QueryApmSnapshotForAdmin extends Request
  * @method string getHostRole()
  */
 class QuerySlsMetricData extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setClusterId($clusterId)
- * @method string getClusterId()
- * @method $this setJobId($jobId)
- * @method string getJobId()
- * @method $this setKeyBase($keyBase)
- * @method string getKeyBase()
- * @method $this setInstanceId($instanceId)
- * @method string getInstanceId()
- * @method $this setContainerId($containerId)
- * @method string getContainerId()
- * @method $this setLogName($logName)
- * @method string getLogName()
- */
-class QueryLogKey extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setClusterId($clusterId)
- * @method string getClusterId()
- * @method $this setServiceName($serviceName)
- * @method string getServiceName()
- */
-class ListClusterServiceStatus extends Request
 {
 
 }/**
@@ -2998,19 +2060,6 @@ class ModifyAlertUserGroup extends Request
  * @method string getRegionId()
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
- * @method $this setServiceName($serviceName)
- * @method string getServiceName()
- */
-class ListClusterServiceQuickLinkForAdmin extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setClusterId($clusterId)
- * @method string getClusterId()
  * @method $this setFromDatetime($fromDatetime)
  * @method string getFromDatetime()
  * @method $this setToDatetime($toDatetime)
@@ -3035,55 +2084,12 @@ class ReassignKafka extends Request
 {
 
 }/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setClusterId($clusterId)
- * @method string getClusterId()
- */
-class DescribeClusterForAdmin extends Request
-{
-
-}/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
  * @method $this setData($data)
  * @method string getData()
  */
 class ModifyFlowVariableCollection extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setClusterId($clusterId)
- * @method string getClusterId()
- * @method $this setInstanceTypeConfig($instanceTypeConfig)
- * @method array getInstanceTypeConfig()
- */
-class ModifyPrepayInstanceSpec extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setUserId($userId)
- * @method string getUserId()
- * @method $this setClusterId($clusterId)
- * @method string getClusterId()
- * @method $this setInstanceId($instanceId)
- * @method string getInstanceId()
- * @method $this setJumpServerIp($jumpServerIp)
- * @method string getJumpServerIp()
- * @method $this setOperateType($operateType)
- * @method string getOperateType()
- */
-class OperateFullManagedClusterForAdmin extends Request
 {
 
 }/**
@@ -3130,19 +2136,6 @@ class CreateResourcePool extends Request
  * @method int getInteractionJobMigratedNum()
  */
 class ModifyUserStatistics extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setUserId($userId)
- * @method string getUserId()
- * @method $this setClusterId($clusterId)
- * @method string getClusterId()
- */
-class ReleaseClusterForAdmin extends Request
 {
 
 }/**
@@ -3208,13 +2201,6 @@ class MetastoreDataPreview extends Request
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
- */
-class MockPopHttp extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
  * @method $this setIds($ids)
@@ -3243,19 +2229,6 @@ class ListClusterServiceCustomActionSupportConfig extends Request
  * @method int getResourceOwnerId()
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
- * @method $this setPayload($payload)
- * @method string getPayload()
- * @method $this setClusterBizId($clusterBizId)
- * @method array getClusterBizId()
- */
-class QueryApmTrend extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
  * @method $this setId($id)
  * @method string getId()
  */
@@ -3275,30 +2248,6 @@ class DescribeClusterScript extends Request
  * @method string getDbName()
  */
 class SyncDataSourceSchemaDatabase extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setId($id)
- * @method string getId()
- */
-class DescribeCluster extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setClusterId($clusterId)
- * @method string getClusterId()
- * @method $this setUserId($userId)
- * @method string getUserId()
- */
-class SyncClusterHostInfoForAdmin extends Request
 {
 
 }/**
@@ -3344,19 +2293,6 @@ class DeleteNote extends Request
 {
 
 }/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setId($id)
- * @method string getId()
- * @method $this setStatus($status)
- * @method string getStatus()
- */
-class QueryClusterOrdersForAdmin extends Request
-{
-
-}/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
  * @method $this setProjectId($projectId)
@@ -3365,29 +2301,6 @@ class QueryClusterOrdersForAdmin extends Request
  * @method string getClusterId()
  */
 class ListFlowClusterHost extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setPageNumber($pageNumber)
- * @method int getPageNumber()
- * @method $this setPageSize($pageSize)
- * @method int getPageSize()
- * @method $this setUserId($userId)
- * @method string getUserId()
- * @method $this setClusterId($clusterId)
- * @method string getClusterId()
- * @method $this setClusterIdList($clusterIdList)
- * @method array getClusterIdList()
- * @method $this setEcsStatusList($ecsStatusList)
- * @method array getEcsStatusList()
- * @method $this setInstanceIdList($instanceIdList)
- * @method array getInstanceIdList()
- */
-class ListEcsForAdmin extends Request
 {
 
 }/**
@@ -3424,23 +2337,6 @@ class DescribeFlowProject extends Request
 {
 
 }/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setClusterId($clusterId)
- * @method string getClusterId()
- * @method $this setHostGroupId($hostGroupId)
- * @method string getHostGroupId()
- * @method $this setPageNumber($pageNumber)
- * @method int getPageNumber()
- * @method $this setPageSize($pageSize)
- * @method int getPageSize()
- */
-class ListClusterHostGroupForAdmin extends Request
-{
-
-}/**
  * @method $this setProjectId($projectId)
  * @method string getProjectId()
  * @method $this setId($id)
@@ -3463,47 +2359,6 @@ class DeleteAlertDingDingGroups extends Request
 {
 
 }/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setStartTimeFrom($startTimeFrom)
- * @method int getStartTimeFrom()
- * @method $this setStartTimeTo($startTimeTo)
- * @method int getStartTimeTo()
- * @method $this setEndTimeFrom($endTimeFrom)
- * @method int getEndTimeFrom()
- * @method $this setEndTimeTo($endTimeTo)
- * @method int getEndTimeTo()
- * @method $this setClusterId($clusterId)
- * @method string getClusterId()
- * @method $this setAppId($appId)
- * @method string getAppId()
- * @method $this setState($state)
- * @method string getState()
- * @method $this setFinalStatus($finalStatus)
- * @method string getFinalStatus()
- * @method $this setUser($user)
- * @method string getUser()
- * @method $this setQueue($queue)
- * @method string getQueue()
- * @method $this setName($name)
- * @method string getName()
- * @method $this setJobType($jobType)
- * @method string getJobType()
- * @method $this setOrderBy($orderBy)
- * @method string getOrderBy()
- * @method $this setDiagnoseResult($diagnoseResult)
- * @method string getDiagnoseResult()
- * @method $this setPageNumber($pageNumber)
- * @method int getPageNumber()
- * @method $this setPageSize($pageSize)
- * @method int getPageSize()
- */
-class ListApmApplication extends Request
-{
-
-}/**
  * @method $this setId($id)
  * @method string getId()
  * @method $this setRegionId($regionId)
@@ -3523,43 +2378,6 @@ class DeleteFlowCategory extends Request
  * @method string getClusterId()
  */
 class DescribeFlowProjectClusterSetting extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setClusterId($clusterId)
- * @method string getClusterId()
- * @method $this setChargeTypeConfig($chargeTypeConfig)
- * @method array getChargeTypeConfig()
- */
-class ModifyChargeType extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- */
-class GetApmUserHdfsResourceSummary extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setPageSize($pageSize)
- * @method int getPageSize()
- * @method $this setPageNumber($pageNumber)
- * @method int getPageNumber()
- * @method $this setEmrVersion($emrVersion)
- * @method string getEmrVersion()
- */
-class ListEmrVersionsForAdmin extends Request
 {
 
 }/**
@@ -3610,29 +2428,6 @@ class DescribeParagraph extends Request
 {
 
 }/**
- * @method $this setClusterId($clusterId)
- * @method string getClusterId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setNewMasterInstances($newMasterInstances)
- * @method int getNewMasterInstances()
- * @method $this setNewCoreInstances($newCoreInstances)
- * @method int getNewCoreInstances()
- * @method $this setNewTaskInstances($newTaskInstances)
- * @method int getNewTaskInstances()
- * @method $this setChargeType($chargeType)
- * @method string getChargeType()
- * @method $this setPeriod($period)
- * @method int getPeriod()
- * @method $this setAutoRenew($autoRenew)
- * @method bool getAutoRenew()
- * @method $this setCoreInstanceType($coreInstanceType)
- * @method string getCoreInstanceType()
- */
-class ResizeCluster extends Request
-{
-
-}/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
  * @method $this setProjectId($projectId)
@@ -3669,17 +2464,6 @@ class ListFlowProject extends Request
  * @method string getRegionId()
  */
 class CommonApiWhiteList extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setClusterId($clusterId)
- * @method string getClusterId()
- */
-class QueryOssLogPathClusterBizId extends Request
 {
 
 }/**
@@ -3798,23 +2582,6 @@ class ModifyFlow extends Request
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setClusterId($clusterId)
- * @method string getClusterId()
- * @method $this setServiceName($serviceName)
- * @method string getServiceName()
- * @method $this setPageNumber($pageNumber)
- * @method int getPageNumber()
- * @method $this setPageSize($pageSize)
- * @method int getPageSize()
- */
-class ListClusterServiceConfigVersion extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
  * @method $this setNoteId($noteId)
  * @method string getNoteId()
  * @method $this setId($id)
@@ -3825,19 +2592,6 @@ class ListClusterServiceConfigVersion extends Request
  * @method string getText()
  */
 class RunParagraph extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setType($type)
- * @method string getType()
- * @method $this setId($id)
- * @method string getId()
- */
-class DecryptBizId extends Request
 {
 
 }/**
@@ -3897,19 +2651,6 @@ class SearchLog extends Request
  * @method string getClusterId()
  */
 class DescribeClusterResourcePoolSchedulerType extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setClusterId($clusterId)
- * @method string getClusterId()
- * @method $this setModifyConfigSpec($modifyConfigSpec)
- * @method array getModifyConfigSpec()
- */
-class QueryPriceForModifyConfig extends Request
 {
 
 }/**
@@ -4100,32 +2841,6 @@ class DescribeFlowCategory extends Request
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setId($id)
- * @method string getId()
- * @method $this setItemType($itemType)
- * @method string getItemType()
- * @method $this setInterval($interval)
- * @method string getInterval()
- */
-class GetClusterStatus extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setClusterId($clusterId)
- * @method string getClusterId()
- */
-class ListClusterScriptsForAdmin extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
  * @method $this setId($id)
  * @method string getId()
  * @method $this setRegionId($regionId)
@@ -4154,102 +2869,6 @@ class DescribeUserStatistics extends Request
  * @method string getClusterId()
  */
 class ListClusterScripts extends Request
-{
-
-}/**
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setResource($resource)
- * @method string getResource()
- * @method $this setUserAction($userAction)
- * @method string getUserAction()
- */
-class CheckUserRam extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setPageNumber($pageNumber)
- * @method int getPageNumber()
- * @method $this setPageSize($pageSize)
- * @method int getPageSize()
- * @method $this setClusterBizId($clusterBizId)
- * @method string getClusterBizId()
- * @method $this setDatabaseId($databaseId)
- * @method int getDatabaseId()
- * @method $this setTableName($tableName)
- * @method string getTableName()
- * @method $this setTableType($tableType)
- * @method string getTableType()
- */
-class ListMetaTableForOuter extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- */
-class AuthRealName extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setJobType($jobType)
- * @method string getJobType()
- * @method $this setFinalStatus($finalStatus)
- * @method string getFinalStatus()
- * @method $this setBizId($bizId)
- * @method string getBizId()
- * @method $this setAppId($appId)
- * @method string getAppId()
- * @method $this setHeuristicStatus($heuristicStatus)
- * @method string getHeuristicStatus()
- * @method $this setStatus($status)
- * @method string getStatus()
- * @method $this setStartTimeBegin($startTimeBegin)
- * @method int getStartTimeBegin()
- * @method $this setStartTimeEnd($startTimeEnd)
- * @method int getStartTimeEnd()
- * @method $this setEndTimeBegin($endTimeBegin)
- * @method int getEndTimeBegin()
- * @method $this setEndTimeEnd($endTimeEnd)
- * @method int getEndTimeEnd()
- * @method $this setUserName($userName)
- * @method string getUserName()
- * @method $this setDuration($duration)
- * @method string getDuration()
- * @method $this setHeuristicDetailsArgs($heuristicDetailsArgs)
- * @method string getHeuristicDetailsArgs()
- * @method $this setHeuristicResultType($heuristicResultType)
- * @method string getHeuristicResultType()
- * @method $this setValue($value)
- * @method string getValue()
- * @method $this setHeuristicSeverity($heuristicSeverity)
- * @method string getHeuristicSeverity()
- * @method $this setHeuristicName($heuristicName)
- * @method string getHeuristicName()
- * @method $this setJobSeverity($jobSeverity)
- * @method string getJobSeverity()
- * @method $this setJobScore($jobScore)
- * @method string getJobScore()
- * @method $this setHeuristicScore($heuristicScore)
- * @method string getHeuristicScore()
- * @method $this setQueueName($queueName)
- * @method string getQueueName()
- * @method $this setAppName($appName)
- * @method string getAppName()
- * @method $this setEventId($eventId)
- * @method string getEventId()
- */
-class ListApmJobHeuristicResult extends Request
 {
 
 }/**
@@ -4287,25 +2906,6 @@ class ListApmJobHeuristicResult extends Request
  * @method string getParentCategory()
  */
 class CreateFlowForWeb extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setUserId($userId)
- * @method string getUserId()
- * @method $this setClusterId($clusterId)
- * @method string getClusterId()
- * @method $this setStatusList($statusList)
- * @method array getStatusList()
- * @method $this setPageNumber($pageNumber)
- * @method int getPageNumber()
- * @method $this setPageSize($pageSize)
- * @method int getPageSize()
- */
-class ListClusterNodeForAdmin extends Request
 {
 
 }/**
@@ -4468,17 +3068,6 @@ class MetastoreCreateKafkaTopic extends Request
  * @method int getResourceOwnerId()
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
- * @method $this setdata($data)
- * @method string getdata()
- */
-class PayOrderCallback extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
  * @method $this setId($id)
  * @method string getId()
  */
@@ -4500,19 +3089,6 @@ class DeleteDataSource extends Request
  * @method string getBalanceThreshold()
  */
 class StartKafkaBrokerDiskBalancer extends Request
-{
-
-}/**
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setClusterId($clusterId)
- * @method string getClusterId()
- * @method $this setServiceName($serviceName)
- * @method string getServiceName()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- */
-class DescribeServiceHealth extends Request
 {
 
 }/**
@@ -4578,28 +3154,6 @@ class RetryExecutionPlan extends Request
  * @method int getResourceOwnerId()
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
- */
-class QueryUserById extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setMainVersion($mainVersion)
- * @method string getMainVersion()
- * @method $this setContent($content)
- * @method string getContent()
- */
-class CreateMainVersionForAdmin extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
  * @method $this setFromDatetime($fromDatetime)
@@ -4612,17 +3166,6 @@ class CreateMainVersionForAdmin extends Request
  * @method int getPageNumber()
  */
 class GetJobRunningTimeStatisticInfo extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setClusterId($clusterId)
- * @method string getClusterId()
- */
-class ListClusterNodesForAdmin extends Request
 {
 
 }/**
@@ -4667,19 +3210,6 @@ class ModifyAlertDingDingGroup extends Request
 {
 
 }/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setDepositType($depositType)
- * @method string getDepositType()
- * @method $this setMachineType($machineType)
- * @method string getMachineType()
- */
-class ListAvailableConfig extends Request
-{
-
-}/**
  * @method $this setProjectId($projectId)
  * @method string getProjectId()
  * @method $this setRegionId($regionId)
@@ -4697,19 +3227,6 @@ class ModifyFlowCategory extends Request
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
- * @method $this setUserId($userId)
- * @method string getUserId()
- * @method $this setClusterCondition($clusterCondition)
- * @method string getClusterCondition()
- * @method $this setClusterTemplateId($clusterTemplateId)
- * @method int getClusterTemplateId()
- */
-class CreateClusterForInternal extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
  * @method $this setDataSourceId($dataSourceId)
@@ -4720,21 +3237,6 @@ class CreateClusterForInternal extends Request
  * @method string getTableName()
  */
 class DescribeDataSourceSchemaTable extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setClusterId($clusterId)
- * @method string getClusterId()
- * @method $this setInstanceId($instanceId)
- * @method string getInstanceId()
- * @method $this setSkipEmrMigrate($skipEmrMigrate)
- * @method bool getSkipEmrMigrate()
- */
-class MigrateInstanceForAdmin extends Request
 {
 
 }/**
@@ -4794,17 +3296,6 @@ class DescribeDataSource extends Request
 {
 
 }/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setClusterId($clusterId)
- * @method string getClusterId()
- */
-class QueryClusterNumberId extends Request
-{
-
-}/**
  * @method $this setProjectId($projectId)
  * @method string getProjectId()
  * @method $this setId($id)
@@ -4820,65 +3311,12 @@ class DescribeFlowNodeInstance extends Request
  * @method int getResourceOwnerId()
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
- * @method $this setJobBizId($jobBizId)
- * @method string getJobBizId()
- */
-class QueryJobNumberId extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setClusterId($clusterId)
- * @method string getClusterId()
- */
-class QueryClusterByUser extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
  * @method $this setConsumerGroupId($consumerGroupId)
  * @method string getConsumerGroupId()
  * @method $this setTopicId($topicId)
  * @method string getTopicId()
  */
 class MetastoreDescribeKafkaConsumerGroup extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setEventCode($eventCode)
- * @method string getEventCode()
- * @method $this setClusterId($clusterId)
- * @method string getClusterId()
- * @method $this setHostName($hostName)
- * @method string getHostName()
- * @method $this setStartTimestampSec($startTimestampSec)
- * @method int getStartTimestampSec()
- * @method $this setEndTimestampSec($endTimestampSec)
- * @method int getEndTimestampSec()
- * @method $this setServiceName($serviceName)
- * @method string getServiceName()
- * @method $this setComponentName($componentName)
- * @method string getComponentName()
- * @method $this setEventSourceType($eventSourceType)
- * @method string getEventSourceType()
- * @method $this setEventType($eventType)
- * @method string getEventType()
- * @method $this setEventLevel($eventLevel)
- * @method string getEventLevel()
- * @method $this setAlertEventVisibility($alertEventVisibility)
- * @method string getAlertEventVisibility()
- */
-class CountApmEvent extends Request
 {
 
 }/**
@@ -4942,25 +3380,6 @@ class ReleaseClusterHostGroup extends Request
 {
 
 }/**
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setClusterId($clusterId)
- * @method string getClusterId()
- * @method $this setService($service)
- * @method string getService()
- * @method $this setComponent($component)
- * @method string getComponent()
- * @method $this setPageNumber($pageNumber)
- * @method int getPageNumber()
- * @method $this setPageSize($pageSize)
- * @method int getPageSize()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- */
-class ListHealthRule extends Request
-{
-
-}/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
  * @method $this setRegionId($regionId)
@@ -4980,50 +3399,12 @@ class DescribeClusterServiceConfigHistory extends Request
  * @method int getResourceOwnerId()
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
- * @method $this setType($type)
- * @method string getType()
- * @method $this setMetrics($metrics)
- * @method string getMetrics()
- * @method $this setPeriodType($periodType)
- * @method string getPeriodType()
- * @method $this setProjectId($projectId)
- * @method string getProjectId()
- * @method $this setFrom($from)
- * @method int getFrom()
- * @method $this setTo($to)
- * @method int getTo()
- */
-class DescribeFlowSLA extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
  * @method $this setOperationId($operationId)
  * @method string getOperationId()
  */
 class TerminateClusterOperation extends Request
-{
-
-}/**
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setClusterId($clusterId)
- * @method string getClusterId()
- * @method $this setRuleId($ruleId)
- * @method int getRuleId()
- * @method $this setRuleName($ruleName)
- * @method string getRuleName()
- * @method $this setStatus($status)
- * @method string getStatus()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- */
-class ModifyHealthRuleConfig extends Request
 {
 
 }/**
@@ -5055,116 +3436,6 @@ class ListSlsLogstoreInfo extends Request
  * @method int getResourceOwnerId()
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
- * @method $this setServiceName($serviceName)
- * @method string getServiceName()
- * @method $this setServiceVersion($serviceVersion)
- * @method string getServiceVersion()
- * @method $this setConfigName($configName)
- * @method string getConfigName()
- */
-class DescribeServiceConfigDefinition extends Request
-{
-
-}/**
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setClusterId($clusterId)
- * @method string getClusterId()
- * @method $this setService($service)
- * @method string getService()
- * @method $this setComponent($component)
- * @method string getComponent()
- * @method $this setHostName($hostName)
- * @method string getHostName()
- * @method $this setPass($pass)
- * @method int getPass()
- * @method $this setPageNumber($pageNumber)
- * @method int getPageNumber()
- * @method $this setPageSize($pageSize)
- * @method int getPageSize()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- */
-class ListHealthRuleResult extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setUserId($userId)
- * @method string getUserId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setClusterId($clusterId)
- * @method string getClusterId()
- * @method $this setOperationId($operationId)
- * @method string getOperationId()
- * @method $this setStatus($status)
- * @method string getStatus()
- * @method $this setPageNumber($pageNumber)
- * @method int getPageNumber()
- * @method $this setPageSize($pageSize)
- * @method int getPageSize()
- */
-class ListClusterOperationHostForAdmin extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setZoneId($zoneId)
- * @method string getZoneId()
- * @method $this setClusterId($clusterId)
- * @method string getClusterId()
- * @method $this setMasterInstanceType($masterInstanceType)
- * @method string getMasterInstanceType()
- * @method $this setCoreInstanceType($coreInstanceType)
- * @method string getCoreInstanceType()
- * @method $this setTaskInstanceType($taskInstanceType)
- * @method string getTaskInstanceType()
- * @method $this setMasterInstanceQuantity($masterInstanceQuantity)
- * @method int getMasterInstanceQuantity()
- * @method $this setCoreInstanceQuantity($coreInstanceQuantity)
- * @method int getCoreInstanceQuantity()
- * @method $this setTaskInstanceQuantity($taskInstanceQuantity)
- * @method int getTaskInstanceQuantity()
- * @method $this setMasterDiskType($masterDiskType)
- * @method string getMasterDiskType()
- * @method $this setCoreDiskType($coreDiskType)
- * @method string getCoreDiskType()
- * @method $this setTaskDiskType($taskDiskType)
- * @method string getTaskDiskType()
- * @method $this setMasterDiskQuantity($masterDiskQuantity)
- * @method int getMasterDiskQuantity()
- * @method $this setCoreDiskQuantity($coreDiskQuantity)
- * @method int getCoreDiskQuantity()
- * @method $this setTaskDiskQuantity($taskDiskQuantity)
- * @method int getTaskDiskQuantity()
- * @method $this setDuration($duration)
- * @method int getDuration()
- * @method $this setIoOptimized($ioOptimized)
- * @method bool getIoOptimized()
- * @method $this setChargeType($chargeType)
- * @method string getChargeType()
- * @method $this setNetType($netType)
- * @method string getNetType()
- * @method $this setDepositType($depositType)
- * @method string getDepositType()
- * @method $this setPeriod($period)
- * @method int getPeriod()
- * @method $this setHostGroup($hostGroup)
- * @method array getHostGroup()
- */
-class QueryPrice extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
  * @method $this setDataSourceId($dataSourceId)
  * @method string getDataSourceId()
  * @method $this setDbName($dbName)
@@ -5173,31 +3444,6 @@ class QueryPrice extends Request
  * @method string getTableName()
  */
 class ListDataSourceSchemaTable extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setUserId($userId)
- * @method string getUserId()
- * @method $this setClusterTypeList($clusterTypeList)
- * @method array getClusterTypeList()
- * @method $this setCreateType($createType)
- * @method string getCreateType()
- * @method $this setStatusList($statusList)
- * @method array getStatusList()
- * @method $this setIsDesc($isDesc)
- * @method bool getIsDesc()
- * @method $this setPageNumber($pageNumber)
- * @method int getPageNumber()
- * @method $this setPageSize($pageSize)
- * @method int getPageSize()
- * @method $this setDefaultStatus($defaultStatus)
- * @method bool getDefaultStatus()
- */
-class ListClustersForAdmin extends Request
 {
 
 }/**
@@ -5332,62 +3578,6 @@ class ModifyExecutionPlanClusterInfo extends Request
  * @method int getResourceOwnerId()
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
- * @method $this setInterrupt($interrupt)
- * @method bool getInterrupt()
- * @method $this setInvoker($invoker)
- * @method string getInvoker()
- * @method $this setPk($pk)
- * @method string getPk()
- * @method $this setBid($bid)
- * @method string getBid()
- * @method $this setHid($hid)
- * @method int getHid()
- * @method $this setCountry($country)
- * @method string getCountry()
- * @method $this setTaskIdentifier($taskIdentifier)
- * @method string getTaskIdentifier()
- * @method $this setTaskExtraData($taskExtraData)
- * @method string getTaskExtraData()
- * @method $this setGmtWakeup($gmtWakeup)
- * @method string getGmtWakeup()
- * @method $this setSuccess($success)
- * @method bool getSuccess()
- * @method $this setMessage($message)
- * @method string getMessage()
- * @method $this setLevel($level)
- * @method int getLevel()
- * @method $this setUrl($url)
- * @method string getUrl()
- * @method $this setPrompt($prompt)
- * @method string getPrompt()
- */
-class PhysicalDeleteEmrResource extends Request
-{
-
-}/**
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setClusterId($clusterId)
- * @method string getClusterId()
- * @method $this setUserId($userId)
- * @method string getUserId()
- * @method $this setVswitchId($vswitchId)
- * @method string getVswitchId()
- * @method $this setIsOpenPublicIp($isOpenPublicIp)
- * @method bool getIsOpenPublicIp()
- * @method $this setHostComponentInfo($hostComponentInfo)
- * @method array getHostComponentInfo()
- * @method $this setHostGroup($hostGroup)
- * @method array getHostGroup()
- */
-class ResizeClusterForAdmin extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
  * @method $this setId($id)
  * @method string getId()
  */
@@ -5410,21 +3600,6 @@ class DescribeClusterStatistics extends Request
  * @method int getResourceOwnerId()
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
- * @method $this setUniqueId($uniqueId)
- * @method string getUniqueId()
- * @method $this setStartTime($startTime)
- * @method string getStartTime()
- * @method $this setEndTime($endTime)
- * @method string getEndTime()
- */
-class ListApmJobHeuristicResultDetail extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
  */
 class GetSupportedOpsCommand extends Request
 {
@@ -5438,29 +3613,6 @@ class GetSupportedOpsCommand extends Request
  * @method string getId()
  */
 class DetachClusterForNote extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setEmrVersion($emrVersion)
- * @method string getEmrVersion()
- * @method $this setImageId($imageId)
- * @method string getImageId()
- * @method $this setDisplay($display)
- * @method bool getDisplay()
- * @method $this setStackName($stackName)
- * @method string getStackName()
- * @method $this setStackVersion($stackVersion)
- * @method string getStackVersion()
- * @method $this setClusterTypeInfo($clusterTypeInfo)
- * @method array getClusterTypeInfo()
- * @method $this setWhiteUser($whiteUser)
- * @method array getWhiteUser()
- */
-class CreateEmrMainVersionForAdmin extends Request
 {
 
 }/**
@@ -5527,47 +3679,6 @@ class ListResourceQueue extends Request
  * @method int getResourceOwnerId()
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
- * @method $this setUniqueKey($uniqueKey)
- * @method string getUniqueKey()
- * @method $this setStatus($status)
- * @method string getStatus()
- */
-class ModifyEmrAlarmStatusForAdmin extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setUserId($userId)
- * @method string getUserId()
- * @method $this setPayload($payload)
- * @method string getPayload()
- * @method $this setClusterBizId($clusterBizId)
- * @method array getClusterBizId()
- */
-class QueryApmTrendForAdmin extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setPayload($payload)
- * @method string getPayload()
- * @method $this setClusterBizId($clusterBizId)
- * @method array getClusterBizId()
- */
-class QueryApmSnapshot extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
  * @method $this setExecutionPlanIdList($executionPlanIdList)
  * @method array getExecutionPlanIdList()
  * @method $this setOnlyLastInstance($onlyLastInstance)
@@ -5582,25 +3693,6 @@ class QueryApmSnapshot extends Request
  * @method int getPageSize()
  */
 class ListExecutionPlanInstances extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setComponentName($componentName)
- * @method string getComponentName()
- * @method $this setServiceName($serviceName)
- * @method string getServiceName()
- * @method $this setCategory($category)
- * @method string getCategory()
- * @method $this setPageNumber($pageNumber)
- * @method int getPageNumber()
- * @method $this setPageSize($pageSize)
- * @method int getPageSize()
- */
-class ListApmMetricConfig extends Request
 {
 
 }/**
@@ -5666,43 +3758,6 @@ class DescribeDataSourceCommand extends Request
  * @method int getResourceOwnerId()
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
- * @method $this setInterrupt($interrupt)
- * @method bool getInterrupt()
- * @method $this setInvoker($invoker)
- * @method string getInvoker()
- * @method $this setPk($pk)
- * @method string getPk()
- * @method $this setBid($bid)
- * @method string getBid()
- * @method $this setHid($hid)
- * @method int getHid()
- * @method $this setCountry($country)
- * @method string getCountry()
- * @method $this setTaskIdentifier($taskIdentifier)
- * @method string getTaskIdentifier()
- * @method $this setTaskExtraData($taskExtraData)
- * @method string getTaskExtraData()
- * @method $this setGmtWakeup($gmtWakeup)
- * @method string getGmtWakeup()
- * @method $this setSuccess($success)
- * @method bool getSuccess()
- * @method $this setMessage($message)
- * @method string getMessage()
- * @method $this setLevel($level)
- * @method int getLevel()
- * @method $this setUrl($url)
- * @method string getUrl()
- * @method $this setPrompt($prompt)
- * @method string getPrompt()
- */
-class CheckEmrResource extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
  * @method $this setStackName($stackName)
  * @method string getStackName()
  * @method $this setStackVersion($stackVersion)
@@ -5729,39 +3784,6 @@ class DeleteJob extends Request
  * @method string getRegionId()
  */
 class MetastoreListDataResources extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setUserId($userId)
- * @method string getUserId()
- * @method $this setStatusList($statusList)
- * @method array getStatusList()
- * @method $this setPayTypeList($payTypeList)
- * @method array getPayTypeList()
- * @method $this setClusterTypeList($clusterTypeList)
- * @method array getClusterTypeList()
- * @method $this setClusterIdList($clusterIdList)
- * @method array getClusterIdList()
- * @method $this setEcmClusterIdList($ecmClusterIdList)
- * @method array getEcmClusterIdList()
- * @method $this setEmrVersion($emrVersion)
- * @method string getEmrVersion()
- * @method $this setResize($resize)
- * @method bool getResize()
- * @method $this setName($name)
- * @method string getName()
- * @method $this setFuzzyName($fuzzyName)
- * @method string getFuzzyName()
- * @method $this setPageNumber($pageNumber)
- * @method int getPageNumber()
- * @method $this setPageSize($pageSize)
- * @method int getPageSize()
- */
-class ListClusterForAdmin extends Request
 {
 
 }/**
@@ -5805,73 +3827,10 @@ class CreateAlertDingDingGroup extends Request
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setEventCode($eventCode)
- * @method string getEventCode()
- * @method $this setClusterId($clusterId)
- * @method string getClusterId()
- * @method $this setHostName($hostName)
- * @method string getHostName()
- * @method $this setStartTimestampSec($startTimestampSec)
- * @method int getStartTimestampSec()
- * @method $this setEndTimestampSec($endTimestampSec)
- * @method int getEndTimestampSec()
- * @method $this setServiceName($serviceName)
- * @method string getServiceName()
- * @method $this setComponentName($componentName)
- * @method string getComponentName()
- * @method $this setEventSourceType($eventSourceType)
- * @method string getEventSourceType()
- * @method $this setEventType($eventType)
- * @method string getEventType()
- * @method $this setEventLevel($eventLevel)
- * @method string getEventLevel()
- * @method $this setAlertEventVisibility($alertEventVisibility)
- * @method string getAlertEventVisibility()
- */
-class ListApmEvent extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setTableId($tableId)
- * @method int getTableId()
- * @method $this setTablePartitionId($tablePartitionId)
- * @method int getTablePartitionId()
- */
-class DescribeMetaTablePartitionForOuter extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
  * @method $this setBizId($bizId)
  * @method string getBizId()
  */
 class DescribeClusterTemplate extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setClusterId($clusterId)
- * @method string getClusterId()
- * @method $this setServiceName($serviceName)
- * @method string getServiceName()
- * @method $this setConfigVersion($configVersion)
- * @method string getConfigVersion()
- * @method $this setGroupId($groupId)
- * @method int getGroupId()
- * @method $this setTagValue($tagValue)
- * @method string getTagValue()
- */
-class ListClusterServiceConfig extends Request
 {
 
 }/**
@@ -5963,17 +3922,6 @@ class ModifyClusterTemplate extends Request
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setEventCodeList($eventCodeList)
- * @method array getEventCodeList()
- */
-class ListApmEventConfigByCode extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
  * @method $this setId($id)
  * @method string getId()
  * @method $this setRegionId($regionId)
@@ -6016,31 +3964,6 @@ class DescribeScalingRule extends Request
  * @method string getCustomParams()
  */
 class RunOpsCommand extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setGwToken($gwToken)
- * @method string getGwToken()
- * @method $this setGwTimestamp($gwTimestamp)
- * @method int getGwTimestamp()
- * @method $this setGwService($gwService)
- * @method string getGwService()
- * @method $this setGwVersion($gwVersion)
- * @method string getGwVersion()
- * @method $this setGwMethod($gwMethod)
- * @method string getGwMethod()
- * @method $this setGwApiName($gwApiName)
- * @method string getGwApiName()
- * @method $this setGwMethodParams($gwMethodParams)
- * @method string getGwMethodParams()
- * @method $this setGwSerializeProtocol($gwSerializeProtocol)
- * @method string getGwSerializeProtocol()
- */
-class RequestGatewayService extends Request
 {
 
 }/**
@@ -6171,29 +4094,6 @@ class ListFlow extends Request
 {
 
 }/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setUserId($userId)
- * @method string getUserId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setClusterId($clusterId)
- * @method string getClusterId()
- * @method $this setOperationId($operationId)
- * @method string getOperationId()
- * @method $this setHostId($hostId)
- * @method string getHostId()
- * @method $this setStatus($status)
- * @method string getStatus()
- * @method $this setPageNumber($pageNumber)
- * @method int getPageNumber()
- * @method $this setPageSize($pageSize)
- * @method int getPageSize()
- */
-class ListClusterOperationHostTaskForAdmin extends Request
-{
-
-}/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
  * @method $this setClusterId($clusterId)
@@ -6210,17 +4110,6 @@ class ListClusterOperationHostTaskForAdmin extends Request
  * @method array getHostGroup()
  */
 class ResizeClusterV2 extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setUserId($userId)
- * @method string getUserId()
- */
-class ListEmrAvailableConfigForAdmin extends Request
 {
 
 }/**
@@ -6281,23 +4170,6 @@ class DescribeFlowJobStatistic extends Request
 {
 
 }/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setClusterId($clusterId)
- * @method string getClusterId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setUserId($userId)
- * @method string getUserId()
- * @method $this setMainVersion($mainVersion)
- * @method string getMainVersion()
- * @method $this setStackVersion($stackVersion)
- * @method string getStackVersion()
- */
-class RelateStackVersion extends Request
-{
-
-}/**
  * @method $this setProjectId($projectId)
  * @method string getProjectId()
  * @method $this setId($id)
@@ -6306,17 +4178,6 @@ class RelateStackVersion extends Request
  * @method string getRegionId()
  */
 class CloneFlowJob extends Request
-{
-
-}/**
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setClusterIdList($clusterIdList)
- * @method array getClusterIdList()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- */
-class ListClusterHealth extends Request
 {
 
 }/**
@@ -6372,27 +4233,6 @@ class MetastoreDropDatabase extends Request
  * @method int getResourceOwnerId()
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
- * @method $this setUserId($userId)
- * @method string getUserId()
- * @method $this setComponentName($componentName)
- * @method string getComponentName()
- * @method $this setServiceName($serviceName)
- * @method string getServiceName()
- * @method $this setCategory($category)
- * @method string getCategory()
- * @method $this setPageNumber($pageNumber)
- * @method int getPageNumber()
- * @method $this setPageSize($pageSize)
- * @method int getPageSize()
- */
-class ListApmMetricConfigForAdmin extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
  * @method $this setHostInnerIp($hostInnerIp)
@@ -6416,17 +4256,6 @@ class GetLogHistogram extends Request
  * @method int getResourceOwnerId()
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
- * @method $this setWorkNodeExecId($workNodeExecId)
- * @method string getWorkNodeExecId()
- */
-class QueryOssLogPathJobBizId extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
  * @method $this setHostGroupId($hostGroupId)
@@ -6443,27 +4272,6 @@ class QueryOssLogPathJobBizId extends Request
  * @method int getPageSize()
  */
 class ListClusterHostGroup extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setUserId($userId)
- * @method string getUserId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setClusterId($clusterId)
- * @method string getClusterId()
- * @method $this setServiceName($serviceName)
- * @method string getServiceName()
- * @method $this setStatus($status)
- * @method string getStatus()
- * @method $this setPageNumber($pageNumber)
- * @method int getPageNumber()
- * @method $this setPageSize($pageSize)
- * @method int getPageSize()
- */
-class ListClusterOperationForAdmin extends Request
 {
 
 }/**
@@ -6611,55 +4419,6 @@ class ListFlowNodeSqlResult extends Request
  * @method int getResourceOwnerId()
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
- * @method $this setClusterId($clusterId)
- * @method string getClusterId()
- * @method $this setUserId($userId)
- * @method string getUserId()
- * @method $this setRenewEcsDo($renewEcsDo)
- * @method array getRenewEcsDo()
- */
-class RenewClusterForAdmin extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setUserId($userId)
- * @method string getUserId()
- * @method $this setClusterIdList($clusterIdList)
- * @method array getClusterIdList()
- */
-class ListClusterForInternal extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setId($id)
- * @method int getId()
- * @method $this setName($name)
- * @method string getName()
- * @method $this setEnabled($enabled)
- * @method bool getEnabled()
- * @method $this setTargetClusterList($targetClusterList)
- * @method array getTargetClusterList()
- * @method $this setDingGroupList($dingGroupList)
- * @method array getDingGroupList()
- * @method $this setUserGroupList($userGroupList)
- * @method array getUserGroupList()
- */
-class UpdateApmEventNotificationConfig extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
  * @method $this setIds($ids)
  * @method string getIds()
  */
@@ -6706,30 +4465,6 @@ class ListETLJobTriggerEntity extends Request
 {
 
 }/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setEmrVersion($emrVersion)
- * @method string getEmrVersion()
- * @method $this setServiceNameList($serviceNameList)
- * @method string getServiceNameList()
- */
-class ListRequiredServiceForAdmin extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setMainVersion($mainVersion)
- * @method string getMainVersion()
- */
-class DescribeEmrStackVersion extends Request
-{
-
-}/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
  * @method $this setProjectId($projectId)
@@ -6748,71 +4483,6 @@ class DescribeEmrStackVersion extends Request
  * @method array getHostList()
  */
 class CreateFlowProjectClusterSetting extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setClusterId($clusterId)
- * @method string getClusterId()
- */
-class ListClusterNodes extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setEmrVersion($emrVersion)
- * @method string getEmrVersion()
- * @method $this setImageId($imageId)
- * @method string getImageId()
- * @method $this setDisplay($display)
- * @method bool getDisplay()
- * @method $this setStackName($stackName)
- * @method string getStackName()
- * @method $this setStackVersion($stackVersion)
- * @method string getStackVersion()
- * @method $this setClusterTypeInfo($clusterTypeInfo)
- * @method array getClusterTypeInfo()
- * @method $this setWhiteUser($whiteUser)
- * @method array getWhiteUser()
- */
-class ModifyEmrMainVersionForAdmin extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setDestinationResource($destinationResource)
- * @method string getDestinationResource()
- * @method $this setClusterType($clusterType)
- * @method string getClusterType()
- * @method $this setInstanceChargeType($instanceChargeType)
- * @method string getInstanceChargeType()
- * @method $this setSpotStrategy($spotStrategy)
- * @method string getSpotStrategy()
- * @method $this setZoneId($zoneId)
- * @method string getZoneId()
- * @method $this setNetType($netType)
- * @method string getNetType()
- * @method $this setInstanceType($instanceType)
- * @method string getInstanceType()
- * @method $this setSystemDiskType($systemDiskType)
- * @method string getSystemDiskType()
- * @method $this setDataDiskType($dataDiskType)
- * @method string getDataDiskType()
- * @method $this setDepositType($depositType)
- * @method string getDepositType()
- * @method $this setUserId($userId)
- * @method string getUserId()
- */
-class ListEmrAvailableResourceForAdmin extends Request
 {
 
 }/**
@@ -6853,50 +4523,6 @@ class DescribeFlowCategoryTree extends Request
  * @method int getResourceOwnerId()
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
- * @method $this setClusterId($clusterId)
- * @method string getClusterId()
- * @method $this setEasEnable($easEnable)
- * @method bool getEasEnable()
- * @method $this setKdcType($kdcType)
- * @method string getKdcType()
- * @method $this setKdcHosts($kdcHosts)
- * @method string getKdcHosts()
- * @method $this setRealm($realm)
- * @method string getRealm()
- * @method $this setKadminHosts($kadminHosts)
- * @method string getKadminHosts()
- * @method $this setKadminPrincipal($kadminPrincipal)
- * @method string getKadminPrincipal()
- * @method $this setKadminPwd($kadminPwd)
- * @method string getKadminPwd()
- * @method $this setKrb5Conf($krb5Conf)
- * @method string getKrb5Conf()
- * @method $this setDomain($domain)
- * @method string getDomain()
- * @method $this setContainerDN($containerDN)
- * @method string getContainerDN()
- * @method $this setLdapUrl($ldapUrl)
- * @method string getLdapUrl()
- */
-class ModifyClusterEasModel extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setChannelId($channelId)
- * @method string getChannelId()
- */
-class ModifyUserChannelInfo extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
  * @method $this setName($name)
  * @method string getName()
  * @method $this setClusterId($clusterId)
@@ -6911,21 +4537,6 @@ class ModifyUserChannelInfo extends Request
  * @method string getDescription()
  */
 class MetastoreCreateDataResource extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setClusterId($clusterId)
- * @method string getClusterId()
- * @method $this setPageNumber($pageNumber)
- * @method int getPageNumber()
- * @method $this setPageSize($pageSize)
- * @method int getPageSize()
- */
-class ListClusterNode extends Request
 {
 
 }/**
@@ -6966,25 +4577,6 @@ class ListKafkaTopicStatistics extends Request
  * @method string getComment()
  */
 class CreateClusterHostGroup extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setClusterId($clusterId)
- * @method string getClusterId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setEmrVersion($emrVersion)
- * @method string getEmrVersion()
- * @method $this setEmrVersionList($emrVersionList)
- * @method array getEmrVersionList()
- * @method $this setStackVersion($stackVersion)
- * @method string getStackVersion()
- * @method $this setStackVersionList($stackVersionList)
- * @method array getStackVersionList()
- */
-class DescribeStackRelation extends Request
 {
 
 }/**
@@ -7058,17 +4650,6 @@ class GetJobInputStatisticInfo extends Request
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setId($id)
- * @method int getId()
- */
-class GetApmEventNotificationConfig extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
  * @method $this setNoteId($noteId)
  * @method string getNoteId()
  * @method $this setId($id)
@@ -7077,13 +4658,6 @@ class GetApmEventNotificationConfig extends Request
  * @method string getRegionId()
  */
 class StopParagraph extends Request
-{
-
-}/**
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- */
-class CheckUserBalance extends Request
 {
 
 }/**
@@ -7268,19 +4842,6 @@ class MetastoreListKafkaTopic extends Request
 {
 
 }/**
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setClusterId($clusterId)
- * @method string getClusterId()
- * @method $this setOperateType($operateType)
- * @method string getOperateType()
- * @method $this setSourceIp($sourceIp)
- * @method string getSourceIp()
- */
-class ResetSgPort extends Request
-{
-
-}/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
  * @method $this setRegionId($regionId)
@@ -7314,29 +4875,6 @@ class ModifyClusterServiceConfig extends Request
  * @method int getResourceOwnerId()
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
- * @method $this setPageNumber($pageNumber)
- * @method int getPageNumber()
- * @method $this setPageSize($pageSize)
- * @method int getPageSize()
- * @method $this setClusterBizId($clusterBizId)
- * @method string getClusterBizId()
- * @method $this setDatabaseId($databaseId)
- * @method int getDatabaseId()
- * @method $this setTableId($tableId)
- * @method int getTableId()
- * @method $this setColumnPosition($columnPosition)
- * @method string getColumnPosition()
- * @method $this setColumnName($columnName)
- * @method string getColumnName()
- */
-class ListMetaTableColumnForOuter extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
  * @method $this setCurrentSize($currentSize)
  * @method int getCurrentSize()
  * @method $this setPageSize($pageSize)
@@ -7347,24 +4885,6 @@ class ListMetaTableColumnForOuter extends Request
  * @method string getOrderFieldName()
  */
 class ListUserStatistics extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setId($id)
- * @method int getId()
- */
-class DeleteJobExecutionPlanParam extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- */
-class GetApmUserYarnResourceSummary extends Request
 {
 
 }/**
@@ -7392,27 +4912,6 @@ class GetApmUserYarnResourceSummary extends Request
  * @method int getPageSize()
  */
 class ListClusterHostComponent extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setPeriod($period)
- * @method int getPeriod()
- * @method $this setStartTimeStamp($startTimeStamp)
- * @method int getStartTimeStamp()
- * @method $this setEndTimeStamp($endTimeStamp)
- * @method int getEndTimeStamp()
- * @method $this setMetricName($metricName)
- * @method string getMetricName()
- * @method $this setClusterId($clusterId)
- * @method string getClusterId()
- * @method $this setHostRole($hostRole)
- * @method string getHostRole()
- */
-class QueryMetricData extends Request
 {
 
 }/**
@@ -7518,44 +5017,6 @@ class KillExecutionJobInstance extends Request
  * @method string getIds()
  */
 class ListAlertUserGroup extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setMainVersion($mainVersion)
- * @method string getMainVersion()
- */
-class DeleteMainVersionForAdmin extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setAppId($appId)
- * @method string getAppId()
- * @method $this setAddressPoolId($addressPoolId)
- * @method string getAddressPoolId()
- * @method $this setTargetVpcId($targetVpcId)
- * @method string getTargetVpcId()
- * @method $this setTargetInstanceId($targetInstanceId)
- * @method string getTargetInstanceId()
- * @method $this setPort($port)
- * @method int getPort()
- * @method $this setSourceVpcId($sourceVpcId)
- * @method string getSourceVpcId()
- * @method $this setSourceVswitchId($sourceVswitchId)
- * @method string getSourceVswitchId()
- * @method $this setSourceIp($sourceIp)
- * @method string getSourceIp()
- * @method $this setSourceInstanceId($sourceInstanceId)
- * @method string getSourceInstanceId()
- */
-class OperateTunnel2HostForAdmin extends Request
 {
 
 }/**
@@ -7673,21 +5134,6 @@ class MetastoreListTables extends Request
  * @method int getResourceOwnerId()
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
- * @method $this setPageNumber($pageNumber)
- * @method int getPageNumber()
- * @method $this setPageSize($pageSize)
- * @method int getPageSize()
- * @method $this setStartTime($startTime)
- * @method int getStartTime()
- */
-class ListUserIdInLastTimeForAdmin extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
  * @method $this setTaskId($taskId)
  * @method int getTaskId()
  * @method $this setClusterId($clusterId)
@@ -7782,17 +5228,6 @@ class CreateNote extends Request
  * @method int getResourceOwnerId()
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
- * @method $this setEcsInstanceId($ecsInstanceId)
- * @method string getEcsInstanceId()
- */
-class AssignIpv6Addresses extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
  * @method $this setProjectId($projectId)
  * @method string getProjectId()
  * @method $this setId($id)
@@ -7803,19 +5238,6 @@ class AssignIpv6Addresses extends Request
  * @method string getParentId()
  */
 class UpdateNavNode extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setParamBizType($paramBizType)
- * @method string getParamBizType()
- * @method $this setRelateId($relateId)
- * @method string getRelateId()
- * @method $this setWorkParamPair($workParamPair)
- * @method array getWorkParamPair()
- */
-class CreateJobExecutionPlanParam extends Request
 {
 
 }/**
@@ -7870,64 +5292,6 @@ class UpdateDataSource extends Request
  * @method int getResourceOwnerId()
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
- * @method $this setPageNumber($pageNumber)
- * @method int getPageNumber()
- * @method $this setPageSize($pageSize)
- * @method int getPageSize()
- * @method $this setClusterBizId($clusterBizId)
- * @method string getClusterBizId()
- * @method $this setDatabaseName($databaseName)
- * @method string getDatabaseName()
- * @method $this setLocation($location)
- * @method string getLocation()
- */
-class ListMetaDatabaseForOuter extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setClusterId($clusterId)
- * @method string getClusterId()
- * @method $this setUserId($userId)
- * @method string getUserId()
- * @method $this setHostGroupName($hostGroupName)
- * @method string getHostGroupName()
- * @method $this setHostGroupType($hostGroupType)
- * @method string getHostGroupType()
- * @method $this setComment($comment)
- * @method string getComment()
- */
-class CreateClusterHostGroupForAdmin extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- */
-class GetApmUserAlertEventSummary extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setId($id)
- * @method int getId()
- */
-class DeleteApmEventNotificationConfig extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
  * @method $this setName($name)
  * @method string getName()
  * @method $this setEmail($email)
@@ -7974,15 +5338,6 @@ class CreateNavNode extends Request
  * @method string getHostGroupId()
  */
 class DeleteClusterHostGroup extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- */
-class GetApmJobStatisticsInfo extends Request
 {
 
 }/**
@@ -8184,96 +5539,6 @@ class MetastoreDescribeKafkaTopic extends Request
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
- * @method $this setUserId($userId)
- * @method string getUserId()
- * @method $this setTemplateName($templateName)
- * @method string getTemplateName()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setZoneId($zoneId)
- * @method string getZoneId()
- * @method $this setLogPath($logPath)
- * @method string getLogPath()
- * @method $this setSecurityGroupId($securityGroupId)
- * @method string getSecurityGroupId()
- * @method $this setIsOpenPublicIp($isOpenPublicIp)
- * @method bool getIsOpenPublicIp()
- * @method $this setSecurityGroupName($securityGroupName)
- * @method string getSecurityGroupName()
- * @method $this setPeriod($period)
- * @method int getPeriod()
- * @method $this setAutoRenew($autoRenew)
- * @method bool getAutoRenew()
- * @method $this setVpcId($vpcId)
- * @method string getVpcId()
- * @method $this setVSwitchId($vSwitchId)
- * @method string getVSwitchId()
- * @method $this setNetType($netType)
- * @method string getNetType()
- * @method $this setUserDefinedEmrEcsRole($userDefinedEmrEcsRole)
- * @method string getUserDefinedEmrEcsRole()
- * @method $this setEmrVer($emrVer)
- * @method string getEmrVer()
- * @method $this setOptionSoftWareList($optionSoftWareList)
- * @method array getOptionSoftWareList()
- * @method $this setClusterType($clusterType)
- * @method string getClusterType()
- * @method $this setHighAvailabilityEnable($highAvailabilityEnable)
- * @method bool getHighAvailabilityEnable()
- * @method $this setUseLocalMetaDb($useLocalMetaDb)
- * @method bool getUseLocalMetaDb()
- * @method $this setIoOptimized($ioOptimized)
- * @method bool getIoOptimized()
- * @method $this setSshEnable($sshEnable)
- * @method bool getSshEnable()
- * @method $this setInstanceGeneration($instanceGeneration)
- * @method string getInstanceGeneration()
- * @method $this setMasterPwd($masterPwd)
- * @method string getMasterPwd()
- * @method $this setHostGroup($hostGroup)
- * @method array getHostGroup()
- * @method $this setBootstrapAction($bootstrapAction)
- * @method array getBootstrapAction()
- * @method $this setConfigurations($configurations)
- * @method string getConfigurations()
- * @method $this setEasEnable($easEnable)
- * @method bool getEasEnable()
- * @method $this setDepositType($depositType)
- * @method string getDepositType()
- * @method $this setMachineType($machineType)
- * @method string getMachineType()
- * @method $this setUseCustomHiveMetaDb($useCustomHiveMetaDb)
- * @method bool getUseCustomHiveMetaDb()
- * @method $this setInitCustomHiveMetaDb($initCustomHiveMetaDb)
- * @method bool getInitCustomHiveMetaDb()
- * @method $this setConfig($config)
- * @method array getConfig()
- */
-class CreateClusterTemplateForAdmin extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setMetricName($metricName)
- * @method string getMetricName()
- * @method $this setStartTimestampSec($startTimestampSec)
- * @method int getStartTimestampSec()
- * @method $this setEndTimestampSec($endTimestampSec)
- * @method int getEndTimestampSec()
- * @method $this setClusterId($clusterId)
- * @method string getClusterId()
- * @method $this setHostName($hostName)
- * @method string getHostName()
- */
-class ListApmMetricDatapoint extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
  * @method $this setTableId($tableId)
@@ -8409,27 +5674,6 @@ class DescribeETLJob extends Request
  * @method bool getDefaultStatus()
  */
 class ListClusters extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setUserId($userId)
- * @method string getUserId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setClusterId($clusterId)
- * @method string getClusterId()
- * @method $this setOperationId($operationId)
- * @method string getOperationId()
- * @method $this setHostId($hostId)
- * @method string getHostId()
- * @method $this setTaskId($taskId)
- * @method string getTaskId()
- * @method $this setStatus($status)
- * @method string getStatus()
- */
-class DescribeClusterOperationHostTaskLogForAdmin extends Request
 {
 
 }/**
@@ -8581,17 +5825,6 @@ class DescribeDataSourceSchemaDatabase extends Request
  * @method int getResourceOwnerId()
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
- * @method $this setColumnId($columnId)
- * @method int getColumnId()
- */
-class DescribeMetaTableColumnForOuter extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
  * @method $this setId($id)
  * @method string getId()
  * @method $this setName($name)
@@ -8603,78 +5836,12 @@ class ModifyClusterName extends Request
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
- * @method $this setClusterId($clusterId)
- * @method string getClusterId()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- */
-class DescribeClusterHealth extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setUserId($userId)
- * @method string getUserId()
- * @method $this setEventCode($eventCode)
- * @method string getEventCode()
- * @method $this setEventFrom($eventFrom)
- * @method string getEventFrom()
- * @method $this setVisibility($visibility)
- * @method string getVisibility()
- * @method $this setLevel($level)
- * @method string getLevel()
- * @method $this setComponentName($componentName)
- * @method string getComponentName()
- * @method $this setServiceName($serviceName)
- * @method string getServiceName()
- * @method $this setCategory($category)
- * @method string getCategory()
- * @method $this setPageNumber($pageNumber)
- * @method int getPageNumber()
- * @method $this setPageSize($pageSize)
- * @method int getPageSize()
- */
-class ListApmEventConfigForAdmin extends Request
-{
-
-}/**
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setClusterId($clusterId)
- * @method string getClusterId()
- * @method $this setUsername($username)
- * @method string getUsername()
- * @method $this setPassword($password)
- * @method string getPassword()
- */
-class ResetSoftwarePassword extends Request
-{
-
-}/**
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
  * @method $this setProjectId($projectId)
  * @method string getProjectId()
  * @method $this setJobInstanceId($jobInstanceId)
  * @method string getJobInstanceId()
  */
 class KillFlowJob extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setClusterId($clusterId)
- * @method string getClusterId()
- * @method $this setEcsResetAutoRenewDo($ecsResetAutoRenewDo)
- * @method array getEcsResetAutoRenewDo()
- */
-class ResetAutoRenewal extends Request
 {
 
 }/**
@@ -8778,19 +5945,6 @@ class SuspendExecutionPlanInstance extends Request
  * @method string getWorkflowDefinition()
  */
 class CreateExecutionPlan extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setUserId($userId)
- * @method string getUserId()
- * @method $this setEventCodeList($eventCodeList)
- * @method array getEventCodeList()
- */
-class ListApmEventConfigByCodeForAdmin extends Request
 {
 
 }

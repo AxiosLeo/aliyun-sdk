@@ -19,11 +19,13 @@ use aliyun\sdk\core\lib\Request;
  * @method DescribeDashboard DescribeDashboard()
  * @method DescribeDiversify DescribeDiversify()
  * @method CreateMix CreateMix()
+ * @method ListInstance ListInstance()
  * @method StopDataSet StopDataSet()
  * @method ModifyMix ModifyMix()
  * @method DeleteMix DeleteMix()
  * @method ListDiversify ListDiversify()
  * @method DescribeQuota DescribeQuota()
+ * @method CreateInstance CreateInstance()
  * @method AttachDataset AttachDataset()
  * @method DescribeInstance DescribeInstance()
  * @method ValidateInstance ValidateInstance()
@@ -142,6 +144,11 @@ class CreateMix extends Request
 {
 
 }/**
+ */
+class ListInstance extends Request
+{
+
+}/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
  * @method $this setVersionId($versionId)
@@ -180,6 +187,11 @@ class ListDiversify extends Request
  * @method string getInstanceId()
  */
 class DescribeQuota extends Request
+{
+
+}/**
+ */
+class CreateInstance extends Request
 {
 
 }/**

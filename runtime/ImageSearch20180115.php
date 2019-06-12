@@ -11,9 +11,7 @@ use aliyun\sdk\core\lib\Request;
  * @method UploadPic UploadPic()
  * @method AddItem AddItem()
  * @method ItemAdd ItemAdd()
- * @method ItemSearch ItemSearch()
  * @method SearchItem SearchItem()
- * @method ItemDelete ItemDelete()
  * @method DeleteItem DeleteItem()
  */
 class V20180115
@@ -45,21 +43,7 @@ class ItemAdd extends Request
  * @method $this setinstanceName($instanceName)
  * @method string getinstanceName()
  */
-class ItemSearch extends Request
-{
-
-}/**
- * @method $this setinstanceName($instanceName)
- * @method string getinstanceName()
- */
 class SearchItem extends Request
-{
-
-}/**
- * @method $this setinstanceName($instanceName)
- * @method string getinstanceName()
- */
-class ItemDelete extends Request
 {
 
 }/**

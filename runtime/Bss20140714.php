@@ -13,6 +13,7 @@ use aliyun\sdk\core\lib\Request;
  * @method CreateOrder CreateOrder()
  * @method vnoPayCallBackNotify vnoPayCallBackNotify()
  * @method SetResourceBusinessStatus SetResourceBusinessStatus()
+ * @method DescribeCashDetail DescribeCashDetail()
  * @method QueryForCssOrder QueryForCssOrder()
  * @method DescribeCouponList DescribeCouponList()
  * @method vnoBatchRefundOrder vnoBatchRefundOrder()
@@ -69,6 +70,11 @@ class vnoPayCallBackNotify extends Request
  * @method string getOwnerAccount()
  */
 class SetResourceBusinessStatus extends Request
+{
+
+}/**
+ */
+class DescribeCashDetail extends Request
 {
 
 }/**

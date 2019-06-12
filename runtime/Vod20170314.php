@@ -11,10 +11,8 @@ use aliyun\sdk\core\lib\Request;
  * @method UpdateMaterial UpdateMaterial()
  * @method TransferMediaData TransferMediaData()
  * @method GetOSSFlowStatis GetOSSFlowStatis()
- * @method DescribeVodUserBillPrediction DescribeVodUserBillPrediction()
  * @method GetDomain GetDomain()
  * @method SetCDNForceRedirectConfig SetCDNForceRedirectConfig()
- * @method GetTranscodeInfo GetTranscodeInfo()
  * @method DescribeVodDomainRealTimeHttpCodeData DescribeVodDomainRealTimeHttpCodeData()
  * @method DescribeVodDomainRealTimeReqHitRateData DescribeVodDomainRealTimeReqHitRateData()
  * @method AddDomain AddDomain()
@@ -24,11 +22,9 @@ use aliyun\sdk\core\lib\Request;
  * @method DeleteInitCustomTemplateInfo DeleteInitCustomTemplateInfo()
  * @method DescribeVodDomainDetail DescribeVodDomainDetail()
  * @method AddWatermarkGroup AddWatermarkGroup()
- * @method GetUserInfoInner GetUserInfoInner()
  * @method UpdateTranscodeConf UpdateTranscodeConf()
  * @method CompleteOrderParam CompleteOrderParam()
  * @method UpdateEditingProject UpdateEditingProject()
- * @method BatchStartVodDomain BatchStartVodDomain()
  * @method SetAIService SetAIService()
  * @method ListSnapshots ListSnapshots()
  * @method GetDomainSecurity GetDomainSecurity()
@@ -43,7 +39,6 @@ use aliyun\sdk\core\lib\Request;
  * @method CreateUploadMaterial CreateUploadMaterial()
  * @method GetEditingProjectList GetEditingProjectList()
  * @method AddEditingProject AddEditingProject()
- * @method DescribeUserUvByDayTest DescribeUserUvByDayTest()
  * @method UpdateVodDomain UpdateVodDomain()
  * @method ListAIVideoCoverJob ListAIVideoCoverJob()
  * @method CreateUploadMediaFile CreateUploadMediaFile()
@@ -78,7 +73,6 @@ use aliyun\sdk\core\lib\Request;
  * @method GetCDNStatis GetCDNStatis()
  * @method ListAIVideoPornRecogJob ListAIVideoPornRecogJob()
  * @method GetAudioTemplate GetAudioTemplate()
- * @method GetBucketListInner GetBucketListInner()
  * @method ListCustomTemplate ListCustomTemplate()
  * @method GetPlayStatis GetPlayStatis()
  * @method GetMessageCallback GetMessageCallback()
@@ -107,7 +101,6 @@ use aliyun\sdk\core\lib\Request;
  * @method AddAITemplate AddAITemplate()
  * @method AddSnapshot AddSnapshot()
  * @method AddAudioTemplate AddAudioTemplate()
- * @method ListAIVideoTagJob ListAIVideoTagJob()
  * @method CreateAudit CreateAudit()
  * @method SPILogicalDeleteResourceAction SPILogicalDeleteResourceAction()
  * @method GetCDNStatisSum GetCDNStatisSum()
@@ -126,7 +119,6 @@ use aliyun\sdk\core\lib\Request;
  * @method GetAuditResult GetAuditResult()
  * @method DescribeVodDomainLog DescribeVodDomainLog()
  * @method RefreshWorkFlow RefreshWorkFlow()
- * @method DescribePlayTopVideos DescribePlayTopVideos()
  * @method GetMidYKVid GetMidYKVid()
  * @method UpdateApiAuth UpdateApiAuth()
  * @method GetAppLicenseList GetAppLicenseList()
@@ -140,16 +132,13 @@ use aliyun\sdk\core\lib\Request;
  * @method DeleteMezzanines DeleteMezzanines()
  * @method UpdateCustomTemplate UpdateCustomTemplate()
  * @method SetDefaultTemplateGroup SetDefaultTemplateGroup()
- * @method DescribePlayUserTotal DescribePlayUserTotal()
  * @method NotifyProduce NotifyProduce()
  * @method DescribeVodDomainHttpCodeData DescribeVodDomainHttpCodeData()
- * @method GetDomainAuthInner GetDomainAuthInner()
  * @method UpdateVideoInfos UpdateVideoInfos()
  * @method DescribeVodUserDomains DescribeVodUserDomains()
  * @method UpdateVideoStatus UpdateVideoStatus()
  * @method GetVideoInfos GetVideoInfos()
  * @method DescribeVodDomainRealTimeTrafficData DescribeVodDomainRealTimeTrafficData()
- * @method GetDomainListInner GetDomainListInner()
  * @method EditVideoIndexFile EditVideoIndexFile()
  * @method SyncMaterial SyncMaterial()
  * @method UpdateTranscodeTemplate UpdateTranscodeTemplate()
@@ -182,7 +171,6 @@ use aliyun\sdk\core\lib\Request;
  * @method DeleteMaterial DeleteMaterial()
  * @method DeleteTemplateGroup DeleteTemplateGroup()
  * @method SPICheckResourceAction SPICheckResourceAction()
- * @method ReportUploadProgress ReportUploadProgress()
  * @method PayOrderCallback PayOrderCallback()
  * @method GetStorageList GetStorageList()
  * @method DeleteAITemplate DeleteAITemplate()
@@ -199,7 +187,6 @@ use aliyun\sdk\core\lib\Request;
  * @method ListAuditSecurityIp ListAuditSecurityIp()
  * @method GetWatermarkInfo GetWatermarkInfo()
  * @method DeleteMediaInfo DeleteMediaInfo()
- * @method SubmitAIVideoFaceRecogJob SubmitAIVideoFaceRecogJob()
  * @method GetTotalStatis GetTotalStatis()
  * @method DescribeVodUserResourcePackage DescribeVodUserResourcePackage()
  * @method AddMediaTag AddMediaTag()
@@ -222,7 +209,6 @@ use aliyun\sdk\core\lib\Request;
  * @method DescribeUserUvByDay DescribeUserUvByDay()
  * @method AddTranscodeTemplate AddTranscodeTemplate()
  * @method DescribeVodUserQuota DescribeVodUserQuota()
- * @method AddProductAccount AddProductAccount()
  * @method AddLiveStreamVideo AddLiveStreamVideo()
  * @method SubmitAIVideoTerrorismRecogJob SubmitAIVideoTerrorismRecogJob()
  * @method NotifyInitResource NotifyInitResource()
@@ -230,22 +216,16 @@ use aliyun\sdk\core\lib\Request;
  * @method ListVodTemplate ListVodTemplate()
  * @method SetCustomerConfig SetCustomerConfig()
  * @method DescribeCdnDomainLogs DescribeCdnDomainLogs()
- * @method BatchSetVodDomainConfigs BatchSetVodDomainConfigs()
  * @method SubmitPreprocessJobs SubmitPreprocessJobs()
- * @method AddAuthCheckWhiteList AddAuthCheckWhiteList()
  * @method SearchMediaInfo SearchMediaInfo()
- * @method InitVodService InitVodService()
- * @method DeleteVodSpecificConfig DeleteVodSpecificConfig()
  * @method GetMaterial GetMaterial()
  * @method AssumeSlsRole AssumeSlsRole()
  * @method ListAIStatisType ListAIStatisType()
  * @method DeleteStorage DeleteStorage()
  * @method SetVodDomainCertificate SetVodDomainCertificate()
  * @method DescribeVodDomainBpsData DescribeVodDomainBpsData()
- * @method ListAIVideoFaceRecogJob ListAIVideoFaceRecogJob()
  * @method DeleteStream DeleteStream()
  * @method DeleteVodDomain DeleteVodDomain()
- * @method SubmitDNAInitializationJob SubmitDNAInitializationJob()
  * @method GetWatermark GetWatermark()
  * @method GetMaterialList GetMaterialList()
  * @method GetCustomerConfig GetCustomerConfig()
@@ -260,7 +240,6 @@ use aliyun\sdk\core\lib\Request;
  * @method AddDomainReferer AddDomainReferer()
  * @method SetDomainAuth SetDomainAuth()
  * @method StopVodDomain StopVodDomain()
- * @method BatchStopVodDomain BatchStopVodDomain()
  * @method SubmitAIVideoSummaryJob SubmitAIVideoSummaryJob()
  * @method AddPipeline AddPipeline()
  * @method AddApiAuth AddApiAuth()
@@ -274,7 +253,6 @@ use aliyun\sdk\core\lib\Request;
  * @method SubmitAIVideoCensorJob SubmitAIVideoCensorJob()
  * @method DescribeCdnRefreshQuota DescribeCdnRefreshQuota()
  * @method UpdateWatermarkInfo UpdateWatermarkInfo()
- * @method DeleteMessageCallback DeleteMessageCallback()
  * @method DeleteWatermark DeleteWatermark()
  * @method SetAuditSecurityIp SetAuditSecurityIp()
  * @method GetPlayInfo GetPlayInfo()
@@ -284,7 +262,6 @@ use aliyun\sdk\core\lib\Request;
  * @method SearchMedia SearchMedia()
  * @method GetPersonalStorageList GetPersonalStorageList()
  * @method DescribeVodTopDomainsByFlow DescribeVodTopDomainsByFlow()
- * @method ControlVodService ControlVodService()
  * @method GetCategories GetCategories()
  * @method DeleteImage DeleteImage()
  * @method GetAIMediaAuditJob GetAIMediaAuditJob()
@@ -292,7 +269,6 @@ use aliyun\sdk\core\lib\Request;
  * @method GetAuditResultDetail GetAuditResultDetail()
  * @method UpdateCategoryName UpdateCategoryName()
  * @method DescribePlayVideoStatis DescribePlayVideoStatis()
- * @method DescribePlayUserAvg DescribePlayUserAvg()
  * @method DeleteVodTemplate DeleteVodTemplate()
  * @method GetVideoPlayAuth GetVideoPlayAuth()
  * @method InitSystemTemplateGroup InitSystemTemplateGroup()
@@ -311,15 +287,10 @@ use aliyun\sdk\core\lib\Request;
  * @method DescribeVodCertificateList DescribeVodCertificateList()
  * @method DescribeVodCertificateDetail DescribeVodCertificateDetail()
  * @method ListLiveRecordVideo ListLiveRecordVideo()
- * @method SubmitAIVideoTagJob SubmitAIVideoTagJob()
  * @method GetAITemplate GetAITemplate()
- * @method ReleaseFile ReleaseFile()
  * @method ListAIVideoSummaryJob ListAIVideoSummaryJob()
  * @method DescribeUserAvgTimeByDay DescribeUserAvgTimeByDay()
- * @method CreateVodUserUsageDetailDataExportTask CreateVodUserUsageDetailDataExportTask()
  * @method GetAIStatis GetAIStatis()
- * @method ListCertificate ListCertificate()
- * @method DescribeVodUserUsageDetailDataExportTask DescribeVodUserUsageDetailDataExportTask()
  * @method GetCompanionresourceInfo GetCompanionresourceInfo()
  * @method UpdateAITemplate UpdateAITemplate()
  * @method AddWatermarkInfo AddWatermarkInfo()
@@ -337,7 +308,6 @@ use aliyun\sdk\core\lib\Request;
  * @method ListAIVideoCategoryJob ListAIVideoCategoryJob()
  * @method DeleteAudioTemplate DeleteAudioTemplate()
  * @method CategoryTree CategoryTree()
- * @method InitEditing InitEditing()
  * @method GetAppLicense GetAppLicense()
  * @method CreateUploadVideo CreateUploadVideo()
  * @method GetPlayChannelList GetPlayChannelList()
@@ -345,7 +315,6 @@ use aliyun\sdk\core\lib\Request;
  * @method AssumeExperienceRole AssumeExperienceRole()
  * @method GetServiceStatus GetServiceStatus()
  * @method FinishLiveStreamRecord FinishLiveStreamRecord()
- * @method OpenService OpenService()
  * @method UploadMediaByURL UploadMediaByURL()
  * @method GetVideoPlayInfo GetVideoPlayInfo()
  * @method SetDefaultPlayDomain SetDefaultPlayDomain()
@@ -442,17 +411,6 @@ class GetOSSFlowStatis extends Request
 
 }/**
  * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setDimension($dimension)
- * @method string getDimension()
- * @method $this setArea($area)
- * @method string getArea()
- */
-class DescribeVodUserBillPrediction extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
  * @method string getOwnerId()
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method string getResourceOwnerId()
@@ -483,21 +441,6 @@ class GetDomain extends Request
  * @method string getAPIProxyParam()
  */
 class SetCDNForceRedirectConfig extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setResourceRealOwnerId($resourceRealOwnerId)
- * @method int getResourceRealOwnerId()
- * @method $this setVideoId($videoId)
- * @method string getVideoId()
- */
-class GetTranscodeInfo extends Request
 {
 
 }/**
@@ -651,19 +594,6 @@ class AddWatermarkGroup extends Request
 
 }/**
  * @method $this setOwnerId($ownerId)
- * @method string getOwnerId()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method string getResourceOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setUserId($userId)
- * @method int getUserId()
- */
-class GetUserInfoInner extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
  * @method $this setResourceOwnerAccount($resourceOwnerAccount)
  * @method string getResourceOwnerAccount()
@@ -684,8 +614,6 @@ class UpdateTranscodeConf extends Request
  * @method string getproduct()
  * @method $this setversion($version)
  * @method string getversion()
- * @method $this setaction($action)
- * @method string getaction()
  * @method $this setregionId($regionId)
  * @method string getregionId()
  * @method $this setdomain($domain)
@@ -719,15 +647,6 @@ class CompleteOrderParam extends Request
  * @method Float getDuration()
  */
 class UpdateEditingProject extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setDomainNames($domainNames)
- * @method string getDomainNames()
- */
-class BatchStartVodDomain extends Request
 {
 
 }/**
@@ -960,19 +879,6 @@ class GetEditingProjectList extends Request
  * @method Float getDuration()
  */
 class AddEditingProject extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setVideoType($videoType)
- * @method string getVideoType()
- * @method $this setStartTime($startTime)
- * @method string getStartTime()
- * @method $this setEndTime($endTime)
- * @method string getEndTime()
- */
-class DescribeUserUvByDayTest extends Request
 {
 
 }/**
@@ -1543,19 +1449,6 @@ class GetAudioTemplate extends Request
 
 }/**
  * @method $this setOwnerId($ownerId)
- * @method string getOwnerId()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method string getResourceOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setUserId($userId)
- * @method int getUserId()
- */
-class GetBucketListInner extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
  * @method $this setResourceOwnerAccount($resourceOwnerAccount)
  * @method string getResourceOwnerAccount()
@@ -2037,21 +1930,6 @@ class AddAudioTemplate extends Request
 {
 
 }/**
- * @method $this setOwnerId($ownerId)
- * @method string getOwnerId()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method string getResourceOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setAIVideoTagJobIds($aIVideoTagJobIds)
- * @method string getAIVideoTagJobIds()
- */
-class ListAIVideoTagJob extends Request
-{
-
-}/**
  * @method $this setAuditContent($auditContent)
  * @method string getAuditContent()
  */
@@ -2367,19 +2245,6 @@ class RefreshWorkFlow extends Request
 
 }/**
  * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setBizDate($bizDate)
- * @method string getBizDate()
- * @method $this setPageNo($pageNo)
- * @method int getPageNo()
- * @method $this setPageSize($pageSize)
- * @method int getPageSize()
- */
-class DescribePlayTopVideos extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
  * @method string getOwnerId()
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method string getResourceOwnerId()
@@ -2627,17 +2492,6 @@ class SetDefaultTemplateGroup extends Request
 
 }/**
  * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setStartTime($startTime)
- * @method string getStartTime()
- * @method $this setEndTime($endTime)
- * @method string getEndTime()
- */
-class DescribePlayUserTotal extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
  * @method string getOwnerId()
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method string getResourceOwnerId()
@@ -2664,21 +2518,6 @@ class NotifyProduce extends Request
  * @method string getInterval()
  */
 class DescribeVodDomainHttpCodeData extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method string getOwnerId()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method string getResourceOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setDomainName($domainName)
- * @method string getDomainName()
- * @method $this setUserId($userId)
- * @method int getUserId()
- */
-class GetDomainAuthInner extends Request
 {
 
 }/**
@@ -2760,23 +2599,6 @@ class GetVideoInfos extends Request
  * @method string getEndTime()
  */
 class DescribeVodDomainRealTimeTrafficData extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method string getOwnerId()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method string getResourceOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setDomainType($domainType)
- * @method string getDomainType()
- * @method $this setUserId($userId)
- * @method int getUserId()
- */
-class GetDomainListInner extends Request
 {
 
 }/**
@@ -3037,8 +2859,6 @@ class UpdateCustomTemplateAndGroup extends Request
  * @method string getproduct()
  * @method $this setversion($version)
  * @method string getversion()
- * @method $this setaction($action)
- * @method string getaction()
  * @method $this setregionId($regionId)
  * @method string getregionId()
  * @method $this setdomain($domain)
@@ -3372,67 +3192,12 @@ class SPICheckResourceAction extends Request
 {
 
 }/**
- * @method $this setSource($source)
- * @method string getSource()
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setClientId($clientId)
- * @method string getClientId()
- * @method $this setBusinessType($businessType)
- * @method string getBusinessType()
- * @method $this setTerminalType($terminalType)
- * @method string getTerminalType()
- * @method $this setDeviceModel($deviceModel)
- * @method string getDeviceModel()
- * @method $this setAppVersion($appVersion)
- * @method string getAppVersion()
- * @method $this setAuthTimestamp($authTimestamp)
- * @method int getAuthTimestamp()
- * @method $this setAuthInfo($authInfo)
- * @method string getAuthInfo()
- * @method $this setFileName($fileName)
- * @method string getFileName()
- * @method $this setFileSize($fileSize)
- * @method int getFileSize()
- * @method $this setFileCreateTime($fileCreateTime)
- * @method string getFileCreateTime()
- * @method $this setFileHash($fileHash)
- * @method string getFileHash()
- * @method $this setUploadRatio($uploadRatio)
- * @method Float getUploadRatio()
- * @method $this setUploadId($uploadId)
- * @method string getUploadId()
- * @method $this setDonePartsCount($donePartsCount)
- * @method int getDonePartsCount()
- * @method $this setTotalPart($totalPart)
- * @method int getTotalPart()
- * @method $this setPartSize($partSize)
- * @method int getPartSize()
- * @method $this setUploadPoint($uploadPoint)
- * @method string getUploadPoint()
- * @method $this setUserId($userId)
- * @method int getUserId()
- * @method $this setVideoId($videoId)
- * @method string getVideoId()
- * @method $this setUploadAddress($uploadAddress)
- * @method string getUploadAddress()
- */
-class ReportUploadProgress extends Request
-{
-
-}/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
  * @method $this setproduct($product)
  * @method string getproduct()
  * @method $this setversion($version)
  * @method string getversion()
- * @method $this setaction($action)
- * @method string getaction()
  * @method $this setregionId($regionId)
  * @method string getregionId()
  * @method $this setdomain($domain)
@@ -3686,25 +3451,6 @@ class GetWatermarkInfo extends Request
  * @method string getVideoIds()
  */
 class DeleteMediaInfo extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method string getOwnerId()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method string getResourceOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setMediaId($mediaId)
- * @method string getMediaId()
- * @method $this setAIVideoFaceRecogConfig($aIVideoFaceRecogConfig)
- * @method string getAIVideoFaceRecogConfig()
- * @method $this setUserData($userData)
- * @method string getUserData()
- */
-class SubmitAIVideoFaceRecogJob extends Request
 {
 
 }/**
@@ -4033,33 +3779,6 @@ class DescribeVodUserQuota extends Request
 
 }/**
  * @method $this setOwnerId($ownerId)
- * @method string getOwnerId()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method string getResourceOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setNewAccountAkId($newAccountAkId)
- * @method string getNewAccountAkId()
- * @method $this setNewAccountAkSecret($newAccountAkSecret)
- * @method string getNewAccountAkSecret()
- * @method $this setNewAccountUserId($newAccountUserId)
- * @method int getNewAccountUserId()
- * @method $this setNewAccountLoginName($newAccountLoginName)
- * @method string getNewAccountLoginName()
- * @method $this setNewAccountRegionId($newAccountRegionId)
- * @method string getNewAccountRegionId()
- * @method $this setMaxBucketLimit($maxBucketLimit)
- * @method int getMaxBucketLimit()
- * @method $this setCommands($commands)
- * @method string getCommands()
- */
-class AddProductAccount extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
  * @method $this setResourceOwnerAccount($resourceOwnerAccount)
  * @method string getResourceOwnerAccount()
@@ -4214,19 +3933,6 @@ class DescribeCdnDomainLogs extends Request
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setDomainNames($domainNames)
- * @method string getDomainNames()
- * @method $this setFunctions($functions)
- * @method string getFunctions()
- */
-class BatchSetVodDomainConfigs extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
  * @method $this setResourceOwnerAccount($resourceOwnerAccount)
  * @method string getResourceOwnerAccount()
  * @method $this setResourceOwnerId($resourceOwnerId)
@@ -4237,21 +3943,6 @@ class BatchSetVodDomainConfigs extends Request
  * @method string getPreprocessType()
  */
 class SubmitPreprocessJobs extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method string getOwnerId()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method string getResourceOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setUserList($userList)
- * @method string getUserList()
- */
-class AddAuthCheckWhiteList extends Request
 {
 
 }/**
@@ -4281,40 +3972,6 @@ class AddAuthCheckWhiteList extends Request
  * @method string getStatus()
  */
 class SearchMediaInfo extends Request
-{
-
-}/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method string getResourceOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setInstanceId($instanceId)
- * @method string getInstanceId()
- * @method $this setPayType($payType)
- * @method string getPayType()
- * @method $this setBillType($billType)
- * @method string getBillType()
- * @method $this setChargeDuration($chargeDuration)
- * @method string getChargeDuration()
- * @method $this setOrderType($orderType)
- * @method string getOrderType()
- */
-class InitVodService extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setDomainName($domainName)
- * @method string getDomainName()
- * @method $this setConfigId($configId)
- * @method string getConfigId()
- */
-class DeleteVodSpecificConfig extends Request
 {
 
 }/**
@@ -4425,21 +4082,6 @@ class DescribeVodDomainBpsData extends Request
 
 }/**
  * @method $this setOwnerId($ownerId)
- * @method string getOwnerId()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method string getResourceOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setAIVideoFaceRecogJobIds($aIVideoFaceRecogJobIds)
- * @method string getAIVideoFaceRecogJobIds()
- */
-class ListAIVideoFaceRecogJob extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
  * @method $this setResourceOwnerAccount($resourceOwnerAccount)
  * @method string getResourceOwnerAccount()
@@ -4464,27 +4106,6 @@ class DeleteStream extends Request
  * @method string getResourceGroupId()
  */
 class DeleteVodDomain extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method string getOwnerId()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method string getResourceOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setType($type)
- * @method string getType()
- * @method $this setStartTime($startTime)
- * @method string getStartTime()
- * @method $this setEndTime($endTime)
- * @method string getEndTime()
- * @method $this setRecentNumber($recentNumber)
- * @method int getRecentNumber()
- */
-class SubmitDNAInitializationJob extends Request
 {
 
 }/**
@@ -4807,15 +4428,6 @@ class StopVodDomain extends Request
 
 }/**
  * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setDomainNames($domainNames)
- * @method string getDomainNames()
- */
-class BatchStopVodDomain extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
  * @method string getOwnerId()
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method string getResourceOwnerId()
@@ -4984,6 +4596,12 @@ class InitCustomerWithSystemTemplateAndGroup extends Request
  * @method int getResourceRealOwnerId()
  * @method $this setVideoId($videoId)
  * @method string getVideoId()
+ * @method $this setStorageLocation($storageLocation)
+ * @method string getStorageLocation()
+ * @method $this setFileName($fileName)
+ * @method string getFileName()
+ * @method $this setTemplateGroupId($templateGroupId)
+ * @method string getTemplateGroupId()
  */
 class RefreshUploadVideo extends Request
 {
@@ -5039,23 +4657,6 @@ class DescribeCdnRefreshQuota extends Request
  * @method string getWatermarkName()
  */
 class UpdateWatermarkInfo extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method string getOwnerId()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method string getResourceOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setResourceRealOwnerId($resourceRealOwnerId)
- * @method int getResourceRealOwnerId()
- * @method $this setAppId($appId)
- * @method string getAppId()
- */
-class DeleteMessageCallback extends Request
 {
 
 }/**
@@ -5256,21 +4857,6 @@ class DescribeVodTopDomainsByFlow extends Request
 {
 
 }/**
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method string getResourceOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setCommand($command)
- * @method string getCommand()
- */
-class ControlVodService extends Request
-{
-
-}/**
  * @method $this setOwnerId($ownerId)
  * @method string getOwnerId()
  * @method $this setResourceOwnerId($resourceOwnerId)
@@ -5390,17 +4976,6 @@ class DescribePlayVideoStatis extends Request
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
- * @method $this setStartTime($startTime)
- * @method string getStartTime()
- * @method $this setEndTime($endTime)
- * @method string getEndTime()
- */
-class DescribePlayUserAvg extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
  * @method $this setResourceOwnerAccount($resourceOwnerAccount)
  * @method string getResourceOwnerAccount()
  * @method $this setResourceOwnerId($resourceOwnerId)
@@ -5422,6 +4997,8 @@ class DeleteVodTemplate extends Request
  * @method string getVideoId()
  * @method $this setAuthInfoTimeout($authInfoTimeout)
  * @method int getAuthInfoTimeout()
+ * @method $this setReAuthInfo($reAuthInfo)
+ * @method string getReAuthInfo()
  * @method $this setPlayConfig($playConfig)
  * @method string getPlayConfig()
  */
@@ -5706,25 +5283,6 @@ class ListLiveRecordVideo extends Request
 
 }/**
  * @method $this setOwnerId($ownerId)
- * @method string getOwnerId()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method string getResourceOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setMediaId($mediaId)
- * @method string getMediaId()
- * @method $this setAIVideoTagConfig($aIVideoTagConfig)
- * @method string getAIVideoTagConfig()
- * @method $this setUserData($userData)
- * @method string getUserData()
- */
-class SubmitAIVideoTagJob extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
  * @method $this setResourceOwnerAccount($resourceOwnerAccount)
  * @method string getResourceOwnerAccount()
@@ -5734,27 +5292,6 @@ class SubmitAIVideoTagJob extends Request
  * @method string getTemplateId()
  */
 class GetAITemplate extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method string getOwnerId()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method string getResourceOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setMediaId($mediaId)
- * @method string getMediaId()
- * @method $this setFileName($fileName)
- * @method string getFileName()
- * @method $this setFileUrl($fileUrl)
- * @method string getFileUrl()
- * @method $this setSnapshot($snapshot)
- * @method string getSnapshot()
- */
-class ReleaseFile extends Request
 {
 
 }/**
@@ -5787,25 +5324,6 @@ class DescribeUserAvgTimeByDay extends Request
 
 }/**
  * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setStartTime($startTime)
- * @method string getStartTime()
- * @method $this setEndTime($endTime)
- * @method string getEndTime()
- * @method $this setGroup($group)
- * @method string getGroup()
- * @method $this setDomainNames($domainNames)
- * @method string getDomainNames()
- * @method $this setDimension($dimension)
- * @method string getDimension()
- * @method $this setTaskName($taskName)
- * @method string getTaskName()
- */
-class CreateVodUserUsageDetailDataExportTask extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
  * @method string getOwnerId()
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method string getResourceOwnerId()
@@ -5829,32 +5347,6 @@ class CreateVodUserUsageDetailDataExportTask extends Request
  * @method string getDivision()
  */
 class GetAIStatis extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method string getOwnerId()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method string getResourceOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setDomainName($domainName)
- * @method string getDomainName()
- */
-class ListCertificate extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setPageSize($pageSize)
- * @method string getPageSize()
- * @method $this setPageNumber($pageNumber)
- * @method string getPageNumber()
- */
-class DescribeVodUserUsageDetailDataExportTask extends Request
 {
 
 }/**
@@ -6189,21 +5681,6 @@ class CategoryTree extends Request
 }/**
  * @method $this setOwnerId($ownerId)
  * @method string getOwnerId()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method string getResourceOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setUserList($userList)
- * @method string getUserList()
- */
-class InitEditing extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method string getOwnerId()
  * @method $this setLicenseId($licenseId)
  * @method int getLicenseId()
  */
@@ -6334,21 +5811,6 @@ class GetServiceStatus extends Request
  * @method string getTranscodeGroupId()
  */
 class FinishLiveStreamRecord extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method string getOwnerId()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method string getResourceOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setResourceRealOwnerId($resourceRealOwnerId)
- * @method string getResourceRealOwnerId()
- */
-class OpenService extends Request
 {
 
 }/**

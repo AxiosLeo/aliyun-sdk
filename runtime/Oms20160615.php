@@ -9,7 +9,6 @@ use aliyun\sdk\core\lib\Request;
  *
  * @package aliyun\sdk\services\Oms20160615
  * @method GetDomainPart GetDomainPart()
- * @method GetSystemConfig GetSystemConfig()
  * @method GetDomainPartByProxy GetDomainPartByProxy()
  * @method PutDomainPartByProxy PutDomainPartByProxy()
  * @method DeleteDomainPartByProxy DeleteDomainPartByProxy()
@@ -44,15 +43,6 @@ class V20160615
  * @method bool getCompressEnable()
  */
 class GetDomainPart extends Request
-{
-
-}/**
- * @method $this setConfigKey($configKey)
- * @method string getConfigKey()
- * @method $this setCompressEnable($compressEnable)
- * @method bool getCompressEnable()
- */
-class GetSystemConfig extends Request
 {
 
 }/**

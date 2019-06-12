@@ -13,11 +13,9 @@ use aliyun\sdk\core\lib\Request;
  * @method DescribeDBInstanceSSL DescribeDBInstanceSSL()
  * @method ReleaseReplica ReleaseReplica()
  * @method ModifyReplicaMode ModifyReplicaMode()
- * @method DescribeUserInfo DescribeUserInfo()
  * @method ModifyDBInstanceConnectionString ModifyDBInstanceConnectionString()
  * @method CreateRecommendationTask CreateRecommendationTask()
  * @method SwitchDBInstanceHA SwitchDBInstanceHA()
- * @method DescribeShardingAvailability DescribeShardingAvailability()
  * @method UntagResources UntagResources()
  * @method DescribeBackupDBs DescribeBackupDBs()
  * @method DescribeActiveOperationTaskType DescribeActiveOperationTaskType()
@@ -40,12 +38,9 @@ use aliyun\sdk\core\lib\Request;
  * @method CreateBackup CreateBackup()
  * @method UpgradeDBInstanceKernelVersion UpgradeDBInstanceKernelVersion()
  * @method ModifyDBInstanceNetworkType ModifyDBInstanceNetworkType()
- * @method CreateShardingDBInstances CreateShardingDBInstances()
  * @method DescribeReplicaUsage DescribeReplicaUsage()
  * @method DescribeActiveOperationTaskRegion DescribeActiveOperationTaskRegion()
  * @method DescribeParameterModificationHistory DescribeParameterModificationHistory()
- * @method DescribePrice DescribePrice()
- * @method LockDBInstance LockDBInstance()
  * @method EvaluateFailOverSwitch EvaluateFailOverSwitch()
  * @method DescribeAvailableEngineVersion DescribeAvailableEngineVersion()
  * @method DescribeAuditLogFilter DescribeAuditLogFilter()
@@ -53,12 +48,10 @@ use aliyun\sdk\core\lib\Request;
  * @method DescribeBackups DescribeBackups()
  * @method DescribeAvailableTimeRange DescribeAvailableTimeRange()
  * @method DescribeVerificationList DescribeVerificationList()
- * @method CreateAccount CreateAccount()
  * @method RestoreDBInstance RestoreDBInstance()
  * @method DescribeRdsVpcs DescribeRdsVpcs()
  * @method DescribeStaticVerificationList DescribeStaticVerificationList()
  * @method ModifyInstanceAutoRenewalAttribute ModifyInstanceAutoRenewalAttribute()
- * @method UnlockDBInstance UnlockDBInstance()
  * @method ModifySecurityIps ModifySecurityIps()
  * @method DescribeRunningLogRecords DescribeRunningLogRecords()
  * @method CreateNode CreateNode()
@@ -83,8 +76,6 @@ use aliyun\sdk\core\lib\Request;
  * @method AllocatePublicNetworkAddress AllocatePublicNetworkAddress()
  * @method ModifyAuditPolicy ModifyAuditPolicy()
  * @method MigrateAvailableZone MigrateAvailableZone()
- * @method CreateDBInstances CreateDBInstances()
- * @method CreateDBInstanceReplica CreateDBInstanceReplica()
  * @method DescribeAuditFiles DescribeAuditFiles()
  * @method DescribeParameters DescribeParameters()
  * @method ModifyReplicaRelation ModifyReplicaRelation()
@@ -98,12 +89,10 @@ use aliyun\sdk\core\lib\Request;
  * @method DescribeRenewalPrice DescribeRenewalPrice()
  * @method DestroyInstance DestroyInstance()
  * @method ModifyDBInstanceMaintainTime ModifyDBInstanceMaintainTime()
- * @method DescribeQualifications DescribeQualifications()
  * @method DescribeAuditPolicy DescribeAuditPolicy()
  * @method TransformToPrePaid TransformToPrePaid()
  * @method DescribeStrategy DescribeStrategy()
  * @method ModifyDBInstanceSpec ModifyDBInstanceSpec()
- * @method DescribeCommodity DescribeCommodity()
  * @method DescribeKernelReleaseNotes DescribeKernelReleaseNotes()
  * @method ModifyBackupPolicy ModifyBackupPolicy()
  * @method ModifyGuardDomainMode ModifyGuardDomainMode()
@@ -115,7 +104,6 @@ use aliyun\sdk\core\lib\Request;
  * @method DescribeReplicas DescribeReplicas()
  * @method CreateDBInstance CreateDBInstance()
  * @method DeleteNode DeleteNode()
- * @method StartArchiveSQLLog StartArchiveSQLLog()
  * @method ListTagResources ListTagResources()
  */
 class V20151201
@@ -228,21 +216,6 @@ class ModifyReplicaMode extends Request
  * @method string getOwnerAccount()
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
- */
-class DescribeUserInfo extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
  * @method $this setDBInstanceId($dBInstanceId)
  * @method string getDBInstanceId()
  * @method $this setNodeId($nodeId)
@@ -301,43 +274,6 @@ class CreateRecommendationTask extends Request
  * @method int getSourceInstanceId()
  */
 class SwitchDBInstanceHA extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setZoneId($zoneId)
- * @method string getZoneId()
- * @method $this setEngine($engine)
- * @method string getEngine()
- * @method $this setEngineVersion($engineVersion)
- * @method string getEngineVersion()
- * @method $this setEvaluateType($evaluateType)
- * @method string getEvaluateType()
- * @method $this setMongos($mongos)
- * @method array getMongos()
- * @method $this setReplicaSet($replicaSet)
- * @method array getReplicaSet()
- * @method $this setConfigServer($configServer)
- * @method array getConfigServer()
- * @method $this setDBInstanceId($dBInstanceId)
- * @method string getDBInstanceId()
- * @method $this setNodeId($nodeId)
- * @method string getNodeId()
- * @method $this setNodeClass($nodeClass)
- * @method string getNodeClass()
- * @method $this setNodeStorage($nodeStorage)
- * @method int getNodeStorage()
- */
-class DescribeShardingAvailability extends Request
 {
 
 }/**
@@ -849,37 +785,6 @@ class ModifyDBInstanceNetworkType extends Request
  * @method string getOwnerAccount()
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
- * @method $this setDBInstances($dBInstances)
- * @method string getDBInstances()
- * @method $this setClientToken($clientToken)
- * @method string getClientToken()
- * @method $this setAutoPay($autoPay)
- * @method bool getAutoPay()
- * @method $this setAgentId($agentId)
- * @method string getAgentId()
- * @method $this setChargeType($chargeType)
- * @method string getChargeType()
- * @method $this setRebuildInstance($rebuildInstance)
- * @method bool getRebuildInstance()
- * @method $this setAutoRenew($autoRenew)
- * @method string getAutoRenew()
- * @method $this setBusinessInfo($businessInfo)
- * @method string getBusinessInfo()
- */
-class CreateShardingDBInstances extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
  * @method $this setReplicaId($replicaId)
  * @method string getReplicaId()
  * @method $this setSourceDBInstanceId($sourceDBInstanceId)
@@ -930,54 +835,6 @@ class DescribeActiveOperationTaskRegion extends Request
  * @method string getEndTime()
  */
 class DescribeParameterModificationHistory extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setOrderType($orderType)
- * @method string getOrderType()
- * @method $this setDBInstances($dBInstances)
- * @method string getDBInstances()
- * @method $this setCommodityCode($commodityCode)
- * @method string getCommodityCode()
- * @method $this setProductCode($productCode)
- * @method string getProductCode()
- * @method $this setBusinessInfo($businessInfo)
- * @method string getBusinessInfo()
- * @method $this setCouponNo($couponNo)
- * @method string getCouponNo()
- * @method $this setOrderParamOut($orderParamOut)
- * @method string getOrderParamOut()
- */
-class DescribePrice extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setDBInstanceId($dBInstanceId)
- * @method string getDBInstanceId()
- * @method $this setLockReason($lockReason)
- * @method string getLockReason()
- */
-class LockDBInstance extends Request
 {
 
 }/**
@@ -1138,29 +995,6 @@ class DescribeVerificationList extends Request
  * @method string getRegionId()
  * @method $this setDBInstanceId($dBInstanceId)
  * @method string getDBInstanceId()
- * @method $this setAccountName($accountName)
- * @method string getAccountName()
- * @method $this setAccountPassword($accountPassword)
- * @method string getAccountPassword()
- * @method $this setAccountDescription($accountDescription)
- * @method string getAccountDescription()
- */
-class CreateAccount extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setDBInstanceId($dBInstanceId)
- * @method string getDBInstanceId()
  * @method $this setBackupId($backupId)
  * @method int getBackupId()
  */
@@ -1224,23 +1058,6 @@ class DescribeStaticVerificationList extends Request
  * @method string getAutoRenew()
  */
 class ModifyInstanceAutoRenewalAttribute extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setDBInstanceId($dBInstanceId)
- * @method string getDBInstanceId()
- */
-class UnlockDBInstance extends Request
 {
 
 }/**
@@ -1798,78 +1615,6 @@ class MigrateAvailableZone extends Request
  * @method string getOwnerAccount()
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
- * @method $this setBusinessInfo($businessInfo)
- * @method string getBusinessInfo()
- * @method $this setCouponNo($couponNo)
- * @method string getCouponNo()
- * @method $this setDBInstances($dBInstances)
- * @method string getDBInstances()
- * @method $this setClientToken($clientToken)
- * @method string getClientToken()
- * @method $this setAutoPay($autoPay)
- * @method bool getAutoPay()
- * @method $this setAgentId($agentId)
- * @method string getAgentId()
- * @method $this setRebuildInstance($rebuildInstance)
- * @method bool getRebuildInstance()
- * @method $this setAutoRenew($autoRenew)
- * @method string getAutoRenew()
- */
-class CreateDBInstances extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setZoneId($zoneId)
- * @method string getZoneId()
- * @method $this setSourceDBInstanceId($sourceDBInstanceId)
- * @method string getSourceDBInstanceId()
- * @method $this setDBInstanceDescription($dBInstanceDescription)
- * @method string getDBInstanceDescription()
- * @method $this setReplicaDescription($replicaDescription)
- * @method string getReplicaDescription()
- * @method $this setSecurityIPList($securityIPList)
- * @method string getSecurityIPList()
- * @method $this setAccountPassword($accountPassword)
- * @method string getAccountPassword()
- * @method $this setChargeType($chargeType)
- * @method string getChargeType()
- * @method $this setPeriod($period)
- * @method int getPeriod()
- * @method $this setNetworkType($networkType)
- * @method string getNetworkType()
- * @method $this setVpcId($vpcId)
- * @method string getVpcId()
- * @method $this setVSwitchId($vSwitchId)
- * @method string getVSwitchId()
- * @method $this setAutoPay($autoPay)
- * @method bool getAutoPay()
- * @method $this setClientToken($clientToken)
- * @method string getClientToken()
- */
-class CreateDBInstanceReplica extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
  * @method $this setDBInstanceId($dBInstanceId)
  * @method string getDBInstanceId()
  * @method $this setNodeId($nodeId)
@@ -2175,25 +1920,6 @@ class ModifyDBInstanceMaintainTime extends Request
  * @method string getRegionId()
  * @method $this setDBInstanceId($dBInstanceId)
  * @method string getDBInstanceId()
- * @method $this setOperation($operation)
- * @method string getOperation()
- */
-class DescribeQualifications extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setDBInstanceId($dBInstanceId)
- * @method string getDBInstanceId()
  */
 class DescribeAuditPolicy extends Request
 {
@@ -2265,6 +1991,8 @@ class DescribeStrategy extends Request
  * @method string getOrderType()
  * @method $this setAutoPay($autoPay)
  * @method bool getAutoPay()
+ * @method $this setFromApp($fromApp)
+ * @method string getFromApp()
  * @method $this setBusinessInfo($businessInfo)
  * @method string getBusinessInfo()
  * @method $this setReplicationFactor($replicationFactor)
@@ -2275,33 +2003,6 @@ class DescribeStrategy extends Request
  * @method string getEffectiveTime()
  */
 class ModifyDBInstanceSpec extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setCommodityCode($commodityCode)
- * @method string getCommodityCode()
- * @method $this setProductCode($productCode)
- * @method string getProductCode()
- * @method $this setChargeType($chargeType)
- * @method string getChargeType()
- * @method $this setDBInstanceId($dBInstanceId)
- * @method string getDBInstanceId()
- * @method $this setNodeId($nodeId)
- * @method string getNodeId()
- * @method $this setOrderType($orderType)
- * @method string getOrderType()
- */
-class DescribeCommodity extends Request
 {
 
 }/**
@@ -2579,33 +2280,6 @@ class CreateDBInstance extends Request
  * @method string getClientToken()
  */
 class DeleteNode extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setDBInstanceId($dBInstanceId)
- * @method string getDBInstanceId()
- * @method $this setQueryKeywords($queryKeywords)
- * @method string getQueryKeywords()
- * @method $this setStartTime($startTime)
- * @method string getStartTime()
- * @method $this setDatabase($database)
- * @method string getDatabase()
- * @method $this setUser($user)
- * @method string getUser()
- * @method $this setEndTime($endTime)
- * @method string getEndTime()
- */
-class StartArchiveSQLLog extends Request
 {
 
 }/**

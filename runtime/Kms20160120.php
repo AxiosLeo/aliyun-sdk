@@ -19,11 +19,11 @@ use aliyun\sdk\core\lib\Request;
  * @method TagResource TagResource()
  * @method UntagResource UntagResource()
  * @method ListKeys ListKeys()
+ * @method DescribeRegions DescribeRegions()
  * @method DescribeKey DescribeKey()
  * @method EnableKey EnableKey()
  * @method Decrypt Decrypt()
  * @method ListAliases ListAliases()
- * @method CreateServiceKey CreateServiceKey()
  * @method UpdateAlias UpdateAlias()
  * @method Encrypt Encrypt()
  * @method CreateAlias CreateAlias()
@@ -140,6 +140,11 @@ class ListKeys extends Request
 {
 
 }/**
+ */
+class DescribeRegions extends Request
+{
+
+}/**
  * @method $this setKeyId($keyId)
  * @method string getKeyId()
  */
@@ -169,21 +174,6 @@ class Decrypt extends Request
  * @method int getPageSize()
  */
 class ListAliases extends Request
-{
-
-}/**
- * @method $this setDescription($description)
- * @method string getDescription()
- * @method $this setKeyUsage($keyUsage)
- * @method string getKeyUsage()
- * @method $this setBid($bid)
- * @method string getBid()
- * @method $this setUid($uid)
- * @method string getUid()
- * @method $this setSTSToken($sTSToken)
- * @method string getSTSToken()
- */
-class CreateServiceKey extends Request
 {
 
 }/**

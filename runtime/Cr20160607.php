@@ -14,7 +14,6 @@ use aliyun\sdk\core\lib\Request;
  * @method GetRepoWebhook GetRepoWebhook()
  * @method GetUserSourceRepoRefList GetUserSourceRepoRefList()
  * @method DeleteRepoAuthorization DeleteRepoAuthorization()
- * @method PostRepoWebhook PostRepoWebhook()
  * @method GetUserSourceRepoList GetUserSourceRepoList()
  * @method GetRegion GetRegion()
  * @method GetNamespace GetNamespace()
@@ -134,19 +133,6 @@ class GetUserSourceRepoRefList extends Request
  * @method int getAuthorizeId()
  */
 class DeleteRepoAuthorization extends Request
-{
-
-}/**
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setRepoNamespace($repoNamespace)
- * @method string getRepoNamespace()
- * @method $this setRepoName($repoName)
- * @method string getRepoName()
- * @method $this setWebhookId($webhookId)
- * @method int getWebhookId()
- */
-class PostRepoWebhook extends Request
 {
 
 }/**
