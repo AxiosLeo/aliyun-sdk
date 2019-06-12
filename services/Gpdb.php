@@ -47,7 +47,7 @@ class Gpdb extends ProductAbstract
         "public"   => [
             "ap-northeast-1" => "gpdb.ap-northeast-1.aliyuncs.com",
             "ap-south-1"     => "gpdb.ap-south-1.aliyuncs.com",
-            "ap-southeast-1" => "gpdb.ap-northeast-1.aliyuncs.com",
+            "ap-southeast-1" => "gpdb.aliyuncs.com",
             "ap-southeast-2" => "gpdb.ap-southeast-2.aliyuncs.com",
             "ap-southeast-3" => "gpdb.ap-southeast-3.aliyuncs.com",
             "ap-southeast-5" => "gpdb.ap-southeast-5.aliyuncs.com",
@@ -63,8 +63,8 @@ class Gpdb extends ProductAbstract
             "eu-central-1"   => "gpdb.eu-central-1.aliyuncs.com",
             "eu-west-1"      => "gpdb.eu-west-1.aliyuncs.com",
             "me-east-1"      => "gpdb.me-east-1.aliyuncs.com",
-            "us-east-1"      => "gpdb.ap-northeast-1.aliyuncs.com",
-            "us-west-1"      => "gpdb.ap-northeast-1.aliyuncs.com",
+            "us-east-1"      => "gpdb.aliyuncs.com",
+            "us-west-1"      => "gpdb.aliyuncs.com",
         ],
         "internal" => [
         ]

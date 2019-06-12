@@ -62,7 +62,7 @@ class Dysmsapi extends ProductAbstract
             "cn-shenzhen"    => "dysmsapi.aliyuncs.com",
             "cn-zhangjiakou" => "dysmsapi.aliyuncs.com",
             "eu-central-1"   => "dysmsapi.ap-southeast-1.aliyuncs.com",
-            "eu-west-1"      => "dysmsapi.ap-southeast-1.aliyuncs.com",
+            "eu-west-1"      => "dysmsapi.aliyuncs.com",
             "me-east-1"      => "dysmsapi.ap-southeast-1.aliyuncs.com",
             "us-east-1"      => "dysmsapi.ap-southeast-1.aliyuncs.com",
             "us-west-1"      => "dysmsapi.ap-southeast-1.aliyuncs.com",

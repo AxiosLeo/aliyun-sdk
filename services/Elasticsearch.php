@@ -61,9 +61,9 @@ class Elasticsearch extends ProductAbstract
             "cn-shenzhen"    => "elasticsearch.cn-shenzhen.aliyuncs.com",
             "cn-zhangjiakou" => "elasticsearch.cn-zhangjiakou.aliyuncs.com",
             "eu-central-1"   => "elasticsearch.eu-central-1.aliyuncs.com",
-            "eu-west-1"      => "elasticsearch.ap-northeast-1.aliyuncs.com",
-            "me-east-1"      => "elasticsearch.ap-northeast-1.aliyuncs.com",
-            "us-east-1"      => "elasticsearch.ap-northeast-1.aliyuncs.com",
+            "eu-west-1"      => "elasticsearch.aliyuncs.com",
+            "me-east-1"      => "elasticsearch.aliyuncs.com",
+            "us-east-1"      => "elasticsearch.aliyuncs.com",
             "us-west-1"      => "elasticsearch.us-west-1.aliyuncs.com",
         ],
         "internal" => [

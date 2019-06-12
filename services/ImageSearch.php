@@ -33,7 +33,6 @@ class ImageSearch extends ProductAbstract
             "ap-southeast-2",
             "cn-hongkong",
             "cn-shanghai",
-            "eu-central-1",
         ],
         "public"   => [
             "ap-northeast-1" => "imagesearch.ap-northeast-1.aliyuncs.com",
@@ -42,7 +41,6 @@ class ImageSearch extends ProductAbstract
             "ap-southeast-2" => "imagesearch.ap-southeast-2.aliyuncs.com",
             "cn-hongkong"    => "imagesearch.cn-hongkong.aliyuncs.com",
             "cn-shanghai"    => "imagesearch.cn-shanghai.aliyuncs.com",
-            "eu-central-1"   => "imagesearch.eu-central-1.aliyuncs.com",
         ],
         "internal" => [
         ]

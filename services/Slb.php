@@ -48,7 +48,7 @@ class Slb extends ProductAbstract
         "public"   => [
             "ap-northeast-1" => "slb.ap-northeast-1.aliyuncs.com",
             "ap-south-1"     => "slb.ap-south-1.aliyuncs.com",
-            "ap-southeast-1" => "slb.ap-northeast-1.aliyuncs.com",
+            "ap-southeast-1" => "slb.aliyuncs.com",
             "ap-southeast-2" => "slb.ap-southeast-2.aliyuncs.com",
             "ap-southeast-3" => "slb.ap-southeast-3.aliyuncs.com",
             "ap-southeast-5" => "slb.ap-southeast-5.aliyuncs.com",
@@ -61,11 +61,11 @@ class Slb extends ProductAbstract
             "cn-shanghai"    => "slb.aliyuncs.com",
             "cn-shenzhen"    => "slb.aliyuncs.com",
             "cn-zhangjiakou" => "slb.cn-zhangjiakou.aliyuncs.com",
-            "eu-central-1"   => "slb.eu-central-1.aliyuncs.com",
+            "eu-central-1"   => "slb.aliyuncs.com",
             "eu-west-1"      => "slb.eu-west-1.aliyuncs.com",
-            "me-east-1"      => "slb.me-east-1.aliyuncs.com",
-            "us-east-1"      => "slb.ap-northeast-1.aliyuncs.com",
-            "us-west-1"      => "slb.ap-northeast-1.aliyuncs.com",
+            "me-east-1"      => "slb.aliyuncs.com",
+            "us-east-1"      => "slb.aliyuncs.com",
+            "us-west-1"      => "slb.aliyuncs.com",
         ],
         "internal" => [
         ]

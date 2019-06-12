@@ -17,7 +17,7 @@ class Alikafka extends ProductAbstract
 
     protected $product = "alikafka";
 
-    protected $service_code = "";
+    protected $service_code = "alikafka";
 
     protected $credential = "AccessKeyCredential";
 
@@ -47,7 +47,7 @@ class Alikafka extends ProductAbstract
         "public"   => [
             "ap-northeast-1" => "alikafka.aliyuncs.com",
             "ap-south-1"     => "alikafka.aliyuncs.com",
-            "ap-southeast-1" => "alikafka.aliyuncs.com",
+            "ap-southeast-1" => "alikafka.ap-southeast-1.aliyuncs.com",
             "ap-southeast-2" => "alikafka.aliyuncs.com",
             "ap-southeast-3" => "alikafka.aliyuncs.com",
             "ap-southeast-5" => "alikafka.aliyuncs.com",

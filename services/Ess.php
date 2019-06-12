@@ -48,7 +48,7 @@ class Ess extends ProductAbstract
         "public"   => [
             "ap-northeast-1" => "ess.ap-northeast-1.aliyuncs.com",
             "ap-south-1"     => "ess.ap-south-1.aliyuncs.com",
-            "ap-southeast-1" => "ess.ap-northeast-1.aliyuncs.com",
+            "ap-southeast-1" => "ess.aliyuncs.com",
             "ap-southeast-2" => "ess.ap-southeast-2.aliyuncs.com",
             "ap-southeast-3" => "ess.ap-southeast-3.aliyuncs.com",
             "ap-southeast-5" => "ess.ap-southeast-5.aliyuncs.com",
@@ -63,9 +63,9 @@ class Ess extends ProductAbstract
             "cn-zhangjiakou" => "ess.cn-zhangjiakou.aliyuncs.com",
             "eu-central-1"   => "ess.eu-central-1.aliyuncs.com",
             "eu-west-1"      => "ess.eu-west-1.aliyuncs.com",
-            "me-east-1"      => "ess.me-east-1.aliyuncs.com",
-            "us-east-1"      => "ess.ap-northeast-1.aliyuncs.com",
-            "us-west-1"      => "ess.ap-northeast-1.aliyuncs.com",
+            "me-east-1"      => "ess.aliyuncs.com",
+            "us-east-1"      => "ess.aliyuncs.com",
+            "us-west-1"      => "ess.aliyuncs.com",
         ],
         "internal" => [
         ]

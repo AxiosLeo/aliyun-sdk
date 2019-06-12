@@ -63,8 +63,8 @@ class Ecs extends ProductAbstract
             "cn-zhangjiakou" => "ecs.cn-zhangjiakou.aliyuncs.com",
             "eu-central-1"   => "ecs.eu-central-1.aliyuncs.com",
             "eu-west-1"      => "ecs.eu-west-1.aliyuncs.com",
-            "me-east-1"      => "ecs.me-east-1.aliyuncs.com",
-            "us-east-1"      => "ecs.us-east-1.aliyuncs.com",
+            "me-east-1"      => "ecs.aliyuncs.com",
+            "us-east-1"      => "ecs.aliyuncs.com",
             "us-west-1"      => "ecs.us-west-1.aliyuncs.com",
         ],
         "internal" => [

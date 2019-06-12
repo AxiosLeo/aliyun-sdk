@@ -63,7 +63,7 @@ class NAS extends ProductAbstract
             "cn-zhangjiakou" => "nas.cn-zhangjiakou.aliyuncs.com",
             "eu-central-1"   => "nas.eu-central-1.aliyuncs.com",
             "eu-west-1"      => "nas.eu-west-1.aliyuncs.com",
-            "me-east-1"      => "nas.ap-northeast-1.aliyuncs.com",
+            "me-east-1"      => "nas.aliyuncs.com",
             "us-east-1"      => "nas.us-east-1.aliyuncs.com",
             "us-west-1"      => "nas.us-west-1.aliyuncs.com",
         ],

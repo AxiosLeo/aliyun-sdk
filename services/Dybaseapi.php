@@ -62,7 +62,7 @@ class Dybaseapi extends ProductAbstract
             "cn-shenzhen"    => "dybaseapi.aliyuncs.com",
             "cn-zhangjiakou" => "dybaseapi.aliyuncs.com",
             "eu-central-1"   => "dybaseapi.ap-southeast-1.aliyuncs.com",
-            "eu-west-1"      => "dybaseapi.ap-southeast-1.aliyuncs.com",
+            "eu-west-1"      => "dybaseapi.aliyuncs.com",
             "me-east-1"      => "dybaseapi.ap-southeast-1.aliyuncs.com",
             "us-east-1"      => "dybaseapi.ap-southeast-1.aliyuncs.com",
             "us-west-1"      => "dybaseapi.ap-southeast-1.aliyuncs.com",

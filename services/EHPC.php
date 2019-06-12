@@ -36,7 +36,6 @@ class EHPC extends ProductAbstract
             "cn-shenzhen",
             "cn-zhangjiakou",
             "eu-central-1",
-            "me-east-1",
         ],
         "public"   => [
             "ap-northeast-1" => "ehpc.ap-northeast-1.aliyuncs.com",
@@ -51,7 +50,6 @@ class EHPC extends ProductAbstract
             "cn-shenzhen"    => "ehpc.cn-shenzhen.aliyuncs.com",
             "cn-zhangjiakou" => "ehpc.cn-zhangjiakou.aliyuncs.com",
             "eu-central-1"   => "ehpc.eu-central-1.aliyuncs.com",
-            "me-east-1"      => "ehpc.me-east-1.aliyuncs.com",
         ],
         "internal" => [
         ]

@@ -63,8 +63,8 @@ class Dds extends ProductAbstract
             "eu-central-1"   => "mongodb.eu-central-1.aliyuncs.com",
             "eu-west-1"      => "mongodb.eu-west-1.aliyuncs.com",
             "me-east-1"      => "mongodb.me-east-1.aliyuncs.com",
-            "us-east-1"      => "mongodb.ap-northeast-1.aliyuncs.com",
-            "us-west-1"      => "mongodb.ap-northeast-1.aliyuncs.com",
+            "us-east-1"      => "mongodb.aliyuncs.com",
+            "us-west-1"      => "mongodb.aliyuncs.com",
         ],
         "internal" => [
         ]

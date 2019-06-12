@@ -49,7 +49,7 @@ class Rds extends ProductAbstract
         "public"   => [
             "ap-northeast-1" => "rds.ap-northeast-1.aliyuncs.com",
             "ap-south-1"     => "rds.ap-south-1.aliyuncs.com",
-            "ap-southeast-1" => "rds.ap-northeast-1.aliyuncs.com",
+            "ap-southeast-1" => "rds.aliyuncs.com",
             "ap-southeast-2" => "rds.ap-southeast-2.aliyuncs.com",
             "ap-southeast-3" => "rds.ap-southeast-3.aliyuncs.com",
             "ap-southeast-5" => "rds.ap-southeast-5.aliyuncs.com",
@@ -63,10 +63,10 @@ class Rds extends ProductAbstract
             "cn-shenzhen"    => "rds.aliyuncs.com",
             "cn-zhangjiakou" => "rds.cn-zhangjiakou.aliyuncs.com",
             "eu-central-1"   => "rds.eu-central-1.aliyuncs.com",
-            "eu-west-1"      => "rds.eu-west-1.aliyuncs.com",
-            "me-east-1"      => "rds.me-east-1.aliyuncs.com",
-            "us-east-1"      => "rds.ap-northeast-1.aliyuncs.com",
-            "us-west-1"      => "rds.ap-northeast-1.aliyuncs.com",
+            "eu-west-1"      => "rds.aliyuncs.com",
+            "me-east-1"      => "rds.aliyuncs.com",
+            "us-east-1"      => "rds.aliyuncs.com",
+            "us-west-1"      => "rds.aliyuncs.com",
         ],
         "internal" => [
         ]

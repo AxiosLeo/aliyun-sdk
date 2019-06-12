@@ -47,7 +47,7 @@ class PetaData extends ProductAbstract
         "public"   => [
             "ap-northeast-1" => "petadata.ap-northeast-1.aliyuncs.com",
             "ap-south-1"     => "petadata.ap-south-1.aliyuncs.com",
-            "ap-southeast-1" => "petadata.ap-northeast-1.aliyuncs.com",
+            "ap-southeast-1" => "petadata.aliyuncs.com",
             "ap-southeast-2" => "petadata.ap-southeast-2.aliyuncs.com",
             "ap-southeast-3" => "petadata.ap-southeast-3.aliyuncs.com",
             "ap-southeast-5" => "petadata.ap-southeast-5.aliyuncs.com",
@@ -62,9 +62,9 @@ class PetaData extends ProductAbstract
             "cn-zhangjiakou" => "petadata.cn-zhangjiakou.aliyuncs.com",
             "eu-central-1"   => "petadata.eu-central-1.aliyuncs.com",
             "eu-west-1"      => "petadata.eu-west-1.aliyuncs.com",
-            "me-east-1"      => "petadata.me-east-1.aliyuncs.com",
-            "us-east-1"      => "petadata.ap-northeast-1.aliyuncs.com",
-            "us-west-1"      => "petadata.ap-northeast-1.aliyuncs.com",
+            "me-east-1"      => "petadata.aliyuncs.com",
+            "us-east-1"      => "petadata.aliyuncs.com",
+            "us-west-1"      => "petadata.aliyuncs.com",
         ],
         "internal" => [
         ]
