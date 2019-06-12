@@ -1711,8 +1711,6 @@ class CreateSnapshot extends Request
  * @method string getOwnerAccount()
  * @method $this setTag($tag)
  * @method array getTag()
- * @method $this setArn($arn)
- * @method array getArn()
  * @method $this setResourceGroupId($resourceGroupId)
  * @method string getResourceGroupId()
  * @method $this setKMSKeyId($kMSKeyId)
@@ -4617,8 +4615,6 @@ class CreateLaunchTemplateVersion extends Request
  * @method string getSystemDisk_Description()
  * @method $this setDataDisk($dataDisk)
  * @method array getDataDisk()
- * @method $this setArn($arn)
- * @method array getArn()
  * @method $this setNodeControllerId($nodeControllerId)
  * @method string getNodeControllerId()
  * @method $this setDescription($description)
@@ -6906,8 +6902,6 @@ class DescribeVpcs extends Request
 {
 
 }/**
- * @method $this setSourceRegionId($sourceRegionId)
- * @method string getSourceRegionId()
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
  * @method $this setResourceOwnerAccount($resourceOwnerAccount)

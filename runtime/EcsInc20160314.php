@@ -511,12 +511,6 @@ class InnerDiskFindDiskByDiskId extends Request
  * @method string getImageSnapshotMappingsBase64()
  * @method $this setResourceMetaMappingsBase64($resourceMetaMappingsBase64)
  * @method string getResourceMetaMappingsBase64()
- * @method $this setToEncrypted($toEncrypted)
- * @method bool getToEncrypted()
- * @method $this setKmsKeyId($kmsKeyId)
- * @method string getKmsKeyId()
- * @method $this setArnsBase64($arnsBase64)
- * @method string getArnsBase64()
  */
 class CopyImageAtTarget extends Request
 {

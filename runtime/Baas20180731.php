@@ -158,6 +158,8 @@ class V20180731
 }
 
 /**
+ * @method $this setRegionId($regionId)
+ * @method string getRegionId()
  * @method $this setCode($code)
  * @method string getCode()
  * @method $this setIsAccepted($isAccepted)
@@ -414,8 +416,6 @@ class DescribeEthereumDeletable extends Request
  * @method string getUsername()
  * @method $this setPassword($password)
  * @method string getPassword()
- * @method $this setAttrs($attrs)
- * @method string getAttrs()
  */
 class CreateOrganizationUser extends Request
 {
@@ -787,8 +787,8 @@ class ResetOrganizationUserPassword extends Request
  * @method string getName()
  * @method $this setDescription($description)
  * @method string getDescription()
- * @method $this setEthereumId($ethereumId)
- * @method string getEthereumId()
+ * @method $this setId($id)
+ * @method string getId()
  */
 class UpdateEthereum extends Request
 {

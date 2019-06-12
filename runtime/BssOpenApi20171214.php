@@ -527,6 +527,10 @@ class ModifyInstance extends Request
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
+ * @method $this setcallerUid($callerUid)
+ * @method int getcallerUid()
+ * @method $this setcallerBid($callerBid)
+ * @method int getcallerBid()
  */
 class QueryInvoicingCustomerList extends Request
 {

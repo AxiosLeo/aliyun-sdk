@@ -26,11 +26,13 @@ class Dbs extends ProductAbstract
             "ap-northeast-1",
             "ap-southeast-1",
             "cn-hangzhou",
+            "cn-zhangjiakou",
         ],
         "public"   => [
             "ap-northeast-1" => "dbs-api.ap-northeast-1.aliyuncs.com",
             "ap-southeast-1" => "dbs-api.ap-southeast-1.aliyuncs.com",
             "cn-hangzhou"    => "dbs-api.cn-hangzhou.aliyuncs.com",
+            "cn-zhangjiakou" => "dbs-api.cn-zhangjiakou.aliyuncs.com",
         ],
         "internal" => [
         ]
