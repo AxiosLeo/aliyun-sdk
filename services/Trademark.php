@@ -17,7 +17,7 @@ class Trademark extends ProductAbstract
 
     protected $product = "Trademark";
 
-    protected $service_code = "";
+    protected $service_code = "trademark";
 
     protected $credential = "AccessKeyCredential";
 

@@ -17,7 +17,7 @@ class Imm extends ProductAbstract
 
     protected $product = "imm";
 
-    protected $service_code = "";
+    protected $service_code = "imm";
 
     protected $credential = "AccessKeyCredential";
 

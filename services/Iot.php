@@ -9,9 +9,7 @@ use aliyun\sdk\core\traits\ProductTrait;
  * Class IotClient
  *
  * @package aliyun\sdk\services
- * @method Iot20181120\V20181120 V20181120() static
  * @method Iot20180120\V20180120 V20180120() static
- * @method Iot20170820\V20170820 V20170820() static
  * @method Iot20170720\V20170720 V20170720() static
  * @method Iot20170620\V20170620 V20170620() static
  * @method Iot20170420\V20170420 V20170420() static
@@ -24,7 +22,7 @@ class Iot extends ProductAbstract
 
     protected $product = "Iot";
 
-    protected $service_code = "";
+    protected $service_code = "iot";
 
     protected $credential = "AccessKeyCredential";
 

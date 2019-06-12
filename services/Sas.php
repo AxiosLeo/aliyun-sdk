@@ -20,7 +20,7 @@ class Sas extends ProductAbstract
 
     protected $product = "Sas";
 
-    protected $service_code = "";
+    protected $service_code = "sas";
 
     protected $credential = "AccessKeyCredential";
 

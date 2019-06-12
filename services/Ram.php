@@ -9,9 +9,7 @@ use aliyun\sdk\core\traits\ProductTrait;
  * Class RamClient
  *
  * @package aliyun\sdk\services
- * @method Ram20180302\V20180302 V20180302() static
  * @method Ram20150501\V20150501 V20150501() static
- * @method Ram20140214\V20140214 V20140214() static
  */
 class Ram extends ProductAbstract
 {
@@ -19,7 +17,7 @@ class Ram extends ProductAbstract
 
     protected $product = "Ram";
 
-    protected $service_code = "";
+    protected $service_code = "ram";
 
     protected $credential = "AccessKeyCredential";
 

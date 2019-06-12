@@ -22,7 +22,7 @@ class Vod extends ProductAbstract
 
     protected $product = "vod";
 
-    protected $service_code = "";
+    protected $service_code = "vod";
 
     protected $credential = "AccessKeyCredential";
 
@@ -51,7 +51,7 @@ class Vod extends ProductAbstract
         ],
         "public"   => [
             "ap-northeast-1" => "vod.ap-northeast-1.aliyuncs.com",
-            "ap-south-1"     => "vod.ap-northeast-1.aliyuncs.com",
+            "ap-south-1"     => "vod.ap-south-1.aliyuncs.com",
             "ap-southeast-1" => "vod.ap-southeast-1.aliyuncs.com",
             "ap-southeast-2" => "vod.ap-northeast-1.aliyuncs.com",
             "ap-southeast-3" => "vod.ap-northeast-1.aliyuncs.com",

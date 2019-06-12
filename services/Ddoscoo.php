@@ -17,7 +17,7 @@ class Ddoscoo extends ProductAbstract
 
     protected $product = "ddoscoo";
 
-    protected $service_code = "";
+    protected $service_code = "ddoscoo";
 
     protected $credential = "AccessKeyCredential";
 

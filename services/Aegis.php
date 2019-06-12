@@ -17,7 +17,7 @@ class Aegis extends ProductAbstract
 
     protected $product = "aegis";
 
-    protected $service_code = "";
+    protected $service_code = "vipaegis";
 
     protected $credential = "AccessKeyCredential";
 

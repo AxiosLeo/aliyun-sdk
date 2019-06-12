@@ -17,7 +17,7 @@ class Dbs extends ProductAbstract
 
     protected $product = "Dbs";
 
-    protected $service_code = "";
+    protected $service_code = "cbs";
 
     protected $credential = "AccessKeyCredential";
 

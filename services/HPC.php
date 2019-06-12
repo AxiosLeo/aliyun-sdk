@@ -18,7 +18,7 @@ class HPC extends ProductAbstract
 
     protected $product = "HPC";
 
-    protected $service_code = "";
+    protected $service_code = "hpc";
 
     protected $credential = "AccessKeyCredential";
 

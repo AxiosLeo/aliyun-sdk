@@ -24,7 +24,7 @@ class ARMS extends ProductAbstract
 
     protected $product = "ARMS";
 
-    protected $service_code = "";
+    protected $service_code = "arms";
 
     protected $credential = "AccessKeyCredential";
 
@@ -71,7 +71,7 @@ class ARMS extends ProductAbstract
             "eu-west-1"      => "arms.ap-southeast-1.aliyuncs.com",
             "me-east-1"      => "arms.ap-southeast-1.aliyuncs.com",
             "us-east-1"      => "arms.ap-southeast-1.aliyuncs.com",
-            "us-west-1"      => "arms.ap-southeast-1.aliyuncs.com",
+            "us-west-1"      => "arms.us-west-1.aliyuncs.com",
         ],
         "internal" => [
         ]

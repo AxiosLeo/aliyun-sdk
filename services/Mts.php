@@ -19,7 +19,7 @@ class Mts extends ProductAbstract
 
     protected $product = "Mts";
 
-    protected $service_code = "";
+    protected $service_code = "mts";
 
     protected $credential = "AccessKeyCredential";
 

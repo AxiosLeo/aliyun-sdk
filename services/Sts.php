@@ -9,7 +9,6 @@ use aliyun\sdk\core\traits\ProductTrait;
  * Class StsClient
  *
  * @package aliyun\sdk\services
- * @method Sts20180520\V20180520 V20180520() static
  * @method Sts20171001\V20171001 V20171001() static
  * @method Sts20150401\V20150401 V20150401() static
  */
@@ -19,7 +18,7 @@ class Sts extends ProductAbstract
 
     protected $product = "Sts";
 
-    protected $service_code = "";
+    protected $service_code = "sts";
 
     protected $credential = "AccessKeyCredential";
 

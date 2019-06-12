@@ -17,7 +17,7 @@ class Scdn extends ProductAbstract
 
     protected $product = "scdn";
 
-    protected $service_code = "";
+    protected $service_code = "scdn";
 
     protected $credential = "AccessKeyCredential";
 

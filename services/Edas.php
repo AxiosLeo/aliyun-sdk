@@ -20,7 +20,7 @@ class Edas extends ProductAbstract
 
     protected $product = "Edas";
 
-    protected $service_code = "";
+    protected $service_code = "edas";
 
     protected $credential = "AccessKeyCredential";
 

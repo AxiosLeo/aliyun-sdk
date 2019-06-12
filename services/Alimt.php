@@ -10,6 +10,7 @@ use aliyun\sdk\core\traits\ProductTrait;
  *
  * @package aliyun\sdk\services
  * @method Alimt20190107\V20190107 V20190107() static
+ * @method Alimt20190102\V20190102 V20190102() static
  * @method Alimt20181012\V20181012 V20181012() static
  * @method Alimt20180807\V20180807 V20180807() static
  */
@@ -19,7 +20,7 @@ class Alimt extends ProductAbstract
 
     protected $product = "alimt";
 
-    protected $service_code = "";
+    protected $service_code = "alimt";
 
     protected $credential = "AccessKeyCredential";
 

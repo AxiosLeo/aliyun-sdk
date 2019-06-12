@@ -9,7 +9,6 @@ use aliyun\sdk\core\traits\ProductTrait;
  * Class CloudAPIClient
  *
  * @package aliyun\sdk\services
- * @method CloudAPI20180901\V20180901 V20180901() static
  * @method CloudAPI20180601\V20180601 V20180601() static
  * @method CloudAPI20160714\V20160714 V20160714() static
  * @method CloudAPI20160701\V20160701 V20160701() static
@@ -21,7 +20,7 @@ class CloudAPI extends ProductAbstract
 
     protected $product = "CloudAPI";
 
-    protected $service_code = "";
+    protected $service_code = "apigateway";
 
     protected $credential = "AccessKeyCredential";
 

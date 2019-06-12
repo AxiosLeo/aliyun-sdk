@@ -21,7 +21,7 @@ class ImageSearch extends ProductAbstract
 
     protected $product = "ImageSearch";
 
-    protected $service_code = "";
+    protected $service_code = "imagesearch";
 
     protected $credential = "AccessKeyCredential";
 

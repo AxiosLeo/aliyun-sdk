@@ -21,7 +21,7 @@ class Saf extends ProductAbstract
 
     protected $product = "saf";
 
-    protected $service_code = "";
+    protected $service_code = "saf";
 
     protected $credential = "AccessKeyCredential";
 
@@ -34,6 +34,7 @@ class Saf extends ProductAbstract
             "cn-shanghai",
             "cn-shenzhen",
             "cn-zhangjiakou",
+            "eu-central-1",
         ],
         "public"   => [
             "ap-southeast-1" => "saf.ap-southeast-1.aliyuncs.com",
@@ -43,6 +44,7 @@ class Saf extends ProductAbstract
             "cn-shanghai"    => "saf.cn-shanghai.aliyuncs.com",
             "cn-shenzhen"    => "saf.cn-shenzhen.aliyuncs.com",
             "cn-zhangjiakou" => "saf.cn-zhangjiakou.aliyuncs.com",
+            "eu-central-1"   => "saf.eu-central-1.aliyuncs.com",
         ],
         "internal" => [
             "ap-northeast-1" => "saf-vpc.ap-northeast-1.aliyuncs.com",

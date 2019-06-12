@@ -17,7 +17,7 @@ class Foas extends ProductAbstract
 
     protected $product = "foas";
 
-    protected $service_code = "";
+    protected $service_code = "foas";
 
     protected $credential = "AccessKeyCredential";
 

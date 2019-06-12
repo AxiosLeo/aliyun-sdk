@@ -19,7 +19,7 @@ class ITaaS extends ProductAbstract
 
     protected $product = "ITaaS";
 
-    protected $service_code = "";
+    protected $service_code = "itaas";
 
     protected $credential = "AccessKeyCredential";
 

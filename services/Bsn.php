@@ -10,7 +10,6 @@ use aliyun\sdk\core\traits\ProductTrait;
  *
  * @package aliyun\sdk\services
  * @method Bsn20181009\V20181009 V20181009() static
- * @method Bsn20150512\V20150512 V20150512() static
  */
 class Bsn extends ProductAbstract
 {

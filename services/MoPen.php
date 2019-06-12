@@ -17,7 +17,7 @@ class MoPen extends ProductAbstract
 
     protected $product = "MoPen";
 
-    protected $service_code = "";
+    protected $service_code = "mopen";
 
     protected $credential = "AccessKeyCredential";
 

@@ -17,7 +17,7 @@ class Lubancloud extends ProductAbstract
 
     protected $product = "lubancloud";
 
-    protected $service_code = "";
+    protected $service_code = "luban";
 
     protected $credential = "AccessKeyCredential";
 

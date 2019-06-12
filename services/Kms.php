@@ -17,7 +17,7 @@ class Kms extends ProductAbstract
 
     protected $product = "Kms";
 
-    protected $service_code = "";
+    protected $service_code = "kms";
 
     protected $credential = "AccessKeyCredential";
 

@@ -18,7 +18,7 @@ class Dybaseapi extends ProductAbstract
 
     protected $product = "Dybaseapi";
 
-    protected $service_code = "";
+    protected $service_code = "dybaseapi";
 
     protected $credential = "AccessKeyCredential";
 

@@ -11,8 +11,6 @@ use aliyun\sdk\core\traits\ProductTrait;
  * @package aliyun\sdk\services
  * @method Rdc20180821\V20180821 V20180821() static
  * @method Rdc20180816\V20180816 V20180816() static
- * @method Rdc20180426\V20180426 V20180426() static
- * @method Rdc20180104\V20180104 V20180104() static
  */
 class Rdc extends ProductAbstract
 {

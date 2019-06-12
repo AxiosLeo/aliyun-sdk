@@ -9,7 +9,6 @@ use aliyun\sdk\core\traits\ProductTrait;
  * Class OcsClient
  *
  * @package aliyun\sdk\services
- * @method Ocs20150407\V20150407 V20150407() static
  * @method Ocs20150301\V20150301 V20150301() static
  */
 class Ocs extends ProductAbstract
@@ -18,7 +17,7 @@ class Ocs extends ProductAbstract
 
     protected $product = "Ocs";
 
-    protected $service_code = "";
+    protected $service_code = "ocs";
 
     protected $credential = "AccessKeyCredential";
 

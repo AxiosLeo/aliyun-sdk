@@ -17,7 +17,7 @@ class Eci extends ProductAbstract
 
     protected $product = "Eci";
 
-    protected $service_code = "";
+    protected $service_code = "eci";
 
     protected $credential = "AccessKeyCredential";
 

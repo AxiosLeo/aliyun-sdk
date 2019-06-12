@@ -17,7 +17,7 @@ class Rtc extends ProductAbstract
 
     protected $product = "rtc";
 
-    protected $service_code = "";
+    protected $service_code = "rtc";
 
     protected $credential = "AccessKeyCredential";
 

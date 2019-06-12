@@ -17,7 +17,7 @@ class Location extends ProductAbstract
 
     protected $product = "Location";
 
-    protected $service_code = "";
+    protected $service_code = "location";
 
     protected $credential = "AccessKeyCredential";
 

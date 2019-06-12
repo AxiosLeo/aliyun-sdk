@@ -9,7 +9,7 @@ use aliyun\sdk\core\traits\ProductTrait;
  * Class BatchComputeClient
  *
  * @package aliyun\sdk\services
- * @method BatchCompute20161111\V20161111 V20161111() static
+ * @method BatchCompute20160808\V20160808 V20160808() static
  * @method BatchCompute20151111\V20151111 V20151111() static
  * @method BatchCompute20151001\V20151001 V20151001() static
  * @method BatchCompute20150630\V20150630 V20150630() static

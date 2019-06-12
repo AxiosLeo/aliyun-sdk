@@ -41,7 +41,7 @@ class Green extends ProductAbstract
 
     protected $product = "Green";
 
-    protected $service_code = "";
+    protected $service_code = "green";
 
     protected $credential = "AccessKeyCredential";
 

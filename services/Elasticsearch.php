@@ -17,7 +17,7 @@ class Elasticsearch extends ProductAbstract
 
     protected $product = "elasticsearch";
 
-    protected $service_code = "";
+    protected $service_code = "elasticsearch";
 
     protected $credential = "AccessKeyCredential";
 
@@ -30,13 +30,18 @@ class Elasticsearch extends ProductAbstract
             "ap-southeast-3",
             "ap-southeast-5",
             "cn-beijing",
+            "cn-chengdu",
             "cn-hangzhou",
             "cn-hongkong",
+            "cn-huhehaote",
             "cn-qingdao",
             "cn-shanghai",
             "cn-shenzhen",
             "cn-zhangjiakou",
             "eu-central-1",
+            "eu-west-1",
+            "me-east-1",
+            "us-east-1",
             "us-west-1",
         ],
         "public"   => [
@@ -47,13 +52,18 @@ class Elasticsearch extends ProductAbstract
             "ap-southeast-3" => "elasticsearch.ap-southeast-3.aliyuncs.com",
             "ap-southeast-5" => "elasticsearch.ap-southeast-5.aliyuncs.com",
             "cn-beijing"     => "elasticsearch.cn-beijing.aliyuncs.com",
+            "cn-chengdu"     => "elasticsearch.aliyuncs.com",
             "cn-hangzhou"    => "elasticsearch.cn-hangzhou.aliyuncs.com",
             "cn-hongkong"    => "elasticsearch.cn-hongkong.aliyuncs.com",
+            "cn-huhehaote"   => "elasticsearch.aliyuncs.com",
             "cn-qingdao"     => "elasticsearch.cn-qingdao.aliyuncs.com",
             "cn-shanghai"    => "elasticsearch.cn-shanghai.aliyuncs.com",
             "cn-shenzhen"    => "elasticsearch.cn-shenzhen.aliyuncs.com",
             "cn-zhangjiakou" => "elasticsearch.cn-zhangjiakou.aliyuncs.com",
             "eu-central-1"   => "elasticsearch.eu-central-1.aliyuncs.com",
+            "eu-west-1"      => "elasticsearch.ap-northeast-1.aliyuncs.com",
+            "me-east-1"      => "elasticsearch.ap-northeast-1.aliyuncs.com",
+            "us-east-1"      => "elasticsearch.ap-northeast-1.aliyuncs.com",
             "us-west-1"      => "elasticsearch.us-west-1.aliyuncs.com",
         ],
         "internal" => [

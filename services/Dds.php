@@ -17,7 +17,7 @@ class Dds extends ProductAbstract
 
     protected $product = "Dds";
 
-    protected $service_code = "";
+    protected $service_code = "Dds";
 
     protected $credential = "AccessKeyCredential";
 

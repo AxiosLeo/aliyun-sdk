@@ -17,7 +17,7 @@ class Cbn extends ProductAbstract
 
     protected $product = "Cbn";
 
-    protected $service_code = "";
+    protected $service_code = "cbn";
 
     protected $credential = "AccessKeyCredential";
 

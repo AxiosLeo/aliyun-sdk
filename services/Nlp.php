@@ -17,7 +17,7 @@ class Nlp extends ProductAbstract
 
     protected $product = "Nlp";
 
-    protected $service_code = "";
+    protected $service_code = "nlp";
 
     protected $credential = "AccessKeyCredential";
 

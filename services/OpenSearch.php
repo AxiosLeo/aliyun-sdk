@@ -17,7 +17,7 @@ class OpenSearch extends ProductAbstract
 
     protected $product = "OpenSearch";
 
-    protected $service_code = "";
+    protected $service_code = "opensearch";
 
     protected $credential = "AccessKeyCredential";
 

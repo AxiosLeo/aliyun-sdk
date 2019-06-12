@@ -10,6 +10,7 @@ use aliyun\sdk\core\traits\ProductTrait;
  *
  * @package aliyun\sdk\services
  * @method Yundun20150416\V20150416 V20150416() static
+ * @method Yundun20150227\V20150227 V20150227() static
  */
 class Yundun extends ProductAbstract
 {
@@ -17,7 +18,7 @@ class Yundun extends ProductAbstract
 
     protected $product = "Yundun";
 
-    protected $service_code = "";
+    protected $service_code = "yundun";
 
     protected $credential = "AccessKeyCredential";
 
