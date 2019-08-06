@@ -19,7 +19,7 @@ class Scdn extends ProductAbstract
 
     protected $service_code = "scdn";
 
-    protected $credential = "AccessKeyCredential";
+    protected $credential = "RpcCredential";
 
     protected $endpoints = [
         "regions"  => [

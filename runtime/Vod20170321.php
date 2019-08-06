@@ -24,7 +24,6 @@ use aliyun\sdk\core\lib\Request;
  * @method GetURLUploadInfos GetURLUploadInfos()
  * @method GetMediaAuditResultTimeline GetMediaAuditResultTimeline()
  * @method ProduceEditingProjectVideo ProduceEditingProjectVideo()
- * @method ListAppPoliciesForIdentity ListAppPoliciesForIdentity()
  * @method DeleteEditingProject DeleteEditingProject()
  * @method SubmitAIJob SubmitAIJob()
  * @method GetAuditHistory GetAuditHistory()
@@ -39,15 +38,12 @@ use aliyun\sdk\core\lib\Request;
  * @method AddAITemplate AddAITemplate()
  * @method DeleteTranscodeTemplateGroup DeleteTranscodeTemplateGroup()
  * @method CreateAudit CreateAudit()
- * @method GetAppInfos GetAppInfos()
- * @method MoveAppResource MoveAppResource()
  * @method SubmitTranscodeJobs SubmitTranscodeJobs()
  * @method GetVideoList GetVideoList()
  * @method DescribeVodDomainLog DescribeVodDomainLog()
  * @method DescribePlayTopVideos DescribePlayTopVideos()
  * @method SetDefaultWatermark SetDefaultWatermark()
  * @method DeleteMezzanines DeleteMezzanines()
- * @method AttachAppPolicyToIdentity AttachAppPolicyToIdentity()
  * @method DescribePlayUserTotal DescribePlayUserTotal()
  * @method UpdateVideoInfos UpdateVideoInfos()
  * @method GetVideoInfos GetVideoInfos()
@@ -71,14 +67,9 @@ use aliyun\sdk\core\lib\Request;
  * @method SubmitAIMediaAuditJob SubmitAIMediaAuditJob()
  * @method GetMezzanineInfo GetMezzanineInfo()
  * @method DeleteVideo DeleteVideo()
- * @method DetachAppPolicyFromIdentity DetachAppPolicyFromIdentity()
  * @method CreateUploadAttachedMedia CreateUploadAttachedMedia()
  * @method ListVodTemplate ListVodTemplate()
- * @method ListAppInfo ListAppInfo()
- * @method UpdateAppInfo UpdateAppInfo()
  * @method SubmitPreprocessJobs SubmitPreprocessJobs()
- * @method DeleteAppInfo DeleteAppInfo()
- * @method CreateAppInfo CreateAppInfo()
  * @method DescribeVodDomainBpsData DescribeVodDomainBpsData()
  * @method DeleteStream DeleteStream()
  * @method GetWatermark GetWatermark()
@@ -129,8 +120,6 @@ class V20170321
  * @method string getCateName()
  * @method $this setParentId($parentId)
  * @method int getParentId()
- * @method $this setType($type)
- * @method string getType()
  */
 class AddCategory extends Request
 {
@@ -280,8 +269,6 @@ class ListTranscodeTask extends Request
  * @method string getTimeline()
  * @method $this setCoverURL($coverURL)
  * @method string getCoverURL()
- * @method $this setDivision($division)
- * @method string getDivision()
  */
 class AddEditingProject extends Request
 {
@@ -412,23 +399,6 @@ class ProduceEditingProjectVideo extends Request
 
 }/**
  * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setIdentityType($identityType)
- * @method string getIdentityType()
- * @method $this setIdentityName($identityName)
- * @method string getIdentityName()
- * @method $this setAppId($appId)
- * @method string getAppId()
- */
-class ListAppPoliciesForIdentity extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
  * @method string getOwnerId()
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method string getResourceOwnerId()
@@ -504,8 +474,6 @@ class GetMessageCallback extends Request
  * @method string getVideoId()
  * @method $this setResultTypes($resultTypes)
  * @method string getResultTypes()
- * @method $this setAdditionType($additionType)
- * @method string getAdditionType()
  */
 class GetVideoInfo extends Request
 {
@@ -650,40 +618,6 @@ class CreateAudit extends Request
  * @method string getResourceOwnerAccount()
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
- * @method $this setResourceRealOwnerId($resourceRealOwnerId)
- * @method int getResourceRealOwnerId()
- * @method $this setAppIds($appIds)
- * @method string getAppIds()
- */
-class GetAppInfos extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setResourceRealOwnerId($resourceRealOwnerId)
- * @method int getResourceRealOwnerId()
- * @method $this setTargetAppId($targetAppId)
- * @method string getTargetAppId()
- * @method $this setResourceType($resourceType)
- * @method string getResourceType()
- * @method $this setResourceIds($resourceIds)
- * @method string getResourceIds()
- */
-class MoveAppResource extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
  * @method $this setVideoId($videoId)
  * @method string getVideoId()
  * @method $this setTemplateGroupId($templateGroupId)
@@ -788,27 +722,6 @@ class DeleteMezzanines extends Request
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setIdentityType($identityType)
- * @method string getIdentityType()
- * @method $this setIdentityName($identityName)
- * @method string getIdentityName()
- * @method $this setAppId($appId)
- * @method string getAppId()
- * @method $this setPolicyNames($policyNames)
- * @method string getPolicyNames()
- * @method $this setResourceRealOwnerId($resourceRealOwnerId)
- * @method string getResourceRealOwnerId()
- */
-class AttachAppPolicyToIdentity extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
  * @method $this setStartTime($startTime)
  * @method string getStartTime()
  * @method $this setEndTime($endTime)
@@ -839,8 +752,6 @@ class UpdateVideoInfos extends Request
  * @method int getResourceOwnerId()
  * @method $this setVideoIds($videoIds)
  * @method string getVideoIds()
- * @method $this setAdditionType($additionType)
- * @method string getAdditionType()
  */
 class GetVideoInfos extends Request
 {
@@ -1150,25 +1061,6 @@ class DeleteVideo extends Request
  * @method string getResourceOwnerAccount()
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
- * @method $this setIdentityType($identityType)
- * @method string getIdentityType()
- * @method $this setIdentityName($identityName)
- * @method string getIdentityName()
- * @method $this setAppId($appId)
- * @method string getAppId()
- * @method $this setPolicyNames($policyNames)
- * @method string getPolicyNames()
- */
-class DetachAppPolicyFromIdentity extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
  * @method $this setTitle($title)
  * @method string getTitle()
  * @method $this setBusinessType($businessType)
@@ -1191,10 +1083,6 @@ class DetachAppPolicyFromIdentity extends Request
  * @method string getUserData()
  * @method $this setCateIds($cateIds)
  * @method string getCateIds()
- * @method $this setAppId($appId)
- * @method string getAppId()
- * @method $this setIcon($icon)
- * @method string getIcon()
  */
 class CreateUploadAttachedMedia extends Request
 {
@@ -1219,84 +1107,12 @@ class ListVodTemplate extends Request
  * @method string getResourceOwnerAccount()
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
- * @method $this setResourceRealOwnerId($resourceRealOwnerId)
- * @method int getResourceRealOwnerId()
- * @method $this setStatus($status)
- * @method string getStatus()
- * @method $this setPageNo($pageNo)
- * @method int getPageNo()
- * @method $this setPageSize($pageSize)
- * @method int getPageSize()
- */
-class ListAppInfo extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setResourceRealOwnerId($resourceRealOwnerId)
- * @method int getResourceRealOwnerId()
- * @method $this setAppId($appId)
- * @method string getAppId()
- * @method $this setAppName($appName)
- * @method string getAppName()
- * @method $this setDescription($description)
- * @method string getDescription()
- * @method $this setStatus($status)
- * @method string getStatus()
- */
-class UpdateAppInfo extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
  * @method $this setVideoId($videoId)
  * @method string getVideoId()
  * @method $this setPreprocessType($preprocessType)
  * @method string getPreprocessType()
  */
 class SubmitPreprocessJobs extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setResourceRealOwnerId($resourceRealOwnerId)
- * @method int getResourceRealOwnerId()
- * @method $this setAppId($appId)
- * @method string getAppId()
- */
-class DeleteAppInfo extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setResourceRealOwnerId($resourceRealOwnerId)
- * @method int getResourceRealOwnerId()
- * @method $this setAppName($appName)
- * @method string getAppName()
- * @method $this setDescription($description)
- * @method string getDescription()
- */
-class CreateAppInfo extends Request
 {
 
 }/**
@@ -1580,8 +1396,6 @@ class AddTranscodeTemplateGroup extends Request
  * @method int getPageSize()
  * @method $this setSortBy($sortBy)
  * @method string getSortBy()
- * @method $this setType($type)
- * @method string getType()
  */
 class GetCategories extends Request
 {

@@ -26,7 +26,7 @@ class ARMS extends ProductAbstract
 
     protected $service_code = "arms";
 
-    protected $credential = "AccessKeyCredential";
+    protected $credential = "RpcCredential";
 
     protected $endpoints = [
         "regions"  => [
@@ -61,7 +61,7 @@ class ARMS extends ProductAbstract
             "cn-beijing"     => "arms.cn-beijing.aliyuncs.com",
             "cn-chengdu"     => "arms.aliyuncs.com",
             "cn-hangzhou"    => "arms.cn-hangzhou.aliyuncs.com",
-            "cn-hongkong"    => "arms.cn-hongkong.aliyuncs.com",
+            "cn-hongkong"    => "arms.aliyuncs.com",
             "cn-huhehaote"   => "arms.aliyuncs.com",
             "cn-qingdao"     => "arms.cn-qingdao.aliyuncs.com",
             "cn-shanghai"    => "arms.cn-shanghai.aliyuncs.com",
@@ -71,7 +71,7 @@ class ARMS extends ProductAbstract
             "eu-west-1"      => "arms.aliyuncs.com",
             "me-east-1"      => "arms.aliyuncs.com",
             "us-east-1"      => "arms.aliyuncs.com",
-            "us-west-1"      => "arms.aliyuncs.com",
+            "us-west-1"      => "arms.us-west-1.aliyuncs.com",
         ],
         "internal" => [
         ]

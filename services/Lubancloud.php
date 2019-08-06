@@ -19,7 +19,7 @@ class Lubancloud extends ProductAbstract
 
     protected $service_code = "luban";
 
-    protected $credential = "AccessKeyCredential";
+    protected $credential = "RpcCredential";
 
     protected $endpoints = [
         "regions"  => [

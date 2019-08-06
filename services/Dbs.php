@@ -19,20 +19,16 @@ class Dbs extends ProductAbstract
 
     protected $service_code = "cbs";
 
-    protected $credential = "AccessKeyCredential";
+    protected $credential = "RpcCredential";
 
     protected $endpoints = [
         "regions"  => [
             "ap-northeast-1",
-            "ap-southeast-1",
             "cn-hangzhou",
-            "cn-zhangjiakou",
         ],
         "public"   => [
             "ap-northeast-1" => "dbs-api.ap-northeast-1.aliyuncs.com",
-            "ap-southeast-1" => "dbs-api.ap-southeast-1.aliyuncs.com",
             "cn-hangzhou"    => "dbs-api.cn-hangzhou.aliyuncs.com",
-            "cn-zhangjiakou" => "dbs-api.cn-zhangjiakou.aliyuncs.com",
         ],
         "internal" => [
         ]

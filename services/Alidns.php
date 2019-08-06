@@ -19,7 +19,7 @@ class Alidns extends ProductAbstract
 
     protected $service_code = "alidns";
 
-    protected $credential = "AccessKeyCredential";
+    protected $credential = "RpcCredential";
 
     protected $endpoints = [
         "regions"  => [

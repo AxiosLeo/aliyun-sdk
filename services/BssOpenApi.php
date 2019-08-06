@@ -19,7 +19,7 @@ class BssOpenApi extends ProductAbstract
 
     protected $service_code = "";
 
-    protected $credential = "AccessKeyCredential";
+    protected $credential = "RpcCredential";
 
     protected $endpoints = [
         "regions"  => [
@@ -47,7 +47,7 @@ class BssOpenApi extends ProductAbstract
         "public"   => [
             "ap-northeast-1" => "business.aliyuncs.com",
             "ap-south-1"     => "business.aliyuncs.com",
-            "ap-southeast-1" => "business.ap-southeast-1.aliyuncs.com",
+            "ap-southeast-1" => "business.aliyuncs.com",
             "ap-southeast-2" => "business.aliyuncs.com",
             "ap-southeast-3" => "business.aliyuncs.com",
             "ap-southeast-5" => "business.aliyuncs.com",

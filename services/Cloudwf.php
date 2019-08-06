@@ -19,7 +19,7 @@ class Cloudwf extends ProductAbstract
 
     protected $service_code = "cloudwf";
 
-    protected $credential = "AccessKeyCredential";
+    protected $credential = "RpcCredential";
 
     protected $endpoints = [
         "regions"  => [

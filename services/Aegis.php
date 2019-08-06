@@ -19,15 +19,13 @@ class Aegis extends ProductAbstract
 
     protected $service_code = "vipaegis";
 
-    protected $credential = "AccessKeyCredential";
+    protected $credential = "RpcCredential";
 
     protected $endpoints = [
         "regions"  => [
-            "ap-southeast-3",
             "cn-hangzhou",
         ],
         "public"   => [
-            "ap-southeast-3" => "aegis.ap-southeast-3.aliyuncs.com",
             "cn-hangzhou"    => "aegis.cn-hangzhou.aliyuncs.com",
         ],
         "internal" => [

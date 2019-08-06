@@ -20,7 +20,7 @@ class Slb extends ProductAbstract
 
     protected $service_code = "slb";
 
-    protected $credential = "AccessKeyCredential";
+    protected $credential = "RpcCredential";
 
     protected $endpoints = [
         "regions"  => [
@@ -61,7 +61,7 @@ class Slb extends ProductAbstract
             "cn-shanghai"    => "slb.aliyuncs.com",
             "cn-shenzhen"    => "slb.aliyuncs.com",
             "cn-zhangjiakou" => "slb.cn-zhangjiakou.aliyuncs.com",
-            "eu-central-1"   => "slb.aliyuncs.com",
+            "eu-central-1"   => "slb.eu-central-1.aliyuncs.com",
             "eu-west-1"      => "slb.eu-west-1.aliyuncs.com",
             "me-east-1"      => "slb.aliyuncs.com",
             "us-east-1"      => "slb.aliyuncs.com",

@@ -23,28 +23,22 @@ class Saf extends ProductAbstract
 
     protected $service_code = "saf";
 
-    protected $credential = "AccessKeyCredential";
+    protected $credential = "RpcCredential";
 
     protected $endpoints = [
         "regions"  => [
-            "ap-southeast-1",
             "cn-beijing",
             "cn-hangzhou",
-            "cn-hongkong",
             "cn-shanghai",
             "cn-shenzhen",
             "cn-zhangjiakou",
-            "eu-central-1",
         ],
         "public"   => [
-            "ap-southeast-1" => "saf.ap-southeast-1.aliyuncs.com",
             "cn-beijing"     => "saf.cn-beijing.aliyuncs.com",
             "cn-hangzhou"    => "saf.cn-hangzhou.aliyuncs.com",
-            "cn-hongkong"    => "saf.cn-hongkong.aliyuncs.com",
             "cn-shanghai"    => "saf.cn-shanghai.aliyuncs.com",
             "cn-shenzhen"    => "saf.cn-shenzhen.aliyuncs.com",
             "cn-zhangjiakou" => "saf.cn-zhangjiakou.aliyuncs.com",
-            "eu-central-1"   => "saf.eu-central-1.aliyuncs.com",
         ],
         "internal" => [
             "ap-northeast-1" => "saf-vpc.ap-northeast-1.aliyuncs.com",

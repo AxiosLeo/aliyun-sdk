@@ -19,7 +19,7 @@ class Ccs extends ProductAbstract
 
     protected $service_code = "ccs";
 
-    protected $credential = "AccessKeyCredential";
+    protected $credential = "RpcCredential";
 
     protected $endpoints = [
         "regions"  => [

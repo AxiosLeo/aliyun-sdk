@@ -35,7 +35,6 @@ use aliyun\sdk\core\lib\Request;
  * @method DeleteVpnConnection DeleteVpnConnection()
  * @method UnassociatePhysicalConnectionFromVirtualBorderRouter UnassociatePhysicalConnectionFromVirtualBorderRouter()
  * @method ActiveFlowLog ActiveFlowLog()
- * @method DeleteExpressConnect DeleteExpressConnect()
  * @method CreateIPv6Translator CreateIPv6Translator()
  * @method ModifySslVpnServer ModifySslVpnServer()
  * @method DescribeIpv6Addresses DescribeIpv6Addresses()
@@ -809,27 +808,6 @@ class UnassociatePhysicalConnectionFromVirtualBorderRouter extends Request
  * @method string getOwnerAccount()
  */
 class ActiveFlowLog extends Request
-{
-
-}/**
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setRouterInterfaceId($routerInterfaceId)
- * @method string getRouterInterfaceId()
- * @method $this setForce($force)
- * @method bool getForce()
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setClientToken($clientToken)
- * @method string getClientToken()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- */
-class DeleteExpressConnect extends Request
 {
 
 }/**

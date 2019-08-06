@@ -22,7 +22,7 @@ class Emr extends ProductAbstract
 
     protected $service_code = "emr";
 
-    protected $credential = "AccessKeyCredential";
+    protected $credential = "RpcCredential";
 
     protected $endpoints = [
         "regions"  => [
@@ -48,16 +48,16 @@ class Emr extends ProductAbstract
             "us-west-1",
         ],
         "public"   => [
-            "ap-northeast-1" => "emr.ap-northeast-1.aliyuncs.com",
-            "ap-south-1"     => "emr.ap-south-1.aliyuncs.com",
+            "ap-northeast-1" => "emr.aliyuncs.com",
+            "ap-south-1"     => "emr.aliyuncs.com",
             "ap-southeast-1" => "emr.aliyuncs.com",
-            "ap-southeast-2" => "emr.ap-southeast-2.aliyuncs.com",
-            "ap-southeast-3" => "emr.ap-southeast-3.aliyuncs.com",
-            "ap-southeast-5" => "emr.ap-southeast-5.aliyuncs.com",
+            "ap-southeast-2" => "emr.aliyuncs.com",
+            "ap-southeast-3" => "emr.aliyuncs.com",
+            "ap-southeast-5" => "emr.aliyuncs.com",
             "cn-beijing"     => "emr.aliyuncs.com",
             "cn-chengdu"     => "emr.cn-chengdu.aliyuncs.com",
             "cn-hangzhou"    => "emr.aliyuncs.com",
-            "cn-hongkong"    => "emr.cn-hongkong.aliyuncs.com",
+            "cn-hongkong"    => "emr.aliyuncs.com",
             "cn-huhehaote"   => "emr.cn-huhehaote.aliyuncs.com",
             "cn-qingdao"     => "emr.cn-qingdao.aliyuncs.com",
             "cn-shanghai"    => "emr.aliyuncs.com",
@@ -66,7 +66,7 @@ class Emr extends ProductAbstract
             "eu-central-1"   => "emr.aliyuncs.com",
             "eu-west-1"      => "emr.eu-west-1.aliyuncs.com",
             "me-east-1"      => "emr.aliyuncs.com",
-            "us-east-1"      => "emr.us-east-1.aliyuncs.com",
+            "us-east-1"      => "emr.aliyuncs.com",
             "us-west-1"      => "emr.aliyuncs.com",
         ],
         "internal" => [

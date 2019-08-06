@@ -19,7 +19,7 @@ class PetaData extends ProductAbstract
 
     protected $service_code = "petadata";
 
-    protected $credential = "AccessKeyCredential";
+    protected $credential = "RpcCredential";
 
     protected $endpoints = [
         "regions"  => [
@@ -45,12 +45,12 @@ class PetaData extends ProductAbstract
             "us-west-1",
         ],
         "public"   => [
-            "ap-northeast-1" => "petadata.ap-northeast-1.aliyuncs.com",
-            "ap-south-1"     => "petadata.ap-south-1.aliyuncs.com",
+            "ap-northeast-1" => "petadata.aliyuncs.com",
+            "ap-south-1"     => "petadata.aliyuncs.com",
             "ap-southeast-1" => "petadata.aliyuncs.com",
-            "ap-southeast-2" => "petadata.ap-southeast-2.aliyuncs.com",
-            "ap-southeast-3" => "petadata.ap-southeast-3.aliyuncs.com",
-            "ap-southeast-5" => "petadata.ap-southeast-5.aliyuncs.com",
+            "ap-southeast-2" => "petadata.aliyuncs.com",
+            "ap-southeast-3" => "petadata.aliyuncs.com",
+            "ap-southeast-5" => "petadata.aliyuncs.com",
             "cn-beijing"     => "petadata.aliyuncs.com",
             "cn-chengdu"     => "petadata.cn-chengdu.aliyuncs.com",
             "cn-hangzhou"    => "petadata.aliyuncs.com",
@@ -60,7 +60,7 @@ class PetaData extends ProductAbstract
             "cn-shanghai"    => "petadata.aliyuncs.com",
             "cn-shenzhen"    => "petadata.aliyuncs.com",
             "cn-zhangjiakou" => "petadata.cn-zhangjiakou.aliyuncs.com",
-            "eu-central-1"   => "petadata.eu-central-1.aliyuncs.com",
+            "eu-central-1"   => "petadata.aliyuncs.com",
             "eu-west-1"      => "petadata.eu-west-1.aliyuncs.com",
             "me-east-1"      => "petadata.aliyuncs.com",
             "us-east-1"      => "petadata.aliyuncs.com",

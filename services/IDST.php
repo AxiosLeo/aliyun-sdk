@@ -24,15 +24,13 @@ class IDST extends ProductAbstract
 
     protected $service_code = "idst";
 
-    protected $credential = "AccessKeyCredential";
+    protected $credential = "RpcCredential";
 
     protected $endpoints = [
         "regions"  => [
-            "ap-southeast-1",
             "cn-shanghai",
         ],
         "public"   => [
-            "ap-southeast-1" => "idst.ap-southeast-1.aliyuncs.com",
             "cn-shanghai"    => "idst.cn-shanghai.aliyuncs.com",
         ],
         "internal" => [

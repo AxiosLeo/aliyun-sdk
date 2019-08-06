@@ -25,7 +25,7 @@ class Cloudauth extends ProductAbstract
 
     protected $service_code = "cloudauth";
 
-    protected $credential = "AccessKeyCredential";
+    protected $credential = "RpcCredential";
 
     protected $endpoints = [
         "regions"  => [

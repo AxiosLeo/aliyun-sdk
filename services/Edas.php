@@ -22,7 +22,7 @@ class Edas extends ProductAbstract
 
     protected $service_code = "edas";
 
-    protected $credential = "AccessKeyCredential";
+    protected $credential = "RpcCredential";
 
     protected $endpoints = [
         "regions"  => [
@@ -57,7 +57,7 @@ class Edas extends ProductAbstract
             "cn-beijing"     => "edas.cn-beijing.aliyuncs.com",
             "cn-chengdu"     => "edas.aliyuncs.com",
             "cn-hangzhou"    => "edas.cn-hangzhou.aliyuncs.com",
-            "cn-hongkong"    => "edas.cn-hongkong.aliyuncs.com",
+            "cn-hongkong"    => "edas.aliyuncs.com",
             "cn-huhehaote"   => "edas.aliyuncs.com",
             "cn-qingdao"     => "edas.cn-qingdao.aliyuncs.com",
             "cn-shanghai"    => "edas.cn-shanghai.aliyuncs.com",

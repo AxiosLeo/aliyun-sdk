@@ -20,7 +20,7 @@ class NAS extends ProductAbstract
 
     protected $service_code = "nas";
 
-    protected $credential = "AccessKeyCredential";
+    protected $credential = "RpcCredential";
 
     protected $endpoints = [
         "regions"  => [

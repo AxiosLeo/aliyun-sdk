@@ -19,7 +19,7 @@ class Ocs extends ProductAbstract
 
     protected $service_code = "ocs";
 
-    protected $credential = "AccessKeyCredential";
+    protected $credential = "RpcCredential";
 
     protected $endpoints = [
         "regions"  => [

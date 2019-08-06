@@ -19,7 +19,7 @@ class Dyvmsapi extends ProductAbstract
 
     protected $service_code = "dyvmsapi";
 
-    protected $credential = "AccessKeyCredential";
+    protected $credential = "RpcCredential";
 
     protected $endpoints = [
         "regions"  => [

@@ -19,7 +19,7 @@ class Live extends ProductAbstract
 
     protected $service_code = "live";
 
-    protected $credential = "AccessKeyCredential";
+    protected $credential = "RpcCredential";
 
     protected $endpoints = [
         "regions"  => [
@@ -47,7 +47,7 @@ class Live extends ProductAbstract
         "public"   => [
             "ap-northeast-1" => "live.aliyuncs.com",
             "ap-south-1"     => "live.aliyuncs.com",
-            "ap-southeast-1" => "live.ap-southeast-1.aliyuncs.com",
+            "ap-southeast-1" => "live.aliyuncs.com",
             "ap-southeast-2" => "live.aliyuncs.com",
             "ap-southeast-3" => "live.aliyuncs.com",
             "ap-southeast-5" => "live.aliyuncs.com",

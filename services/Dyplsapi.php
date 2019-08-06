@@ -19,7 +19,7 @@ class Dyplsapi extends ProductAbstract
 
     protected $service_code = "dyplsapi";
 
-    protected $credential = "AccessKeyCredential";
+    protected $credential = "RpcCredential";
 
     protected $endpoints = [
         "regions"  => [

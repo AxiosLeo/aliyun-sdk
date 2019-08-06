@@ -20,7 +20,7 @@ class Dysmsapi extends ProductAbstract
 
     protected $service_code = "dysmsapi";
 
-    protected $credential = "AccessKeyCredential";
+    protected $credential = "RpcCredential";
 
     protected $endpoints = [
         "regions"  => [
@@ -46,26 +46,26 @@ class Dysmsapi extends ProductAbstract
             "us-west-1",
         ],
         "public"   => [
-            "ap-northeast-1" => "dysmsapi.ap-southeast-1.aliyuncs.com",
-            "ap-south-1"     => "dysmsapi.ap-southeast-1.aliyuncs.com",
-            "ap-southeast-1" => "dysmsapi.ap-southeast-1.aliyuncs.com",
-            "ap-southeast-2" => "dysmsapi.ap-southeast-1.aliyuncs.com",
-            "ap-southeast-3" => "dysmsapi.ap-southeast-1.aliyuncs.com",
-            "ap-southeast-5" => "dysmsapi.ap-southeast-1.aliyuncs.com",
+            "ap-northeast-1" => "dysmsapi.aliyuncs.com",
+            "ap-south-1"     => "dysmsapi.aliyuncs.com",
+            "ap-southeast-1" => "dysmsapi.aliyuncs.com",
+            "ap-southeast-2" => "dysmsapi.aliyuncs.com",
+            "ap-southeast-3" => "dysmsapi.aliyuncs.com",
+            "ap-southeast-5" => "dysmsapi.aliyuncs.com",
             "cn-beijing"     => "dysmsapi.aliyuncs.com",
             "cn-chengdu"     => "dysmsapi.aliyuncs.com",
             "cn-hangzhou"    => "dysmsapi.aliyuncs.com",
-            "cn-hongkong"    => "dysmsapi.ap-southeast-1.aliyuncs.com",
+            "cn-hongkong"    => "dysmsapi.aliyuncs.com",
             "cn-huhehaote"   => "dysmsapi.aliyuncs.com",
             "cn-qingdao"     => "dysmsapi.aliyuncs.com",
             "cn-shanghai"    => "dysmsapi.aliyuncs.com",
             "cn-shenzhen"    => "dysmsapi.aliyuncs.com",
             "cn-zhangjiakou" => "dysmsapi.aliyuncs.com",
-            "eu-central-1"   => "dysmsapi.ap-southeast-1.aliyuncs.com",
+            "eu-central-1"   => "dysmsapi.aliyuncs.com",
             "eu-west-1"      => "dysmsapi.aliyuncs.com",
-            "me-east-1"      => "dysmsapi.ap-southeast-1.aliyuncs.com",
-            "us-east-1"      => "dysmsapi.ap-southeast-1.aliyuncs.com",
-            "us-west-1"      => "dysmsapi.ap-southeast-1.aliyuncs.com",
+            "me-east-1"      => "dysmsapi.aliyuncs.com",
+            "us-east-1"      => "dysmsapi.aliyuncs.com",
+            "us-west-1"      => "dysmsapi.aliyuncs.com",
         ],
         "internal" => [
         ]

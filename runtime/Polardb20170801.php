@@ -40,10 +40,7 @@ use aliyun\sdk\core\lib\Request;
  * @method DescribeDBClusterParameters DescribeDBClusterParameters()
  * @method DeleteBackup DeleteBackup()
  * @method TagResources TagResources()
- * @method CreateDBCluster CreateDBCluster()
  * @method DescribeDatabases DescribeDatabases()
- * @method DeleteDBNodes DeleteDBNodes()
- * @method CreateDBNodes CreateDBNodes()
  * @method ModifyBackupPolicy ModifyBackupPolicy()
  * @method ModifyDBClusterParameters ModifyDBClusterParameters()
  * @method DescribeDBClusters DescribeDBClusters()
@@ -661,91 +658,12 @@ class TagResources extends Request
  * @method int getResourceOwnerId()
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setZoneId($zoneId)
- * @method string getZoneId()
- * @method $this setEngine($engine)
- * @method string getEngine()
- * @method $this setDBType($dBType)
- * @method string getDBType()
- * @method $this setDBVersion($dBVersion)
- * @method string getDBVersion()
- * @method $this setDBNodeClass($dBNodeClass)
- * @method string getDBNodeClass()
- * @method $this setClusterNetworkType($clusterNetworkType)
- * @method string getClusterNetworkType()
- * @method $this setDBClusterDescription($dBClusterDescription)
- * @method string getDBClusterDescription()
- * @method $this setPayType($payType)
- * @method string getPayType()
- * @method $this setPeriod($period)
- * @method string getPeriod()
- * @method $this setUsedTime($usedTime)
- * @method string getUsedTime()
- * @method $this setVPCId($vPCId)
- * @method string getVPCId()
- * @method $this setVSwitchId($vSwitchId)
- * @method string getVSwitchId()
- * @method $this setClientToken($clientToken)
- * @method string getClientToken()
- */
-class CreateDBCluster extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
  * @method $this setDBClusterId($dBClusterId)
  * @method string getDBClusterId()
  * @method $this setDBName($dBName)
  * @method string getDBName()
  */
 class DescribeDatabases extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setDBClusterId($dBClusterId)
- * @method string getDBClusterId()
- * @method $this setDBNodeId($dBNodeId)
- * @method array getDBNodeId()
- * @method $this setClientToken($clientToken)
- * @method string getClientToken()
- */
-class DeleteDBNodes extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setDBClusterId($dBClusterId)
- * @method string getDBClusterId()
- * @method $this setDBNode($dBNode)
- * @method array getDBNode()
- * @method $this setClientToken($clientToken)
- * @method string getClientToken()
- */
-class CreateDBNodes extends Request
 {
 
 }/**

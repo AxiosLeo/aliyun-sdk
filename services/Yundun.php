@@ -20,7 +20,7 @@ class Yundun extends ProductAbstract
 
     protected $service_code = "yundun";
 
-    protected $credential = "AccessKeyCredential";
+    protected $credential = "RpcCredential";
 
     protected $endpoints = [
         "regions"  => [

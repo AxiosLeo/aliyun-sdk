@@ -19,7 +19,7 @@ class Polardb extends ProductAbstract
 
     protected $service_code = "polardb";
 
-    protected $credential = "AccessKeyCredential";
+    protected $credential = "RpcCredential";
 
     protected $endpoints = [
         "regions"  => [
@@ -46,11 +46,11 @@ class Polardb extends ProductAbstract
         ],
         "public"   => [
             "ap-northeast-1" => "polardb.ap-northeast-1.aliyuncs.com",
-            "ap-south-1"     => "polardb.ap-south-1.aliyuncs.com",
+            "ap-south-1"     => "polardb.aliyuncs.com",
             "ap-southeast-1" => "polardb.aliyuncs.com",
             "ap-southeast-2" => "polardb.ap-southeast-2.aliyuncs.com",
-            "ap-southeast-3" => "polardb.ap-southeast-3.aliyuncs.com",
-            "ap-southeast-5" => "polardb.ap-southeast-5.aliyuncs.com",
+            "ap-southeast-3" => "polardb.aliyuncs.com",
+            "ap-southeast-5" => "polardb.aliyuncs.com",
             "cn-beijing"     => "polardb.aliyuncs.com",
             "cn-chengdu"     => "polardb.cn-chengdu.aliyuncs.com",
             "cn-hangzhou"    => "polardb.aliyuncs.com",
@@ -60,7 +60,7 @@ class Polardb extends ProductAbstract
             "cn-shanghai"    => "polardb.aliyuncs.com",
             "cn-shenzhen"    => "polardb.aliyuncs.com",
             "cn-zhangjiakou" => "polardb.cn-zhangjiakou.aliyuncs.com",
-            "eu-central-1"   => "polardb.eu-central-1.aliyuncs.com",
+            "eu-central-1"   => "polardb.aliyuncs.com",
             "eu-west-1"      => "polardb.eu-west-1.aliyuncs.com",
             "me-east-1"      => "polardb.me-east-1.aliyuncs.com",
             "us-east-1"      => "polardb.aliyuncs.com",

@@ -19,7 +19,7 @@ class Location extends ProductAbstract
 
     protected $service_code = "location";
 
-    protected $credential = "AccessKeyCredential";
+    protected $credential = "RpcCredential";
 
     protected $endpoints = [
         "regions"  => [

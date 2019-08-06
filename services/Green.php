@@ -43,7 +43,7 @@ class Green extends ProductAbstract
 
     protected $service_code = "green";
 
-    protected $credential = "AccessKeyCredential";
+    protected $credential = "RpcCredential";
 
     protected $endpoints = [
         "regions"  => [

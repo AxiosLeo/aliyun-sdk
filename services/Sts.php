@@ -20,7 +20,7 @@ class Sts extends ProductAbstract
 
     protected $service_code = "sts";
 
-    protected $credential = "AccessKeyCredential";
+    protected $credential = "RpcCredential";
 
     protected $endpoints = [
         "regions"  => [
@@ -48,20 +48,20 @@ class Sts extends ProductAbstract
         "public"   => [
             "ap-northeast-1" => "sts.ap-northeast-1.aliyuncs.com",
             "ap-south-1"     => "sts.ap-south-1.aliyuncs.com",
-            "ap-southeast-1" => "sts.ap-southeast-1.aliyuncs.com",
+            "ap-southeast-1" => "sts.aliyuncs.com",
             "ap-southeast-2" => "sts.ap-southeast-2.aliyuncs.com",
-            "ap-southeast-3" => "sts.ap-southeast-3.aliyuncs.com",
+            "ap-southeast-3" => "sts.aliyuncs.com",
             "ap-southeast-5" => "sts.ap-southeast-5.aliyuncs.com",
             "cn-beijing"     => "sts.cn-beijing.aliyuncs.com",
             "cn-chengdu"     => "sts.cn-chengdu.aliyuncs.com",
             "cn-hangzhou"    => "sts.cn-hangzhou.aliyuncs.com",
-            "cn-hongkong"    => "sts.cn-hongkong.aliyuncs.com",
+            "cn-hongkong"    => "sts.aliyuncs.com",
             "cn-huhehaote"   => "sts.cn-huhehaote.aliyuncs.com",
             "cn-qingdao"     => "sts.cn-qingdao.aliyuncs.com",
             "cn-shanghai"    => "sts.cn-shanghai.aliyuncs.com",
             "cn-shenzhen"    => "sts.cn-shenzhen.aliyuncs.com",
             "cn-zhangjiakou" => "sts.cn-zhangjiakou.aliyuncs.com",
-            "eu-central-1"   => "sts.eu-central-1.aliyuncs.com",
+            "eu-central-1"   => "sts.aliyuncs.com",
             "eu-west-1"      => "sts.aliyuncs.com",
             "me-east-1"      => "sts.aliyuncs.com",
             "us-east-1"      => "sts.us-east-1.aliyuncs.com",

@@ -19,11 +19,10 @@ class Imm extends ProductAbstract
 
     protected $service_code = "imm";
 
-    protected $credential = "AccessKeyCredential";
+    protected $credential = "RpcCredential";
 
     protected $endpoints = [
         "regions"  => [
-            "ap-southeast-1",
             "cn-beijing",
             "cn-hangzhou",
             "cn-shanghai",
@@ -31,7 +30,6 @@ class Imm extends ProductAbstract
             "cn-zhangjiakou",
         ],
         "public"   => [
-            "ap-southeast-1" => "imm.ap-southeast-1.aliyuncs.com",
             "cn-beijing"     => "imm.cn-beijing.aliyuncs.com",
             "cn-hangzhou"    => "imm.cn-hangzhou.aliyuncs.com",
             "cn-shanghai"    => "imm.cn-shanghai.aliyuncs.com",

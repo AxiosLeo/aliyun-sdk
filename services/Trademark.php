@@ -19,7 +19,7 @@ class Trademark extends ProductAbstract
 
     protected $service_code = "trademark";
 
-    protected $credential = "AccessKeyCredential";
+    protected $credential = "RpcCredential";
 
     protected $endpoints = [
         "regions"  => [

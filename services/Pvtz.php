@@ -19,7 +19,7 @@ class Pvtz extends ProductAbstract
 
     protected $service_code = "pvtz";
 
-    protected $credential = "AccessKeyCredential";
+    protected $credential = "RpcCredential";
 
     protected $endpoints = [
         "regions"  => [

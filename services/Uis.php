@@ -19,7 +19,7 @@ class Uis extends ProductAbstract
 
     protected $service_code = "uis";
 
-    protected $credential = "AccessKeyCredential";
+    protected $credential = "RpcCredential";
 
     protected $endpoints = [
         "regions"  => [

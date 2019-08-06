@@ -82,7 +82,6 @@ use aliyun\sdk\core\lib\Request;
  * @method StartCaster StartCaster()
  * @method DescribeLiveStreamSnapshotInfo DescribeLiveStreamSnapshotInfo()
  * @method DeleteCasterComponent DeleteCasterComponent()
- * @method SetLiveStreamDelayConfig SetLiveStreamDelayConfig()
  * @method DescribeLiveDomainRecordData DescribeLiveDomainRecordData()
  * @method DeleteBoard DeleteBoard()
  * @method SetLiveDomainCertificate SetLiveDomainCertificate()
@@ -152,7 +151,6 @@ use aliyun\sdk\core\lib\Request;
  * @method DescribeRoomKickoutUserList DescribeRoomKickoutUserList()
  * @method DeleteCasterProgram DeleteCasterProgram()
  * @method DescribeRoomList DescribeRoomList()
- * @method DescribeLiveStreamDelayConfig DescribeLiveStreamDelayConfig()
  * @method ModifyCasterProgram ModifyCasterProgram()
  * @method ApplyRecordToken ApplyRecordToken()
  * @method StopLiveDomain StopLiveDomain()
@@ -1337,29 +1335,6 @@ class DeleteCasterComponent extends Request
  * @method string getRegionId()
  * @method $this setDomainName($domainName)
  * @method string getDomainName()
- * @method $this setHlsDelay($hlsDelay)
- * @method int getHlsDelay()
- * @method $this setHlsLevel($hlsLevel)
- * @method string getHlsLevel()
- * @method $this setFlvDelay($flvDelay)
- * @method int getFlvDelay()
- * @method $this setFlvLevel($flvLevel)
- * @method string getFlvLevel()
- * @method $this setRtmpDelay($rtmpDelay)
- * @method int getRtmpDelay()
- * @method $this setRtmpLevel($rtmpLevel)
- * @method string getRtmpLevel()
- */
-class SetLiveStreamDelayConfig extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setDomainName($domainName)
- * @method string getDomainName()
  * @method $this setStartTime($startTime)
  * @method string getStartTime()
  * @method $this setEndTime($endTime)
@@ -2472,17 +2447,6 @@ class DeleteCasterProgram extends Request
  * @method int getPageSize()
  */
 class DescribeRoomList extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setDomainName($domainName)
- * @method string getDomainName()
- */
-class DescribeLiveStreamDelayConfig extends Request
 {
 
 }/**

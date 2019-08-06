@@ -26,7 +26,7 @@ class Ons extends ProductAbstract
 
     protected $service_code = "ons";
 
-    protected $credential = "AccessKeyCredential";
+    protected $credential = "RpcCredential";
 
     protected $endpoints = [
         "regions"  => [
@@ -56,7 +56,7 @@ class Ons extends ProductAbstract
             "ap-south-1"     => "ons.ap-south-1.aliyuncs.com",
             "ap-southeast-1" => "ons.ap-southeast-1.aliyuncs.com",
             "ap-southeast-2" => "ons.ap-southeast-2.aliyuncs.com",
-            "ap-southeast-3" => "ons.ap-southeast-3.aliyuncs.com",
+            "ap-southeast-3" => "ons.aliyuncs.com",
             "ap-southeast-5" => "ons.aliyuncs.com",
             "cn-beijing"     => "ons.cn-beijing.aliyuncs.com",
             "cn-chengdu"     => "ons.cn-chengdu.aliyuncs.com",
@@ -67,10 +67,10 @@ class Ons extends ProductAbstract
             "cn-shanghai"    => "ons.cn-shanghai.aliyuncs.com",
             "cn-shenzhen"    => "ons.cn-shenzhen.aliyuncs.com",
             "cn-zhangjiakou" => "ons.cn-zhangjiakou.aliyuncs.com",
-            "eu-central-1"   => "ons.aliyuncs.com",
+            "eu-central-1"   => "ons.eu-central-1.aliyuncs.com",
             "eu-west-1"      => "ons.aliyuncs.com",
             "me-east-1"      => "ons.me-east-1.aliyuncs.com",
-            "us-east-1"      => "ons.us-east-1.aliyuncs.com",
+            "us-east-1"      => "ons.aliyuncs.com",
             "us-west-1"      => "ons.us-west-1.aliyuncs.com",
         ],
         "internal" => [

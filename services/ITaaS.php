@@ -21,7 +21,7 @@ class ITaaS extends ProductAbstract
 
     protected $service_code = "itaas";
 
-    protected $credential = "AccessKeyCredential";
+    protected $credential = "RpcCredential";
 
     protected $endpoints = [
         "regions"  => [
@@ -58,7 +58,7 @@ class ITaaS extends ProductAbstract
             "cn-hangzhou"    => "itaas.aliyuncs.com",
             "cn-hongkong"    => "itaas.aliyuncs.com",
             "cn-huhehaote"   => "itaas.aliyuncs.com",
-            "cn-qingdao"     => "itaas.cn-qingdao.aliyuncs.com",
+            "cn-qingdao"     => "itaas.aliyuncs.com",
             "cn-shanghai"    => "itaas.aliyuncs.com",
             "cn-shenzhen"    => "itaas.aliyuncs.com",
             "cn-zhangjiakou" => "itaas.aliyuncs.com",

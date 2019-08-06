@@ -19,7 +19,7 @@ class Dds extends ProductAbstract
 
     protected $service_code = "Dds";
 
-    protected $credential = "AccessKeyCredential";
+    protected $credential = "RpcCredential";
 
     protected $endpoints = [
         "regions"  => [
@@ -46,11 +46,11 @@ class Dds extends ProductAbstract
         ],
         "public"   => [
             "ap-northeast-1" => "mongodb.ap-northeast-1.aliyuncs.com",
-            "ap-south-1"     => "mongodb.ap-south-1.aliyuncs.com",
+            "ap-south-1"     => "mongodb.aliyuncs.com",
             "ap-southeast-1" => "mongodb.ap-southeast-1.aliyuncs.com",
-            "ap-southeast-2" => "mongodb.ap-southeast-2.aliyuncs.com",
-            "ap-southeast-3" => "mongodb.ap-southeast-3.aliyuncs.com",
-            "ap-southeast-5" => "mongodb.ap-southeast-5.aliyuncs.com",
+            "ap-southeast-2" => "mongodb.aliyuncs.com",
+            "ap-southeast-3" => "mongodb.aliyuncs.com",
+            "ap-southeast-5" => "mongodb.aliyuncs.com",
             "cn-beijing"     => "mongodb.aliyuncs.com",
             "cn-chengdu"     => "mongodb.cn-chengdu.aliyuncs.com",
             "cn-hangzhou"    => "mongodb.aliyuncs.com",

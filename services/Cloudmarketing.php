@@ -19,18 +19,14 @@ class Cloudmarketing extends ProductAbstract
 
     protected $service_code = "";
 
-    protected $credential = "AccessKeyCredential";
+    protected $credential = "RpcCredential";
 
     protected $endpoints = [
         "regions"  => [
             "cn-hangzhou",
-            "cn-shanghai",
-            "cn-shenzhen",
         ],
         "public"   => [
             "cn-hangzhou"    => "cloudmarketing.cn-hangzhou.aliyuncs.com",
-            "cn-shanghai"    => "cloudmarketing.cn-shanghai.aliyuncs.com",
-            "cn-shenzhen"    => "cloudmarketing.cn-shenzhen.aliyuncs.com",
         ],
         "internal" => [
         ]

@@ -141,8 +141,6 @@ class AddEndPoint extends Request
  * @method bool getIsShort()
  * @method $this setEnableKMS($enableKMS)
  * @method bool getEnableKMS()
- * @method $this setRemark($remark)
- * @method string getRemark()
  */
 class AddAccount extends Request
 {

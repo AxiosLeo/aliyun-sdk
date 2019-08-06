@@ -19,7 +19,7 @@ class Vpc extends ProductAbstract
 
     protected $service_code = "vpc";
 
-    protected $credential = "AccessKeyCredential";
+    protected $credential = "RpcCredential";
 
     protected $endpoints = [
         "regions"  => [
@@ -45,12 +45,12 @@ class Vpc extends ProductAbstract
             "us-west-1",
         ],
         "public"   => [
-            "ap-northeast-1" => "vpc.ap-northeast-1.aliyuncs.com",
-            "ap-south-1"     => "vpc.ap-south-1.aliyuncs.com",
+            "ap-northeast-1" => "vpc.aliyuncs.com",
+            "ap-south-1"     => "vpc.aliyuncs.com",
             "ap-southeast-1" => "vpc.aliyuncs.com",
-            "ap-southeast-2" => "vpc.ap-southeast-2.aliyuncs.com",
-            "ap-southeast-3" => "vpc.ap-southeast-3.aliyuncs.com",
-            "ap-southeast-5" => "vpc.ap-southeast-5.aliyuncs.com",
+            "ap-southeast-2" => "vpc.aliyuncs.com",
+            "ap-southeast-3" => "vpc.aliyuncs.com",
+            "ap-southeast-5" => "vpc.aliyuncs.com",
             "cn-beijing"     => "vpc.aliyuncs.com",
             "cn-chengdu"     => "vpc.cn-chengdu.aliyuncs.com",
             "cn-hangzhou"    => "vpc.aliyuncs.com",
@@ -61,7 +61,7 @@ class Vpc extends ProductAbstract
             "cn-shenzhen"    => "vpc.aliyuncs.com",
             "cn-zhangjiakou" => "vpc.cn-zhangjiakou.aliyuncs.com",
             "eu-central-1"   => "vpc.eu-central-1.aliyuncs.com",
-            "eu-west-1"      => "vpc.eu-west-1.aliyuncs.com",
+            "eu-west-1"      => "vpc.aliyuncs.com",
             "me-east-1"      => "vpc.me-east-1.aliyuncs.com",
             "us-east-1"      => "vpc.aliyuncs.com",
             "us-west-1"      => "vpc.aliyuncs.com",

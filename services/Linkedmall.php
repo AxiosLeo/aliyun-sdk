@@ -19,7 +19,7 @@ class Linkedmall extends ProductAbstract
 
     protected $service_code = "linkedmall";
 
-    protected $credential = "AccessKeyCredential";
+    protected $credential = "RpcCredential";
 
     protected $endpoints = [
         "regions"  => [

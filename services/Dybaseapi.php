@@ -20,7 +20,7 @@ class Dybaseapi extends ProductAbstract
 
     protected $service_code = "dybaseapi";
 
-    protected $credential = "AccessKeyCredential";
+    protected $credential = "RpcCredential";
 
     protected $endpoints = [
         "regions"  => [

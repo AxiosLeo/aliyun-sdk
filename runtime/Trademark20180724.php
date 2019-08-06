@@ -9,19 +9,14 @@ use aliyun\sdk\core\lib\Request;
  *
  * @package aliyun\sdk\services\Trademark20180724
  * @method UpdateMaterial UpdateMaterial()
- * @method UpdateSendMaterialNum UpdateSendMaterialNum()
  * @method QuerySupplementDetail QuerySupplementDetail()
  * @method QueryMaterial QueryMaterial()
- * @method QueryTradeProduceList QueryTradeProduceList()
- * @method QueryCommunicationLogs QueryCommunicationLogs()
  * @method DenySupplement DenySupplement()
  * @method QueryCredentialsInfo QueryCredentialsInfo()
  * @method InsertMaterial InsertMaterial()
  * @method InsertTmMonitorRule InsertTmMonitorRule()
- * @method StartNotary StartNotary()
  * @method CheckLoaFill CheckLoaFill()
  * @method QueryTaskList QueryTaskList()
- * @method QueryTradeIntentionUserList QueryTradeIntentionUserList()
  * @method UpdateTmMonitorRule UpdateTmMonitorRule()
  * @method QueryMaterialList QueryMaterialList()
  * @method QueryQrCodeUploadStatus QueryQrCodeUploadStatus()
@@ -31,10 +26,7 @@ use aliyun\sdk\core\lib\Request;
  * @method QueryTrademarkMonitorRules QueryTrademarkMonitorRules()
  * @method QueryTradeMarkApplicationLogs QueryTradeMarkApplicationLogs()
  * @method SaveTask SaveTask()
- * @method UploadNotaryData UploadNotaryData()
  * @method DeleteMaterial DeleteMaterial()
- * @method InsertTradeIntentionUser InsertTradeIntentionUser()
- * @method ListNotaryOrders ListNotaryOrders()
  * @method InsertRenewInfo InsertRenewInfo()
  * @method QueryMonitorKeywords QueryMonitorKeywords()
  * @method GenerateQrCode GenerateQrCode()
@@ -43,17 +35,12 @@ use aliyun\sdk\core\lib\Request;
  * @method SubmitSupplement SubmitSupplement()
  * @method GenerateUploadFilePolicy GenerateUploadFilePolicy()
  * @method DeleteTmMonitorRule DeleteTmMonitorRule()
- * @method ApplyNotaryPost ApplyNotaryPost()
- * @method QueryOssResources QueryOssResources()
  * @method FillLogistics FillLogistics()
  * @method QueryTrademarkMonitorResults QueryTrademarkMonitorResults()
  * @method StoreMaterialTemporarily StoreMaterialTemporarily()
  * @method RefundProduce RefundProduce()
- * @method CancelTradeOrder CancelTradeOrder()
  * @method ConvertImageToGray ConvertImageToGray()
- * @method QueryTradeProduceDetail QueryTradeProduceDetail()
  * @method BindMaterial BindMaterial()
- * @method GetNotaryOrder GetNotaryOrder()
  */
 class V20180724
 {
@@ -105,17 +92,6 @@ class UpdateMaterial extends Request
 {
 
 }/**
- * @method $this setBizId($bizId)
- * @method string getBizId()
- * @method $this setNum($num)
- * @method string getNum()
- * @method $this setOperateType($operateType)
- * @method int getOperateType()
- */
-class UpdateSendMaterialNum extends Request
-{
-
-}/**
  * @method $this setId($id)
  * @method int getId()
  */
@@ -127,34 +103,6 @@ class QuerySupplementDetail extends Request
  * @method int getId()
  */
 class QueryMaterial extends Request
-{
-
-}/**
- * @method $this setRegisterNumber($registerNumber)
- * @method string getRegisterNumber()
- * @method $this setPageNum($pageNum)
- * @method int getPageNum()
- * @method $this setPageSize($pageSize)
- * @method int getPageSize()
- * @method $this setPreOrderId($preOrderId)
- * @method string getPreOrderId()
- * @method $this setBuyerStatus($buyerStatus)
- * @method int getBuyerStatus()
- * @method $this setSortOrder($sortOrder)
- * @method string getSortOrder()
- * @method $this setSortFiled($sortFiled)
- * @method string getSortFiled()
- * @method $this setBizId($bizId)
- * @method string getBizId()
- */
-class QueryTradeProduceList extends Request
-{
-
-}/**
- * @method $this setBizId($bizId)
- * @method string getBizId()
- */
-class QueryCommunicationLogs extends Request
 {
 
 }/**
@@ -244,13 +192,6 @@ class InsertTmMonitorRule extends Request
 {
 
 }/**
- * @method $this setNotaryOrderId($notaryOrderId)
- * @method int getNotaryOrderId()
- */
-class StartNotary extends Request
-{
-
-}/**
  * @method $this setOssKey($ossKey)
  * @method string getOssKey()
  * @method $this setType($type)
@@ -264,15 +205,6 @@ class CheckLoaFill extends Request
  * @method string getBizType()
  */
 class QueryTaskList extends Request
-{
-
-}/**
- * @method $this setBegin($begin)
- * @method int getBegin()
- * @method $this setEnd($end)
- * @method int getEnd()
- */
-class QueryTradeIntentionUserList extends Request
 {
 
 }/**
@@ -407,63 +339,10 @@ class SaveTask extends Request
 {
 
 }/**
- * @method $this setNotaryType($notaryType)
- * @method int getNotaryType()
- * @method $this setBizOrderNo($bizOrderNo)
- * @method string getBizOrderNo()
- * @method $this setUploadContext($uploadContext)
- * @method string getUploadContext()
- */
-class UploadNotaryData extends Request
-{
-
-}/**
  * @method $this setId($id)
  * @method int getId()
  */
 class DeleteMaterial extends Request
-{
-
-}/**
- * @method $this setRegisterNumber($registerNumber)
- * @method string getRegisterNumber()
- * @method $this setClassification($classification)
- * @method string getClassification()
- * @method $this setType($type)
- * @method int getType()
- * @method $this setMobile($mobile)
- * @method string getMobile()
- * @method $this setVcode($vcode)
- * @method string getVcode()
- * @method $this setPartnerCode($partnerCode)
- * @method string getPartnerCode()
- */
-class InsertTradeIntentionUser extends Request
-{
-
-}/**
- * @method $this setStartOrderDate($startOrderDate)
- * @method int getStartOrderDate()
- * @method $this setEndOrderDate($endOrderDate)
- * @method int getEndOrderDate()
- * @method $this setNotaryStatus($notaryStatus)
- * @method int getNotaryStatus()
- * @method $this setAliyunOrderId($aliyunOrderId)
- * @method string getAliyunOrderId()
- * @method $this setSortByType($sortByType)
- * @method string getSortByType()
- * @method $this setSortKeyType($sortKeyType)
- * @method int getSortKeyType()
- * @method $this setPageNum($pageNum)
- * @method int getPageNum()
- * @method $this setPageSize($pageSize)
- * @method int getPageSize()
- * @method $this setBizId($bizId)
- * @method string getBizId()
- * @method $this setNotaryType($notaryType)
- * @method int getNotaryType()
- */
-class ListNotaryOrders extends Request
 {
 
 }/**
@@ -539,16 +418,6 @@ class QueryTradeMarkApplicationDetail extends Request
  * @method string getRegisterName()
  * @method $this setTmComment($tmComment)
  * @method string getTmComment()
- * @method $this setBizId($bizId)
- * @method string getBizId()
- * @method $this setUid($uid)
- * @method string getUid()
- * @method $this setPartnerCode($partnerCode)
- * @method string getPartnerCode()
- * @method $this setRealUserName($realUserName)
- * @method string getRealUserName()
- * @method $this setPhoneNum($phoneNum)
- * @method string getPhoneNum()
  */
 class CreateTrademarkOrder extends Request
 {
@@ -567,8 +436,6 @@ class SubmitSupplement extends Request
 }/**
  * @method $this setFileType($fileType)
  * @method string getFileType()
- * @method $this setBizId($bizId)
- * @method string getBizId()
  */
 class GenerateUploadFilePolicy extends Request
 {
@@ -578,26 +445,6 @@ class GenerateUploadFilePolicy extends Request
  * @method int getId()
  */
 class DeleteTmMonitorRule extends Request
-{
-
-}/**
- * @method $this setNotaryOrderId($notaryOrderId)
- * @method int getNotaryOrderId()
- * @method $this setReceiverName($receiverName)
- * @method string getReceiverName()
- * @method $this setReceiverAddress($receiverAddress)
- * @method string getReceiverAddress()
- * @method $this setReceiverPhone($receiverPhone)
- * @method string getReceiverPhone()
- */
-class ApplyNotaryPost extends Request
-{
-
-}/**
- * @method $this setBizId($bizId)
- * @method string getBizId()
- */
-class QueryOssResources extends Request
 {
 
 }/**
@@ -687,24 +534,10 @@ class RefundProduce extends Request
 {
 
 }/**
- * @method $this setBizId($bizId)
- * @method string getBizId()
- */
-class CancelTradeOrder extends Request
-{
-
-}/**
  * @method $this setOssKey($ossKey)
  * @method string getOssKey()
  */
 class ConvertImageToGray extends Request
-{
-
-}/**
- * @method $this setBizId($bizId)
- * @method string getBizId()
- */
-class QueryTradeProduceDetail extends Request
 {
 
 }/**
@@ -716,13 +549,6 @@ class QueryTradeProduceDetail extends Request
  * @method string getLoaOssKey()
  */
 class BindMaterial extends Request
-{
-
-}/**
- * @method $this setNotaryOrderId($notaryOrderId)
- * @method int getNotaryOrderId()
- */
-class GetNotaryOrder extends Request
 {
 
 }

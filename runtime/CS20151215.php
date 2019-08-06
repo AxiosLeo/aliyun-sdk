@@ -13,11 +13,9 @@ use aliyun\sdk\core\lib\Request;
  * @method CreateCluster CreateCluster()
  * @method DeleteCluster DeleteCluster()
  * @method CheckAliyunCSServiceRole CheckAliyunCSServiceRole()
- * @method DescribeEdgeClusterAttachScripts DescribeEdgeClusterAttachScripts()
  * @method DescribeClusterCerts DescribeClusterCerts()
  * @method ResetClusterNode ResetClusterNode()
  * @method DescribeClusterLogs DescribeClusterLogs()
- * @method DescribeKubernetesVersionMetadata DescribeKubernetesVersionMetadata()
  * @method DescribeClusterUserKubeconfig DescribeClusterUserKubeconfig()
  * @method RevokeClusterToken RevokeClusterToken()
  * @method DeleteClusterNode DeleteClusterNode()
@@ -69,15 +67,6 @@ class CheckAliyunCSServiceRole extends Request
 }/**
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
- * @method $this setNamePrefix($namePrefix)
- * @method string getNamePrefix()
- */
-class DescribeEdgeClusterAttachScripts extends Request
-{
-
-}/**
- * @method $this setClusterId($clusterId)
- * @method string getClusterId()
  */
 class DescribeClusterCerts extends Request
 {
@@ -96,19 +85,6 @@ class ResetClusterNode extends Request
  * @method string getClusterId()
  */
 class DescribeClusterLogs extends Request
-{
-
-}/**
- * @method $this setRegion($region)
- * @method string getRegion()
- * @method $this setClusterType($clusterType)
- * @method string getClusterType()
- * @method $this setMultiAZ($multiAZ)
- * @method bool getMultiAZ()
- * @method $this setKubernetesVersion($kubernetesVersion)
- * @method string getKubernetesVersion()
- */
-class DescribeKubernetesVersionMetadata extends Request
 {
 
 }/**

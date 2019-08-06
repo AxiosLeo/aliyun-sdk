@@ -21,7 +21,7 @@ class CF extends ProductAbstract
 
     protected $service_code = "cf";
 
-    protected $credential = "AccessKeyCredential";
+    protected $credential = "RpcCredential";
 
     protected $endpoints = [
         "regions"  => [

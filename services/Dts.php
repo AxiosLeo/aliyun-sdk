@@ -23,7 +23,7 @@ class Dts extends ProductAbstract
 
     protected $service_code = "dts";
 
-    protected $credential = "AccessKeyCredential";
+    protected $credential = "RpcCredential";
 
     protected $endpoints = [
         "regions"  => [

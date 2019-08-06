@@ -19,7 +19,7 @@ class Afs extends ProductAbstract
 
     protected $service_code = "afs";
 
-    protected $credential = "AccessKeyCredential";
+    protected $credential = "RpcCredential";
 
     protected $endpoints = [
         "regions"  => [

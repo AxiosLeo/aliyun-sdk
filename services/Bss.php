@@ -19,7 +19,7 @@ class Bss extends ProductAbstract
 
     protected $service_code = "bss";
 
-    protected $credential = "AccessKeyCredential";
+    protected $credential = "RpcCredential";
 
     protected $endpoints = [
         "regions"  => [

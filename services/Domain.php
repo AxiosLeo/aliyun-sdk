@@ -22,7 +22,7 @@ class Domain extends ProductAbstract
 
     protected $service_code = "";
 
-    protected $credential = "AccessKeyCredential";
+    protected $credential = "RpcCredential";
 
     protected $endpoints = [
         "regions"  => [

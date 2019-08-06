@@ -20,7 +20,7 @@ class Ess extends ProductAbstract
 
     protected $service_code = "ess";
 
-    protected $credential = "AccessKeyCredential";
+    protected $credential = "RpcCredential";
 
     protected $endpoints = [
         "regions"  => [
@@ -46,12 +46,12 @@ class Ess extends ProductAbstract
             "us-west-1",
         ],
         "public"   => [
-            "ap-northeast-1" => "ess.ap-northeast-1.aliyuncs.com",
-            "ap-south-1"     => "ess.ap-south-1.aliyuncs.com",
+            "ap-northeast-1" => "ess.aliyuncs.com",
+            "ap-south-1"     => "ess.aliyuncs.com",
             "ap-southeast-1" => "ess.aliyuncs.com",
-            "ap-southeast-2" => "ess.ap-southeast-2.aliyuncs.com",
-            "ap-southeast-3" => "ess.ap-southeast-3.aliyuncs.com",
-            "ap-southeast-5" => "ess.ap-southeast-5.aliyuncs.com",
+            "ap-southeast-2" => "ess.aliyuncs.com",
+            "ap-southeast-3" => "ess.aliyuncs.com",
+            "ap-southeast-5" => "ess.aliyuncs.com",
             "cn-beijing"     => "ess.aliyuncs.com",
             "cn-chengdu"     => "ess.cn-chengdu.aliyuncs.com",
             "cn-hangzhou"    => "ess.aliyuncs.com",
@@ -61,8 +61,8 @@ class Ess extends ProductAbstract
             "cn-shanghai"    => "ess.aliyuncs.com",
             "cn-shenzhen"    => "ess.aliyuncs.com",
             "cn-zhangjiakou" => "ess.cn-zhangjiakou.aliyuncs.com",
-            "eu-central-1"   => "ess.eu-central-1.aliyuncs.com",
-            "eu-west-1"      => "ess.eu-west-1.aliyuncs.com",
+            "eu-central-1"   => "ess.aliyuncs.com",
+            "eu-west-1"      => "ess.aliyuncs.com",
             "me-east-1"      => "ess.aliyuncs.com",
             "us-east-1"      => "ess.aliyuncs.com",
             "us-west-1"      => "ess.aliyuncs.com",

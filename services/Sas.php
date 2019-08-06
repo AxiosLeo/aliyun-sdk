@@ -22,7 +22,7 @@ class Sas extends ProductAbstract
 
     protected $service_code = "sas";
 
-    protected $credential = "AccessKeyCredential";
+    protected $credential = "RpcCredential";
 
     protected $endpoints = [
         "regions"  => [

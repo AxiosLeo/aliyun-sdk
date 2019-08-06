@@ -19,7 +19,7 @@ class Crm extends ProductAbstract
 
     protected $service_code = "crm";
 
-    protected $credential = "AccessKeyCredential";
+    protected $credential = "RpcCredential";
 
     protected $endpoints = [
         "regions"  => [

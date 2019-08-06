@@ -21,7 +21,7 @@ class CS extends ProductAbstract
 
     protected $service_code = "cs";
 
-    protected $credential = "AccessKeyCredential";
+    protected $credential = "RpcCredential";
 
     protected $endpoints = [
         "regions"  => [

@@ -19,7 +19,7 @@ class Ram extends ProductAbstract
 
     protected $service_code = "ram";
 
-    protected $credential = "AccessKeyCredential";
+    protected $credential = "RpcCredential";
 
     protected $endpoints = [
         "regions"  => [

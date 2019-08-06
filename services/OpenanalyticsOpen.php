@@ -19,7 +19,7 @@ class OpenanalyticsOpen extends ProductAbstract
 
     protected $service_code = "";
 
-    protected $credential = "AccessKeyCredential";
+    protected $credential = "RpcCredential";
 
     protected $endpoints = [
         "regions"  => [
@@ -47,10 +47,10 @@ class OpenanalyticsOpen extends ProductAbstract
         "public"   => [
             "ap-northeast-1" => "openanalytics.ap-northeast-1.aliyuncs.com",
             "ap-south-1"     => "openanalytics.ap-south-1.aliyuncs.com",
-            "ap-southeast-1" => "openanalytics.ap-southeast-1.aliyuncs.com",
+            "ap-southeast-1" => "openanalytics.aliyuncs.com",
             "ap-southeast-2" => "openanalytics.ap-southeast-2.aliyuncs.com",
             "ap-southeast-3" => "openanalytics.ap-southeast-3.aliyuncs.com",
-            "ap-southeast-5" => "openanalytics.ap-southeast-5.aliyuncs.com",
+            "ap-southeast-5" => "openanalytics.aliyuncs.com",
             "cn-beijing"     => "openanalytics.cn-beijing.aliyuncs.com",
             "cn-chengdu"     => "openanalytics.aliyuncs.com",
             "cn-hangzhou"    => "openanalytics.cn-hangzhou.aliyuncs.com",
@@ -60,11 +60,11 @@ class OpenanalyticsOpen extends ProductAbstract
             "cn-shanghai"    => "openanalytics.cn-shanghai.aliyuncs.com",
             "cn-shenzhen"    => "openanalytics.cn-shenzhen.aliyuncs.com",
             "cn-zhangjiakou" => "openanalytics.cn-zhangjiakou.aliyuncs.com",
-            "eu-central-1"   => "openanalytics.eu-central-1.aliyuncs.com",
+            "eu-central-1"   => "openanalytics.aliyuncs.com",
             "eu-west-1"      => "openanalytics.eu-west-1.aliyuncs.com",
-            "me-east-1"      => "openanalytics.me-east-1.aliyuncs.com",
+            "me-east-1"      => "openanalytics.aliyuncs.com",
             "us-east-1"      => "openanalytics.us-east-1.aliyuncs.com",
-            "us-west-1"      => "openanalytics.us-west-1.aliyuncs.com",
+            "us-west-1"      => "datalakeanalytics.us-west-1.aliyuncs.com",
         ],
         "internal" => [
         ]

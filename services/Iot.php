@@ -24,7 +24,7 @@ class Iot extends ProductAbstract
 
     protected $service_code = "iot";
 
-    protected $credential = "AccessKeyCredential";
+    protected $credential = "RpcCredential";
 
     protected $endpoints = [
         "regions"  => [
@@ -52,7 +52,7 @@ class Iot extends ProductAbstract
         "public"   => [
             "ap-northeast-1" => "iot.ap-northeast-1.aliyuncs.com",
             "ap-south-1"     => "iot.aliyuncs.com",
-            "ap-southeast-1" => "iot.ap-southeast-1.aliyuncs.com",
+            "ap-southeast-1" => "iot.aliyuncs.com",
             "ap-southeast-2" => "iot.aliyuncs.com",
             "ap-southeast-3" => "iot.aliyuncs.com",
             "ap-southeast-5" => "iot.aliyuncs.com",
@@ -68,7 +68,7 @@ class Iot extends ProductAbstract
             "eu-central-1"   => "iot.aliyuncs.com",
             "eu-west-1"      => "iot.aliyuncs.com",
             "me-east-1"      => "iot.aliyuncs.com",
-            "us-east-1"      => "iot.aliyuncs.com",
+            "us-east-1"      => "iot.us-east-1.aliyuncs.com",
             "us-west-1"      => "iot.us-west-1.aliyuncs.com",
         ],
         "internal" => [

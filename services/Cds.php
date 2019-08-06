@@ -20,7 +20,7 @@ class Cds extends ProductAbstract
 
     protected $service_code = "cds";
 
-    protected $credential = "AccessKeyCredential";
+    protected $credential = "RpcCredential";
 
     protected $endpoints = [
         "regions"  => [

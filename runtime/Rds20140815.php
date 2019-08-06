@@ -40,6 +40,7 @@ use aliyun\sdk\core\lib\Request;
  * @method DescribeBackupPolicy DescribeBackupPolicy()
  * @method CheckInstanceExist CheckInstanceExist()
  * @method SwitchDBInstanceVpc SwitchDBInstanceVpc()
+ * @method DescribeUserEncryptionKeyList DescribeUserEncryptionKeyList()
  * @method UpgradeDBInstanceEngineVersion UpgradeDBInstanceEngineVersion()
  * @method DeleteDatabase DeleteDatabase()
  * @method DescribeMetaList DescribeMetaList()
@@ -59,6 +60,7 @@ use aliyun\sdk\core\lib\Request;
  * @method AllocateReadWriteSplittingConnection AllocateReadWriteSplittingConnection()
  * @method DescribeBackupTasks DescribeBackupTasks()
  * @method DescribeErrorLogs DescribeErrorLogs()
+ * @method DescribeDBInstanceEncryptionKey DescribeDBInstanceEncryptionKey()
  * @method RequestServiceOfCloudDBExpert RequestServiceOfCloudDBExpert()
  * @method DescribeBackups DescribeBackups()
  * @method DeleteAccount DeleteAccount()
@@ -71,6 +73,7 @@ use aliyun\sdk\core\lib\Request;
  * @method DescribeSecurityGroupConfiguration DescribeSecurityGroupConfiguration()
  * @method DescribeDBInstanceProxyConfiguration DescribeDBInstanceProxyConfiguration()
  * @method ModifyResourceGroup ModifyResourceGroup()
+ * @method CheckCloudResourceAuthorized CheckCloudResourceAuthorized()
  * @method ModifyDBInstanceNetworkExpireTime ModifyDBInstanceNetworkExpireTime()
  * @method ModifySecurityIps ModifySecurityIps()
  * @method DescribeSQLLogRecords DescribeSQLLogRecords()
@@ -95,7 +98,6 @@ use aliyun\sdk\core\lib\Request;
  * @method DescribeSlowLogRecords DescribeSlowLogRecords()
  * @method DeleteDBInstance DeleteDBInstance()
  * @method ModifyAccountDescription ModifyAccountDescription()
- * @method CreateDiagnosticReport CreateDiagnosticReport()
  * @method ModifyDBInstanceProxyConfiguration ModifyDBInstanceProxyConfiguration()
  * @method ModifyDBDescription ModifyDBDescription()
  * @method CreateDBInstanceReplica CreateDBInstanceReplica()
@@ -132,6 +134,7 @@ use aliyun\sdk\core\lib\Request;
  * @method DescribeModifyParameterLog DescribeModifyParameterLog()
  * @method ModifyReadWriteSplittingConnection ModifyReadWriteSplittingConnection()
  * @method AllocateInstancePublicConnection AllocateInstancePublicConnection()
+ * @method DescribeDBInstancesWithCloudResource DescribeDBInstancesWithCloudResource()
  * @method DescribeDBInstanceIPArrayList DescribeDBInstanceIPArrayList()
  * @method ModifyBackupPolicy ModifyBackupPolicy()
  * @method DescribeBackupDatabase DescribeBackupDatabase()
@@ -906,6 +909,23 @@ class SwitchDBInstanceVpc extends Request
  * @method string getResourceOwnerAccount()
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
+ * @method $this setOwnerAccount($ownerAccount)
+ * @method string getOwnerAccount()
+ * @method $this setRegionId($regionId)
+ * @method string getRegionId()
+ * @method $this setDBInstanceId($dBInstanceId)
+ * @method string getDBInstanceId()
+ */
+class DescribeUserEncryptionKeyList extends Request
+{
+
+}/**
+ * @method $this setOwnerId($ownerId)
+ * @method int getOwnerId()
+ * @method $this setResourceOwnerAccount($resourceOwnerAccount)
+ * @method string getResourceOwnerAccount()
+ * @method $this setResourceOwnerId($resourceOwnerId)
+ * @method int getResourceOwnerId()
  * @method $this setClientToken($clientToken)
  * @method string getClientToken()
  * @method $this setDBInstanceId($dBInstanceId)
@@ -1329,6 +1349,23 @@ class DescribeErrorLogs extends Request
 {
 
 }/**
+ * @method $this setOwnerId($ownerId)
+ * @method int getOwnerId()
+ * @method $this setResourceOwnerAccount($resourceOwnerAccount)
+ * @method string getResourceOwnerAccount()
+ * @method $this setResourceOwnerId($resourceOwnerId)
+ * @method int getResourceOwnerId()
+ * @method $this setOwnerAccount($ownerAccount)
+ * @method string getOwnerAccount()
+ * @method $this setRegionId($regionId)
+ * @method string getRegionId()
+ * @method $this setDBInstanceId($dBInstanceId)
+ * @method string getDBInstanceId()
+ */
+class DescribeDBInstanceEncryptionKey extends Request
+{
+
+}/**
  * @method $this setDBInstanceId($dBInstanceId)
  * @method string getDBInstanceId()
  * @method $this setServiceRequestType($serviceRequestType)
@@ -1550,6 +1587,23 @@ class DescribeDBInstanceProxyConfiguration extends Request
  * @method string getResourceGroupId()
  */
 class ModifyResourceGroup extends Request
+{
+
+}/**
+ * @method $this setOwnerId($ownerId)
+ * @method int getOwnerId()
+ * @method $this setResourceOwnerAccount($resourceOwnerAccount)
+ * @method string getResourceOwnerAccount()
+ * @method $this setResourceOwnerId($resourceOwnerId)
+ * @method int getResourceOwnerId()
+ * @method $this setOwnerAccount($ownerAccount)
+ * @method string getOwnerAccount()
+ * @method $this setRegionId($regionId)
+ * @method string getRegionId()
+ * @method $this setDBInstanceId($dBInstanceId)
+ * @method string getDBInstanceId()
+ */
+class CheckCloudResourceAuthorized extends Request
 {
 
 }/**
@@ -2126,17 +2180,6 @@ class DeleteDBInstance extends Request
  * @method string getOwnerAccount()
  */
 class ModifyAccountDescription extends Request
-{
-
-}/**
- * @method $this setDBInstanceId($dBInstanceId)
- * @method string getDBInstanceId()
- * @method $this setStartTime($startTime)
- * @method string getStartTime()
- * @method $this setEndTime($endTime)
- * @method string getEndTime()
- */
-class CreateDiagnosticReport extends Request
 {
 
 }/**
@@ -2927,6 +2970,27 @@ class ModifyReadWriteSplittingConnection extends Request
  * @method string getOwnerAccount()
  */
 class AllocateInstancePublicConnection extends Request
+{
+
+}/**
+ * @method $this setOwnerId($ownerId)
+ * @method int getOwnerId()
+ * @method $this setResourceOwnerAccount($resourceOwnerAccount)
+ * @method string getResourceOwnerAccount()
+ * @method $this setResourceOwnerId($resourceOwnerId)
+ * @method int getResourceOwnerId()
+ * @method $this setOwnerAccount($ownerAccount)
+ * @method string getOwnerAccount()
+ * @method $this setEncryptionKey($encryptionKey)
+ * @method string getEncryptionKey()
+ * @method $this setRoleArn($roleArn)
+ * @method string getRoleArn()
+ * @method $this setPageSize($pageSize)
+ * @method int getPageSize()
+ * @method $this setPageNumber($pageNumber)
+ * @method int getPageNumber()
+ */
+class DescribeDBInstancesWithCloudResource extends Request
 {
 
 }/**

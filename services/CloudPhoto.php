@@ -20,7 +20,7 @@ class CloudPhoto extends ProductAbstract
 
     protected $service_code = "cloudphoto";
 
-    protected $credential = "AccessKeyCredential";
+    protected $credential = "RpcCredential";
 
     protected $endpoints = [
         "regions"  => [

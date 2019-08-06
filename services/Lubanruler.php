@@ -19,7 +19,7 @@ class Lubanruler extends ProductAbstract
 
     protected $service_code = "lubanruler";
 
-    protected $credential = "AccessKeyCredential";
+    protected $credential = "RpcCredential";
 
     protected $endpoints = [
         "regions"  => [

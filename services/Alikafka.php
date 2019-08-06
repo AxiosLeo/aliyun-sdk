@@ -19,7 +19,7 @@ class Alikafka extends ProductAbstract
 
     protected $service_code = "alikafka";
 
-    protected $credential = "AccessKeyCredential";
+    protected $credential = "RpcCredential";
 
     protected $endpoints = [
         "regions"  => [
@@ -47,14 +47,14 @@ class Alikafka extends ProductAbstract
         "public"   => [
             "ap-northeast-1" => "alikafka.aliyuncs.com",
             "ap-south-1"     => "alikafka.aliyuncs.com",
-            "ap-southeast-1" => "alikafka.ap-southeast-1.aliyuncs.com",
+            "ap-southeast-1" => "alikafka.aliyuncs.com",
             "ap-southeast-2" => "alikafka.aliyuncs.com",
             "ap-southeast-3" => "alikafka.aliyuncs.com",
             "ap-southeast-5" => "alikafka.aliyuncs.com",
             "cn-beijing"     => "alikafka.cn-beijing.aliyuncs.com",
             "cn-chengdu"     => "alikafka.aliyuncs.com",
             "cn-hangzhou"    => "alikafka.cn-hangzhou.aliyuncs.com",
-            "cn-hongkong"    => "alikafka.cn-hongkong.aliyuncs.com",
+            "cn-hongkong"    => "alikafka.aliyuncs.com",
             "cn-huhehaote"   => "alikafka.cn-huhehaote.aliyuncs.com",
             "cn-qingdao"     => "alikafka.cn-qingdao.aliyuncs.com",
             "cn-shanghai"    => "alikafka.cn-shanghai.aliyuncs.com",

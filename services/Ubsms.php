@@ -19,7 +19,7 @@ class Ubsms extends ProductAbstract
 
     protected $service_code = "ubsms";
 
-    protected $credential = "AccessKeyCredential";
+    protected $credential = "RpcCredential";
 
     protected $endpoints = [
         "regions"  => [
@@ -47,7 +47,7 @@ class Ubsms extends ProductAbstract
         "public"   => [
             "ap-northeast-1" => "ubsms.aliyuncs.com",
             "ap-south-1"     => "ubsms.aliyuncs.com",
-            "ap-southeast-1" => "ubsms-center.ap-southeast-1.aliyuncs.com",
+            "ap-southeast-1" => "ubsms.aliyuncs.com",
             "ap-southeast-2" => "ubsms.aliyuncs.com",
             "ap-southeast-3" => "ubsms.aliyuncs.com",
             "ap-southeast-5" => "ubsms.aliyuncs.com",

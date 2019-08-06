@@ -30,7 +30,7 @@ class Cms extends ProductAbstract
 
     protected $service_code = "cms";
 
-    protected $credential = "AccessKeyCredential";
+    protected $credential = "RpcCredential";
 
     protected $endpoints = [
         "regions"  => [
@@ -61,7 +61,7 @@ class Cms extends ProductAbstract
             "ap-southeast-1" => "metrics.ap-southeast-1.aliyuncs.com",
             "ap-southeast-2" => "metrics.ap-southeast-2.aliyuncs.com",
             "ap-southeast-3" => "metrics.ap-southeast-3.aliyuncs.com",
-            "ap-southeast-5" => "metrics.ap-southeast-5.aliyuncs.com",
+            "ap-southeast-5" => "metrics.aliyuncs.com",
             "cn-beijing"     => "metrics.cn-beijing.aliyuncs.com",
             "cn-chengdu"     => "metrics.cn-chengdu.aliyuncs.com",
             "cn-hangzhou"    => "metrics.cn-hangzhou.aliyuncs.com",

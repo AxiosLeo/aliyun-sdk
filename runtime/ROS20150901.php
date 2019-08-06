@@ -13,14 +13,11 @@ use aliyun\sdk\core\lib\Request;
  * @method CreateStacks CreateStacks()
  * @method SetStackPolicy SetStackPolicy()
  * @method GetStackPolicy GetStackPolicy()
- * @method ExecuteChangeSet ExecuteChangeSet()
  * @method AbandonStack AbandonStack()
- * @method DescribeChangeSetDetail DescribeChangeSetDetail()
  * @method DescribeTemplate DescribeTemplate()
  * @method ValidateTemplate ValidateTemplate()
  * @method DescribeResourceTypes DescribeResourceTypes()
  * @method WaitConditions WaitConditions()
- * @method DeleteChangeSet DeleteChangeSet()
  * @method DescribeRegions DescribeRegions()
  * @method DeleteStack DeleteStack()
  * @method InquiryStack InquiryStack()
@@ -29,12 +26,10 @@ use aliyun\sdk\core\lib\Request;
  * @method DescribeEvents DescribeEvents()
  * @method DescribeResourceTypeDetail DescribeResourceTypeDetail()
  * @method DoActions DoActions()
- * @method DescribeChangeSets DescribeChangeSets()
  * @method DescribeResources DescribeResources()
  * @method UpdateStack UpdateStack()
  * @method DescribeStacks DescribeStacks()
  * @method DescribeResourceDetail DescribeResourceDetail()
- * @method CreateChangeSet CreateChangeSet()
  * @method ContinueCreateStack ContinueCreateStack()
  */
 class V20150901
@@ -83,30 +78,8 @@ class GetStackPolicy extends Request
  * @method string getStackName()
  * @method $this setStackId($stackId)
  * @method string getStackId()
- * @method $this setChangeSetName($changeSetName)
- * @method string getChangeSetName()
- */
-class ExecuteChangeSet extends Request
-{
-
-}/**
- * @method $this setStackName($stackName)
- * @method string getStackName()
- * @method $this setStackId($stackId)
- * @method string getStackId()
  */
 class AbandonStack extends Request
-{
-
-}/**
- * @method $this setStackName($stackName)
- * @method string getStackName()
- * @method $this setStackId($stackId)
- * @method string getStackId()
- * @method $this setChangeSetName($changeSetName)
- * @method string getChangeSetName()
- */
-class DescribeChangeSetDetail extends Request
 {
 
 }/**
@@ -143,17 +116,6 @@ class DescribeResourceTypes extends Request
  * @method string getsignature()
  */
 class WaitConditions extends Request
-{
-
-}/**
- * @method $this setStackName($stackName)
- * @method string getStackName()
- * @method $this setStackId($stackId)
- * @method string getStackId()
- * @method $this setChangeSetName($changeSetName)
- * @method string getChangeSetName()
- */
-class DeleteChangeSet extends Request
 {
 
 }/**
@@ -234,15 +196,6 @@ class DoActions extends Request
  * @method $this setStackId($stackId)
  * @method string getStackId()
  */
-class DescribeChangeSets extends Request
-{
-
-}/**
- * @method $this setStackName($stackName)
- * @method string getStackName()
- * @method $this setStackId($stackId)
- * @method string getStackId()
- */
 class DescribeResources extends Request
 {
 
@@ -279,11 +232,6 @@ class DescribeStacks extends Request
  * @method string getResourceName()
  */
 class DescribeResourceDetail extends Request
-{
-
-}/**
- */
-class CreateChangeSet extends Request
 {
 
 }/**

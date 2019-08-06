@@ -4590,12 +4590,6 @@ class InitCustomerWithSystemTemplateAndGroup extends Request
  * @method int getResourceRealOwnerId()
  * @method $this setVideoId($videoId)
  * @method string getVideoId()
- * @method $this setStorageLocation($storageLocation)
- * @method string getStorageLocation()
- * @method $this setFileName($fileName)
- * @method string getFileName()
- * @method $this setTemplateGroupId($templateGroupId)
- * @method string getTemplateGroupId()
  */
 class RefreshUploadVideo extends Request
 {

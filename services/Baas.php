@@ -20,7 +20,7 @@ class Baas extends ProductAbstract
 
     protected $service_code = "";
 
-    protected $credential = "AccessKeyCredential";
+    protected $credential = "RpcCredential";
 
     protected $endpoints = [
         "regions"  => [
@@ -48,7 +48,7 @@ class Baas extends ProductAbstract
         "public"   => [
             "ap-northeast-1" => "baas.ap-northeast-1.aliyuncs.com",
             "ap-south-1"     => "baas.aliyuncs.com",
-            "ap-southeast-1" => "baas.ap-southeast-1.aliyuncs.com",
+            "ap-southeast-1" => "baas.aliyuncs.com",
             "ap-southeast-2" => "baas.aliyuncs.com",
             "ap-southeast-3" => "baas.aliyuncs.com",
             "ap-southeast-5" => "baas.aliyuncs.com",

@@ -24,10 +24,8 @@ use aliyun\sdk\core\lib\Request;
  * @method RollbackSuspEventQuaraFile RollbackSuspEventQuaraFile()
  * @method DescribeVulLevelStatistics DescribeVulLevelStatistics()
  * @method QueryLoginEvent QueryLoginEvent()
- * @method DescribeBizStatSimpleQueryResult DescribeBizStatSimpleQueryResult()
  * @method DescribeSecurityStatInfo DescribeSecurityStatInfo()
  * @method CreatScreenSetting CreatScreenSetting()
- * @method DescribeScreenOssUploadInfo DescribeScreenOssUploadInfo()
  * @method CreateLogQuery CreateLogQuery()
  * @method DeleteDingTalk DeleteDingTalk()
  * @method DescribeGroupedVul DescribeGroupedVul()
@@ -51,7 +49,6 @@ use aliyun\sdk\core\lib\Request;
  * @method OperateAgentClientInstall OperateAgentClientInstall()
  * @method DescribeTargetConfig DescribeTargetConfig()
  * @method DescribeResultList DescribeResultList()
- * @method DescribeScreenBizStatSimpleQueryResult DescribeScreenBizStatSimpleQueryResult()
  * @method DescribeScreenHostStatistics DescribeScreenHostStatistics()
  * @method DescribeScreenSummaryInfo DescribeScreenSummaryInfo()
  * @method OperateSuspiciousTargetConfig OperateSuspiciousTargetConfig()
@@ -72,11 +69,9 @@ use aliyun\sdk\core\lib\Request;
  * @method DescribeExportInfo DescribeExportInfo()
  * @method DescribeConcernNecessity DescribeConcernNecessity()
  * @method DeleteRule DeleteRule()
- * @method DescribeScreenTopRequestAndFlow DescribeScreenTopRequestAndFlow()
  * @method DescribeTopicList DescribeTopicList()
  * @method DescribeLogShipperStatus DescribeLogShipperStatus()
  * @method DescribeSuspiciousUUIDConfig DescribeSuspiciousUUIDConfig()
- * @method DescribeScreenEmerRisk DescribeScreenEmerRisk()
  * @method DescribeEcsStsStatus DescribeEcsStsStatus()
  * @method DescribeSlsProject DescribeSlsProject()
  * @method DescribeSuspiciousExportInfo DescribeSuspiciousExportInfo()
@@ -85,7 +80,6 @@ use aliyun\sdk\core\lib\Request;
  * @method ValidateHcWarnings ValidateHcWarnings()
  * @method ModifyAssetGroup ModifyAssetGroup()
  * @method ModifyWebLockMachineList ModifyWebLockMachineList()
- * @method DescribeScreenRequestTopType DescribeScreenRequestTopType()
  * @method ModifyAutoDelConfig ModifyAutoDelConfig()
  * @method DescribeVulNumStatistics DescribeVulNumStatistics()
  * @method DescribeTotalStatistics DescribeTotalStatistics()
@@ -117,18 +111,13 @@ use aliyun\sdk\core\lib\Request;
  * @method CreateSuspiciousExport CreateSuspiciousExport()
  * @method DescribeVulExportInfo DescribeVulExportInfo()
  * @method ExportVul ExportVul()
- * @method DescribeScreenTitles DescribeScreenTitles()
  * @method DescribeMacConfig DescribeMacConfig()
  * @method SaveSuspEventUserSetting SaveSuspEventUserSetting()
- * @method DescribeVulRelatedProcess DescribeVulRelatedProcess()
- * @method DescribeScreenFlowRequestCount DescribeScreenFlowRequestCount()
  * @method DescribeBuySummary DescribeBuySummary()
- * @method DescribeGrayFunc DescribeGrayFunc()
  * @method DescribeDataSource DescribeDataSource()
  * @method OperateResult OperateResult()
  * @method CreateOrUpdateGroup CreateOrUpdateGroup()
  * @method DescribeSuspEventDetail DescribeSuspEventDetail()
- * @method CreateScreenSetting CreateScreenSetting()
  * @method OperateSuspiciousEvent OperateSuspiciousEvent()
  * @method DescribeStratety DescribeStratety()
  * @method DescribeEventCountCurve DescribeEventCountCurve()
@@ -166,7 +155,6 @@ use aliyun\sdk\core\lib\Request;
  * @method DescribeScreenSetting DescribeScreenSetting()
  * @method OperateVul OperateVul()
  * @method DeleteVulWhitelist DeleteVulWhitelist()
- * @method DescribeScreenCityMonitorData DescribeScreenCityMonitorData()
  * @method DescribeVulLevel DescribeVulLevel()
  * @method DescribeAnalysisShipperStatus DescribeAnalysisShipperStatus()
  * @method DescribeAttackAnalysisData DescribeAttackAnalysisData()
@@ -174,9 +162,7 @@ use aliyun\sdk\core\lib\Request;
  * @method DescribeSuspiciousEvents DescribeSuspiciousEvents()
  * @method DescribeAssetList DescribeAssetList()
  * @method DescribeRiskWhiteList DescribeRiskWhiteList()
- * @method DescribeScreenDataMap DescribeScreenDataMap()
  * @method DescribeRiskType DescribeRiskType()
- * @method DescribeScreenCloudHcRisk DescribeScreenCloudHcRisk()
  * @method DescribeSuspEventUserSetting DescribeSuspEventUserSetting()
  * @method DescribeSuspTrendStatistics DescribeSuspTrendStatistics()
  * @method ModifyWebLockCreateConfig ModifyWebLockCreateConfig()
@@ -242,7 +228,6 @@ use aliyun\sdk\core\lib\Request;
  * @method DescribeApiBuySummary DescribeApiBuySummary()
  * @method BatchDeleteWhiteList BatchDeleteWhiteList()
  * @method DescribeLogQuery DescribeLogQuery()
- * @method ModifyRefreshProcessInfo ModifyRefreshProcessInfo()
  * @method DescribeTraceInfoNodeList DescribeTraceInfoNodeList()
  * @method IgnoreHcCheckWarnings IgnoreHcCheckWarnings()
  * @method DescribeScreenOperateInfo DescribeScreenOperateInfo()
@@ -439,21 +424,6 @@ class QueryLoginEvent extends Request
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
- * @method $this setStartTime($startTime)
- * @method string getStartTime()
- * @method $this setEndTime($endTime)
- * @method string getEndTime()
- * @method $this setCustomTimeRange($customTimeRange)
- * @method int getCustomTimeRange()
- * @method $this setCustomQuery($customQuery)
- * @method string getCustomQuery()
- */
-class DescribeBizStatSimpleQueryResult extends Request
-{
-
-}/**
- * @method $this setSourceIp($sourceIp)
- * @method string getSourceIp()
  * @method $this setLang($lang)
  * @method string getLang()
  */
@@ -469,13 +439,6 @@ class DescribeSecurityStatInfo extends Request
  * @method string getScreenIdSetting()
  */
 class CreatScreenSetting extends Request
-{
-
-}/**
- * @method $this setSourceIp($sourceIp)
- * @method string getSourceIp()
- */
-class DescribeScreenOssUploadInfo extends Request
 {
 
 }/**
@@ -820,23 +783,6 @@ class DescribeResultList extends Request
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
- * @method $this setStartTime($startTime)
- * @method int getStartTime()
- * @method $this setEndTime($endTime)
- * @method int getEndTime()
- * @method $this setRangeValue($rangeValue)
- * @method int getRangeValue()
- * @method $this setRangeUnit($rangeUnit)
- * @method string getRangeUnit()
- * @method $this setCustomQuery($customQuery)
- * @method string getCustomQuery()
- */
-class DescribeScreenBizStatSimpleQueryResult extends Request
-{
-
-}/**
- * @method $this setSourceIp($sourceIp)
- * @method string getSourceIp()
  */
 class DescribeScreenHostStatistics extends Request
 {
@@ -961,8 +907,8 @@ class ModifyWebLockRefresh extends Request
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
- * @method $this setId($id)
- * @method string getId()
+ * @method $this setScreenTitle($screenTitle)
+ * @method string getScreenTitle()
  */
 class DeleteScreenSetting extends Request
 {
@@ -1090,13 +1036,6 @@ class DeleteRule extends Request
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
  */
-class DescribeScreenTopRequestAndFlow extends Request
-{
-
-}/**
- * @method $this setSourceIp($sourceIp)
- * @method string getSourceIp()
- */
 class DescribeTopicList extends Request
 {
 
@@ -1120,13 +1059,6 @@ class DescribeLogShipperStatus extends Request
  * @method string getType()
  */
 class DescribeSuspiciousUUIDConfig extends Request
-{
-
-}/**
- * @method $this setSourceIp($sourceIp)
- * @method string getSourceIp()
- */
-class DescribeScreenEmerRisk extends Request
 {
 
 }/**
@@ -1243,15 +1175,6 @@ class ModifyAssetGroup extends Request
  * @method string getUuids()
  */
 class ModifyWebLockMachineList extends Request
-{
-
-}/**
- * @method $this setSourceIp($sourceIp)
- * @method string getSourceIp()
- * @method $this setType($type)
- * @method string getType()
- */
-class DescribeScreenRequestTopType extends Request
 {
 
 }/**
@@ -1663,8 +1586,6 @@ class DescribeVulExportInfo extends Request
  * @method string getUuids()
  * @method $this setName($name)
  * @method string getName()
- * @method $this setRemark($remark)
- * @method string getRemark()
  * @method $this setLevel($level)
  * @method string getLevel()
  * @method $this setStatusList($statusList)
@@ -1681,13 +1602,6 @@ class DescribeVulExportInfo extends Request
  * @method string getDealed()
  */
 class ExportVul extends Request
-{
-
-}/**
- * @method $this setSourceIp($sourceIp)
- * @method string getSourceIp()
- */
-class DescribeScreenTitles extends Request
 {
 
 }/**
@@ -1723,35 +1637,8 @@ class SaveSuspEventUserSetting extends Request
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
- * @method $this setId($id)
- * @method int getId()
- * @method $this setPpid($ppid)
- * @method string getPpid()
- */
-class DescribeVulRelatedProcess extends Request
-{
-
-}/**
- * @method $this setSourceIp($sourceIp)
- * @method string getSourceIp()
- */
-class DescribeScreenFlowRequestCount extends Request
-{
-
-}/**
- * @method $this setSourceIp($sourceIp)
- * @method string getSourceIp()
  */
 class DescribeBuySummary extends Request
-{
-
-}/**
- * @method $this setSourceIp($sourceIp)
- * @method string getSourceIp()
- * @method $this setCondition($condition)
- * @method string getCondition()
- */
-class DescribeGrayFunc extends Request
 {
 
 }/**
@@ -1810,27 +1697,6 @@ class CreateOrUpdateGroup extends Request
  * @method string getFrom()
  */
 class DescribeSuspEventDetail extends Request
-{
-
-}/**
- * @method $this setSourceIp($sourceIp)
- * @method string getSourceIp()
- * @method $this setTitle($title)
- * @method string getTitle()
- * @method $this setScreenDataMap($screenDataMap)
- * @method string getScreenDataMap()
- * @method $this setLogoUrl($logoUrl)
- * @method string getLogoUrl()
- * @method $this setLogoPower($logoPower)
- * @method bool getLogoPower()
- * @method $this setMonitorUrl($monitorUrl)
- * @method string getMonitorUrl()
- * @method $this setScreenDefault($screenDefault)
- * @method int getScreenDefault()
- * @method $this setId($id)
- * @method int getId()
- */
-class CreateScreenSetting extends Request
 {
 
 }/**
@@ -2312,8 +2178,8 @@ class DescribeSummaryInfo extends Request
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
- * @method $this setId($id)
- * @method string getId()
+ * @method $this setScreenTitle($screenTitle)
+ * @method string getScreenTitle()
  */
 class DescribeScreenSetting extends Request
 {
@@ -2340,17 +2206,6 @@ class OperateVul extends Request
  * @method string getWhitelist()
  */
 class DeleteVulWhitelist extends Request
-{
-
-}/**
- * @method $this setSourceIp($sourceIp)
- * @method string getSourceIp()
- * @method $this setScreenId($screenId)
- * @method int getScreenId()
- * @method $this setDateType($dateType)
- * @method string getDateType()
- */
-class DescribeScreenCityMonitorData extends Request
 {
 
 }/**
@@ -2461,13 +2316,6 @@ class DescribeRiskWhiteList extends Request
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
- */
-class DescribeScreenDataMap extends Request
-{
-
-}/**
- * @method $this setSourceIp($sourceIp)
- * @method string getSourceIp()
  * @method $this setLang($lang)
  * @method string getLang()
  * @method $this setUuids($uuids)
@@ -2476,13 +2324,6 @@ class DescribeScreenDataMap extends Request
  * @method int getStrategyId()
  */
 class DescribeRiskType extends Request
-{
-
-}/**
- * @method $this setSourceIp($sourceIp)
- * @method string getSourceIp()
- */
-class DescribeScreenCloudHcRisk extends Request
 {
 
 }/**
@@ -3373,15 +3214,6 @@ class DescribeLogQuery extends Request
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
- * @method $this setUuid($uuid)
- * @method string getUuid()
- */
-class ModifyRefreshProcessInfo extends Request
-{
-
-}/**
- * @method $this setSourceIp($sourceIp)
- * @method string getSourceIp()
  * @method $this setLang($lang)
  * @method string getLang()
  * @method $this setVertexId($vertexId)
@@ -3422,8 +3254,6 @@ class IgnoreHcCheckWarnings extends Request
  * @method string getSourceIp()
  * @method $this setLang($lang)
  * @method string getLang()
- * @method $this setStartTime($startTime)
- * @method int getStartTime()
  */
 class DescribeScreenOperateInfo extends Request
 {

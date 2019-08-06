@@ -24,7 +24,7 @@ class Vod extends ProductAbstract
 
     protected $service_code = "vod";
 
-    protected $credential = "AccessKeyCredential";
+    protected $credential = "RpcCredential";
 
     protected $endpoints = [
         "regions"  => [
@@ -50,12 +50,12 @@ class Vod extends ProductAbstract
             "us-west-1",
         ],
         "public"   => [
-            "ap-northeast-1" => "vod.ap-northeast-1.aliyuncs.com",
+            "ap-northeast-1" => "vod.aliyuncs.com",
             "ap-south-1"     => "vod.ap-south-1.aliyuncs.com",
-            "ap-southeast-1" => "vod.ap-southeast-1.aliyuncs.com",
+            "ap-southeast-1" => "vod.aliyuncs.com",
             "ap-southeast-2" => "vod.aliyuncs.com",
             "ap-southeast-3" => "vod.aliyuncs.com",
-            "ap-southeast-5" => "vod.ap-southeast-5.aliyuncs.com",
+            "ap-southeast-5" => "vod.aliyuncs.com",
             "cn-beijing"     => "vod.cn-beijing.aliyuncs.com",
             "cn-chengdu"     => "vod.aliyuncs.com",
             "cn-hangzhou"    => "vod.cn-shanghai.aliyuncs.com",
@@ -65,7 +65,7 @@ class Vod extends ProductAbstract
             "cn-shanghai"    => "vod.cn-shanghai.aliyuncs.com",
             "cn-shenzhen"    => "vod.cn-shanghai.aliyuncs.com",
             "cn-zhangjiakou" => "vod.aliyuncs.com",
-            "eu-central-1"   => "vod.eu-central-1.aliyuncs.com",
+            "eu-central-1"   => "vod.aliyuncs.com",
             "eu-west-1"      => "vod.aliyuncs.com",
             "me-east-1"      => "vod.aliyuncs.com",
             "us-east-1"      => "vod.aliyuncs.com",

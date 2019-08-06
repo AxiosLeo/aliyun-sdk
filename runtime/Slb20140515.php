@@ -1018,8 +1018,6 @@ class DescribeCACertificates extends Request
  * @method string getAclName()
  * @method $this setAddressIPVersion($addressIPVersion)
  * @method string getAddressIPVersion()
- * @method $this setResourceGroupId($resourceGroupId)
- * @method string getResourceGroupId()
  */
 class CreateAccessControlList extends Request
 {
@@ -1283,8 +1281,6 @@ class AddListenerWhiteListItem extends Request
  * @method int getPageSize()
  * @method $this setPageNumber($pageNumber)
  * @method int getPageNumber()
- * @method $this setResourceGroupId($resourceGroupId)
- * @method string getResourceGroupId()
  * @method $this setTag($tag)
  * @method array getTag()
  */

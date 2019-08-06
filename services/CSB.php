@@ -19,7 +19,7 @@ class CSB extends ProductAbstract
 
     protected $service_code = "csb";
 
-    protected $credential = "AccessKeyCredential";
+    protected $credential = "RpcCredential";
 
     protected $endpoints = [
         "regions"  => [

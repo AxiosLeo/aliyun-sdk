@@ -19,13 +19,11 @@ class Foas extends ProductAbstract
 
     protected $service_code = "foas";
 
-    protected $credential = "AccessKeyCredential";
+    protected $credential = "RpcCredential";
 
     protected $endpoints = [
         "regions"  => [
-            "ap-northeast-1",
             "ap-southeast-1",
-            "ap-southeast-3",
             "cn-beijing",
             "cn-hangzhou",
             "cn-qingdao",
@@ -34,9 +32,7 @@ class Foas extends ProductAbstract
             "cn-zhangjiakou",
         ],
         "public"   => [
-            "ap-northeast-1" => "foas.ap-northeast-1.aliyuncs.com",
             "ap-southeast-1" => "foas.ap-southeast-1.aliyuncs.com",
-            "ap-southeast-3" => "foas.ap-southeast-3.aliyuncs.com",
             "cn-beijing"     => "foas.cn-beijing.aliyuncs.com",
             "cn-hangzhou"    => "foas.cn-hangzhou.aliyuncs.com",
             "cn-qingdao"     => "foas.cn-qingdao.aliyuncs.com",

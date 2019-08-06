@@ -64,7 +64,6 @@ use aliyun\sdk\core\lib\Request;
  * @method DetectImageFaces DetectImageFaces()
  * @method GetFaceSearchImage GetFaceSearchImage()
  * @method UpdateDocIndexMeta UpdateDocIndexMeta()
- * @method UpdateFaceGroup UpdateFaceGroup()
  * @method DetectImageCelebrity DetectImageCelebrity()
  * @method DetectTag DetectTag()
  * @method UpdateProject UpdateProject()
@@ -91,7 +90,6 @@ use aliyun\sdk\core\lib\Request;
  * @method ListVideos ListVideos()
  * @method PutProject PutProject()
  * @method DeleteFaceJob DeleteFaceJob()
- * @method ListFaceGroups ListFaceGroups()
  * @method DeletePornBatchDetectJob DeletePornBatchDetectJob()
  * @method GetDocIndexTask GetDocIndexTask()
  * @method CompareImageFaces CompareImageFaces()
@@ -638,8 +636,6 @@ class ListPornBatchDetectJobs extends Request
  * @method string getRemarksD()
  * @method $this setExternalId($externalId)
  * @method string getExternalId()
- * @method $this setRealUid($realUid)
- * @method string getRealUid()
  */
 class IndexImage extends Request
 {
@@ -1026,8 +1022,6 @@ class DeleteVideo extends Request
  * @method string getProject()
  * @method $this setImageUri($imageUri)
  * @method string getImageUri()
- * @method $this setRealUid($realUid)
- * @method string getRealUid()
  */
 class DetectImageFaces extends Request
 {
@@ -1081,29 +1075,10 @@ class UpdateDocIndexMeta extends Request
  * @method string getRegionId()
  * @method $this setProject($project)
  * @method string getProject()
- * @method $this setSetId($setId)
- * @method string getSetId()
- * @method $this setGroupId($groupId)
- * @method string getGroupId()
- * @method $this setGroupName($groupName)
- * @method string getGroupName()
- * @method $this setGroupCoverFaceId($groupCoverFaceId)
- * @method string getGroupCoverFaceId()
- */
-class UpdateFaceGroup extends Request
-{
-
-}/**
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setProject($project)
- * @method string getProject()
  * @method $this setImageUri($imageUri)
  * @method string getImageUri()
  * @method $this setLibrary($library)
  * @method string getLibrary()
- * @method $this setRealUid($realUid)
- * @method string getRealUid()
  */
 class DetectImageCelebrity extends Request
 {
@@ -1368,8 +1343,6 @@ class CompareFace extends Request
  * @method string getProject()
  * @method $this setImageUri($imageUri)
  * @method string getImageUri()
- * @method $this setRealUid($realUid)
- * @method string getRealUid()
  */
 class DetectImageTags extends Request
 {
@@ -1505,25 +1478,6 @@ class PutProject extends Request
  * @method string getClearIndexData()
  */
 class DeleteFaceJob extends Request
-{
-
-}/**
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setProject($project)
- * @method string getProject()
- * @method $this setSetId($setId)
- * @method string getSetId()
- * @method $this setMarker($marker)
- * @method string getMarker()
- * @method $this setLimit($limit)
- * @method int getLimit()
- * @method $this setOrder($order)
- * @method string getOrder()
- * @method $this setOrderBy($orderBy)
- * @method string getOrderBy()
- */
-class ListFaceGroups extends Request
 {
 
 }/**

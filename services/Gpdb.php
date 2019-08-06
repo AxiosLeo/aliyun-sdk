@@ -19,7 +19,7 @@ class Gpdb extends ProductAbstract
 
     protected $service_code = "gpdb";
 
-    protected $credential = "AccessKeyCredential";
+    protected $credential = "RpcCredential";
 
     protected $endpoints = [
         "regions"  => [
@@ -45,11 +45,11 @@ class Gpdb extends ProductAbstract
             "us-west-1",
         ],
         "public"   => [
-            "ap-northeast-1" => "gpdb.ap-northeast-1.aliyuncs.com",
+            "ap-northeast-1" => "gpdb.aliyuncs.com",
             "ap-south-1"     => "gpdb.ap-south-1.aliyuncs.com",
             "ap-southeast-1" => "gpdb.aliyuncs.com",
             "ap-southeast-2" => "gpdb.ap-southeast-2.aliyuncs.com",
-            "ap-southeast-3" => "gpdb.ap-southeast-3.aliyuncs.com",
+            "ap-southeast-3" => "gpdb.aliyuncs.com",
             "ap-southeast-5" => "gpdb.ap-southeast-5.aliyuncs.com",
             "cn-beijing"     => "gpdb.aliyuncs.com",
             "cn-chengdu"     => "gpdb.cn-chengdu.aliyuncs.com",

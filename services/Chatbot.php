@@ -19,7 +19,7 @@ class Chatbot extends ProductAbstract
 
     protected $service_code = "beebot";
 
-    protected $credential = "AccessKeyCredential";
+    protected $credential = "RpcCredential";
 
     protected $endpoints = [
         "regions"  => [

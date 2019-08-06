@@ -19,7 +19,7 @@ class Airec extends ProductAbstract
 
     protected $service_code = "airec";
 
-    protected $credential = "AccessKeyCredential";
+    protected $credential = "RpcCredential";
 
     protected $endpoints = [
         "regions"  => [

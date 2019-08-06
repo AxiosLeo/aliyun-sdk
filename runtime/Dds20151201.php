@@ -75,7 +75,6 @@ use aliyun\sdk\core\lib\Request;
  * @method ModifyNodeSpec ModifyNodeSpec()
  * @method AllocatePublicNetworkAddress AllocatePublicNetworkAddress()
  * @method ModifyAuditPolicy ModifyAuditPolicy()
- * @method MigrateAvailableZone MigrateAvailableZone()
  * @method DescribeAuditFiles DescribeAuditFiles()
  * @method DescribeParameters DescribeParameters()
  * @method ModifyReplicaRelation ModifyReplicaRelation()
@@ -1581,27 +1580,6 @@ class AllocatePublicNetworkAddress extends Request
  * @method int getStoragePeriod()
  */
 class ModifyAuditPolicy extends Request
-{
-
-}/**
- * @method $this setOwnerId($ownerId)
- * @method int getOwnerId()
- * @method $this setResourceOwnerAccount($resourceOwnerAccount)
- * @method string getResourceOwnerAccount()
- * @method $this setResourceOwnerId($resourceOwnerId)
- * @method int getResourceOwnerId()
- * @method $this setOwnerAccount($ownerAccount)
- * @method string getOwnerAccount()
- * @method $this setDBInstanceId($dBInstanceId)
- * @method string getDBInstanceId()
- * @method $this setZoneId($zoneId)
- * @method string getZoneId()
- * @method $this setVswitch($vswitch)
- * @method string getVswitch()
- * @method $this setEffectiveTime($effectiveTime)
- * @method string getEffectiveTime()
- */
-class MigrateAvailableZone extends Request
 {
 
 }/**

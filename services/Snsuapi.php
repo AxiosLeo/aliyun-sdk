@@ -19,7 +19,7 @@ class Snsuapi extends ProductAbstract
 
     protected $service_code = "snsuapi";
 
-    protected $credential = "AccessKeyCredential";
+    protected $credential = "RpcCredential";
 
     protected $endpoints = [
         "regions"  => [

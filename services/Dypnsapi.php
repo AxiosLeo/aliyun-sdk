@@ -19,7 +19,7 @@ class Dypnsapi extends ProductAbstract
 
     protected $service_code = "dypnsapi";
 
-    protected $credential = "AccessKeyCredential";
+    protected $credential = "RpcCredential";
 
     protected $endpoints = [
         "regions"  => [

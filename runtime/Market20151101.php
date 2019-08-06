@@ -8,13 +8,11 @@ use aliyun\sdk\core\lib\Request;
  * Class V20151101
  *
  * @package aliyun\sdk\services\Market20151101
- * @method DescribeInstances DescribeInstances()
  * @method CreateOrder CreateOrder()
  * @method DescribeProducts DescribeProducts()
  * @method QueryMarketCategories QueryMarketCategories()
  * @method DescribePrice DescribePrice()
  * @method DescribeProduct DescribeProduct()
- * @method NotifyContractEvent NotifyContractEvent()
  * @method BindImagePackage BindImagePackage()
  * @method DescribeInstance DescribeInstance()
  * @method SubscribeImage SubscribeImage()
@@ -29,17 +27,6 @@ class V20151101
 }
 
 /**
- * @method $this setProductType($productType)
- * @method string getProductType()
- * @method $this setPageNumber($pageNumber)
- * @method int getPageNumber()
- * @method $this setPageSize($pageSize)
- * @method int getPageSize()
- */
-class DescribeInstances extends Request
-{
-
-}/**
  * @method $this setOwnerId($ownerId)
  * @method string getOwnerId()
  * @method $this setOrderType($orderType)
@@ -92,15 +79,6 @@ class DescribePrice extends Request
  * @method bool getQueryDraft()
  */
 class DescribeProduct extends Request
-{
-
-}/**
- * @method $this setEventType($eventType)
- * @method string getEventType()
- * @method $this setEventMessage($eventMessage)
- * @method string getEventMessage()
- */
-class NotifyContractEvent extends Request
 {
 
 }/**

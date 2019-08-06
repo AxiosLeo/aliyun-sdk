@@ -19,7 +19,7 @@ class CCC extends ProductAbstract
 
     protected $service_code = "ccc";
 
-    protected $credential = "AccessKeyCredential";
+    protected $credential = "RpcCredential";
 
     protected $endpoints = [
         "regions"  => [

@@ -20,7 +20,7 @@ class Push extends ProductAbstract
 
     protected $service_code = "push";
 
-    protected $credential = "AccessKeyCredential";
+    protected $credential = "RpcCredential";
 
     protected $endpoints = [
         "regions"  => [

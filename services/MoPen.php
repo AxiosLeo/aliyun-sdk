@@ -19,7 +19,7 @@ class MoPen extends ProductAbstract
 
     protected $service_code = "mopen";
 
-    protected $credential = "AccessKeyCredential";
+    protected $credential = "RpcCredential";
 
     protected $endpoints = [
         "regions"  => [

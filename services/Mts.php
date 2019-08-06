@@ -21,7 +21,7 @@ class Mts extends ProductAbstract
 
     protected $service_code = "mts";
 
-    protected $credential = "AccessKeyCredential";
+    protected $credential = "RpcCredential";
 
     protected $endpoints = [
         "regions"  => [
@@ -48,7 +48,7 @@ class Mts extends ProductAbstract
         ],
         "public"   => [
             "ap-northeast-1" => "mts.ap-northeast-1.aliyuncs.com",
-            "ap-south-1"     => "mts.ap-south-1.aliyuncs.com",
+            "ap-south-1"     => "mts.aliyuncs.com",
             "ap-southeast-1" => "mts.ap-southeast-1.aliyuncs.com",
             "ap-southeast-2" => "mts.aliyuncs.com",
             "ap-southeast-3" => "mts.aliyuncs.com",
@@ -56,17 +56,17 @@ class Mts extends ProductAbstract
             "cn-beijing"     => "mts.cn-beijing.aliyuncs.com",
             "cn-chengdu"     => "mts.aliyuncs.com",
             "cn-hangzhou"    => "mts.cn-hangzhou.aliyuncs.com",
-            "cn-hongkong"    => "mts.cn-hongkong.aliyuncs.com",
+            "cn-hongkong"    => "mts.aliyuncs.com",
             "cn-huhehaote"   => "mts.cn-huhehaote.aliyuncs.com",
             "cn-qingdao"     => "mts.aliyuncs.com",
             "cn-shanghai"    => "mts.cn-shanghai.aliyuncs.com",
             "cn-shenzhen"    => "mts.cn-shenzhen.aliyuncs.com",
             "cn-zhangjiakou" => "mts.cn-zhangjiakou.aliyuncs.com",
-            "eu-central-1"   => "mts.eu-central-1.aliyuncs.com",
+            "eu-central-1"   => "mts.aliyuncs.com",
             "eu-west-1"      => "mts.eu-west-1.aliyuncs.com",
             "me-east-1"      => "mts.aliyuncs.com",
             "us-east-1"      => "mts.aliyuncs.com",
-            "us-west-1"      => "mts.us-west-1.aliyuncs.com",
+            "us-west-1"      => "mts.aliyuncs.com",
         ],
         "internal" => [
             "ap-northeast-1" => "mts-vpc.ap-northeast-1.aliyuncs.com",

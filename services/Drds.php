@@ -22,7 +22,7 @@ class Drds extends ProductAbstract
 
     protected $service_code = "";
 
-    protected $credential = "AccessKeyCredential";
+    protected $credential = "RpcCredential";
 
     protected $endpoints = [
         "regions"  => [
@@ -57,7 +57,7 @@ class Drds extends ProductAbstract
             "cn-beijing"     => "drds.cn-beijing.aliyuncs.com",
             "cn-chengdu"     => "drds.aliyuncs.com",
             "cn-hangzhou"    => "drds.cn-hangzhou.aliyuncs.com",
-            "cn-hongkong"    => "drds.cn-hongkong.aliyuncs.com",
+            "cn-hongkong"    => "drds.aliyuncs.com",
             "cn-huhehaote"   => "drds.aliyuncs.com",
             "cn-qingdao"     => "drds.cn-qingdao.aliyuncs.com",
             "cn-shanghai"    => "drds.cn-shanghai.aliyuncs.com",

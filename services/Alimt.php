@@ -22,7 +22,7 @@ class Alimt extends ProductAbstract
 
     protected $service_code = "alimt";
 
-    protected $credential = "AccessKeyCredential";
+    protected $credential = "RpcCredential";
 
     protected $endpoints = [
         "regions"  => [
@@ -50,7 +50,7 @@ class Alimt extends ProductAbstract
         "public"   => [
             "ap-northeast-1" => "mt.aliyuncs.com",
             "ap-south-1"     => "mt.aliyuncs.com",
-            "ap-southeast-1" => "mt.ap-southeast-1.aliyuncs.com",
+            "ap-southeast-1" => "mt.aliyuncs.com",
             "ap-southeast-2" => "mt.aliyuncs.com",
             "ap-southeast-3" => "mt.aliyuncs.com",
             "ap-southeast-5" => "mt.aliyuncs.com",

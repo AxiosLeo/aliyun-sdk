@@ -19,7 +19,7 @@ class Aas extends ProductAbstract
 
     protected $service_code = "";
 
-    protected $credential = "AccessKeyCredential";
+    protected $credential = "RpcCredential";
 
     protected $endpoints = [
         "regions"  => [
@@ -45,16 +45,16 @@ class Aas extends ProductAbstract
             "us-west-1",
         ],
         "public"   => [
-            "ap-northeast-1" => "aas.ap-northeast-1.aliyuncs.com",
+            "ap-northeast-1" => "aas.aliyuncs.com",
             "ap-south-1"     => "aas.ap-south-1.aliyuncs.com",
-            "ap-southeast-1" => "aas.ap-southeast-1.aliyuncs.com",
+            "ap-southeast-1" => "aas.aliyuncs.com",
             "ap-southeast-2" => "aas.ap-southeast-2.aliyuncs.com",
-            "ap-southeast-3" => "aas.ap-southeast-3.aliyuncs.com",
+            "ap-southeast-3" => "aas.aliyuncs.com",
             "ap-southeast-5" => "aas.ap-southeast-5.aliyuncs.com",
             "cn-beijing"     => "aas.cn-beijing.aliyuncs.com",
             "cn-chengdu"     => "aas.aliyuncs.com",
             "cn-hangzhou"    => "aas.cn-hangzhou.aliyuncs.com",
-            "cn-hongkong"    => "aas.cn-hongkong.aliyuncs.com",
+            "cn-hongkong"    => "aas.aliyuncs.com",
             "cn-huhehaote"   => "aas.aliyuncs.com",
             "cn-qingdao"     => "aas.cn-qingdao.aliyuncs.com",
             "cn-shanghai"    => "aas.aliyuncs.com",

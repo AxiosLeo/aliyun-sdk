@@ -14,7 +14,6 @@ use aliyun\sdk\core\lib\Request;
  * @method ListRepository ListRepository()
  * @method GetNamespace GetNamespace()
  * @method ListRepoBuildRecordLog ListRepoBuildRecordLog()
- * @method GetResourceQuota GetResourceQuota()
  * @method UpdateInstanceEndpointAclStatus UpdateInstanceEndpointAclStatus()
  * @method ListRepoTag ListRepoTag()
  * @method CreateRepoSourceCodeRepo CreateRepoSourceCodeRepo()
@@ -155,17 +154,6 @@ class GetNamespace extends Request
  * @method int getOffset()
  */
 class ListRepoBuildRecordLog extends Request
-{
-
-}/**
- * @method $this setRegionId($regionId)
- * @method string getRegionId()
- * @method $this setResourceName($resourceName)
- * @method string getResourceName()
- * @method $this setScopeId($scopeId)
- * @method string getScopeId()
- */
-class GetResourceQuota extends Request
 {
 
 }/**

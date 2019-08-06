@@ -21,7 +21,7 @@ class Risk extends ProductAbstract
 
     protected $service_code = "";
 
-    protected $credential = "AccessKeyCredential";
+    protected $credential = "RpcCredential";
 
     protected $endpoints = [
         "regions"  => [
@@ -49,7 +49,7 @@ class Risk extends ProductAbstract
         "public"   => [
             "ap-northeast-1" => "risk-cn-hangzhou.aliyuncs.com",
             "ap-south-1"     => "risk-cn-hangzhou.aliyuncs.com",
-            "ap-southeast-1" => "riskcontrol.ap-southeast-1.aliyuncs.com",
+            "ap-southeast-1" => "risk-cn-hangzhou.aliyuncs.com",
             "ap-southeast-2" => "risk-cn-hangzhou.aliyuncs.com",
             "ap-southeast-3" => "risk-cn-hangzhou.aliyuncs.com",
             "ap-southeast-5" => "risk-cn-hangzhou.aliyuncs.com",

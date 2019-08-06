@@ -19,7 +19,7 @@ class Dcdn extends ProductAbstract
 
     protected $service_code = "dcdn";
 
-    protected $credential = "AccessKeyCredential";
+    protected $credential = "RpcCredential";
 
     protected $endpoints = [
         "regions"  => [

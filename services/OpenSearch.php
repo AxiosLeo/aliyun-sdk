@@ -19,28 +19,22 @@ class OpenSearch extends ProductAbstract
 
     protected $service_code = "opensearch";
 
-    protected $credential = "AccessKeyCredential";
+    protected $credential = "RpcCredential";
 
     protected $endpoints = [
         "regions"  => [
-            "ap-southeast-2",
             "cn-beijing",
-            "cn-chengdu",
             "cn-hangzhou",
             "cn-qingdao",
             "cn-shanghai",
             "cn-shenzhen",
-            "us-east-1",
         ],
         "public"   => [
-            "ap-southeast-2" => "opensearch.ap-southeast-2.aliyuncs.com",
             "cn-beijing"     => "opensearch.cn-beijing.aliyuncs.com",
-            "cn-chengdu"     => "opensearch.cn-chengdu.aliyuncs.com",
             "cn-hangzhou"    => "opensearch.cn-hangzhou.aliyuncs.com",
             "cn-qingdao"     => "opensearch.cn-qingdao.aliyuncs.com",
             "cn-shanghai"    => "opensearch.cn-shanghai.aliyuncs.com",
             "cn-shenzhen"    => "opensearch.cn-shenzhen.aliyuncs.com",
-            "us-east-1"      => "opensearch.us-east-1.aliyuncs.com",
         ],
         "internal" => [
         ]

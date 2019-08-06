@@ -19,7 +19,7 @@ class Rtc extends ProductAbstract
 
     protected $service_code = "rtc";
 
-    protected $credential = "AccessKeyCredential";
+    protected $credential = "RpcCredential";
 
     protected $endpoints = [
         "regions"  => [

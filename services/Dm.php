@@ -21,7 +21,7 @@ class Dm extends ProductAbstract
 
     protected $service_code = "dm";
 
-    protected $credential = "AccessKeyCredential";
+    protected $credential = "RpcCredential";
 
     protected $endpoints = [
         "regions"  => [
@@ -49,14 +49,14 @@ class Dm extends ProductAbstract
         "public"   => [
             "ap-northeast-1" => "dm.aliyuncs.com",
             "ap-south-1"     => "dm.aliyuncs.com",
-            "ap-southeast-1" => "dm.ap-southeast-1.aliyuncs.com",
+            "ap-southeast-1" => "dm.aliyuncs.com",
             "ap-southeast-2" => "dm.ap-southeast-2.aliyuncs.com",
             "ap-southeast-3" => "dm.aliyuncs.com",
             "ap-southeast-5" => "dm.aliyuncs.com",
             "cn-beijing"     => "dm.aliyuncs.com",
             "cn-chengdu"     => "dm.aliyuncs.com",
             "cn-hangzhou"    => "dm.aliyuncs.com",
-            "cn-hongkong"    => "dm.cn-hongkong.aliyuncs.com",
+            "cn-hongkong"    => "dm.aliyuncs.com",
             "cn-huhehaote"   => "dm.aliyuncs.com",
             "cn-qingdao"     => "dm.aliyuncs.com",
             "cn-shanghai"    => "dm.aliyuncs.com",

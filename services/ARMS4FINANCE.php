@@ -19,7 +19,7 @@ class ARMS4FINANCE extends ProductAbstract
 
     protected $service_code = "arms4finance";
 
-    protected $credential = "AccessKeyCredential";
+    protected $credential = "RpcCredential";
 
     protected $endpoints = [
         "regions"  => [

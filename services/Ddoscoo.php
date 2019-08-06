@@ -19,19 +19,13 @@ class Ddoscoo extends ProductAbstract
 
     protected $service_code = "ddoscoo";
 
-    protected $credential = "AccessKeyCredential";
+    protected $credential = "RpcCredential";
 
     protected $endpoints = [
         "regions"  => [
-            "ap-south-1",
-            "ap-southeast-1",
-            "ap-southeast-2",
             "cn-hangzhou",
         ],
         "public"   => [
-            "ap-south-1"     => "ddoscoo.ap-south-1.aliyuncs.com",
-            "ap-southeast-1" => "ddoscoo.ap-southeast-1.aliyuncs.com",
-            "ap-southeast-2" => "ddoscoo.ap-southeast-2.aliyuncs.com",
             "cn-hangzhou"    => "ddoscoo.cn-hangzhou.aliyuncs.com",
         ],
         "internal" => [

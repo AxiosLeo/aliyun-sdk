@@ -19,7 +19,7 @@ class Elasticsearch extends ProductAbstract
 
     protected $service_code = "elasticsearch";
 
-    protected $credential = "AccessKeyCredential";
+    protected $credential = "RpcCredential";
 
     protected $endpoints = [
         "regions"  => [
@@ -47,14 +47,14 @@ class Elasticsearch extends ProductAbstract
         "public"   => [
             "ap-northeast-1" => "elasticsearch.ap-northeast-1.aliyuncs.com",
             "ap-south-1"     => "elasticsearch.ap-south-1.aliyuncs.com",
-            "ap-southeast-1" => "elasticsearch.ap-southeast-1.aliyuncs.com",
+            "ap-southeast-1" => "elasticsearch.aliyuncs.com",
             "ap-southeast-2" => "elasticsearch.ap-southeast-2.aliyuncs.com",
             "ap-southeast-3" => "elasticsearch.ap-southeast-3.aliyuncs.com",
             "ap-southeast-5" => "elasticsearch.ap-southeast-5.aliyuncs.com",
             "cn-beijing"     => "elasticsearch.cn-beijing.aliyuncs.com",
             "cn-chengdu"     => "elasticsearch.aliyuncs.com",
             "cn-hangzhou"    => "elasticsearch.cn-hangzhou.aliyuncs.com",
-            "cn-hongkong"    => "elasticsearch.cn-hongkong.aliyuncs.com",
+            "cn-hongkong"    => "elasticsearch.aliyuncs.com",
             "cn-huhehaote"   => "elasticsearch.aliyuncs.com",
             "cn-qingdao"     => "elasticsearch.cn-qingdao.aliyuncs.com",
             "cn-shanghai"    => "elasticsearch.cn-shanghai.aliyuncs.com",
@@ -64,7 +64,7 @@ class Elasticsearch extends ProductAbstract
             "eu-west-1"      => "elasticsearch.aliyuncs.com",
             "me-east-1"      => "elasticsearch.aliyuncs.com",
             "us-east-1"      => "elasticsearch.aliyuncs.com",
-            "us-west-1"      => "elasticsearch.us-west-1.aliyuncs.com",
+            "us-west-1"      => "elasticsearch.aliyuncs.com",
         ],
         "internal" => [
         ]

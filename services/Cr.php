@@ -21,7 +21,7 @@ class Cr extends ProductAbstract
 
     protected $service_code = "cr";
 
-    protected $credential = "AccessKeyCredential";
+    protected $credential = "RpcCredential";
 
     protected $endpoints = [
         "regions"  => [

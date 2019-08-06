@@ -20,7 +20,7 @@ class Ecs extends ProductAbstract
 
     protected $service_code = "ecs";
 
-    protected $credential = "AccessKeyCredential";
+    protected $credential = "RpcCredential";
 
     protected $endpoints = [
         "regions"  => [
@@ -48,24 +48,24 @@ class Ecs extends ProductAbstract
         "public"   => [
             "ap-northeast-1" => "ecs.ap-northeast-1.aliyuncs.com",
             "ap-south-1"     => "ecs.ap-south-1.aliyuncs.com",
-            "ap-southeast-1" => "ecs.ap-southeast-1.aliyuncs.com",
-            "ap-southeast-2" => "ecs.ap-southeast-2.aliyuncs.com",
+            "ap-southeast-1" => "ecs.aliyuncs.com",
+            "ap-southeast-2" => "ecs.aliyuncs.com",
             "ap-southeast-3" => "ecs.ap-southeast-3.aliyuncs.com",
             "ap-southeast-5" => "ecs.ap-southeast-5.aliyuncs.com",
             "cn-beijing"     => "ecs.aliyuncs.com",
             "cn-chengdu"     => "ecs.cn-chengdu.aliyuncs.com",
             "cn-hangzhou"    => "ecs.aliyuncs.com",
-            "cn-hongkong"    => "ecs.cn-hongkong.aliyuncs.com",
+            "cn-hongkong"    => "ecs.aliyuncs.com",
             "cn-huhehaote"   => "ecs.cn-huhehaote.aliyuncs.com",
             "cn-qingdao"     => "ecs.aliyuncs.com",
             "cn-shanghai"    => "ecs.aliyuncs.com",
             "cn-shenzhen"    => "ecs.aliyuncs.com",
             "cn-zhangjiakou" => "ecs.cn-zhangjiakou.aliyuncs.com",
-            "eu-central-1"   => "ecs.eu-central-1.aliyuncs.com",
-            "eu-west-1"      => "ecs.eu-west-1.aliyuncs.com",
-            "me-east-1"      => "ecs.aliyuncs.com",
-            "us-east-1"      => "ecs.aliyuncs.com",
-            "us-west-1"      => "ecs.us-west-1.aliyuncs.com",
+            "eu-central-1"   => "ecs.aliyuncs.com",
+            "eu-west-1"      => "ecs.aliyuncs.com",
+            "me-east-1"      => "ecs.me-east-1.aliyuncs.com",
+            "us-east-1"      => "ecs.us-east-1.aliyuncs.com",
+            "us-west-1"      => "ecs.aliyuncs.com",
         ],
         "internal" => [
         ]

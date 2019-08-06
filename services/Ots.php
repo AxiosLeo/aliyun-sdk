@@ -25,47 +25,39 @@ class Ots extends ProductAbstract
 
     protected $service_code = "ots";
 
-    protected $credential = "AccessKeyCredential";
+    protected $credential = "RpcCredential";
 
     protected $endpoints = [
         "regions"  => [
-            "ap-northeast-1",
             "ap-south-1",
             "ap-southeast-1",
             "ap-southeast-2",
-            "ap-southeast-3",
-            "ap-southeast-5",
             "cn-beijing",
             "cn-chengdu",
             "cn-hangzhou",
-            "cn-hongkong",
             "cn-huhehaote",
             "cn-qingdao",
             "cn-shanghai",
             "cn-shenzhen",
             "cn-zhangjiakou",
-            "eu-west-1",
-            "us-east-1",
+            "eu-central-1",
+            "me-east-1",
             "us-west-1",
         ],
         "public"   => [
-            "ap-northeast-1" => "ots.ap-northeast-1.aliyuncs.com",
             "ap-south-1"     => "ots.ap-south-1.aliyuncs.com",
             "ap-southeast-1" => "ots.ap-southeast-1.aliyuncs.com",
             "ap-southeast-2" => "ots.ap-southeast-2.aliyuncs.com",
-            "ap-southeast-3" => "ots.ap-southeast-3.aliyuncs.com",
-            "ap-southeast-5" => "ots.ap-southeast-5.aliyuncs.com",
             "cn-beijing"     => "ots.cn-beijing.aliyuncs.com",
             "cn-chengdu"     => "ots.cn-chengdu.aliyuncs.com",
             "cn-hangzhou"    => "ots.cn-hangzhou.aliyuncs.com",
-            "cn-hongkong"    => "ots.cn-hongkong.aliyuncs.com",
             "cn-huhehaote"   => "ots.cn-huhehaote.aliyuncs.com",
             "cn-qingdao"     => "ots.cn-qingdao.aliyuncs.com",
             "cn-shanghai"    => "ots.cn-shanghai.aliyuncs.com",
             "cn-shenzhen"    => "ots.cn-shenzhen.aliyuncs.com",
             "cn-zhangjiakou" => "ots.cn-zhangjiakou.aliyuncs.com",
-            "eu-west-1"      => "ots.eu-west-1.aliyuncs.com",
-            "us-east-1"      => "ots.us-east-1.aliyuncs.com",
+            "eu-central-1"   => "ots.eu-central-1.aliyuncs.com",
+            "me-east-1"      => "ots.me-east-1.aliyuncs.com",
             "us-west-1"      => "ots.us-west-1.aliyuncs.com",
         ],
         "internal" => [

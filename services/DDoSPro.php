@@ -22,7 +22,7 @@ class DDoSPro extends ProductAbstract
 
     protected $service_code = "";
 
-    protected $credential = "AccessKeyCredential";
+    protected $credential = "RpcCredential";
 
     protected $endpoints = [
         "regions"  => [
@@ -58,7 +58,7 @@ class DDoSPro extends ProductAbstract
             "cn-chengdu"     => "ddospro.aliyuncs.com",
             "cn-hangzhou"    => "ddospro.cn-hangzhou.aliyuncs.com",
             "cn-hongkong"    => "ddospro.cn-hongkong.aliyuncs.com",
-            "cn-huhehaote"   => "ddospro.cn-huhehaote.aliyuncs.com",
+            "cn-huhehaote"   => "ddospro.aliyuncs.com",
             "cn-qingdao"     => "ddospro.aliyuncs.com",
             "cn-shanghai"    => "ddospro.aliyuncs.com",
             "cn-shenzhen"    => "ddospro.aliyuncs.com",

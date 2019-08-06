@@ -22,7 +22,7 @@ class Oms extends ProductAbstract
 
     protected $service_code = "oms";
 
-    protected $credential = "AccessKeyCredential";
+    protected $credential = "RpcCredential";
 
     protected $endpoints = [
         "regions"  => [
@@ -50,7 +50,7 @@ class Oms extends ProductAbstract
         "public"   => [
             "ap-northeast-1" => "oms.aliyuncs.com",
             "ap-south-1"     => "oms.aliyuncs.com",
-            "ap-southeast-1" => "oms.ap-southeast-1.aliyuncs.com",
+            "ap-southeast-1" => "oms.aliyuncs.com",
             "ap-southeast-2" => "oms.aliyuncs.com",
             "ap-southeast-3" => "oms.aliyuncs.com",
             "ap-southeast-5" => "oms.aliyuncs.com",

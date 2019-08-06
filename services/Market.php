@@ -17,9 +17,9 @@ class Market extends ProductAbstract
 
     protected $product = "Market";
 
-    protected $service_code = "market";
+    protected $service_code = "";
 
-    protected $credential = "AccessKeyCredential";
+    protected $credential = "RpcCredential";
 
     protected $endpoints = [
         "regions"  => [
@@ -47,7 +47,7 @@ class Market extends ProductAbstract
         "public"   => [
             "ap-northeast-1" => "market.aliyuncs.com",
             "ap-south-1"     => "market.aliyuncs.com",
-            "ap-southeast-1" => "market.ap-southeast-1.aliyuncs.com",
+            "ap-southeast-1" => "market.aliyuncs.com",
             "ap-southeast-2" => "market.aliyuncs.com",
             "ap-southeast-3" => "market.aliyuncs.com",
             "ap-southeast-5" => "market.aliyuncs.com",

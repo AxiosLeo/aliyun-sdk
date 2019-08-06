@@ -20,7 +20,7 @@ class Ivision extends ProductAbstract
 
     protected $service_code = "ivision";
 
-    protected $credential = "AccessKeyCredential";
+    protected $credential = "RpcCredential";
 
     protected $endpoints = [
         "regions"  => [

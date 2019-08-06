@@ -25,7 +25,6 @@ use aliyun\sdk\core\lib\Request;
  * @method DescribeMonitorGroupInstances DescribeMonitorGroupInstances()
  * @method DescribeActiveMetricRuleList DescribeActiveMetricRuleList()
  * @method PutMonitorGroupDynamicRule PutMonitorGroupDynamicRule()
- * @method DescribeAlertHistoryList DescribeAlertHistoryList()
  * @method DisableActiveMetricRule DisableActiveMetricRule()
  * @method DeleteSiteMonitors DeleteSiteMonitors()
  * @method DescribeSiteMonitorList DescribeSiteMonitorList()
@@ -43,7 +42,6 @@ use aliyun\sdk\core\lib\Request;
  * @method CreateMonitorGroupNotifyPolicy CreateMonitorGroupNotifyPolicy()
  * @method DescribeMetricRuleTemplateList DescribeMetricRuleTemplateList()
  * @method DescribeSystemEventMetaList DescribeSystemEventMetaList()
- * @method DescribeMonitoringAgentStatuses DescribeMonitoringAgentStatuses()
  * @method DescribeMetricData DescribeMetricData()
  * @method DescribeMetricTop DescribeMetricTop()
  * @method DescribeEventRuleTargetList DescribeEventRuleTargetList()
@@ -91,10 +89,8 @@ use aliyun\sdk\core\lib\Request;
  * @method ModifySiteMonitor ModifySiteMonitor()
  * @method DisableHostAvailability DisableHostAvailability()
  * @method DeleteMonitorGroupNotifyPolicy DeleteMonitorGroupNotifyPolicy()
- * @method ModifyMonitorGroupInstances ModifyMonitorGroupInstances()
  * @method DescribeContactListByContactGroup DescribeContactListByContactGroup()
  * @method DescribeProjectMeta DescribeProjectMeta()
- * @method CreateMonitorAgentProcess CreateMonitorAgentProcess()
  * @method DescribeSystemEventAttribute DescribeSystemEventAttribute()
  * @method DescribeMonitorGroups DescribeMonitorGroups()
  * @method DescribeSiteMonitorData DescribeSiteMonitorData()
@@ -307,35 +303,6 @@ class PutMonitorGroupDynamicRule extends Request
 {
 
 }/**
- * @method $this setRuleId($ruleId)
- * @method string getRuleId()
- * @method $this setRuleName($ruleName)
- * @method string getRuleName()
- * @method $this setNamespace($namespace)
- * @method string getNamespace()
- * @method $this setMetricName($metricName)
- * @method string getMetricName()
- * @method $this setGroupId($groupId)
- * @method string getGroupId()
- * @method $this setAlertStatus($alertStatus)
- * @method string getAlertStatus()
- * @method $this setState($state)
- * @method string getState()
- * @method $this setAscending($ascending)
- * @method bool getAscending()
- * @method $this setStartTime($startTime)
- * @method string getStartTime()
- * @method $this setEndTime($endTime)
- * @method string getEndTime()
- * @method $this setPageSize($pageSize)
- * @method int getPageSize()
- * @method $this setPage($page)
- * @method int getPage()
- */
-class DescribeAlertHistoryList extends Request
-{
-
-}/**
  * @method $this setProduct($product)
  * @method string getProduct()
  */
@@ -518,13 +485,6 @@ class DescribeMetricRuleTemplateList extends Request
 }/**
  */
 class DescribeSystemEventMetaList extends Request
-{
-
-}/**
- * @method $this setInstanceIds($instanceIds)
- * @method string getInstanceIds()
- */
-class DescribeMonitoringAgentStatuses extends Request
 {
 
 }/**
@@ -954,8 +914,8 @@ class DescribeHostAvailabilityList extends Request
  * @method int getAlertConfig_SilenceTime()
  * @method $this setAlertConfig_WebHook($alertConfig_WebHook)
  * @method string getAlertConfig_WebHook()
- * @method $this setAlertConfigEscalationList($alertConfigEscalationList)
- * @method array getAlertConfigEscalationList()
+ * @method $this setAlertConfig_EscalationList($alertConfig_EscalationList)
+ * @method array getAlertConfig_EscalationList()
  * @method $this setInstanceList($instanceList)
  * @method array getInstanceList()
  */
@@ -1172,8 +1132,8 @@ class DescribeSiteMonitorISPCityList extends Request
  * @method int getAlertConfig_SilenceTime()
  * @method $this setAlertConfig_WebHook($alertConfig_WebHook)
  * @method string getAlertConfig_WebHook()
- * @method $this setAlertConfigEscalationList($alertConfigEscalationList)
- * @method array getAlertConfigEscalationList()
+ * @method $this setAlertConfig_EscalationList($alertConfig_EscalationList)
+ * @method array getAlertConfig_EscalationList()
  * @method $this setInstanceList($instanceList)
  * @method array getInstanceList()
  */
@@ -1243,15 +1203,6 @@ class DeleteMonitorGroupNotifyPolicy extends Request
 {
 
 }/**
- * @method $this setGroupId($groupId)
- * @method int getGroupId()
- * @method $this setInstances($instances)
- * @method array getInstances()
- */
-class ModifyMonitorGroupInstances extends Request
-{
-
-}/**
  * @method $this setContactGroupName($contactGroupName)
  * @method string getContactGroupName()
  */
@@ -1267,17 +1218,6 @@ class DescribeContactListByContactGroup extends Request
  * @method int getPageSize()
  */
 class DescribeProjectMeta extends Request
-{
-
-}/**
- * @method $this setProcessName($processName)
- * @method string getProcessName()
- * @method $this setInstanceId($instanceId)
- * @method string getInstanceId()
- * @method $this setProcessUser($processUser)
- * @method string getProcessUser()
- */
-class CreateMonitorAgentProcess extends Request
 {
 
 }/**
@@ -1308,6 +1248,8 @@ class DescribeSystemEventAttribute extends Request
 {
 
 }/**
+ * @method $this setType($type)
+ * @method string getType()
  * @method $this setSelectContactGroups($selectContactGroups)
  * @method bool getSelectContactGroups()
  * @method $this setPageNumber($pageNumber)
@@ -1318,6 +1260,8 @@ class DescribeSystemEventAttribute extends Request
  * @method string getKeyword()
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
+ * @method $this setBindUrls($bindUrls)
+ * @method string getBindUrls()
  * @method $this setGroupName($groupName)
  * @method string getGroupName()
  */

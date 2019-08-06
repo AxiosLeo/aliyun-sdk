@@ -25,7 +25,7 @@ class OssAdmin extends ProductAbstract
 
     protected $service_code = "ossadmin";
 
-    protected $credential = "AccessKeyCredential";
+    protected $credential = "RpcCredential";
 
     protected $endpoints = [
         "regions"  => [

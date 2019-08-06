@@ -19,7 +19,7 @@ class Eci extends ProductAbstract
 
     protected $service_code = "eci";
 
-    protected $credential = "AccessKeyCredential";
+    protected $credential = "RpcCredential";
 
     protected $endpoints = [
         "regions"  => [

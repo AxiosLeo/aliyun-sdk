@@ -30,7 +30,6 @@ use aliyun\sdk\core\lib\Request;
  * @method QueryStaticsResponseTime QueryStaticsResponseTime()
  * @method ListAlarm ListAlarm()
  * @method DeleteEventRule DeleteEventRule()
- * @method DescribeAlertHistoryList DescribeAlertHistoryList()
  * @method PutMetricRuleTargets PutMetricRuleTargets()
  * @method NodeProcesses NodeProcesses()
  * @method DescribeContact DescribeContact()
@@ -451,37 +450,6 @@ class ListAlarm extends Request
  * @method array getRuleNames()
  */
 class DeleteEventRule extends Request
-{
-
-}/**
- * @method $this setAlertName($alertName)
- * @method string getAlertName()
- * @method $this setRuleName($ruleName)
- * @method string getRuleName()
- * @method $this setNamespace($namespace)
- * @method string getNamespace()
- * @method $this setMetricName($metricName)
- * @method string getMetricName()
- * @method $this setGroupId($groupId)
- * @method string getGroupId()
- * @method $this setStatus($status)
- * @method string getStatus()
- * @method $this setState($state)
- * @method string getState()
- * @method $this setAscending($ascending)
- * @method bool getAscending()
- * @method $this setOnlyCount($onlyCount)
- * @method bool getOnlyCount()
- * @method $this setStartTime($startTime)
- * @method string getStartTime()
- * @method $this setEndTime($endTime)
- * @method string getEndTime()
- * @method $this setPageSize($pageSize)
- * @method int getPageSize()
- * @method $this setPage($page)
- * @method int getPage()
- */
-class DescribeAlertHistoryList extends Request
 {
 
 }/**

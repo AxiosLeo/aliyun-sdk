@@ -19,7 +19,7 @@ class Hsm extends ProductAbstract
 
     protected $service_code = "hsm";
 
-    protected $credential = "AccessKeyCredential";
+    protected $credential = "RpcCredential";
 
     protected $endpoints = [
         "regions"  => [

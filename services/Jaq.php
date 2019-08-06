@@ -26,7 +26,7 @@ class Jaq extends ProductAbstract
 
     protected $service_code = "jaq";
 
-    protected $credential = "AccessKeyCredential";
+    protected $credential = "RpcCredential";
 
     protected $endpoints = [
         "regions"  => [
@@ -54,7 +54,7 @@ class Jaq extends ProductAbstract
         "public"   => [
             "ap-northeast-1" => "jaq.aliyuncs.com",
             "ap-south-1"     => "jaq.aliyuncs.com",
-            "ap-southeast-1" => "jaq.ap-southeast-1.aliyuncs.com",
+            "ap-southeast-1" => "jaq.aliyuncs.com",
             "ap-southeast-2" => "jaq.aliyuncs.com",
             "ap-southeast-3" => "jaq.aliyuncs.com",
             "ap-southeast-5" => "jaq.aliyuncs.com",
