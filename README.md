@@ -22,7 +22,7 @@ composer require axios/aliyun-sdk
 
 * OSS -> Base on aliyun/aliyun-oss-php-sdk
 * SMS -> base on flc/dysms
-* [other services -> generate by code generator ](https://github.com/AxiosCros/aliyun-sdk/tree/master/library/services)
+* [other services -> auto generate by sdk code generator ](https://github.com/AxiosCros/aliyun-sdk/tree/master/library/services)
 * ......
 
 
