@@ -23,22 +23,18 @@ class V20151209
  */
 class ImageFeedback extends Request
 {
-
 }/**
  */
 class TextKeywordFilter extends Request
 {
-
 }/**
  */
 class ImageDetection extends Request
 {
-
 }/**
  * @method $this settaskid($taskid)
  * @method string gettaskid()
  */
 class ImageResult extends Request
 {
-
 }

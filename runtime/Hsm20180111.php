@@ -37,7 +37,6 @@ class V20180111
  */
 class ConfigNetwork extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -54,7 +53,6 @@ class ConfigNetwork extends Request
  */
 class DescribeInstances extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -67,7 +65,6 @@ class DescribeInstances extends Request
  */
 class ConfigWhiteList extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -76,7 +73,6 @@ class ConfigWhiteList extends Request
  */
 class ReleaseInstance extends Request
 {
-
 }/**
  * @method $this setClientToken($clientToken)
  * @method string getClientToken()
@@ -97,7 +93,6 @@ class ReleaseInstance extends Request
  */
 class CreateInstance extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -106,7 +101,6 @@ class CreateInstance extends Request
  */
 class DescribeRegions extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -119,7 +113,6 @@ class DescribeRegions extends Request
  */
 class ModifyInstance extends Request
 {
-
 }/**
  * @method $this setClientToken($clientToken)
  * @method string getClientToken()
@@ -134,5 +127,4 @@ class ModifyInstance extends Request
  */
 class RenewInstance extends Request
 {
-
 }

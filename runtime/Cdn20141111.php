@@ -165,7 +165,6 @@ class V20141111
  */
 class DescribeDomainRealTimeHttpCodeData extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -178,7 +177,6 @@ class DescribeDomainRealTimeHttpCodeData extends Request
  */
 class DescribeDomainTopUrlVisit extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -189,7 +187,6 @@ class DescribeDomainTopUrlVisit extends Request
  */
 class AddLiveDomainMapping extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -198,7 +195,6 @@ class AddLiveDomainMapping extends Request
  */
 class DescribeDomainsBySource extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -217,7 +213,6 @@ class DescribeDomainsBySource extends Request
  */
 class SetDynamicConfig extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -228,7 +223,6 @@ class SetDynamicConfig extends Request
  */
 class DescribeDomainConfigs extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -243,7 +237,6 @@ class DescribeDomainConfigs extends Request
  */
 class ModifyHttpHeaderConfig extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -252,7 +245,6 @@ class ModifyHttpHeaderConfig extends Request
  */
 class DescribeUserConfigs extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -269,7 +261,6 @@ class DescribeUserConfigs extends Request
  */
 class DescribeLiveStreamsOnlineList extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -278,7 +269,6 @@ class DescribeLiveStreamsOnlineList extends Request
  */
 class ListDomainsByLogConfigId extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -293,7 +283,6 @@ class ListDomainsByLogConfigId extends Request
  */
 class SetForwardSchemeConfig extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -306,7 +295,6 @@ class SetForwardSchemeConfig extends Request
  */
 class DeleteCacheExpiredConfig extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -319,7 +307,6 @@ class DeleteCacheExpiredConfig extends Request
  */
 class DescribeDomainISPData extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -340,7 +327,6 @@ class DescribeDomainISPData extends Request
  */
 class AddFCTrigger extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -359,7 +345,6 @@ class AddFCTrigger extends Request
  */
 class SetReqAuthConfig extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -368,7 +353,6 @@ class SetReqAuthConfig extends Request
  */
 class DescribeL2VipsByDynamicDomain extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -385,7 +369,6 @@ class DescribeL2VipsByDynamicDomain extends Request
  */
 class ForbidLiveStream extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -400,7 +383,6 @@ class ForbidLiveStream extends Request
  */
 class SetPathCacheExpiredConfig extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -411,7 +393,6 @@ class SetPathCacheExpiredConfig extends Request
  */
 class SetForceRedirectConfig extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -428,7 +409,6 @@ class SetForceRedirectConfig extends Request
  */
 class SetRefererConfig extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -443,7 +423,6 @@ class SetRefererConfig extends Request
  */
 class DescribeDomainBpsDataByTimeStamp extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -462,7 +441,6 @@ class DescribeDomainBpsDataByTimeStamp extends Request
  */
 class SetWaitingRoomConfig extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -477,7 +455,6 @@ class SetWaitingRoomConfig extends Request
  */
 class SetReqHeaderConfig extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -486,7 +463,6 @@ class SetReqHeaderConfig extends Request
  */
 class DeleteFCTrigger extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -495,7 +471,6 @@ class DeleteFCTrigger extends Request
  */
 class DescribeDomainCustomLogConfig extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -508,7 +483,6 @@ class DescribeDomainCustomLogConfig extends Request
  */
 class SetErrorPageConfig extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -525,7 +499,6 @@ class SetErrorPageConfig extends Request
  */
 class DescribeRangeDataByLocateAndIspService extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -534,7 +507,6 @@ class DescribeRangeDataByLocateAndIspService extends Request
  */
 class DescribeDomainCname extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -543,7 +515,6 @@ class DescribeDomainCname extends Request
  */
 class DescribeCdnTypes extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -554,7 +525,6 @@ class DescribeCdnTypes extends Request
  */
 class SetPageCompressConfig extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -565,7 +535,6 @@ class SetPageCompressConfig extends Request
  */
 class RefreshObjectCaches extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -574,7 +543,6 @@ class RefreshObjectCaches extends Request
  */
 class DescribeLiveStreamsBlockList extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -597,7 +565,6 @@ class DescribeLiveStreamsBlockList extends Request
  */
 class CreateLiveStreamRecordIndexFiles extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -628,7 +595,6 @@ class CreateLiveStreamRecordIndexFiles extends Request
  */
 class AddCdnDomain extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -641,7 +607,6 @@ class AddCdnDomain extends Request
  */
 class DescribeDomainMax95BpsData extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -652,7 +617,6 @@ class DescribeDomainMax95BpsData extends Request
  */
 class SetIpAllowListConfig extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -681,7 +645,6 @@ class SetIpAllowListConfig extends Request
  */
 class DescribeUserDomains extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -694,7 +657,6 @@ class DescribeUserDomains extends Request
  */
 class DescribeDomainRegionData extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -705,7 +667,6 @@ class DescribeDomainRegionData extends Request
  */
 class DeleteHttpHeaderConfig extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -714,7 +675,6 @@ class DeleteHttpHeaderConfig extends Request
  */
 class DescribeCdnDomainDetail extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -729,7 +689,6 @@ class DescribeCdnDomainDetail extends Request
  */
 class DescribeLiveStreamsControlHistory extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -748,7 +707,6 @@ class DescribeLiveStreamsControlHistory extends Request
  */
 class DescribeDomainPathData extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -765,7 +723,6 @@ class DescribeDomainPathData extends Request
  */
 class DescribeDomainRealTimeBpsData extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -784,7 +741,6 @@ class DescribeDomainRealTimeBpsData extends Request
  */
 class DescribeLiveStreamOnlineUserNum extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -797,7 +753,6 @@ class DescribeLiveStreamOnlineUserNum extends Request
  */
 class DescribeDomainRealTimeSrcBpsData extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -824,7 +779,6 @@ class DescribeDomainRealTimeSrcBpsData extends Request
  */
 class DescribeRefreshTasks extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -835,7 +789,6 @@ class DescribeRefreshTasks extends Request
  */
 class DescribeCdnDomainConfigs extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -856,14 +809,12 @@ class DescribeCdnDomainConfigs extends Request
  */
 class ModifyCdnDomain extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
  */
 class DescribeCdnService extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -878,7 +829,6 @@ class DescribeCdnService extends Request
  */
 class SetIgnoreQueryStringConfig extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -891,7 +841,6 @@ class SetIgnoreQueryStringConfig extends Request
  */
 class DescribeDomainRealTimeSrcTrafficData extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -902,7 +851,6 @@ class DescribeDomainRealTimeSrcTrafficData extends Request
  */
 class SetDomainGreenManagerConfig extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -915,7 +863,6 @@ class SetDomainGreenManagerConfig extends Request
  */
 class SetHttpErrorPageConfig extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -934,7 +881,6 @@ class SetHttpErrorPageConfig extends Request
  */
 class StopMixStreamsService extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -943,7 +889,6 @@ class StopMixStreamsService extends Request
  */
 class DescribeLiveStreamTranscodeInfo extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -952,7 +897,6 @@ class DescribeLiveStreamTranscodeInfo extends Request
  */
 class ModifyCdnService extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -965,7 +909,6 @@ class ModifyCdnService extends Request
  */
 class DescribeDomainUvData extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -974,7 +917,6 @@ class DescribeDomainUvData extends Request
  */
 class DescribeLiveRecordConfig extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -983,7 +925,6 @@ class DescribeLiveRecordConfig extends Request
  */
 class StopCdnDomain extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1000,7 +941,6 @@ class StopCdnDomain extends Request
  */
 class DescribeDomainRealTimeQpsData extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1011,7 +951,6 @@ class DescribeDomainRealTimeQpsData extends Request
  */
 class PushObjectCache extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1028,7 +967,6 @@ class PushObjectCache extends Request
  */
 class ModifyPathCacheExpiredConfig extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1045,7 +983,6 @@ class ModifyPathCacheExpiredConfig extends Request
  */
 class DescribeDomainSlowRatio extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1056,7 +993,6 @@ class DescribeDomainSlowRatio extends Request
  */
 class SetVideoSeekConfig extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1067,7 +1003,6 @@ class SetVideoSeekConfig extends Request
  */
 class DeleteCdnDomain extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1076,7 +1011,6 @@ class DeleteCdnDomain extends Request
  */
 class DescribeL2VipsByDomain extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1089,7 +1023,6 @@ class DescribeL2VipsByDomain extends Request
  */
 class SetCcConfig extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1108,7 +1041,6 @@ class SetCcConfig extends Request
  */
 class DescribeDomainSrcBpsData extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1119,7 +1051,6 @@ class DescribeDomainSrcBpsData extends Request
  */
 class SetOptimizeConfig extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1132,7 +1063,6 @@ class SetOptimizeConfig extends Request
  */
 class DescribeDomainTopReferVisit extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1151,7 +1081,6 @@ class DescribeDomainTopReferVisit extends Request
  */
 class DescribeLiveStreamSnapshotInfo extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1174,7 +1103,6 @@ class DescribeLiveStreamSnapshotInfo extends Request
  */
 class StartMixStreamsService extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1183,7 +1111,6 @@ class StartMixStreamsService extends Request
  */
 class OpenCdnService extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1194,7 +1121,6 @@ class OpenCdnService extends Request
  */
 class SetHttpsOptionConfig extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1203,7 +1129,6 @@ class SetHttpsOptionConfig extends Request
  */
 class DescribeLivePullStreamConfig extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1220,7 +1145,6 @@ class DescribeLivePullStreamConfig extends Request
  */
 class DescribeLiveStreamRecordContent extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1233,14 +1157,12 @@ class DescribeLiveStreamRecordContent extends Request
  */
 class SetRemoveQueryStringConfig extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
  */
 class DescribeCdnRegionAndIsp extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1259,7 +1181,6 @@ class DescribeCdnRegionAndIsp extends Request
  */
 class AddLiveStreamTranscode extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1274,7 +1195,6 @@ class AddLiveStreamTranscode extends Request
  */
 class ResumeLiveStream extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1295,7 +1215,6 @@ class ResumeLiveStream extends Request
  */
 class UpdateLiveAppSnapshotConfig extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1306,7 +1225,6 @@ class UpdateLiveAppSnapshotConfig extends Request
  */
 class ModifyUserCustomLogConfig extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1317,7 +1235,6 @@ class ModifyUserCustomLogConfig extends Request
  */
 class DeleteLiveDomainMapping extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1330,7 +1247,6 @@ class DeleteLiveDomainMapping extends Request
  */
 class SetSourceHostConfig extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1345,7 +1261,6 @@ class SetSourceHostConfig extends Request
  */
 class DescribeDomainReqHitRateData extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1358,7 +1273,6 @@ class DescribeDomainReqHitRateData extends Request
  */
 class DeleteSpecificConfig extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1367,7 +1281,6 @@ class DeleteSpecificConfig extends Request
  */
 class DescribeFCTrigger extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1386,7 +1299,6 @@ class DescribeFCTrigger extends Request
  */
 class DescribeCdnDomainLogs extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1401,7 +1313,6 @@ class DescribeCdnDomainLogs extends Request
  */
 class DescribeTopDomainsByFlow extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1424,7 +1335,6 @@ class DescribeTopDomainsByFlow extends Request
  */
 class SetDomainServerCertificate extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1441,7 +1351,6 @@ class SetDomainServerCertificate extends Request
  */
 class UpdateFCTrigger extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1452,7 +1361,6 @@ class UpdateFCTrigger extends Request
  */
 class DeleteLiveAppSnapshotConfig extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1465,7 +1373,6 @@ class DeleteLiveAppSnapshotConfig extends Request
  */
 class DescribeDomainsUsageByDay extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1486,14 +1393,12 @@ class DescribeDomainsUsageByDay extends Request
  */
 class AddLiveAppSnapshotConfig extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
  */
 class DescribeRefreshQuota extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1506,7 +1411,6 @@ class DescribeRefreshQuota extends Request
  */
 class BatchDeleteCdnDomainConfig extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1523,7 +1427,6 @@ class BatchDeleteCdnDomainConfig extends Request
  */
 class AddLiveAppRecordConfig extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1532,7 +1435,6 @@ class AddLiveAppRecordConfig extends Request
  */
 class DescribeDomainCertificateInfo extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1543,14 +1445,12 @@ class DescribeDomainCertificateInfo extends Request
  */
 class SetUserGreenManagerConfig extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
  */
 class DescribeCdnUserQuota extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1563,7 +1463,6 @@ class DescribeCdnUserQuota extends Request
  */
 class DescribeDomainPvData extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1576,7 +1475,6 @@ class DescribeDomainPvData extends Request
  */
 class DescribeDomainCCAttackInfo extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1591,7 +1489,6 @@ class DescribeDomainCCAttackInfo extends Request
  */
 class DescribeLiveStreamRecordIndexFile extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1606,7 +1503,6 @@ class DescribeLiveStreamRecordIndexFile extends Request
  */
 class SetFileCacheExpiredConfig extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1621,7 +1517,6 @@ class SetFileCacheExpiredConfig extends Request
  */
 class SetHttpHeaderConfig extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1642,7 +1537,6 @@ class SetHttpHeaderConfig extends Request
  */
 class DescribeDomainHttpCodeData extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1665,7 +1559,6 @@ class DescribeDomainHttpCodeData extends Request
  */
 class DescribeDomainBpsData extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1676,7 +1569,6 @@ class DescribeDomainBpsData extends Request
  */
 class ModifyDomainCustomLogConfig extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1693,7 +1585,6 @@ class ModifyDomainCustomLogConfig extends Request
  */
 class DescribeLiveStreamBitRateData extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1708,7 +1599,6 @@ class DescribeLiveStreamBitRateData extends Request
  */
 class DescribeDomainHitRateData extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1725,7 +1615,6 @@ class DescribeDomainHitRateData extends Request
  */
 class DescribeLiveStreamsFrameRateAndBitRateData extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1738,7 +1627,6 @@ class DescribeLiveStreamsFrameRateAndBitRateData extends Request
  */
 class DescribeDomainFileSizeProportionData extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1747,7 +1635,6 @@ class DescribeDomainFileSizeProportionData extends Request
  */
 class DescribeIpInfo extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1762,7 +1649,6 @@ class DescribeIpInfo extends Request
  */
 class DescribeCdnMonitorData extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1783,7 +1669,6 @@ class DescribeCdnMonitorData extends Request
  */
 class DescribeLiveStreamsPublishList extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1800,7 +1685,6 @@ class DescribeLiveStreamsPublishList extends Request
  */
 class ModifyFileCacheExpiredConfig extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1811,7 +1695,6 @@ class ModifyFileCacheExpiredConfig extends Request
  */
 class SetL2OssKeyConfig extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1822,7 +1705,6 @@ class SetL2OssKeyConfig extends Request
  */
 class SetLiveStreamsNotifyUrlConfig extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1845,7 +1727,6 @@ class SetLiveStreamsNotifyUrlConfig extends Request
  */
 class DescribeDomainFlowData extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1864,7 +1745,6 @@ class DescribeDomainFlowData extends Request
  */
 class DescribeDomainSrcFlowData extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1875,7 +1755,6 @@ class DescribeDomainSrcFlowData extends Request
  */
 class DeleteLiveAppRecordConfig extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1900,7 +1779,6 @@ class DeleteLiveAppRecordConfig extends Request
  */
 class DescribeDomainAverageResponseTime extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1911,7 +1789,6 @@ class DescribeDomainAverageResponseTime extends Request
  */
 class SetRangeConfig extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1934,14 +1811,12 @@ class SetRangeConfig extends Request
  */
 class DescribeDomainQpsData extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
  */
 class DescribeUserCustomLogConfig extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1954,7 +1829,6 @@ class DescribeUserCustomLogConfig extends Request
  */
 class DescribeDomainRealTimeByteHitRateData extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1967,7 +1841,6 @@ class DescribeDomainRealTimeByteHitRateData extends Request
  */
 class BatchSetCdnDomainConfig extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1976,7 +1849,6 @@ class BatchSetCdnDomainConfig extends Request
  */
 class StartCdnDomain extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1989,7 +1861,6 @@ class StartCdnDomain extends Request
  */
 class DescribeDomainRealTimeReqHitRateData extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2008,7 +1879,6 @@ class DescribeDomainRealTimeReqHitRateData extends Request
  */
 class DescribeLiveSnapshotConfig extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2019,7 +1889,6 @@ class DescribeLiveSnapshotConfig extends Request
  */
 class SetIpBlackListConfig extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2032,7 +1901,6 @@ class SetIpBlackListConfig extends Request
  */
 class DescribeDomainCCData extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2041,7 +1909,6 @@ class DescribeDomainCCData extends Request
  */
 class DescribeUserCustomerLabels extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2056,7 +1923,6 @@ class DescribeUserCustomerLabels extends Request
  */
 class DeleteLiveStreamTranscode extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2073,7 +1939,6 @@ class DeleteLiveStreamTranscode extends Request
  */
 class DescribeLiveStreamRecordIndexFiles extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2082,5 +1947,4 @@ class DescribeLiveStreamRecordIndexFiles extends Request
  */
 class DescribeCustomLogConfig extends Request
 {
-
 }

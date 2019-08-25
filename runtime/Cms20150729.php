@@ -41,7 +41,6 @@ class V20150729
  */
 class DescribeMetricDatum extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -52,5 +51,4 @@ class DescribeMetricDatum extends Request
  */
 class PutMetricDatum extends Request
 {
-
 }

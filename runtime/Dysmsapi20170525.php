@@ -36,7 +36,6 @@ class V20170525
  */
 class SendBatchSms extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -59,7 +58,6 @@ class SendBatchSms extends Request
  */
 class SendSms extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -80,5 +78,4 @@ class SendSms extends Request
  */
 class QuerySendDetails extends Request
 {
-
 }

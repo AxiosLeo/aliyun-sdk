@@ -22,19 +22,16 @@ class V20180120
  */
 class AddItem extends Request
 {
-
 }/**
  * @method $this setinstanceName($instanceName)
  * @method string getinstanceName()
  */
 class SearchItem extends Request
 {
-
 }/**
  * @method $this setinstanceName($instanceName)
  * @method string getinstanceName()
  */
 class DeleteItem extends Request
 {
-
 }

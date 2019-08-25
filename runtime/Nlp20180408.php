@@ -28,61 +28,52 @@ class V20180408
  */
 class WordSegment extends Request
 {
-
 }/**
  * @method $this setDomain($domain)
  * @method string getDomain()
  */
 class Translate extends Request
 {
-
 }/**
  * @method $this setDomain($domain)
  * @method string getDomain()
  */
 class ReviewAnalysis extends Request
 {
-
 }/**
  * @method $this setDomain($domain)
  * @method string getDomain()
  */
 class KWE extends Request
 {
-
 }/**
  * @method $this setDomain($domain)
  * @method string getDomain()
  */
 class IE extends Request
 {
-
 }/**
  * @method $this setDomain($domain)
  * @method string getDomain()
  */
 class WordPos extends Request
 {
-
 }/**
  * @method $this setDomain($domain)
  * @method string getDomain()
  */
 class Sentiment extends Request
 {
-
 }/**
  * @method $this setDomain($domain)
  * @method string getDomain()
  */
 class Entity extends Request
 {
-
 }/**
  * @method $this setDomain($domain)
  * @method string getDomain()
  */
 class TextStructure extends Request
 {
-
 }

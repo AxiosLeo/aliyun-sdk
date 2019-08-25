@@ -65,52 +65,44 @@ class V20180418
  */
 class DescribeClusters extends Request
 {
-
 }/**
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
  */
 class DescribeClusterDetail extends Request
 {
-
 }/**
  */
 class CreateCluster extends Request
 {
-
 }/**
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
  */
 class DeleteCluster extends Request
 {
-
 }/**
  */
 class CheckAliyunCSServiceRole extends Request
 {
-
 }/**
  * @method $this setToken($token)
  * @method string getToken()
  */
 class DescribeClusterNodeInfo extends Request
 {
-
 }/**
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
  */
 class DescribeClusterCerts extends Request
 {
-
 }/**
  * @method $this setTemplateId($templateId)
  * @method string getTemplateId()
  */
 class DescribeTemplateAttribute extends Request
 {
-
 }/**
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
@@ -119,19 +111,16 @@ class DescribeTemplateAttribute extends Request
  */
 class GetTriggerHook extends Request
 {
-
 }/**
  */
 class UpdateSubUserResouces extends Request
 {
-
 }/**
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
  */
 class DescribeClusterServices extends Request
 {
-
 }/**
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
@@ -140,14 +129,12 @@ class DescribeClusterServices extends Request
  */
 class ResetClusterNode extends Request
 {
-
 }/**
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
  */
 class DescribeClusterLogs extends Request
 {
-
 }/**
  * @method $this setRegionID($regionID)
  * @method string getRegionID()
@@ -158,7 +145,6 @@ class DescribeClusterLogs extends Request
  */
 class DescribeImages extends Request
 {
-
 }/**
  * @method $this setToken($token)
  * @method string getToken()
@@ -167,19 +153,16 @@ class DescribeImages extends Request
  */
 class CallbackClusterToken extends Request
 {
-
 }/**
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
  */
 class DescribeClusterScaledNode extends Request
 {
-
 }/**
  */
 class DescribeTemplates extends Request
 {
-
 }/**
  * @method $this setKubernetesVersion($kubernetesVersion)
  * @method string getKubernetesVersion()
@@ -188,21 +171,18 @@ class DescribeTemplates extends Request
  */
 class DescribeKubernetesTemplates extends Request
 {
-
 }/**
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
  */
 class DescribeClusterHosts extends Request
 {
-
 }/**
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
  */
 class CreateClusterToken extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -211,14 +191,12 @@ class CreateClusterToken extends Request
  */
 class DescribeUserContainers extends Request
 {
-
 }/**
  * @method $this setToken($token)
  * @method string getToken()
  */
 class RevokeClusterToken extends Request
 {
-
 }/**
  * @method $this setToken($token)
  * @method string getToken()
@@ -227,19 +205,16 @@ class RevokeClusterToken extends Request
  */
 class CallBackAgilityCluster extends Request
 {
-
 }/**
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
  */
 class ScaleInCluster extends Request
 {
-
 }/**
  */
 class AddAgilityCluster extends Request
 {
-
 }/**
  * @method $this setToken($token)
  * @method string getToken()
@@ -248,7 +223,6 @@ class AddAgilityCluster extends Request
  */
 class DescribeClusterNodeInfoWithInstance extends Request
 {
-
 }/**
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
@@ -261,14 +235,12 @@ class DescribeClusterNodeInfoWithInstance extends Request
  */
 class DeleteClusterNode extends Request
 {
-
 }/**
  * @method $this setToken($token)
  * @method string getToken()
  */
 class DescribeAgilityTunnelAgentInfo extends Request
 {
-
 }/**
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
@@ -279,38 +251,32 @@ class DescribeAgilityTunnelAgentInfo extends Request
  */
 class DescribeClusterNodes extends Request
 {
-
 }/**
  */
 class CreateTemplate extends Request
 {
-
 }/**
  * @method $this setTaskId($taskId)
  * @method string getTaskId()
  */
 class DescribeTaskInfo extends Request
 {
-
 }/**
  */
 class DescribeApiVersion extends Request
 {
-
 }/**
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
  */
 class GetClusterProjects extends Request
 {
-
 }/**
  * @method $this setToken($token)
  * @method string getToken()
  */
 class GatherLogsToken extends Request
 {
-
 }/**
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
@@ -319,7 +285,6 @@ class GatherLogsToken extends Request
  */
 class UpgradeClusterComponents extends Request
 {
-
 }/**
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
@@ -328,14 +293,12 @@ class UpgradeClusterComponents extends Request
  */
 class DescribeServiceContainers extends Request
 {
-
 }/**
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
  */
 class ScaleCluster extends Request
 {
-
 }/**
  * @method $this setToken($token)
  * @method string getToken()
@@ -344,35 +307,30 @@ class ScaleCluster extends Request
  */
 class DownloadClusterNodeCerts extends Request
 {
-
 }/**
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
  */
 class AttachInstances extends Request
 {
-
 }/**
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
  */
 class DescribeClusterTokens extends Request
 {
-
 }/**
  * @method $this setToken($token)
  * @method string getToken()
  */
 class DescribeAgilityTunnelCerts extends Request
 {
-
 }/**
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
  */
 class DescribeKubernetesTemplate extends Request
 {
-
 }/**
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
@@ -381,10 +339,8 @@ class DescribeKubernetesTemplate extends Request
  */
 class GetProjectEvents extends Request
 {
-
 }/**
  */
 class ModifyClusterName extends Request
 {
-
 }

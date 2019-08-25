@@ -150,21 +150,18 @@ class V20190123
  */
 class ModifyDrdsIpWhiteList extends Request
 {
-
 }/**
  * @method $this setDrdsInstanceId($drdsInstanceId)
  * @method string getDrdsInstanceId()
  */
 class DescribeInstanceAccounts extends Request
 {
-
 }/**
  * @method $this setDrdsInstanceId($drdsInstanceId)
  * @method string getDrdsInstanceId()
  */
 class RestartDrdsInstance extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -177,7 +174,6 @@ class RestartDrdsInstance extends Request
  */
 class DescribeRdsCommodity extends Request
 {
-
 }/**
  * @method $this setDrdsInstanceId($drdsInstanceId)
  * @method string getDrdsInstanceId()
@@ -196,7 +192,6 @@ class DescribeRdsCommodity extends Request
  */
 class DescribeDrdsSlowSqls extends Request
 {
-
 }/**
  * @method $this setDrdsInstanceId($drdsInstanceId)
  * @method string getDrdsInstanceId()
@@ -205,7 +200,6 @@ class DescribeDrdsSlowSqls extends Request
  */
 class DescribeDrdsDbTasks extends Request
 {
-
 }/**
  * @method $this setDrdsInstanceId($drdsInstanceId)
  * @method string getDrdsInstanceId()
@@ -220,7 +214,6 @@ class DescribeDrdsDbTasks extends Request
  */
 class RearrangeDbToInstance extends Request
 {
-
 }/**
  * @method $this setDrdsInstanceId($drdsInstanceId)
  * @method string getDrdsInstanceId()
@@ -231,7 +224,6 @@ class RearrangeDbToInstance extends Request
  */
 class DescribeDrdsDbInstance extends Request
 {
-
 }/**
  * @method $this setDrdsInstanceId($drdsInstanceId)
  * @method string getDrdsInstanceId()
@@ -248,7 +240,6 @@ class DescribeDrdsDbInstance extends Request
  */
 class ChangeInstanceNetwork extends Request
 {
-
 }/**
  * @method $this setDrdsInstanceId($drdsInstanceId)
  * @method string getDrdsInstanceId()
@@ -257,7 +248,6 @@ class ChangeInstanceNetwork extends Request
  */
 class GetHotDbList extends Request
 {
-
 }/**
  * @method $this setDrdsInstanceId($drdsInstanceId)
  * @method string getDrdsInstanceId()
@@ -268,7 +258,6 @@ class GetHotDbList extends Request
  */
 class DescribeBackupSets extends Request
 {
-
 }/**
  * @method $this setDrdsInstanceId($drdsInstanceId)
  * @method string getDrdsInstanceId()
@@ -279,7 +268,6 @@ class DescribeBackupSets extends Request
  */
 class EnableInstanceIpv6Address extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -296,14 +284,12 @@ class EnableInstanceIpv6Address extends Request
  */
 class UntagResources extends Request
 {
-
 }/**
  * @method $this setType($type)
  * @method string getType()
  */
 class DescribeConsoleConfig extends Request
 {
-
 }/**
  * @method $this setDrdsInstanceId($drdsInstanceId)
  * @method string getDrdsInstanceId()
@@ -314,7 +300,6 @@ class DescribeConsoleConfig extends Request
  */
 class CheckRdsExpandStatus extends Request
 {
-
 }/**
  * @method $this setDrdsInstanceId($drdsInstanceId)
  * @method string getDrdsInstanceId()
@@ -325,7 +310,6 @@ class CheckRdsExpandStatus extends Request
  */
 class DescribeBackupDbs extends Request
 {
-
 }/**
  * @method $this setDrdsInstanceId($drdsInstanceId)
  * @method string getDrdsInstanceId()
@@ -334,7 +318,6 @@ class DescribeBackupDbs extends Request
  */
 class ModifyDrdsInstanceDescription extends Request
 {
-
 }/**
  * @method $this setDrdsInstanceId($drdsInstanceId)
  * @method string getDrdsInstanceId()
@@ -349,7 +332,6 @@ class ModifyDrdsInstanceDescription extends Request
  */
 class DescribeDbInstances extends Request
 {
-
 }/**
  * @method $this setDrdsInstanceId($drdsInstanceId)
  * @method string getDrdsInstanceId()
@@ -360,7 +342,6 @@ class DescribeDbInstances extends Request
  */
 class DescribeSrcRdsList extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -371,7 +352,6 @@ class DescribeSrcRdsList extends Request
  */
 class DescribeDrdsInstances extends Request
 {
-
 }/**
  * @method $this setDrdsInstanceId($drdsInstanceId)
  * @method string getDrdsInstanceId()
@@ -382,14 +362,12 @@ class DescribeDrdsInstances extends Request
  */
 class DescribeDrdsDBs extends Request
 {
-
 }/**
  * @method $this setDrdsInstanceId($drdsInstanceId)
  * @method string getDrdsInstanceId()
  */
 class DescribeBackupPolicy extends Request
 {
-
 }/**
  * @method $this setDrdsInstanceId($drdsInstanceId)
  * @method string getDrdsInstanceId()
@@ -400,14 +378,12 @@ class DescribeBackupPolicy extends Request
  */
 class DescribeDrdsShardingDbs extends Request
 {
-
 }/**
  * @method $this setDrdsInstanceId($drdsInstanceId)
  * @method string getDrdsInstanceId()
  */
 class RemoveDrdsInstance extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -424,7 +400,6 @@ class RemoveDrdsInstance extends Request
  */
 class CreateShardTask extends Request
 {
-
 }/**
  * @method $this setDrdsInstanceId($drdsInstanceId)
  * @method string getDrdsInstanceId()
@@ -437,7 +412,6 @@ class CreateShardTask extends Request
  */
 class DescribeDrdsDbInstances extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -450,7 +424,6 @@ class DescribeDrdsDbInstances extends Request
  */
 class DescribeTable extends Request
 {
-
 }/**
  * @method $this setDrdsInstanceId($drdsInstanceId)
  * @method string getDrdsInstanceId()
@@ -467,7 +440,6 @@ class DescribeTable extends Request
  */
 class DescribeDrdsInstanceMonitor extends Request
 {
-
 }/**
  * @method $this setDrdsInstanceId($drdsInstanceId)
  * @method string getDrdsInstanceId()
@@ -478,7 +450,6 @@ class DescribeDrdsInstanceMonitor extends Request
  */
 class UpgradeInstanceVersion extends Request
 {
-
 }/**
  * @method $this setDrdsInstanceId($drdsInstanceId)
  * @method string getDrdsInstanceId()
@@ -495,7 +466,6 @@ class UpgradeInstanceVersion extends Request
  */
 class DescribeRestoreOrder extends Request
 {
-
 }/**
  * @method $this setDrdsInstanceId($drdsInstanceId)
  * @method string getDrdsInstanceId()
@@ -510,7 +480,6 @@ class DescribeRestoreOrder extends Request
  */
 class SubmitSwitchTask extends Request
 {
-
 }/**
  * @method $this setDrdsInstanceId($drdsInstanceId)
  * @method string getDrdsInstanceId()
@@ -521,14 +490,12 @@ class SubmitSwitchTask extends Request
  */
 class GetSrcRdsList extends Request
 {
-
 }/**
  * @method $this setDrdsInstanceId($drdsInstanceId)
  * @method string getDrdsInstanceId()
  */
 class DescribeDrdsInstance extends Request
 {
-
 }/**
  * @method $this setDrdsInstanceId($drdsInstanceId)
  * @method string getDrdsInstanceId()
@@ -545,7 +512,6 @@ class DescribeDrdsInstance extends Request
  */
 class StartRestore extends Request
 {
-
 }/**
  * @method $this setDrdsInstanceId($drdsInstanceId)
  * @method string getDrdsInstanceId()
@@ -560,21 +526,18 @@ class StartRestore extends Request
  */
 class SubmitSmoothExpandTask extends Request
 {
-
 }/**
  * @method $this setDrdsInstanceId($drdsInstanceId)
  * @method string getDrdsInstanceId()
  */
 class DescribeInstanceMenuSwitch extends Request
 {
-
 }/**
  * @method $this setDrdsInstanceId($drdsInstanceId)
  * @method string getDrdsInstanceId()
  */
 class DescribeDrdsInstanceVersion extends Request
 {
-
 }/**
  * @method $this setDrdsInstanceId($drdsInstanceId)
  * @method string getDrdsInstanceId()
@@ -585,7 +548,6 @@ class DescribeDrdsInstanceVersion extends Request
  */
 class DescribeRdsSuperAccountInstances extends Request
 {
-
 }/**
  * @method $this setDrdsInstanceId($drdsInstanceId)
  * @method string getDrdsInstanceId()
@@ -600,7 +562,6 @@ class DescribeRdsSuperAccountInstances extends Request
  */
 class SubmitRollbackTask extends Request
 {
-
 }/**
  * @method $this setDrdsInstanceId($drdsInstanceId)
  * @method string getDrdsInstanceId()
@@ -617,7 +578,6 @@ class SubmitRollbackTask extends Request
  */
 class DescribeDrdsInstanceDbMonitor extends Request
 {
-
 }/**
  * @method $this setDrdsInstanceId($drdsInstanceId)
  * @method string getDrdsInstanceId()
@@ -626,7 +586,6 @@ class DescribeDrdsInstanceDbMonitor extends Request
  */
 class DescribeDrdsDB extends Request
 {
-
 }/**
  * @method $this setDrdsInstanceId($drdsInstanceId)
  * @method string getDrdsInstanceId()
@@ -635,7 +594,6 @@ class DescribeDrdsDB extends Request
  */
 class CheckSqlAuditEnableStatus extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -652,7 +610,6 @@ class CheckSqlAuditEnableStatus extends Request
  */
 class ValidateShardTask extends Request
 {
-
 }/**
  * @method $this setDrdsInstanceId($drdsInstanceId)
  * @method string getDrdsInstanceId()
@@ -667,7 +624,6 @@ class ValidateShardTask extends Request
  */
 class SubmitCleanTask extends Request
 {
-
 }/**
  * @method $this setDrdsInstanceId($drdsInstanceId)
  * @method string getDrdsInstanceId()
@@ -684,7 +640,6 @@ class SubmitCleanTask extends Request
  */
 class DescribeCandidateInstanceList extends Request
 {
-
 }/**
  * @method $this setDrdsInstanceId($drdsInstanceId)
  * @method string getDrdsInstanceId()
@@ -697,7 +652,6 @@ class DescribeCandidateInstanceList extends Request
  */
 class SetBackupLocal extends Request
 {
-
 }/**
  * @method $this setDrdsInstanceId($drdsInstanceId)
  * @method string getDrdsInstanceId()
@@ -706,7 +660,6 @@ class SetBackupLocal extends Request
  */
 class DescribeInstDbSlsInfo extends Request
 {
-
 }/**
  * @method $this setDrdsInstanceId($drdsInstanceId)
  * @method string getDrdsInstanceId()
@@ -715,7 +668,6 @@ class DescribeInstDbSlsInfo extends Request
  */
 class CheckExpandStatus extends Request
 {
-
 }/**
  * @method $this setDrdsInstanceId($drdsInstanceId)
  * @method string getDrdsInstanceId()
@@ -728,7 +680,6 @@ class CheckExpandStatus extends Request
  */
 class CreateInstanceAccount extends Request
 {
-
 }/**
  * @method $this setDrdsInstanceId($drdsInstanceId)
  * @method string getDrdsInstanceId()
@@ -737,7 +688,6 @@ class CreateInstanceAccount extends Request
  */
 class GetExpandLogicTableInfoList extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -756,7 +706,6 @@ class GetExpandLogicTableInfoList extends Request
  */
 class DescribeTableListByType extends Request
 {
-
 }/**
  * @method $this setDrdsInstanceId($drdsInstanceId)
  * @method string getDrdsInstanceId()
@@ -769,7 +718,6 @@ class DescribeTableListByType extends Request
  */
 class ModifyRdsReadWeight extends Request
 {
-
 }/**
  * @method $this setDrdsInstanceId($drdsInstanceId)
  * @method string getDrdsInstanceId()
@@ -778,7 +726,6 @@ class ModifyRdsReadWeight extends Request
  */
 class GetLogicTableInfoList extends Request
 {
-
 }/**
  * @method $this setDrdsInstanceId($drdsInstanceId)
  * @method string getDrdsInstanceId()
@@ -799,7 +746,6 @@ class GetLogicTableInfoList extends Request
  */
 class SubmitHotExpandTask extends Request
 {
-
 }/**
  * @method $this setDrdsInstanceId($drdsInstanceId)
  * @method string getDrdsInstanceId()
@@ -810,7 +756,6 @@ class SubmitHotExpandTask extends Request
  */
 class DescribeCanExpandInstanceDetailList extends Request
 {
-
 }/**
  * @method $this setDrdsInstanceId($drdsInstanceId)
  * @method string getDrdsInstanceId()
@@ -823,7 +768,6 @@ class DescribeCanExpandInstanceDetailList extends Request
  */
 class PutStartBackup extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -840,21 +784,18 @@ class PutStartBackup extends Request
  */
 class DescribeTables extends Request
 {
-
 }/**
  * @method $this setDrdsInstanceId($drdsInstanceId)
  * @method string getDrdsInstanceId()
  */
 class DescribeBackupTimes extends Request
 {
-
 }/**
  * @method $this setDrdsInstanceId($drdsInstanceId)
  * @method string getDrdsInstanceId()
  */
 class DescribeInstanceSwitchNetwork extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -873,7 +814,6 @@ class DescribeInstanceSwitchNetwork extends Request
  */
 class DescribeShardTaskList extends Request
 {
-
 }/**
  * @method $this setDrdsInstanceId($drdsInstanceId)
  * @method string getDrdsInstanceId()
@@ -890,7 +830,6 @@ class DescribeShardTaskList extends Request
  */
 class PutRestorePreCheck extends Request
 {
-
 }/**
  * @method $this setDrdsInstanceId($drdsInstanceId)
  * @method string getDrdsInstanceId()
@@ -901,7 +840,6 @@ class PutRestorePreCheck extends Request
  */
 class ConfigureDrdsDbInstances extends Request
 {
-
 }/**
  * @method $this setDrdsInstanceId($drdsInstanceId)
  * @method string getDrdsInstanceId()
@@ -912,7 +850,6 @@ class ConfigureDrdsDbInstances extends Request
  */
 class CreateInstanceInternetAddress extends Request
 {
-
 }/**
  * @method $this setDrdsInstanceId($drdsInstanceId)
  * @method string getDrdsInstanceId()
@@ -925,7 +862,6 @@ class CreateInstanceInternetAddress extends Request
  */
 class ChangeInstanceAzone extends Request
 {
-
 }/**
  * @method $this setDrdsInstanceId($drdsInstanceId)
  * @method string getDrdsInstanceId()
@@ -950,14 +886,12 @@ class ChangeInstanceAzone extends Request
  */
 class SetBackupPolicy extends Request
 {
-
 }/**
  * @method $this setDrdsInstanceId($drdsInstanceId)
  * @method string getDrdsInstanceId()
  */
 class DescribeSqlFlashbakTask extends Request
 {
-
 }/**
  * @method $this setDrdsInstanceId($drdsInstanceId)
  * @method string getDrdsInstanceId()
@@ -968,7 +902,6 @@ class DescribeSqlFlashbakTask extends Request
  */
 class ChangeAccountPassword extends Request
 {
-
 }/**
  * @method $this setDrdsInstanceId($drdsInstanceId)
  * @method string getDrdsInstanceId()
@@ -979,7 +912,6 @@ class ChangeAccountPassword extends Request
  */
 class ModifyAccountDescription extends Request
 {
-
 }/**
  * @method $this setDrdsInstanceId($drdsInstanceId)
  * @method string getDrdsInstanceId()
@@ -988,7 +920,6 @@ class ModifyAccountDescription extends Request
  */
 class DescribeExpandLogicTableInfoList extends Request
 {
-
 }/**
  * @method $this setDrdsInstanceId($drdsInstanceId)
  * @method string getDrdsInstanceId()
@@ -1003,7 +934,6 @@ class DescribeExpandLogicTableInfoList extends Request
  */
 class EnableSqlAudit extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -1016,7 +946,6 @@ class EnableSqlAudit extends Request
  */
 class FlashbackRecycleBinTable extends Request
 {
-
 }/**
  * @method $this setDrdsInstanceId($drdsInstanceId)
  * @method string getDrdsInstanceId()
@@ -1025,7 +954,6 @@ class FlashbackRecycleBinTable extends Request
  */
 class DescribeInstDbLogInfo extends Request
 {
-
 }/**
  * @method $this setDrdsInstanceId($drdsInstanceId)
  * @method string getDrdsInstanceId()
@@ -1034,7 +962,6 @@ class DescribeInstDbLogInfo extends Request
  */
 class CheckDrdsDbName extends Request
 {
-
 }/**
  * @method $this setDrdsInstanceId($drdsInstanceId)
  * @method string getDrdsInstanceId()
@@ -1045,7 +972,6 @@ class CheckDrdsDbName extends Request
  */
 class DescribeDrdsDBIpWhiteList extends Request
 {
-
 }/**
  * @method $this setDrdsInstanceId($drdsInstanceId)
  * @method string getDrdsInstanceId()
@@ -1054,7 +980,6 @@ class DescribeDrdsDBIpWhiteList extends Request
  */
 class DisableSqlAudit extends Request
 {
-
 }/**
  * @method $this setDrdsInstanceId($drdsInstanceId)
  * @method string getDrdsInstanceId()
@@ -1073,7 +998,6 @@ class DisableSqlAudit extends Request
  */
 class CreateDrdsDBPreview extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -1090,7 +1014,6 @@ class CreateDrdsDBPreview extends Request
  */
 class DescribeBroadcastTables extends Request
 {
-
 }/**
  * @method $this setDrdsInstanceId($drdsInstanceId)
  * @method string getDrdsInstanceId()
@@ -1115,7 +1038,6 @@ class DescribeBroadcastTables extends Request
  */
 class CreateDrdsDB extends Request
 {
-
 }/**
  * @method $this setDrdsInstanceId($drdsInstanceId)
  * @method string getDrdsInstanceId()
@@ -1124,7 +1046,6 @@ class CreateDrdsDB extends Request
  */
 class RefreshDrdsAtomUrl extends Request
 {
-
 }/**
  * @method $this setDrdsInstanceId($drdsInstanceId)
  * @method string getDrdsInstanceId()
@@ -1137,7 +1058,6 @@ class RefreshDrdsAtomUrl extends Request
  */
 class DescribeDbInstanceDbs extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -1146,7 +1066,6 @@ class DescribeDbInstanceDbs extends Request
  */
 class DescribeRdsPrice extends Request
 {
-
 }/**
  * @method $this setTag($tag)
  * @method array getTag()
@@ -1161,14 +1080,12 @@ class DescribeRdsPrice extends Request
  */
 class TagResources extends Request
 {
-
 }/**
  * @method $this setDrdsInstanceId($drdsInstanceId)
  * @method string getDrdsInstanceId()
  */
 class DescribeBackupLocal extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -1183,7 +1100,6 @@ class DescribeBackupLocal extends Request
  */
 class SetupBroadcastTables extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -1194,7 +1110,6 @@ class SetupBroadcastTables extends Request
  */
 class DescribeGlobalBroadcastType extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -1205,7 +1120,6 @@ class DescribeGlobalBroadcastType extends Request
  */
 class DescribeRdsPerformanceSummary extends Request
 {
-
 }/**
  * @method $this setDrdsInstanceId($drdsInstanceId)
  * @method string getDrdsInstanceId()
@@ -1214,7 +1128,6 @@ class DescribeRdsPerformanceSummary extends Request
  */
 class RemoveInstanceAccount extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -1223,7 +1136,6 @@ class RemoveInstanceAccount extends Request
  */
 class DescribeRdsVpcForZone extends Request
 {
-
 }/**
  * @method $this setDrdsInstanceId($drdsInstanceId)
  * @method string getDrdsInstanceId()
@@ -1240,7 +1152,6 @@ class DescribeRdsVpcForZone extends Request
  */
 class GetCandidateInstanceList extends Request
 {
-
 }/**
  * @method $this setDrdsInstanceId($drdsInstanceId)
  * @method string getDrdsInstanceId()
@@ -1249,7 +1160,6 @@ class GetCandidateInstanceList extends Request
  */
 class EnableSqlFlashbackMatchSwitch extends Request
 {
-
 }/**
  * @method $this setDrdsInstanceId($drdsInstanceId)
  * @method string getDrdsInstanceId()
@@ -1260,12 +1170,10 @@ class EnableSqlFlashbackMatchSwitch extends Request
  */
 class RollbackInstanceVersion extends Request
 {
-
 }/**
  */
 class DescribeDrdsRegions extends Request
 {
-
 }/**
  * @method $this setDrdsInstanceId($drdsInstanceId)
  * @method string getDrdsInstanceId()
@@ -1274,7 +1182,6 @@ class DescribeDrdsRegions extends Request
  */
 class RemoveDrdsDb extends Request
 {
-
 }/**
  * @method $this setDrdsInstanceId($drdsInstanceId)
  * @method string getDrdsInstanceId()
@@ -1283,19 +1190,16 @@ class RemoveDrdsDb extends Request
  */
 class RemoveDrdsDbFailedRecord extends Request
 {
-
 }/**
  * @method $this setDrdsInstanceId($drdsInstanceId)
  * @method string getDrdsInstanceId()
  */
 class DescribeDrdsInstanceLevelTasks extends Request
 {
-
 }/**
  */
 class CheckDrdsDefaultRole extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -1308,7 +1212,6 @@ class CheckDrdsDefaultRole extends Request
  */
 class SetupRecycleBinStatus extends Request
 {
-
 }/**
  * @method $this setDrdsInstanceId($drdsInstanceId)
  * @method string getDrdsInstanceId()
@@ -1317,7 +1220,6 @@ class SetupRecycleBinStatus extends Request
  */
 class RemoveBackupsSet extends Request
 {
-
 }/**
  * @method $this setDrdsInstanceId($drdsInstanceId)
  * @method string getDrdsInstanceId()
@@ -1328,7 +1230,6 @@ class RemoveBackupsSet extends Request
  */
 class ReleaseInstanceInternetAddress extends Request
 {
-
 }/**
  * @method $this setSrcDrdsInstanceId($srcDrdsInstanceId)
  * @method string getSrcDrdsInstanceId()
@@ -1339,14 +1240,12 @@ class ReleaseInstanceInternetAddress extends Request
  */
 class MigrateJstDrdsDbAcrossRegion extends Request
 {
-
 }/**
  * @method $this setDrdsInstanceId($drdsInstanceId)
  * @method string getDrdsInstanceId()
  */
 class DescribeInstanceSwitchAzone extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -1357,7 +1256,6 @@ class DescribeInstanceSwitchAzone extends Request
  */
 class DescribeRecycleBinTables extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -1370,7 +1268,6 @@ class DescribeRecycleBinTables extends Request
  */
 class DeleteShardTasks extends Request
 {
-
 }/**
  * @method $this setDrdsInstanceId($drdsInstanceId)
  * @method string getDrdsInstanceId()
@@ -1379,12 +1276,10 @@ class DeleteShardTasks extends Request
  */
 class DescribeRdsList extends Request
 {
-
 }/**
  */
 class CheckSlsStatus extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -1395,7 +1290,6 @@ class CheckSlsStatus extends Request
  */
 class DescribeDrdsParams extends Request
 {
-
 }/**
  * @method $this setDrdsInstanceId($drdsInstanceId)
  * @method string getDrdsInstanceId()
@@ -1408,7 +1302,6 @@ class DescribeDrdsParams extends Request
  */
 class PreCheckSqlFlashbackTask extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -1423,7 +1316,6 @@ class PreCheckSqlFlashbackTask extends Request
  */
 class SetupTable extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -1432,7 +1324,6 @@ class SetupTable extends Request
  */
 class CreateOrderForRds extends Request
 {
-
 }/**
  * @method $this setDrdsInstanceId($drdsInstanceId)
  * @method string getDrdsInstanceId()
@@ -1441,7 +1332,6 @@ class CreateOrderForRds extends Request
  */
 class DescribeHotDbList extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -1454,7 +1344,6 @@ class DescribeHotDbList extends Request
  */
 class SetupDrdsParams extends Request
 {
-
 }/**
  * @method $this setDrdsInstanceId($drdsInstanceId)
  * @method string getDrdsInstanceId()
@@ -1465,7 +1354,6 @@ class SetupDrdsParams extends Request
  */
 class ModifyAccountPrivilege extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -1476,7 +1364,6 @@ class ModifyAccountPrivilege extends Request
  */
 class DescribeRecycleBinStatus extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -1489,7 +1376,6 @@ class DescribeRecycleBinStatus extends Request
  */
 class RemoveRecycleBinTable extends Request
 {
-
 }/**
  * @method $this setDrdsInstanceId($drdsInstanceId)
  * @method string getDrdsInstanceId()
@@ -1502,7 +1388,6 @@ class RemoveRecycleBinTable extends Request
  */
 class CheckRdsSuperAccount extends Request
 {
-
 }/**
  * @method $this setTag($tag)
  * @method array getTag()
@@ -1519,7 +1404,6 @@ class CheckRdsSuperAccount extends Request
  */
 class ListTagResources extends Request
 {
-
 }/**
  * @method $this setDrdsInstanceId($drdsInstanceId)
  * @method string getDrdsInstanceId()
@@ -1544,7 +1428,6 @@ class ListTagResources extends Request
  */
 class SubmitSqlFlashbackTask extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -1559,14 +1442,12 @@ class SubmitSqlFlashbackTask extends Request
  */
 class DescribeShardTaskInfo extends Request
 {
-
 }/**
  * @method $this setDrdsInstanceId($drdsInstanceId)
  * @method string getDrdsInstanceId()
  */
 class DescribeBackMenu extends Request
 {
-
 }/**
  * @method $this setDrdsInstanceId($drdsInstanceId)
  * @method string getDrdsInstanceId()
@@ -1575,7 +1456,6 @@ class DescribeBackMenu extends Request
  */
 class RefreshJstMigrateDrdsDbAtomUrl extends Request
 {
-
 }/**
  * @method $this setDrdsInstanceId($drdsInstanceId)
  * @method string getDrdsInstanceId()
@@ -1586,5 +1466,4 @@ class RefreshJstMigrateDrdsDbAtomUrl extends Request
  */
 class DescribeDrdsTasks extends Request
 {
-
 }

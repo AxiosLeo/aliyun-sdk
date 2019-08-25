@@ -37,14 +37,12 @@ class V20151127
  */
 class CfAccountQuery extends Request
 {
-
 }/**
  * @method $this setdata($data)
  * @method string getdata()
  */
 class CFMonthlyPayment extends Request
 {
-
 }/**
  * @method $this setAppKey($appKey)
  * @method string getAppKey()
@@ -65,7 +63,6 @@ class CFMonthlyPayment extends Request
  */
 class CfAccountFeedback extends Request
 {
-
 }/**
  * @method $this setSerno($serno)
  * @method string getSerno()
@@ -84,14 +81,12 @@ class CfAccountFeedback extends Request
  */
 class Authenticate extends Request
 {
-
 }/**
  * @method $this setdata($data)
  * @method string getdata()
  */
 class MonthlyPaymentCheckOrder extends Request
 {
-
 }/**
  * @method $this setSerialNo($serialNo)
  * @method string getSerialNo()
@@ -108,5 +103,4 @@ class MonthlyPaymentCheckOrder extends Request
  */
 class QuerySimple extends Request
 {
-
 }

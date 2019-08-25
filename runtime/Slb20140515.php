@@ -112,7 +112,6 @@ class V20140515
  */
 class AddBackendServers extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -175,7 +174,6 @@ class AddBackendServers extends Request
  */
 class SetLoadBalancerUDPListenerAttribute extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -200,7 +198,6 @@ class SetLoadBalancerUDPListenerAttribute extends Request
  */
 class SetVServerGroupAttribute extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -231,7 +228,6 @@ class SetVServerGroupAttribute extends Request
  */
 class UploadServerCertificate extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -254,7 +250,6 @@ class UploadServerCertificate extends Request
  */
 class RemoveBackendServers extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -277,7 +272,6 @@ class RemoveBackendServers extends Request
  */
 class RemoveAccessControlListEntry extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -364,7 +358,6 @@ class RemoveAccessControlListEntry extends Request
  */
 class CreateLoadBalancerHTTPListener extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -385,7 +378,6 @@ class CreateLoadBalancerHTTPListener extends Request
  */
 class AddTags extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -408,7 +400,6 @@ class AddTags extends Request
  */
 class DescribeLoadBalancerTCPListenerAttribute extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -429,7 +420,6 @@ class DescribeLoadBalancerTCPListenerAttribute extends Request
  */
 class DescribeMasterSlaveVServerGroupAttribute extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -456,7 +446,6 @@ class DescribeMasterSlaveVServerGroupAttribute extends Request
  */
 class CreateRules extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -511,7 +500,6 @@ class CreateRules extends Request
  */
 class SetRule extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -532,7 +520,6 @@ class SetRule extends Request
  */
 class RemoveTags extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -557,7 +544,6 @@ class RemoveTags extends Request
  */
 class DescribeServerCertificates extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -578,7 +564,6 @@ class DescribeServerCertificates extends Request
  */
 class DeleteServerCertificate extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -607,7 +592,6 @@ class DeleteServerCertificate extends Request
  */
 class ModifyLoadBalancerPayType extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -628,7 +612,6 @@ class ModifyLoadBalancerPayType extends Request
  */
 class DeleteMasterSlaveVServerGroup extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -653,7 +636,6 @@ class DeleteMasterSlaveVServerGroup extends Request
  */
 class StartLoadBalancerListener extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -674,7 +656,6 @@ class StartLoadBalancerListener extends Request
  */
 class DeleteAccessControlList extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -695,7 +676,6 @@ class DeleteAccessControlList extends Request
  */
 class DeleteRules extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -720,7 +700,6 @@ class DeleteRules extends Request
  */
 class DescribeListenerAccessControlAttribute extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -745,7 +724,6 @@ class DescribeListenerAccessControlAttribute extends Request
  */
 class ModifyVServerGroupBackendServers extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -768,7 +746,6 @@ class ModifyVServerGroupBackendServers extends Request
  */
 class SetDomainExtensionAttribute extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -793,7 +770,6 @@ class SetDomainExtensionAttribute extends Request
  */
 class CreateMasterSlaveVServerGroup extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -884,7 +860,6 @@ class CreateMasterSlaveVServerGroup extends Request
  */
 class CreateLoadBalancerHTTPSListener extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -975,7 +950,6 @@ class CreateLoadBalancerHTTPSListener extends Request
  */
 class SetLoadBalancerHTTPSListenerAttribute extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -998,7 +972,6 @@ class SetLoadBalancerHTTPSListenerAttribute extends Request
  */
 class DescribeCACertificates extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1021,7 +994,6 @@ class DescribeCACertificates extends Request
  */
 class CreateAccessControlList extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -1046,7 +1018,6 @@ class CreateAccessControlList extends Request
  */
 class StopLoadBalancerListener extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -1069,7 +1040,6 @@ class StopLoadBalancerListener extends Request
  */
 class SetBackendServers extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -1092,7 +1062,6 @@ class SetBackendServers extends Request
  */
 class DescribeLoadBalancerAttribute extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1115,7 +1084,6 @@ class DescribeLoadBalancerAttribute extends Request
  */
 class SetServerCertificateName extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1140,7 +1108,6 @@ class SetServerCertificateName extends Request
  */
 class DescribeHealthStatus extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1161,7 +1128,6 @@ class DescribeHealthStatus extends Request
  */
 class DescribeVServerGroupAttribute extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -1184,7 +1150,6 @@ class DescribeVServerGroupAttribute extends Request
  */
 class DescribeLoadBalancerHTTPSListenerAttribute extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1207,7 +1172,6 @@ class DescribeLoadBalancerHTTPSListenerAttribute extends Request
  */
 class SetAccessControlListAttribute extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1230,7 +1194,6 @@ class SetAccessControlListAttribute extends Request
  */
 class UploadCACertificate extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -1257,7 +1220,6 @@ class UploadCACertificate extends Request
  */
 class AddListenerWhiteListItem extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1286,7 +1248,6 @@ class AddListenerWhiteListItem extends Request
  */
 class DescribeAccessControlLists extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1305,7 +1266,6 @@ class DescribeAccessControlLists extends Request
  */
 class DeleteCACertificate extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -1366,7 +1326,6 @@ class DeleteCACertificate extends Request
  */
 class CreateLoadBalancerUDPListener extends Request
 {
-
 }/**
  * @method $this setAcceptLanguage($acceptLanguage)
  * @method string getAcceptLanguage()
@@ -1387,7 +1346,6 @@ class CreateLoadBalancerUDPListener extends Request
  */
 class DescribeRegions extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1408,7 +1366,6 @@ class DescribeRegions extends Request
  */
 class DeleteMasterSlaveServerGroup extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -1431,7 +1388,6 @@ class DeleteMasterSlaveServerGroup extends Request
  */
 class DescribeLoadBalancerUDPListenerAttribute extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -1456,7 +1412,6 @@ class DescribeLoadBalancerUDPListenerAttribute extends Request
  */
 class ModifyLoadBalancerInstanceSpec extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -1523,7 +1478,6 @@ class ModifyLoadBalancerInstanceSpec extends Request
  */
 class CreateLoadBalancerTCPListener extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1580,7 +1534,6 @@ class CreateLoadBalancerTCPListener extends Request
  */
 class CreateLoadBalancer extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1603,7 +1556,6 @@ class CreateLoadBalancer extends Request
  */
 class AddAccessControlListEntry extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -1624,7 +1576,6 @@ class AddAccessControlListEntry extends Request
  */
 class DeleteLoadBalancer extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -1695,7 +1646,6 @@ class DeleteLoadBalancer extends Request
  */
 class SetLoadBalancerTCPListenerAttribute extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -1718,7 +1668,6 @@ class SetLoadBalancerTCPListenerAttribute extends Request
  */
 class SetLoadBalancerStatus extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1741,7 +1690,6 @@ class SetLoadBalancerStatus extends Request
  */
 class DescribeMasterSlaveServerGroups extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -1764,7 +1712,6 @@ class DescribeMasterSlaveServerGroups extends Request
  */
 class DescribeLoadBalancerHTTPListenerAttribute extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1785,7 +1732,6 @@ class DescribeLoadBalancerHTTPListenerAttribute extends Request
  */
 class DescribeMasterSlaveServerGroupAttribute extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -1808,7 +1754,6 @@ class DescribeMasterSlaveServerGroupAttribute extends Request
  */
 class SetLoadBalancerName extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1833,7 +1778,6 @@ class SetLoadBalancerName extends Request
  */
 class DescribeVServerGroups extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -1860,7 +1804,6 @@ class DescribeVServerGroups extends Request
  */
 class SetListenerAccessControlStatus extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -1887,7 +1830,6 @@ class SetListenerAccessControlStatus extends Request
  */
 class RemoveListenerWhiteListItem extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1910,7 +1852,6 @@ class RemoveListenerWhiteListItem extends Request
  */
 class AddVServerGroupBackendServers extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1931,7 +1872,6 @@ class AddVServerGroupBackendServers extends Request
  */
 class DeleteVServerGroup extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1990,7 +1930,6 @@ class DeleteVServerGroup extends Request
  */
 class DescribeLoadBalancers extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2015,7 +1954,6 @@ class DescribeLoadBalancers extends Request
  */
 class CreateVServerGroup extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2036,7 +1974,6 @@ class CreateVServerGroup extends Request
  */
 class DescribeRuleAttribute extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2063,7 +2000,6 @@ class DescribeRuleAttribute extends Request
  */
 class DescribeTags extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2086,7 +2022,6 @@ class DescribeTags extends Request
  */
 class RemoveVServerGroupBackendServers extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2107,7 +2042,6 @@ class RemoveVServerGroupBackendServers extends Request
  */
 class DescribeMasterSlaveVServerGroups extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2134,7 +2068,6 @@ class DescribeMasterSlaveVServerGroups extends Request
  */
 class CreateDomainExtension extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2153,7 +2086,6 @@ class CreateDomainExtension extends Request
  */
 class DescribeZones extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2178,7 +2110,6 @@ class DescribeZones extends Request
  */
 class DescribeRules extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2199,7 +2130,6 @@ class DescribeRules extends Request
  */
 class DeleteDomainExtension extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2224,7 +2154,6 @@ class DeleteDomainExtension extends Request
  */
 class DescribeDomainExtensions extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -2253,7 +2182,6 @@ class DescribeDomainExtensions extends Request
  */
 class ModifyLoadBalancerInternetSpec extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -2336,7 +2264,6 @@ class ModifyLoadBalancerInternetSpec extends Request
  */
 class SetLoadBalancerHTTPListenerAttribute extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2359,7 +2286,6 @@ class SetLoadBalancerHTTPListenerAttribute extends Request
  */
 class DescribeAccessControlListAttribute extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -2384,7 +2310,6 @@ class DescribeAccessControlListAttribute extends Request
  */
 class DeleteLoadBalancerListener extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2409,7 +2334,6 @@ class DeleteLoadBalancerListener extends Request
  */
 class CreateMasterSlaveServerGroup extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2430,5 +2354,4 @@ class CreateMasterSlaveServerGroup extends Request
  */
 class SetCACertificateName extends Request
 {
-
 }

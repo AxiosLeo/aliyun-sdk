@@ -113,7 +113,6 @@ class V20180120
  */
 class SaveDeviceProp extends Request
 {
-
 }/**
  * @method $this setIotInstanceId($iotInstanceId)
  * @method string getIotInstanceId()
@@ -136,7 +135,6 @@ class SaveDeviceProp extends Request
  */
 class UpdateRule extends Request
 {
-
 }/**
  * @method $this setIotInstanceId($iotInstanceId)
  * @method string getIotInstanceId()
@@ -151,7 +149,6 @@ class UpdateRule extends Request
  */
 class DeleteDeviceProp extends Request
 {
-
 }/**
  * @method $this setIotInstanceId($iotInstanceId)
  * @method string getIotInstanceId()
@@ -166,7 +163,6 @@ class DeleteDeviceProp extends Request
  */
 class QueryDeviceDesiredProperty extends Request
 {
-
 }/**
  * @method $this setIotInstanceId($iotInstanceId)
  * @method string getIotInstanceId()
@@ -179,7 +175,6 @@ class QueryDeviceDesiredProperty extends Request
  */
 class UpdateDeviceShadow extends Request
 {
-
 }/**
  * @method $this setIotInstanceId($iotInstanceId)
  * @method string getIotInstanceId()
@@ -190,7 +185,6 @@ class UpdateDeviceShadow extends Request
  */
 class QueryDeviceGroupByDevice extends Request
 {
-
 }/**
  * @method $this setIotInstanceId($iotInstanceId)
  * @method string getIotInstanceId()
@@ -203,7 +197,6 @@ class QueryDeviceGroupByDevice extends Request
  */
 class UpdateProduct extends Request
 {
-
 }/**
  * @method $this setIotInstanceId($iotInstanceId)
  * @method string getIotInstanceId()
@@ -216,7 +209,6 @@ class UpdateProduct extends Request
  */
 class GetDeviceStatus extends Request
 {
-
 }/**
  * @method $this setIotInstanceId($iotInstanceId)
  * @method string getIotInstanceId()
@@ -229,7 +221,6 @@ class GetDeviceStatus extends Request
  */
 class UpdateRuleAction extends Request
 {
-
 }/**
  * @method $this setIotInstanceId($iotInstanceId)
  * @method string getIotInstanceId()
@@ -238,7 +229,6 @@ class UpdateRuleAction extends Request
  */
 class GetRuleAction extends Request
 {
-
 }/**
  * @method $this setIotInstanceId($iotInstanceId)
  * @method string getIotInstanceId()
@@ -255,7 +245,6 @@ class GetRuleAction extends Request
  */
 class GetThingTopo extends Request
 {
-
 }/**
  * @method $this setIotInstanceId($iotInstanceId)
  * @method string getIotInstanceId()
@@ -264,7 +253,6 @@ class GetThingTopo extends Request
  */
 class ListProductTags extends Request
 {
-
 }/**
  * @method $this setIotInstanceId($iotInstanceId)
  * @method string getIotInstanceId()
@@ -279,7 +267,6 @@ class ListProductTags extends Request
  */
 class UpdateProductTopic extends Request
 {
-
 }/**
  * @method $this setIotInstanceId($iotInstanceId)
  * @method string getIotInstanceId()
@@ -288,7 +275,6 @@ class UpdateProductTopic extends Request
  */
 class DeleteProduct extends Request
 {
-
 }/**
  * @method $this setIotInstanceId($iotInstanceId)
  * @method string getIotInstanceId()
@@ -301,7 +287,6 @@ class DeleteProduct extends Request
  */
 class EnableThing extends Request
 {
-
 }/**
  * @method $this setIotInstanceId($iotInstanceId)
  * @method string getIotInstanceId()
@@ -328,7 +313,6 @@ class EnableThing extends Request
  */
 class CreateProduct extends Request
 {
-
 }/**
  * @method $this setIotInstanceId($iotInstanceId)
  * @method string getIotInstanceId()
@@ -337,7 +321,6 @@ class CreateProduct extends Request
  */
 class QueryDeviceGroupTagList extends Request
 {
-
 }/**
  * @method $this setIotInstanceId($iotInstanceId)
  * @method string getIotInstanceId()
@@ -350,7 +333,6 @@ class QueryDeviceGroupTagList extends Request
  */
 class QueryPageByApplyId extends Request
 {
-
 }/**
  * @method $this setIotInstanceId($iotInstanceId)
  * @method string getIotInstanceId()
@@ -363,7 +345,6 @@ class QueryPageByApplyId extends Request
  */
 class RemoveThingTopo extends Request
 {
-
 }/**
  * @method $this setIotInstanceId($iotInstanceId)
  * @method string getIotInstanceId()
@@ -376,7 +357,6 @@ class RemoveThingTopo extends Request
  */
 class QueryDeviceGroupByTags extends Request
 {
-
 }/**
  * @method $this setIotInstanceId($iotInstanceId)
  * @method string getIotInstanceId()
@@ -385,7 +365,6 @@ class QueryDeviceGroupByTags extends Request
  */
 class QueryDeviceStatistics extends Request
 {
-
 }/**
  * @method $this setIotInstanceId($iotInstanceId)
  * @method string getIotInstanceId()
@@ -394,7 +373,6 @@ class QueryDeviceStatistics extends Request
  */
 class DeleteRule extends Request
 {
-
 }/**
  * @method $this setIotInstanceId($iotInstanceId)
  * @method string getIotInstanceId()
@@ -405,7 +383,6 @@ class DeleteRule extends Request
  */
 class BatchRegisterDevice extends Request
 {
-
 }/**
  * @method $this setIotInstanceId($iotInstanceId)
  * @method string getIotInstanceId()
@@ -428,7 +405,6 @@ class BatchRegisterDevice extends Request
  */
 class QueryDeviceServiceData extends Request
 {
-
 }/**
  * @method $this setIotInstanceId($iotInstanceId)
  * @method string getIotInstanceId()
@@ -437,7 +413,6 @@ class QueryDeviceServiceData extends Request
  */
 class DeleteProductTopic extends Request
 {
-
 }/**
  * @method $this setIotInstanceId($iotInstanceId)
  * @method string getIotInstanceId()
@@ -448,7 +423,6 @@ class DeleteProductTopic extends Request
  */
 class BatchRegisterDeviceWithApplyId extends Request
 {
-
 }/**
  * @method $this setIotInstanceId($iotInstanceId)
  * @method string getIotInstanceId()
@@ -465,7 +439,6 @@ class BatchRegisterDeviceWithApplyId extends Request
  */
 class InvokeThingService extends Request
 {
-
 }/**
  * @method $this setIotInstanceId($iotInstanceId)
  * @method string getIotInstanceId()
@@ -480,7 +453,6 @@ class InvokeThingService extends Request
  */
 class CreateProductTopic extends Request
 {
-
 }/**
  * @method $this setIotInstanceId($iotInstanceId)
  * @method string getIotInstanceId()
@@ -493,7 +465,6 @@ class CreateProductTopic extends Request
  */
 class GetDeviceShadow extends Request
 {
-
 }/**
  * @method $this setIotInstanceId($iotInstanceId)
  * @method string getIotInstanceId()
@@ -502,7 +473,6 @@ class GetDeviceShadow extends Request
  */
 class GetRule extends Request
 {
-
 }/**
  * @method $this setIotInstanceId($iotInstanceId)
  * @method string getIotInstanceId()
@@ -515,7 +485,6 @@ class GetRule extends Request
  */
 class QueryDeviceListByDeviceGroup extends Request
 {
-
 }/**
  * @method $this setIotInstanceId($iotInstanceId)
  * @method string getIotInstanceId()
@@ -526,7 +495,6 @@ class QueryDeviceListByDeviceGroup extends Request
  */
 class UpdateProductTags extends Request
 {
-
 }/**
  * @method $this setIotInstanceId($iotInstanceId)
  * @method string getIotInstanceId()
@@ -539,7 +507,6 @@ class UpdateProductTags extends Request
  */
 class ListRule extends Request
 {
-
 }/**
  * @method $this setIotInstanceId($iotInstanceId)
  * @method string getIotInstanceId()
@@ -552,7 +519,6 @@ class ListRule extends Request
  */
 class QueryDevicePropertyStatus extends Request
 {
-
 }/**
  * @method $this setIotInstanceId($iotInstanceId)
  * @method string getIotInstanceId()
@@ -563,7 +529,6 @@ class QueryDevicePropertyStatus extends Request
  */
 class DeleteProductTags extends Request
 {
-
 }/**
  * @method $this setIotInstanceId($iotInstanceId)
  * @method string getIotInstanceId()
@@ -578,7 +543,6 @@ class DeleteProductTags extends Request
  */
 class SetDeviceProperty extends Request
 {
-
 }/**
  * @method $this setIotInstanceId($iotInstanceId)
  * @method string getIotInstanceId()
@@ -593,7 +557,6 @@ class SetDeviceProperty extends Request
  */
 class Pub extends Request
 {
-
 }/**
  * @method $this setIotInstanceId($iotInstanceId)
  * @method string getIotInstanceId()
@@ -606,7 +569,6 @@ class Pub extends Request
  */
 class DisableThing extends Request
 {
-
 }/**
  * @method $this setIotInstanceId($iotInstanceId)
  * @method string getIotInstanceId()
@@ -619,7 +581,6 @@ class DisableThing extends Request
  */
 class DeleteDevice extends Request
 {
-
 }/**
  * @method $this setIotInstanceId($iotInstanceId)
  * @method string getIotInstanceId()
@@ -636,7 +597,6 @@ class DeleteDevice extends Request
  */
 class SetDeviceDesiredProperty extends Request
 {
-
 }/**
  * @method $this setIotInstanceId($iotInstanceId)
  * @method string getIotInstanceId()
@@ -645,7 +605,6 @@ class SetDeviceDesiredProperty extends Request
  */
 class StopRule extends Request
 {
-
 }/**
  * @method $this setIotInstanceId($iotInstanceId)
  * @method string getIotInstanceId()
@@ -662,7 +621,6 @@ class StopRule extends Request
  */
 class RegisterDevice extends Request
 {
-
 }/**
  * @method $this setIotInstanceId($iotInstanceId)
  * @method string getIotInstanceId()
@@ -687,7 +645,6 @@ class RegisterDevice extends Request
  */
 class QueryDeviceEventData extends Request
 {
-
 }/**
  * @method $this setIotInstanceId($iotInstanceId)
  * @method string getIotInstanceId()
@@ -700,7 +657,6 @@ class QueryDeviceEventData extends Request
  */
 class CreateDeviceGroup extends Request
 {
-
 }/**
  * @method $this setIotInstanceId($iotInstanceId)
  * @method string getIotInstanceId()
@@ -713,7 +669,6 @@ class CreateDeviceGroup extends Request
  */
 class QueryDeviceProp extends Request
 {
-
 }/**
  * @method $this setIotInstanceId($iotInstanceId)
  * @method string getIotInstanceId()
@@ -722,7 +677,6 @@ class QueryDeviceProp extends Request
  */
 class BatchUpdateDeviceNickname extends Request
 {
-
 }/**
  * @method $this setIotInstanceId($iotInstanceId)
  * @method string getIotInstanceId()
@@ -731,7 +685,6 @@ class BatchUpdateDeviceNickname extends Request
  */
 class DeleteRuleAction extends Request
 {
-
 }/**
  * @method $this setIotInstanceId($iotInstanceId)
  * @method string getIotInstanceId()
@@ -744,7 +697,6 @@ class DeleteRuleAction extends Request
  */
 class SetDevicesProperty extends Request
 {
-
 }/**
  * @method $this setIotInstanceId($iotInstanceId)
  * @method string getIotInstanceId()
@@ -753,7 +705,6 @@ class SetDevicesProperty extends Request
  */
 class DeleteDeviceGroup extends Request
 {
-
 }/**
  * @method $this setIotInstanceId($iotInstanceId)
  * @method string getIotInstanceId()
@@ -762,7 +713,6 @@ class DeleteDeviceGroup extends Request
  */
 class QueryProduct extends Request
 {
-
 }/**
  * @method $this setIotInstanceId($iotInstanceId)
  * @method string getIotInstanceId()
@@ -773,7 +723,6 @@ class QueryProduct extends Request
  */
 class CreateProductTags extends Request
 {
-
 }/**
  * @method $this setIotInstanceId($iotInstanceId)
  * @method string getIotInstanceId()
@@ -784,7 +733,6 @@ class CreateProductTags extends Request
  */
 class QueryTopicReverseRouteTable extends Request
 {
-
 }/**
  * @method $this setIotInstanceId($iotInstanceId)
  * @method string getIotInstanceId()
@@ -793,7 +741,6 @@ class QueryTopicReverseRouteTable extends Request
  */
 class QueryProductTopic extends Request
 {
-
 }/**
  * @method $this setIotInstanceId($iotInstanceId)
  * @method string getIotInstanceId()
@@ -816,7 +763,6 @@ class QueryProductTopic extends Request
  */
 class QueryDevicePropertiesData extends Request
 {
-
 }/**
  * @method $this setIotInstanceId($iotInstanceId)
  * @method string getIotInstanceId()
@@ -825,7 +771,6 @@ class QueryDevicePropertiesData extends Request
  */
 class StartRule extends Request
 {
-
 }/**
  * @method $this setIotInstanceId($iotInstanceId)
  * @method string getIotInstanceId()
@@ -834,7 +779,6 @@ class StartRule extends Request
  */
 class QuerySuperDeviceGroup extends Request
 {
-
 }/**
  * @method $this setIotInstanceId($iotInstanceId)
  * @method string getIotInstanceId()
@@ -847,7 +791,6 @@ class QuerySuperDeviceGroup extends Request
  */
 class GetGatewayBySubDevice extends Request
 {
-
 }/**
  * @method $this setIotInstanceId($iotInstanceId)
  * @method string getIotInstanceId()
@@ -860,7 +803,6 @@ class GetGatewayBySubDevice extends Request
  */
 class QueryDeviceDetail extends Request
 {
-
 }/**
  * @method $this setIotInstanceId($iotInstanceId)
  * @method string getIotInstanceId()
@@ -871,7 +813,6 @@ class QueryDeviceDetail extends Request
  */
 class BatchAddDeviceGroupRelations extends Request
 {
-
 }/**
  * @method $this setIotInstanceId($iotInstanceId)
  * @method string getIotInstanceId()
@@ -884,7 +825,6 @@ class BatchAddDeviceGroupRelations extends Request
  */
 class QueryProductList extends Request
 {
-
 }/**
  * @method $this setIotInstanceId($iotInstanceId)
  * @method string getIotInstanceId()
@@ -899,7 +839,6 @@ class QueryProductList extends Request
  */
 class QueryDeviceFile extends Request
 {
-
 }/**
  * @method $this setIotInstanceId($iotInstanceId)
  * @method string getIotInstanceId()
@@ -914,7 +853,6 @@ class QueryDeviceFile extends Request
  */
 class QueryDeviceGroupList extends Request
 {
-
 }/**
  * @method $this setIotInstanceId($iotInstanceId)
  * @method string getIotInstanceId()
@@ -925,7 +863,6 @@ class QueryDeviceGroupList extends Request
  */
 class SetDeviceGroupTags extends Request
 {
-
 }/**
  * @method $this setIotInstanceId($iotInstanceId)
  * @method string getIotInstanceId()
@@ -938,7 +875,6 @@ class SetDeviceGroupTags extends Request
  */
 class ListProductByTags extends Request
 {
-
 }/**
  * @method $this setIotInstanceId($iotInstanceId)
  * @method string getIotInstanceId()
@@ -949,7 +885,6 @@ class ListProductByTags extends Request
  */
 class UpdateDeviceGroup extends Request
 {
-
 }/**
  * @method $this setIotInstanceId($iotInstanceId)
  * @method string getIotInstanceId()
@@ -960,7 +895,6 @@ class UpdateDeviceGroup extends Request
  */
 class QueryBatchRegisterDeviceStatus extends Request
 {
-
 }/**
  * @method $this setIotInstanceId($iotInstanceId)
  * @method string getIotInstanceId()
@@ -973,7 +907,6 @@ class QueryBatchRegisterDeviceStatus extends Request
  */
 class BatchGetDeviceState extends Request
 {
-
 }/**
  * @method $this setIotInstanceId($iotInstanceId)
  * @method string getIotInstanceId()
@@ -986,7 +919,6 @@ class BatchGetDeviceState extends Request
  */
 class PubBroadcast extends Request
 {
-
 }/**
  * @method $this setIotInstanceId($iotInstanceId)
  * @method string getIotInstanceId()
@@ -999,7 +931,6 @@ class PubBroadcast extends Request
  */
 class QueryDevice extends Request
 {
-
 }/**
  * @method $this setIotInstanceId($iotInstanceId)
  * @method string getIotInstanceId()
@@ -1008,7 +939,6 @@ class QueryDevice extends Request
  */
 class ListRuleActions extends Request
 {
-
 }/**
  * @method $this setIotInstanceId($iotInstanceId)
  * @method string getIotInstanceId()
@@ -1023,7 +953,6 @@ class ListRuleActions extends Request
  */
 class NotifyAddThingTopo extends Request
 {
-
 }/**
  * @method $this setIotInstanceId($iotInstanceId)
  * @method string getIotInstanceId()
@@ -1034,7 +963,6 @@ class NotifyAddThingTopo extends Request
  */
 class QueryTopicRouteTable extends Request
 {
-
 }/**
  * @method $this setIotInstanceId($iotInstanceId)
  * @method string getIotInstanceId()
@@ -1057,7 +985,6 @@ class QueryTopicRouteTable extends Request
  */
 class CreateRule extends Request
 {
-
 }/**
  * @method $this setIotInstanceId($iotInstanceId)
  * @method string getIotInstanceId()
@@ -1070,7 +997,6 @@ class CreateRule extends Request
  */
 class QueryDeviceByTags extends Request
 {
-
 }/**
  * @method $this setIotInstanceId($iotInstanceId)
  * @method string getIotInstanceId()
@@ -1083,7 +1009,6 @@ class QueryDeviceByTags extends Request
  */
 class DeleteTopicRouteTable extends Request
 {
-
 }/**
  * @method $this setIotInstanceId($iotInstanceId)
  * @method string getIotInstanceId()
@@ -1092,7 +1017,6 @@ class DeleteTopicRouteTable extends Request
  */
 class QueryDeviceGroupInfo extends Request
 {
-
 }/**
  * @method $this setIotInstanceId($iotInstanceId)
  * @method string getIotInstanceId()
@@ -1107,7 +1031,6 @@ class QueryDeviceGroupInfo extends Request
  */
 class DeleteDeviceFile extends Request
 {
-
 }/**
  * @method $this setIotInstanceId($iotInstanceId)
  * @method string getIotInstanceId()
@@ -1118,7 +1041,6 @@ class DeleteDeviceFile extends Request
  */
 class BatchCheckDeviceNames extends Request
 {
-
 }/**
  * @method $this setIotInstanceId($iotInstanceId)
  * @method string getIotInstanceId()
@@ -1141,7 +1063,6 @@ class BatchCheckDeviceNames extends Request
  */
 class QueryDevicePropertyData extends Request
 {
-
 }/**
  * @method $this setIotInstanceId($iotInstanceId)
  * @method string getIotInstanceId()
@@ -1158,7 +1079,6 @@ class QueryDevicePropertyData extends Request
  */
 class RRpc extends Request
 {
-
 }/**
  * @method $this setIotInstanceId($iotInstanceId)
  * @method string getIotInstanceId()
@@ -1171,7 +1091,6 @@ class RRpc extends Request
  */
 class CreateTopicRouteTable extends Request
 {
-
 }/**
  * @method $this setIotInstanceId($iotInstanceId)
  * @method string getIotInstanceId()
@@ -1186,7 +1105,6 @@ class CreateTopicRouteTable extends Request
  */
 class InvokeThingsService extends Request
 {
-
 }/**
  * @method $this setIotInstanceId($iotInstanceId)
  * @method string getIotInstanceId()
@@ -1203,7 +1121,6 @@ class InvokeThingsService extends Request
  */
 class QueryDeviceFileList extends Request
 {
-
 }/**
  * @method $this setIotInstanceId($iotInstanceId)
  * @method string getIotInstanceId()
@@ -1222,7 +1139,6 @@ class QueryDeviceFileList extends Request
  */
 class QueryAppDeviceList extends Request
 {
-
 }/**
  * @method $this setIotInstanceId($iotInstanceId)
  * @method string getIotInstanceId()
@@ -1237,7 +1153,6 @@ class QueryAppDeviceList extends Request
  */
 class CreateRuleAction extends Request
 {
-
 }/**
  * @method $this setIotInstanceId($iotInstanceId)
  * @method string getIotInstanceId()
@@ -1248,5 +1163,4 @@ class CreateRuleAction extends Request
  */
 class BatchDeleteDeviceGroupRelations extends Request
 {
-
 }

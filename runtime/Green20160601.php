@@ -27,7 +27,6 @@ class V20160601
  */
 class ImageDetection extends Request
 {
-
 }/**
  * @method $this setTaskId($taskId)
  * @method string getTaskId()
@@ -36,5 +35,4 @@ class ImageDetection extends Request
  */
 class ImageResult extends Request
 {
-
 }

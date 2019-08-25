@@ -42,7 +42,6 @@ class V20151224
  */
 class GetImgVpcInfo extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -57,7 +56,6 @@ class GetImgVpcInfo extends Request
  */
 class GetBucketVips extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -80,7 +78,6 @@ class GetBucketVips extends Request
  */
 class BindBucketVip extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -103,7 +100,6 @@ class BindBucketVip extends Request
  */
 class CreateImgVpc extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -126,7 +122,6 @@ class CreateImgVpc extends Request
  */
 class CreateOssVpc extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -147,7 +142,6 @@ class CreateOssVpc extends Request
  */
 class DeleteImgVpc extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -168,7 +162,6 @@ class DeleteImgVpc extends Request
  */
 class DeleteOssVpc extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -191,7 +184,6 @@ class DeleteOssVpc extends Request
  */
 class UnBindBucketVip extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -212,5 +204,4 @@ class UnBindBucketVip extends Request
  */
 class GetOssVpcInfo extends Request
 {
-
 }

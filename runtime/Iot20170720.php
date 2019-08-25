@@ -67,7 +67,6 @@ class V20170720
  */
 class QueryFirmwareByName extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -76,7 +75,6 @@ class QueryFirmwareByName extends Request
  */
 class CreateLoraApp extends Request
 {
-
 }/**
  * @method $this setPageSize($pageSize)
  * @method int getPageSize()
@@ -89,7 +87,6 @@ class CreateLoraApp extends Request
  */
 class QueryLoraDeviceInfoList extends Request
 {
-
 }/**
  * @method $this setPageSize($pageSize)
  * @method int getPageSize()
@@ -102,7 +99,6 @@ class QueryLoraDeviceInfoList extends Request
  */
 class getLoraNodeInfoList extends Request
 {
-
 }/**
  * @method $this setJsonRouteMap($jsonRouteMap)
  * @method string getJsonRouteMap()
@@ -111,12 +107,10 @@ class getLoraNodeInfoList extends Request
  */
 class SynchronizeGateway extends Request
 {
-
 }/**
  */
 class QueryProductName extends Request
 {
-
 }/**
  * @method $this setPageSize($pageSize)
  * @method int getPageSize()
@@ -129,12 +123,10 @@ class QueryProductName extends Request
  */
 class QueryLoraNodeInfoList extends Request
 {
-
 }/**
  */
 class QueryLoraProductName extends Request
 {
-
 }/**
  * @method $this setJsonCommands($jsonCommands)
  * @method string getJsonCommands()
@@ -145,7 +137,6 @@ class QueryLoraProductName extends Request
  */
 class SendMacCommand extends Request
 {
-
 }/**
  * @method $this setProductKey($productKey)
  * @method string getProductKey()
@@ -156,7 +147,6 @@ class SendMacCommand extends Request
  */
 class QueryOtaJobByDevices extends Request
 {
-
 }/**
  * @method $this setPageSize($pageSize)
  * @method int getPageSize()
@@ -167,14 +157,12 @@ class QueryOtaJobByDevices extends Request
  */
 class QueryFirmwareByUid extends Request
 {
-
 }/**
  * @method $this setFirmwareId($firmwareId)
  * @method int getFirmwareId()
  */
 class QueryFirmwareByPk extends Request
 {
-
 }/**
  * @method $this setFirmwareName($firmwareName)
  * @method string getFirmwareName()
@@ -191,7 +179,6 @@ class QueryFirmwareByPk extends Request
  */
 class QueryDeviceUpgradeInfo extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -204,7 +191,6 @@ class QueryDeviceUpgradeInfo extends Request
  */
 class UpgradeSingleDevice extends Request
 {
-
 }/**
  * @method $this setFirmwareName($firmwareName)
  * @method string getFirmwareName()
@@ -215,7 +201,6 @@ class UpgradeSingleDevice extends Request
  */
 class VerifyFirmware extends Request
 {
-
 }/**
  * @method $this setProductKey($productKey)
  * @method string getProductKey()
@@ -230,7 +215,6 @@ class VerifyFirmware extends Request
  */
 class QueryDeviceByPkAndVersion extends Request
 {
-
 }/**
  * @method $this setDevAddr($devAddr)
  * @method string getDevAddr()
@@ -251,7 +235,6 @@ class QueryDeviceByPkAndVersion extends Request
  */
 class InitNmsRouteMap extends Request
 {
-
 }/**
  * @method $this setTopic($topic)
  * @method string getTopic()
@@ -262,7 +245,6 @@ class InitNmsRouteMap extends Request
  */
 class CleanTopic extends Request
 {
-
 }/**
  * @method $this setDeviceName($deviceName)
  * @method string getDeviceName()
@@ -273,7 +255,6 @@ class CleanTopic extends Request
  */
 class InsertCommand extends Request
 {
-
 }/**
  * @method $this setjsonRouteMap($jsonRouteMap)
  * @method string getjsonRouteMap()
@@ -282,14 +263,12 @@ class InsertCommand extends Request
  */
 class SyncGateway extends Request
 {
-
 }/**
  * @method $this setFirmwareName($firmwareName)
  * @method string getFirmwareName()
  */
 class QueryFirmwareVerifyInfo extends Request
 {
-
 }/**
  * @method $this setProductKey($productKey)
  * @method string getProductKey()
@@ -298,7 +277,6 @@ class QueryFirmwareVerifyInfo extends Request
  */
 class QuerySingleDevice extends Request
 {
-
 }/**
  * @method $this setDevAddr($devAddr)
  * @method string getDevAddr()
@@ -309,7 +287,6 @@ class QuerySingleDevice extends Request
  */
 class DeleteRouteMap extends Request
 {
-
 }/**
  * @method $this setDevAddr($devAddr)
  * @method string getDevAddr()
@@ -324,7 +301,6 @@ class DeleteRouteMap extends Request
  */
 class DeleteRouteMapResponse extends Request
 {
-
 }/**
  * @method $this setProductKey($productKey)
  * @method string getProductKey()
@@ -335,14 +311,12 @@ class DeleteRouteMapResponse extends Request
  */
 class ResetDeviceUpgrade extends Request
 {
-
 }/**
  * @method $this setProductKey($productKey)
  * @method string getProductKey()
  */
 class QueryAmsProductMapping extends Request
 {
-
 }/**
  * @method $this setPattern($pattern)
  * @method string getPattern()
@@ -363,7 +337,6 @@ class QueryAmsProductMapping extends Request
  */
 class CreateOtaaDevice extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -374,7 +347,6 @@ class CreateOtaaDevice extends Request
  */
 class QueryOtaaDevice extends Request
 {
-
 }/**
  * @method $this setJsonCommands($jsonCommands)
  * @method string getJsonCommands()
@@ -383,33 +355,28 @@ class QueryOtaaDevice extends Request
  */
 class SendEventData extends Request
 {
-
 }/**
  * @method $this setFirmwareName($firmwareName)
  * @method string getFirmwareName()
  */
 class QueryStrategyByFirName extends Request
 {
-
 }/**
  * @method $this setProductKey($productKey)
  * @method string getProductKey()
  */
 class QueryVersionsByPk extends Request
 {
-
 }/**
  * @method $this setFirmwareName($firmwareName)
  * @method string getFirmwareName()
  */
 class FinishVerifyTask extends Request
 {
-
 }/**
  */
 class QueryProductNameAndAllCount extends Request
 {
-
 }/**
  * @method $this setFirmwareId($firmwareId)
  * @method int getFirmwareId()
@@ -426,7 +393,6 @@ class QueryProductNameAndAllCount extends Request
  */
 class DeviceUpgradeInfo extends Request
 {
-
 }/**
  * @method $this setProductKey($productKey)
  * @method string getProductKey()
@@ -435,7 +401,6 @@ class DeviceUpgradeInfo extends Request
  */
 class DeleteLoraDevice extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -444,14 +409,12 @@ class DeleteLoraDevice extends Request
  */
 class DeleteFirmware extends Request
 {
-
 }/**
  * @method $this setFirmwareId($firmwareId)
  * @method int getFirmwareId()
  */
 class QueryFirmwareVersionById extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -474,7 +437,6 @@ class QueryFirmwareVersionById extends Request
  */
 class CreateFirmware extends Request
 {
-
 }/**
  * @method $this setDeviceName($deviceName)
  * @method string getDeviceName()
@@ -503,14 +465,12 @@ class CreateFirmware extends Request
  */
 class RegisterLoraDevice extends Request
 {
-
 }/**
  * @method $this setFirmwareName($firmwareName)
  * @method string getFirmwareName()
  */
 class DeviceUpgradeCount extends Request
 {
-
 }/**
  * @method $this setDevAddr($devAddr)
  * @method string getDevAddr()
@@ -531,7 +491,6 @@ class DeviceUpgradeCount extends Request
  */
 class InitNmsRouteMapResponse extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -554,14 +513,12 @@ class InitNmsRouteMapResponse extends Request
  */
 class UpdateFirmware extends Request
 {
-
 }/**
  * @method $this setFirmwareId($firmwareId)
  * @method int getFirmwareId()
  */
 class QueryFirmwareById extends Request
 {
-
 }/**
  * @method $this setDeviceName($deviceName)
  * @method string getDeviceName()
@@ -574,7 +531,6 @@ class QueryFirmwareById extends Request
  */
 class SendMessage extends Request
 {
-
 }/**
  * @method $this setPageSize($pageSize)
  * @method int getPageSize()
@@ -587,7 +543,6 @@ class SendMessage extends Request
  */
 class QueryDeviceInfo extends Request
 {
-
 }/**
  * @method $this setProductKey($productKey)
  * @method string getProductKey()
@@ -596,7 +551,6 @@ class QueryDeviceInfo extends Request
  */
 class DeleteDeviceList extends Request
 {
-
 }/**
  * @method $this setFirmwareName($firmwareName)
  * @method string getFirmwareName()
@@ -617,7 +571,6 @@ class DeleteDeviceList extends Request
  */
 class BatchDeviceUpgrade extends Request
 {
-
 }/**
  * @method $this setFirmwareName($firmwareName)
  * @method string getFirmwareName()
@@ -628,5 +581,4 @@ class BatchDeviceUpgrade extends Request
  */
 class ReUpgradeDevices extends Request
 {
-
 }

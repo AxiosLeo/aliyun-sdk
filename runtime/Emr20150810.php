@@ -58,7 +58,6 @@ class V20150810
  */
 class RenewCluster extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -111,7 +110,6 @@ class RenewCluster extends Request
  */
 class CreateCluster extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -134,7 +132,6 @@ class CreateCluster extends Request
  */
 class ListCluster extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -145,7 +142,6 @@ class ListCluster extends Request
  */
 class DeleteExecutionPlan extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -200,7 +196,6 @@ class DeleteExecutionPlan extends Request
  */
 class ModifyExecutionPlan extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -211,7 +206,6 @@ class ModifyExecutionPlan extends Request
  */
 class DescribeCluster extends Request
 {
-
 }/**
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
@@ -230,7 +224,6 @@ class DescribeCluster extends Request
  */
 class ResizeCluster extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -245,7 +238,6 @@ class ResizeCluster extends Request
  */
 class GetClusterStatus extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -256,7 +248,6 @@ class GetClusterStatus extends Request
  */
 class DescribeJob extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -269,7 +260,6 @@ class DescribeJob extends Request
  */
 class ReleaseCluster extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -292,7 +282,6 @@ class ReleaseCluster extends Request
  */
 class ListExecutionPlans extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -301,7 +290,6 @@ class ListExecutionPlans extends Request
  */
 class ListAvailableConfig extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -312,7 +300,6 @@ class ListAvailableConfig extends Request
  */
 class ResumeExecutionPlanScheduler extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -353,7 +340,6 @@ class ResumeExecutionPlanScheduler extends Request
  */
 class QueryPrice extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -370,7 +356,6 @@ class QueryPrice extends Request
  */
 class ListExecutePlans extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -381,7 +366,6 @@ class ListExecutePlans extends Request
  */
 class SuspendExecutionPlanScheduler extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -398,7 +382,6 @@ class SuspendExecutionPlanScheduler extends Request
  */
 class ListExecutePlanExecuteRecords extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -419,7 +402,6 @@ class ListExecutePlanExecuteRecords extends Request
  */
 class ListExecutionPlanInstances extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -430,7 +412,6 @@ class ListExecutionPlanInstances extends Request
  */
 class DeleteJob extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -449,7 +430,6 @@ class DeleteJob extends Request
  */
 class ModifyJob extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -466,7 +446,6 @@ class ModifyJob extends Request
  */
 class CreateJob extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -483,7 +462,6 @@ class CreateJob extends Request
  */
 class ListJobExecutionInstances extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -494,7 +472,6 @@ class ListJobExecutionInstances extends Request
  */
 class KillExecutionJobInstance extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -505,7 +482,6 @@ class KillExecutionJobInstance extends Request
  */
 class DescribeExecutionPlan extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -516,7 +492,6 @@ class DescribeExecutionPlan extends Request
  */
 class KillExecutionPlanInstance extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -531,7 +506,6 @@ class KillExecutionPlanInstance extends Request
  */
 class ListJobs extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -542,7 +516,6 @@ class ListJobs extends Request
  */
 class RunExecutionPlan extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -553,7 +526,6 @@ class RunExecutionPlan extends Request
  */
 class ListJobInstanceWorkers extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -574,7 +546,6 @@ class ListJobInstanceWorkers extends Request
  */
 class ListClusters extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -587,7 +558,6 @@ class ListClusters extends Request
  */
 class ModifyClusterName extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -640,5 +610,4 @@ class ModifyClusterName extends Request
  */
 class CreateExecutionPlan extends Request
 {
-
 }

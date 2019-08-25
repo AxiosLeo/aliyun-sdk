@@ -40,21 +40,18 @@ class V20150701
  */
 class UpdateAccessKeyStatusForAccount extends Request
 {
-
 }/**
  * @method $this setInnerAccountHid($innerAccountHid)
  * @method string getInnerAccountHid()
  */
 class GetAliyunAccountWithBindHid extends Request
 {
-
 }/**
  * @method $this setInnerAccountHid($innerAccountHid)
  * @method string getInnerAccountHid()
  */
 class CreateAliyunAccountWithBindHid extends Request
 {
-
 }/**
  * @method $this setPK($pK)
  * @method string getPK()
@@ -63,7 +60,6 @@ class CreateAliyunAccountWithBindHid extends Request
  */
 class CreateAccessKeyForAccount extends Request
 {
-
 }/**
  * @method $this setPK($pK)
  * @method string getPK()
@@ -74,28 +70,24 @@ class CreateAccessKeyForAccount extends Request
  */
 class ListAccessKeysForAccount extends Request
 {
-
 }/**
  * @method $this setHavanaId($havanaId)
  * @method string getHavanaId()
  */
 class GetAliyunAccountWithBindTaobaoHid extends Request
 {
-
 }/**
  * @method $this setLoginToken($loginToken)
  * @method string getLoginToken()
  */
 class VerifyAccountLoginToken extends Request
 {
-
 }/**
  * @method $this setAliyunId($aliyunId)
  * @method string getAliyunId()
  */
 class GetBasicInfoForAccount extends Request
 {
-
 }/**
  * @method $this setPK($pK)
  * @method string getPK()
@@ -104,7 +96,6 @@ class GetBasicInfoForAccount extends Request
  */
 class UpdateStatusForAccount extends Request
 {
-
 }/**
  * @method $this setPK($pK)
  * @method string getPK()
@@ -113,14 +104,12 @@ class UpdateStatusForAccount extends Request
  */
 class DeleteAccessKeyForAccount extends Request
 {
-
 }/**
  * @method $this setNationalityCode($nationalityCode)
  * @method string getNationalityCode()
  */
 class CreateIntlAliyunAccount extends Request
 {
-
 }/**
  * @method $this setPK($pK)
  * @method string getPK()
@@ -131,14 +120,12 @@ class CreateIntlAliyunAccount extends Request
  */
 class CreateShortTermAccessKeyForAccount extends Request
 {
-
 }/**
  * @method $this setTargetPk($targetPk)
  * @method string getTargetPk()
  */
 class GenerateAccountLoginToken extends Request
 {
-
 }/**
  * @method $this setPK($pK)
  * @method string getPK()
@@ -147,7 +134,6 @@ class GenerateAccountLoginToken extends Request
  */
 class UpdatePasswordForAccount extends Request
 {
-
 }/**
  * @method $this setMaxItems($maxItems)
  * @method int getMaxItems()
@@ -156,14 +142,12 @@ class UpdatePasswordForAccount extends Request
  */
 class ListAliyunAccount extends Request
 {
-
 }/**
  * @method $this setAliyunId($aliyunId)
  * @method string getAliyunId()
  */
 class CreateAliyunAccount extends Request
 {
-
 }/**
  * @method $this setPK($pK)
  * @method string getPK()
@@ -174,5 +158,4 @@ class CreateAliyunAccount extends Request
  */
 class GetShortTermAccessKeyForAccount extends Request
 {
-
 }

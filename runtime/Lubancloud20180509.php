@@ -25,35 +25,30 @@ class V20180509
  */
 class QueryCutoutTaskResult extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
  */
 class QueryGenerateTaskResult extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
  */
 class GetStyles extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
  */
 class SubmitCutoutTask extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
  */
 class BuyOriginPictures extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -78,5 +73,4 @@ class BuyOriginPictures extends Request
  */
 class SubmitGenerateTask extends Request
 {
-
 }

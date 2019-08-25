@@ -44,7 +44,6 @@ class V20160511
  */
 class DeleteContactTemplate extends Request
 {
-
 }/**
  * @method $this setUserClientIp($userClientIp)
  * @method string getUserClientIp()
@@ -59,7 +58,6 @@ class DeleteContactTemplate extends Request
  */
 class SaveContactTemplateCredential extends Request
 {
-
 }/**
  * @method $this setUserClientIp($userClientIp)
  * @method string getUserClientIp()
@@ -84,7 +82,6 @@ class SaveContactTemplateCredential extends Request
  */
 class QueryContactTemplate extends Request
 {
-
 }/**
  * @method $this setUserClientIp($userClientIp)
  * @method string getUserClientIp()
@@ -131,7 +128,6 @@ class QueryContactTemplate extends Request
  */
 class SaveContactTemplate extends Request
 {
-
 }/**
  * @method $this setUserClientIp($userClientIp)
  * @method string getUserClientIp()
@@ -146,7 +142,6 @@ class SaveContactTemplate extends Request
  */
 class QueryFailReasonList extends Request
 {
-
 }/**
  * @method $this setOrderID($orderID)
  * @method string getOrderID()
@@ -157,7 +152,6 @@ class QueryFailReasonList extends Request
  */
 class QueryOrder extends Request
 {
-
 }/**
  * @method $this setUserClientIp($userClientIp)
  * @method string getUserClientIp()
@@ -178,7 +172,6 @@ class QueryOrder extends Request
  */
 class QueryBatchTaskDetailList extends Request
 {
-
 }/**
  * @method $this setSubOrderParam($subOrderParam)
  * @method array getSubOrderParam()
@@ -189,7 +182,6 @@ class QueryBatchTaskDetailList extends Request
  */
 class CreateOrder extends Request
 {
-
 }/**
  * @method $this setUserClientIp($userClientIp)
  * @method string getUserClientIp()
@@ -200,7 +192,6 @@ class CreateOrder extends Request
  */
 class QueryDomainBySaleId extends Request
 {
-
 }/**
  * @method $this setUserClientIp($userClientIp)
  * @method string getUserClientIp()
@@ -215,7 +206,6 @@ class QueryDomainBySaleId extends Request
  */
 class SaveTaskForSubmittingDomainNameCredentialByTemplateId extends Request
 {
-
 }/**
  * @method $this setUserClientIp($userClientIp)
  * @method string getUserClientIp()
@@ -254,14 +244,12 @@ class SaveTaskForSubmittingDomainNameCredentialByTemplateId extends Request
  */
 class QueryDomainList extends Request
 {
-
 }/**
  * @method $this setDomainName($domainName)
  * @method string getDomainName()
  */
 class GetWhoisInfo extends Request
 {
-
 }/**
  * @method $this setDomainName($domainName)
  * @method string getDomainName()
@@ -272,7 +260,6 @@ class GetWhoisInfo extends Request
  */
 class CheckDomain extends Request
 {
-
 }/**
  * @method $this setUserClientIp($userClientIp)
  * @method string getUserClientIp()
@@ -289,7 +276,6 @@ class CheckDomain extends Request
  */
 class QueryBatchTaskList extends Request
 {
-
 }/**
  * @method $this setUserClientIp($userClientIp)
  * @method string getUserClientIp()
@@ -306,7 +292,6 @@ class QueryBatchTaskList extends Request
  */
 class SaveTaskForSubmittingDomainNameCredential extends Request
 {
-
 }/**
  * @method $this setUserClientIp($userClientIp)
  * @method string getUserClientIp()
@@ -319,7 +304,6 @@ class SaveTaskForSubmittingDomainNameCredential extends Request
  */
 class QueryContact extends Request
 {
-
 }/**
  * @method $this setUserClientIp($userClientIp)
  * @method string getUserClientIp()
@@ -336,7 +320,6 @@ class QueryContact extends Request
  */
 class SaveTaskForModifyingDomainDns extends Request
 {
-
 }/**
  * @method $this setUserClientIp($userClientIp)
  * @method string getUserClientIp()
@@ -355,7 +338,6 @@ class SaveTaskForModifyingDomainDns extends Request
  */
 class SaveTaskForUpdatingContactByTemplateId extends Request
 {
-
 }/**
  * @method $this settype($type)
  * @method string gettype()
@@ -374,7 +356,6 @@ class SaveTaskForUpdatingContactByTemplateId extends Request
  */
 class OSuborderDomain extends Request
 {
-
 }/**
  * @method $this setUserClientIp($userClientIp)
  * @method string getUserClientIp()
@@ -389,7 +370,6 @@ class OSuborderDomain extends Request
  */
 class WhoisProtection extends Request
 {
-
 }/**
  * @method $this setUserClientIp($userClientIp)
  * @method string getUserClientIp()
@@ -408,5 +388,4 @@ class WhoisProtection extends Request
  */
 class SaveTaskForUpdatingContactByTempateId extends Request
 {
-
 }

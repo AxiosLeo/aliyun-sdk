@@ -49,7 +49,6 @@ class V20181203
  */
 class DescribeRiskItemType extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -72,7 +71,6 @@ class DescribeRiskItemType extends Request
  */
 class DescribeGroupedVul extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -89,7 +87,6 @@ class DescribeGroupedVul extends Request
  */
 class ModifyRiskCheckStatus extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -114,7 +111,6 @@ class ModifyRiskCheckStatus extends Request
  */
 class DescribeAlarmEventList extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -123,7 +119,6 @@ class DescribeAlarmEventList extends Request
  */
 class DescribeConcernNecessity extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -134,7 +129,6 @@ class DescribeConcernNecessity extends Request
  */
 class DescribeSecurityCheckScheduleConfig extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -143,7 +137,6 @@ class DescribeSecurityCheckScheduleConfig extends Request
  */
 class ModifyAutoDelConfig extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -156,7 +149,6 @@ class ModifyAutoDelConfig extends Request
  */
 class ModifyEmgVulSubmit extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -169,7 +161,6 @@ class ModifyEmgVulSubmit extends Request
  */
 class DescribeSuspEventDetail extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -186,7 +177,6 @@ class DescribeSuspEventDetail extends Request
  */
 class ModifyRiskSingleResultStatus extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -195,7 +185,6 @@ class ModifyRiskSingleResultStatus extends Request
  */
 class DescribeEmgVulGroup extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -212,7 +201,6 @@ class DescribeEmgVulGroup extends Request
  */
 class ModifySecurityCheckScheduleConfig extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -233,7 +221,6 @@ class ModifySecurityCheckScheduleConfig extends Request
  */
 class DescribeRiskCheckResult extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -260,7 +247,6 @@ class DescribeRiskCheckResult extends Request
  */
 class DescribeSuspEvents extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -269,14 +255,12 @@ class DescribeSuspEvents extends Request
  */
 class ModifyDeleteVulWhitelist extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
  */
 class DescribeAutoDelConfig extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -287,7 +271,6 @@ class DescribeAutoDelConfig extends Request
  */
 class DescribeVulWhitelist extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -304,7 +287,6 @@ class DescribeVulWhitelist extends Request
  */
 class StartBaselineSecurityCheck extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -315,7 +297,6 @@ class StartBaselineSecurityCheck extends Request
  */
 class ModifyCreateVulWhitelist extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -328,7 +309,6 @@ class ModifyCreateVulWhitelist extends Request
  */
 class DescribeAlarmEventDetail extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -339,7 +319,6 @@ class DescribeAlarmEventDetail extends Request
  */
 class DescribeUserBaselineAuthorization extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -364,7 +343,6 @@ class DescribeUserBaselineAuthorization extends Request
  */
 class DescribeVulList extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -375,7 +353,6 @@ class DescribeVulList extends Request
  */
 class ModifyConcernNecessity extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -386,7 +363,6 @@ class ModifyConcernNecessity extends Request
  */
 class DescribeRiskCheckSummary extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -401,7 +377,6 @@ class DescribeRiskCheckSummary extends Request
  */
 class ModifyOperateVul extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -416,5 +391,4 @@ class ModifyOperateVul extends Request
  */
 class DescribeVulDetails extends Request
 {
-
 }

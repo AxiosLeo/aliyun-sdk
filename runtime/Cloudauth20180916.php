@@ -39,7 +39,6 @@ class V20180916
  */
 class SubmitVerification extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -60,7 +59,6 @@ class SubmitVerification extends Request
  */
 class DetectFaceAttributes extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -79,7 +77,6 @@ class DetectFaceAttributes extends Request
  */
 class ModifyDeviceInfo extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -90,7 +87,6 @@ class ModifyDeviceInfo extends Request
  */
 class DescribeVerifySDK extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -115,7 +111,6 @@ class DescribeVerifySDK extends Request
  */
 class DescribeDeviceInfo extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -128,7 +123,6 @@ class DescribeDeviceInfo extends Request
  */
 class GetMaterials extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -145,7 +139,6 @@ class GetMaterials extends Request
  */
 class CompareFaces extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -158,7 +151,6 @@ class CompareFaces extends Request
  */
 class CreateVerifySDK extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -171,7 +163,6 @@ class CreateVerifySDK extends Request
  */
 class GetStatus extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -184,7 +175,6 @@ class GetStatus extends Request
  */
 class SubmitMaterials extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -201,7 +191,6 @@ class SubmitMaterials extends Request
  */
 class CreateAuthKey extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -220,5 +209,4 @@ class CreateAuthKey extends Request
  */
 class GetVerifyToken extends Request
 {
-
 }

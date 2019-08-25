@@ -61,7 +61,6 @@ class V20180821
  */
 class DeleteHighPriorityIp extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -82,7 +81,6 @@ class DeleteHighPriorityIp extends Request
  */
 class DescribeUises extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -99,7 +97,6 @@ class DescribeUises extends Request
  */
 class GetDroppedIpList extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -120,7 +117,6 @@ class GetDroppedIpList extends Request
  */
 class AddHighPriorityIp extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -143,7 +139,6 @@ class AddHighPriorityIp extends Request
  */
 class DescribeUisNetworkInterfaces extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -160,7 +155,6 @@ class DescribeUisNetworkInterfaces extends Request
  */
 class DeleteDnatEntry extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -183,7 +177,6 @@ class DeleteDnatEntry extends Request
  */
 class ModifyUisAttribute extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -210,7 +203,6 @@ class ModifyUisAttribute extends Request
  */
 class CreateUisConnection extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -229,7 +221,6 @@ class CreateUisConnection extends Request
  */
 class DeleteUisNode extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -256,7 +247,6 @@ class DeleteUisNode extends Request
  */
 class CreateUisNode extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -287,7 +277,6 @@ class CreateUisNode extends Request
  */
 class ModifyDnatEntry extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -312,7 +301,6 @@ class ModifyDnatEntry extends Request
  */
 class CreateUisNetworkInterface extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -333,7 +321,6 @@ class CreateUisNetworkInterface extends Request
  */
 class DeleteUisNodeIp extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -358,7 +345,6 @@ class DeleteUisNodeIp extends Request
  */
 class DescribeUisConnections extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -373,7 +359,6 @@ class DescribeUisConnections extends Request
  */
 class DescribeAreas extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -394,7 +379,6 @@ class DescribeAreas extends Request
  */
 class AddUisNodeIp extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -413,7 +397,6 @@ class AddUisNodeIp extends Request
  */
 class DeleteUisConnection extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -442,7 +425,6 @@ class DeleteUisConnection extends Request
  */
 class DescribeUisNodes extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -469,7 +451,6 @@ class DescribeUisNodes extends Request
  */
 class CreateDnatEntry extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -490,7 +471,6 @@ class CreateDnatEntry extends Request
  */
 class ModifyHighPriorityIp extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -507,7 +487,6 @@ class ModifyHighPriorityIp extends Request
  */
 class DeleteUisNetworkInterface extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -526,7 +505,6 @@ class DeleteUisNetworkInterface extends Request
  */
 class DeleteUis extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -551,7 +529,6 @@ class DeleteUis extends Request
  */
 class ModifyUisNodeAttribute extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -580,7 +557,6 @@ class ModifyUisNodeAttribute extends Request
  */
 class ModifyUisConnectionAttribute extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -605,7 +581,6 @@ class ModifyUisConnectionAttribute extends Request
  */
 class DescribeHighPriorityIp extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -628,7 +603,6 @@ class DescribeHighPriorityIp extends Request
  */
 class DescribeDnatEntries extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -645,7 +619,6 @@ class DescribeDnatEntries extends Request
  */
 class DescribeUiseNodeStatus extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -666,5 +639,4 @@ class DescribeUiseNodeStatus extends Request
  */
 class CreateUis extends Request
 {
-
 }

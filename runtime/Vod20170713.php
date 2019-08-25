@@ -47,7 +47,6 @@ class V20170713
  */
 class UpdateMaterial extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -72,7 +71,6 @@ class UpdateMaterial extends Request
  */
 class CreateUploadMaterial extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -91,7 +89,6 @@ class CreateUploadMaterial extends Request
  */
 class CreateUploadMediaFile extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method string getOwnerId()
@@ -124,7 +121,6 @@ class CreateUploadMediaFile extends Request
  */
 class SearchMaterial extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -137,7 +133,6 @@ class SearchMaterial extends Request
  */
 class SyncMaterial extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -158,7 +153,6 @@ class SyncMaterial extends Request
  */
 class AddCompanionresourceInfo extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method string getOwnerId()
@@ -173,7 +167,6 @@ class AddCompanionresourceInfo extends Request
  */
 class DeleteMaterial extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -184,7 +177,6 @@ class DeleteMaterial extends Request
  */
 class DescribeUserTopVideoByDay extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -197,7 +189,6 @@ class DescribeUserTopVideoByDay extends Request
  */
 class GetMaterial extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -210,5 +201,4 @@ class GetMaterial extends Request
  */
 class RefreshUploadMaterialToken extends Request
 {
-
 }

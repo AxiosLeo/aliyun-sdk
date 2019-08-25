@@ -20,5 +20,4 @@ class V20160816
  */
 class EdasRefund extends Request
 {
-
 }

@@ -243,7 +243,6 @@ class V20170328
  */
 class ApgroupBatchDeleteAp extends Request
 {
-
 }/**
  * @method $this setOperation($operation)
  * @method int getOperation()
@@ -252,14 +251,12 @@ class ApgroupBatchDeleteAp extends Request
  */
 class SetScanMode extends Request
 {
-
 }/**
  * @method $this setBid($bid)
  * @method int getBid()
  */
 class HeadquartersToolsO2O extends Request
 {
-
 }/**
  * @method $this setTraceId($traceId)
  * @method string getTraceId()
@@ -268,7 +265,6 @@ class HeadquartersToolsO2O extends Request
  */
 class ProduceInstance extends Request
 {
-
 }/**
  * @method $this setSid($sid)
  * @method int getSid()
@@ -277,7 +273,6 @@ class ProduceInstance extends Request
  */
 class AreaInfo extends Request
 {
-
 }/**
  * @method $this setActionName($actionName)
  * @method string getActionName()
@@ -288,7 +283,6 @@ class AreaInfo extends Request
  */
 class ListConfigByAction extends Request
 {
-
 }/**
  * @method $this setAgsid($agsid)
  * @method int getAgsid()
@@ -299,7 +293,6 @@ class ListConfigByAction extends Request
  */
 class ReportHour extends Request
 {
-
 }/**
  * @method $this setAgsid($agsid)
  * @method int getAgsid()
@@ -312,19 +305,16 @@ class ReportHour extends Request
  */
 class ProfileHistoryList extends Request
 {
-
 }/**
  * @method $this setIds($ids)
  * @method array getIds()
  */
 class UpgradeAPGroup extends Request
 {
-
 }/**
  */
 class GetSubAccountStatus extends Request
 {
-
 }/**
  * @method $this setId($id)
  * @method int getId()
@@ -341,7 +331,6 @@ class GetSubAccountStatus extends Request
  */
 class SavePortalTemplate extends Request
 {
-
 }/**
  * @method $this setSn($sn)
  * @method string getSn()
@@ -350,21 +339,18 @@ class SavePortalTemplate extends Request
  */
 class DeviceBatchCreate extends Request
 {
-
 }/**
  * @method $this setdata($data)
  * @method string getdata()
  */
 class InnerProduceCloudWF extends Request
 {
-
 }/**
  * @method $this setId($id)
  * @method int getId()
  */
 class ResetAp extends Request
 {
-
 }/**
  * @method $this setGsid($gsid)
  * @method int getGsid()
@@ -377,7 +363,6 @@ class ResetAp extends Request
  */
 class ProfileBase extends Request
 {
-
 }/**
  * @method $this setId($id)
  * @method int getId()
@@ -392,7 +377,6 @@ class ProfileBase extends Request
  */
 class SavePageConfigTemplate extends Request
 {
-
 }/**
  * @method $this setQueryId($queryId)
  * @method int getQueryId()
@@ -401,7 +385,6 @@ class SavePageConfigTemplate extends Request
  */
 class GetSidsAndGids4Bid extends Request
 {
-
 }/**
  * @method $this setSid($sid)
  * @method int getSid()
@@ -444,28 +427,24 @@ class GetSidsAndGids4Bid extends Request
  */
 class ShopUpdate extends Request
 {
-
 }/**
  * @method $this setShopId($shopId)
  * @method int getShopId()
  */
 class GetInstanceByShop extends Request
 {
-
 }/**
  * @method $this setApgroupId($apgroupId)
  * @method int getApgroupId()
  */
 class GetApTop extends Request
 {
-
 }/**
  * @method $this setGsid($gsid)
  * @method int getGsid()
  */
 class PeripheryAnalyse extends Request
 {
-
 }/**
  * @method $this setGsid($gsid)
  * @method int getGsid()
@@ -486,7 +465,6 @@ class PeripheryAnalyse extends Request
  */
 class GetCrowdList extends Request
 {
-
 }/**
  * @method $this setPortalStatus($portalStatus)
  * @method bool getPortalStatus()
@@ -509,14 +487,12 @@ class GetCrowdList extends Request
  */
 class SaveApPortalConfig extends Request
 {
-
 }/**
  * @method $this setGsid($gsid)
  * @method int getGsid()
  */
 class OemFlowrateMonitor extends Request
 {
-
 }/**
  * @method $this setAgsid($agsid)
  * @method int getAgsid()
@@ -527,14 +503,12 @@ class OemFlowrateMonitor extends Request
  */
 class ReportZoneDay extends Request
 {
-
 }/**
  * @method $this setBid($bid)
  * @method int getBid()
  */
 class BusinessInfo extends Request
 {
-
 }/**
  * @method $this setApgroupId($apgroupId)
  * @method int getApgroupId()
@@ -551,21 +525,18 @@ class BusinessInfo extends Request
  */
 class GetOnlineStaTimeSer extends Request
 {
-
 }/**
  * @method $this setGsid($gsid)
  * @method int getGsid()
  */
 class OemFlowrateAnalyse extends Request
 {
-
 }/**
  * @method $this setBid($bid)
  * @method int getBid()
  */
 class OemFlowrateOverview extends Request
 {
-
 }/**
  * @method $this setMacList($macList)
  * @method array getMacList()
@@ -574,21 +545,18 @@ class OemFlowrateOverview extends Request
  */
 class SendCommandByMac extends Request
 {
-
 }/**
  * @method $this setAgsid($agsid)
  * @method int getAgsid()
  */
 class ReportRealtime extends Request
 {
-
 }/**
  * @method $this setId($id)
  * @method int getId()
  */
 class GetGroupApRadioConfigProgress extends Request
 {
-
 }/**
  * @method $this setBid($bid)
  * @method int getBid()
@@ -603,14 +571,12 @@ class GetGroupApRadioConfigProgress extends Request
  */
 class UserDataUpdate extends Request
 {
-
 }/**
  * @method $this setBid($bid)
  * @method int getBid()
  */
 class HeadquartersOverview extends Request
 {
-
 }/**
  * @method $this setBid($bid)
  * @method int getBid()
@@ -623,49 +589,42 @@ class HeadquartersOverview extends Request
  */
 class ShopGroupCreate extends Request
 {
-
 }/**
  * @method $this setId($id)
  * @method int getId()
  */
 class GetUmengPagePermission4Root extends Request
 {
-
 }/**
  * @method $this setGsid($gsid)
  * @method int getGsid()
  */
 class ShopOverview extends Request
 {
-
 }/**
  * @method $this setId($id)
  * @method int getId()
  */
 class GetApgroupSsidConfigProgress extends Request
 {
-
 }/**
  * @method $this setApgroupId($apgroupId)
  * @method int getApgroupId()
  */
 class GetApStaMiscAgg extends Request
 {
-
 }/**
  * @method $this setId($id)
  * @method int getId()
  */
 class DelSubAccountPermission extends Request
 {
-
 }/**
  * @method $this setId($id)
  * @method int getId()
  */
 class GetPageConfigTemplate extends Request
 {
-
 }/**
  * @method $this setApgroupId($apgroupId)
  * @method int getApgroupId()
@@ -674,7 +633,6 @@ class GetPageConfigTemplate extends Request
  */
 class ApgroupBatchAddAp extends Request
 {
-
 }/**
  * @method $this setId($id)
  * @method int getId()
@@ -701,14 +659,12 @@ class ApgroupBatchAddAp extends Request
  */
 class SaveApConfig extends Request
 {
-
 }/**
  * @method $this setGsid($gsid)
  * @method int getGsid()
  */
 class GroupDetails extends Request
 {
-
 }/**
  * @method $this setSid($sid)
  * @method int getSid()
@@ -717,7 +673,6 @@ class GroupDetails extends Request
  */
 class AreaDelete extends Request
 {
-
 }/**
  * @method $this setGsid($gsid)
  * @method int getGsid()
@@ -730,7 +685,6 @@ class AreaDelete extends Request
  */
 class ProfileConsume extends Request
 {
-
 }/**
  * @method $this setBid($bid)
  * @method int getBid()
@@ -745,14 +699,12 @@ class ProfileConsume extends Request
  */
 class UserDataShowList extends Request
 {
-
 }/**
  * @method $this setBid($bid)
  * @method int getBid()
  */
 class OemSitingContrast extends Request
 {
-
 }/**
  * @method $this setBindId($bindId)
  * @method int getBindId()
@@ -761,14 +713,12 @@ class OemSitingContrast extends Request
  */
 class GetApPortalBind extends Request
 {
-
 }/**
  * @method $this setId($id)
  * @method int getId()
  */
 class GetUpgradeImg extends Request
 {
-
 }/**
  * @method $this setDid($did)
  * @method int getDid()
@@ -777,7 +727,6 @@ class GetUpgradeImg extends Request
  */
 class DeviceDelete extends Request
 {
-
 }/**
  * @method $this setPageIndex($pageIndex)
  * @method int getPageIndex()
@@ -794,12 +743,10 @@ class DeviceDelete extends Request
  */
 class ListApgroupConfig extends Request
 {
-
 }/**
  */
 class GetBindAp4Umeng extends Request
 {
-
 }/**
  * @method $this setName($name)
  * @method string getName()
@@ -810,21 +757,18 @@ class GetBindAp4Umeng extends Request
  */
 class AddApgroupConfig extends Request
 {
-
 }/**
  * @method $this setSid($sid)
  * @method int getSid()
  */
 class ShopGetfiltermac extends Request
 {
-
 }/**
  * @method $this setGsid($gsid)
  * @method int getGsid()
  */
 class UserAnalyse extends Request
 {
-
 }/**
  * @method $this setApgroupId($apgroupId)
  * @method int getApgroupId()
@@ -841,14 +785,12 @@ class UserAnalyse extends Request
  */
 class GetScanProbeTimeSer extends Request
 {
-
 }/**
  * @method $this setGsid($gsid)
  * @method int getGsid()
  */
 class OemHeatLine extends Request
 {
-
 }/**
  * @method $this setGid($gid)
  * @method int getGid()
@@ -861,7 +803,6 @@ class OemHeatLine extends Request
  */
 class ShopGroupUpdate extends Request
 {
-
 }/**
  * @method $this setPageIndex($pageIndex)
  * @method int getPageIndex()
@@ -882,7 +823,6 @@ class ShopGroupUpdate extends Request
  */
 class ListGroupApBriefConfig extends Request
 {
-
 }/**
  * @method $this setSid($sid)
  * @method int getSid()
@@ -891,7 +831,6 @@ class ListGroupApBriefConfig extends Request
  */
 class ShopDeletemarketing extends Request
 {
-
 }/**
  * @method $this setId($id)
  * @method int getId()
@@ -900,7 +839,6 @@ class ShopDeletemarketing extends Request
  */
 class GetPortalTempDetail extends Request
 {
-
 }/**
  * @method $this setPage($page)
  * @method int getPage()
@@ -909,14 +847,12 @@ class GetPortalTempDetail extends Request
  */
 class BusinessShowList extends Request
 {
-
 }/**
  * @method $this setId($id)
  * @method int getId()
  */
 class GetApDetailedStatus extends Request
 {
-
 }/**
  * @method $this setId($id)
  * @method int getId()
@@ -937,7 +873,6 @@ class GetApDetailedStatus extends Request
  */
 class ListStaOnoffLog extends Request
 {
-
 }/**
  * @method $this setMac($mac)
  * @method string getMac()
@@ -948,7 +883,6 @@ class ListStaOnoffLog extends Request
  */
 class AliyunRegisterApAsset extends Request
 {
-
 }/**
  * @method $this setPageIndex($pageIndex)
  * @method int getPageIndex()
@@ -969,14 +903,12 @@ class AliyunRegisterApAsset extends Request
  */
 class ListApAsset extends Request
 {
-
 }/**
  * @method $this setApgroupId($apgroupId)
  * @method int getApgroupId()
  */
 class GetLatestApStatistic extends Request
 {
-
 }/**
  * @method $this setApList($apList)
  * @method array getApList()
@@ -985,7 +917,6 @@ class GetLatestApStatistic extends Request
  */
 class QueryRenewPrice extends Request
 {
-
 }/**
  * @method $this setAgsid($agsid)
  * @method int getAgsid()
@@ -998,7 +929,6 @@ class QueryRenewPrice extends Request
  */
 class ProfileHistory extends Request
 {
-
 }/**
  * @method $this setSearchName($searchName)
  * @method string getSearchName()
@@ -1013,14 +943,12 @@ class ProfileHistory extends Request
  */
 class ListBusinessDetails extends Request
 {
-
 }/**
  * @method $this setdata($data)
  * @method string getdata()
  */
 class InnerCheckOrder extends Request
 {
-
 }/**
  * @method $this setSid($sid)
  * @method int getSid()
@@ -1033,7 +961,6 @@ class InnerCheckOrder extends Request
  */
 class ShopMarketingList extends Request
 {
-
 }/**
  * @method $this setGsid($gsid)
  * @method int getGsid()
@@ -1046,7 +973,6 @@ class ShopMarketingList extends Request
  */
 class ProfileDistrict extends Request
 {
-
 }/**
  * @method $this setApConfigId($apConfigId)
  * @method int getApConfigId()
@@ -1055,26 +981,22 @@ class ProfileDistrict extends Request
  */
 class SaveApScanConfig extends Request
 {
-
 }/**
  */
 class GetGroupApChangeNameTemplate extends Request
 {
-
 }/**
  * @method $this setApgroupId($apgroupId)
  * @method int getApgroupId()
  */
 class GetStaTop extends Request
 {
-
 }/**
  * @method $this setApgroupId($apgroupId)
  * @method int getApgroupId()
  */
 class GetLatestStaStatistic extends Request
 {
-
 }/**
  * @method $this setSearchMac($searchMac)
  * @method string getSearchMac()
@@ -1099,21 +1021,18 @@ class GetLatestStaStatistic extends Request
  */
 class ListApRadioStatus extends Request
 {
-
 }/**
  * @method $this setId($id)
  * @method int getId()
  */
 class GetSubAccountPermission extends Request
 {
-
 }/**
  * @method $this setId($id)
  * @method int getId()
  */
 class RepairAp extends Request
 {
-
 }/**
  * @method $this setSearchMac($searchMac)
  * @method string getSearchMac()
@@ -1134,12 +1053,10 @@ class RepairAp extends Request
  */
 class ListBriefApConfig extends Request
 {
-
 }/**
  */
 class GetUpgradeAPProgress extends Request
 {
-
 }/**
  * @method $this setBid($bid)
  * @method int getBid()
@@ -1160,14 +1077,12 @@ class GetUpgradeAPProgress extends Request
  */
 class ShopShowList extends Request
 {
-
 }/**
  * @method $this setBid($bid)
  * @method int getBid()
  */
 class HeadquartersRanking extends Request
 {
-
 }/**
  * @method $this setBid($bid)
  * @method int getBid()
@@ -1210,14 +1125,12 @@ class HeadquartersRanking extends Request
  */
 class ShopCreate extends Request
 {
-
 }/**
  * @method $this setId($id)
  * @method int getId()
  */
 class GetApgroupScanConfigSaveProgress extends Request
 {
-
 }/**
  * @method $this setPageIndex($pageIndex)
  * @method int getPageIndex()
@@ -1248,14 +1161,12 @@ class GetApgroupScanConfigSaveProgress extends Request
  */
 class ListStaStatus extends Request
 {
-
 }/**
  * @method $this setGsid($gsid)
  * @method int getGsid()
  */
 class GroupTrend extends Request
 {
-
 }/**
  * @method $this setBid($bid)
  * @method int getBid()
@@ -1266,12 +1177,10 @@ class GroupTrend extends Request
  */
 class ShopGroupShowList extends Request
 {
-
 }/**
  */
 class CheckUmengDataAnalysisPermission extends Request
 {
-
 }/**
  * @method $this setTraceId($traceId)
  * @method string getTraceId()
@@ -1280,28 +1189,24 @@ class CheckUmengDataAnalysisPermission extends Request
  */
 class releaseInstance extends Request
 {
-
 }/**
  * @method $this setId($id)
  * @method int getId()
  */
 class ResetApConfig extends Request
 {
-
 }/**
  * @method $this setId($id)
  * @method int getId()
  */
 class GetGroupApRepairProgress extends Request
 {
-
 }/**
  * @method $this setGsid($gsid)
  * @method int getGsid()
  */
 class OemHeatSetting extends Request
 {
-
 }/**
  * @method $this setId($id)
  * @method int getId()
@@ -1324,14 +1229,12 @@ class OemHeatSetting extends Request
  */
 class SaveApgroupConfig extends Request
 {
-
 }/**
  * @method $this setBid($bid)
  * @method int getBid()
  */
 class HeadquartersToolsContrast extends Request
 {
-
 }/**
  * @method $this setBid($bid)
  * @method int getBid()
@@ -1344,26 +1247,22 @@ class HeadquartersToolsContrast extends Request
  */
 class UserDataCreate extends Request
 {
-
 }/**
  * @method $this setId($id)
  * @method int getId()
  */
 class GetApgroupConfigProgress extends Request
 {
-
 }/**
  * @method $this setBid($bid)
  * @method int getBid()
  */
 class HeadquartersToolsCoincide extends Request
 {
-
 }/**
  */
 class GetUpgradeAPGroupProgress extends Request
 {
-
 }/**
  * @method $this setGsid($gsid)
  * @method int getGsid()
@@ -1376,7 +1275,6 @@ class GetUpgradeAPGroupProgress extends Request
  */
 class ProfileMedia extends Request
 {
-
 }/**
  * @method $this setAgsid($agsid)
  * @method int getAgsid()
@@ -1387,7 +1285,6 @@ class ProfileMedia extends Request
  */
 class ReportDay extends Request
 {
-
 }/**
  * @method $this setTraceId($traceId)
  * @method string getTraceId()
@@ -1396,14 +1293,12 @@ class ReportDay extends Request
  */
 class ResumeInstance extends Request
 {
-
 }/**
  * @method $this setGsid($gsid)
  * @method int getGsid()
  */
 class ShopActionCustome extends Request
 {
-
 }/**
  * @method $this setSid($sid)
  * @method int getSid()
@@ -1416,7 +1311,6 @@ class ShopActionCustome extends Request
  */
 class AreaUpdate extends Request
 {
-
 }/**
  * @method $this setPageIndex($pageIndex)
  * @method int getPageIndex()
@@ -1435,7 +1329,6 @@ class AreaUpdate extends Request
  */
 class ListProbeinfo extends Request
 {
-
 }/**
  * @method $this setPageIndex($pageIndex)
  * @method int getPageIndex()
@@ -1450,12 +1343,10 @@ class ListProbeinfo extends Request
  */
 class ListAccountConfig extends Request
 {
-
 }/**
  */
 class GetBatchSaveApAssetProgress extends Request
 {
-
 }/**
  * @method $this setSearchTempName($searchTempName)
  * @method string getSearchTempName()
@@ -1466,14 +1357,12 @@ class GetBatchSaveApAssetProgress extends Request
  */
 class ListPageConfigTemplate extends Request
 {
-
 }/**
  * @method $this setMapId($mapId)
  * @method int getMapId()
  */
 class ListApPosition extends Request
 {
-
 }/**
  * @method $this setApgroupId($apgroupId)
  * @method int getApgroupId()
@@ -1482,7 +1371,6 @@ class ListApPosition extends Request
  */
 class OnoffGroupApRadio extends Request
 {
-
 }/**
  * @method $this setId($id)
  * @method int getId()
@@ -1491,14 +1379,12 @@ class OnoffGroupApRadio extends Request
  */
 class DeleteApgroupSsidConfig extends Request
 {
-
 }/**
  * @method $this setGsid($gsid)
  * @method int getGsid()
  */
 class GroupOverview extends Request
 {
-
 }/**
  * @method $this setTotalItem($totalItem)
  * @method int getTotalItem()
@@ -1519,21 +1405,18 @@ class GroupOverview extends Request
  */
 class ListApPositionMap extends Request
 {
-
 }/**
  * @method $this setdata($data)
  * @method string getdata()
  */
 class InnerRefund extends Request
 {
-
 }/**
  * @method $this setGsid($gsid)
  * @method int getGsid()
  */
 class ShopActionReturning extends Request
 {
-
 }/**
  * @method $this setMapId($mapId)
  * @method int getMapId()
@@ -1542,14 +1425,12 @@ class ShopActionReturning extends Request
  */
 class DelApPosition extends Request
 {
-
 }/**
  * @method $this setDirType($dirType)
  * @method int getDirType()
  */
 class GetOssServerSign extends Request
 {
-
 }/**
  * @method $this setSid($sid)
  * @method int getSid()
@@ -1564,14 +1445,12 @@ class GetOssServerSign extends Request
  */
 class DeviceShowList extends Request
 {
-
 }/**
  * @method $this setId($id)
  * @method int getId()
  */
 class FindAp extends Request
 {
-
 }/**
  * @method $this setBid($bid)
  * @method int getBid()
@@ -1590,21 +1469,18 @@ class FindAp extends Request
  */
 class BusinessUpdate extends Request
 {
-
 }/**
  * @method $this setId($id)
  * @method int getId()
  */
 class DeleteApgroupConfig extends Request
 {
-
 }/**
  * @method $this setGsid($gsid)
  * @method int getGsid()
  */
 class FrequencyAnalyse extends Request
 {
-
 }/**
  * @method $this setSearchMac($searchMac)
  * @method string getSearchMac()
@@ -1623,14 +1499,12 @@ class FrequencyAnalyse extends Request
  */
 class ListApUpgrade extends Request
 {
-
 }/**
  * @method $this setBid($bid)
  * @method int getBid()
  */
 class OemFlowrateRanking extends Request
 {
-
 }/**
  * @method $this setFileName($fileName)
  * @method string getFileName()
@@ -1645,7 +1519,6 @@ class OemFlowrateRanking extends Request
  */
 class UpLoadMap extends Request
 {
-
 }/**
  * @method $this setSearchEmail($searchEmail)
  * @method string getSearchEmail()
@@ -1660,7 +1533,6 @@ class UpLoadMap extends Request
  */
 class ListUmengPagePermission4Root extends Request
 {
-
 }/**
  * @method $this setBid($bid)
  * @method int getBid()
@@ -1669,14 +1541,12 @@ class ListUmengPagePermission4Root extends Request
  */
 class GetAllActiveShopByGroup extends Request
 {
-
 }/**
  * @method $this setId($id)
  * @method int getId()
  */
 class GetProbeDataSubscriberConfig extends Request
 {
-
 }/**
  * @method $this setDid($did)
  * @method int getDid()
@@ -1687,7 +1557,6 @@ class GetProbeDataSubscriberConfig extends Request
  */
 class DeviceUpdate extends Request
 {
-
 }/**
  * @method $this setSid($sid)
  * @method int getSid()
@@ -1698,28 +1567,24 @@ class DeviceUpdate extends Request
  */
 class AreaShowList extends Request
 {
-
 }/**
  * @method $this setSid($sid)
  * @method int getSid()
  */
 class ShopGetredress extends Request
 {
-
 }/**
  * @method $this setMapId($mapId)
  * @method int getMapId()
  */
 class DeletePositionMap extends Request
 {
-
 }/**
  * @method $this setId($id)
  * @method int getId()
  */
 class GetStaDetailedStatus extends Request
 {
-
 }/**
  * @method $this setApModelId($apModelId)
  * @method int getApModelId()
@@ -1732,14 +1597,12 @@ class GetStaDetailedStatus extends Request
  */
 class SetUpgradeImgByModel extends Request
 {
-
 }/**
  * @method $this setGsid($gsid)
  * @method int getGsid()
  */
 class GroupIntime extends Request
 {
-
 }/**
  * @method $this setUid($uid)
  * @method int getUid()
@@ -1756,19 +1619,16 @@ class GroupIntime extends Request
  */
 class CreateSubAccountPermission extends Request
 {
-
 }/**
  */
 class GetAllApModel extends Request
 {
-
 }/**
  * @method $this setBid($bid)
  * @method int getBid()
  */
 class OemMarketingCustomer extends Request
 {
-
 }/**
  * @method $this setFuzzySearch($fuzzySearch)
  * @method string getFuzzySearch()
@@ -1779,21 +1639,18 @@ class OemMarketingCustomer extends Request
  */
 class ListBriefConfigByAction extends Request
 {
-
 }/**
  * @method $this setMapId($mapId)
  * @method int getMapId()
  */
 class GetMapUrl extends Request
 {
-
 }/**
  * @method $this setId($id)
  * @method int getId()
  */
 class RepairGroupAp extends Request
 {
-
 }/**
  * @method $this setPageIndex($pageIndex)
  * @method int getPageIndex()
@@ -1804,28 +1661,24 @@ class RepairGroupAp extends Request
  */
 class ListSubAccountPermission extends Request
 {
-
 }/**
  * @method $this setJsonData($jsonData)
  * @method string getJsonData()
  */
 class SavePortalConfig extends Request
 {
-
 }/**
  * @method $this setId($id)
  * @method int getId()
  */
 class GetApDetailedConfig extends Request
 {
-
 }/**
  * @method $this setId($id)
  * @method int getId()
  */
 class GetApgroupPortalConfigProgress extends Request
 {
-
 }/**
  * @method $this setId($id)
  * @method int getId()
@@ -1836,28 +1689,24 @@ class GetApgroupPortalConfigProgress extends Request
  */
 class GetApRunHistoryTimeSer extends Request
 {
-
 }/**
  * @method $this setJsonData($jsonData)
  * @method string getJsonData()
  */
 class SaveApMapInfo extends Request
 {
-
 }/**
  * @method $this setId($id)
  * @method int getId()
  */
 class GetGroupApRadioOnoffProgress extends Request
 {
-
 }/**
  * @method $this setId($id)
  * @method int getId()
  */
 class KickAndClearPMKcache extends Request
 {
-
 }/**
  * @method $this setGsid($gsid)
  * @method int getGsid()
@@ -1870,21 +1719,18 @@ class KickAndClearPMKcache extends Request
  */
 class ProfileTrade extends Request
 {
-
 }/**
  * @method $this setBid($bid)
  * @method int getBid()
  */
 class OemSitingSelction extends Request
 {
-
 }/**
  * @method $this setId($id)
  * @method int getId()
  */
 class KickSta extends Request
 {
-
 }/**
  * @method $this setId($id)
  * @method int getId()
@@ -1975,7 +1821,6 @@ class KickSta extends Request
  */
 class SaveApRadioSsidConfig extends Request
 {
-
 }/**
  * @method $this setBid($bid)
  * @method int getBid()
@@ -1984,14 +1829,12 @@ class SaveApRadioSsidConfig extends Request
  */
 class UserDataDelete extends Request
 {
-
 }/**
  * @method $this setSid($sid)
  * @method int getSid()
  */
 class ShopDelete extends Request
 {
-
 }/**
  * @method $this setApgroupId($apgroupId)
  * @method int getApgroupId()
@@ -2008,21 +1851,18 @@ class ShopDelete extends Request
  */
 class GetOnlineApTimeSer extends Request
 {
-
 }/**
  * @method $this setJsonData($jsonData)
  * @method string getJsonData()
  */
 class PutOssFile extends Request
 {
-
 }/**
  * @method $this setApgroupId($apgroupId)
  * @method int getApgroupId()
  */
 class GetDailyStatistic extends Request
 {
-
 }/**
  * @method $this setApList($apList)
  * @method array getApList()
@@ -2035,40 +1875,34 @@ class GetDailyStatistic extends Request
  */
 class ConfigAutoRenew extends Request
 {
-
 }/**
  * @method $this setGsid($gsid)
  * @method int getGsid()
  */
 class OemHeatMap extends Request
 {
-
 }/**
  * @method $this setBid($bid)
  * @method int getBid()
  */
 class HeadquartersTrend extends Request
 {
-
 }/**
  * @method $this setId($id)
  * @method int getId()
  */
 class GetApgroupDetailedConfig extends Request
 {
-
 }/**
  * @method $this setUploadData($uploadData)
  * @method string getUploadData()
  */
 class ExcelToJson extends Request
 {
-
 }/**
  */
 class CheckRootPermission extends Request
 {
-
 }/**
  * @method $this setId($id)
  * @method int getId()
@@ -2113,7 +1947,6 @@ class CheckRootPermission extends Request
  */
 class SaveApRadioConfig extends Request
 {
-
 }/**
  * @method $this setSid($sid)
  * @method int getSid()
@@ -2128,14 +1961,12 @@ class SaveApRadioConfig extends Request
  */
 class ShopDataAlarm extends Request
 {
-
 }/**
  * @method $this setJsonData($jsonData)
  * @method string getJsonData()
  */
 class SaveAccountConfig extends Request
 {
-
 }/**
  * @method $this setId($id)
  * @method int getId()
@@ -2144,7 +1975,6 @@ class SaveAccountConfig extends Request
  */
 class DeleteApRadioSsidConfig extends Request
 {
-
 }/**
  * @method $this setSid($sid)
  * @method int getSid()
@@ -2153,14 +1983,12 @@ class DeleteApRadioSsidConfig extends Request
  */
 class ShopSetfiltermac extends Request
 {
-
 }/**
  * @method $this setBid($bid)
  * @method int getBid()
  */
 class OemMarketingSettingData extends Request
 {
-
 }/**
  * @method $this setPageIndex($pageIndex)
  * @method int getPageIndex()
@@ -2177,26 +2005,22 @@ class OemMarketingSettingData extends Request
  */
 class ListApAssetCanBeAdded extends Request
 {
-
 }/**
  */
 class GetGroupApRadioConfigTemplate extends Request
 {
-
 }/**
  * @method $this setUid($uid)
  * @method int getUid()
  */
 class GetBids4Uid4Root extends Request
 {
-
 }/**
  * @method $this setId($id)
  * @method int getId()
  */
 class GetRadioRunHistoryTimeSer extends Request
 {
-
 }/**
  * @method $this setId($id)
  * @method int getId()
@@ -2211,12 +2035,10 @@ class GetRadioRunHistoryTimeSer extends Request
  */
 class SaveUmengPagePermission4Root extends Request
 {
-
 }/**
  */
 class ListBusinesses extends Request
 {
-
 }/**
  * @method $this setId($id)
  * @method int getId()
@@ -2231,7 +2053,6 @@ class ListBusinesses extends Request
  */
 class ModifySubAccountPermission extends Request
 {
-
 }/**
  * @method $this setAgsid($agsid)
  * @method int getAgsid()
@@ -2250,7 +2071,6 @@ class ModifySubAccountPermission extends Request
  */
 class ProfileTag extends Request
 {
-
 }/**
  * @method $this setPageIndex($pageIndex)
  * @method int getPageIndex()
@@ -2259,14 +2079,12 @@ class ProfileTag extends Request
  */
 class ListUpgradeImg extends Request
 {
-
 }/**
  * @method $this setJsonData($jsonData)
  * @method string getJsonData()
  */
 class ListApPositionStatus extends Request
 {
-
 }/**
  * @method $this setId($id)
  * @method int getId()
@@ -2275,7 +2093,6 @@ class ListApPositionStatus extends Request
  */
 class SaveStaStatus extends Request
 {
-
 }/**
  * @method $this setSearchMac($searchMac)
  * @method string getSearchMac()
@@ -2306,7 +2123,6 @@ class SaveStaStatus extends Request
  */
 class ListApStatus extends Request
 {
-
 }/**
  * @method $this setAgsid($agsid)
  * @method int getAgsid()
@@ -2317,14 +2133,12 @@ class ListApStatus extends Request
  */
 class ReportMinute extends Request
 {
-
 }/**
  * @method $this setApAssetId($apAssetId)
  * @method int getApAssetId()
  */
 class ListApDetailInfo extends Request
 {
-
 }/**
  * @method $this setSid($sid)
  * @method int getSid()
@@ -2337,14 +2151,12 @@ class ListApDetailInfo extends Request
  */
 class ShopCreatemarketing extends Request
 {
-
 }/**
  * @method $this setId($id)
  * @method int getId()
  */
 class DelPageConfigTemplate extends Request
 {
-
 }/**
  * @method $this setTraceId($traceId)
  * @method string getTraceId()
@@ -2353,7 +2165,6 @@ class DelPageConfigTemplate extends Request
  */
 class CeaseInstance extends Request
 {
-
 }/**
  * @method $this setId($id)
  * @method int getId()
@@ -2374,14 +2185,12 @@ class CeaseInstance extends Request
  */
 class SaveProbeDataSubscriber extends Request
 {
-
 }/**
  * @method $this setId($id)
  * @method int getId()
  */
 class DelPortalTemp extends Request
 {
-
 }/**
  * @method $this setSid($sid)
  * @method int getSid()
@@ -2392,7 +2201,6 @@ class DelPortalTemp extends Request
  */
 class AreaCreate extends Request
 {
-
 }/**
  * @method $this setAgsid($agsid)
  * @method int getAgsid()
@@ -2403,38 +2211,32 @@ class AreaCreate extends Request
  */
 class ReportZoneMinute extends Request
 {
-
 }/**
  * @method $this setIds($ids)
  * @method array getIds()
  */
 class UpgradeAP extends Request
 {
-
 }/**
  */
 class GetSendCommandByMacProgress extends Request
 {
-
 }/**
  */
 class GetPageProperties extends Request
 {
-
 }/**
  * @method $this setGsid($gsid)
  * @method int getGsid()
  */
 class ShopCamera extends Request
 {
-
 }/**
  * @method $this setId($id)
  * @method int getId()
  */
 class DelUmengPagePermission4Root extends Request
 {
-
 }/**
  * @method $this setSid($sid)
  * @method int getSid()
@@ -2463,56 +2265,48 @@ class DelUmengPagePermission4Root extends Request
  */
 class ShopSetredress extends Request
 {
-
 }/**
  * @method $this setMac($mac)
  * @method string getMac()
  */
 class GetDeviceInfoByMac extends Request
 {
-
 }/**
  * @method $this setGid($gid)
  * @method int getGid()
  */
 class ShopGroupDelete extends Request
 {
-
 }/**
  * @method $this setId($id)
  * @method int getId()
  */
 class GetAccountConfig extends Request
 {
-
 }/**
  * @method $this setJsonData($jsonData)
  * @method string getJsonData()
  */
 class BatchRegisterApAsset extends Request
 {
-
 }/**
  * @method $this setJsonData($jsonData)
  * @method string getJsonData()
  */
 class SaveGroupApRadioConfig extends Request
 {
-
 }/**
  * @method $this setBid($bid)
  * @method int getBid()
  */
 class OemMarketingPotential extends Request
 {
-
 }/**
  * @method $this setBid($bid)
  * @method int getBid()
  */
 class GetUserUmengPagePermission extends Request
 {
-
 }/**
  * @method $this setBusinessAddress($businessAddress)
  * @method string getBusinessAddress()
@@ -2541,28 +2335,24 @@ class GetUserUmengPagePermission extends Request
  */
 class BusinessCreate extends Request
 {
-
 }/**
  * @method $this setJsonData($jsonData)
  * @method string getJsonData()
  */
 class BatchChangeGroupApName extends Request
 {
-
 }/**
  * @method $this setMacList($macList)
  * @method array getMacList()
  */
 class GetScanMode extends Request
 {
-
 }/**
  * @method $this setJsonData($jsonData)
  * @method string getJsonData()
  */
 class SaveApgroupSsidConfig extends Request
 {
-
 }/**
  * @method $this setId($id)
  * @method int getId()
@@ -2587,14 +2377,12 @@ class SaveApgroupSsidConfig extends Request
  */
 class ListApStaStatus extends Request
 {
-
 }/**
  * @method $this setGsid($gsid)
  * @method int getGsid()
  */
 class OemFlowrateIntelligent extends Request
 {
-
 }/**
  * @method $this setAgsid($agsid)
  * @method int getAgsid()
@@ -2605,21 +2393,18 @@ class OemFlowrateIntelligent extends Request
  */
 class ReportZoneHour extends Request
 {
-
 }/**
  * @method $this setId($id)
  * @method int getId()
  */
 class GetAddApsProgress extends Request
 {
-
 }/**
  * @method $this setGid($gid)
  * @method int getGid()
  */
 class ShopGroupInfo extends Request
 {
-
 }/**
  * @method $this setApgroupId($apgroupId)
  * @method int getApgroupId()
@@ -2628,14 +2413,12 @@ class ShopGroupInfo extends Request
  */
 class SaveApgroupScanConfig extends Request
 {
-
 }/**
  * @method $this setAgsid($agsid)
  * @method int getAgsid()
  */
 class ReportZoneRealtime extends Request
 {
-
 }/**
  * @method $this setApList($apList)
  * @method array getApList()
@@ -2644,14 +2427,12 @@ class ReportZoneRealtime extends Request
  */
 class CreateRenewOrder extends Request
 {
-
 }/**
  * @method $this setSid($sid)
  * @method int getSid()
  */
 class ShopInfo extends Request
 {
-
 }/**
  * @method $this setSearchTempName($searchTempName)
  * @method string getSearchTempName()
@@ -2666,7 +2447,6 @@ class ShopInfo extends Request
  */
 class ListPortalTemplate extends Request
 {
-
 }/**
  * @method $this setPageIndex($pageIndex)
  * @method int getPageIndex()
@@ -2675,14 +2455,12 @@ class ListPortalTemplate extends Request
  */
 class GetBid extends Request
 {
-
 }/**
  * @method $this setJsonData($jsonData)
  * @method string getJsonData()
  */
 class BatchSaveApPosition extends Request
 {
-
 }/**
  * @method $this setSid($sid)
  * @method int getSid()
@@ -2697,12 +2475,10 @@ class BatchSaveApPosition extends Request
  */
 class DeviceCreate extends Request
 {
-
 }/**
  * @method $this setId($id)
  * @method int getId()
  */
 class GetStaRunHistoryTimeSer extends Request
 {
-
 }

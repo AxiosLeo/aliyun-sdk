@@ -38,7 +38,6 @@ class V20180208
  */
 class QueryAuctions extends Request
 {
-
 }/**
  * @method $this setCurrentPage($currentPage)
  * @method int getCurrentPage()
@@ -49,7 +48,6 @@ class QueryAuctions extends Request
  */
 class QueryBrokerDemandRecord extends Request
 {
-
 }/**
  * @method $this setBizId($bizId)
  * @method string getBizId()
@@ -58,14 +56,12 @@ class QueryBrokerDemandRecord extends Request
  */
 class AcceptDemand extends Request
 {
-
 }/**
  * @method $this setAuctionId($auctionId)
  * @method string getAuctionId()
  */
 class QueryAuctionDetail extends Request
 {
-
 }/**
  * @method $this setBizId($bizId)
  * @method string getBizId()
@@ -74,7 +70,6 @@ class QueryAuctionDetail extends Request
  */
 class FinishDemand extends Request
 {
-
 }/**
  * @method $this setAuctionId($auctionId)
  * @method string getAuctionId()
@@ -85,7 +80,6 @@ class FinishDemand extends Request
  */
 class BidDomain extends Request
 {
-
 }/**
  * @method $this setAuctionId($auctionId)
  * @method string getAuctionId()
@@ -96,19 +90,16 @@ class BidDomain extends Request
  */
 class QueryBidRecords extends Request
 {
-
 }/**
  */
 class GetReserveDomainUrl extends Request
 {
-
 }/**
  * @method $this setDomainName($domainName)
  * @method string getDomainName()
  */
 class QueryBookingDomainInfo extends Request
 {
-
 }/**
  * @method $this setBizId($bizId)
  * @method string getBizId()
@@ -117,7 +108,6 @@ class QueryBookingDomainInfo extends Request
  */
 class RecordDemand extends Request
 {
-
 }/**
  * @method $this setDomainName($domainName)
  * @method string getDomainName()
@@ -126,7 +116,6 @@ class RecordDemand extends Request
  */
 class ReserveDomain extends Request
 {
-
 }/**
  * @method $this setStatus($status)
  * @method string getStatus()
@@ -139,7 +128,6 @@ class ReserveDomain extends Request
  */
 class QueryBrokerDemand extends Request
 {
-
 }/**
  * @method $this setBizId($bizId)
  * @method string getBizId()
@@ -154,7 +142,6 @@ class QueryBrokerDemand extends Request
  */
 class RequestPayDemand extends Request
 {
-
 }/**
  * @method $this setBizId($bizId)
  * @method string getBizId()
@@ -163,7 +150,6 @@ class RequestPayDemand extends Request
  */
 class FailDemand extends Request
 {
-
 }/**
  * @method $this setBizId($bizId)
  * @method string getBizId()
@@ -172,5 +158,4 @@ class FailDemand extends Request
  */
 class RefuseDemand extends Request
 {
-
 }

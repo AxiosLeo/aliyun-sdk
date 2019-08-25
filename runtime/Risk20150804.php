@@ -48,7 +48,6 @@ class V20150804
  */
 class WriteUssc extends Request
 {
-
 }/**
  * @method $this setRequestId($requestId)
  * @method string getRequestId()
@@ -75,7 +74,6 @@ class WriteUssc extends Request
  */
 class ValidateVerifyCode extends Request
 {
-
 }/**
  * @method $this setType($type)
  * @method string getType()
@@ -90,7 +88,6 @@ class ValidateVerifyCode extends Request
  */
 class QueryNameList extends Request
 {
-
 }/**
  * @method $this setRequestId($requestId)
  * @method string getRequestId()
@@ -119,7 +116,6 @@ class QueryNameList extends Request
  */
 class SendVerifyCode extends Request
 {
-
 }/**
  * @method $this setMteeCode($mteeCode)
  * @method string getMteeCode()
@@ -146,5 +142,4 @@ class SendVerifyCode extends Request
  */
 class FindRisk extends Request
 {
-
 }

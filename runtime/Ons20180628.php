@@ -68,7 +68,6 @@ class V20180628
  */
 class OnsMqttQueryClientByTopic extends Request
 {
-
 }/**
  * @method $this setOnsRegionId($onsRegionId)
  * @method string getOnsRegionId()
@@ -87,7 +86,6 @@ class OnsMqttQueryClientByTopic extends Request
  */
 class OnsMessagePush extends Request
 {
-
 }/**
  * @method $this setOnsRegionId($onsRegionId)
  * @method string getOnsRegionId()
@@ -108,7 +106,6 @@ class OnsMessagePush extends Request
  */
 class OnsTrendTopicInputTps extends Request
 {
-
 }/**
  * @method $this setOnsRegionId($onsRegionId)
  * @method string getOnsRegionId()
@@ -121,7 +118,6 @@ class OnsTrendTopicInputTps extends Request
  */
 class OnsTopicList extends Request
 {
-
 }/**
  * @method $this setOnsRegionId($onsRegionId)
  * @method string getOnsRegionId()
@@ -144,7 +140,6 @@ class OnsTopicList extends Request
  */
 class OnsTrendGroupOutputTps extends Request
 {
-
 }/**
  * @method $this setOnsRegionId($onsRegionId)
  * @method string getOnsRegionId()
@@ -155,7 +150,6 @@ class OnsTrendGroupOutputTps extends Request
  */
 class OnsTraceGetResult extends Request
 {
-
 }/**
  * @method $this setOnsRegionId($onsRegionId)
  * @method string getOnsRegionId()
@@ -170,7 +164,6 @@ class OnsTraceGetResult extends Request
  */
 class OnsConsumerAccumulate extends Request
 {
-
 }/**
  * @method $this setPreventCache($preventCache)
  * @method int getPreventCache()
@@ -185,7 +178,6 @@ class OnsConsumerAccumulate extends Request
  */
 class OnsInstanceUpdate extends Request
 {
-
 }/**
  * @method $this setOnsRegionId($onsRegionId)
  * @method string getOnsRegionId()
@@ -198,7 +190,6 @@ class OnsInstanceUpdate extends Request
  */
 class OnsGroupDelete extends Request
 {
-
 }/**
  * @method $this setOnsRegionId($onsRegionId)
  * @method string getOnsRegionId()
@@ -215,7 +206,6 @@ class OnsGroupDelete extends Request
  */
 class OnsMqttGroupIdCreate extends Request
 {
-
 }/**
  * @method $this setOnsRegionId($onsRegionId)
  * @method string getOnsRegionId()
@@ -232,7 +222,6 @@ class OnsMqttGroupIdCreate extends Request
  */
 class OnsConsumerStatus extends Request
 {
-
 }/**
  * @method $this setOnsRegionId($onsRegionId)
  * @method string getOnsRegionId()
@@ -241,7 +230,6 @@ class OnsConsumerStatus extends Request
  */
 class OnsInstanceInServiceList extends Request
 {
-
 }/**
  * @method $this setPreventCache($preventCache)
  * @method int getPreventCache()
@@ -270,7 +258,6 @@ class OnsInstanceInServiceList extends Request
  */
 class OnsWarnCreate extends Request
 {
-
 }/**
  * @method $this setOnsRegionId($onsRegionId)
  * @method string getOnsRegionId()
@@ -285,7 +272,6 @@ class OnsWarnCreate extends Request
  */
 class OnsGroupConsumerUpdate extends Request
 {
-
 }/**
  * @method $this setOnsRegionId($onsRegionId)
  * @method string getOnsRegionId()
@@ -304,7 +290,6 @@ class OnsGroupConsumerUpdate extends Request
  */
 class OnsMessageSend extends Request
 {
-
 }/**
  * @method $this setOnsRegionId($onsRegionId)
  * @method string getOnsRegionId()
@@ -315,7 +300,6 @@ class OnsMessageSend extends Request
  */
 class OnsMqttGroupIdList extends Request
 {
-
 }/**
  * @method $this setOnsRegionId($onsRegionId)
  * @method string getOnsRegionId()
@@ -328,7 +312,6 @@ class OnsMqttGroupIdList extends Request
  */
 class OnsConsumerGetConnection extends Request
 {
-
 }/**
  * @method $this setOnsRegionId($onsRegionId)
  * @method string getOnsRegionId()
@@ -341,7 +324,6 @@ class OnsConsumerGetConnection extends Request
  */
 class OnsTopicStatus extends Request
 {
-
 }/**
  * @method $this setOnsRegionId($onsRegionId)
  * @method string getOnsRegionId()
@@ -356,7 +338,6 @@ class OnsTopicStatus extends Request
  */
 class OnsConsumerTimeSpan extends Request
 {
-
 }/**
  * @method $this setOnsRegionId($onsRegionId)
  * @method string getOnsRegionId()
@@ -369,7 +350,6 @@ class OnsConsumerTimeSpan extends Request
  */
 class OnsTopicDelete extends Request
 {
-
 }/**
  * @method $this setPreventCache($preventCache)
  * @method int getPreventCache()
@@ -382,7 +362,6 @@ class OnsTopicDelete extends Request
  */
 class OnsInstanceCreate extends Request
 {
-
 }/**
  * @method $this setOnsRegionId($onsRegionId)
  * @method string getOnsRegionId()
@@ -395,7 +374,6 @@ class OnsInstanceCreate extends Request
  */
 class OnsGroupList extends Request
 {
-
 }/**
  * @method $this setOnsRegionId($onsRegionId)
  * @method string getOnsRegionId()
@@ -408,7 +386,6 @@ class OnsGroupList extends Request
  */
 class OnsMqttQueryClientByClientId extends Request
 {
-
 }/**
  * @method $this setOnsRegionId($onsRegionId)
  * @method string getOnsRegionId()
@@ -427,7 +404,6 @@ class OnsMqttQueryClientByClientId extends Request
  */
 class OnsTraceQueryByMsgId extends Request
 {
-
 }/**
  * @method $this setOnsRegionId($onsRegionId)
  * @method string getOnsRegionId()
@@ -442,7 +418,6 @@ class OnsTraceQueryByMsgId extends Request
  */
 class OnsMessageTrace extends Request
 {
-
 }/**
  * @method $this setOnsRegionId($onsRegionId)
  * @method string getOnsRegionId()
@@ -461,7 +436,6 @@ class OnsMessageTrace extends Request
  */
 class OnsTraceQueryByMsgKey extends Request
 {
-
 }/**
  * @method $this setPreventCache($preventCache)
  * @method int getPreventCache()
@@ -484,7 +458,6 @@ class OnsTraceQueryByMsgKey extends Request
  */
 class OnsMessagePageQueryByTopic extends Request
 {
-
 }/**
  * @method $this setOnsRegionId($onsRegionId)
  * @method string getOnsRegionId()
@@ -499,7 +472,6 @@ class OnsMessagePageQueryByTopic extends Request
  */
 class OnsMessageGetByKey extends Request
 {
-
 }/**
  * @method $this setOnsRegionId($onsRegionId)
  * @method string getOnsRegionId()
@@ -518,7 +490,6 @@ class OnsMessageGetByKey extends Request
  */
 class OnsMqttQueryHistoryOnline extends Request
 {
-
 }/**
  * @method $this setOnsRegionId($onsRegionId)
  * @method string getOnsRegionId()
@@ -535,7 +506,6 @@ class OnsMqttQueryHistoryOnline extends Request
  */
 class OnsTopicCreate extends Request
 {
-
 }/**
  * @method $this setOnsRegionId($onsRegionId)
  * @method string getOnsRegionId()
@@ -546,7 +516,6 @@ class OnsTopicCreate extends Request
  */
 class OnsInstanceDelete extends Request
 {
-
 }/**
  * @method $this setPreventCache($preventCache)
  * @method int getPreventCache()
@@ -573,7 +542,6 @@ class OnsInstanceDelete extends Request
  */
 class OnsMqttQueryMsgTransTrend extends Request
 {
-
 }/**
  * @method $this setOnsRegionId($onsRegionId)
  * @method string getOnsRegionId()
@@ -588,7 +556,6 @@ class OnsMqttQueryMsgTransTrend extends Request
  */
 class OnsMessageGetByMsgId extends Request
 {
-
 }/**
  * @method $this setOnsRegionId($onsRegionId)
  * @method string getOnsRegionId()
@@ -601,7 +568,6 @@ class OnsMessageGetByMsgId extends Request
  */
 class OnsMqttQueryClientByGroupId extends Request
 {
-
 }/**
  * @method $this setOnsRegionId($onsRegionId)
  * @method string getOnsRegionId()
@@ -616,7 +582,6 @@ class OnsMqttQueryClientByGroupId extends Request
  */
 class OnsTopicUpdate extends Request
 {
-
 }/**
  * @method $this setOnsRegionId($onsRegionId)
  * @method string getOnsRegionId()
@@ -635,7 +600,6 @@ class OnsTopicUpdate extends Request
  */
 class OnsConsumerResetOffset extends Request
 {
-
 }/**
  * @method $this setOnsRegionId($onsRegionId)
  * @method string getOnsRegionId()
@@ -650,14 +614,12 @@ class OnsConsumerResetOffset extends Request
  */
 class OnsGroupCreate extends Request
 {
-
 }/**
  * @method $this setPreventCache($preventCache)
  * @method int getPreventCache()
  */
 class OnsRegionList extends Request
 {
-
 }/**
  * @method $this setOnsRegionId($onsRegionId)
  * @method string getOnsRegionId()
@@ -672,7 +634,6 @@ class OnsRegionList extends Request
  */
 class OnsMqttGroupIdDelete extends Request
 {
-
 }/**
  * @method $this setOnsRegionId($onsRegionId)
  * @method string getOnsRegionId()
@@ -689,7 +650,6 @@ class OnsMqttGroupIdDelete extends Request
  */
 class OnsWarnDelete extends Request
 {
-
 }/**
  * @method $this setOnsRegionId($onsRegionId)
  * @method string getOnsRegionId()
@@ -700,5 +660,4 @@ class OnsWarnDelete extends Request
  */
 class OnsInstanceBaseInfo extends Request
 {
-
 }

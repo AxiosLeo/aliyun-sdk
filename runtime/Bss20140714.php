@@ -31,28 +31,24 @@ class V20140714
  */
 class SubscriptionCreateOrderApi extends Request
 {
-
 }/**
  * @method $this setCouponNumber($couponNumber)
  * @method string getCouponNumber()
  */
 class DescribeCouponDetail extends Request
 {
-
 }/**
  * @method $this setparamStr($paramStr)
  * @method string getparamStr()
  */
 class CreateOrder extends Request
 {
-
 }/**
  * @method $this setparamStr($paramStr)
  * @method string getparamStr()
  */
 class vnoPayCallBackNotify extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -71,19 +67,16 @@ class vnoPayCallBackNotify extends Request
  */
 class SetResourceBusinessStatus extends Request
 {
-
 }/**
  */
 class DescribeCashDetail extends Request
 {
-
 }/**
  * @method $this setparamStr($paramStr)
  * @method string getparamStr()
  */
 class QueryForCssOrder extends Request
 {
-
 }/**
  * @method $this setStatus($status)
  * @method string getStatus()
@@ -98,19 +91,16 @@ class QueryForCssOrder extends Request
  */
 class DescribeCouponList extends Request
 {
-
 }/**
  * @method $this setparamStr($paramStr)
  * @method string getparamStr()
  */
 class vnoBatchRefundOrder extends Request
 {
-
 }/**
  * @method $this setparamStr($paramStr)
  * @method string getparamStr()
  */
 class OpenCallback extends Request
 {
-
 }

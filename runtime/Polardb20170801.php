@@ -71,7 +71,6 @@ class V20170801
  */
 class ModifyDBClusterEndpoint extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -90,7 +89,6 @@ class ModifyDBClusterEndpoint extends Request
  */
 class DeleteDBEndpointAddress extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -113,7 +111,6 @@ class DeleteDBEndpointAddress extends Request
  */
 class UntagResources extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -128,7 +125,6 @@ class UntagResources extends Request
  */
 class RestartDBNode extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -149,7 +145,6 @@ class RestartDBNode extends Request
  */
 class GrantAccountPrivilege extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -166,7 +161,6 @@ class GrantAccountPrivilege extends Request
  */
 class DescribeAccounts extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -181,7 +175,6 @@ class DescribeAccounts extends Request
  */
 class DeleteDBCluster extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -206,7 +199,6 @@ class DeleteDBCluster extends Request
  */
 class CreateDatabase extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -221,7 +213,6 @@ class CreateDatabase extends Request
  */
 class DescribeBackupPolicy extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -238,7 +229,6 @@ class DescribeBackupPolicy extends Request
  */
 class DeleteDBClusterEndpoint extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -259,7 +249,6 @@ class DeleteDBClusterEndpoint extends Request
  */
 class ModifyDBEndpointAddress extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -276,7 +265,6 @@ class ModifyDBEndpointAddress extends Request
  */
 class DeleteDatabase extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -295,7 +283,6 @@ class DeleteDatabase extends Request
  */
 class ModifyAccountPassword extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -310,7 +297,6 @@ class ModifyAccountPassword extends Request
  */
 class CreateBackup extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -327,7 +313,6 @@ class CreateBackup extends Request
  */
 class DescribeDBClusterEndpoints extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -344,7 +329,6 @@ class DescribeDBClusterEndpoints extends Request
  */
 class ModifyDBClusterDescription extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -365,7 +349,6 @@ class ModifyDBClusterDescription extends Request
  */
 class CreateDBClusterEndpoint extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -394,7 +377,6 @@ class CreateDBClusterEndpoint extends Request
  */
 class DescribeBackups extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -411,7 +393,6 @@ class DescribeBackups extends Request
  */
 class DeleteAccount extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -438,7 +419,6 @@ class DeleteAccount extends Request
  */
 class CreateAccount extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -453,7 +433,6 @@ class CreateAccount extends Request
  */
 class DescribeDBClusterAttribute extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -474,7 +453,6 @@ class DescribeDBClusterAttribute extends Request
  */
 class CreateDBEndpointAddress extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -493,7 +471,6 @@ class CreateDBEndpointAddress extends Request
  */
 class ResetAccount extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -506,7 +483,6 @@ class ResetAccount extends Request
  */
 class DescribeRegions extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -521,7 +497,6 @@ class DescribeRegions extends Request
  */
 class DescribeDBClusterAccessWhitelist extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -540,7 +515,6 @@ class DescribeDBClusterAccessWhitelist extends Request
  */
 class ModifyAccountDescription extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -559,7 +533,6 @@ class ModifyAccountDescription extends Request
  */
 class ModifyDBDescription extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -578,7 +551,6 @@ class ModifyDBDescription extends Request
  */
 class RevokeAccountPrivilege extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -595,7 +567,6 @@ class RevokeAccountPrivilege extends Request
  */
 class ModifyDBClusterMaintainTime extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -610,7 +581,6 @@ class ModifyDBClusterMaintainTime extends Request
  */
 class DescribeDBClusterParameters extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -627,7 +597,6 @@ class DescribeDBClusterParameters extends Request
  */
 class DeleteBackup extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -648,7 +617,6 @@ class DeleteBackup extends Request
  */
 class TagResources extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -665,7 +633,6 @@ class TagResources extends Request
  */
 class DescribeDatabases extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -686,7 +653,6 @@ class DescribeDatabases extends Request
  */
 class ModifyBackupPolicy extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -705,7 +671,6 @@ class ModifyBackupPolicy extends Request
  */
 class ModifyDBClusterParameters extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -734,7 +699,6 @@ class ModifyDBClusterParameters extends Request
  */
 class DescribeDBClusters extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -757,7 +721,6 @@ class DescribeDBClusters extends Request
  */
 class ListTagResources extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -778,5 +741,4 @@ class ListTagResources extends Request
  */
 class ModifyDBClusterAccessWhitelist extends Request
 {
-
 }

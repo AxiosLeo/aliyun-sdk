@@ -33,7 +33,6 @@ class V20180709
  */
 class MobileStopSpeedUp extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -46,7 +45,6 @@ class MobileStopSpeedUp extends Request
  */
 class MobileStatusQuery extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -59,7 +57,6 @@ class MobileStatusQuery extends Request
  */
 class BandStatusQuery extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -82,7 +79,6 @@ class BandStatusQuery extends Request
  */
 class BandStartSpeedUp extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -97,7 +93,6 @@ class BandStartSpeedUp extends Request
  */
 class BandOfferOrder extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -120,7 +115,6 @@ class BandOfferOrder extends Request
  */
 class MobileStartSpeedUp extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -135,7 +129,6 @@ class MobileStartSpeedUp extends Request
  */
 class BandPrecheck extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -154,5 +147,4 @@ class BandPrecheck extends Request
  */
 class BandStopSpeedUp extends Request
 {
-
 }

@@ -26,14 +26,12 @@ class V20161219
  */
 class RefundInstance extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
  */
 class GetInstanceCount extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -54,7 +52,6 @@ class GetInstanceCount extends Request
  */
 class CreateInstance extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -69,7 +66,6 @@ class CreateInstance extends Request
  */
 class UpgradeInstance extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -86,5 +82,4 @@ class UpgradeInstance extends Request
  */
 class RenewInstance extends Request
 {
-
 }

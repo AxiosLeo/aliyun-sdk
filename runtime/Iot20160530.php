@@ -78,7 +78,6 @@ class V20160530
  */
 class UpdateRule extends Request
 {
-
 }/**
  * @method $this setProductName($productName)
  * @method string getProductName()
@@ -93,7 +92,6 @@ class UpdateRule extends Request
  */
 class UpdateProduct extends Request
 {
-
 }/**
  * @method $this setProductKey($productKey)
  * @method int getProductKey()
@@ -106,14 +104,12 @@ class UpdateProduct extends Request
  */
 class DeviceGrant extends Request
 {
-
 }/**
  * @method $this setApplyId($applyId)
  * @method int getApplyId()
  */
 class QueryApplyStatus extends Request
 {
-
 }/**
  * @method $this setActionId($actionId)
  * @method int getActionId()
@@ -124,7 +120,6 @@ class QueryApplyStatus extends Request
  */
 class UpdateRuleAction extends Request
 {
-
 }/**
  * @method $this setProductKey($productKey)
  * @method int getProductKey()
@@ -137,14 +132,12 @@ class UpdateRuleAction extends Request
  */
 class Sub extends Request
 {
-
 }/**
  * @method $this setActionId($actionId)
  * @method int getActionId()
  */
 class GetRuleAction extends Request
 {
-
 }/**
  * @method $this setDesc($desc)
  * @method string getDesc()
@@ -157,7 +150,6 @@ class GetRuleAction extends Request
  */
 class UpdateProductTopic extends Request
 {
-
 }/**
  * @method $this setName($name)
  * @method string getName()
@@ -172,14 +164,12 @@ class UpdateProductTopic extends Request
  */
 class CreateProduct extends Request
 {
-
 }/**
  * @method $this setRootId($rootId)
  * @method int getRootId()
  */
 class GetCats extends Request
 {
-
 }/**
  * @method $this setCurrenPage($currenPage)
  * @method int getCurrenPage()
@@ -190,7 +180,6 @@ class GetCats extends Request
  */
 class QueryPageByApplyId extends Request
 {
-
 }/**
  * @method $this setDeviceName($deviceName)
  * @method string getDeviceName()
@@ -199,7 +188,6 @@ class QueryPageByApplyId extends Request
  */
 class RegistDevice extends Request
 {
-
 }/**
  * @method $this setPageSize($pageSize)
  * @method int getPageSize()
@@ -208,7 +196,6 @@ class RegistDevice extends Request
  */
 class QueryProductByUserId extends Request
 {
-
 }/**
  * @method $this setProductKey($productKey)
  * @method int getProductKey()
@@ -219,21 +206,18 @@ class QueryProductByUserId extends Request
  */
 class SubTopicFilter extends Request
 {
-
 }/**
  * @method $this setRuleId($ruleId)
  * @method int getRuleId()
  */
 class DeleteRule extends Request
 {
-
 }/**
  * @method $this setTopicId($topicId)
  * @method string getTopicId()
  */
 class DeleteProductTopic extends Request
 {
-
 }/**
  * @method $this setProductKey($productKey)
  * @method string getProductKey()
@@ -246,14 +230,12 @@ class DeleteProductTopic extends Request
  */
 class CreateProductTopic extends Request
 {
-
 }/**
  * @method $this setRuleId($ruleId)
  * @method int getRuleId()
  */
 class GetRule extends Request
 {
-
 }/**
  * @method $this setCurrenPage($currenPage)
  * @method int getCurrenPage()
@@ -262,14 +244,12 @@ class GetRule extends Request
  */
 class ListRule extends Request
 {
-
 }/**
  * @method $this setProductKey($productKey)
  * @method int getProductKey()
  */
 class ServerOnline extends Request
 {
-
 }/**
  * @method $this setProductKey($productKey)
  * @method int getProductKey()
@@ -282,7 +262,6 @@ class ServerOnline extends Request
  */
 class Pub extends Request
 {
-
 }/**
  * @method $this setDeviceName($deviceName)
  * @method string getDeviceName()
@@ -291,14 +270,12 @@ class Pub extends Request
  */
 class DeleteDevice extends Request
 {
-
 }/**
  * @method $this setRuleId($ruleId)
  * @method int getRuleId()
  */
 class StopRule extends Request
 {
-
 }/**
  * @method $this setProductKey($productKey)
  * @method int getProductKey()
@@ -311,7 +288,6 @@ class StopRule extends Request
  */
 class RevertRpc extends Request
 {
-
 }/**
  * @method $this setProductKey($productKey)
  * @method string getProductKey()
@@ -320,28 +296,24 @@ class RevertRpc extends Request
  */
 class QueryDeviceTopic extends Request
 {
-
 }/**
  * @method $this setActionId($actionId)
  * @method int getActionId()
  */
 class DeleteRuleAction extends Request
 {
-
 }/**
  * @method $this setProductKey($productKey)
  * @method string getProductKey()
  */
 class QueryProduct extends Request
 {
-
 }/**
  * @method $this setProductKey($productKey)
  * @method string getProductKey()
  */
 class QueryProductTopic extends Request
 {
-
 }/**
  * @method $this setProductKey($productKey)
  * @method int getProductKey()
@@ -356,14 +328,12 @@ class QueryProductTopic extends Request
  */
 class DevicePermitModify extends Request
 {
-
 }/**
  * @method $this setRuleId($ruleId)
  * @method int getRuleId()
  */
 class StartRule extends Request
 {
-
 }/**
  * @method $this setProductKey($productKey)
  * @method int getProductKey()
@@ -374,7 +344,6 @@ class StartRule extends Request
  */
 class UnSub extends Request
 {
-
 }/**
  * @method $this setTopicOperation($topicOperation)
  * @method string getTopicOperation()
@@ -385,7 +354,6 @@ class UnSub extends Request
  */
 class CheckTopicPermission extends Request
 {
-
 }/**
  * @method $this setProductKey($productKey)
  * @method string getProductKey()
@@ -396,7 +364,6 @@ class CheckTopicPermission extends Request
  */
 class SaveServerCallback extends Request
 {
-
 }/**
  * @method $this setProductKey($productKey)
  * @method string getProductKey()
@@ -405,7 +372,6 @@ class SaveServerCallback extends Request
  */
 class BatchGetDeviceState extends Request
 {
-
 }/**
  * @method $this setDeviceName($deviceName)
  * @method string getDeviceName()
@@ -414,7 +380,6 @@ class BatchGetDeviceState extends Request
  */
 class QueryDeviceByName extends Request
 {
-
 }/**
  * @method $this setProductKey($productKey)
  * @method string getProductKey()
@@ -425,14 +390,12 @@ class QueryDeviceByName extends Request
  */
 class QueryDevice extends Request
 {
-
 }/**
  * @method $this setRuleId($ruleId)
  * @method int getRuleId()
  */
 class ListRuleActions extends Request
 {
-
 }/**
  * @method $this setProductKey($productKey)
  * @method int getProductKey()
@@ -445,7 +408,6 @@ class ListRuleActions extends Request
  */
 class DeviceRevokeByTopic extends Request
 {
-
 }/**
  * @method $this setSql($sql)
  * @method string getSql()
@@ -454,7 +416,6 @@ class DeviceRevokeByTopic extends Request
  */
 class DebugRuleSql extends Request
 {
-
 }/**
  * @method $this setSelect($select)
  * @method string getSelect()
@@ -471,14 +432,12 @@ class DebugRuleSql extends Request
  */
 class CreateRule extends Request
 {
-
 }/**
  * @method $this setProductKey($productKey)
  * @method string getProductKey()
  */
 class QueryServerCallback extends Request
 {
-
 }/**
  * @method $this setProductKey($productKey)
  * @method int getProductKey()
@@ -487,7 +446,6 @@ class QueryServerCallback extends Request
  */
 class ListDevicePermits extends Request
 {
-
 }/**
  * @method $this setProductKey($productKey)
  * @method int getProductKey()
@@ -498,7 +456,6 @@ class ListDevicePermits extends Request
  */
 class DeviceRevokeById extends Request
 {
-
 }/**
  * @method $this setProductKey($productKey)
  * @method string getProductKey()
@@ -507,7 +464,6 @@ class DeviceRevokeById extends Request
  */
 class QueryTopic extends Request
 {
-
 }/**
  * @method $this setProductKey($productKey)
  * @method string getProductKey()
@@ -516,14 +472,12 @@ class QueryTopic extends Request
  */
 class ApplyDeviceWithNames extends Request
 {
-
 }/**
  * @method $this setDeviceId($deviceId)
  * @method string getDeviceId()
  */
 class QueryDeviceById extends Request
 {
-
 }/**
  * @method $this setRuleId($ruleId)
  * @method int getRuleId()
@@ -534,5 +488,4 @@ class QueryDeviceById extends Request
  */
 class CreateRuleAction extends Request
 {
-
 }

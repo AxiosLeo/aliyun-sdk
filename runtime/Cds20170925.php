@@ -35,7 +35,6 @@ class V20170925
  */
 class DeleteBuild extends Request
 {
-
 }/**
  * @method $this setJobName($jobName)
  * @method string getJobName()
@@ -44,7 +43,6 @@ class DeleteBuild extends Request
  */
 class StopBuild extends Request
 {
-
 }/**
  * @method $this setCredentialType($credentialType)
  * @method string getCredentialType()
@@ -55,19 +53,16 @@ class StopBuild extends Request
  */
 class UpdateCredential extends Request
 {
-
 }/**
  * @method $this setJobName($jobName)
  * @method string getJobName()
  */
 class GetJob extends Request
 {
-
 }/**
  */
 class GetCredentials extends Request
 {
-
 }/**
  * @method $this setJobName($jobName)
  * @method string getJobName()
@@ -76,7 +71,6 @@ class GetCredentials extends Request
  */
 class GetBuild extends Request
 {
-
 }/**
  * @method $this setCredentialType($credentialType)
  * @method string getCredentialType()
@@ -85,14 +79,12 @@ class GetBuild extends Request
  */
 class CreateCredential extends Request
 {
-
 }/**
  * @method $this setJobName($jobName)
  * @method string getJobName()
  */
 class RunJob extends Request
 {
-
 }/**
  * @method $this setJobName($jobName)
  * @method string getJobName()
@@ -101,14 +93,12 @@ class RunJob extends Request
  */
 class UpdateJob extends Request
 {
-
 }/**
  * @method $this setJobName($jobName)
  * @method string getJobName()
  */
 class DeleteJob extends Request
 {
-
 }/**
  * @method $this setJobName($jobName)
  * @method string getJobName()
@@ -119,7 +109,6 @@ class DeleteJob extends Request
  */
 class CreateJob extends Request
 {
-
 }/**
  * @method $this setStart($start)
  * @method int getStart()
@@ -128,14 +117,12 @@ class CreateJob extends Request
  */
 class GetJobs extends Request
 {
-
 }/**
  * @method $this setCredentialId($credentialId)
  * @method string getCredentialId()
  */
 class DeleteCredential extends Request
 {
-
 }/**
  * @method $this setJobName($jobName)
  * @method string getJobName()
@@ -146,5 +133,4 @@ class DeleteCredential extends Request
  */
 class GetBuilds extends Request
 {
-
 }

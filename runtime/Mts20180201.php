@@ -90,7 +90,6 @@ class V20180201
  */
 class UpdateWaterMarkTemplate extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -107,7 +106,6 @@ class UpdateWaterMarkTemplate extends Request
  */
 class AddCategory extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -124,7 +122,6 @@ class AddCategory extends Request
  */
 class UpdateMediaPublishState extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -139,7 +136,6 @@ class UpdateMediaPublishState extends Request
  */
 class QueryMediaInfoJobList extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -162,7 +158,6 @@ class QueryMediaInfoJobList extends Request
  */
 class ListMediaWorkflowExecutions extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -177,7 +172,6 @@ class ListMediaWorkflowExecutions extends Request
  */
 class CancelJob extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -192,7 +186,6 @@ class CancelJob extends Request
  */
 class QueryPipelineList extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -207,7 +200,6 @@ class QueryPipelineList extends Request
  */
 class DeleteMediaWorkflow extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -224,7 +216,6 @@ class DeleteMediaWorkflow extends Request
  */
 class UpdateMediaCover extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -249,7 +240,6 @@ class UpdateMediaCover extends Request
  */
 class ListJob extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -264,7 +254,6 @@ class ListJob extends Request
  */
 class QueryEditingJobList extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method string getOwnerId()
@@ -277,7 +266,6 @@ class QueryEditingJobList extends Request
  */
 class PlayerAuth extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -292,7 +280,6 @@ class PlayerAuth extends Request
  */
 class QueryMediaWorkflowList extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -315,7 +302,6 @@ class QueryMediaWorkflowList extends Request
  */
 class SubmitJobs extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -330,7 +316,6 @@ class SubmitJobs extends Request
  */
 class UnbindOutputBucket extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -345,7 +330,6 @@ class UnbindOutputBucket extends Request
  */
 class QueryTemplateList extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -360,7 +344,6 @@ class QueryTemplateList extends Request
  */
 class QueryMediaWorkflowExecutionList extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -379,7 +362,6 @@ class QueryMediaWorkflowExecutionList extends Request
  */
 class SearchMediaWorkflow extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -400,7 +382,6 @@ class SearchMediaWorkflow extends Request
  */
 class QueryMediaListByURL extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -415,7 +396,6 @@ class QueryMediaListByURL extends Request
  */
 class DeleteWaterMarkTemplate extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -438,7 +418,6 @@ class DeleteWaterMarkTemplate extends Request
  */
 class SubmitEditingJobs extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -453,7 +432,6 @@ class SubmitEditingJobs extends Request
  */
 class ActivateMediaWorkflow extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -474,7 +452,6 @@ class ActivateMediaWorkflow extends Request
  */
 class ListMedia extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -489,7 +466,6 @@ class ListMedia extends Request
  */
 class DeleteCategory extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -512,7 +488,6 @@ class DeleteCategory extends Request
  */
 class SubmitAnalysisJob extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -527,7 +502,6 @@ class SubmitAnalysisJob extends Request
  */
 class QuerySnapshotJobList extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -546,7 +520,6 @@ class QuerySnapshotJobList extends Request
  */
 class SearchWaterMarkTemplate extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -563,7 +536,6 @@ class SearchWaterMarkTemplate extends Request
  */
 class AddMediaTag extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -582,7 +554,6 @@ class AddMediaTag extends Request
  */
 class AddMediaWorkflow extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -597,7 +568,6 @@ class AddMediaWorkflow extends Request
  */
 class DeactivateMediaWorkflow extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -616,7 +586,6 @@ class DeactivateMediaWorkflow extends Request
  */
 class SearchPipeline extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -641,7 +610,6 @@ class SearchPipeline extends Request
  */
 class UpdateMedia extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -656,7 +624,6 @@ class UpdateMedia extends Request
  */
 class DeleteTemplate extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -673,7 +640,6 @@ class DeleteTemplate extends Request
  */
 class UpdateMediaWorkflow extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -696,7 +662,6 @@ class UpdateMediaWorkflow extends Request
  */
 class UpdatePipeline extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -713,7 +678,6 @@ class UpdatePipeline extends Request
  */
 class UnbindInputBucket extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -734,7 +698,6 @@ class UnbindInputBucket extends Request
  */
 class QueryMediaList extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -757,7 +720,6 @@ class QueryMediaList extends Request
  */
 class AddPipeline extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -776,7 +738,6 @@ class AddPipeline extends Request
  */
 class SearchTemplate extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -809,7 +770,6 @@ class SearchTemplate extends Request
  */
 class SearchMedia extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -822,7 +782,6 @@ class SearchMedia extends Request
  */
 class ListAllMediaBucket extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -837,7 +796,6 @@ class ListAllMediaBucket extends Request
  */
 class DeletePipeline extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -852,7 +810,6 @@ class DeletePipeline extends Request
  */
 class QueryWaterMarkTemplateList extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -869,7 +826,6 @@ class QueryWaterMarkTemplateList extends Request
  */
 class UpdateCategoryName extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -896,7 +852,6 @@ class UpdateCategoryName extends Request
  */
 class UpdateTemplate extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -915,7 +870,6 @@ class UpdateTemplate extends Request
  */
 class SubmitMediaInfoJob extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -940,7 +894,6 @@ class SubmitMediaInfoJob extends Request
  */
 class AddTemplate extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -957,7 +910,6 @@ class AddTemplate extends Request
  */
 class BindOutputBucket extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -974,7 +926,6 @@ class BindOutputBucket extends Request
  */
 class BindInputBucket extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -989,7 +940,6 @@ class BindInputBucket extends Request
  */
 class DeleteMedia extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1010,7 +960,6 @@ class DeleteMedia extends Request
  */
 class SubmitSnapshotJob extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1027,7 +976,6 @@ class SubmitSnapshotJob extends Request
  */
 class UpdateMediaWorkflowTriggerMode extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1040,7 +988,6 @@ class UpdateMediaWorkflowTriggerMode extends Request
  */
 class ListAllCategory extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1053,7 +1000,6 @@ class ListAllCategory extends Request
  */
 class CategoryTree extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1082,7 +1028,6 @@ class CategoryTree extends Request
  */
 class AddMedia extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1099,7 +1044,6 @@ class AddMedia extends Request
  */
 class DeleteMediaTag extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1116,7 +1060,6 @@ class DeleteMediaTag extends Request
  */
 class AddWaterMarkTemplate extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1131,7 +1074,6 @@ class AddWaterMarkTemplate extends Request
  */
 class QueryJobList extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1146,5 +1088,4 @@ class QueryJobList extends Request
  */
 class QueryAnalysisJobList extends Request
 {
-
 }

@@ -31,7 +31,6 @@ class V20151208
  */
 class Authenticate extends Request
 {
-
 }/**
  * @method $this setSerialNo($serialNo)
  * @method string getSerialNo()
@@ -48,5 +47,4 @@ class Authenticate extends Request
  */
 class QuerySimple extends Request
 {
-
 }

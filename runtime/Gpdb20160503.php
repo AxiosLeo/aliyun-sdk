@@ -56,7 +56,6 @@ class V20160503
  */
 class RestartDBInstance extends Request
 {
-
 }/**
  * @method $this setDBInstanceId($dBInstanceId)
  * @method string getDBInstanceId()
@@ -69,14 +68,12 @@ class RestartDBInstance extends Request
  */
 class ModifyDBInstanceConnectionString extends Request
 {
-
 }/**
  * @method $this setDBInstanceId($dBInstanceId)
  * @method string getDBInstanceId()
  */
 class DescribeResourceUsage extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -99,7 +96,6 @@ class DescribeResourceUsage extends Request
  */
 class UntagResources extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -120,7 +116,6 @@ class UntagResources extends Request
  */
 class DescribeDBInstances extends Request
 {
-
 }/**
  * @method $this setDBInstanceId($dBInstanceId)
  * @method string getDBInstanceId()
@@ -129,7 +124,6 @@ class DescribeDBInstances extends Request
  */
 class DescribeAccounts extends Request
 {
-
 }/**
  * @method $this setDBInstanceId($dBInstanceId)
  * @method string getDBInstanceId()
@@ -138,7 +132,6 @@ class DescribeAccounts extends Request
  */
 class ModifyDBInstanceDescription extends Request
 {
-
 }/**
  * @method $this setDBInstanceId($dBInstanceId)
  * @method string getDBInstanceId()
@@ -147,7 +140,6 @@ class ModifyDBInstanceDescription extends Request
  */
 class DeleteDatabase extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -158,7 +150,6 @@ class DeleteDatabase extends Request
  */
 class AddBuDBInstanceRelation extends Request
 {
-
 }/**
  * @method $this setDBInstanceId($dBInstanceId)
  * @method string getDBInstanceId()
@@ -167,7 +158,6 @@ class AddBuDBInstanceRelation extends Request
  */
 class ReleaseInstancePublicConnection extends Request
 {
-
 }/**
  * @method $this setDBInstanceId($dBInstanceId)
  * @method string getDBInstanceId()
@@ -178,7 +168,6 @@ class ReleaseInstancePublicConnection extends Request
  */
 class ResetAccountPassword extends Request
 {
-
 }/**
  * @method $this setDBInstanceId($dBInstanceId)
  * @method string getDBInstanceId()
@@ -193,14 +182,12 @@ class ResetAccountPassword extends Request
  */
 class ModifyDBInstanceNetworkType extends Request
 {
-
 }/**
  * @method $this setDBInstanceId($dBInstanceId)
  * @method string getDBInstanceId()
  */
 class DescribeSQLCollectorPolicy extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -217,7 +204,6 @@ class DescribeSQLCollectorPolicy extends Request
  */
 class CreateAccount extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -234,7 +220,6 @@ class CreateAccount extends Request
  */
 class DescribeRdsVpcs extends Request
 {
-
 }/**
  * @method $this setDBInstanceId($dBInstanceId)
  * @method string getDBInstanceId()
@@ -247,7 +232,6 @@ class DescribeRdsVpcs extends Request
  */
 class ModifySecurityIps extends Request
 {
-
 }/**
  * @method $this setDBInstanceId($dBInstanceId)
  * @method string getDBInstanceId()
@@ -270,7 +254,6 @@ class ModifySecurityIps extends Request
  */
 class DescribeSQLLogRecords extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -289,14 +272,12 @@ class DescribeSQLLogRecords extends Request
  */
 class DescribeRdsVSwitchs extends Request
 {
-
 }/**
  * @method $this setDBInstanceId($dBInstanceId)
  * @method string getDBInstanceId()
  */
 class DescribeDBInstanceNetInfo extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -305,12 +286,10 @@ class DescribeDBInstanceNetInfo extends Request
  */
 class DescribeDBInstanceAttribute extends Request
 {
-
 }/**
  */
 class DescribeRegions extends Request
 {
-
 }/**
  * @method $this setDBInstanceId($dBInstanceId)
  * @method string getDBInstanceId()
@@ -329,7 +308,6 @@ class DescribeRegions extends Request
  */
 class DescribeSlowLogRecords extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -340,7 +318,6 @@ class DescribeSlowLogRecords extends Request
  */
 class DeleteDBInstance extends Request
 {
-
 }/**
  * @method $this setDBInstanceId($dBInstanceId)
  * @method string getDBInstanceId()
@@ -351,7 +328,6 @@ class DeleteDBInstance extends Request
  */
 class ModifyAccountDescription extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -372,7 +348,6 @@ class ModifyAccountDescription extends Request
  */
 class TagResources extends Request
 {
-
 }/**
  * @method $this setDBInstanceId($dBInstanceId)
  * @method string getDBInstanceId()
@@ -385,7 +360,6 @@ class TagResources extends Request
  */
 class DescribeDBInstancePerformance extends Request
 {
-
 }/**
  * @method $this setDBInstanceId($dBInstanceId)
  * @method string getDBInstanceId()
@@ -394,7 +368,6 @@ class DescribeDBInstancePerformance extends Request
  */
 class ModifyDBInstanceConnectionMode extends Request
 {
-
 }/**
  * @method $this setDBInstanceId($dBInstanceId)
  * @method string getDBInstanceId()
@@ -405,7 +378,6 @@ class ModifyDBInstanceConnectionMode extends Request
  */
 class SwitchDBInstanceNetType extends Request
 {
-
 }/**
  * @method $this setDBInstanceId($dBInstanceId)
  * @method string getDBInstanceId()
@@ -416,7 +388,6 @@ class SwitchDBInstanceNetType extends Request
  */
 class ModifyDBInstanceMaintainTime extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -433,14 +404,12 @@ class ModifyDBInstanceMaintainTime extends Request
  */
 class AllocateInstancePublicConnection extends Request
 {
-
 }/**
  * @method $this setDBInstanceId($dBInstanceId)
  * @method string getDBInstanceId()
  */
 class DescribeDBInstanceIPArrayList extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -479,7 +448,6 @@ class DescribeDBInstanceIPArrayList extends Request
  */
 class CreateDBInstance extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -502,7 +470,6 @@ class CreateDBInstance extends Request
  */
 class ListTagResources extends Request
 {
-
 }/**
  * @method $this setDBInstanceId($dBInstanceId)
  * @method string getDBInstanceId()
@@ -515,7 +482,6 @@ class ListTagResources extends Request
  */
 class DescribeSQLLogFiles extends Request
 {
-
 }/**
  * @method $this setDBInstanceId($dBInstanceId)
  * @method string getDBInstanceId()
@@ -524,5 +490,4 @@ class DescribeSQLLogFiles extends Request
  */
 class ModifySQLCollectorPolicy extends Request
 {
-
 }

@@ -26,5 +26,4 @@ class V20171225
  */
 class ListApps extends Request
 {
-
 }

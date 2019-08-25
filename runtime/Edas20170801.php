@@ -136,14 +136,12 @@ class V20170801
  */
 class UpdateJvmConfiguration extends Request
 {
-
 }/**
  * @method $this setAppId($appId)
  * @method string getAppId()
  */
 class ListDegradeControls extends Request
 {
-
 }/**
  * @method $this setAppId($appId)
  * @method string getAppId()
@@ -166,7 +164,6 @@ class ListDegradeControls extends Request
  */
 class InsertFlowControl extends Request
 {
-
 }/**
  * @method $this setDataId($dataId)
  * @method string getDataId()
@@ -177,19 +174,16 @@ class InsertFlowControl extends Request
  */
 class QueryConfigCenter extends Request
 {
-
 }/**
  */
 class ListVpc extends Request
 {
-
 }/**
  * @method $this setChangeOrderId($changeOrderId)
  * @method string getChangeOrderId()
  */
 class GetChangeOrderInfo extends Request
 {
-
 }/**
  * @method $this setAppId($appId)
  * @method string getAppId()
@@ -198,26 +192,22 @@ class GetChangeOrderInfo extends Request
  */
 class EnableDegradeControl extends Request
 {
-
 }/**
  * @method $this setAppId($appId)
  * @method string getAppId()
  */
 class ListConsumedServices extends Request
 {
-
 }/**
  */
 class ListBuildPack extends Request
 {
-
 }/**
  * @method $this setEcuId($ecuId)
  * @method string getEcuId()
  */
 class DeleteEcu extends Request
 {
-
 }/**
  * @method $this setInstanceIds($instanceIds)
  * @method string getInstanceIds()
@@ -228,7 +218,6 @@ class DeleteEcu extends Request
  */
 class TransformClusterMember extends Request
 {
-
 }/**
  * @method $this setAppId($appId)
  * @method string getAppId()
@@ -241,14 +230,12 @@ class TransformClusterMember extends Request
  */
 class UpdateK8sApplicationConfig extends Request
 {
-
 }/**
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
  */
 class DeleteCluster extends Request
 {
-
 }/**
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
@@ -259,14 +246,12 @@ class DeleteCluster extends Request
  */
 class ListClusterMembers extends Request
 {
-
 }/**
  * @method $this setRoleId($roleId)
  * @method int getRoleId()
  */
 class DeleteRole extends Request
 {
-
 }/**
  * @method $this setAppName($appName)
  * @method string getAppName()
@@ -319,7 +304,6 @@ class DeleteRole extends Request
  */
 class InsertServerlessApplication extends Request
 {
-
 }/**
  * @method $this setAppId($appId)
  * @method string getAppId()
@@ -338,19 +322,16 @@ class InsertServerlessApplication extends Request
  */
 class UpdateContainerConfiguration extends Request
 {
-
 }/**
  * @method $this setclusterId($clusterId)
  * @method string getclusterId()
  */
 class ListConvertableEcu extends Request
 {
-
 }/**
  */
 class ListSubAccount extends Request
 {
-
 }/**
  * @method $this setAppId($appId)
  * @method string getAppId()
@@ -359,7 +340,6 @@ class ListSubAccount extends Request
  */
 class StartApplication extends Request
 {
-
 }/**
  * @method $this setAppId($appId)
  * @method string getAppId()
@@ -368,7 +348,6 @@ class StartApplication extends Request
  */
 class ResetApplication extends Request
 {
-
 }/**
  * @method $this setAppId($appId)
  * @method string getAppId()
@@ -377,7 +356,6 @@ class ResetApplication extends Request
  */
 class DeleteDeployGroup extends Request
 {
-
 }/**
  * @method $this setNetworkMode($networkMode)
  * @method int getNetworkMode()
@@ -386,7 +364,6 @@ class DeleteDeployGroup extends Request
  */
 class ListEcsNotInCluster extends Request
 {
-
 }/**
  * @method $this setAppId($appId)
  * @method string getAppId()
@@ -395,31 +372,26 @@ class ListEcsNotInCluster extends Request
  */
 class GetJvmConfiguration extends Request
 {
-
 }/**
  */
 class ListAuthority extends Request
 {
-
 }/**
  * @method $this setLogicalRegionId($logicalRegionId)
  * @method string getLogicalRegionId()
  */
 class ListCluster extends Request
 {
-
 }/**
  */
 class ListRole extends Request
 {
-
 }/**
  * @method $this setAppId($appId)
  * @method string getAppId()
  */
 class GetApplication extends Request
 {
-
 }/**
  * @method $this setAppId($appId)
  * @method string getAppId()
@@ -438,21 +410,18 @@ class GetApplication extends Request
  */
 class BindK8sSlb extends Request
 {
-
 }/**
  * @method $this setAppId($appId)
  * @method string getAppId()
  */
 class GetServerlessAppConfigDetail extends Request
 {
-
 }/**
  * @method $this setType($type)
  * @method string getType()
  */
 class SynchronizeResource extends Request
 {
-
 }/**
  * @method $this setAppId($appId)
  * @method string getAppId()
@@ -469,7 +438,6 @@ class SynchronizeResource extends Request
  */
 class BindSlb extends Request
 {
-
 }/**
  * @method $this setTargetUserId($targetUserId)
  * @method string getTargetUserId()
@@ -478,7 +446,6 @@ class BindSlb extends Request
  */
 class AuthorizeResourceGroup extends Request
 {
-
 }/**
  * @method $this setDataId($dataId)
  * @method string getDataId()
@@ -493,7 +460,6 @@ class AuthorizeResourceGroup extends Request
  */
 class InsertConfigCenter extends Request
 {
-
 }/**
  * @method $this setLogicalRegionId($logicalRegionId)
  * @method string getLogicalRegionId()
@@ -502,7 +468,6 @@ class InsertConfigCenter extends Request
  */
 class ListEcuByRegion extends Request
 {
-
 }/**
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
@@ -511,7 +476,6 @@ class ListEcuByRegion extends Request
  */
 class DeleteClusterMember extends Request
 {
-
 }/**
  * @method $this setAppId($appId)
  * @method string getAppId()
@@ -550,21 +514,18 @@ class DeleteClusterMember extends Request
  */
 class DeployServerlessApplication extends Request
 {
-
 }/**
  * @method $this setAppId($appId)
  * @method string getAppId()
  */
 class QueryApplicationStatus extends Request
 {
-
 }/**
  * @method $this setAppId($appId)
  * @method string getAppId()
  */
 class ListHistoryDeployVersion extends Request
 {
-
 }/**
  * @method $this setTargetUserId($targetUserId)
  * @method string getTargetUserId()
@@ -573,7 +534,6 @@ class ListHistoryDeployVersion extends Request
  */
 class AuthorizeRole extends Request
 {
-
 }/**
  * @method $this setLogicalRegionId($logicalRegionId)
  * @method string getLogicalRegionId()
@@ -592,7 +552,6 @@ class AuthorizeRole extends Request
  */
 class ListScaleOutEcu extends Request
 {
-
 }/**
  * @method $this setRoleId($roleId)
  * @method int getRoleId()
@@ -601,7 +560,6 @@ class ListScaleOutEcu extends Request
  */
 class UpdateRole extends Request
 {
-
 }/**
  * @method $this setAppId($appId)
  * @method string getAppId()
@@ -612,7 +570,6 @@ class UpdateRole extends Request
  */
 class UnbindK8sSlb extends Request
 {
-
 }/**
  * @method $this setTargetUserId($targetUserId)
  * @method string getTargetUserId()
@@ -621,7 +578,6 @@ class UnbindK8sSlb extends Request
  */
 class AuthorizeApplication extends Request
 {
-
 }/**
  * @method $this setAppId($appId)
  * @method string getAppId()
@@ -632,7 +588,6 @@ class AuthorizeApplication extends Request
  */
 class UnbindServerlessSlb extends Request
 {
-
 }/**
  * @method $this setAppId($appId)
  * @method string getAppId()
@@ -641,7 +596,6 @@ class UnbindServerlessSlb extends Request
  */
 class EnableFlowControl extends Request
 {
-
 }/**
  * @method $this setAppId($appId)
  * @method string getAppId()
@@ -650,7 +604,6 @@ class EnableFlowControl extends Request
  */
 class ScaleK8sApplication extends Request
 {
-
 }/**
  * @method $this setAppId($appId)
  * @method string getAppId()
@@ -659,26 +612,22 @@ class ScaleK8sApplication extends Request
  */
 class StopApplication extends Request
 {
-
 }/**
  */
 class ListComponents extends Request
 {
-
 }/**
  * @method $this setGroupName($groupName)
  * @method string getGroupName()
  */
 class InsertServiceGroup extends Request
 {
-
 }/**
  * @method $this setNamespaceId($namespaceId)
  * @method string getNamespaceId()
  */
 class GetSecureToken extends Request
 {
-
 }/**
  * @method $this setAppId($appId)
  * @method string getAppId()
@@ -687,7 +636,6 @@ class GetSecureToken extends Request
  */
 class UpdateContainer extends Request
 {
-
 }/**
  * @method $this setAppId($appId)
  * @method string getAppId()
@@ -698,14 +646,12 @@ class UpdateContainer extends Request
  */
 class UpdateApplicationBaseInfo extends Request
 {
-
 }/**
  * @method $this setAppId($appId)
  * @method string getAppId()
  */
 class ListDeployGroup extends Request
 {
-
 }/**
  * @method $this setAppId($appId)
  * @method string getAppId()
@@ -716,7 +662,6 @@ class ListDeployGroup extends Request
  */
 class BindServerlessSlb extends Request
 {
-
 }/**
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
@@ -747,7 +692,6 @@ class BindServerlessSlb extends Request
  */
 class InsertApplication extends Request
 {
-
 }/**
  * @method $this setDataIdPattern($dataIdPattern)
  * @method string getDataIdPattern()
@@ -760,7 +704,6 @@ class InsertApplication extends Request
  */
 class ListConfigCenters extends Request
 {
-
 }/**
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
@@ -771,7 +714,6 @@ class ListConfigCenters extends Request
  */
 class InstallAgent extends Request
 {
-
 }/**
  * @method $this setAppId($appId)
  * @method string getAppId()
@@ -786,7 +728,6 @@ class InstallAgent extends Request
  */
 class RollbackApplication extends Request
 {
-
 }/**
  * @method $this setAppId($appId)
  * @method string getAppId()
@@ -795,7 +736,6 @@ class RollbackApplication extends Request
  */
 class DeleteDegradeControl extends Request
 {
-
 }/**
  * @method $this setAppId($appId)
  * @method string getAppId()
@@ -806,14 +746,12 @@ class DeleteDegradeControl extends Request
  */
 class ScaleInApplication extends Request
 {
-
 }/**
  * @method $this setDebugEnable($debugEnable)
  * @method bool getDebugEnable()
  */
 class ListUserDefineRegion extends Request
 {
-
 }/**
  * @method $this setAppId($appId)
  * @method string getAppId()
@@ -822,7 +760,6 @@ class ListUserDefineRegion extends Request
  */
 class GetContainerConfiguration extends Request
 {
-
 }/**
  * @method $this setAppId($appId)
  * @method string getAppId()
@@ -839,14 +776,12 @@ class GetContainerConfiguration extends Request
  */
 class UpdateK8sSlb extends Request
 {
-
 }/**
  * @method $this setAppId($appId)
  * @method string getAppId()
  */
 class DeleteApplication extends Request
 {
-
 }/**
  * @method $this setInstanceIds($instanceIds)
  * @method string getInstanceIds()
@@ -855,26 +790,22 @@ class DeleteApplication extends Request
  */
 class MigrateEcu extends Request
 {
-
 }/**
  */
 class ListApplicationEcu extends Request
 {
-
 }/**
  * @method $this setLogicalRegionId($logicalRegionId)
  * @method string getLogicalRegionId()
  */
 class QueryMigrateRegionList extends Request
 {
-
 }/**
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
  */
 class GetCluster extends Request
 {
-
 }/**
  * @method $this setAppId($appId)
  * @method string getAppId()
@@ -893,7 +824,6 @@ class GetCluster extends Request
  */
 class InsertDegradeControl extends Request
 {
-
 }/**
  * @method $this setStart($start)
  * @method int getStart()
@@ -910,7 +840,6 @@ class InsertDegradeControl extends Request
  */
 class QueryMonitorInfo extends Request
 {
-
 }/**
  * @method $this setAppId($appId)
  * @method string getAppId()
@@ -919,14 +848,12 @@ class QueryMonitorInfo extends Request
  */
 class UpdateHealthCheckUrl extends Request
 {
-
 }/**
  * @method $this setAppId($appId)
  * @method string getAppId()
  */
 class ListRecentChangeOrder extends Request
 {
-
 }/**
  * @method $this setAppId($appId)
  * @method string getAppId()
@@ -937,7 +864,6 @@ class ListRecentChangeOrder extends Request
  */
 class ScaleOutApplication extends Request
 {
-
 }/**
  * @method $this setAppId($appId)
  * @method string getAppId()
@@ -958,7 +884,6 @@ class ScaleOutApplication extends Request
  */
 class UpdateDegradeControl extends Request
 {
-
 }/**
  * @method $this setRoleName($roleName)
  * @method string getRoleName()
@@ -967,12 +892,10 @@ class UpdateDegradeControl extends Request
  */
 class InsertRole extends Request
 {
-
 }/**
  */
 class QueryRegionConfig extends Request
 {
-
 }/**
  * @method $this setAppId($appId)
  * @method string getAppId()
@@ -981,7 +904,6 @@ class QueryRegionConfig extends Request
  */
 class DisableFlowControl extends Request
 {
-
 }/**
  * @method $this setclusterId($clusterId)
  * @method string getclusterId()
@@ -992,19 +914,16 @@ class DisableFlowControl extends Request
  */
 class InsertClusterMember extends Request
 {
-
 }/**
  */
 class ListAliyunRegion extends Request
 {
-
 }/**
  * @method $this setAppId($appId)
  * @method string getAppId()
  */
 class ListPublishedServices extends Request
 {
-
 }/**
  * @method $this setPreStop($preStop)
  * @method string getPreStop()
@@ -1049,14 +968,12 @@ class ListPublishedServices extends Request
  */
 class DeployK8sApplication extends Request
 {
-
 }/**
  * @method $this setLogicalRegionId($logicalRegionId)
  * @method string getLogicalRegionId()
  */
 class QueryMigrateEcuList extends Request
 {
-
 }/**
  * @method $this setAppName($appName)
  * @method string getAppName()
@@ -1109,7 +1026,6 @@ class QueryMigrateEcuList extends Request
  */
 class CreateServerlessApplication extends Request
 {
-
 }/**
  * @method $this setDataId($dataId)
  * @method string getDataId()
@@ -1120,12 +1036,10 @@ class CreateServerlessApplication extends Request
  */
 class DeleteConfigCenter extends Request
 {
-
 }/**
  */
 class ListResourceGroup extends Request
 {
-
 }/**
  * @method $this setAppId($appId)
  * @method string getAppId()
@@ -1134,14 +1048,12 @@ class ListResourceGroup extends Request
  */
 class InsertDeployGroup extends Request
 {
-
 }/**
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
  */
 class ImportK8sCluster extends Request
 {
-
 }/**
  * @method $this setAppId($appId)
  * @method string getAppId()
@@ -1150,7 +1062,6 @@ class ImportK8sCluster extends Request
  */
 class ScaleServerlessApplication extends Request
 {
-
 }/**
  * @method $this setId($id)
  * @method int getId()
@@ -1159,19 +1070,16 @@ class ScaleServerlessApplication extends Request
  */
 class DeleteUserDefineRegion extends Request
 {
-
 }/**
  * @method $this setAppId($appId)
  * @method string getAppId()
  */
 class ListFlowControls extends Request
 {
-
 }/**
  */
 class ListApplication extends Request
 {
-
 }/**
  * @method $this setAppId($appId)
  * @method string getAppId()
@@ -1200,29 +1108,24 @@ class ListApplication extends Request
  */
 class DeployApplication extends Request
 {
-
 }/**
  */
 class ListSlb extends Request
 {
-
 }/**
  */
 class ListServiceGroups extends Request
 {
-
 }/**
  * @method $this setAppId($appId)
  * @method string getAppId()
  */
 class DeleteK8sApplication extends Request
 {
-
 }/**
  */
 class GetPackageStorageCredential extends Request
 {
-
 }/**
  * @method $this setAppId($appId)
  * @method string getAppId()
@@ -1247,7 +1150,6 @@ class GetPackageStorageCredential extends Request
  */
 class UpdateFlowControl extends Request
 {
-
 }/**
  * @method $this setAppId($appId)
  * @method string getAppId()
@@ -1256,7 +1158,6 @@ class UpdateFlowControl extends Request
  */
 class DisableDegradeControl extends Request
 {
-
 }/**
  * @method $this setName($name)
  * @method string getName()
@@ -1267,14 +1168,12 @@ class DisableDegradeControl extends Request
  */
 class UpdateAccountInfo extends Request
 {
-
 }/**
  * @method $this setGroupId($groupId)
  * @method string getGroupId()
  */
 class DeleteServiceGroup extends Request
 {
-
 }/**
  * @method $this setAppId($appId)
  * @method string getAppId()
@@ -1283,7 +1182,6 @@ class DeleteServiceGroup extends Request
  */
 class DeleteFlowControl extends Request
 {
-
 }/**
  * @method $this setAppId($appId)
  * @method string getAppId()
@@ -1294,7 +1192,6 @@ class DeleteFlowControl extends Request
  */
 class UnbindSlb extends Request
 {
-
 }/**
  * @method $this setAppId($appId)
  * @method string getAppId()
@@ -1303,7 +1200,6 @@ class UnbindSlb extends Request
  */
 class DeleteServerlessApplication extends Request
 {
-
 }/**
  * @method $this setIntranetTargetPort($intranetTargetPort)
  * @method int getIntranetTargetPort()
@@ -1370,7 +1266,6 @@ class DeleteServerlessApplication extends Request
  */
 class InsertK8sApplication extends Request
 {
-
 }/**
  * @method $this setRegionTag($regionTag)
  * @method string getRegionTag()
@@ -1385,7 +1280,6 @@ class InsertK8sApplication extends Request
  */
 class InsertOrUpdateRegion extends Request
 {
-
 }/**
  * @method $this setLogicalRegionId($logicalRegionId)
  * @method string getLogicalRegionId()
@@ -1404,5 +1298,4 @@ class InsertOrUpdateRegion extends Request
  */
 class InsertCluster extends Request
 {
-
 }

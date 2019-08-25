@@ -112,7 +112,6 @@ class V20140828
  */
 class AttachLoadBalancers extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -149,7 +148,6 @@ class AttachLoadBalancers extends Request
  */
 class ModifyScalingGroup extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -166,7 +164,6 @@ class ModifyScalingGroup extends Request
  */
 class AttachVServerGroups extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -179,7 +176,6 @@ class AttachVServerGroups extends Request
  */
 class DescribeScalingActivityDetail extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -196,7 +192,6 @@ class DescribeScalingActivityDetail extends Request
  */
 class RecordLifecycleActionHeartbeat extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -215,7 +210,6 @@ class RecordLifecycleActionHeartbeat extends Request
  */
 class DescribeCapacityHistory extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -224,7 +218,6 @@ class DescribeCapacityHistory extends Request
  */
 class DescribeAccountAttributes extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -323,7 +316,6 @@ class DescribeAccountAttributes extends Request
  */
 class DescribeScalingGroups extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -332,7 +324,6 @@ class DescribeScalingGroups extends Request
  */
 class DescribeLimitation_GatedLaunch extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -359,7 +350,6 @@ class DescribeLimitation_GatedLaunch extends Request
  */
 class CreateLifecycleHook extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -374,7 +364,6 @@ class CreateLifecycleHook extends Request
  */
 class DisableScalingGroup_GatedLaunch extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -389,7 +378,6 @@ class DisableScalingGroup_GatedLaunch extends Request
  */
 class CreateNotificationConfiguration extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -424,7 +412,6 @@ class CreateNotificationConfiguration extends Request
  */
 class CreateScalingRule extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -435,7 +422,6 @@ class CreateScalingRule extends Request
  */
 class DescribeAlertConfig extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -448,7 +434,6 @@ class DescribeAlertConfig extends Request
  */
 class DeleteScalingConfiguration extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -479,7 +464,6 @@ class DeleteScalingConfiguration extends Request
  */
 class CreateScheduledTask_GatedLaunch extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -580,7 +564,6 @@ class CreateScheduledTask_GatedLaunch extends Request
  */
 class EnableScalingGroup extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -589,7 +572,6 @@ class EnableScalingGroup extends Request
  */
 class DescribeNotificationTypes extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -602,7 +584,6 @@ class DescribeNotificationTypes extends Request
  */
 class VerifyAuthentication_GatedLaunch extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -623,7 +604,6 @@ class VerifyAuthentication_GatedLaunch extends Request
  */
 class ExecuteScalingRule extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -640,7 +620,6 @@ class ExecuteScalingRule extends Request
  */
 class ModifyAlertConfig extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -709,7 +688,6 @@ class ModifyAlertConfig extends Request
  */
 class DescribeScalingInstances extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -742,7 +720,6 @@ class DescribeScalingInstances extends Request
  */
 class ModifyScheduledTask extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -753,7 +730,6 @@ class ModifyScheduledTask extends Request
  */
 class DescribeNotificationConfigurations extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -764,7 +740,6 @@ class DescribeNotificationConfigurations extends Request
  */
 class VerifyUser extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -773,7 +748,6 @@ class VerifyUser extends Request
  */
 class DescribeAccountAttributes_GatedLaunch extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -804,7 +778,6 @@ class DescribeAccountAttributes_GatedLaunch extends Request
  */
 class CreateScalingGroup_GatedLaunch extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -841,7 +814,6 @@ class CreateScalingGroup_GatedLaunch extends Request
  */
 class ModifyAlarm extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -896,7 +868,6 @@ class ModifyAlarm extends Request
  */
 class DetachInstances_GatedLaunch extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -909,7 +880,6 @@ class DetachInstances_GatedLaunch extends Request
  */
 class DeleteScheduledTask extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -924,7 +894,6 @@ class DeleteScheduledTask extends Request
  */
 class RebalanceInstances extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -961,7 +930,6 @@ class RebalanceInstances extends Request
  */
 class CreateAlarm extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -972,7 +940,6 @@ class CreateAlarm extends Request
  */
 class DescribeRegions extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -987,7 +954,6 @@ class DescribeRegions extends Request
  */
 class DetachDBInstances extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -996,7 +962,6 @@ class DetachDBInstances extends Request
  */
 class DescribeLimitation extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1011,7 +976,6 @@ class DescribeLimitation extends Request
  */
 class ModifyNotificationConfiguration extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1074,7 +1038,6 @@ class ModifyNotificationConfiguration extends Request
  */
 class DescribeScalingActivities extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1091,7 +1054,6 @@ class DescribeScalingActivities extends Request
  */
 class ExecuteScalingRule_GatedLaunch extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1104,7 +1066,6 @@ class ExecuteScalingRule_GatedLaunch extends Request
  */
 class DeleteScheduledTask_GatedLaunch extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1123,7 +1084,6 @@ class DeleteScheduledTask_GatedLaunch extends Request
  */
 class RemoveInstances extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1184,7 +1144,6 @@ class RemoveInstances extends Request
  */
 class DescribeScalingConfigurations extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1197,7 +1156,6 @@ class DescribeScalingConfigurations extends Request
  */
 class VerifyAuthentication extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1210,7 +1168,6 @@ class VerifyAuthentication extends Request
  */
 class DeleteScalingConfiguration_GatedLaunch extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1285,7 +1242,6 @@ class DeleteScalingConfiguration_GatedLaunch extends Request
  */
 class CreateScalingConfiguration extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1424,7 +1380,6 @@ class CreateScalingConfiguration extends Request
  */
 class DescribeScheduledTasks extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1437,7 +1392,6 @@ class DescribeScheduledTasks extends Request
  */
 class DeactivateScalingConfiguration extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1450,7 +1404,6 @@ class DeactivateScalingConfiguration extends Request
  */
 class DescribeScalingActivityDetail_GatedLaunch extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1463,7 +1416,6 @@ class DescribeScalingActivityDetail_GatedLaunch extends Request
  */
 class DisableAlarm extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1474,7 +1426,6 @@ class DisableAlarm extends Request
  */
 class VerifyUser_GatedLaunch extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1505,7 +1456,6 @@ class VerifyUser_GatedLaunch extends Request
  */
 class CreateScheduledTask extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1518,7 +1468,6 @@ class CreateScheduledTask extends Request
  */
 class DeleteAlarm extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1531,7 +1480,6 @@ class DeleteAlarm extends Request
  */
 class EnterStandby extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1548,7 +1496,6 @@ class EnterStandby extends Request
  */
 class ModifyAlertConfig_GatedLaunch extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1565,7 +1512,6 @@ class ModifyAlertConfig_GatedLaunch extends Request
  */
 class DetachInstances extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1578,7 +1524,6 @@ class DetachInstances extends Request
  */
 class ExitStandby extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1663,7 +1608,6 @@ class ExitStandby extends Request
  */
 class DescribeScalingRules extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1676,7 +1620,6 @@ class DescribeScalingRules extends Request
  */
 class DeleteScalingRule extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1701,7 +1644,6 @@ class DeleteScalingRule extends Request
  */
 class DescribeAlarms extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1756,7 +1698,6 @@ class DescribeAlarms extends Request
  */
 class RemoveInstances_GatedLaunch extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1767,7 +1708,6 @@ class RemoveInstances_GatedLaunch extends Request
  */
 class DescribeAlertConfig_GatedLaunch extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1788,7 +1728,6 @@ class DescribeAlertConfig_GatedLaunch extends Request
  */
 class CreateScalingRule_GatedLaunch extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1811,7 +1750,6 @@ class CreateScalingRule_GatedLaunch extends Request
  */
 class ModifyScalingRule_GatedLaunch extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1826,7 +1764,6 @@ class ModifyScalingRule_GatedLaunch extends Request
  */
 class SetInstancesProtection extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1841,7 +1778,6 @@ class SetInstancesProtection extends Request
  */
 class DisableScalingGroup extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1856,7 +1792,6 @@ class DisableScalingGroup extends Request
  */
 class AttachDBInstances extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1911,7 +1846,6 @@ class AttachDBInstances extends Request
  */
 class AttachInstances_GatedLaunch extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1968,7 +1902,6 @@ class AttachInstances_GatedLaunch extends Request
  */
 class EnableScalingGroup_GatedLaunch extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2063,7 +1996,6 @@ class EnableScalingGroup_GatedLaunch extends Request
  */
 class AttachInstances extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2132,7 +2064,6 @@ class AttachInstances extends Request
  */
 class ModifyScalingConfiguration extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2149,7 +2080,6 @@ class ModifyScalingConfiguration extends Request
  */
 class CompleteLifecycleAction extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2164,7 +2094,6 @@ class CompleteLifecycleAction extends Request
  */
 class DeleteScalingGroup extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2193,7 +2122,6 @@ class DeleteScalingGroup extends Request
  */
 class ModifyScalingGroup_GatedLaunch extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2208,7 +2136,6 @@ class ModifyScalingGroup_GatedLaunch extends Request
  */
 class DetachLoadBalancers extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2221,7 +2148,6 @@ class DetachLoadBalancers extends Request
  */
 class DeleteScalingRule_GatedLaunch extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2238,7 +2164,6 @@ class DeleteScalingRule_GatedLaunch extends Request
  */
 class DeleteLifecycleHook extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2287,7 +2212,6 @@ class DeleteLifecycleHook extends Request
  */
 class CreateScalingGroup extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2362,7 +2286,6 @@ class CreateScalingGroup extends Request
  */
 class CreateScalingConfiguration_GatedLaunch extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2389,7 +2312,6 @@ class CreateScalingConfiguration_GatedLaunch extends Request
  */
 class ModifyLifecycleHook extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2424,7 +2346,6 @@ class ModifyLifecycleHook extends Request
  */
 class ModifyScalingRule extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2445,7 +2366,6 @@ class ModifyScalingRule extends Request
  */
 class DescribeLifecycleHooks extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2462,7 +2382,6 @@ class DescribeLifecycleHooks extends Request
  */
 class DetachVServerGroups extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2475,7 +2394,6 @@ class DetachVServerGroups extends Request
  */
 class DeleteNotificationConfiguration extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2490,7 +2408,6 @@ class DeleteNotificationConfiguration extends Request
  */
 class DeleteScalingGroup_GatedLaunch extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2523,7 +2440,6 @@ class DeleteScalingGroup_GatedLaunch extends Request
  */
 class ModifyScheduledTask_GatedLaunch extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2536,5 +2452,4 @@ class ModifyScheduledTask_GatedLaunch extends Request
  */
 class EnableAlarm extends Request
 {
-
 }

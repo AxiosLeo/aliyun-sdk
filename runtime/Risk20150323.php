@@ -40,7 +40,6 @@ class V20150323
  */
 class ValidateVerifyCode extends Request
 {
-
 }/**
  * @method $this setRequestId($requestId)
  * @method string getRequestId()
@@ -65,7 +64,6 @@ class ValidateVerifyCode extends Request
  */
 class SendVerifyCode extends Request
 {
-
 }/**
  * @method $this setMteeCode($mteeCode)
  * @method string getMteeCode()
@@ -88,5 +86,4 @@ class SendVerifyCode extends Request
  */
 class FindRisk extends Request
 {
-
 }

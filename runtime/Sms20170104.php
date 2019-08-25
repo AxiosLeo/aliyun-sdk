@@ -32,5 +32,4 @@ class V20170104
  */
 class SingleSendSms extends Request
 {
-
 }

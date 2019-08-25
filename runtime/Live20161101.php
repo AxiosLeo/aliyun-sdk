@@ -186,7 +186,6 @@ class V20161101
  */
 class DescribeLiveDomainRealTimeBpsData extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -197,7 +196,6 @@ class DescribeLiveDomainRealTimeBpsData extends Request
  */
 class AddLiveDomainMapping extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -210,7 +208,6 @@ class AddLiveDomainMapping extends Request
  */
 class AllowPushStream extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -231,7 +228,6 @@ class AllowPushStream extends Request
  */
 class AddCasterEpisodeGroup extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -254,7 +250,6 @@ class AddCasterEpisodeGroup extends Request
  */
 class DescribeCasterProgram extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -267,7 +262,6 @@ class DescribeCasterProgram extends Request
  */
 class DescribeBoardSnapshot extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -300,7 +294,6 @@ class DescribeBoardSnapshot extends Request
  */
 class SetCasterConfig extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -329,7 +322,6 @@ class SetCasterConfig extends Request
  */
 class DescribeLiveStreamsOnlineList extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -354,7 +346,6 @@ class DescribeLiveStreamsOnlineList extends Request
  */
 class AddCasterComponent extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -369,7 +360,6 @@ class AddCasterComponent extends Request
  */
 class StartBoardRecord extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -386,7 +376,6 @@ class StartBoardRecord extends Request
  */
 class SetCasterSceneConfig extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -395,7 +384,6 @@ class SetCasterSceneConfig extends Request
  */
 class DeleteCasterEpisodeGroup extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -418,7 +406,6 @@ class DeleteCasterEpisodeGroup extends Request
  */
 class ForbidLiveStream extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -437,7 +424,6 @@ class ForbidLiveStream extends Request
  */
 class DescribeUpBpsPeakOfLine extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -460,7 +446,6 @@ class DescribeUpBpsPeakOfLine extends Request
  */
 class AddCasterEpisode extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -473,7 +458,6 @@ class AddCasterEpisode extends Request
  */
 class CompleteBoard extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -484,7 +468,6 @@ class CompleteBoard extends Request
  */
 class DescribeCasterStreamUrl extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -501,7 +484,6 @@ class DescribeCasterStreamUrl extends Request
  */
 class DescribeLiveSnapshotDetectPornConfig extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -520,7 +502,6 @@ class DescribeLiveSnapshotDetectPornConfig extends Request
  */
 class AddLivePullStreamInfoConfig extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -533,7 +514,6 @@ class AddLivePullStreamInfoConfig extends Request
  */
 class DeleteRoom extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -542,7 +522,6 @@ class DeleteRoom extends Request
  */
 class DescribeLiveRecordNotifyConfig extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -557,7 +536,6 @@ class DescribeLiveRecordNotifyConfig extends Request
  */
 class DescribeLiveTopDomainsByFlow extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -578,7 +556,6 @@ class DescribeLiveTopDomainsByFlow extends Request
  */
 class DescribeLiveUserDomains extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -591,7 +568,6 @@ class DescribeLiveUserDomains extends Request
  */
 class BatchDeleteLiveDomainConfigs extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -614,7 +590,6 @@ class BatchDeleteLiveDomainConfigs extends Request
  */
 class AddTrancodeSEI extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -625,7 +600,6 @@ class AddTrancodeSEI extends Request
  */
 class StopCasterScene extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -636,7 +610,6 @@ class StopCasterScene extends Request
  */
 class DescribeCasterChannels extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -645,7 +618,6 @@ class DescribeCasterChannels extends Request
  */
 class DescribeLiveDomainDetail extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -654,7 +626,6 @@ class DescribeLiveDomainDetail extends Request
  */
 class DescribeCasterRtcInfo extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -667,7 +638,6 @@ class DescribeCasterRtcInfo extends Request
  */
 class DescribeCasterSceneAudio extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -680,7 +650,6 @@ class DescribeCasterSceneAudio extends Request
  */
 class DescribeLiveStreamsBlockList extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -693,7 +662,6 @@ class DescribeLiveStreamsBlockList extends Request
  */
 class EffectCasterVideoResource extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -716,7 +684,6 @@ class EffectCasterVideoResource extends Request
  */
 class CreateLiveStreamRecordIndexFiles extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -735,7 +702,6 @@ class CreateLiveStreamRecordIndexFiles extends Request
  */
 class SendRoomNotification extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -744,7 +710,6 @@ class SendRoomNotification extends Request
  */
 class DeleteCaster extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -759,7 +724,6 @@ class DeleteCaster extends Request
  */
 class AddLiveRecordNotifyConfig extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -776,7 +740,6 @@ class AddLiveRecordNotifyConfig extends Request
  */
 class StopLiveIndex extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -791,7 +754,6 @@ class StopLiveIndex extends Request
  */
 class DescribeLiveStreamsControlHistory extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -802,7 +764,6 @@ class DescribeLiveStreamsControlHistory extends Request
  */
 class AddCasterProgram extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -813,7 +774,6 @@ class AddCasterProgram extends Request
  */
 class DescribeCasterVideoResources extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -832,7 +792,6 @@ class DescribeCasterVideoResources extends Request
  */
 class DescribeLiveDomainRealTimeHttpCodeData extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -851,7 +810,6 @@ class DescribeLiveDomainRealTimeHttpCodeData extends Request
  */
 class SetCasterChannel extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -868,7 +826,6 @@ class SetCasterChannel extends Request
  */
 class RealTimeRecordCommand extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -885,7 +842,6 @@ class RealTimeRecordCommand extends Request
  */
 class DescribeForbidPushStreamRoomList extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -896,7 +852,6 @@ class DescribeForbidPushStreamRoomList extends Request
  */
 class DeleteCasterLayout extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -911,7 +866,6 @@ class DeleteCasterLayout extends Request
  */
 class DescribeLiveDomainTranscodeData extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -928,7 +882,6 @@ class DescribeLiveDomainTranscodeData extends Request
  */
 class DescribeLiveStreamOnlineUserNum extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -949,7 +902,6 @@ class DescribeLiveStreamOnlineUserNum extends Request
  */
 class UpdateLiveSnapshotDetectPornConfig extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -972,7 +924,6 @@ class UpdateLiveSnapshotDetectPornConfig extends Request
  */
 class DescribeCasters extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -993,7 +944,6 @@ class DescribeCasters extends Request
  */
 class AddLiveDomain extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1004,7 +954,6 @@ class AddLiveDomain extends Request
  */
 class DescribeLiveDomainConfigs extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1015,7 +964,6 @@ class DescribeLiveDomainConfigs extends Request
  */
 class AddCasterEpisodeGroupContent extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1024,7 +972,6 @@ class AddCasterEpisodeGroupContent extends Request
  */
 class DeleteLiveDetectNotifyConfig extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1045,7 +992,6 @@ class DeleteLiveDetectNotifyConfig extends Request
  */
 class SendRoomUserNotification extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1056,7 +1002,6 @@ class SendRoomUserNotification extends Request
  */
 class DescribeLiveStreamCount extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1067,7 +1012,6 @@ class DescribeLiveStreamCount extends Request
  */
 class UpdateLiveDetectNotifyConfig extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1076,7 +1020,6 @@ class UpdateLiveDetectNotifyConfig extends Request
  */
 class DescribeLiveStreamTranscodeInfo extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1087,7 +1030,6 @@ class DescribeLiveStreamTranscodeInfo extends Request
  */
 class DeleteLiveDomain extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1098,7 +1040,6 @@ class DeleteLiveDomain extends Request
  */
 class DescribeLiveStreamsNotifyUrlConfig extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1117,7 +1058,6 @@ class DescribeLiveStreamsNotifyUrlConfig extends Request
  */
 class DescribeLiveRecordConfig extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1134,7 +1074,6 @@ class DescribeLiveRecordConfig extends Request
  */
 class DescribeRecords extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1143,7 +1082,6 @@ class DescribeRecords extends Request
  */
 class DescribeLiveCertificateList extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1166,7 +1104,6 @@ class DescribeLiveCertificateList extends Request
  */
 class SetLiveLazyPullStreamInfoConfig extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1177,7 +1114,6 @@ class SetLiveLazyPullStreamInfoConfig extends Request
  */
 class DeleteLiveStreamsNotifyUrlConfig extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1188,7 +1124,6 @@ class DeleteLiveStreamsNotifyUrlConfig extends Request
  */
 class DescribeCasterLayouts extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1201,7 +1136,6 @@ class DescribeCasterLayouts extends Request
  */
 class BatchSetLiveDomainConfigs extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1212,7 +1146,6 @@ class BatchSetLiveDomainConfigs extends Request
  */
 class StartCasterScene extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1223,7 +1156,6 @@ class StartCasterScene extends Request
  */
 class EffectCasterUrgent extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1242,7 +1174,6 @@ class EffectCasterUrgent extends Request
  */
 class UpdateCasterSceneAudio extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1273,7 +1204,6 @@ class UpdateCasterSceneAudio extends Request
  */
 class AddCustomLiveStreamTranscode extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1286,7 +1216,6 @@ class AddCustomLiveStreamTranscode extends Request
  */
 class DeleteLivePullStreamInfoConfig extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1295,7 +1224,6 @@ class DeleteLivePullStreamInfoConfig extends Request
  */
 class StartCaster extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1316,7 +1244,6 @@ class StartCaster extends Request
  */
 class DescribeLiveStreamSnapshotInfo extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1327,7 +1254,6 @@ class DescribeLiveStreamSnapshotInfo extends Request
  */
 class DeleteCasterComponent extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1344,7 +1270,6 @@ class DeleteCasterComponent extends Request
  */
 class DescribeLiveDomainRecordData extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1357,7 +1282,6 @@ class DescribeLiveDomainRecordData extends Request
  */
 class DeleteBoard extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1374,7 +1298,6 @@ class DeleteBoard extends Request
  */
 class SetLiveDomainCertificate extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1383,7 +1306,6 @@ class SetLiveDomainCertificate extends Request
  */
 class DescribeLivePullStreamConfig extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1400,7 +1322,6 @@ class DescribeLivePullStreamConfig extends Request
  */
 class DescribeLiveStreamRecordContent extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1413,7 +1334,6 @@ class DescribeLiveStreamRecordContent extends Request
  */
 class AddLiveStreamTranscode extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1430,7 +1350,6 @@ class AddLiveStreamTranscode extends Request
  */
 class DescribeLiveStreamHistoryUserNum extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1445,7 +1364,6 @@ class DescribeLiveStreamHistoryUserNum extends Request
  */
 class ResumeLiveStream extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1466,7 +1384,6 @@ class ResumeLiveStream extends Request
  */
 class UpdateLiveAppSnapshotConfig extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1477,7 +1394,6 @@ class UpdateLiveAppSnapshotConfig extends Request
  */
 class DeleteLiveDomainMapping extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1498,7 +1414,6 @@ class DeleteLiveDomainMapping extends Request
  */
 class DescribeLiveDomainBpsData extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1527,7 +1442,6 @@ class DescribeLiveDomainBpsData extends Request
  */
 class AddCasterVideoResource extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1542,7 +1456,6 @@ class AddCasterVideoResource extends Request
  */
 class DescribeBoards extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1559,7 +1472,6 @@ class DescribeBoards extends Request
  */
 class ForbidPushStream extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1570,7 +1482,6 @@ class ForbidPushStream extends Request
  */
 class DeleteLiveAppSnapshotConfig extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1581,7 +1492,6 @@ class DeleteLiveAppSnapshotConfig extends Request
  */
 class DeleteLiveSnapshotDetectPornConfig extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1600,7 +1510,6 @@ class DeleteLiveSnapshotDetectPornConfig extends Request
  */
 class CreateRoom extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1615,7 +1524,6 @@ class CreateRoom extends Request
  */
 class DescribeLiveDomainSnapshotData extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1636,7 +1544,6 @@ class DescribeLiveDomainSnapshotData extends Request
  */
 class AddLiveAppSnapshotConfig extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1657,7 +1564,6 @@ class AddLiveAppSnapshotConfig extends Request
  */
 class SetBoardCallback extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1668,7 +1574,6 @@ class SetBoardCallback extends Request
  */
 class DescribeCasterConfig extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1679,7 +1584,6 @@ class DescribeCasterConfig extends Request
  */
 class DescribeLiveDomainMapping extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1700,7 +1604,6 @@ class DescribeLiveDomainMapping extends Request
  */
 class CreateCaster extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1713,7 +1616,6 @@ class CreateCaster extends Request
  */
 class DeleteLiveRecordVodConfig extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1730,7 +1632,6 @@ class DeleteLiveRecordVodConfig extends Request
  */
 class DescribeLiveRecordVodConfigs extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1749,7 +1650,6 @@ class DescribeLiveRecordVodConfigs extends Request
  */
 class ModifyCasterLayout extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1762,7 +1662,6 @@ class ModifyCasterLayout extends Request
  */
 class CopyCasterSceneConfig extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1779,7 +1678,6 @@ class CopyCasterSceneConfig extends Request
  */
 class AddCasterLayout extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1796,7 +1694,6 @@ class AddCasterLayout extends Request
  */
 class DescribeUpBpsPeakData extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1821,7 +1718,6 @@ class DescribeUpBpsPeakData extends Request
  */
 class AddLiveAppRecordConfig extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1830,7 +1726,6 @@ class AddLiveAppRecordConfig extends Request
  */
 class DescribeLiveCertificateDetail extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1841,7 +1736,6 @@ class DescribeLiveCertificateDetail extends Request
  */
 class DeleteCasterEpisode extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1854,7 +1748,6 @@ class DeleteCasterEpisode extends Request
  */
 class DeleteCasterSceneConfig extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1865,7 +1758,6 @@ class DeleteCasterSceneConfig extends Request
  */
 class DescribeCasterScenes extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1874,7 +1766,6 @@ class DescribeCasterScenes extends Request
  */
 class DescribeLiveDetectNotifyConfig extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1887,7 +1778,6 @@ class DescribeLiveDetectNotifyConfig extends Request
  */
 class CreateBoard extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1902,7 +1792,6 @@ class CreateBoard extends Request
  */
 class CompleteBoardRecord extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1925,7 +1814,6 @@ class CompleteBoardRecord extends Request
  */
 class ModifyCasterEpisode extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1940,7 +1828,6 @@ class ModifyCasterEpisode extends Request
  */
 class DescribeLiveStreamRecordIndexFile extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1957,7 +1844,6 @@ class DescribeLiveStreamRecordIndexFile extends Request
  */
 class DescribeBoardEvents extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1978,7 +1864,6 @@ class DescribeBoardEvents extends Request
  */
 class RealTimeSnapshotCommand extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1993,7 +1878,6 @@ class RealTimeSnapshotCommand extends Request
  */
 class ApplyBoardToken extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2002,7 +1886,6 @@ class ApplyBoardToken extends Request
  */
 class StartLiveDomain extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2015,7 +1898,6 @@ class StartLiveDomain extends Request
  */
 class DescribeRecord extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2024,7 +1906,6 @@ class DescribeRecord extends Request
  */
 class DeleteLiveRecordNotifyConfig extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2041,7 +1922,6 @@ class DeleteLiveRecordNotifyConfig extends Request
  */
 class DescribeLiveStreamBitRateData extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2052,7 +1932,6 @@ class DescribeLiveStreamBitRateData extends Request
  */
 class DescribeCasterComponents extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2069,7 +1948,6 @@ class DescribeCasterComponents extends Request
  */
 class DescribeLiveStreamsFrameRateAndBitRateData extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2098,7 +1976,6 @@ class DescribeLiveStreamsFrameRateAndBitRateData extends Request
  */
 class StartLiveIndex extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2111,7 +1988,6 @@ class StartLiveIndex extends Request
  */
 class UpdateBoard extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2140,7 +2016,6 @@ class UpdateBoard extends Request
  */
 class DescribeLiveStreamsPublishList extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2151,7 +2026,6 @@ class DescribeLiveStreamsPublishList extends Request
  */
 class AddLiveDetectNotifyConfig extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2168,7 +2042,6 @@ class AddLiveDetectNotifyConfig extends Request
  */
 class DescribeUpPeakPublishStreamData extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2189,7 +2062,6 @@ class DescribeUpPeakPublishStreamData extends Request
  */
 class UpdateBoardCallback extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2206,7 +2078,6 @@ class UpdateBoardCallback extends Request
  */
 class SetLiveStreamsNotifyUrlConfig extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2227,7 +2098,6 @@ class SetLiveStreamsNotifyUrlConfig extends Request
  */
 class AddLiveRecordVodConfig extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2248,7 +2118,6 @@ class AddLiveRecordVodConfig extends Request
  */
 class DescribeLiveDomainTrafficData extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2267,7 +2136,6 @@ class DescribeLiveDomainTrafficData extends Request
  */
 class DescribeLiveDomainRealTimeTrafficData extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2280,7 +2148,6 @@ class DescribeLiveDomainRealTimeTrafficData extends Request
  */
 class DescribeHlsLiveStreamRealTimeBpsData extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2297,7 +2164,6 @@ class DescribeHlsLiveStreamRealTimeBpsData extends Request
  */
 class UpdateCasterSceneConfig extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2310,7 +2176,6 @@ class UpdateCasterSceneConfig extends Request
  */
 class DeleteLiveLazyPullStreamInfoConfig extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2331,7 +2196,6 @@ class DeleteLiveLazyPullStreamInfoConfig extends Request
  */
 class AddLiveSnapshotDetectPornConfig extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2344,7 +2208,6 @@ class AddLiveSnapshotDetectPornConfig extends Request
  */
 class DeleteLiveAppRecordConfig extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2353,7 +2216,6 @@ class DeleteLiveAppRecordConfig extends Request
  */
 class StopCaster extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2382,7 +2244,6 @@ class StopCaster extends Request
  */
 class ModifyCasterVideoResource extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2393,7 +2254,6 @@ class ModifyCasterVideoResource extends Request
  */
 class DeleteCasterVideoResource extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2412,7 +2272,6 @@ class DeleteCasterVideoResource extends Request
  */
 class DescribeRoomKickoutUserList extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2421,7 +2280,6 @@ class DescribeRoomKickoutUserList extends Request
  */
 class DeleteCasterProgram extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2448,7 +2306,6 @@ class DeleteCasterProgram extends Request
  */
 class DescribeRoomList extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2459,7 +2316,6 @@ class DescribeRoomList extends Request
  */
 class ModifyCasterProgram extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2470,7 +2326,6 @@ class ModifyCasterProgram extends Request
  */
 class ApplyRecordToken extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2479,7 +2334,6 @@ class ApplyRecordToken extends Request
  */
 class StopLiveDomain extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2494,7 +2348,6 @@ class StopLiveDomain extends Request
  */
 class JoinBoard extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2507,7 +2360,6 @@ class JoinBoard extends Request
  */
 class DescribeLiveLazyPullStreamConfig extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2524,7 +2376,6 @@ class DescribeLiveLazyPullStreamConfig extends Request
  */
 class DescribeLiveSnapshotConfig extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2537,7 +2388,6 @@ class DescribeLiveSnapshotConfig extends Request
  */
 class CopyCaster extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2562,7 +2412,6 @@ class CopyCaster extends Request
  */
 class ModifyCasterComponent extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2575,7 +2424,6 @@ class ModifyCasterComponent extends Request
  */
 class DescribeRoomStatus extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2588,7 +2436,6 @@ class DescribeRoomStatus extends Request
  */
 class DeleteLiveStreamTranscode extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2603,7 +2450,6 @@ class DeleteLiveStreamTranscode extends Request
  */
 class UpdateLiveRecordNotifyConfig extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2626,5 +2472,4 @@ class UpdateLiveRecordNotifyConfig extends Request
  */
 class DescribeLiveStreamRecordIndexFiles extends Request
 {
-
 }

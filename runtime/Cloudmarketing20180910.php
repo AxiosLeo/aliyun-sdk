@@ -52,14 +52,12 @@ class V20180910
  */
 class FetchTag extends Request
 {
-
 }/**
  * @method $this setCrowdId($crowdId)
  * @method int getCrowdId()
  */
 class DeleteCrowd extends Request
 {
-
 }/**
  * @method $this setCrowdId($crowdId)
  * @method int getCrowdId()
@@ -68,7 +66,6 @@ class DeleteCrowd extends Request
  */
 class AnalysisCrowd extends Request
 {
-
 }/**
  * @method $this setFileId($fileId)
  * @method int getFileId()
@@ -91,19 +88,16 @@ class AnalysisCrowd extends Request
  */
 class RedefineTag extends Request
 {
-
 }/**
  */
 class RequestUploadFile extends Request
 {
-
 }/**
  * @method $this setRequestJsonData($requestJsonData)
  * @method string getRequestJsonData()
  */
 class CalCrowdScale extends Request
 {
-
 }/**
  * @method $this setCrowdId($crowdId)
  * @method int getCrowdId()
@@ -116,28 +110,24 @@ class CalCrowdScale extends Request
  */
 class SyncCrowd extends Request
 {
-
 }/**
  * @method $this setRequestJsonData($requestJsonData)
  * @method string getRequestJsonData()
  */
 class UpdateCategory extends Request
 {
-
 }/**
  * @method $this setAccountIds($accountIds)
  * @method array getAccountIds()
  */
 class DescribeAuthBrand extends Request
 {
-
 }/**
  * @method $this setCrowdId($crowdId)
  * @method int getCrowdId()
  */
 class DownloadUDReport extends Request
 {
-
 }/**
  * @method $this setName($name)
  * @method string getName()
@@ -148,14 +138,12 @@ class DownloadUDReport extends Request
  */
 class DescribeBrand extends Request
 {
-
 }/**
  * @method $this setFileId($fileId)
  * @method int getFileId()
  */
 class FetchFileSchemaData extends Request
 {
-
 }/**
  * @method $this setTagId($tagId)
  * @method int getTagId()
@@ -166,21 +154,18 @@ class FetchFileSchemaData extends Request
  */
 class FavoriteTag extends Request
 {
-
 }/**
  * @method $this setFileId($fileId)
  * @method int getFileId()
  */
 class DeleteFile extends Request
 {
-
 }/**
  * @method $this setRequestJsonData($requestJsonData)
  * @method string getRequestJsonData()
  */
 class UpdateCrowd extends Request
 {
-
 }/**
  * @method $this setOssPath($ossPath)
  * @method string getOssPath()
@@ -189,28 +174,24 @@ class UpdateCrowd extends Request
  */
 class ProcessAfterUploadFile extends Request
 {
-
 }/**
  * @method $this setCrowdId($crowdId)
  * @method int getCrowdId()
  */
 class DownloadCrowd extends Request
 {
-
 }/**
  * @method $this setRequestJsonData($requestJsonData)
  * @method string getRequestJsonData()
  */
 class DefineCrowd extends Request
 {
-
 }/**
  * @method $this setCrowdId($crowdId)
  * @method int getCrowdId()
  */
 class FetchCrowdDefine extends Request
 {
-
 }/**
  * @method $this setFileName($fileName)
  * @method string getFileName()
@@ -225,7 +206,6 @@ class FetchCrowdDefine extends Request
  */
 class DescribeFile extends Request
 {
-
 }/**
  * @method $this setParentCategoryId($parentCategoryId)
  * @method int getParentCategoryId()
@@ -234,7 +214,6 @@ class DescribeFile extends Request
  */
 class CreateCategory extends Request
 {
-
 }/**
  * @method $this setFileId($fileId)
  * @method int getFileId()
@@ -243,12 +222,10 @@ class CreateCategory extends Request
  */
 class DefineFileSchema extends Request
 {
-
 }/**
  */
 class DescribeChannelBrand extends Request
 {
-
 }/**
  * @method $this setCategoryId($categoryId)
  * @method int getCategoryId()
@@ -257,7 +234,6 @@ class DescribeChannelBrand extends Request
  */
 class DescribeCategory extends Request
 {
-
 }/**
  * @method $this setId($id)
  * @method int getId()
@@ -268,7 +244,6 @@ class DescribeCategory extends Request
  */
 class UpdateBrand extends Request
 {
-
 }/**
  * @method $this setAccountId($accountId)
  * @method int getAccountId()
@@ -279,12 +254,10 @@ class UpdateBrand extends Request
  */
 class Auth2Brand extends Request
 {
-
 }/**
  */
 class DescribeAuthChannelBrand extends Request
 {
-
 }/**
  * @method $this setFileId($fileId)
  * @method int getFileId()
@@ -305,7 +278,6 @@ class DescribeAuthChannelBrand extends Request
  */
 class DefineTag extends Request
 {
-
 }/**
  * @method $this setKeyword($keyword)
  * @method string getKeyword()
@@ -320,14 +292,12 @@ class DefineTag extends Request
  */
 class DescribeCrowd extends Request
 {
-
 }/**
  * @method $this setFileId($fileId)
  * @method int getFileId()
  */
 class FetchFileSchema extends Request
 {
-
 }/**
  * @method $this setCategoryId($categoryId)
  * @method int getCategoryId()
@@ -346,14 +316,12 @@ class FetchFileSchema extends Request
  */
 class DescribeTag extends Request
 {
-
 }/**
  * @method $this setCrowdId($crowdId)
  * @method int getCrowdId()
  */
 class FetchCrowd extends Request
 {
-
 }/**
  * @method $this setName($name)
  * @method string getName()
@@ -362,5 +330,4 @@ class FetchCrowd extends Request
  */
 class CreateBrand extends Request
 {
-
 }

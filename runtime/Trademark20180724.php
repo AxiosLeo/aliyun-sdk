@@ -90,28 +90,24 @@ class V20180724
  */
 class UpdateMaterial extends Request
 {
-
 }/**
  * @method $this setId($id)
  * @method int getId()
  */
 class QuerySupplementDetail extends Request
 {
-
 }/**
  * @method $this setId($id)
  * @method int getId()
  */
 class QueryMaterial extends Request
 {
-
 }/**
  * @method $this setId($id)
  * @method int getId()
  */
 class DenySupplement extends Request
 {
-
 }/**
  * @method $this setOssKey($ossKey)
  * @method string getOssKey()
@@ -122,7 +118,6 @@ class DenySupplement extends Request
  */
 class QueryCredentialsInfo extends Request
 {
-
 }/**
  * @method $this setContactZipcode($contactZipcode)
  * @method string getContactZipcode()
@@ -169,7 +164,6 @@ class QueryCredentialsInfo extends Request
  */
 class InsertMaterial extends Request
 {
-
 }/**
  * @method $this setRuleSource($ruleSource)
  * @method string getRuleSource()
@@ -190,7 +184,6 @@ class InsertMaterial extends Request
  */
 class InsertTmMonitorRule extends Request
 {
-
 }/**
  * @method $this setOssKey($ossKey)
  * @method string getOssKey()
@@ -199,14 +192,12 @@ class InsertTmMonitorRule extends Request
  */
 class CheckLoaFill extends Request
 {
-
 }/**
  * @method $this setBizType($bizType)
  * @method string getBizType()
  */
 class QueryTaskList extends Request
 {
-
 }/**
  * @method $this setId($id)
  * @method int getId()
@@ -217,7 +208,6 @@ class QueryTaskList extends Request
  */
 class UpdateTmMonitorRule extends Request
 {
-
 }/**
  * @method $this setName($name)
  * @method string getName()
@@ -236,7 +226,6 @@ class UpdateTmMonitorRule extends Request
  */
 class QueryMaterialList extends Request
 {
-
 }/**
  * @method $this setOssKey($ossKey)
  * @method string getOssKey()
@@ -247,7 +236,6 @@ class QueryMaterialList extends Request
  */
 class QueryQrCodeUploadStatus extends Request
 {
-
 }/**
  * @method $this setTmName($tmName)
  * @method string getTmName()
@@ -274,7 +262,6 @@ class QueryQrCodeUploadStatus extends Request
  */
 class QueryTradeMarkApplications extends Request
 {
-
 }/**
  * @method $this setUserId($userId)
  * @method int getUserId()
@@ -289,7 +276,6 @@ class QueryTradeMarkApplications extends Request
  */
 class QueryTrademarkPrice extends Request
 {
-
 }/**
  * @method $this setMaterialId($materialId)
  * @method string getMaterialId()
@@ -306,7 +292,6 @@ class QueryTrademarkPrice extends Request
  */
 class CombineLoa extends Request
 {
-
 }/**
  * @method $this setId($id)
  * @method string getId()
@@ -321,14 +306,12 @@ class CombineLoa extends Request
  */
 class QueryTrademarkMonitorRules extends Request
 {
-
 }/**
  * @method $this setBizId($bizId)
  * @method string getBizId()
  */
 class QueryTradeMarkApplicationLogs extends Request
 {
-
 }/**
  * @method $this setRequest($request)
  * @method string getRequest()
@@ -337,14 +320,12 @@ class QueryTradeMarkApplicationLogs extends Request
  */
 class SaveTask extends Request
 {
-
 }/**
  * @method $this setId($id)
  * @method int getId()
  */
 class DeleteMaterial extends Request
 {
-
 }/**
  * @method $this setName($name)
  * @method string getName()
@@ -359,7 +340,6 @@ class DeleteMaterial extends Request
  */
 class InsertRenewInfo extends Request
 {
-
 }/**
  * @method $this setRuleType($ruleType)
  * @method int getRuleType()
@@ -368,7 +348,6 @@ class InsertRenewInfo extends Request
  */
 class QueryMonitorKeywords extends Request
 {
-
 }/**
  * @method $this setUuid($uuid)
  * @method string getUuid()
@@ -379,14 +358,12 @@ class QueryMonitorKeywords extends Request
  */
 class GenerateQrCode extends Request
 {
-
 }/**
  * @method $this setBizId($bizId)
  * @method string getBizId()
  */
 class QueryTradeMarkApplicationDetail extends Request
 {
-
 }/**
  * @method $this setUserId($userId)
  * @method int getUserId()
@@ -421,7 +398,6 @@ class QueryTradeMarkApplicationDetail extends Request
  */
 class CreateTrademarkOrder extends Request
 {
-
 }/**
  * @method $this setId($id)
  * @method int getId()
@@ -432,21 +408,18 @@ class CreateTrademarkOrder extends Request
  */
 class SubmitSupplement extends Request
 {
-
 }/**
  * @method $this setFileType($fileType)
  * @method string getFileType()
  */
 class GenerateUploadFilePolicy extends Request
 {
-
 }/**
  * @method $this setId($id)
  * @method int getId()
  */
 class DeleteTmMonitorRule extends Request
 {
-
 }/**
  * @method $this setBizId($bizId)
  * @method string getBizId()
@@ -455,7 +428,6 @@ class DeleteTmMonitorRule extends Request
  */
 class FillLogistics extends Request
 {
-
 }/**
  * @method $this setRuleId($ruleId)
  * @method int getRuleId()
@@ -478,7 +450,6 @@ class FillLogistics extends Request
  */
 class QueryTrademarkMonitorResults extends Request
 {
-
 }/**
  * @method $this setContactZipcode($contactZipcode)
  * @method string getContactZipcode()
@@ -525,21 +496,18 @@ class QueryTrademarkMonitorResults extends Request
  */
 class StoreMaterialTemporarily extends Request
 {
-
 }/**
  * @method $this setBizId($bizId)
  * @method string getBizId()
  */
 class RefundProduce extends Request
 {
-
 }/**
  * @method $this setOssKey($ossKey)
  * @method string getOssKey()
  */
 class ConvertImageToGray extends Request
 {
-
 }/**
  * @method $this setMaterialId($materialId)
  * @method string getMaterialId()
@@ -550,5 +518,4 @@ class ConvertImageToGray extends Request
  */
 class BindMaterial extends Request
 {
-
 }

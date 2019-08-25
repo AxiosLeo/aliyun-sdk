@@ -41,7 +41,6 @@ class V20181015
  */
 class MetricQuery extends Request
 {
-
 }/**
  * @method $this setDimensions($dimensions)
  * @method array getDimensions()
@@ -76,5 +75,4 @@ class MetricQuery extends Request
  */
 class ARMSQueryDataSet extends Request
 {
-
 }

@@ -34,7 +34,6 @@ class V20170713
  */
 class GetDipperConfigure extends Request
 {
-
 }/**
  * @method $this setPrivateCloudVersion($privateCloudVersion)
  * @method string getPrivateCloudVersion()
@@ -45,52 +44,44 @@ class GetDipperConfigure extends Request
  */
 class QueryLatestUpdateInfo extends Request
 {
-
 }/**
  * @method $this setEventId($eventId)
  * @method int getEventId()
  */
 class GetSasEventDetail extends Request
 {
-
 }/**
  */
 class GetSasUserBuyVersion extends Request
 {
-
 }/**
  * @method $this setDate($date)
  * @method int getDate()
  */
 class GetSasSecurityEventCount extends Request
 {
-
 }/**
  * @method $this setDate($date)
  * @method int getDate()
  */
 class getSecurityEventCount extends Request
 {
-
 }/**
  */
 class IsSasServiceOpening extends Request
 {
-
 }/**
  * @method $this setDate($date)
  * @method int getDate()
  */
 class GetSasEventsTrend extends Request
 {
-
 }/**
  * @method $this setprivateCloudVersion($privateCloudVersion)
  * @method string getprivateCloudVersion()
  */
 class IDataSyncService extends Request
 {
-
 }/**
  * @method $this setCategory($category)
  * @method int getCategory()
@@ -101,31 +92,26 @@ class IDataSyncService extends Request
  */
 class GetSasEventsList extends Request
 {
-
 }/**
  */
 class OpenSasService extends Request
 {
-
 }/**
  */
 class getUserBuyVersion extends Request
 {
-
 }/**
  * @method $this setEventId($eventId)
  * @method int getEventId()
  */
 class getEventDetail extends Request
 {
-
 }/**
  * @method $this setDipperNamespace($dipperNamespace)
  * @method string getDipperNamespace()
  */
 class QueryDipperConfigure extends Request
 {
-
 }/**
  * @method $this setCategory($category)
  * @method int getCategory()
@@ -136,5 +122,4 @@ class QueryDipperConfigure extends Request
  */
 class getEventsList extends Request
 {
-
 }

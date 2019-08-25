@@ -49,7 +49,6 @@ class V20170626
  */
 class CreateAccessGroup extends Request
 {
-
 }/**
  * @method $this setFileSystemId($fileSystemId)
  * @method string getFileSystemId()
@@ -60,7 +59,6 @@ class CreateAccessGroup extends Request
  */
 class DescribeFileSystems extends Request
 {
-
 }/**
  * @method $this setVolume($volume)
  * @method string getVolume()
@@ -83,7 +81,6 @@ class DescribeFileSystems extends Request
  */
 class ModifyTieringJob extends Request
 {
-
 }/**
  * @method $this setFileSystemId($fileSystemId)
  * @method string getFileSystemId()
@@ -96,7 +93,6 @@ class ModifyTieringJob extends Request
  */
 class ModifyMountTarget extends Request
 {
-
 }/**
  * @method $this setFileSystemId($fileSystemId)
  * @method string getFileSystemId()
@@ -109,7 +105,6 @@ class ModifyMountTarget extends Request
  */
 class DescribeMountTargets extends Request
 {
-
 }/**
  * @method $this setFileSystemId($fileSystemId)
  * @method string getFileSystemId()
@@ -118,7 +113,6 @@ class DescribeMountTargets extends Request
  */
 class DeleteMountTarget extends Request
 {
-
 }/**
  * @method $this setAccessGroupName($accessGroupName)
  * @method string getAccessGroupName()
@@ -127,7 +121,6 @@ class DeleteMountTarget extends Request
  */
 class DeleteAccessRule extends Request
 {
-
 }/**
  * @method $this setFileSystemId($fileSystemId)
  * @method string getFileSystemId()
@@ -136,7 +129,6 @@ class DeleteAccessRule extends Request
  */
 class ModifyFileSystem extends Request
 {
-
 }/**
  * @method $this setAccessGroupName($accessGroupName)
  * @method string getAccessGroupName()
@@ -151,14 +143,12 @@ class ModifyFileSystem extends Request
  */
 class CreateAccessRule extends Request
 {
-
 }/**
  * @method $this setName($name)
  * @method string getName()
  */
 class DeleteTieringPolicy extends Request
 {
-
 }/**
  * @method $this setName($name)
  * @method string getName()
@@ -179,7 +169,6 @@ class DeleteTieringPolicy extends Request
  */
 class ModifyTieringPolicy extends Request
 {
-
 }/**
  * @method $this setPageSize($pageSize)
  * @method int getPageSize()
@@ -188,7 +177,6 @@ class ModifyTieringPolicy extends Request
  */
 class DescribeRegions extends Request
 {
-
 }/**
  * @method $this setStorageType($storageType)
  * @method string getStorageType()
@@ -199,12 +187,10 @@ class DescribeRegions extends Request
  */
 class CreateFileSystem extends Request
 {
-
 }/**
  */
 class DescribeTieringPolicies extends Request
 {
-
 }/**
  * @method $this setAccessGroupName($accessGroupName)
  * @method string getAccessGroupName()
@@ -215,7 +201,6 @@ class DescribeTieringPolicies extends Request
  */
 class DescribeAccessGroups extends Request
 {
-
 }/**
  * @method $this setName($name)
  * @method string getName()
@@ -238,7 +223,6 @@ class DescribeAccessGroups extends Request
  */
 class CreateTieringPolicy extends Request
 {
-
 }/**
  * @method $this setAccessGroupName($accessGroupName)
  * @method string getAccessGroupName()
@@ -251,7 +235,6 @@ class CreateTieringPolicy extends Request
  */
 class DescribeAccessRules extends Request
 {
-
 }/**
  * @method $this setVolume($volume)
  * @method string getVolume()
@@ -274,7 +257,6 @@ class DescribeAccessRules extends Request
  */
 class CreateTieringJob extends Request
 {
-
 }/**
  * @method $this setAccessGroupName($accessGroupName)
  * @method string getAccessGroupName()
@@ -283,12 +265,10 @@ class CreateTieringJob extends Request
  */
 class ModifyAccessGroup extends Request
 {
-
 }/**
  */
 class DescribeZones extends Request
 {
-
 }/**
  * @method $this setFileSystemId($fileSystemId)
  * @method string getFileSystemId()
@@ -303,7 +283,6 @@ class DescribeZones extends Request
  */
 class CreateMountTarget extends Request
 {
-
 }/**
  * @method $this setVolume($volume)
  * @method string getVolume()
@@ -312,28 +291,24 @@ class CreateMountTarget extends Request
  */
 class DeleteTieringJob extends Request
 {
-
 }/**
  * @method $this setAccessGroupName($accessGroupName)
  * @method string getAccessGroupName()
  */
 class DeleteAccessGroup extends Request
 {
-
 }/**
  * @method $this setFileSystemId($fileSystemId)
  * @method string getFileSystemId()
  */
 class DeleteFileSystem extends Request
 {
-
 }/**
  * @method $this setVolume($volume)
  * @method string getVolume()
  */
 class DescribeTieringJobs extends Request
 {
-
 }/**
  * @method $this setAccessGroupName($accessGroupName)
  * @method string getAccessGroupName()
@@ -350,5 +325,4 @@ class DescribeTieringJobs extends Request
  */
 class ModifyAccessRule extends Request
 {
-
 }

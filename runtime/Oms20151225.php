@@ -33,7 +33,6 @@ class V20151225
  */
 class GetDomainPart extends Request
 {
-
 }/**
  * @method $this setDomainCode($domainCode)
  * @method string getDomainCode()
@@ -50,7 +49,6 @@ class GetDomainPart extends Request
  */
 class CheckReadyFlag extends Request
 {
-
 }/**
  * @method $this setDomainCode($domainCode)
  * @method string getDomainCode()
@@ -63,7 +61,6 @@ class CheckReadyFlag extends Request
  */
 class PutDomainPart extends Request
 {
-
 }/**
  * @method $this setDomainCode($domainCode)
  * @method string getDomainCode()
@@ -80,7 +77,6 @@ class PutDomainPart extends Request
  */
 class PutMeasureData extends Request
 {
-
 }/**
  * @method $this setDomainCode($domainCode)
  * @method string getDomainCode()
@@ -101,7 +97,6 @@ class PutMeasureData extends Request
  */
 class GetMeasureData extends Request
 {
-
 }/**
  * @method $this setDomainCode($domainCode)
  * @method string getDomainCode()
@@ -120,7 +115,6 @@ class GetMeasureData extends Request
  */
 class GetReadyFlag extends Request
 {
-
 }/**
  * @method $this setDomainCode($domainCode)
  * @method string getDomainCode()
@@ -131,7 +125,6 @@ class GetReadyFlag extends Request
  */
 class DeleteDomainPart extends Request
 {
-
 }/**
  * @method $this setDomainCode($domainCode)
  * @method string getDomainCode()
@@ -146,5 +139,4 @@ class DeleteDomainPart extends Request
  */
 class PutReadyFlag extends Request
 {
-
 }

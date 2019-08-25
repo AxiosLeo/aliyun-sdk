@@ -28,7 +28,6 @@ class V20160201
  */
 class GetResolveCountSummary extends Request
 {
-
 }/**
  * @method $this setAccountId($accountId)
  * @method string getAccountId()
@@ -37,7 +36,6 @@ class GetResolveCountSummary extends Request
  */
 class AddDomain extends Request
 {
-
 }/**
  * @method $this setPageNumber($pageNumber)
  * @method int getPageNumber()
@@ -46,12 +44,10 @@ class AddDomain extends Request
  */
 class ListDomains extends Request
 {
-
 }/**
  */
 class GetAccountInfo extends Request
 {
-
 }/**
  * @method $this setDomainName($domainName)
  * @method string getDomainName()
@@ -64,7 +60,6 @@ class GetAccountInfo extends Request
  */
 class GetResolveStatistics extends Request
 {
-
 }/**
  * @method $this setAccountId($accountId)
  * @method string getAccountId()
@@ -75,7 +70,6 @@ class GetResolveStatistics extends Request
  */
 class DescribeDomains extends Request
 {
-
 }/**
  * @method $this setAccountId($accountId)
  * @method string getAccountId()
@@ -84,5 +78,4 @@ class DescribeDomains extends Request
  */
 class DeleteDomain extends Request
 {
-
 }

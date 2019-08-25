@@ -79,7 +79,6 @@ class V20170726
  */
 class DescribeBizReportDownloadUrl extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -98,7 +97,6 @@ class DescribeBizReportDownloadUrl extends Request
  */
 class UploadCertificate extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -115,7 +113,6 @@ class UploadCertificate extends Request
  */
 class ModifyRealServers extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -136,7 +133,6 @@ class ModifyRealServers extends Request
  */
 class DescribeWebLogDownloadFilePage extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -161,7 +157,6 @@ class DescribeWebLogDownloadFilePage extends Request
  */
 class CreateCcCustomedRule extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -184,7 +179,6 @@ class CreateCcCustomedRule extends Request
  */
 class CreateDomain extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -193,7 +187,6 @@ class CreateDomain extends Request
  */
 class DeleteDDoSFlowPackIp extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -204,7 +197,6 @@ class DeleteDDoSFlowPackIp extends Request
  */
 class DescribeDomainSecurityConfig extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -217,7 +209,6 @@ class DescribeDomainSecurityConfig extends Request
  */
 class ModifyCcTemplate extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -230,7 +221,6 @@ class ModifyCcTemplate extends Request
  */
 class ModifyTransmitLine extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -243,7 +233,6 @@ class ModifyTransmitLine extends Request
  */
 class ModifyElasticBandwidth extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -264,7 +253,6 @@ class ModifyElasticBandwidth extends Request
  */
 class DescribeOplog extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -277,7 +265,6 @@ class DescribeOplog extends Request
  */
 class DescribeBackSourceCidr extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -286,7 +273,6 @@ class DescribeBackSourceCidr extends Request
  */
 class DescribeSlsServiceStatus extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -301,7 +287,6 @@ class DescribeSlsServiceStatus extends Request
  */
 class ModifyDomainBlackWhiteList extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -320,7 +305,6 @@ class ModifyDomainBlackWhiteList extends Request
  */
 class CreateWebLogDownloadTask extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -331,7 +315,6 @@ class CreateWebLogDownloadTask extends Request
  */
 class DescribeCcMode extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -340,7 +323,6 @@ class DescribeCcMode extends Request
  */
 class DescribeSlsAuthStatus extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -351,7 +333,6 @@ class DescribeSlsAuthStatus extends Request
  */
 class DeleteBlockhole extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -364,7 +345,6 @@ class DeleteBlockhole extends Request
  */
 class ModifyCcStatus extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -383,7 +363,6 @@ class ModifyCcStatus extends Request
  */
 class DescribeWebLogPage extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -392,7 +371,6 @@ class DescribeWebLogPage extends Request
  */
 class DescribeUnBlackholeCount extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -407,7 +385,6 @@ class DescribeUnBlackholeCount extends Request
  */
 class DescribeDomainConfigPage extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -418,7 +395,6 @@ class DescribeDomainConfigPage extends Request
  */
 class ConfigDDoSFlowPack extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -431,7 +407,6 @@ class ConfigDDoSFlowPack extends Request
  */
 class ModifyDomainCnameStatus extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -444,7 +419,6 @@ class ModifyDomainCnameStatus extends Request
  */
 class ModifyDomainProxy extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -455,7 +429,6 @@ class ModifyDomainProxy extends Request
  */
 class DescribeDomainConfig extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -468,7 +441,6 @@ class DescribeDomainConfig extends Request
  */
 class DeleteCcCustomedRule extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -485,7 +457,6 @@ class DeleteCcCustomedRule extends Request
  */
 class CreateTransmitLine extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -498,7 +469,6 @@ class CreateTransmitLine extends Request
  */
 class DeleteTransmitLine extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -507,7 +477,6 @@ class DeleteTransmitLine extends Request
  */
 class DescribeUnBlockholeCount extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -522,7 +491,6 @@ class DescribeUnBlockholeCount extends Request
  */
 class ModifyIpCnameStatus extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -533,7 +501,6 @@ class ModifyIpCnameStatus extends Request
  */
 class DeleteBlackHole extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -546,7 +513,6 @@ class DeleteBlackHole extends Request
  */
 class ModifyCcMode extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -559,7 +525,6 @@ class ModifyCcMode extends Request
  */
 class ConfigSwitchPriority extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -584,7 +549,6 @@ class ConfigSwitchPriority extends Request
  */
 class UpdateCcCustomedRule extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -595,7 +559,6 @@ class UpdateCcCustomedRule extends Request
  */
 class DescribeDdosStatus extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -608,7 +571,6 @@ class DescribeDdosStatus extends Request
  */
 class ModifyCcCustomStatus extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -621,7 +583,6 @@ class ModifyCcCustomStatus extends Request
  */
 class ModifyDomainSlsStatus extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -642,7 +603,6 @@ class ModifyDomainSlsStatus extends Request
  */
 class DescribeInstancePage extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -653,7 +613,6 @@ class DescribeInstancePage extends Request
  */
 class DescribeDomainSlsStatus extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -664,7 +623,6 @@ class DescribeDomainSlsStatus extends Request
  */
 class DescribeFlowBlockholeStatus extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -679,7 +637,6 @@ class DescribeFlowBlockholeStatus extends Request
  */
 class DescribeDDoSFlowPackList extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -694,7 +651,6 @@ class DescribeDDoSFlowPackList extends Request
  */
 class ListCcCustomedRule extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -705,7 +661,6 @@ class ListCcCustomedRule extends Request
  */
 class DeleteDomain extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -714,7 +669,6 @@ class DeleteDomain extends Request
  */
 class DescribeDomainList extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -729,7 +683,6 @@ class DescribeDomainList extends Request
  */
 class DescribeBizFlow extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -742,7 +695,6 @@ class DescribeBizFlow extends Request
  */
 class ModifySwitchMode extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -753,7 +705,6 @@ class ModifySwitchMode extends Request
  */
 class DescribeDomainBlackWhiteList extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -768,5 +719,4 @@ class DescribeDomainBlackWhiteList extends Request
  */
 class CreateBlockhole extends Request
 {
-
 }

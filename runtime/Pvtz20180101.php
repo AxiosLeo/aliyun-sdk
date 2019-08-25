@@ -44,7 +44,6 @@ class V20180101
  */
 class BindZoneVpc extends Request
 {
-
 }/**
  * @method $this setLang($lang)
  * @method string getLang()
@@ -55,7 +54,6 @@ class BindZoneVpc extends Request
  */
 class CheckZoneName extends Request
 {
-
 }/**
  * @method $this setLang($lang)
  * @method string getLang()
@@ -68,7 +66,6 @@ class CheckZoneName extends Request
  */
 class SetProxyPattern extends Request
 {
-
 }/**
  * @method $this setLang($lang)
  * @method string getLang()
@@ -79,7 +76,6 @@ class SetProxyPattern extends Request
  */
 class DeleteZoneRecord extends Request
 {
-
 }/**
  * @method $this setZoneId($zoneId)
  * @method string getZoneId()
@@ -100,7 +96,6 @@ class DeleteZoneRecord extends Request
  */
 class AddZoneRecord extends Request
 {
-
 }/**
  * @method $this setLang($lang)
  * @method string getLang()
@@ -109,7 +104,6 @@ class AddZoneRecord extends Request
  */
 class DescribeZoneVpcTree extends Request
 {
-
 }/**
  * @method $this setLang($lang)
  * @method string getLang()
@@ -130,7 +124,6 @@ class DescribeZoneVpcTree extends Request
  */
 class DescribeZoneRecords extends Request
 {
-
 }/**
  * @method $this setLang($lang)
  * @method string getLang()
@@ -147,7 +140,6 @@ class DescribeZoneRecords extends Request
  */
 class DescribeRequestGraph extends Request
 {
-
 }/**
  * @method $this setLang($lang)
  * @method string getLang()
@@ -160,7 +152,6 @@ class DescribeRequestGraph extends Request
  */
 class AddZone extends Request
 {
-
 }/**
  * @method $this setKeyword($keyword)
  * @method string getKeyword()
@@ -183,7 +174,6 @@ class AddZone extends Request
  */
 class DescribeChangeLogs extends Request
 {
-
 }/**
  * @method $this setLang($lang)
  * @method string getLang()
@@ -194,7 +184,6 @@ class DescribeChangeLogs extends Request
  */
 class DescribeRegions extends Request
 {
-
 }/**
  * @method $this setLang($lang)
  * @method string getLang()
@@ -205,7 +194,6 @@ class DescribeRegions extends Request
  */
 class DescribeZoneInfo extends Request
 {
-
 }/**
  * @method $this setLang($lang)
  * @method string getLang()
@@ -218,7 +206,6 @@ class DescribeZoneInfo extends Request
  */
 class SetZoneRecordStatus extends Request
 {
-
 }/**
  * @method $this setLang($lang)
  * @method string getLang()
@@ -229,7 +216,6 @@ class SetZoneRecordStatus extends Request
  */
 class DeleteZone extends Request
 {
-
 }/**
  * @method $this setLang($lang)
  * @method string getLang()
@@ -238,7 +224,6 @@ class DeleteZone extends Request
  */
 class DescribeUserServiceStatus extends Request
 {
-
 }/**
  * @method $this setLang($lang)
  * @method string getLang()
@@ -261,7 +246,6 @@ class DescribeUserServiceStatus extends Request
  */
 class DescribeZones extends Request
 {
-
 }/**
  * @method $this setRr($rr)
  * @method string getRr()
@@ -282,7 +266,6 @@ class DescribeZones extends Request
  */
 class UpdateZoneRecord extends Request
 {
-
 }/**
  * @method $this setLang($lang)
  * @method string getLang()
@@ -291,7 +274,6 @@ class UpdateZoneRecord extends Request
  */
 class DescribeStatisticSummary extends Request
 {
-
 }/**
  * @method $this setLang($lang)
  * @method string getLang()
@@ -304,5 +286,4 @@ class DescribeStatisticSummary extends Request
  */
 class UpdateZoneRemark extends Request
 {
-
 }

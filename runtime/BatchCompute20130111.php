@@ -36,7 +36,6 @@ class V20130111
  */
 class ListSnapshots extends Request
 {
-
 }/**
  * @method $this setResourceName($resourceName)
  * @method string getResourceName()
@@ -45,7 +44,6 @@ class ListSnapshots extends Request
  */
 class GetTasks extends Request
 {
-
 }/**
  * @method $this setResourceName($resourceName)
  * @method string getResourceName()
@@ -54,7 +52,6 @@ class GetTasks extends Request
  */
 class GetJobDescription extends Request
 {
-
 }/**
  * @method $this setResourceName($resourceName)
  * @method string getResourceName()
@@ -63,7 +60,6 @@ class GetJobDescription extends Request
  */
 class PutJob extends Request
 {
-
 }/**
  * @method $this setResourceName($resourceName)
  * @method string getResourceName()
@@ -72,7 +68,6 @@ class PutJob extends Request
  */
 class DeleteSnapshot extends Request
 {
-
 }/**
  * @method $this setResourceName($resourceName)
  * @method string getResourceName()
@@ -81,14 +76,12 @@ class DeleteSnapshot extends Request
  */
 class GetJob extends Request
 {
-
 }/**
  * @method $this setResourceName($resourceName)
  * @method string getResourceName()
  */
 class StartJob extends Request
 {
-
 }/**
  * @method $this setResourceName($resourceName)
  * @method string getResourceName()
@@ -97,7 +90,6 @@ class StartJob extends Request
  */
 class DeleteJob extends Request
 {
-
 }/**
  * @method $this setResourceName($resourceName)
  * @method string getResourceName()
@@ -106,14 +98,12 @@ class DeleteJob extends Request
  */
 class ModifyJob extends Request
 {
-
 }/**
  * @method $this setResourceName($resourceName)
  * @method string getResourceName()
  */
 class StopJob extends Request
 {
-
 }/**
  * @method $this setResourceName($resourceName)
  * @method string getResourceName()
@@ -122,14 +112,12 @@ class StopJob extends Request
  */
 class GetImage extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
  */
 class ListImages extends Request
 {
-
 }/**
  * @method $this setResourceName($resourceName)
  * @method string getResourceName()
@@ -138,7 +126,6 @@ class ListImages extends Request
  */
 class DeleteImage extends Request
 {
-
 }/**
  * @method $this setResourceName($resourceName)
  * @method string getResourceName()
@@ -147,7 +134,6 @@ class DeleteImage extends Request
  */
 class ReleaseJob extends Request
 {
-
 }/**
  * @method $this setResourceName($resourceName)
  * @method string getResourceName()
@@ -156,19 +142,16 @@ class ReleaseJob extends Request
  */
 class GetSnapshot extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
  */
 class ListJobs extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
  */
 class PostJob extends Request
 {
-
 }

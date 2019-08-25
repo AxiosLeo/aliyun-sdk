@@ -109,7 +109,6 @@ class V20160229
  */
 class DescribeExtremeFileSystems extends Request
 {
-
 }/**
  * @method $this setdata($data)
  * @method string getdata()
@@ -126,7 +125,6 @@ class DescribeExtremeFileSystems extends Request
  */
 class ProduceInstance extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -135,7 +133,6 @@ class ProduceInstance extends Request
  */
 class GetFiNasTargetIp extends Request
 {
-
 }/**
  * @method $this setdata($data)
  * @method string getdata()
@@ -152,7 +149,6 @@ class GetFiNasTargetIp extends Request
  */
 class RefundNasPackage extends Request
 {
-
 }/**
  * @method $this setAccessGroupName($accessGroupName)
  * @method string getAccessGroupName()
@@ -163,7 +159,6 @@ class RefundNasPackage extends Request
  */
 class CreateExtremeAccessGroup extends Request
 {
-
 }/**
  * @method $this setdata($data)
  * @method string getdata()
@@ -180,12 +175,10 @@ class CreateExtremeAccessGroup extends Request
  */
 class CheckNasPackageOrder extends Request
 {
-
 }/**
  */
 class ListNasSmbBeta extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -202,7 +195,6 @@ class ListNasSmbBeta extends Request
  */
 class AddBackupDemand extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -215,7 +207,6 @@ class AddBackupDemand extends Request
  */
 class CreateAccessGroup extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -224,7 +215,6 @@ class CreateAccessGroup extends Request
  */
 class DescribeFileSystems extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -235,7 +225,6 @@ class DescribeFileSystems extends Request
  */
 class DeleteFiNasPoolVolume extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -248,7 +237,6 @@ class DeleteFiNasPoolVolume extends Request
  */
 class CreateFiNasPoolVolume extends Request
 {
-
 }/**
  * @method $this setUid($uid)
  * @method string getUid()
@@ -259,7 +247,6 @@ class CreateFiNasPoolVolume extends Request
  */
 class SetNasBetaStatus extends Request
 {
-
 }/**
  * @method $this setFileSystemId($fileSystemId)
  * @method string getFileSystemId()
@@ -268,7 +255,6 @@ class SetNasBetaStatus extends Request
  */
 class DeleteExtremeMountTarget extends Request
 {
-
 }/**
  * @method $this setFileSystemName($fileSystemName)
  * @method string getFileSystemName()
@@ -277,7 +263,6 @@ class DeleteExtremeMountTarget extends Request
  */
 class DescribeMountTargets extends Request
 {
-
 }/**
  * @method $this setAccessGroupName($accessGroupName)
  * @method string getAccessGroupName()
@@ -286,7 +271,6 @@ class DescribeMountTargets extends Request
  */
 class ModifyExtremeAccessGroup extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -297,7 +281,6 @@ class ModifyExtremeAccessGroup extends Request
  */
 class CreateFileSystemOptionalUser extends Request
 {
-
 }/**
  * @method $this setdata($data)
  * @method string getdata()
@@ -314,7 +297,6 @@ class CreateFileSystemOptionalUser extends Request
  */
 class FillNasPackageSpec extends Request
 {
-
 }/**
  * @method $this setResourceOwner($resourceOwner)
  * @method string getResourceOwner()
@@ -329,7 +311,6 @@ class FillNasPackageSpec extends Request
  */
 class CreateAccessGroupInternal extends Request
 {
-
 }/**
  * @method $this setFileSystemName($fileSystemName)
  * @method string getFileSystemName()
@@ -340,7 +321,6 @@ class CreateAccessGroupInternal extends Request
  */
 class DeleteMountTarget extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -355,7 +335,6 @@ class DeleteMountTarget extends Request
  */
 class AddFiNasPoolUserToVolume extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -366,7 +345,6 @@ class AddFiNasPoolUserToVolume extends Request
  */
 class DeleteAccessRule extends Request
 {
-
 }/**
  * @method $this setZoneId($zoneId)
  * @method string getZoneId()
@@ -397,7 +375,6 @@ class DeleteAccessRule extends Request
  */
 class CreateExtremeFileSystem extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -408,7 +385,6 @@ class CreateExtremeFileSystem extends Request
  */
 class DescribeFileSystemOptionalUsers extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -425,7 +401,6 @@ class DescribeFileSystemOptionalUsers extends Request
  */
 class CreateAccessRule extends Request
 {
-
 }/**
  * @method $this setdata($data)
  * @method string getdata()
@@ -442,7 +417,6 @@ class CreateAccessRule extends Request
  */
 class FillInstanceParam extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -455,14 +429,12 @@ class FillInstanceParam extends Request
  */
 class RestoreBackup extends Request
 {
-
 }/**
  * @method $this setFileSystemId($fileSystemId)
  * @method string getFileSystemId()
  */
 class DeleteExtremeFileSystem extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -473,12 +445,10 @@ class DeleteExtremeFileSystem extends Request
  */
 class DeleteFileSystemOptionalUser extends Request
 {
-
 }/**
  */
 class ListRegion extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -491,7 +461,6 @@ class ListRegion extends Request
  */
 class RemoveFiNasPoolUserFromVolume extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -502,7 +471,6 @@ class RemoveFiNasPoolUserFromVolume extends Request
  */
 class UnBindVolumeStoragePackage extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -513,7 +481,6 @@ class UnBindVolumeStoragePackage extends Request
  */
 class DeleteFiNasPoolUser extends Request
 {
-
 }/**
  * @method $this setFileSystemName($fileSystemName)
  * @method string getFileSystemName()
@@ -524,14 +491,12 @@ class DeleteFiNasPoolUser extends Request
  */
 class UpdateFileSystemInfo extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
  */
 class DescribeBackupDemands extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -546,7 +511,6 @@ class DescribeBackupDemands extends Request
  */
 class ModifyFiNasPoolUser extends Request
 {
-
 }/**
  * @method $this setResourceOwner($resourceOwner)
  * @method string getResourceOwner()
@@ -559,14 +523,12 @@ class ModifyFiNasPoolUser extends Request
  */
 class DeleteAccessRuleInternal extends Request
 {
-
 }/**
  * @method $this setFeature($feature)
  * @method string getFeature()
  */
 class ListNasBeta extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -575,7 +537,6 @@ class ListNasBeta extends Request
  */
 class DescribeFiNasPoolUsers extends Request
 {
-
 }/**
  * @method $this setFileSystemId($fileSystemId)
  * @method string getFileSystemId()
@@ -588,7 +549,6 @@ class DescribeFiNasPoolUsers extends Request
  */
 class ModifyExtremeFileSystem extends Request
 {
-
 }/**
  * @method $this setEmail($email)
  * @method string getEmail()
@@ -601,7 +561,6 @@ class ModifyExtremeFileSystem extends Request
  */
 class ApplyNasSmbBeta extends Request
 {
-
 }/**
  * @method $this setdata($data)
  * @method string getdata()
@@ -618,7 +577,6 @@ class ApplyNasSmbBeta extends Request
  */
 class ProduceNasPackage extends Request
 {
-
 }/**
  * @method $this setAccessGroupName($accessGroupName)
  * @method string getAccessGroupName()
@@ -629,7 +587,6 @@ class ProduceNasPackage extends Request
  */
 class DescribeExtremeAccessGroups extends Request
 {
-
 }/**
  * @method $this setResourceOwner($resourceOwner)
  * @method string getResourceOwner()
@@ -640,7 +597,6 @@ class DescribeExtremeAccessGroups extends Request
  */
 class DeleteAccessGroupInternal extends Request
 {
-
 }/**
  * @method $this setFeature($feature)
  * @method string getFeature()
@@ -655,7 +611,6 @@ class DeleteAccessGroupInternal extends Request
  */
 class ApplyNasBeta extends Request
 {
-
 }/**
  * @method $this setResourceOwner($resourceOwner)
  * @method string getResourceOwner()
@@ -674,14 +629,12 @@ class ApplyNasBeta extends Request
  */
 class CreateMountTargetInternal extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
  */
 class DescribeVolumeStoragePackages extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -694,7 +647,6 @@ class DescribeVolumeStoragePackages extends Request
  */
 class CreateFileSystem extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -703,7 +655,6 @@ class CreateFileSystem extends Request
  */
 class DescribeFiNasPoolVolumes extends Request
 {
-
 }/**
  * @method $this setAccessGroupName($accessGroupName)
  * @method string getAccessGroupName()
@@ -712,7 +663,6 @@ class DescribeFiNasPoolVolumes extends Request
  */
 class DeleteExtremeAccessRule extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -721,7 +671,6 @@ class DeleteExtremeAccessRule extends Request
  */
 class DescribeBackupVersions extends Request
 {
-
 }/**
  * @method $this setResourceOwner($resourceOwner)
  * @method string getResourceOwner()
@@ -740,14 +689,12 @@ class DescribeBackupVersions extends Request
  */
 class CreateAccessRuleInternal extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
  */
 class DescribeAccessGroups extends Request
 {
-
 }/**
  * @method $this setFileSystemName($fileSystemName)
  * @method string getFileSystemName()
@@ -760,7 +707,6 @@ class DescribeAccessGroups extends Request
  */
 class ModifyMountTargetStatus extends Request
 {
-
 }/**
  * @method $this setUserId($userId)
  * @method string getUserId()
@@ -769,7 +715,6 @@ class ModifyMountTargetStatus extends Request
  */
 class SetUserVolumeCountLimit extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -778,7 +723,6 @@ class SetUserVolumeCountLimit extends Request
  */
 class BackupNow extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -787,7 +731,6 @@ class BackupNow extends Request
  */
 class DescribeAccessRules extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -802,7 +745,6 @@ class DescribeAccessRules extends Request
  */
 class CreateFiNasPoolUser extends Request
 {
-
 }/**
  * @method $this setAccessGroupName($accessGroupName)
  * @method string getAccessGroupName()
@@ -819,7 +761,6 @@ class CreateFiNasPoolUser extends Request
  */
 class ModifyExtremeAccessRule extends Request
 {
-
 }/**
  * @method $this setAccessGroupName($accessGroupName)
  * @method string getAccessGroupName()
@@ -834,7 +775,6 @@ class ModifyExtremeAccessRule extends Request
  */
 class DescribeExtremeAccessRules extends Request
 {
-
 }/**
  * @method $this setPageSize($pageSize)
  * @method int getPageSize()
@@ -843,7 +783,6 @@ class DescribeExtremeAccessRules extends Request
  */
 class DescribeExtremeRegions extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -854,7 +793,6 @@ class DescribeExtremeRegions extends Request
  */
 class ModifyAccessGroup extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -867,7 +805,6 @@ class ModifyAccessGroup extends Request
  */
 class CreateFiNasStoragePool extends Request
 {
-
 }/**
  * @method $this setFileSystemName($fileSystemName)
  * @method string getFileSystemName()
@@ -884,12 +821,10 @@ class CreateFiNasStoragePool extends Request
  */
 class CreateMountTarget extends Request
 {
-
 }/**
  */
 class ListNasPlusBeta extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -900,7 +835,6 @@ class ListNasPlusBeta extends Request
  */
 class SetUserVolumeSkipAuth extends Request
 {
-
 }/**
  * @method $this setFileSystemName($fileSystemName)
  * @method string getFileSystemName()
@@ -913,7 +847,6 @@ class SetUserVolumeSkipAuth extends Request
  */
 class ModifyMountTargetAccessGroup extends Request
 {
-
 }/**
  * @method $this setResourceOwner($resourceOwner)
  * @method string getResourceOwner()
@@ -926,7 +859,6 @@ class ModifyMountTargetAccessGroup extends Request
  */
 class DeleteMountTargetInternal extends Request
 {
-
 }/**
  * @method $this setFileSystemId($fileSystemId)
  * @method string getFileSystemId()
@@ -941,7 +873,6 @@ class DeleteMountTargetInternal extends Request
  */
 class CreateExtremeMountTarget extends Request
 {
-
 }/**
  * @method $this setEmail($email)
  * @method string getEmail()
@@ -954,7 +885,6 @@ class CreateExtremeMountTarget extends Request
  */
 class ApplyNasPlusBeta extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -965,7 +895,6 @@ class ApplyNasPlusBeta extends Request
  */
 class BindVolumeStoragePackage extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -974,7 +903,6 @@ class BindVolumeStoragePackage extends Request
  */
 class DescribeFiNasStoragePools extends Request
 {
-
 }/**
  * @method $this setdata($data)
  * @method string getdata()
@@ -991,14 +919,12 @@ class DescribeFiNasStoragePools extends Request
  */
 class CompleteNasPackageOrder extends Request
 {
-
 }/**
  * @method $this setFeature($feature)
  * @method string getFeature()
  */
 class CheckNasBeta extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -1007,7 +933,6 @@ class CheckNasBeta extends Request
  */
 class DeleteAccessGroup extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -1016,7 +941,6 @@ class DeleteAccessGroup extends Request
  */
 class DeleteBackupDemand extends Request
 {
-
 }/**
  * @method $this setUid($uid)
  * @method string getUid()
@@ -1025,7 +949,6 @@ class DeleteBackupDemand extends Request
  */
 class SetNasPlusBetaStatus extends Request
 {
-
 }/**
  * @method $this setFileSystemName($fileSystemName)
  * @method string getFileSystemName()
@@ -1034,7 +957,6 @@ class SetNasPlusBetaStatus extends Request
  */
 class DeleteFileSystem extends Request
 {
-
 }/**
  * @method $this setUid($uid)
  * @method string getUid()
@@ -1043,17 +965,14 @@ class DeleteFileSystem extends Request
  */
 class SetNasSmbBetaStatus extends Request
 {
-
 }/**
  */
 class CheckNasPlusBeta extends Request
 {
-
 }/**
  */
 class CheckNasSmbBeta extends Request
 {
-
 }/**
  * @method $this setFileSystemId($fileSystemId)
  * @method string getFileSystemId()
@@ -1066,7 +985,6 @@ class CheckNasSmbBeta extends Request
  */
 class DescribeExtremeMountTargets extends Request
 {
-
 }/**
  * @method $this setFileSystemId($fileSystemId)
  * @method string getFileSystemId()
@@ -1081,7 +999,6 @@ class DescribeExtremeMountTargets extends Request
  */
 class ModifyExtremeMountTarget extends Request
 {
-
 }/**
  * @method $this setAccessGroupName($accessGroupName)
  * @method string getAccessGroupName()
@@ -1096,14 +1013,12 @@ class ModifyExtremeMountTarget extends Request
  */
 class CreateExtremeAccessRule extends Request
 {
-
 }/**
  * @method $this setAccessGroupName($accessGroupName)
  * @method string getAccessGroupName()
  */
 class DeleteExtremeAccessGroup extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -1122,5 +1037,4 @@ class DeleteExtremeAccessGroup extends Request
  */
 class ModifyAccessRule extends Request
 {
-
 }

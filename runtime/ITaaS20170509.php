@@ -87,7 +87,6 @@ class V20170509
  */
 class ShareClientHeartBeat extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -98,7 +97,6 @@ class ShareClientHeartBeat extends Request
  */
 class ProduceInstance extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -111,7 +109,6 @@ class ProduceInstance extends Request
  */
 class CheckBuyShareScreen extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -126,7 +123,6 @@ class CheckBuyShareScreen extends Request
  */
 class RemoveIPSegment extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -139,7 +135,6 @@ class RemoveIPSegment extends Request
  */
 class GetWelcomePageURI extends Request
 {
-
 }/**
  * @method $this setInterrupt($interrupt)
  * @method bool getInterrupt()
@@ -174,7 +169,6 @@ class GetWelcomePageURI extends Request
  */
 class doCheckResource extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -187,7 +181,6 @@ class doCheckResource extends Request
  */
 class GetRegisterHistoryList extends Request
 {
-
 }/**
  * @method $this setSessionId($sessionId)
  * @method string getSessionId()
@@ -212,7 +205,6 @@ class GetRegisterHistoryList extends Request
  */
 class ShareGuestSenderRegister extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -225,7 +217,6 @@ class ShareGuestSenderRegister extends Request
  */
 class GetBoxCodeList extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -240,7 +231,6 @@ class GetBoxCodeList extends Request
  */
 class SetWelcomePageURI extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -255,7 +245,6 @@ class SetWelcomePageURI extends Request
  */
 class RemoveRegisterBox extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -286,7 +275,6 @@ class RemoveRegisterBox extends Request
  */
 class ShareSenderRegister extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -299,7 +287,6 @@ class ShareSenderRegister extends Request
  */
 class BoxClientHeartBeat4Appkey extends Request
 {
-
 }/**
  * @method $this setInterrupt($interrupt)
  * @method bool getInterrupt()
@@ -328,7 +315,6 @@ class BoxClientHeartBeat4Appkey extends Request
  */
 class doPhysicalDeleteResource extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -345,7 +331,6 @@ class doPhysicalDeleteResource extends Request
  */
 class AddIPSegment extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -360,7 +345,6 @@ class AddIPSegment extends Request
  */
 class BoxLoginoutReport extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -373,7 +357,6 @@ class BoxLoginoutReport extends Request
  */
 class GetRegisterBoxList extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -402,7 +385,6 @@ class GetRegisterBoxList extends Request
  */
 class BoxRegister extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -425,7 +407,6 @@ class BoxRegister extends Request
  */
 class BoxRegisterUpdate4Appkey extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -438,7 +419,6 @@ class BoxRegisterUpdate4Appkey extends Request
  */
 class CreateBoxCode extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -455,7 +435,6 @@ class CreateBoxCode extends Request
  */
 class BoxClientHeartBeat extends Request
 {
-
 }/**
  * @method $this setInterrupt($interrupt)
  * @method bool getInterrupt()
@@ -484,7 +463,6 @@ class BoxClientHeartBeat extends Request
  */
 class doLogicalDeleteResource extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -495,7 +473,6 @@ class doLogicalDeleteResource extends Request
  */
 class ReleaseInstance extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -512,7 +489,6 @@ class ReleaseInstance extends Request
  */
 class BoxLoginoutReport4Appkey extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -537,7 +513,6 @@ class BoxLoginoutReport4Appkey extends Request
  */
 class ShareGetReceiverInfo extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -548,7 +523,6 @@ class ShareGetReceiverInfo extends Request
  */
 class ResumeInstance extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -559,7 +533,6 @@ class ResumeInstance extends Request
  */
 class GetEnterpriseConfig extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -572,7 +545,6 @@ class GetEnterpriseConfig extends Request
  */
 class GetCompanyId4BoxActived extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -587,7 +559,6 @@ class GetCompanyId4BoxActived extends Request
  */
 class RemoveBoxCode extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -608,7 +579,6 @@ class RemoveBoxCode extends Request
  */
 class ShareClientHeartBeat4Appkey extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -625,7 +595,6 @@ class ShareClientHeartBeat4Appkey extends Request
  */
 class BoxSendMessageUrl extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -644,7 +613,6 @@ class BoxSendMessageUrl extends Request
  */
 class UpdateEnterpriseConfig extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -663,7 +631,6 @@ class UpdateEnterpriseConfig extends Request
  */
 class UpdateIPSegment extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -682,7 +649,6 @@ class UpdateIPSegment extends Request
  */
 class ShareSendMessageUrl4Appkey extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -699,7 +665,6 @@ class ShareSendMessageUrl4Appkey extends Request
  */
 class UpdateRoomName extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -716,7 +681,6 @@ class UpdateRoomName extends Request
  */
 class ShareScreenMeetingRob4Appkey extends Request
 {
-
 }/**
  * @method $this setAuthType($authType)
  * @method string getAuthType()
@@ -729,7 +693,6 @@ class ShareScreenMeetingRob4Appkey extends Request
  */
 class SetWelcomePageURIToBoxByTP extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -758,7 +721,6 @@ class SetWelcomePageURIToBoxByTP extends Request
  */
 class BoxRegisterUpdate extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -769,7 +731,6 @@ class BoxRegisterUpdate extends Request
  */
 class CeaseInstance extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -796,7 +757,6 @@ class CeaseInstance extends Request
  */
 class ShareSendMessageUrl extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -809,7 +769,6 @@ class ShareSendMessageUrl extends Request
  */
 class BoxSendMessageUrl4Appkey extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -822,7 +781,6 @@ class BoxSendMessageUrl4Appkey extends Request
  */
 class GetRegisterBoxNumber extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -841,7 +799,6 @@ class GetRegisterBoxNumber extends Request
  */
 class ShareSenderRegister4Appkey extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -870,7 +827,6 @@ class ShareSenderRegister4Appkey extends Request
  */
 class ShareScreenMeetingRob extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -883,7 +839,6 @@ class ShareScreenMeetingRob extends Request
  */
 class GetIPSegmentsList extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -896,7 +851,6 @@ class GetIPSegmentsList extends Request
  */
 class CheckBuyVideoConference extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -911,7 +865,6 @@ class CheckBuyVideoConference extends Request
  */
 class CreateEnterprise extends Request
 {
-
 }/**
  * @method $this setGuestUserId($guestUserId)
  * @method string getGuestUserId()
@@ -932,5 +885,4 @@ class CreateEnterprise extends Request
  */
 class ShareGuestSendMessageUrl extends Request
 {
-
 }

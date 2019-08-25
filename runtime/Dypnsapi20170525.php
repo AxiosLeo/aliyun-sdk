@@ -30,7 +30,6 @@ class V20170525
  */
 class TwiceTelVerify extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -47,7 +46,6 @@ class TwiceTelVerify extends Request
  */
 class VerifyMobile extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -70,5 +68,4 @@ class VerifyMobile extends Request
  */
 class CreateVerifyScheme extends Request
 {
-
 }

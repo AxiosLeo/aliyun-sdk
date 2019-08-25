@@ -49,7 +49,6 @@ class V20160318
  */
 class AccessKeyGet extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -78,7 +77,6 @@ class AccessKeyGet extends Request
  */
 class QueryEvent extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -105,7 +103,6 @@ class QueryEvent extends Request
  */
 class QueryMetricList extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -114,14 +111,12 @@ class QueryMetricList extends Request
  */
 class cmsShareDeleteTokenByToken extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
  */
 class NodeInstall extends Request
 {
-
 }/**
  * @method $this setUserId($userId)
  * @method int getUserId()
@@ -134,7 +129,6 @@ class NodeInstall extends Request
  */
 class NodeList extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -161,21 +155,18 @@ class NodeList extends Request
  */
 class QueryMetricTopN extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
  */
 class NodeProcesses extends Request
 {
-
 }/**
  * @method $this setUserId($userId)
  * @method int getUserId()
  */
 class AccessKeyGenerate extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -184,14 +175,12 @@ class AccessKeyGenerate extends Request
  */
 class NodeProcessCreate extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
  */
 class NodeStatus extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -200,7 +189,6 @@ class NodeStatus extends Request
  */
 class putProductGroup extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -209,7 +197,6 @@ class putProductGroup extends Request
  */
 class ListProductGroupInstances extends Request
 {
-
 }/**
  * @method $this setcallby_cms_owner($callby_cms_owner)
  * @method string getcallby_cms_owner()
@@ -218,7 +205,6 @@ class ListProductGroupInstances extends Request
  */
 class PutMetricData extends Request
 {
-
 }/**
  * @method $this setcallby_cms_owner($callby_cms_owner)
  * @method string getcallby_cms_owner()
@@ -233,7 +219,6 @@ class PutMetricData extends Request
  */
 class UploadData extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -242,7 +227,6 @@ class UploadData extends Request
  */
 class NodeProcessDelete extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -271,7 +255,6 @@ class NodeProcessDelete extends Request
  */
 class QueryMetricTop extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -280,7 +263,6 @@ class QueryMetricTop extends Request
  */
 class getProductGroupInstances extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -289,7 +271,6 @@ class getProductGroupInstances extends Request
  */
 class getProductGroups extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -302,7 +283,6 @@ class getProductGroups extends Request
  */
 class PutDimTableData extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -311,7 +291,6 @@ class PutDimTableData extends Request
  */
 class deleteProductGroup extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -320,7 +299,6 @@ class deleteProductGroup extends Request
  */
 class ListProductGroups extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -347,7 +325,6 @@ class ListProductGroups extends Request
  */
 class QueryMetricLast extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -376,7 +353,6 @@ class QueryMetricLast extends Request
  */
 class QueryListMetric extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -401,7 +377,6 @@ class QueryListMetric extends Request
  */
 class QueryMetricData extends Request
 {
-
 }/**
  * @method $this setcallby_cms_owner($callby_cms_owner)
  * @method string getcallby_cms_owner()
@@ -416,7 +391,6 @@ class QueryMetricData extends Request
  */
 class PutMetrics extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -433,14 +407,12 @@ class PutMetrics extends Request
  */
 class cmsShareGenerateToken extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
  */
 class ListOverviewConfig extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -451,7 +423,6 @@ class ListOverviewConfig extends Request
  */
 class cmsListShares extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -470,5 +441,4 @@ class cmsListShares extends Request
  */
 class QueryMetricAgg extends Request
 {
-
 }

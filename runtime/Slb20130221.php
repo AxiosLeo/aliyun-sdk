@@ -52,7 +52,6 @@ class V20130221
  */
 class AddBackendServers extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -73,7 +72,6 @@ class AddBackendServers extends Request
  */
 class RemoveBackendServers extends Request
 {
-
 }/**
  * @method $this setLoadBalancerId($loadBalancerId)
  * @method string getLoadBalancerId()
@@ -116,7 +114,6 @@ class RemoveBackendServers extends Request
  */
 class CreateLoadBalancerHTTPListener extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -137,7 +134,6 @@ class CreateLoadBalancerHTTPListener extends Request
  */
 class DescribeLoadBalancerTCPListenerAttribute extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -156,7 +152,6 @@ class DescribeLoadBalancerTCPListenerAttribute extends Request
  */
 class DescribeLoadBalancerAttribute extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -173,7 +168,6 @@ class DescribeLoadBalancerAttribute extends Request
  */
 class DescribeRegions extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -232,7 +226,6 @@ class DescribeRegions extends Request
  */
 class CreateLoadBalancerTCPListener extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -257,7 +250,6 @@ class CreateLoadBalancerTCPListener extends Request
  */
 class CreateLoadBalancer extends Request
 {
-
 }/**
  * @method $this setLoadBalancerId($loadBalancerId)
  * @method string getLoadBalancerId()
@@ -272,7 +264,6 @@ class CreateLoadBalancer extends Request
  */
 class SetLoadBalancerListenerStatus extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -291,7 +282,6 @@ class SetLoadBalancerListenerStatus extends Request
  */
 class DeleteLoadBalancer extends Request
 {
-
 }/**
  * @method $this setLoadBalancerId($loadBalancerId)
  * @method string getLoadBalancerId()
@@ -320,7 +310,6 @@ class DeleteLoadBalancer extends Request
  */
 class SetLoadBalancerTCPListenerAttribute extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -341,7 +330,6 @@ class SetLoadBalancerTCPListenerAttribute extends Request
  */
 class SetLoadBalancerStatus extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -362,7 +350,6 @@ class SetLoadBalancerStatus extends Request
  */
 class DescribeLoadBalancerHTTPListenerAttribute extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -383,7 +370,6 @@ class DescribeLoadBalancerHTTPListenerAttribute extends Request
  */
 class SetLoadBalancerName extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -434,7 +420,6 @@ class SetLoadBalancerName extends Request
  */
 class DescribeLoadBalancers extends Request
 {
-
 }/**
  * @method $this setLoadBalancerId($loadBalancerId)
  * @method string getLoadBalancerId()
@@ -473,7 +458,6 @@ class DescribeLoadBalancers extends Request
  */
 class SetLoadBalancerHTTPListenerAttribute extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -496,7 +480,6 @@ class SetLoadBalancerHTTPListenerAttribute extends Request
  */
 class DescribeBackendServers extends Request
 {
-
 }/**
  * @method $this setLoadBalancerId($loadBalancerId)
  * @method string getLoadBalancerId()
@@ -511,7 +494,6 @@ class DescribeBackendServers extends Request
  */
 class SetLoadBanancerListenerStatus extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -532,5 +514,4 @@ class SetLoadBanancerListenerStatus extends Request
  */
 class DeleteLoadBalancerListener extends Request
 {
-
 }

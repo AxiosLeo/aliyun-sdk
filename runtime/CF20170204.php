@@ -22,19 +22,16 @@ class V20170204
  */
 class CFMonthlyPayment extends Request
 {
-
 }/**
  * @method $this setdata($data)
  * @method string getdata()
  */
 class MonthlyPaymentCheckOrder extends Request
 {
-
 }/**
  * @method $this setdata($data)
  * @method string getdata()
  */
 class CFRefund extends Request
 {
-
 }

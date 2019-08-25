@@ -86,7 +86,6 @@ class V20180115
  */
 class BatchDeleteDcdnDomainConfigs extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -105,7 +104,6 @@ class BatchDeleteDcdnDomainConfigs extends Request
  */
 class DescribeDcdnDomainHttpCodeData extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -114,7 +112,6 @@ class DescribeDcdnDomainHttpCodeData extends Request
  */
 class DescribeDcdnCertificateList extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -123,7 +120,6 @@ class DescribeDcdnCertificateList extends Request
  */
 class DescribeDcdnCertificateDetail extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -148,7 +144,6 @@ class DescribeDcdnCertificateDetail extends Request
  */
 class DescribeDcdnIpaUserDomains extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -161,7 +156,6 @@ class DescribeDcdnIpaUserDomains extends Request
  */
 class DeleteDcdnDomain extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -174,7 +168,6 @@ class DeleteDcdnDomain extends Request
  */
 class DescribeDcdnDomainRegionData extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -197,7 +190,6 @@ class DescribeDcdnDomainRegionData extends Request
  */
 class DescribeDcdnDomainIpaTrafficData extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -218,7 +210,6 @@ class DescribeDcdnDomainIpaTrafficData extends Request
  */
 class AddDcdnDomain extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -229,7 +220,6 @@ class AddDcdnDomain extends Request
  */
 class DescribeDcdnIpaDomainConfigs extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -252,7 +242,6 @@ class DescribeDcdnIpaDomainConfigs extends Request
  */
 class SetDcdnDomainCertificate extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -265,7 +254,6 @@ class SetDcdnDomainCertificate extends Request
  */
 class BatchSetDcdnDomainConfigs extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -280,14 +268,12 @@ class BatchSetDcdnDomainConfigs extends Request
  */
 class UpdateDcdnIpaDomain extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
  */
 class DescribeDcdnRefreshQuota extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -300,7 +286,6 @@ class DescribeDcdnRefreshQuota extends Request
  */
 class BatchSetDcdnIpaDomainConfigs extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -323,7 +308,6 @@ class BatchSetDcdnIpaDomainConfigs extends Request
  */
 class DescribeDcdnDomainIpaBpsData extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -336,14 +320,12 @@ class DescribeDcdnDomainIpaBpsData extends Request
  */
 class DescribeDcdnDomainPvData extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
  */
 class DescribeDcdnUserResourcePackage extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -364,7 +346,6 @@ class DescribeDcdnUserResourcePackage extends Request
  */
 class AddDcdnIpaDomain extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -377,7 +358,6 @@ class AddDcdnIpaDomain extends Request
  */
 class DescribeDcdnDomainTopReferVisit extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -390,7 +370,6 @@ class DescribeDcdnDomainTopReferVisit extends Request
  */
 class DescribeDcdnDomainRealTimeReqHitRateData extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -401,14 +380,12 @@ class DescribeDcdnDomainRealTimeReqHitRateData extends Request
  */
 class DescribeDcdnDomainConfigs extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
  */
 class DescribeDcdnUserQuota extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -419,7 +396,6 @@ class DescribeDcdnUserQuota extends Request
  */
 class RefreshDcdnObjectCaches extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -428,7 +404,6 @@ class RefreshDcdnObjectCaches extends Request
  */
 class DescribeDcdnDomainCertificateInfo extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -441,7 +416,6 @@ class DescribeDcdnDomainCertificateInfo extends Request
  */
 class DescribeDcdnDomainIspData extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -454,7 +428,6 @@ class DescribeDcdnDomainIspData extends Request
  */
 class DescribeDcdnDomainTopUrlVisit extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -467,14 +440,12 @@ class DescribeDcdnDomainTopUrlVisit extends Request
  */
 class DescribeDcdnDomainRealTimeSrcBpsData extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
  */
 class DescribeDcdnService extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -497,7 +468,6 @@ class DescribeDcdnService extends Request
  */
 class DescribeDcdnDomainTrafficData extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -512,7 +482,6 @@ class DescribeDcdnDomainTrafficData extends Request
  */
 class UpdateDcdnDomain extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -525,7 +494,6 @@ class UpdateDcdnDomain extends Request
  */
 class DescribeDcdnDomainUvData extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -548,7 +516,6 @@ class DescribeDcdnDomainUvData extends Request
  */
 class DescribeDcdnDomainQpsData extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -567,7 +534,6 @@ class DescribeDcdnDomainQpsData extends Request
  */
 class DescribeDcdnDomainOriginTrafficData extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -584,7 +550,6 @@ class DescribeDcdnDomainOriginTrafficData extends Request
  */
 class DescribeDcdnDomainRealTimeBpsData extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -593,7 +558,6 @@ class DescribeDcdnDomainRealTimeBpsData extends Request
  */
 class StopDcdnDomain extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -602,7 +566,6 @@ class StopDcdnDomain extends Request
  */
 class DescribeDcdnDomainCname extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -619,14 +582,12 @@ class DescribeDcdnDomainCname extends Request
  */
 class DescribeDcdnDomainLog extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
  */
 class DescribeUserDcdnIpaStatus extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -649,7 +610,6 @@ class DescribeUserDcdnIpaStatus extends Request
  */
 class DescribeDcdnDomainBpsData extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -666,7 +626,6 @@ class DescribeDcdnDomainBpsData extends Request
  */
 class DescribeDcdnDomainRealTimeQpsData extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -693,7 +652,6 @@ class DescribeDcdnDomainRealTimeQpsData extends Request
  */
 class DescribeDcdnRefreshTasks extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -702,7 +660,6 @@ class DescribeDcdnRefreshTasks extends Request
  */
 class StartDcdnDomain extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -711,7 +668,6 @@ class StartDcdnDomain extends Request
  */
 class StartDcdnIpaDomain extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -730,7 +686,6 @@ class StartDcdnIpaDomain extends Request
  */
 class DescribeDcdnDomainOriginBpsData extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -747,7 +702,6 @@ class DescribeDcdnDomainOriginBpsData extends Request
  */
 class DescribeDcdnDomainRealTimeHttpCodeData extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -762,14 +716,12 @@ class DescribeDcdnDomainRealTimeHttpCodeData extends Request
  */
 class DescribeDcdnDomainHitRateData extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
  */
 class DescribeUserDcdnStatus extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -778,7 +730,6 @@ class DescribeUserDcdnStatus extends Request
  */
 class DescribeDcdnDomainDetail extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -793,7 +744,6 @@ class DescribeDcdnDomainDetail extends Request
  */
 class DescribeDcdnTopDomainsByFlow extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -806,7 +756,6 @@ class DescribeDcdnTopDomainsByFlow extends Request
  */
 class DeleteDcdnIpaDomain extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -819,7 +768,6 @@ class DeleteDcdnIpaDomain extends Request
  */
 class DescribeDcdnDomainRealTimeByteHitRateData extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -842,7 +790,6 @@ class DescribeDcdnDomainRealTimeByteHitRateData extends Request
  */
 class DescribeDcdnDomainWebsocketTrafficData extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -867,7 +814,6 @@ class DescribeDcdnDomainWebsocketTrafficData extends Request
  */
 class DescribeDcdnUserDomains extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -876,7 +822,6 @@ class DescribeDcdnUserDomains extends Request
  */
 class DescribeDcdnIpaDomainDetail extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -895,7 +840,6 @@ class DescribeDcdnIpaDomainDetail extends Request
  */
 class DescribeDcdnDomainWebsocketHttpCodeData extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -918,7 +862,6 @@ class DescribeDcdnDomainWebsocketHttpCodeData extends Request
  */
 class DescribeDcdnDomainWebsocketBpsData extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -927,7 +870,6 @@ class DescribeDcdnDomainWebsocketBpsData extends Request
  */
 class StopDcdnIpaDomain extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -938,14 +880,12 @@ class StopDcdnIpaDomain extends Request
  */
 class PreloadDcdnObjectCaches extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
  */
 class DescribeDcdnIpaService extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -958,5 +898,4 @@ class DescribeDcdnIpaService extends Request
  */
 class DescribeDcdnDomainRealTimeSrcTrafficData extends Request
 {
-
 }

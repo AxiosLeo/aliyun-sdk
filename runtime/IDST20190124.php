@@ -40,7 +40,6 @@ class V20190124
  */
 class VideoAnthology extends Request
 {
-
 }/**
  * @method $this setUid($uid)
  * @method string getUid()
@@ -51,7 +50,6 @@ class VideoAnthology extends Request
  */
 class ResultMultimedia extends Request
 {
-
 }/**
  * @method $this setAlgoName($algoName)
  * @method string getAlgoName()
@@ -64,7 +62,6 @@ class ResultMultimedia extends Request
  */
 class QueryMultimedia extends Request
 {
-
 }/**
  * @method $this setAlgoName($algoName)
  * @method string getAlgoName()
@@ -81,7 +78,6 @@ class QueryMultimedia extends Request
  */
 class AddMultimedia extends Request
 {
-
 }/**
  * @method $this setAlgoName($algoName)
  * @method string getAlgoName()
@@ -94,5 +90,4 @@ class AddMultimedia extends Request
  */
 class DeleteMultimedia extends Request
 {
-
 }

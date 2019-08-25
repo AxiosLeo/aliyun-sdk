@@ -29,7 +29,6 @@ class V20170601
  */
 class DeleteMigrationJob extends Request
 {
-
 }/**
  * @method $this setRegion($region)
  * @method string getRegion()
@@ -42,7 +41,6 @@ class DeleteMigrationJob extends Request
  */
 class CreateMigrationJob extends Request
 {
-
 }/**
  * @method $this setMigrationJobId($migrationJobId)
  * @method string getMigrationJobId()
@@ -51,7 +49,6 @@ class CreateMigrationJob extends Request
  */
 class StopMigrationJob extends Request
 {
-
 }/**
  * @method $this setMigrationJobId($migrationJobId)
  * @method string getMigrationJobId()
@@ -60,7 +57,6 @@ class StopMigrationJob extends Request
  */
 class SuspendMigrationJob extends Request
 {
-
 }/**
  * @method $this setPageSize($pageSize)
  * @method int getPageSize()
@@ -71,7 +67,6 @@ class SuspendMigrationJob extends Request
  */
 class DescirbeMigrationJobs extends Request
 {
-
 }/**
  * @method $this setPageSize($pageSize)
  * @method int getPageSize()
@@ -90,14 +85,12 @@ class DescirbeMigrationJobs extends Request
  */
 class DescribeMigrationJobDetail extends Request
 {
-
 }/**
  * @method $this setMigrationJobId($migrationJobId)
  * @method string getMigrationJobId()
  */
 class StartMigrationJob extends Request
 {
-
 }/**
  * @method $this setMigrationJobId($migrationJobId)
  * @method string getMigrationJobId()
@@ -106,7 +99,6 @@ class StartMigrationJob extends Request
  */
 class DescribeMigrationJobStatus extends Request
 {
-
 }/**
  * @method $this setMigrationJobId($migrationJobId)
  * @method string getMigrationJobId()
@@ -167,7 +159,6 @@ class DescribeMigrationJobStatus extends Request
  */
 class ConfigureMigrationJob extends Request
 {
-
 }/**
  * @method $this setMigrationJobId($migrationJobId)
  * @method string getMigrationJobId()
@@ -178,5 +169,4 @@ class ConfigureMigrationJob extends Request
  */
 class ModifyMigrationObject extends Request
 {
-
 }

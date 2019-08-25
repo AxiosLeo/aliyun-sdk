@@ -26,7 +26,6 @@ class V20190325
  */
 class DeleteImage extends Request
 {
-
 }/**
  * @method $this setInstanceName($instanceName)
  * @method string getInstanceName()
@@ -51,7 +50,6 @@ class DeleteImage extends Request
  */
 class AddImage extends Request
 {
-
 }/**
  * @method $this setCategoryId($categoryId)
  * @method int getCategoryId()
@@ -78,5 +76,4 @@ class AddImage extends Request
  */
 class SearchImage extends Request
 {
-
 }

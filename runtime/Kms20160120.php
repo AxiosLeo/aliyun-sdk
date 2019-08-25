@@ -42,7 +42,6 @@ class V20160120
  */
 class DeleteKeyMaterial extends Request
 {
-
 }/**
  * @method $this setKeyId($keyId)
  * @method string getKeyId()
@@ -53,7 +52,6 @@ class DeleteKeyMaterial extends Request
  */
 class GetParametersForImport extends Request
 {
-
 }/**
  * @method $this setKeyId($keyId)
  * @method string getKeyId()
@@ -66,7 +64,6 @@ class GetParametersForImport extends Request
  */
 class GenerateDataKey extends Request
 {
-
 }/**
  * @method $this setKeyId($keyId)
  * @method string getKeyId()
@@ -77,14 +74,12 @@ class GenerateDataKey extends Request
  */
 class ListAliasesByKeyId extends Request
 {
-
 }/**
  * @method $this setKeyId($keyId)
  * @method string getKeyId()
  */
 class CancelKeyDeletion extends Request
 {
-
 }/**
  * @method $this setKeyId($keyId)
  * @method string getKeyId()
@@ -93,14 +88,12 @@ class CancelKeyDeletion extends Request
  */
 class ScheduleKeyDeletion extends Request
 {
-
 }/**
  * @method $this setKeyId($keyId)
  * @method string getKeyId()
  */
 class DisableKey extends Request
 {
-
 }/**
  * @method $this setDescription($description)
  * @method string getDescription()
@@ -111,7 +104,6 @@ class DisableKey extends Request
  */
 class CreateKey extends Request
 {
-
 }/**
  * @method $this setKeyId($keyId)
  * @method string getKeyId()
@@ -120,7 +112,6 @@ class CreateKey extends Request
  */
 class TagResource extends Request
 {
-
 }/**
  * @method $this setKeyId($keyId)
  * @method string getKeyId()
@@ -129,7 +120,6 @@ class TagResource extends Request
  */
 class UntagResource extends Request
 {
-
 }/**
  * @method $this setPageNumber($pageNumber)
  * @method int getPageNumber()
@@ -138,26 +128,22 @@ class UntagResource extends Request
  */
 class ListKeys extends Request
 {
-
 }/**
  */
 class DescribeRegions extends Request
 {
-
 }/**
  * @method $this setKeyId($keyId)
  * @method string getKeyId()
  */
 class DescribeKey extends Request
 {
-
 }/**
  * @method $this setKeyId($keyId)
  * @method string getKeyId()
  */
 class EnableKey extends Request
 {
-
 }/**
  * @method $this setCiphertextBlob($ciphertextBlob)
  * @method string getCiphertextBlob()
@@ -166,7 +152,6 @@ class EnableKey extends Request
  */
 class Decrypt extends Request
 {
-
 }/**
  * @method $this setPageNumber($pageNumber)
  * @method int getPageNumber()
@@ -175,7 +160,6 @@ class Decrypt extends Request
  */
 class ListAliases extends Request
 {
-
 }/**
  * @method $this setKeyId($keyId)
  * @method string getKeyId()
@@ -184,7 +168,6 @@ class ListAliases extends Request
  */
 class UpdateAlias extends Request
 {
-
 }/**
  * @method $this setKeyId($keyId)
  * @method string getKeyId()
@@ -195,7 +178,6 @@ class UpdateAlias extends Request
  */
 class Encrypt extends Request
 {
-
 }/**
  * @method $this setKeyId($keyId)
  * @method string getKeyId()
@@ -204,7 +186,6 @@ class Encrypt extends Request
  */
 class CreateAlias extends Request
 {
-
 }/**
  * @method $this setKeyId($keyId)
  * @method string getKeyId()
@@ -217,26 +198,22 @@ class CreateAlias extends Request
  */
 class ImportKeyMaterial extends Request
 {
-
 }/**
  * @method $this setAliasName($aliasName)
  * @method string getAliasName()
  */
 class DeleteAlias extends Request
 {
-
 }/**
  * @method $this setKeyId($keyId)
  * @method string getKeyId()
  */
 class ListResourceTags extends Request
 {
-
 }/**
  * @method $this setKeyId($keyId)
  * @method string getKeyId()
  */
 class ListTags extends Request
 {
-
 }

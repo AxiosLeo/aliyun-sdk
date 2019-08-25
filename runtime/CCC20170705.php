@@ -155,7 +155,6 @@ class V20170705
  */
 class GetSurvey extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -174,7 +173,6 @@ class GetSurvey extends Request
  */
 class ListAgentEvents extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -195,7 +193,6 @@ class ListAgentEvents extends Request
  */
 class CreateSkillGroup extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -204,7 +201,6 @@ class CreateSkillGroup extends Request
  */
 class GetUser extends Request
 {
-
 }/**
  * @method $this setInstanceName($instanceName)
  * @method string getInstanceName()
@@ -217,7 +213,6 @@ class GetUser extends Request
  */
 class CreateCabInstance extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -234,7 +229,6 @@ class CreateCabInstance extends Request
  */
 class GetAgentData extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -247,26 +241,22 @@ class GetAgentData extends Request
  */
 class PickOutboundNumbers extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
  */
 class ListVoiceAppraise extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
  */
 class RefreshToken extends Request
 {
-
 }/**
  */
 class ListScenarioTemplates extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -275,7 +265,6 @@ class ListScenarioTemplates extends Request
  */
 class ListSkillGroupsOfUser extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -286,7 +275,6 @@ class ListSkillGroupsOfUser extends Request
  */
 class ListUsers extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -295,7 +283,6 @@ class ListUsers extends Request
  */
 class GetJobStatusByCallId extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -318,7 +305,6 @@ class GetJobStatusByCallId extends Request
  */
 class ModifyMedia extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -327,7 +313,6 @@ class ModifyMedia extends Request
  */
 class GetJobTemplateDownloadParams extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -356,7 +341,6 @@ class GetJobTemplateDownloadParams extends Request
  */
 class ModifySurvey extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -379,7 +363,6 @@ class ModifySurvey extends Request
  */
 class ListPredictiveJobStatus extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -394,14 +377,12 @@ class ListPredictiveJobStatus extends Request
  */
 class ListBasicStatisticsReportSubItems extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
  */
 class ListContactFlows extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -410,7 +391,6 @@ class ListContactFlows extends Request
  */
 class ListConfig extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -419,7 +399,6 @@ class ListConfig extends Request
  */
 class GetJobGroup extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -432,7 +411,6 @@ class GetJobGroup extends Request
  */
 class SendPredefinedShortMessage extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -445,7 +423,6 @@ class SendPredefinedShortMessage extends Request
  */
 class ListSkillGroupStates extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -462,7 +439,6 @@ class ListSkillGroupStates extends Request
  */
 class CreateScenario extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -471,7 +447,6 @@ class CreateScenario extends Request
  */
 class ListOutboundPhoneNumberOfUser extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -496,7 +471,6 @@ class ListOutboundPhoneNumberOfUser extends Request
  */
 class CreateSurvey extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -505,7 +479,6 @@ class CreateSurvey extends Request
  */
 class GetConversationList extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -518,7 +491,6 @@ class GetConversationList extends Request
  */
 class CreatePredictiveJobs extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -527,7 +499,6 @@ class CreatePredictiveJobs extends Request
  */
 class ListPhoneNumbers extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -542,7 +513,6 @@ class ListPhoneNumbers extends Request
  */
 class ModifySkillGroupOfUser extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -561,7 +531,6 @@ class ModifySkillGroupOfUser extends Request
  */
 class ListSkillGroupSummaryReportsByInterval extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -578,7 +547,6 @@ class ListSkillGroupSummaryReportsByInterval extends Request
  */
 class GetInstanceSummaryReportByInterval extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -595,7 +563,6 @@ class GetInstanceSummaryReportByInterval extends Request
  */
 class ListJobsByGroup extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -604,7 +571,6 @@ class ListJobsByGroup extends Request
  */
 class GetJob extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -621,7 +587,6 @@ class GetJob extends Request
  */
 class ListRecentCallRecords extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -634,7 +599,6 @@ class ListRecentCallRecords extends Request
  */
 class FindUsers extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -653,7 +617,6 @@ class FindUsers extends Request
  */
 class ListAgentSummaryReports extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -664,7 +627,6 @@ class ListAgentSummaryReports extends Request
  */
 class GetAgentState extends Request
 {
-
 }/**
  * @method $this setIntervalType($intervalType)
  * @method string getIntervalType()
@@ -681,7 +643,6 @@ class GetAgentState extends Request
  */
 class GetCallMeasureSummaryReport extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -698,7 +659,6 @@ class GetCallMeasureSummaryReport extends Request
  */
 class ListAgentStates extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -707,7 +667,6 @@ class ListAgentStates extends Request
  */
 class GetSmsConfig extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -718,7 +677,6 @@ class GetSmsConfig extends Request
  */
 class ModifyPrivacyNumberCallDetail extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -727,7 +685,6 @@ class ModifyPrivacyNumberCallDetail extends Request
  */
 class GetJobDataUploadParams extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -738,7 +695,6 @@ class GetJobDataUploadParams extends Request
  */
 class RemoveNumberFromSkillGroup extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -767,7 +723,6 @@ class RemoveNumberFromSkillGroup extends Request
  */
 class ListCallDetailRecords extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -788,7 +743,6 @@ class ListCallDetailRecords extends Request
  */
 class ListPrivacyNumberCallDetails extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -799,7 +753,6 @@ class ListPrivacyNumberCallDetails extends Request
  */
 class CallOnlinePrivacyNumber extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -816,14 +769,12 @@ class CallOnlinePrivacyNumber extends Request
  */
 class StartJob extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
  */
 class DeleteInstance extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -840,7 +791,6 @@ class DeleteInstance extends Request
  */
 class PreCreateMedia extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -855,14 +805,12 @@ class PreCreateMedia extends Request
  */
 class ModifyPhoneNumber extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
  */
 class ListRealTimeAgent extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -871,7 +819,6 @@ class ListRealTimeAgent extends Request
  */
 class DeleteSkillGroup extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -888,7 +835,6 @@ class DeleteSkillGroup extends Request
  */
 class PickOutboundNumbersByTags extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -901,7 +847,6 @@ class PickOutboundNumbersByTags extends Request
  */
 class CreateVoiceAppraise extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -916,7 +861,6 @@ class CreateVoiceAppraise extends Request
  */
 class ListAgentSummaryReportsSinceMidnight extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -931,14 +875,12 @@ class ListAgentSummaryReportsSinceMidnight extends Request
  */
 class AssignUsers extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
  */
 class GetInstanceState extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -955,7 +897,6 @@ class GetInstanceState extends Request
  */
 class ResumeJobs extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -968,7 +909,6 @@ class ResumeJobs extends Request
  */
 class GetConfig extends Request
 {
-
 }/**
  * @method $this setName($name)
  * @method string getName()
@@ -991,7 +931,6 @@ class GetConfig extends Request
  */
 class CreateInstance extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -1000,14 +939,12 @@ class CreateInstance extends Request
  */
 class GetNumberRegionInfo extends Request
 {
-
 }/**
  * @method $this setIntervalType($intervalType)
  * @method string getIntervalType()
  */
 class ListCallMeasureSummaryReports extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -1022,7 +959,6 @@ class ListCallMeasureSummaryReports extends Request
  */
 class ListJobGroups extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -1031,7 +967,6 @@ class ListJobGroups extends Request
  */
 class PublishContactFlowVersion extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -1044,7 +979,6 @@ class PublishContactFlowVersion extends Request
  */
 class CommitContactFlowVersionModification extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -1057,14 +991,12 @@ class CommitContactFlowVersionModification extends Request
  */
 class AddPhoneNumber extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
  */
 class ListRoles extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -1073,7 +1005,6 @@ class ListRoles extends Request
  */
 class GetServiceExtensions extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -1094,7 +1025,6 @@ class GetServiceExtensions extends Request
  */
 class CreateBatchJobs extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -1105,7 +1035,6 @@ class CreateBatchJobs extends Request
  */
 class PickLocalNumber extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -1122,7 +1051,6 @@ class PickLocalNumber extends Request
  */
 class PreModifyMedia extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -1131,7 +1059,6 @@ class PreModifyMedia extends Request
  */
 class ListSurveys extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -1146,7 +1073,6 @@ class ListSurveys extends Request
  */
 class GetInstanceSummaryReport extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -1157,7 +1083,6 @@ class GetInstanceSummaryReport extends Request
  */
 class DownloadRecording extends Request
 {
-
 }/**
  * @method $this setDisplayName($displayName)
  * @method string getDisplayName()
@@ -1180,7 +1105,6 @@ class DownloadRecording extends Request
  */
 class CreateUser extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -1191,7 +1115,6 @@ class CreateUser extends Request
  */
 class AddNumberToSkillGroup extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -1216,7 +1139,6 @@ class AddNumberToSkillGroup extends Request
  */
 class Dialogue extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -1225,7 +1147,6 @@ class Dialogue extends Request
  */
 class GetPredictiveJob extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -1242,14 +1163,12 @@ class GetPredictiveJob extends Request
  */
 class SuspendJobs extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method string getOwnerId()
  */
 class CreateCCCPostOrder extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -1264,7 +1183,6 @@ class CreateCCCPostOrder extends Request
  */
 class StartBack2BackCall extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -1273,7 +1191,6 @@ class StartBack2BackCall extends Request
  */
 class ListRecordingsByContactId extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -1288,7 +1205,6 @@ class ListRecordingsByContactId extends Request
  */
 class CreateScenarioFromTemplate extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -1301,7 +1217,6 @@ class CreateScenarioFromTemplate extends Request
  */
 class GetConversationDetailByContactId extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -1312,7 +1227,6 @@ class GetConversationDetailByContactId extends Request
  */
 class PublishSurvey extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -1325,21 +1239,18 @@ class PublishSurvey extends Request
  */
 class CancelPredictiveJobs extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
  */
 class ListSkillGroups extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
  */
 class GetInstance extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -1352,7 +1263,6 @@ class GetInstance extends Request
  */
 class SimpleDial extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -1363,7 +1273,6 @@ class SimpleDial extends Request
  */
 class RemoveUsersFromSkillGroup extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -1374,7 +1283,6 @@ class RemoveUsersFromSkillGroup extends Request
  */
 class QueryRedialIndicator extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -1387,7 +1295,6 @@ class QueryRedialIndicator extends Request
  */
 class ListUsersOfSkillGroup extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -1410,7 +1317,6 @@ class ListUsersOfSkillGroup extends Request
  */
 class ModifySkillGroup extends Request
 {
-
 }/**
  * @method $this setStopTime($stopTime)
  * @method int getStopTime()
@@ -1431,7 +1337,6 @@ class ModifySkillGroup extends Request
  */
 class ListRecordings extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -1440,7 +1345,6 @@ class ListRecordings extends Request
  */
 class SubmitBatchJobs extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -1453,7 +1357,6 @@ class SubmitBatchJobs extends Request
  */
 class ListMedias extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -1470,7 +1373,6 @@ class ListMedias extends Request
  */
 class CancelJobs extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -1479,7 +1381,6 @@ class CancelJobs extends Request
  */
 class RemoveUsers extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -1494,7 +1395,6 @@ class RemoveUsers extends Request
  */
 class ModifyNotificationConfig extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -1519,7 +1419,6 @@ class ModifyNotificationConfig extends Request
  */
 class ListJobStatus extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -1528,7 +1427,6 @@ class ListJobStatus extends Request
  */
 class RemovePhoneNumber extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -1537,7 +1435,6 @@ class RemovePhoneNumber extends Request
  */
 class ListPrivilegesOfUser extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -1546,7 +1443,6 @@ class ListPrivilegesOfUser extends Request
  */
 class DownloadOriginalStatisticsReport extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -1555,7 +1451,6 @@ class DownloadOriginalStatisticsReport extends Request
  */
 class DownloadUnreachableContacts extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -1568,7 +1463,6 @@ class DownloadUnreachableContacts extends Request
  */
 class TwoPartiesCall extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -1591,7 +1485,6 @@ class TwoPartiesCall extends Request
  */
 class CreateMedia extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -1614,14 +1507,12 @@ class CreateMedia extends Request
  */
 class ListRecordingOfDualTrack extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
  */
 class ListScenarios extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -1632,7 +1523,6 @@ class ListScenarios extends Request
  */
 class DeleteSurvey extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -1653,7 +1543,6 @@ class DeleteSurvey extends Request
  */
 class ListAgentSummaryReportsByInterval extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -1666,7 +1555,6 @@ class ListAgentSummaryReportsByInterval extends Request
  */
 class ListUnreachableContacts extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -1679,7 +1567,6 @@ class ListUnreachableContacts extends Request
  */
 class ListSkillGroupSummaryReportsSinceMidnight extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -1688,7 +1575,6 @@ class ListSkillGroupSummaryReportsSinceMidnight extends Request
  */
 class DeleteMedia extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -1697,7 +1583,6 @@ class DeleteMedia extends Request
  */
 class GetContactIdentifyByOutBoundTaskId extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -1712,7 +1597,6 @@ class GetContactIdentifyByOutBoundTaskId extends Request
  */
 class AddBulkPhoneNumbers extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -1729,14 +1613,12 @@ class AddBulkPhoneNumbers extends Request
  */
 class CreateContactFlow extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
  */
 class RequestLoginInfo extends Request
 {
-
 }/**
  * @method $this setDisplayName($displayName)
  * @method string getDisplayName()
@@ -1759,7 +1641,6 @@ class RequestLoginInfo extends Request
  */
 class ModifyUser extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -1776,7 +1657,6 @@ class ModifyUser extends Request
  */
 class GenerateAgentStatisticReport extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -1785,7 +1665,6 @@ class GenerateAgentStatisticReport extends Request
  */
 class DeleteJobGroup extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -1794,7 +1673,6 @@ class DeleteJobGroup extends Request
  */
 class GetTaskList extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -1811,7 +1689,6 @@ class GetTaskList extends Request
  */
 class ListSkillGroupSummaryReports extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -1832,7 +1709,6 @@ class ListSkillGroupSummaryReports extends Request
  */
 class ListIvrTrackingDetail extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -1849,7 +1725,6 @@ class ListIvrTrackingDetail extends Request
  */
 class GetJobList extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -1858,7 +1733,6 @@ class GetJobList extends Request
  */
 class LaunchAppraise extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -1873,7 +1747,6 @@ class LaunchAppraise extends Request
  */
 class LaunchShortMessageAppraise extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -1888,7 +1761,6 @@ class LaunchShortMessageAppraise extends Request
  */
 class ModifyScenario extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -1897,7 +1769,6 @@ class ModifyScenario extends Request
  */
 class GetScenario extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -1908,7 +1779,6 @@ class GetScenario extends Request
  */
 class GetInstanceSummaryReportSinceMidnight extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -1925,7 +1795,6 @@ class GetInstanceSummaryReportSinceMidnight extends Request
  */
 class AssignJobs extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -1942,5 +1811,4 @@ class AssignJobs extends Request
  */
 class CreateJobGroup extends Request
 {
-
 }

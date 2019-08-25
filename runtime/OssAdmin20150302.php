@@ -31,7 +31,6 @@ class V20150302
  */
 class RestartOssInstance extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -46,7 +45,6 @@ class RestartOssInstance extends Request
  */
 class StopOssInstance extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -61,7 +59,6 @@ class StopOssInstance extends Request
  */
 class CreateOssInstance extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -76,5 +73,4 @@ class CreateOssInstance extends Request
  */
 class ReleaseOssInstance extends Request
 {
-
 }

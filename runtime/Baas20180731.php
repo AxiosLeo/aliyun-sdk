@@ -167,7 +167,6 @@ class V20180731
  */
 class AcceptInvitation extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -178,7 +177,6 @@ class AcceptInvitation extends Request
  */
 class DescribeOrganizationUserCerts extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -193,7 +191,6 @@ class DescribeOrganizationUserCerts extends Request
  */
 class AddEthereumNode extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -202,7 +199,6 @@ class AddEthereumNode extends Request
  */
 class DestroyConsortium extends Request
 {
-
 }/**
  * @method $this setPageSize($pageSize)
  * @method int getPageSize()
@@ -211,7 +207,6 @@ class DestroyConsortium extends Request
  */
 class GetBlockchainCreateTask extends Request
 {
-
 }/**
  * @method $this setBizid($bizid)
  * @method string getBizid()
@@ -220,7 +215,6 @@ class GetBlockchainCreateTask extends Request
  */
 class DescribeLatest15Blocks extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -229,14 +223,12 @@ class DescribeLatest15Blocks extends Request
  */
 class DescribeEthereumInvitaion extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
  */
 class DescribeResourceType extends Request
 {
-
 }/**
  * @method $this setPageSize($pageSize)
  * @method int getPageSize()
@@ -247,7 +239,6 @@ class DescribeResourceType extends Request
  */
 class DescribeBlockchainCreateTask extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -270,19 +261,16 @@ class DescribeBlockchainCreateTask extends Request
  */
 class CreateEthereum extends Request
 {
-
 }/**
  */
 class GetMyBlockchains extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
  */
 class DescribeEthereumNodes extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -295,7 +283,6 @@ class DescribeEthereumNodes extends Request
  */
 class DescribeMembers extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -304,7 +291,6 @@ class DescribeMembers extends Request
  */
 class DescribeEthereumInvitee extends Request
 {
-
 }/**
  * @method $this setAlipayAuthCode($alipayAuthCode)
  * @method string getAlipayAuthCode()
@@ -317,7 +303,6 @@ class DescribeEthereumInvitee extends Request
  */
 class DescribeTransactionFor2CBrowser extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -328,7 +313,6 @@ class DescribeTransactionFor2CBrowser extends Request
  */
 class RenameBlockchain extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -339,7 +323,6 @@ class RenameBlockchain extends Request
  */
 class QueryConsortiumDeletable extends Request
 {
-
 }/**
  * @method $this setBizid($bizid)
  * @method string getBizid()
@@ -364,7 +347,6 @@ class QueryConsortiumDeletable extends Request
  */
 class CreateBlockchainApplication extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -397,7 +379,6 @@ class CreateBlockchainApplication extends Request
  */
 class CreateConsortium extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -406,7 +387,6 @@ class CreateConsortium extends Request
  */
 class DescribeEthereumDeletable extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -419,7 +399,6 @@ class DescribeEthereumDeletable extends Request
  */
 class CreateOrganizationUser extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -430,7 +409,6 @@ class CreateOrganizationUser extends Request
  */
 class DescribeOrganizationUsers extends Request
 {
-
 }/**
  * @method $this setBizid($bizid)
  * @method string getBizid()
@@ -439,7 +417,6 @@ class DescribeOrganizationUsers extends Request
  */
 class ResetCertificate extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -450,14 +427,12 @@ class ResetCertificate extends Request
  */
 class DescribeOrgnaizationChaincodes extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
  */
 class DescribeMyBlockchains extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -468,7 +443,6 @@ class DescribeMyBlockchains extends Request
  */
 class CheckOrganizationDomain extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -479,7 +453,6 @@ class CheckOrganizationDomain extends Request
  */
 class SynchronizeChaincode extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -490,7 +463,6 @@ class SynchronizeChaincode extends Request
  */
 class DescribeChaincodeCollectionConfig extends Request
 {
-
 }/**
  * @method $this setPeriod($period)
  * @method string getPeriod()
@@ -507,7 +479,6 @@ class DescribeChaincodeCollectionConfig extends Request
  */
 class QueryMetric extends Request
 {
-
 }/**
  * @method $this setBizid($bizid)
  * @method string getBizid()
@@ -522,7 +493,6 @@ class QueryMetric extends Request
  */
 class RejectUser extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -531,14 +501,12 @@ class RejectUser extends Request
  */
 class DeleteChaincode extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
  */
 class DescribeRootDomain extends Request
 {
-
 }/**
  * @method $this setBizid($bizid)
  * @method string getBizid()
@@ -547,7 +515,6 @@ class DescribeRootDomain extends Request
  */
 class DescribeQRCodeAuthority extends Request
 {
-
 }/**
  * @method $this setBlockchain($blockchain)
  * @method string getBlockchain()
@@ -564,7 +531,6 @@ class DescribeQRCodeAuthority extends Request
  */
 class ApplyBlockchain extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -575,7 +541,6 @@ class ApplyBlockchain extends Request
  */
 class DescribeConsortiumChannels extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -586,7 +551,6 @@ class DescribeConsortiumChannels extends Request
  */
 class DescribeTransactionQRCode extends Request
 {
-
 }/**
  * @method $this setBizid($bizid)
  * @method string getBizid()
@@ -601,7 +565,6 @@ class DescribeTransactionQRCode extends Request
  */
 class DescribeApplies extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -610,7 +573,6 @@ class DescribeApplies extends Request
  */
 class DescribeNetstatURL extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -623,7 +585,6 @@ class DescribeNetstatURL extends Request
  */
 class DescribeOrdererLogs extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -640,7 +601,6 @@ class DescribeOrdererLogs extends Request
  */
 class UpgradeChaincode extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -651,7 +611,6 @@ class UpgradeChaincode extends Request
  */
 class DescribeOrganizationDeletable extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -662,7 +621,6 @@ class DescribeOrganizationDeletable extends Request
  */
 class UnfreezeAccount extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -673,7 +631,6 @@ class UnfreezeAccount extends Request
  */
 class ConfirmConsortiumMember extends Request
 {
-
 }/**
  * @method $this setBizid($bizid)
  * @method string getBizid()
@@ -682,7 +639,6 @@ class ConfirmConsortiumMember extends Request
  */
 class DownloadBizview extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -693,14 +649,12 @@ class DownloadBizview extends Request
  */
 class DescribeConsortiumChaincodes extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
  */
 class DescribeTemplates extends Request
 {
-
 }/**
  * @method $this setSchemaId($schemaId)
  * @method int getSchemaId()
@@ -711,7 +665,6 @@ class DescribeTemplates extends Request
  */
 class DescribeSchemaDetail extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -722,7 +675,6 @@ class DescribeSchemaDetail extends Request
  */
 class DescribeConsortiumMembers extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -731,7 +683,6 @@ class DescribeConsortiumMembers extends Request
  */
 class DescribeConsortiumAdminStatus extends Request
 {
-
 }/**
  * @method $this setBizid($bizid)
  * @method string getBizid()
@@ -742,7 +693,6 @@ class DescribeConsortiumAdminStatus extends Request
  */
 class DescribeBlock extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -753,7 +703,6 @@ class DescribeBlock extends Request
  */
 class QueryOrganizationDeletable extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -764,7 +713,6 @@ class QueryOrganizationDeletable extends Request
  */
 class ApproveEthereumInvitee extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -779,7 +727,6 @@ class ApproveEthereumInvitee extends Request
  */
 class ResetOrganizationUserPassword extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -792,7 +739,6 @@ class ResetOrganizationUserPassword extends Request
  */
 class UpdateEthereum extends Request
 {
-
 }/**
  * @method $this setBizid($bizid)
  * @method string getBizid()
@@ -801,7 +747,6 @@ class UpdateEthereum extends Request
  */
 class DescribeDownloadPathsOfNotaryChain extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -816,14 +761,12 @@ class DescribeDownloadPathsOfNotaryChain extends Request
  */
 class CreateAccount extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
  */
 class DescribeConsortiumSpecs extends Request
 {
-
 }/**
  * @method $this setSchemaId($schemaId)
  * @method int getSchemaId()
@@ -832,7 +775,6 @@ class DescribeConsortiumSpecs extends Request
  */
 class SchemaDetail extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -841,7 +783,6 @@ class SchemaDetail extends Request
  */
 class DescribeDownloadPathsOfContractChain extends Request
 {
-
 }/**
  * @method $this setBizid($bizid)
  * @method string getBizid()
@@ -850,14 +791,12 @@ class DescribeDownloadPathsOfContractChain extends Request
  */
 class DescribeLatest15TransDigests extends Request
 {
-
 }/**
  * @method $this setBizid($bizid)
  * @method string getBizid()
  */
 class GetBlockchainInfo extends Request
 {
-
 }/**
  * @method $this setBizid($bizid)
  * @method string getBizid()
@@ -866,7 +805,6 @@ class GetBlockchainInfo extends Request
  */
 class DescribeQRCodeAccessLog extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -877,7 +815,6 @@ class DescribeQRCodeAccessLog extends Request
  */
 class DescribeConsortiums extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -890,12 +827,10 @@ class DescribeConsortiums extends Request
  */
 class InstallChaincode extends Request
 {
-
 }/**
  */
 class DescribeMySuccessApplies extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -906,7 +841,6 @@ class DescribeMySuccessApplies extends Request
  */
 class DescribeOrganizationChannels extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -917,7 +851,6 @@ class DescribeOrganizationChannels extends Request
  */
 class DescribeConsortiumDeletable extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -926,7 +859,6 @@ class DescribeConsortiumDeletable extends Request
  */
 class DescribeCandidateOrganizations extends Request
 {
-
 }/**
  * @method $this setBizid($bizid)
  * @method string getBizid()
@@ -941,7 +873,6 @@ class DescribeCandidateOrganizations extends Request
  */
 class InviteUser extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -954,7 +885,6 @@ class InviteUser extends Request
  */
 class CreateConsortiumMember extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -969,7 +899,6 @@ class CreateConsortiumMember extends Request
  */
 class CreateOwnAccount extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -978,7 +907,6 @@ class CreateOwnAccount extends Request
  */
 class DescribeInvitationList extends Request
 {
-
 }/**
  * @method $this setBizid($bizid)
  * @method string getBizid()
@@ -993,7 +921,6 @@ class DescribeInvitationList extends Request
  */
 class CreateBlockchainApply extends Request
 {
-
 }/**
  * @method $this setMetric($metric)
  * @method string getMetric()
@@ -1012,14 +939,12 @@ class CreateBlockchainApply extends Request
  */
 class DescribeMetric extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
  */
 class DescribeRegions extends Request
 {
-
 }/**
  * @method $this setPath($path)
  * @method string getPath()
@@ -1030,14 +955,12 @@ class DescribeRegions extends Request
  */
 class DownloadSignedData extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
  */
 class DescribeTasks extends Request
 {
-
 }/**
  * @method $this setSchemaId($schemaId)
  * @method int getSchemaId()
@@ -1054,7 +977,6 @@ class DescribeTasks extends Request
  */
 class UpdateSchema extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -1087,14 +1009,12 @@ class UpdateSchema extends Request
  */
 class CreateEcosphere extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
  */
 class DescribeOrganizationSpecs extends Request
 {
-
 }/**
  * @method $this setBizid($bizid)
  * @method string getBizid()
@@ -1103,7 +1023,6 @@ class DescribeOrganizationSpecs extends Request
  */
 class DownloadSDK2 extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -1112,7 +1031,6 @@ class DownloadSDK2 extends Request
  */
 class DescribeChannelMembers extends Request
 {
-
 }/**
  * @method $this setBizid($bizid)
  * @method string getBizid()
@@ -1121,7 +1039,6 @@ class DescribeChannelMembers extends Request
  */
 class QueryBlock extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -1136,14 +1053,12 @@ class QueryBlock extends Request
  */
 class DescribeExplorer extends Request
 {
-
 }/**
  * @method $this setBizid($bizid)
  * @method string getBizid()
  */
 class GetBcSchema extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -1156,7 +1071,6 @@ class GetBcSchema extends Request
  */
 class UpdateEthereumClientUserPassword extends Request
 {
-
 }/**
  * @method $this setBizid($bizid)
  * @method string getBizid()
@@ -1165,14 +1079,12 @@ class UpdateEthereumClientUserPassword extends Request
  */
 class DownloadAll extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
  */
 class DescribeConsortiumConfig extends Request
 {
-
 }/**
  * @method $this setBizid($bizid)
  * @method string getBizid()
@@ -1181,7 +1093,6 @@ class DescribeConsortiumConfig extends Request
  */
 class QueryTransaction extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -1194,7 +1105,6 @@ class QueryTransaction extends Request
  */
 class CreateChannel extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -1207,14 +1117,12 @@ class CreateChannel extends Request
  */
 class UpdateEthereumNode extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
  */
 class DescribeMySuccessfulApplication extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -1227,7 +1135,6 @@ class DescribeMySuccessfulApplication extends Request
  */
 class DownloadOrganizationSDK extends Request
 {
-
 }/**
  * @method $this setPurpose($purpose)
  * @method string getPurpose()
@@ -1236,12 +1143,10 @@ class DownloadOrganizationSDK extends Request
  */
 class DescribeBlockchainConfigOption extends Request
 {
-
 }/**
  */
 class GetTemplates extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -1250,7 +1155,6 @@ class GetTemplates extends Request
  */
 class DescribeOrganizations extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -1263,14 +1167,12 @@ class DescribeOrganizations extends Request
  */
 class DescribeEthereumNodeLogs extends Request
 {
-
 }/**
  * @method $this setBizid($bizid)
  * @method string getBizid()
  */
 class DownloadSdk extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -1283,7 +1185,6 @@ class DownloadSdk extends Request
  */
 class DescribeTransactionReceiptFor2CBrowser extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -1294,7 +1195,6 @@ class DescribeTransactionReceiptFor2CBrowser extends Request
  */
 class DescribeOrganizationMembers extends Request
 {
-
 }/**
  * @method $this setBizid($bizid)
  * @method string getBizid()
@@ -1303,7 +1203,6 @@ class DescribeOrganizationMembers extends Request
  */
 class DescribeBlockchainSchema extends Request
 {
-
 }/**
  * @method $this setOrganizationId($organizationId)
  * @method string getOrganizationId()
@@ -1324,7 +1223,6 @@ class DescribeBlockchainSchema extends Request
  */
 class CreateChaincode extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -1333,7 +1231,6 @@ class CreateChaincode extends Request
  */
 class CheckConsortiumDomain extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -1350,7 +1247,6 @@ class CheckConsortiumDomain extends Request
  */
 class InstantiateChaincode extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -1361,7 +1257,6 @@ class InstantiateChaincode extends Request
  */
 class AcceptEthereumInvitation extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -1370,7 +1265,6 @@ class AcceptEthereumInvitation extends Request
  */
 class DescribeEthereumNodeConfiguration extends Request
 {
-
 }/**
  * @method $this setBizid($bizid)
  * @method string getBizid()
@@ -1379,7 +1273,6 @@ class DescribeEthereumNodeConfiguration extends Request
  */
 class DescribeMemberRole extends Request
 {
-
 }/**
  * @method $this setBizid($bizid)
  * @method string getBizid()
@@ -1390,14 +1283,12 @@ class DescribeMemberRole extends Request
  */
 class UpdateQRCodeAuthority extends Request
 {
-
 }/**
  * @method $this setBizid($bizid)
  * @method string getBizid()
  */
 class DescribeBcSchema extends Request
 {
-
 }/**
  * @method $this setOrganizationId($organizationId)
  * @method string getOrganizationId()
@@ -1410,7 +1301,6 @@ class DescribeBcSchema extends Request
  */
 class DescribePeerLogs extends Request
 {
-
 }/**
  * @method $this setBizid($bizid)
  * @method string getBizid()
@@ -1423,7 +1313,6 @@ class DescribePeerLogs extends Request
  */
 class GetApplies extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -1434,14 +1323,12 @@ class GetApplies extends Request
  */
 class FreezeAccount extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
  */
 class DescribeEcosphereSpecs extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -1466,7 +1353,6 @@ class DescribeEcosphereSpecs extends Request
  */
 class UpdateEthereumNodeConfiguration extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -1475,7 +1361,6 @@ class UpdateEthereumNodeConfiguration extends Request
  */
 class DescribeAntRegions extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -1484,7 +1369,6 @@ class DescribeAntRegions extends Request
  */
 class DestroyEthereum extends Request
 {
-
 }/**
  * @method $this setBizid($bizid)
  * @method string getBizid()
@@ -1493,7 +1377,6 @@ class DestroyEthereum extends Request
  */
 class DescribeOssProperties extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -1504,7 +1387,6 @@ class DescribeOssProperties extends Request
  */
 class DescribeOrganizationChaincodes extends Request
 {
-
 }/**
  * @method $this setBizid($bizid)
  * @method string getBizid()
@@ -1513,7 +1395,6 @@ class DescribeOrganizationChaincodes extends Request
  */
 class DescribeBlockchainInfo extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -1524,7 +1405,6 @@ class DescribeBlockchainInfo extends Request
  */
 class DescribeOrganization extends Request
 {
-
 }/**
  * @method $this setBizid($bizid)
  * @method string getBizid()
@@ -1539,7 +1419,6 @@ class DescribeOrganization extends Request
  */
 class ResetUser extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -1550,7 +1429,6 @@ class ResetUser extends Request
  */
 class DescribeConsortiumOrderers extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -1561,7 +1439,6 @@ class DescribeConsortiumOrderers extends Request
  */
 class CreateChannelMember extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -1572,7 +1449,6 @@ class CreateChannelMember extends Request
  */
 class DescribeOrganizationPeers extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -1595,7 +1471,6 @@ class DescribeOrganizationPeers extends Request
  */
 class CreateOrganization extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -1610,7 +1485,6 @@ class CreateOrganization extends Request
  */
 class UpdateMemberRole extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -1621,7 +1495,6 @@ class UpdateMemberRole extends Request
  */
 class DescribeConsortiumMemberApproval extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -1630,14 +1503,12 @@ class DescribeConsortiumMemberApproval extends Request
  */
 class DescribeExplorerURL extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
  */
 class DescribeEthereums extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -1646,7 +1517,6 @@ class DescribeEthereums extends Request
  */
 class DescribeEthereumClientUsers extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -1655,7 +1525,6 @@ class DescribeEthereumClientUsers extends Request
  */
 class QueryEthereumDeletable extends Request
 {
-
 }/**
  * @method $this setBizid($bizid)
  * @method string getBizid()
@@ -1670,12 +1539,10 @@ class QueryEthereumDeletable extends Request
  */
 class OperateUser extends Request
 {
-
 }/**
  */
 class GetMySuccessApplies extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -1684,7 +1551,6 @@ class GetMySuccessApplies extends Request
  */
 class DescribeEthereumNodeInfo extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -1693,14 +1559,12 @@ class DescribeEthereumNodeInfo extends Request
  */
 class DescribeEthereum extends Request
 {
-
 }/**
  * @method $this setBizid($bizid)
  * @method string getBizid()
  */
 class GetOssProperties extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -1709,7 +1573,6 @@ class GetOssProperties extends Request
  */
 class DescribeChaincodeUploadPolicy extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -1718,7 +1581,6 @@ class DescribeChaincodeUploadPolicy extends Request
  */
 class DescribeInvitationCode extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -1727,7 +1589,6 @@ class DescribeInvitationCode extends Request
  */
 class CreateEthereumInvitation extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -1736,7 +1597,6 @@ class CreateEthereumInvitation extends Request
  */
 class DestroyOrganization extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -1745,7 +1605,6 @@ class DestroyOrganization extends Request
  */
 class DescribeEthereumNode extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -1754,7 +1613,6 @@ class DescribeEthereumNode extends Request
  */
 class DescribeInviter extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -1767,7 +1625,6 @@ class DescribeInviter extends Request
  */
 class JoinChannel extends Request
 {
-
 }/**
  * @method $this setBizid($bizid)
  * @method string getBizid()
@@ -1778,5 +1635,4 @@ class JoinChannel extends Request
  */
 class DescribeTransaction extends Request
 {
-
 }

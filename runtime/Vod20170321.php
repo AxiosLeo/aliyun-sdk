@@ -123,7 +123,6 @@ class V20170321
  */
 class AddCategory extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -136,7 +135,6 @@ class AddCategory extends Request
  */
 class SetDefaultTranscodeTemplateGroup extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -151,7 +149,6 @@ class SetDefaultTranscodeTemplateGroup extends Request
  */
 class UpdateAttachedMediaInfos extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method string getOwnerId()
@@ -174,7 +171,6 @@ class UpdateAttachedMediaInfos extends Request
  */
 class UpdateEditingProject extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -195,7 +191,6 @@ class UpdateEditingProject extends Request
  */
 class ListSnapshots extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method string getOwnerId()
@@ -210,7 +205,6 @@ class ListSnapshots extends Request
  */
 class UpdateCategory extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -219,7 +213,6 @@ class UpdateCategory extends Request
  */
 class PreloadVodObjectCaches extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -230,7 +223,6 @@ class PreloadVodObjectCaches extends Request
  */
 class RefreshVodObjectCaches extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -251,7 +243,6 @@ class RefreshVodObjectCaches extends Request
  */
 class ListTranscodeTask extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method string getOwnerId()
@@ -272,7 +263,6 @@ class ListTranscodeTask extends Request
  */
 class AddEditingProject extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -291,7 +281,6 @@ class AddEditingProject extends Request
  */
 class AddVodTemplate extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method string getOwnerId()
@@ -308,7 +297,6 @@ class AddVodTemplate extends Request
  */
 class SetEditingProjectMaterials extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method string getOwnerId()
@@ -341,7 +329,6 @@ class SetEditingProjectMaterials extends Request
  */
 class SetMessageCallback extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -356,7 +343,6 @@ class SetMessageCallback extends Request
  */
 class GetURLUploadInfos extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method string getOwnerId()
@@ -369,7 +355,6 @@ class GetURLUploadInfos extends Request
  */
 class GetMediaAuditResultTimeline extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -396,7 +381,6 @@ class GetMediaAuditResultTimeline extends Request
  */
 class ProduceEditingProjectVideo extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method string getOwnerId()
@@ -411,7 +395,6 @@ class ProduceEditingProjectVideo extends Request
  */
 class DeleteEditingProject extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method string getOwnerId()
@@ -432,7 +415,6 @@ class DeleteEditingProject extends Request
  */
 class SubmitAIJob extends Request
 {
-
 }/**
  * @method $this setVideoId($videoId)
  * @method string getVideoId()
@@ -445,7 +427,6 @@ class SubmitAIJob extends Request
  */
 class GetAuditHistory extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method string getOwnerId()
@@ -462,7 +443,6 @@ class GetAuditHistory extends Request
  */
 class GetMessageCallback extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -477,7 +457,6 @@ class GetMessageCallback extends Request
  */
 class GetVideoInfo extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -490,7 +469,6 @@ class GetVideoInfo extends Request
  */
 class ListAITemplate extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method string getOwnerId()
@@ -505,7 +483,6 @@ class ListAITemplate extends Request
  */
 class ListAIJob extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -518,7 +495,6 @@ class ListAIJob extends Request
  */
 class SetDefaultAITemplate extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -531,7 +507,6 @@ class SetDefaultAITemplate extends Request
  */
 class GetTranscodeSummary extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method string getOwnerId()
@@ -550,7 +525,6 @@ class GetTranscodeSummary extends Request
  */
 class DeleteMultipartUpload extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -569,7 +543,6 @@ class DeleteMultipartUpload extends Request
  */
 class GetAttachedMediaInfo extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -586,7 +559,6 @@ class GetAttachedMediaInfo extends Request
  */
 class AddAITemplate extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -603,14 +575,12 @@ class AddAITemplate extends Request
  */
 class DeleteTranscodeTemplateGroup extends Request
 {
-
 }/**
  * @method $this setAuditContent($auditContent)
  * @method string getAuditContent()
  */
 class CreateAudit extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -633,7 +603,6 @@ class CreateAudit extends Request
  */
 class SubmitTranscodeJobs extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -660,7 +629,6 @@ class SubmitTranscodeJobs extends Request
  */
 class GetVideoList extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -677,7 +645,6 @@ class GetVideoList extends Request
  */
 class DescribeVodDomainLog extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -690,7 +657,6 @@ class DescribeVodDomainLog extends Request
  */
 class DescribePlayTopVideos extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -703,7 +669,6 @@ class DescribePlayTopVideos extends Request
  */
 class SetDefaultWatermark extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -718,7 +683,6 @@ class SetDefaultWatermark extends Request
  */
 class DeleteMezzanines extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -729,7 +693,6 @@ class DeleteMezzanines extends Request
  */
 class DescribePlayUserTotal extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -742,7 +705,6 @@ class DescribePlayUserTotal extends Request
  */
 class UpdateVideoInfos extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -755,7 +717,6 @@ class UpdateVideoInfos extends Request
  */
 class GetVideoInfos extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -770,7 +731,6 @@ class GetVideoInfos extends Request
  */
 class UpdateImageInfos extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -781,7 +741,6 @@ class UpdateImageInfos extends Request
  */
 class ListWatermark extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method string getOwnerId()
@@ -796,7 +755,6 @@ class ListWatermark extends Request
  */
 class GetEditingProject extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method string getOwnerId()
@@ -815,7 +773,6 @@ class GetEditingProject extends Request
  */
 class GetEditingProjectMaterials extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -828,7 +785,6 @@ class GetEditingProjectMaterials extends Request
  */
 class GetVodTemplate extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method string getOwnerId()
@@ -841,7 +797,6 @@ class GetVodTemplate extends Request
  */
 class DeleteCategory extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -854,7 +809,6 @@ class DeleteCategory extends Request
  */
 class DeleteAttachedMedia extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -871,7 +825,6 @@ class DeleteAttachedMedia extends Request
  */
 class UpdateWatermark extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -884,7 +837,6 @@ class UpdateWatermark extends Request
  */
 class GetTranscodeTask extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -897,7 +849,6 @@ class GetTranscodeTask extends Request
  */
 class DeleteAITemplate extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method string getOwnerId()
@@ -912,7 +863,6 @@ class DeleteAITemplate extends Request
  */
 class GetMediaDNAResult extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -939,7 +889,6 @@ class GetMediaDNAResult extends Request
  */
 class DescribeVodRefreshTasks extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -958,14 +907,12 @@ class DescribeVodRefreshTasks extends Request
  */
 class UpdateTranscodeTemplateGroup extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
  */
 class DescribeVodRefreshQuota extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -978,14 +925,12 @@ class DescribeVodRefreshQuota extends Request
  */
 class GetDefaultAITemplate extends Request
 {
-
 }/**
  * @method $this setSecurityGroupName($securityGroupName)
  * @method string getSecurityGroupName()
  */
 class ListAuditSecurityIp extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1004,7 +949,6 @@ class ListAuditSecurityIp extends Request
  */
 class RegisterMedia extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method string getOwnerId()
@@ -1019,7 +963,6 @@ class RegisterMedia extends Request
  */
 class SubmitAIMediaAuditJob extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1040,7 +983,6 @@ class SubmitAIMediaAuditJob extends Request
  */
 class GetMezzanineInfo extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1053,7 +995,6 @@ class GetMezzanineInfo extends Request
  */
 class DeleteVideo extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1086,7 +1027,6 @@ class DeleteVideo extends Request
  */
 class CreateUploadAttachedMedia extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1099,7 +1039,6 @@ class CreateUploadAttachedMedia extends Request
  */
 class ListVodTemplate extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1114,7 +1053,6 @@ class ListVodTemplate extends Request
  */
 class SubmitPreprocessJobs extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1133,7 +1071,6 @@ class SubmitPreprocessJobs extends Request
  */
 class DescribeVodDomainBpsData extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1148,7 +1085,6 @@ class DescribeVodDomainBpsData extends Request
  */
 class DeleteStream extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1161,7 +1097,6 @@ class DeleteStream extends Request
  */
 class GetWatermark extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1180,7 +1115,6 @@ class GetWatermark extends Request
  */
 class DescribeVodDomainTrafficData extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method string getOwnerId()
@@ -1195,7 +1129,6 @@ class DescribeVodDomainTrafficData extends Request
  */
 class GetMediaAuditResult extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1226,7 +1159,6 @@ class GetMediaAuditResult extends Request
  */
 class CreateUploadImage extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1243,7 +1175,6 @@ class CreateUploadImage extends Request
  */
 class GetImageInfo extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1256,7 +1187,6 @@ class GetImageInfo extends Request
  */
 class RefreshUploadVideo extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method string getOwnerId()
@@ -1273,7 +1203,6 @@ class RefreshUploadVideo extends Request
  */
 class DeleteMessageCallback extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1286,7 +1215,6 @@ class DeleteMessageCallback extends Request
  */
 class DeleteWatermark extends Request
 {
-
 }/**
  * @method $this setSecurityGroupName($securityGroupName)
  * @method string getSecurityGroupName()
@@ -1297,7 +1225,6 @@ class DeleteWatermark extends Request
  */
 class SetAuditSecurityIp extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1334,7 +1261,6 @@ class SetAuditSecurityIp extends Request
  */
 class GetPlayInfo extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1363,7 +1289,6 @@ class GetPlayInfo extends Request
  */
 class SearchMedia extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1380,7 +1305,6 @@ class SearchMedia extends Request
  */
 class AddTranscodeTemplateGroup extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method string getOwnerId()
@@ -1399,7 +1323,6 @@ class AddTranscodeTemplateGroup extends Request
  */
 class GetCategories extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1420,7 +1343,6 @@ class GetCategories extends Request
  */
 class DeleteImage extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method string getOwnerId()
@@ -1433,7 +1355,6 @@ class DeleteImage extends Request
  */
 class GetAIMediaAuditJob extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1446,7 +1367,6 @@ class GetAIMediaAuditJob extends Request
  */
 class DescribePlayVideoStatis extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1457,7 +1377,6 @@ class DescribePlayVideoStatis extends Request
  */
 class DescribePlayUserAvg extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1470,7 +1389,6 @@ class DescribePlayUserAvg extends Request
  */
 class DeleteVodTemplate extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1489,7 +1407,6 @@ class DeleteVodTemplate extends Request
  */
 class GetVideoPlayAuth extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1518,7 +1435,6 @@ class GetVideoPlayAuth extends Request
  */
 class ListLiveRecordVideo extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1531,7 +1447,6 @@ class ListLiveRecordVideo extends Request
  */
 class GetAITemplate extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1548,7 +1463,6 @@ class GetAITemplate extends Request
  */
 class UpdateAITemplate extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1575,7 +1489,6 @@ class UpdateAITemplate extends Request
  */
 class SubmitSnapshotJob extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1592,7 +1505,6 @@ class SubmitSnapshotJob extends Request
  */
 class UpdateVodTemplate extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method string getOwnerId()
@@ -1619,7 +1531,6 @@ class UpdateVodTemplate extends Request
  */
 class SearchEditingProject extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1630,7 +1541,6 @@ class SearchEditingProject extends Request
  */
 class ListTranscodeTemplateGroup extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1643,7 +1553,6 @@ class ListTranscodeTemplateGroup extends Request
  */
 class GetTranscodeTemplateGroup extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1684,7 +1593,6 @@ class GetTranscodeTemplateGroup extends Request
  */
 class CreateUploadVideo extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1709,7 +1617,6 @@ class CreateUploadVideo extends Request
  */
 class UploadMediaByURL extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1738,7 +1645,6 @@ class UploadMediaByURL extends Request
  */
 class UpdateVideoInfo extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method string getOwnerId()
@@ -1753,7 +1659,6 @@ class UpdateVideoInfo extends Request
  */
 class GetMediaAuditResultDetail extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1772,5 +1677,4 @@ class GetMediaAuditResultDetail extends Request
  */
 class AddWatermark extends Request
 {
-
 }

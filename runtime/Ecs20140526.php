@@ -348,7 +348,6 @@ class V20140526
  */
 class DescribeDiskMonitorData extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -369,7 +368,6 @@ class DescribeDiskMonitorData extends Request
  */
 class EnablePhysicalConnection extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -396,7 +394,6 @@ class EnablePhysicalConnection extends Request
  */
 class DescribeSnapshotLinks extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -417,7 +414,6 @@ class DescribeSnapshotLinks extends Request
  */
 class AttachNetworkInterface extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -432,7 +428,6 @@ class AttachNetworkInterface extends Request
  */
 class CancelAutoSnapshotPolicy_GatedLaunch extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -455,7 +450,6 @@ class CancelAutoSnapshotPolicy_GatedLaunch extends Request
  */
 class DescribeImageSharePermission extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -488,7 +482,6 @@ class DescribeImageSharePermission extends Request
  */
 class ModifyInstanceAttribute extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -507,7 +500,6 @@ class ModifyInstanceAttribute extends Request
  */
 class DescribeUserBusinessBehavior extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -536,7 +528,6 @@ class DescribeUserBusinessBehavior extends Request
  */
 class DescribeCommands extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -553,7 +544,6 @@ class DescribeCommands extends Request
  */
 class CancelTask extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -570,7 +560,6 @@ class CancelTask extends Request
  */
 class DescribeClusters extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -599,7 +588,6 @@ class DescribeClusters extends Request
  */
 class CreateSecurityGroup extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -620,7 +608,6 @@ class CreateSecurityGroup extends Request
  */
 class ModifyInstanceVncPasswd extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -645,7 +632,6 @@ class ModifyInstanceVncPasswd extends Request
  */
 class CreateSnapshot_GatedLaunch extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -668,7 +654,6 @@ class CreateSnapshot_GatedLaunch extends Request
  */
 class ResizeVolume_GatedLaunch extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -691,7 +676,6 @@ class ResizeVolume_GatedLaunch extends Request
  */
 class ModifyVolumeAttribute_GatedLaunch extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -716,7 +700,6 @@ class ModifyVolumeAttribute_GatedLaunch extends Request
  */
 class ModifyHpcClusterAttribute extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -765,7 +748,6 @@ class ModifyHpcClusterAttribute extends Request
  */
 class ModifySecurityGroupRule extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -784,7 +766,6 @@ class ModifySecurityGroupRule extends Request
  */
 class DescribeAccountAttributes extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -859,7 +840,6 @@ class DescribeAccountAttributes extends Request
  */
 class DescribeDisks extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -880,7 +860,6 @@ class DescribeDisks extends Request
  */
 class AddTags extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -905,7 +884,6 @@ class AddTags extends Request
  */
 class ModifyVpcAttribute extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -922,7 +900,6 @@ class ModifyVpcAttribute extends Request
  */
 class ConvertNatPublicIpToEip extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -945,7 +922,6 @@ class ConvertNatPublicIpToEip extends Request
  */
 class CreateHpcCluster extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -962,7 +938,6 @@ class CreateHpcCluster extends Request
  */
 class DescribeInstanceAttribute extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -981,7 +956,6 @@ class DescribeInstanceAttribute extends Request
  */
 class JoinSecurityGroup_GatedLaunch extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -998,7 +972,6 @@ class JoinSecurityGroup_GatedLaunch extends Request
  */
 class DescribeInstanceTypes extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -1017,7 +990,6 @@ class DescribeInstanceTypes extends Request
  */
 class DescribeSecurityGroupReferences extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -1034,7 +1006,6 @@ class DescribeSecurityGroupReferences extends Request
  */
 class StartInstance_GatedLaunch extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -1053,7 +1024,6 @@ class StartInstance_GatedLaunch extends Request
  */
 class AttachClassicLinkVpc extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1072,7 +1042,6 @@ class AttachClassicLinkVpc extends Request
  */
 class ExportSnapshot extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -1091,7 +1060,6 @@ class ExportSnapshot extends Request
  */
 class LeaveSecurityGroup_GatedLaunch extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1114,7 +1082,6 @@ class LeaveSecurityGroup_GatedLaunch extends Request
  */
 class UntagResources extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -1137,7 +1104,6 @@ class UntagResources extends Request
  */
 class ModifyRouterInterfaceSpec extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -1178,7 +1144,6 @@ class ModifyRouterInterfaceSpec extends Request
  */
 class DescribeInstanceHistoryEvents extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -1203,7 +1168,6 @@ class DescribeInstanceHistoryEvents extends Request
  */
 class DescribePhysicalConnections extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -1224,7 +1188,6 @@ class DescribePhysicalConnections extends Request
  */
 class RemoveTags extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -1243,7 +1206,6 @@ class RemoveTags extends Request
  */
 class ImportKeyPair extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -1266,7 +1228,6 @@ class ImportKeyPair extends Request
  */
 class DescribeSnapshotMonitorData extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -1291,7 +1252,6 @@ class DescribeSnapshotMonitorData extends Request
  */
 class ExportImage extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -1312,7 +1272,6 @@ class ExportImage extends Request
  */
 class ReInitVolume_GatedLaunch extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -1331,7 +1290,6 @@ class ReInitVolume_GatedLaunch extends Request
  */
 class ReleasePublicIpAddress extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -1350,7 +1308,6 @@ class ReleasePublicIpAddress extends Request
  */
 class DescribeInstanceVncPasswd extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -1371,7 +1328,6 @@ class DescribeInstanceVncPasswd extends Request
  */
 class GetInstanceScreenshot extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -1428,7 +1384,6 @@ class GetInstanceScreenshot extends Request
  */
 class DescribeSnapshots extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1457,7 +1412,6 @@ class DescribeSnapshots extends Request
  */
 class ModifyForwardEntry extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -1508,7 +1462,6 @@ class ModifyForwardEntry extends Request
  */
 class AllocateDedicatedHosts extends Request
 {
-
 }/**
  * @method $this setdata($data)
  * @method string getdata()
@@ -1527,7 +1480,6 @@ class AllocateDedicatedHosts extends Request
  */
 class EipNotifyPaid extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -1548,7 +1500,6 @@ class EipNotifyPaid extends Request
  */
 class DeleteNetworkInterfacePermission extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -1583,7 +1534,6 @@ class DeleteNetworkInterfacePermission extends Request
  */
 class DescribeInvocations extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1604,7 +1554,6 @@ class DescribeInvocations extends Request
  */
 class AddBandwidthPackageIps extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -1621,7 +1570,6 @@ class AddBandwidthPackageIps extends Request
  */
 class DescribeSnapshotsUsage extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -1654,7 +1602,6 @@ class DescribeSnapshotsUsage extends Request
  */
 class ModifyInstanceNetworkSpec extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -1679,7 +1626,6 @@ class ModifyInstanceNetworkSpec extends Request
  */
 class CreateSnapshot extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -1720,7 +1666,6 @@ class CreateSnapshot extends Request
  */
 class CreateDisk extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -1737,7 +1682,6 @@ class CreateDisk extends Request
  */
 class DeleteKeyPairs extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -1782,7 +1726,6 @@ class DeleteKeyPairs extends Request
  */
 class DescribeAvailableResource extends Request
 {
-
 }/**
  * @method $this setdata($data)
  * @method string getdata()
@@ -1801,7 +1744,6 @@ class DescribeAvailableResource extends Request
  */
 class EipFillParams extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -1832,7 +1774,6 @@ class EipFillParams extends Request
  */
 class DescribeRecommendInstanceType extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -1873,7 +1814,6 @@ class DescribeRecommendInstanceType extends Request
  */
 class DescribeSecurityGroups extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -1892,7 +1832,6 @@ class DescribeSecurityGroups extends Request
  */
 class DeletePhysicalConnection extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -1915,7 +1854,6 @@ class DeletePhysicalConnection extends Request
  */
 class AttachDisk_GatedLaunch extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -1942,7 +1880,6 @@ class AttachDisk_GatedLaunch extends Request
  */
 class ModifyInstanceAutoRenewAttribute extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1965,7 +1902,6 @@ class ModifyInstanceAutoRenewAttribute extends Request
  */
 class DescribeEipMonitorData extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -1984,7 +1920,6 @@ class DescribeEipMonitorData extends Request
  */
 class ApplyAutoSnapshotPolicy_GatedLaunch extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -2009,7 +1944,6 @@ class ApplyAutoSnapshotPolicy_GatedLaunch extends Request
  */
 class ModifyAutoSnapshotPolicyEx_GatedLaunch extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -2134,7 +2068,6 @@ class ModifyAutoSnapshotPolicyEx_GatedLaunch extends Request
  */
 class RunInstances extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -2165,7 +2098,6 @@ class RunInstances extends Request
  */
 class DescribeResourcesModification extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -2200,7 +2132,6 @@ class DescribeResourcesModification extends Request
  */
 class RevokeSecurityGroup_GatedLaunch extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -2227,7 +2158,6 @@ class RevokeSecurityGroup_GatedLaunch extends Request
  */
 class StopInstance extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -2246,7 +2176,6 @@ class StopInstance extends Request
  */
 class DeleteSnapshot extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -2275,7 +2204,6 @@ class DeleteSnapshot extends Request
  */
 class ImportImage_GatedLaunch extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -2296,7 +2224,6 @@ class ImportImage_GatedLaunch extends Request
  */
 class UnassignPrivateIpAddresses extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2317,7 +2244,6 @@ class UnassignPrivateIpAddresses extends Request
  */
 class AssociateEipAddress extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -2340,7 +2266,6 @@ class AssociateEipAddress extends Request
  */
 class ResizeDisk extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -2395,7 +2320,6 @@ class ResizeDisk extends Request
  */
 class DescribeImages extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -2486,7 +2410,6 @@ class DescribeImages extends Request
  */
 class DescribeInstances extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -2505,7 +2428,6 @@ class DescribeInstances extends Request
  */
 class ReleaseDedicatedHost extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -2638,7 +2560,6 @@ class ReleaseDedicatedHost extends Request
  */
 class CreateInstance_GatedLaunch extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2657,7 +2578,6 @@ class CreateInstance_GatedLaunch extends Request
  */
 class ModifyBandwidthPackageSpec extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -2684,7 +2604,6 @@ class ModifyBandwidthPackageSpec extends Request
  */
 class CreateSecurityGroup_GatedLaunch extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -2709,7 +2628,6 @@ class CreateSecurityGroup_GatedLaunch extends Request
  */
 class DescribeInstanceStatus extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2752,7 +2670,6 @@ class DescribeInstanceStatus extends Request
  */
 class DescribeEipAddresses extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -2777,7 +2694,6 @@ class DescribeEipAddresses extends Request
  */
 class DescribeNetworkInterfacePermissions extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -2796,7 +2712,6 @@ class DescribeNetworkInterfacePermissions extends Request
  */
 class DetachClassicLinkVpc extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -2819,7 +2734,6 @@ class DetachClassicLinkVpc extends Request
  */
 class ModifyImageShareGroupPermission_GatedLaunch extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -2844,7 +2758,6 @@ class ModifyImageShareGroupPermission_GatedLaunch extends Request
  */
 class ReInitDisk extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -2867,7 +2780,6 @@ class ReInitDisk extends Request
  */
 class DeleteLaunchTemplateVersion extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -2884,7 +2796,6 @@ class DeleteLaunchTemplateVersion extends Request
  */
 class DeleteAutoSnapshotPolicy extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -2903,7 +2814,6 @@ class DeleteAutoSnapshotPolicy extends Request
  */
 class InstallCloudAssistant extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -2930,7 +2840,6 @@ class InstallCloudAssistant extends Request
  */
 class ModifyDiskAttribute_GatedLaunch extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -2955,7 +2864,6 @@ class ModifyDiskAttribute_GatedLaunch extends Request
  */
 class ModifyAutoSnapshotPolicyEx extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -2976,7 +2884,6 @@ class ModifyAutoSnapshotPolicyEx extends Request
  */
 class AttachVolume_GatedLaunch extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -2997,7 +2904,6 @@ class AttachVolume_GatedLaunch extends Request
  */
 class ResizeDisk_GatedLaunch extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -3018,7 +2924,6 @@ class ResizeDisk_GatedLaunch extends Request
  */
 class ModifyVSwitchAttribute extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -3041,7 +2946,6 @@ class ModifyVSwitchAttribute extends Request
  */
 class ModifySecurityGroupPolicy extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -3060,7 +2964,6 @@ class ModifySecurityGroupPolicy extends Request
  */
 class DescribeInstanceTypeFamilies extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -3077,7 +2980,6 @@ class DescribeInstanceTypeFamilies extends Request
  */
 class DeleteBandwidthPackage extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -3100,7 +3002,6 @@ class DeleteBandwidthPackage extends Request
  */
 class DescribeBandwidthPackages extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -3119,7 +3020,6 @@ class DescribeBandwidthPackages extends Request
  */
 class ReActivateInstances extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -3152,7 +3052,6 @@ class ReActivateInstances extends Request
  */
 class CreateVolume_GatedLaunch extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -3191,7 +3090,6 @@ class CreateVolume_GatedLaunch extends Request
  */
 class AuthorizeSecurityGroupEgress_GatedLaunch extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -3248,7 +3146,6 @@ class AuthorizeSecurityGroupEgress_GatedLaunch extends Request
  */
 class DescribePrice extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -3279,7 +3176,6 @@ class DescribePrice extends Request
  */
 class ModifyPrepayInstanceSpec extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -3312,7 +3208,6 @@ class ModifyPrepayInstanceSpec extends Request
  */
 class CreateDisk_GatedLaunch extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -3331,7 +3226,6 @@ class CreateDisk_GatedLaunch extends Request
  */
 class DetachDisk_GatedLaunch extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -3352,7 +3246,6 @@ class DetachDisk_GatedLaunch extends Request
  */
 class ModifyInstanceVpcAttribute extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -3367,7 +3260,6 @@ class ModifyInstanceVpcAttribute extends Request
  */
 class DeactivateRouterInterface extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -3386,7 +3278,6 @@ class DeactivateRouterInterface extends Request
  */
 class DeleteNetworkInterface extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -3411,7 +3302,6 @@ class DeleteNetworkInterface extends Request
  */
 class ModifyInstanceDeployment extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -3508,7 +3398,6 @@ class ModifyInstanceDeployment extends Request
  */
 class CreateLaunchTemplate extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -3531,7 +3420,6 @@ class CreateLaunchTemplate extends Request
  */
 class DescribeInstanceRamRole extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -3552,7 +3440,6 @@ class DescribeInstanceRamRole extends Request
  */
 class AllocatePublicIpAddress extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -3601,7 +3488,6 @@ class AllocatePublicIpAddress extends Request
  */
 class RevokeSecurityGroupEgress extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -3650,7 +3536,6 @@ class RevokeSecurityGroupEgress extends Request
  */
 class ModifySecurityGroupEgressRule extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -3699,7 +3584,6 @@ class ModifySecurityGroupEgressRule extends Request
  */
 class AuthorizeSecurityGroupEgress extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -3716,7 +3600,6 @@ class AuthorizeSecurityGroupEgress extends Request
  */
 class DescribeInstancePhysicalAttribute extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -3739,7 +3622,6 @@ class DescribeInstancePhysicalAttribute extends Request
  */
 class DescribeInstanceMonitorData extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -3760,7 +3642,6 @@ class DescribeInstanceMonitorData extends Request
  */
 class ModifyInstanceAutoReleaseTime extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -3779,7 +3660,6 @@ class ModifyInstanceAutoReleaseTime extends Request
  */
 class RedeployInstance extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -3808,7 +3688,6 @@ class RedeployInstance extends Request
  */
 class CopyImage extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -3835,7 +3714,6 @@ class CopyImage extends Request
  */
 class ReplaceSystemDisk_GatedLaunch extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -3858,7 +3736,6 @@ class ReplaceSystemDisk_GatedLaunch extends Request
  */
 class DescribeForwardTableEntries extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -3879,7 +3756,6 @@ class DescribeForwardTableEntries extends Request
  */
 class StopInvocation extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -3898,7 +3774,6 @@ class StopInvocation extends Request
  */
 class ResetDisk extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -3919,7 +3794,6 @@ class ResetDisk extends Request
  */
 class DeleteInstance extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -3942,7 +3816,6 @@ class DeleteInstance extends Request
  */
 class ModifyImageShareGroupPermission extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -3973,7 +3846,6 @@ class ModifyImageShareGroupPermission extends Request
  */
 class ModifyAutoSnapshotPolicy_GatedLaunch extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -3994,7 +3866,6 @@ class ModifyAutoSnapshotPolicy_GatedLaunch extends Request
  */
 class UnassociateEipAddress extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -4015,7 +3886,6 @@ class UnassociateEipAddress extends Request
  */
 class ModifySnapshotAttribute_GatedLaunch extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -4036,7 +3906,6 @@ class ModifySnapshotAttribute_GatedLaunch extends Request
  */
 class DeleteHpcCluster extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -4055,7 +3924,6 @@ class DeleteHpcCluster extends Request
  */
 class DescribeVirtualBorderRouters extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -4086,7 +3954,6 @@ class DescribeVirtualBorderRouters extends Request
  */
 class CreateDeploymentSet extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -4111,7 +3978,6 @@ class CreateDeploymentSet extends Request
  */
 class DescribeInstanceAutoRenewAttribute extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -4154,7 +4020,6 @@ class DescribeInstanceAutoRenewAttribute extends Request
  */
 class DescribeNetworkInterfaces extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -4177,7 +4042,6 @@ class DescribeNetworkInterfaces extends Request
  */
 class ModifySecurityGroupAttribute_GatedLaunch extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -4198,7 +4062,6 @@ class ModifySecurityGroupAttribute_GatedLaunch extends Request
  */
 class StartInstance extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -4217,7 +4080,6 @@ class StartInstance extends Request
  */
 class DescribeCloudAssistantStatus extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -4236,7 +4098,6 @@ class DescribeCloudAssistantStatus extends Request
  */
 class DescribeInstanceVncUrl_GatedLaunch extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -4273,7 +4134,6 @@ class DescribeInstanceVncUrl_GatedLaunch extends Request
  */
 class CreateNetworkInterface extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -4294,7 +4154,6 @@ class CreateNetworkInterface extends Request
  */
 class DetachNetworkInterface extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -4313,7 +4172,6 @@ class DetachNetworkInterface extends Request
  */
 class RebootInstance_GatedLaunch extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -4342,7 +4200,6 @@ class RebootInstance_GatedLaunch extends Request
  */
 class DescribeLaunchTemplates extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -4359,7 +4216,6 @@ class DescribeLaunchTemplates extends Request
  */
 class DescribeUserData_GatedLaunch extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -4376,7 +4232,6 @@ class DescribeUserData_GatedLaunch extends Request
  */
 class DeleteDisk_GatedLaunch extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -4395,7 +4250,6 @@ class DeleteDisk_GatedLaunch extends Request
  */
 class JoinSecurityGroup extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -4416,7 +4270,6 @@ class JoinSecurityGroup extends Request
  */
 class DescribeSnapshotPackage extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -4439,7 +4292,6 @@ class DescribeSnapshotPackage extends Request
  */
 class ModifySecurityGroupAttribute extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -4462,7 +4314,6 @@ class ModifySecurityGroupAttribute extends Request
  */
 class DescribeNatGateways extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -4557,7 +4408,6 @@ class DescribeNatGateways extends Request
  */
 class CreateLaunchTemplateVersion extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -4670,7 +4520,6 @@ class CreateLaunchTemplateVersion extends Request
  */
 class CreateInstance extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -4703,7 +4552,6 @@ class CreateInstance extends Request
  */
 class DescribeDemands extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -4724,7 +4572,6 @@ class DescribeDemands extends Request
  */
 class StopInstance_GatedLaunch extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -4749,7 +4596,6 @@ class StopInstance_GatedLaunch extends Request
  */
 class CreateVpc extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -4772,7 +4618,6 @@ class CreateVpc extends Request
  */
 class CreateNetworkInterfacePermission extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -4793,7 +4638,6 @@ class CreateNetworkInterfacePermission extends Request
  */
 class DescribeRegions extends Request
 {
-
 }/**
  * @method $this setFilter($filter)
  * @method array getFilter()
@@ -4814,7 +4658,6 @@ class DescribeRegions extends Request
  */
 class DescribeVirtualBorderRoutersForPhysicalConnection extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -4829,7 +4672,6 @@ class DescribeVirtualBorderRoutersForPhysicalConnection extends Request
  */
 class CheckDiskEnableAutoSnapshotValidation_GatedLaunch extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -4852,7 +4694,6 @@ class CheckDiskEnableAutoSnapshotValidation_GatedLaunch extends Request
  */
 class ModifyImageAttribute extends Request
 {
-
 }/**
  * @method $this setNextHopList($nextHopList)
  * @method array getNextHopList()
@@ -4875,7 +4716,6 @@ class ModifyImageAttribute extends Request
  */
 class DeleteRouteEntry extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -4906,7 +4746,6 @@ class DeleteRouteEntry extends Request
  */
 class DescribeTasks extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -4945,7 +4784,6 @@ class DescribeTasks extends Request
  */
 class AuthorizeSecurityGroup_GatedLaunch extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -4960,7 +4798,6 @@ class AuthorizeSecurityGroup_GatedLaunch extends Request
  */
 class DescribeLimitation extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -4981,7 +4818,6 @@ class DescribeLimitation extends Request
  */
 class ModifySnapshotAttribute extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -5006,7 +4842,6 @@ class ModifySnapshotAttribute extends Request
  */
 class CreateNatGateway extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -5025,7 +4860,6 @@ class CreateNatGateway extends Request
  */
 class ResetDisk_GatedLaunch extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -5048,7 +4882,6 @@ class ResetDisk_GatedLaunch extends Request
  */
 class DescribeResourceByTags extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -5069,7 +4902,6 @@ class DescribeResourceByTags extends Request
  */
 class UnassignIpv6Addresses extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -5084,7 +4916,6 @@ class UnassignIpv6Addresses extends Request
  */
 class ConnectRouterInterface extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -5103,7 +4934,6 @@ class ConnectRouterInterface extends Request
  */
 class CancelCopyImage extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -5124,7 +4954,6 @@ class CancelCopyImage extends Request
  */
 class AddTags_GatedLaunch extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -5155,7 +4984,6 @@ class AddTags_GatedLaunch extends Request
  */
 class ModifyRouterInterfaceAttribute extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -5184,7 +5012,6 @@ class ModifyRouterInterfaceAttribute extends Request
  */
 class ModifyAutoSnapshotPolicy extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -5205,7 +5032,6 @@ class ModifyAutoSnapshotPolicy extends Request
  */
 class RollbackVolume_GatedLaunch extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -5232,7 +5058,6 @@ class RollbackVolume_GatedLaunch extends Request
  */
 class DescribeEniMonitorData extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -5257,7 +5082,6 @@ class DescribeEniMonitorData extends Request
  */
 class DescribeHpcClusters extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -5274,7 +5098,6 @@ class DescribeHpcClusters extends Request
  */
 class DescribeInstanceTopology extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -5293,7 +5116,6 @@ class DescribeInstanceTopology extends Request
  */
 class DetachDisk extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -5312,7 +5134,6 @@ class DetachDisk extends Request
  */
 class CancelCopyImage_GatedLaunch extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -5329,7 +5150,6 @@ class CancelCopyImage_GatedLaunch extends Request
  */
 class DeleteVpc extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -5352,7 +5172,6 @@ class DeleteVpc extends Request
  */
 class AttachDisk extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -5373,7 +5192,6 @@ class AttachDisk extends Request
  */
 class ModifyInstanceNetworkSpec_GatedLaunch extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -5394,7 +5212,6 @@ class ModifyInstanceNetworkSpec_GatedLaunch extends Request
  */
 class DescribeDedicatedHostTypes extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -5413,7 +5230,6 @@ class DescribeDedicatedHostTypes extends Request
  */
 class LeaveSecurityGroup extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -5434,7 +5250,6 @@ class LeaveSecurityGroup extends Request
  */
 class RebootInstance extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -5455,7 +5270,6 @@ class RebootInstance extends Request
  */
 class DescribeHaVips extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -5482,7 +5296,6 @@ class DescribeHaVips extends Request
  */
 class ModifyDiskChargeType extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -5503,7 +5316,6 @@ class ModifyDiskChargeType extends Request
  */
 class ModifyInstanceVpcAttribute_GatedLaunch extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -5520,7 +5332,6 @@ class ModifyInstanceVpcAttribute_GatedLaunch extends Request
  */
 class DeleteDisk extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -5539,7 +5350,6 @@ class DeleteDisk extends Request
  */
 class DeleteVolume_GatedLaunch extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -5576,7 +5386,6 @@ class DeleteVolume_GatedLaunch extends Request
  */
 class ModifyInstanceSpec extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -5609,7 +5418,6 @@ class ModifyInstanceSpec extends Request
  */
 class ModifyInstanceChargeType extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -5628,7 +5436,6 @@ class ModifyInstanceChargeType extends Request
  */
 class GetInstanceConsoleOutput extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -5655,7 +5462,6 @@ class GetInstanceConsoleOutput extends Request
  */
 class ModifyDedicatedHostAutoRenewAttribute extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -5684,7 +5490,6 @@ class ModifyDedicatedHostAutoRenewAttribute extends Request
  */
 class ModifyCommand extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -5703,7 +5508,6 @@ class ModifyCommand extends Request
  */
 class ApplyAutoSnapshotPolicy extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -5728,7 +5532,6 @@ class ApplyAutoSnapshotPolicy extends Request
  */
 class RenewDedicatedHosts extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -5765,7 +5568,6 @@ class RenewDedicatedHosts extends Request
  */
 class ModifyPhysicalConnectionAttribute extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -5804,7 +5606,6 @@ class ModifyPhysicalConnectionAttribute extends Request
  */
 class ReplaceSystemDisk extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -5827,7 +5628,6 @@ class ReplaceSystemDisk extends Request
  */
 class ModifyInstanceAutoRenewAttribute_GatedLaunch extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -5848,7 +5648,6 @@ class ModifyInstanceAutoRenewAttribute_GatedLaunch extends Request
  */
 class DeleteVirtualBorderRouter extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -5877,7 +5676,6 @@ class DeleteVirtualBorderRouter extends Request
  */
 class DescribeInvocationResults extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -5898,7 +5696,6 @@ class DescribeInvocationResults extends Request
  */
 class ModifyInstanceVncPasswd_GatedLaunch extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -5915,7 +5712,6 @@ class ModifyInstanceVncPasswd_GatedLaunch extends Request
  */
 class CancelAutoSnapshotPolicy extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -5934,7 +5730,6 @@ class CancelAutoSnapshotPolicy extends Request
  */
 class TagResources extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -5969,7 +5764,6 @@ class TagResources extends Request
  */
 class DescribeDisksFullStatus extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -5986,7 +5780,6 @@ class DescribeDisksFullStatus extends Request
  */
 class DescribeUserData extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -6003,7 +5796,6 @@ class DescribeUserData extends Request
  */
 class AttachInstanceRamRole extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -6018,7 +5810,6 @@ class AttachInstanceRamRole extends Request
  */
 class ActivateRouterInterface extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -6039,7 +5830,6 @@ class ActivateRouterInterface extends Request
  */
 class DescribeVRouters extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -6062,7 +5852,6 @@ class DescribeVRouters extends Request
  */
 class DescribeNewProjectEipMonitorData extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -6083,7 +5872,6 @@ class DescribeNewProjectEipMonitorData extends Request
  */
 class ModifyImageSharePermission extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -6100,7 +5888,6 @@ class ModifyImageSharePermission extends Request
  */
 class CancelSimulatedSystemEvents extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -6123,7 +5910,6 @@ class CancelSimulatedSystemEvents extends Request
  */
 class AssignPrivateIpAddresses extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -6146,7 +5932,6 @@ class AssignPrivateIpAddresses extends Request
  */
 class DescribeRenewalPrice extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -6179,7 +5964,6 @@ class DescribeRenewalPrice extends Request
  */
 class CreateImage_GatedLaunch extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -6200,7 +5984,6 @@ class CreateImage_GatedLaunch extends Request
  */
 class AllocatePublicIpAddress_GatedLaunch extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -6219,7 +6002,6 @@ class AllocatePublicIpAddress_GatedLaunch extends Request
  */
 class ModifyUserBusinessBehavior extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -6236,7 +6018,6 @@ class ModifyUserBusinessBehavior extends Request
  */
 class AttachKeyPair extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -6271,7 +6052,6 @@ class AttachKeyPair extends Request
  */
 class RevokeSecurityGroupEgress_GatedLaunch extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -6290,7 +6070,6 @@ class RevokeSecurityGroupEgress_GatedLaunch extends Request
  */
 class ReInitDisk_GatedLaunch extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -6311,7 +6090,6 @@ class ReInitDisk_GatedLaunch extends Request
  */
 class CreateAutoSnapshotPolicy extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -6332,7 +6110,6 @@ class CreateAutoSnapshotPolicy extends Request
  */
 class DescribeSecurityGroupAttribute extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -6351,7 +6128,6 @@ class DescribeSecurityGroupAttribute extends Request
  */
 class DescribeInstanceVncPasswd_GatedLaunch extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -6368,7 +6144,6 @@ class DescribeInstanceVncPasswd_GatedLaunch extends Request
  */
 class DeleteCommand extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -6399,7 +6174,6 @@ class DeleteCommand extends Request
  */
 class DescribeDeploymentSets extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -6422,7 +6196,6 @@ class DescribeDeploymentSets extends Request
  */
 class DescribeTags extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -6457,7 +6230,6 @@ class DescribeTags extends Request
  */
 class DescribeDedicatedHosts extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -6484,7 +6256,6 @@ class DescribeDedicatedHosts extends Request
  */
 class CreateCommand extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -6501,7 +6272,6 @@ class CreateCommand extends Request
  */
 class DeleteDeploymentSet extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -6528,7 +6298,6 @@ class DeleteDeploymentSet extends Request
  */
 class CreateForwardEntry extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -6543,7 +6312,6 @@ class CreateForwardEntry extends Request
  */
 class DescribeTaskAttribute extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -6570,7 +6338,6 @@ class DescribeTaskAttribute extends Request
  */
 class ModifyDedicatedHostAttribute extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -6587,7 +6354,6 @@ class ModifyDedicatedHostAttribute extends Request
  */
 class DescribeDedicatedHostAutoRenew extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -6604,7 +6370,6 @@ class DescribeDedicatedHostAutoRenew extends Request
  */
 class AcceptInquiredSystemEvent extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -6627,7 +6392,6 @@ class AcceptInquiredSystemEvent extends Request
  */
 class AllocateEipAddress extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -6652,7 +6416,6 @@ class AllocateEipAddress extends Request
  */
 class DescribeZones extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -6671,7 +6434,6 @@ class DescribeZones extends Request
  */
 class DeleteForwardEntry extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -6714,7 +6476,6 @@ class DeleteForwardEntry extends Request
  */
 class CopyImage_GatedLaunch extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -6733,7 +6494,6 @@ class CopyImage_GatedLaunch extends Request
  */
 class DeleteHaVip extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -6758,7 +6518,6 @@ class DeleteHaVip extends Request
  */
 class DescribeBandwidthLimitation extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -6777,7 +6536,6 @@ class DescribeBandwidthLimitation extends Request
  */
 class DeleteSecurityGroup extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -6798,7 +6556,6 @@ class DeleteSecurityGroup extends Request
  */
 class CancelPhysicalConnection extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -6819,7 +6576,6 @@ class CancelPhysicalConnection extends Request
  */
 class CreateSimulatedSystemEvents extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -6854,7 +6610,6 @@ class CreateSimulatedSystemEvents extends Request
  */
 class ModifyVirtualBorderRouterAttribute extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -6877,7 +6632,6 @@ class ModifyVirtualBorderRouterAttribute extends Request
  */
 class UnassociateHaVip extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -6900,7 +6654,6 @@ class UnassociateHaVip extends Request
  */
 class DescribeVpcs extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -6919,7 +6672,6 @@ class DescribeVpcs extends Request
  */
 class DeleteImage extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -6978,7 +6730,6 @@ class DeleteImage extends Request
  */
 class ModifyImageSharePermission_GatedLaunch extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -7017,7 +6768,6 @@ class ModifyImageSharePermission_GatedLaunch extends Request
  */
 class DescribeInstancesFullStatus extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -7046,7 +6796,6 @@ class DescribeInstancesFullStatus extends Request
  */
 class DescribeRouteTables extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -7063,7 +6812,6 @@ class DescribeRouteTables extends Request
  */
 class DeleteAutoSnapshotPolicy_GatedLaunch extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -7084,7 +6832,6 @@ class DeleteAutoSnapshotPolicy_GatedLaunch extends Request
  */
 class TerminatePhysicalConnection extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -7107,7 +6854,6 @@ class TerminatePhysicalConnection extends Request
  */
 class ModifyImageAttribute_GatedLaunch extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -7130,7 +6876,6 @@ class ModifyImageAttribute_GatedLaunch extends Request
  */
 class ModifyLaunchTemplateDefaultVersion extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -7155,7 +6900,6 @@ class ModifyLaunchTemplateDefaultVersion extends Request
  */
 class ModifyDiskAttribute extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -7182,7 +6926,6 @@ class ModifyDiskAttribute extends Request
  */
 class CreateVSwitch extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -7205,7 +6948,6 @@ class CreateVSwitch extends Request
  */
 class CreateAutoSnapshotPolicy_GatedLaunch extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -7252,7 +6994,6 @@ class CreateAutoSnapshotPolicy_GatedLaunch extends Request
  */
 class RevokeSecurityGroup extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -7269,7 +7010,6 @@ class RevokeSecurityGroup extends Request
  */
 class DetachKeyPair extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -7288,7 +7028,6 @@ class DetachKeyPair extends Request
  */
 class DeleteInstance_GatedLaunch extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -7305,7 +7044,6 @@ class DeleteInstance_GatedLaunch extends Request
  */
 class DeleteVSwitch extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -7330,7 +7068,6 @@ class DeleteVSwitch extends Request
  */
 class DescribeKeyPairs extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -7349,7 +7086,6 @@ class DescribeKeyPairs extends Request
  */
 class DeleteImage_GatedLaunch extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -7378,7 +7114,6 @@ class DeleteImage_GatedLaunch extends Request
  */
 class ImportImage extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -7395,7 +7130,6 @@ class ImportImage extends Request
  */
 class DetachInstanceRamRole extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -7416,7 +7150,6 @@ class DetachInstanceRamRole extends Request
  */
 class ModifyHaVipAttribute extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -7449,7 +7182,6 @@ class ModifyHaVipAttribute extends Request
  */
 class DescribeSpotPriceHistory extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -7474,7 +7206,6 @@ class DescribeSpotPriceHistory extends Request
  */
 class ModifyNetworkInterfaceAttribute extends Request
 {
-
 }/**
  * @method $this setFilter($filter)
  * @method array getFilter()
@@ -7495,7 +7226,6 @@ class ModifyNetworkInterfaceAttribute extends Request
  */
 class DescribeAccessPoints extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -7514,7 +7244,6 @@ class DescribeAccessPoints extends Request
  */
 class RenewInstance_GatedLaunch extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -7553,7 +7282,6 @@ class RenewInstance_GatedLaunch extends Request
  */
 class CreatePhysicalConnection extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -7574,7 +7302,6 @@ class CreatePhysicalConnection extends Request
  */
 class RecoverVirtualBorderRouter extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -7597,7 +7324,6 @@ class RecoverVirtualBorderRouter extends Request
  */
 class AssignIpv6Addresses extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -7616,7 +7342,6 @@ class AssignIpv6Addresses extends Request
  */
 class ModifyEipAddressAttribute extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -7639,7 +7364,6 @@ class ModifyEipAddressAttribute extends Request
  */
 class JoinResourceGroup extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -7662,7 +7386,6 @@ class JoinResourceGroup extends Request
  */
 class InvokeCommand extends Request
 {
-
 }/**
  * @method $this setdata($data)
  * @method string getdata()
@@ -7681,7 +7404,6 @@ class InvokeCommand extends Request
  */
 class EipFillProduct extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -7698,7 +7420,6 @@ class EipFillProduct extends Request
  */
 class DeleteSnapshot_GatedLaunch extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -7715,7 +7436,6 @@ class DeleteSnapshot_GatedLaunch extends Request
  */
 class ReleaseEipAddress extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -7736,7 +7456,6 @@ class ReleaseEipAddress extends Request
  */
 class TerminateVirtualBorderRouter extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -7757,7 +7476,6 @@ class TerminateVirtualBorderRouter extends Request
  */
 class RemoveBandwidthPackageIps extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -7778,7 +7496,6 @@ class RemoveBandwidthPackageIps extends Request
  */
 class DetachVolume_GatedLaunch extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -7797,7 +7514,6 @@ class DetachVolume_GatedLaunch extends Request
  */
 class DeleteSecurityGroup_GatedLaunch extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -7818,7 +7534,6 @@ class DeleteSecurityGroup_GatedLaunch extends Request
  */
 class ImportSnapshot extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -7837,7 +7552,6 @@ class ImportSnapshot extends Request
  */
 class ModifyDedicatedHostAutoReleaseTime extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -7886,7 +7600,6 @@ class ModifyDedicatedHostAutoReleaseTime extends Request
  */
 class AuthorizeSecurityGroup extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -7905,7 +7618,6 @@ class AuthorizeSecurityGroup extends Request
  */
 class DescribeImageSupportInstanceTypes extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -7928,7 +7640,6 @@ class DescribeImageSupportInstanceTypes extends Request
  */
 class RenewInstance extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -7947,7 +7658,6 @@ class RenewInstance extends Request
  */
 class DescribeInstanceVncUrl extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -7964,7 +7674,6 @@ class DescribeInstanceVncUrl extends Request
  */
 class CancelTask_GatedLaunch extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -7991,7 +7700,6 @@ class CancelTask_GatedLaunch extends Request
  */
 class DescribeVSwitches extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -8020,7 +7728,6 @@ class DescribeVSwitches extends Request
  */
 class CheckAutoSnapshotPolicy_GatedLaunch extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -8047,7 +7754,6 @@ class CheckAutoSnapshotPolicy_GatedLaunch extends Request
  */
 class ModifyInstanceAttribute_GatedLaunch extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -8068,7 +7774,6 @@ class ModifyInstanceAttribute_GatedLaunch extends Request
  */
 class CreateKeyPair extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -8089,7 +7794,6 @@ class CreateKeyPair extends Request
  */
 class AssociateHaVip extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -8110,7 +7814,6 @@ class AssociateHaVip extends Request
  */
 class DeleteRouterInterface extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -8127,7 +7830,6 @@ class DeleteRouterInterface extends Request
  */
 class DeleteNatGateway extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -8150,7 +7852,6 @@ class DeleteNatGateway extends Request
  */
 class CreateHaVip extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -8173,7 +7874,6 @@ class CreateHaVip extends Request
  */
 class ListTagResources extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -8198,7 +7898,6 @@ class ListTagResources extends Request
  */
 class ExportImage_GatedLaunch extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -8233,7 +7932,6 @@ class ExportImage_GatedLaunch extends Request
  */
 class DescribeLaunchTemplateVersions extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -8260,7 +7958,6 @@ class DescribeLaunchTemplateVersions extends Request
  */
 class CreateRouteEntry extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -8279,7 +7976,6 @@ class CreateRouteEntry extends Request
  */
 class DescribeRouterInterfaces extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -8300,7 +7996,6 @@ class DescribeRouterInterfaces extends Request
  */
 class DeleteLaunchTemplate extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -8323,7 +8018,6 @@ class DeleteLaunchTemplate extends Request
  */
 class DescribeClassicLinkInstances extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -8346,7 +8040,6 @@ class DescribeClassicLinkInstances extends Request
  */
 class DescribeAutoSnapshotPolicyEx extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -8385,7 +8078,6 @@ class DescribeAutoSnapshotPolicyEx extends Request
  */
 class CreateImage extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -8422,7 +8114,6 @@ class CreateImage extends Request
  */
 class CreateVirtualBorderRouter extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -8479,7 +8170,6 @@ class CreateVirtualBorderRouter extends Request
  */
 class CreateRouterInterface extends Request
 {
-
 }/**
  * @method $this setSourceRegionId($sourceRegionId)
  * @method string getSourceRegionId()
@@ -8500,7 +8190,6 @@ class CreateRouterInterface extends Request
  */
 class RemoveTags_GatedLaunch extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -8521,7 +8210,6 @@ class RemoveTags_GatedLaunch extends Request
  */
 class ModifyVRouterAttribute extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -8542,5 +8230,4 @@ class ModifyVRouterAttribute extends Request
  */
 class ModifyDeploymentSetAttribute extends Request
 {
-
 }

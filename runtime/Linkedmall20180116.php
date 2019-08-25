@@ -51,7 +51,6 @@ class V20180116
  */
 class QueryAllCities extends Request
 {
-
 }/**
  * @method $this setBizId($bizId)
  * @method string getBizId()
@@ -62,7 +61,6 @@ class QueryAllCities extends Request
  */
 class QueryMovieSeats extends Request
 {
-
 }/**
  * @method $this setBizId($bizId)
  * @method string getBizId()
@@ -71,7 +69,6 @@ class QueryMovieSeats extends Request
  */
 class QueryItemDetail extends Request
 {
-
 }/**
  * @method $this setBizId($bizId)
  * @method string getBizId()
@@ -84,7 +81,6 @@ class QueryItemDetail extends Request
  */
 class ReleaseMovieSeat extends Request
 {
-
 }/**
  * @method $this setBizId($bizId)
  * @method string getBizId()
@@ -99,7 +95,6 @@ class ReleaseMovieSeat extends Request
  */
 class QueryOrderList extends Request
 {
-
 }/**
  * @method $this setBizId($bizId)
  * @method string getBizId()
@@ -118,7 +113,6 @@ class QueryOrderList extends Request
  */
 class ReserveMovieSeat extends Request
 {
-
 }/**
  * @method $this setBizId($bizId)
  * @method string getBizId()
@@ -143,7 +137,6 @@ class ReserveMovieSeat extends Request
  */
 class CreateOrder extends Request
 {
-
 }/**
  * @method $this setBizId($bizId)
  * @method string getBizId()
@@ -156,7 +149,6 @@ class CreateOrder extends Request
  */
 class QueryItemInventory extends Request
 {
-
 }/**
  * @method $this setBizId($bizId)
  * @method string getBizId()
@@ -167,7 +159,6 @@ class QueryItemInventory extends Request
  */
 class RepayOrder extends Request
 {
-
 }/**
  * @method $this setBizId($bizId)
  * @method string getBizId()
@@ -178,7 +169,6 @@ class RepayOrder extends Request
  */
 class QueryUpcomingMovies extends Request
 {
-
 }/**
  * @method $this setBizId($bizId)
  * @method string getBizId()
@@ -189,7 +179,6 @@ class QueryUpcomingMovies extends Request
  */
 class ModifyBizItems extends Request
 {
-
 }/**
  * @method $this setBizId($bizId)
  * @method string getBizId()
@@ -202,7 +191,6 @@ class ModifyBizItems extends Request
  */
 class RefundPoint extends Request
 {
-
 }/**
  * @method $this setBizId($bizId)
  * @method string getBizId()
@@ -213,7 +201,6 @@ class RefundPoint extends Request
  */
 class QueryMovieSchedules extends Request
 {
-
 }/**
  * @method $this setBizId($bizId)
  * @method string getBizId()
@@ -226,7 +213,6 @@ class QueryMovieSchedules extends Request
  */
 class QueryAllCinemas extends Request
 {
-
 }/**
  * @method $this setBizId($bizId)
  * @method string getBizId()
@@ -237,7 +223,6 @@ class QueryAllCinemas extends Request
  */
 class DeleteBizItems extends Request
 {
-
 }/**
  * @method $this setBizId($bizId)
  * @method string getBizId()
@@ -252,7 +237,6 @@ class DeleteBizItems extends Request
  */
 class CreateMovieTicketOrder extends Request
 {
-
 }/**
  * @method $this setBizId($bizId)
  * @method string getBizId()
@@ -265,7 +249,6 @@ class CreateMovieTicketOrder extends Request
  */
 class QueryMovieComments extends Request
 {
-
 }/**
  * @method $this setChannelId($channelId)
  * @method string getChannelId()
@@ -282,7 +265,6 @@ class QueryMovieComments extends Request
  */
 class NotifyWithholdFund extends Request
 {
-
 }/**
  * @method $this setBizId($bizId)
  * @method string getBizId()
@@ -293,7 +275,6 @@ class NotifyWithholdFund extends Request
  */
 class RemoveMessages extends Request
 {
-
 }/**
  * @method $this setBizId($bizId)
  * @method string getBizId()
@@ -304,7 +285,6 @@ class RemoveMessages extends Request
  */
 class QueryLogistics extends Request
 {
-
 }/**
  * @method $this setBizId($bizId)
  * @method string getBizId()
@@ -315,7 +295,6 @@ class QueryLogistics extends Request
  */
 class QueryOrderLogistics extends Request
 {
-
 }/**
  * @method $this setBizId($bizId)
  * @method string getBizId()
@@ -328,7 +307,6 @@ class QueryOrderLogistics extends Request
  */
 class QueryGuideItemGroup extends Request
 {
-
 }/**
  * @method $this setBizId($bizId)
  * @method string getBizId()
@@ -339,7 +317,6 @@ class QueryGuideItemGroup extends Request
  */
 class QueryHotMovies extends Request
 {
-
 }/**
  * @method $this setBizId($bizId)
  * @method string getBizId()
@@ -348,7 +325,6 @@ class QueryHotMovies extends Request
  */
 class AddSupplierNewItems extends Request
 {
-
 }/**
  * @method $this setBizId($bizId)
  * @method string getBizId()
@@ -363,7 +339,6 @@ class AddSupplierNewItems extends Request
  */
 class QueryBizItemList extends Request
 {
-
 }/**
  * @method $this setChannelId($channelId)
  * @method string getChannelId()
@@ -378,7 +353,6 @@ class QueryBizItemList extends Request
  */
 class NotifyPayOrderStatus extends Request
 {
-
 }/**
  * @method $this setBizId($bizId)
  * @method string getBizId()
@@ -389,7 +363,6 @@ class NotifyPayOrderStatus extends Request
  */
 class QueryMessages extends Request
 {
-
 }/**
  * @method $this setBizId($bizId)
  * @method string getBizId()
@@ -402,7 +375,6 @@ class QueryMessages extends Request
  */
 class QueryMovieTickets extends Request
 {
-
 }/**
  * @method $this setBizId($bizId)
  * @method string getBizId()
@@ -413,7 +385,6 @@ class QueryMovieTickets extends Request
  */
 class QueryAddress extends Request
 {
-
 }/**
  * @method $this setBizId($bizId)
  * @method string getBizId()
@@ -428,5 +399,4 @@ class QueryAddress extends Request
  */
 class QueryBizItems extends Request
 {
-
 }

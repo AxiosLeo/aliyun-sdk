@@ -22,5 +22,4 @@ class V20170405
  */
 class EdasProduce extends Request
 {
-
 }

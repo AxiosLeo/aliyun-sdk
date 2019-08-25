@@ -43,7 +43,6 @@ class V20170228
  */
 class DeleteSign extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -54,7 +53,6 @@ class DeleteSign extends Request
  */
 class ModifyDayu extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -73,7 +71,6 @@ class ModifyDayu extends Request
  */
 class QuerySignByParam extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -88,7 +85,6 @@ class QuerySignByParam extends Request
  */
 class ModifyAccountSummary extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -107,7 +103,6 @@ class ModifyAccountSummary extends Request
  */
 class QueryTemplateByParam extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -130,7 +125,6 @@ class QueryTemplateByParam extends Request
  */
 class CreateSign extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -145,7 +139,6 @@ class CreateSign extends Request
  */
 class DeleteTemplate extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -156,7 +149,6 @@ class DeleteTemplate extends Request
  */
 class MigrateMarket extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -167,7 +159,6 @@ class MigrateMarket extends Request
  */
 class QuerySmsTemplateInfoList extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -190,7 +181,6 @@ class QuerySmsTemplateInfoList extends Request
  */
 class CreateTemplate extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -209,7 +199,6 @@ class CreateTemplate extends Request
  */
 class QuerySmsFailByPage extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -234,7 +223,6 @@ class QuerySmsFailByPage extends Request
  */
 class QuerySmsCurrentStatistics extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -245,7 +233,6 @@ class QuerySmsCurrentStatistics extends Request
  */
 class DescAccountSummary extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -266,7 +253,6 @@ class DescAccountSummary extends Request
  */
 class QuerySmsStatistics extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -277,7 +263,6 @@ class QuerySmsStatistics extends Request
  */
 class CreateMarketing extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -296,5 +281,4 @@ class CreateMarketing extends Request
  */
 class QuerySmsDetailByPage extends Request
 {
-
 }

@@ -74,7 +74,6 @@ class V20171115
  */
 class UpdateScdnDomain extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -83,7 +82,6 @@ class UpdateScdnDomain extends Request
  */
 class StopScdnDomain extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -96,7 +94,6 @@ class StopScdnDomain extends Request
  */
 class DescribeScdnDomainRealTimeReqHitRateData extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -109,7 +106,6 @@ class DescribeScdnDomainRealTimeReqHitRateData extends Request
  */
 class DescribeScdnDomainRealTimeSrcBpsData extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -132,7 +128,6 @@ class DescribeScdnDomainRealTimeSrcBpsData extends Request
  */
 class OpenScdnService extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -157,7 +152,6 @@ class OpenScdnService extends Request
  */
 class DescribeScdnUserDomains extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -172,7 +166,6 @@ class DescribeScdnUserDomains extends Request
  */
 class DescribeScdnDomainOriginBpsData extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -185,7 +178,6 @@ class DescribeScdnDomainOriginBpsData extends Request
  */
 class DescribeScdnDomainRealTimeTrafficData extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -198,7 +190,6 @@ class DescribeScdnDomainRealTimeTrafficData extends Request
  */
 class BatchDeleteScdnDomainConfigs extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -207,7 +198,6 @@ class BatchDeleteScdnDomainConfigs extends Request
  */
 class StartScdnDomain extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -220,7 +210,6 @@ class StartScdnDomain extends Request
  */
 class DescribeScdnDomainIspData extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -235,14 +224,12 @@ class DescribeScdnDomainIspData extends Request
  */
 class DescribeScdnDomainHitRateData extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
  */
 class DescribeScdnRefreshQuota extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -257,7 +244,6 @@ class DescribeScdnRefreshQuota extends Request
  */
 class DescribeScdnTopDomainsByFlow extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -268,7 +254,6 @@ class DescribeScdnTopDomainsByFlow extends Request
  */
 class DescribeScdnDomainConfigs extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -277,7 +262,6 @@ class DescribeScdnDomainConfigs extends Request
  */
 class DescribeScdnDomainCname extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -292,7 +276,6 @@ class DescribeScdnDomainCname extends Request
  */
 class BatchUpdateScdnDomain extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -305,7 +288,6 @@ class BatchUpdateScdnDomain extends Request
  */
 class DescribeScdnDomainPvData extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -322,7 +304,6 @@ class DescribeScdnDomainPvData extends Request
  */
 class DescribeScdnDomainLog extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -331,7 +312,6 @@ class DescribeScdnDomainLog extends Request
  */
 class DescribeScdnCertificateList extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -346,7 +326,6 @@ class DescribeScdnCertificateList extends Request
  */
 class DescribeScdnDomainOriginTrafficData extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -355,7 +334,6 @@ class DescribeScdnDomainOriginTrafficData extends Request
  */
 class DescribeScdnDomainCertificateInfo extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -364,7 +342,6 @@ class DescribeScdnDomainCertificateInfo extends Request
  */
 class DescribeScdnIpInfo extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -377,7 +354,6 @@ class DescribeScdnIpInfo extends Request
  */
 class BatchSetScdnDomainConfigs extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -388,7 +364,6 @@ class BatchSetScdnDomainConfigs extends Request
  */
 class RefreshScdnObjectCaches extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -401,7 +376,6 @@ class RefreshScdnObjectCaches extends Request
  */
 class DescribeScdnDomainTopUrlVisit extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -420,7 +394,6 @@ class DescribeScdnDomainTopUrlVisit extends Request
  */
 class DescribeScdnDomainTrafficData extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -439,7 +412,6 @@ class DescribeScdnDomainTrafficData extends Request
  */
 class DescribeScdnDomainHttpCodeData extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -456,7 +428,6 @@ class DescribeScdnDomainHttpCodeData extends Request
  */
 class DescribeScdnDomainRealTimeBpsData extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -469,7 +440,6 @@ class DescribeScdnDomainRealTimeBpsData extends Request
  */
 class DescribeScdnDomainUvData extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -482,7 +452,6 @@ class DescribeScdnDomainUvData extends Request
  */
 class DescribeScdnDomainRegionData extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -495,7 +464,6 @@ class DescribeScdnDomainRegionData extends Request
  */
 class DeleteScdnDomain extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -514,7 +482,6 @@ class DeleteScdnDomain extends Request
  */
 class DescribeScdnDomainBpsData extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -533,7 +500,6 @@ class DescribeScdnDomainBpsData extends Request
  */
 class SetDomainServerCertificate extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -546,7 +512,6 @@ class SetDomainServerCertificate extends Request
  */
 class DescribeScdnDomainRealTimeByteHitRateData extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -565,7 +530,6 @@ class DescribeScdnDomainRealTimeByteHitRateData extends Request
  */
 class AddScdnDomain extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -582,7 +546,6 @@ class AddScdnDomain extends Request
  */
 class DescribeScdnDomainRealTimeQpsData extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -595,21 +558,18 @@ class DescribeScdnDomainRealTimeQpsData extends Request
  */
 class DescribeScdnDomainRealTimeSrcTrafficData extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
  */
 class CheckScdnService extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
  */
 class DescribeScdnService extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -636,7 +596,6 @@ class DescribeScdnService extends Request
  */
 class DescribeScdnRefreshTasks extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -653,14 +612,12 @@ class DescribeScdnRefreshTasks extends Request
  */
 class DescribeScdnDomainRealTimeHttpCodeData extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
  */
 class DescribeScdnUserQuota extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -679,7 +636,6 @@ class DescribeScdnUserQuota extends Request
  */
 class DescribeScdnDomainQpsData extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -688,7 +644,6 @@ class DescribeScdnDomainQpsData extends Request
  */
 class DescribeScdnDomainDetail extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -711,7 +666,6 @@ class DescribeScdnDomainDetail extends Request
  */
 class SetScdnDomainCertificate extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -720,7 +674,6 @@ class SetScdnDomainCertificate extends Request
  */
 class DescribeScdnCertificateDetail extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -733,7 +686,6 @@ class DescribeScdnCertificateDetail extends Request
  */
 class DescribeScdnDomainTopReferVisit extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -744,5 +696,4 @@ class DescribeScdnDomainTopReferVisit extends Request
  */
 class PreloadScdnObjectCaches extends Request
 {
-
 }

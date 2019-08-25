@@ -54,7 +54,6 @@ class V20151020
  */
 class QueryMetricList extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -81,7 +80,6 @@ class QueryMetricList extends Request
  */
 class DescribeMetricDatum extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -108,7 +106,6 @@ class DescribeMetricDatum extends Request
  */
 class QueryMetricTopN extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -135,7 +132,6 @@ class QueryMetricTopN extends Request
  */
 class QueryMetric extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -162,7 +158,6 @@ class QueryMetric extends Request
  */
 class QueryStatistics extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -183,7 +178,6 @@ class QueryStatistics extends Request
  */
 class DescribeMetric extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -212,7 +206,6 @@ class DescribeMetric extends Request
  */
 class QueryMetricTop extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -225,7 +218,6 @@ class QueryMetricTop extends Request
  */
 class PutDimTableData extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -250,7 +242,6 @@ class PutDimTableData extends Request
  */
 class GetMetricStatistics extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -265,7 +256,6 @@ class GetMetricStatistics extends Request
  */
 class ListProject extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -294,7 +284,6 @@ class ListProject extends Request
  */
 class QueryMetricLast extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -323,7 +312,6 @@ class QueryMetricLast extends Request
  */
 class QueryListMetric extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -348,5 +336,4 @@ class QueryListMetric extends Request
  */
 class QueryMetricData extends Request
 {
-
 }

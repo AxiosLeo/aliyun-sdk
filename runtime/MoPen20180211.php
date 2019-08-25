@@ -31,7 +31,6 @@ class V20180211
  */
 class MoPenSendMqttMessage extends Request
 {
-
 }/**
  * @method $this setCanvasId($canvasId)
  * @method int getCanvasId()
@@ -50,14 +49,12 @@ class MoPenSendMqttMessage extends Request
  */
 class MoPenDoRecognize extends Request
 {
-
 }/**
  * @method $this setCreator($creator)
  * @method string getCreator()
  */
 class MoPenFindGroup extends Request
 {
-
 }/**
  * @method $this setDeviceName($deviceName)
  * @method string getDeviceName()
@@ -66,7 +63,6 @@ class MoPenFindGroup extends Request
  */
 class MoPenAddGroupMember extends Request
 {
-
 }/**
  * @method $this setDeviceName($deviceName)
  * @method string getDeviceName()
@@ -79,7 +75,6 @@ class MoPenAddGroupMember extends Request
  */
 class MoPenQueryCanvas extends Request
 {
-
 }/**
  * @method $this setDeviceType($deviceType)
  * @method int getDeviceType()
@@ -88,7 +83,6 @@ class MoPenQueryCanvas extends Request
  */
 class MoPenCreateDevice extends Request
 {
-
 }/**
  * @method $this setDeviceName($deviceName)
  * @method string getDeviceName()
@@ -97,21 +91,18 @@ class MoPenCreateDevice extends Request
  */
 class MoPenBindIsv extends Request
 {
-
 }/**
  * @method $this setCreator($creator)
  * @method string getCreator()
  */
 class MopenCreateGroup extends Request
 {
-
 }/**
  * @method $this setGroupId($groupId)
  * @method string getGroupId()
  */
 class MoPenDeleteGroup extends Request
 {
-
 }/**
  * @method $this setGroupId($groupId)
  * @method int getGroupId()
@@ -120,5 +111,4 @@ class MoPenDeleteGroup extends Request
  */
 class MoPenDeleteGroupMember extends Request
 {
-
 }

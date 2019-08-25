@@ -23,3 +23,5 @@ test/
 composer.lock
 build.php
 AliyunSDK.phar
+
+.php_cs.cache

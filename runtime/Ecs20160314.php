@@ -139,7 +139,6 @@ class V20160314
  */
 class RunInstances_GatedLaunch extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -162,7 +161,6 @@ class RunInstances_GatedLaunch extends Request
  */
 class ModifyEniQosGroup extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -199,7 +197,6 @@ class ModifyEniQosGroup extends Request
  */
 class CreateVolumes extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -216,7 +213,6 @@ class CreateVolumes extends Request
  */
 class DescribeAccountAttributes extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -255,7 +251,6 @@ class DescribeAccountAttributes extends Request
  */
 class CreateCapacityReservation extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -308,7 +303,6 @@ class CreateCapacityReservation extends Request
  */
 class AllocateDedicatedHosts extends Request
 {
-
 }/**
  * @method $this setFilter($filter)
  * @method array getFilter()
@@ -325,7 +319,6 @@ class AllocateDedicatedHosts extends Request
  */
 class DescribeAccountLimits extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -340,7 +333,6 @@ class DescribeAccountLimits extends Request
  */
 class DeleteEniQosGroup extends Request
 {
-
 }/**
  * @method $this setDataDisk($dataDisk)
  * @method array getDataDisk()
@@ -461,7 +453,6 @@ class DeleteEniQosGroup extends Request
  */
 class RunInstances extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -476,7 +467,6 @@ class RunInstances extends Request
  */
 class QueryEniQosGroupByEni extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -497,7 +487,6 @@ class QueryEniQosGroupByEni extends Request
  */
 class ReleaseDedicatedHost extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -528,7 +517,6 @@ class ReleaseDedicatedHost extends Request
  */
 class CreateOrder extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -545,7 +533,6 @@ class CreateOrder extends Request
  */
 class DeleteConfigLogSubscriptions extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -562,7 +549,6 @@ class DeleteConfigLogSubscriptions extends Request
  */
 class CreateConfigLogSubscriptions extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -593,7 +579,6 @@ class CreateConfigLogSubscriptions extends Request
  */
 class DescribePrice extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -608,7 +593,6 @@ class DescribePrice extends Request
  */
 class LeaveEniQosGroup extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -627,7 +611,6 @@ class LeaveEniQosGroup extends Request
  */
 class ModifyInstanceDeployment extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -656,7 +639,6 @@ class ModifyInstanceDeployment extends Request
  */
 class DescribeKMSKeys extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -671,7 +653,6 @@ class DescribeKMSKeys extends Request
  */
 class QueryEniQosGroupByInstance extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -692,7 +673,6 @@ class QueryEniQosGroupByInstance extends Request
  */
 class ModifyReservedInstances extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -711,7 +691,6 @@ class ModifyReservedInstances extends Request
  */
 class DescribeInstanceNeedReboot extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -742,7 +721,6 @@ class DescribeInstanceNeedReboot extends Request
  */
 class DescribeResourceRecommendFilters extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -783,7 +761,6 @@ class DescribeResourceRecommendFilters extends Request
  */
 class DescribeReservedInstances extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -800,7 +777,6 @@ class DescribeReservedInstances extends Request
  */
 class JoinEniQosGroup extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -825,7 +801,6 @@ class JoinEniQosGroup extends Request
  */
 class DescribeLinkedKMSKeys extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -858,7 +833,6 @@ class DescribeLinkedKMSKeys extends Request
  */
 class CreateVolumes_GatedLaunch extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -877,7 +851,6 @@ class CreateVolumes_GatedLaunch extends Request
  */
 class ReleaseCapacityReservation extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -892,7 +865,6 @@ class ReleaseCapacityReservation extends Request
  */
 class GetLaunchTemplateData extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -913,7 +885,6 @@ class GetLaunchTemplateData extends Request
  */
 class DescribeDedicatedHostTypes extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -960,7 +931,6 @@ class DescribeDedicatedHostTypes extends Request
  */
 class PurchaseReservedInstancesOffering extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -987,7 +957,6 @@ class PurchaseReservedInstancesOffering extends Request
  */
 class ModifyDedicatedHostAutoRenewAttribute extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1014,7 +983,6 @@ class ModifyDedicatedHostAutoRenewAttribute extends Request
  */
 class RenewDedicatedHosts extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1037,7 +1005,6 @@ class RenewDedicatedHosts extends Request
  */
 class DescribeConfigLogSubscription extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1056,7 +1023,6 @@ class DescribeConfigLogSubscription extends Request
  */
 class SetInstanceAutoReleaseTime extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1091,7 +1057,6 @@ class SetInstanceAutoReleaseTime extends Request
  */
 class DescribeDedicatedHosts extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1118,7 +1083,6 @@ class DescribeDedicatedHosts extends Request
  */
 class ModifyDedicatedHostAttribute extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1137,7 +1101,6 @@ class ModifyDedicatedHostAttribute extends Request
  */
 class DescribeDedicatedHostAutoRenew extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1176,7 +1139,6 @@ class DescribeDedicatedHostAutoRenew extends Request
  */
 class CreateDisks extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1199,7 +1161,6 @@ class CreateDisks extends Request
  */
 class DescribeReservedInstancePrice extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1220,7 +1181,6 @@ class DescribeReservedInstancePrice extends Request
  */
 class DescribeResourceFilterAttributes extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1253,7 +1213,6 @@ class DescribeResourceFilterAttributes extends Request
  */
 class DescribeResources extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1272,7 +1231,6 @@ class DescribeResources extends Request
  */
 class DescribeBandwidthPrice extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1297,7 +1255,6 @@ class DescribeBandwidthPrice extends Request
  */
 class CreateEniQosGroup extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1324,7 +1281,6 @@ class CreateEniQosGroup extends Request
  */
 class DescribeKMSKeyAttribute extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1353,7 +1309,6 @@ class DescribeKMSKeyAttribute extends Request
  */
 class DescribeCapacityReservations extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1368,7 +1323,6 @@ class DescribeCapacityReservations extends Request
  */
 class DescribeEniQosGroupInfo extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1401,7 +1355,6 @@ class DescribeEniQosGroupInfo extends Request
  */
 class CreateDisks_GatedLaunch extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1420,5 +1373,4 @@ class CreateDisks_GatedLaunch extends Request
  */
 class ModifyDedicatedHostAutoReleaseTime extends Request
 {
-
 }

@@ -29,50 +29,40 @@ class V20180108
  */
 class InstanceQuery extends Request
 {
-
 }/**
  */
 class InstanceUpdate extends Request
 {
-
 }/**
  */
 class InstanceAddItem extends Request
 {
-
 }/**
  */
 class InstanceDeleteItem extends Request
 {
-
 }/**
  */
 class DescribeRegions extends Request
 {
-
 }/**
  */
 class InstanceRemove extends Request
 {
-
 }/**
  */
 class InstanceClear extends Request
 {
-
 }/**
  */
 class InstanceMeasure extends Request
 {
-
 }/**
  */
 class InstanceTrail extends Request
 {
-
 }/**
  */
 class InstanceDetail extends Request
 {
-
 }

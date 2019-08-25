@@ -55,7 +55,6 @@ class V20180801
  */
 class ModifySubscriptionObject extends Request
 {
-
 }/**
  * @method $this setTaskId($taskId)
  * @method string getTaskId()
@@ -66,7 +65,6 @@ class ModifySubscriptionObject extends Request
  */
 class DescribeSynchronizationObjectModifyStatus extends Request
 {
-
 }/**
  * @method $this setMigrationJobId($migrationJobId)
  * @method string getMigrationJobId()
@@ -75,7 +73,6 @@ class DescribeSynchronizationObjectModifyStatus extends Request
  */
 class DeleteMigrationJob extends Request
 {
-
 }/**
  * @method $this setRegion($region)
  * @method string getRegion()
@@ -88,7 +85,6 @@ class DeleteMigrationJob extends Request
  */
 class CreateMigrationJob extends Request
 {
-
 }/**
  * @method $this setMigrationJobId($migrationJobId)
  * @method string getMigrationJobId()
@@ -99,7 +95,6 @@ class CreateMigrationJob extends Request
  */
 class StopMigrationJob extends Request
 {
-
 }/**
  * @method $this setMigrationJobId($migrationJobId)
  * @method string getMigrationJobId()
@@ -110,7 +105,6 @@ class StopMigrationJob extends Request
  */
 class SuspendMigrationJob extends Request
 {
-
 }/**
  * @method $this setSynchronizationJobId($synchronizationJobId)
  * @method string getSynchronizationJobId()
@@ -123,7 +117,6 @@ class SuspendMigrationJob extends Request
  */
 class DescribeSynchronizationJobStatus extends Request
 {
-
 }/**
  * @method $this setPageSize($pageSize)
  * @method int getPageSize()
@@ -138,7 +131,6 @@ class DescribeSynchronizationJobStatus extends Request
  */
 class DescribeSubscriptionInstances extends Request
 {
-
 }/**
  * @method $this setSubscriptionInstanceId($subscriptionInstanceId)
  * @method string getSubscriptionInstanceId()
@@ -147,7 +139,6 @@ class DescribeSubscriptionInstances extends Request
  */
 class DeleteSubscriptionInstance extends Request
 {
-
 }/**
  * @method $this setSubscriptionInstanceId($subscriptionInstanceId)
  * @method string getSubscriptionInstanceId()
@@ -158,7 +149,6 @@ class DeleteSubscriptionInstance extends Request
  */
 class DescribeSubscriptionObjectModifyStatus extends Request
 {
-
 }/**
  * @method $this setSubscriptionInstanceId($subscriptionInstanceId)
  * @method string getSubscriptionInstanceId()
@@ -167,7 +157,6 @@ class DescribeSubscriptionObjectModifyStatus extends Request
  */
 class DescribeSubscriptionInstanceStatus extends Request
 {
-
 }/**
  * @method $this setSourceRegion($sourceRegion)
  * @method string getSourceRegion()
@@ -196,7 +185,6 @@ class DescribeSubscriptionInstanceStatus extends Request
  */
 class CreateSynchronizationJob extends Request
 {
-
 }/**
  * @method $this setSynchronizationJobId($synchronizationJobId)
  * @method string getSynchronizationJobId()
@@ -209,7 +197,6 @@ class CreateSynchronizationJob extends Request
  */
 class ModifySynchronizationObject extends Request
 {
-
 }/**
  * @method $this setSynchronizationJobId($synchronizationJobId)
  * @method string getSynchronizationJobId()
@@ -220,7 +207,6 @@ class ModifySynchronizationObject extends Request
  */
 class SuspendSynchronizationJob extends Request
 {
-
 }/**
  * @method $this setSubscriptionInstanceId($subscriptionInstanceId)
  * @method string getSubscriptionInstanceId()
@@ -229,7 +215,6 @@ class SuspendSynchronizationJob extends Request
  */
 class StartSubscriptionInstance extends Request
 {
-
 }/**
  * @method $this setPageSize($pageSize)
  * @method int getPageSize()
@@ -244,7 +229,6 @@ class StartSubscriptionInstance extends Request
  */
 class DescribeSynchronizationJobs extends Request
 {
-
 }/**
  * @method $this setSynchronizationJobId($synchronizationJobId)
  * @method string getSynchronizationJobId()
@@ -253,7 +237,6 @@ class DescribeSynchronizationJobs extends Request
  */
 class DeleteSynchronizationJob extends Request
 {
-
 }/**
  * @method $this setPageSize($pageSize)
  * @method int getPageSize()
@@ -266,7 +249,6 @@ class DeleteSynchronizationJob extends Request
  */
 class DescribeMigrationJobs extends Request
 {
-
 }/**
  * @method $this setTaskId($taskId)
  * @method string getTaskId()
@@ -277,7 +259,6 @@ class DescribeMigrationJobs extends Request
  */
 class DescribeEndpointSwitchStatus extends Request
 {
-
 }/**
  * @method $this setRegion($region)
  * @method string getRegion()
@@ -294,7 +275,6 @@ class DescribeEndpointSwitchStatus extends Request
  */
 class CreateSubscriptionInstance extends Request
 {
-
 }/**
  * @method $this setSynchronizationJobId($synchronizationJobId)
  * @method string getSynchronizationJobId()
@@ -305,7 +285,6 @@ class CreateSubscriptionInstance extends Request
  */
 class ResetSynchronizationJob extends Request
 {
-
 }/**
  * @method $this setPageSize($pageSize)
  * @method int getPageSize()
@@ -326,7 +305,6 @@ class ResetSynchronizationJob extends Request
  */
 class DescribeMigrationJobDetail extends Request
 {
-
 }/**
  * @method $this setSynchronizationJobId($synchronizationJobId)
  * @method string getSynchronizationJobId()
@@ -347,7 +325,6 @@ class DescribeMigrationJobDetail extends Request
  */
 class SwitchSynchronizationEndpoint extends Request
 {
-
 }/**
  * @method $this setSubscriptionInstanceId($subscriptionInstanceId)
  * @method string getSubscriptionInstanceId()
@@ -358,7 +335,6 @@ class SwitchSynchronizationEndpoint extends Request
  */
 class ModifyConsumptionTimestamp extends Request
 {
-
 }/**
  * @method $this setMigrationJobId($migrationJobId)
  * @method string getMigrationJobId()
@@ -367,7 +343,6 @@ class ModifyConsumptionTimestamp extends Request
  */
 class StartMigrationJob extends Request
 {
-
 }/**
  * @method $this setSynchronizationJobName($synchronizationJobName)
  * @method string getSynchronizationJobName()
@@ -428,7 +403,6 @@ class StartMigrationJob extends Request
  */
 class ConfigureSynchronizationJob extends Request
 {
-
 }/**
  * @method $this setMigrationJobId($migrationJobId)
  * @method string getMigrationJobId()
@@ -439,7 +413,6 @@ class ConfigureSynchronizationJob extends Request
  */
 class DescribeMigrationJobStatus extends Request
 {
-
 }/**
  * @method $this setSubscriptionInstanceId($subscriptionInstanceId)
  * @method string getSubscriptionInstanceId()
@@ -468,7 +441,6 @@ class DescribeMigrationJobStatus extends Request
  */
 class ConfigureSubscriptionInstance extends Request
 {
-
 }/**
  * @method $this setSynchronizationJobId($synchronizationJobId)
  * @method string getSynchronizationJobId()
@@ -479,7 +451,6 @@ class ConfigureSubscriptionInstance extends Request
  */
 class StartSynchronizationJob extends Request
 {
-
 }/**
  * @method $this setMigrationJobId($migrationJobId)
  * @method string getMigrationJobId()
@@ -544,7 +515,6 @@ class StartSynchronizationJob extends Request
  */
 class ConfigureMigrationJob extends Request
 {
-
 }/**
  * @method $this setSynchronizationJobId($synchronizationJobId)
  * @method string getSynchronizationJobId()
@@ -557,7 +527,6 @@ class ConfigureMigrationJob extends Request
  */
 class DescribeInitializationStatus extends Request
 {
-
 }/**
  * @method $this setMigrationJobId($migrationJobId)
  * @method string getMigrationJobId()
@@ -570,5 +539,4 @@ class DescribeInitializationStatus extends Request
  */
 class ModifyMigrationObject extends Request
 {
-
 }

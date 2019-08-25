@@ -31,14 +31,12 @@ class V20150408
  */
 class QueryCustomerLabel extends Request
 {
-
 }/**
  * @method $this setPkList($pkList)
  * @method array getPkList()
  */
 class BatchGetAliyunIdByAliyunPk extends Request
 {
-
 }/**
  * @method $this setPK($pK)
  * @method string getPK()
@@ -49,7 +47,6 @@ class BatchGetAliyunIdByAliyunPk extends Request
  */
 class CheckLabel extends Request
 {
-
 }/**
  * @method $this setPK($pK)
  * @method string getPK()
@@ -62,7 +59,6 @@ class CheckLabel extends Request
  */
 class AddLabelForBid extends Request
 {
-
 }/**
  * @method $this setPK($pK)
  * @method string getPK()
@@ -79,7 +75,6 @@ class AddLabelForBid extends Request
  */
 class AddLabel extends Request
 {
-
 }/**
  * @method $this setPK($pK)
  * @method string getPK()
@@ -94,7 +89,6 @@ class AddLabel extends Request
  */
 class DeleteLabel extends Request
 {
-
 }/**
  * @method $this setPK($pK)
  * @method string getPK()
@@ -103,7 +97,6 @@ class DeleteLabel extends Request
  */
 class QueryBidUserCertifiedInfo extends Request
 {
-
 }/**
  * @method $this setPK($pK)
  * @method string getPK()
@@ -114,7 +107,6 @@ class QueryBidUserCertifiedInfo extends Request
  */
 class DeleteLabelForBid extends Request
 {
-
 }/**
  * @method $this setPK($pK)
  * @method string getPK()
@@ -133,14 +125,12 @@ class DeleteLabelForBid extends Request
  */
 class AddIdentityCertifiedForBidUser extends Request
 {
-
 }/**
  * @method $this setAliyunId($aliyunId)
  * @method string getAliyunId()
  */
 class GetAliyunPkByAliyunId extends Request
 {
-
 }/**
  * @method $this setPK($pK)
  * @method string getPK()
@@ -149,7 +139,6 @@ class GetAliyunPkByAliyunId extends Request
  */
 class RemoveIdentityCertifiedForBidUser extends Request
 {
-
 }/**
  * @method $this setPK($pK)
  * @method string getPK()
@@ -160,5 +149,4 @@ class RemoveIdentityCertifiedForBidUser extends Request
  */
 class CheckLabelForBid extends Request
 {
-
 }

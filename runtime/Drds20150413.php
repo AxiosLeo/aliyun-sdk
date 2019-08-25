@@ -66,7 +66,6 @@ class V20150413
  */
 class ModifyDrdsIpWhiteList extends Request
 {
-
 }/**
  * @method $this setDrdsInstanceId($drdsInstanceId)
  * @method string getDrdsInstanceId()
@@ -77,7 +76,6 @@ class ModifyDrdsIpWhiteList extends Request
  */
 class ModifyDrdsDBPasswd extends Request
 {
-
 }/**
  * @method $this setHost($host)
  * @method string getHost()
@@ -88,7 +86,6 @@ class ModifyDrdsDBPasswd extends Request
  */
 class QueryInstanceInfoByConn extends Request
 {
-
 }/**
  * @method $this setDrdsInstanceId($drdsInstanceId)
  * @method string getDrdsInstanceId()
@@ -99,7 +96,6 @@ class QueryInstanceInfoByConn extends Request
  */
 class DropTables extends Request
 {
-
 }/**
  * @method $this setDrdsInstanceId($drdsInstanceId)
  * @method string getDrdsInstanceId()
@@ -108,7 +104,6 @@ class DropTables extends Request
  */
 class ModifyDrdsInstanceDescription extends Request
 {
-
 }/**
  * @method $this setDrdsInstanceId($drdsInstanceId)
  * @method string getDrdsInstanceId()
@@ -119,7 +114,6 @@ class ModifyDrdsInstanceDescription extends Request
  */
 class CreateIndex extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -128,28 +122,24 @@ class CreateIndex extends Request
  */
 class DescribeDrdsInstances extends Request
 {
-
 }/**
  * @method $this setDrdsInstanceId($drdsInstanceId)
  * @method string getDrdsInstanceId()
  */
 class DescribeDrdsDBs extends Request
 {
-
 }/**
  * @method $this setDrdsInstanceId($drdsInstanceId)
  * @method string getDrdsInstanceId()
  */
 class DescribeCreateDrdsInstanceStatus extends Request
 {
-
 }/**
  * @method $this setDrdsInstanceId($drdsInstanceId)
  * @method string getDrdsInstanceId()
  */
 class RemoveDrdsInstance extends Request
 {
-
 }/**
  * @method $this setDrdsInstanceId($drdsInstanceId)
  * @method string getDrdsInstanceId()
@@ -160,14 +150,12 @@ class RemoveDrdsInstance extends Request
  */
 class RemoveReadOnlyAccount extends Request
 {
-
 }/**
  * @method $this setDrdsInstanceId($drdsInstanceId)
  * @method string getDrdsInstanceId()
  */
 class DescribeDrdsInstance extends Request
 {
-
 }/**
  * @method $this setDrdsInstanceId($drdsInstanceId)
  * @method string getDrdsInstanceId()
@@ -176,7 +164,6 @@ class DescribeDrdsInstance extends Request
  */
 class DeleteDrdsDB extends Request
 {
-
 }/**
  * @method $this setDrdsInstanceId($drdsInstanceId)
  * @method string getDrdsInstanceId()
@@ -187,7 +174,6 @@ class DeleteDrdsDB extends Request
  */
 class DescribeDDLTask extends Request
 {
-
 }/**
  * @method $this setDrdsInstanceId($drdsInstanceId)
  * @method string getDrdsInstanceId()
@@ -196,7 +182,6 @@ class DescribeDDLTask extends Request
  */
 class DescribeDrdsDB extends Request
 {
-
 }/**
  * @method $this setDescription($description)
  * @method string getDescription()
@@ -219,7 +204,6 @@ class DescribeDrdsDB extends Request
  */
 class CreateDrdsInstance extends Request
 {
-
 }/**
  * @method $this setDrdsInstanceId($drdsInstanceId)
  * @method string getDrdsInstanceId()
@@ -230,7 +214,6 @@ class CreateDrdsInstance extends Request
  */
 class DescribeShardDbConnectionInfo extends Request
 {
-
 }/**
  * @method $this setDrdsInstanceId($drdsInstanceId)
  * @method string getDrdsInstanceId()
@@ -241,7 +224,6 @@ class DescribeShardDbConnectionInfo extends Request
  */
 class CancleDDLTask extends Request
 {
-
 }/**
  * @method $this setDrdsInstanceId($drdsInstanceId)
  * @method string getDrdsInstanceId()
@@ -254,7 +236,6 @@ class CancleDDLTask extends Request
  */
 class ModifyRdsReadWeight extends Request
 {
-
 }/**
  * @method $this setDrdsInstanceId($drdsInstanceId)
  * @method string getDrdsInstanceId()
@@ -267,19 +248,16 @@ class ModifyRdsReadWeight extends Request
  */
 class DropIndexes extends Request
 {
-
 }/**
  */
 class DescribeRegions extends Request
 {
-
 }/**
  * @method $this setdata($data)
  * @method string getdata()
  */
 class DrdsApiValidateOrder extends Request
 {
-
 }/**
  * @method $this setDrdsInstanceId($drdsInstanceId)
  * @method string getDrdsInstanceId()
@@ -290,7 +268,6 @@ class DrdsApiValidateOrder extends Request
  */
 class CreateReadOnlyAccount extends Request
 {
-
 }/**
  * @method $this setDrdsInstanceId($drdsInstanceId)
  * @method string getDrdsInstanceId()
@@ -301,7 +278,6 @@ class CreateReadOnlyAccount extends Request
  */
 class DescribeDrdsDBIpWhiteList extends Request
 {
-
 }/**
  * @method $this setDrdsInstanceId($drdsInstanceId)
  * @method string getDrdsInstanceId()
@@ -316,7 +292,6 @@ class DescribeDrdsDBIpWhiteList extends Request
  */
 class CreateDrdsDB extends Request
 {
-
 }/**
  * @method $this setDrdsInstanceId($drdsInstanceId)
  * @method string getDrdsInstanceId()
@@ -329,7 +304,6 @@ class CreateDrdsDB extends Request
  */
 class ModifyFullTableScan extends Request
 {
-
 }/**
  * @method $this setDrdsInstanceId($drdsInstanceId)
  * @method string getDrdsInstanceId()
@@ -344,14 +318,12 @@ class ModifyFullTableScan extends Request
  */
 class ModifyReadOnlyAccountPassword extends Request
 {
-
 }/**
  * @method $this setDrdsInstanceId($drdsInstanceId)
  * @method string getDrdsInstanceId()
  */
 class DescribeDrdsInstanceNetInfoForInner extends Request
 {
-
 }/**
  * @method $this setDrdsInstanceId($drdsInstanceId)
  * @method string getDrdsInstanceId()
@@ -360,7 +332,6 @@ class DescribeDrdsInstanceNetInfoForInner extends Request
  */
 class DescribeRdsList extends Request
 {
-
 }/**
  * @method $this setDrdsInstanceId($drdsInstanceId)
  * @method string getDrdsInstanceId()
@@ -369,7 +340,6 @@ class DescribeRdsList extends Request
  */
 class DescribeShardDBs extends Request
 {
-
 }/**
  * @method $this setDrdsInstanceId($drdsInstanceId)
  * @method string getDrdsInstanceId()
@@ -386,7 +356,6 @@ class DescribeShardDBs extends Request
  */
 class CreateTable extends Request
 {
-
 }/**
  * @method $this setDrdsInstanceId($drdsInstanceId)
  * @method string getDrdsInstanceId()
@@ -397,7 +366,6 @@ class CreateTable extends Request
  */
 class AlterTable extends Request
 {
-
 }/**
  * @method $this setDrdsInstanceId($drdsInstanceId)
  * @method string getDrdsInstanceId()
@@ -408,7 +376,6 @@ class AlterTable extends Request
  */
 class CancelDDLTask extends Request
 {
-
 }/**
  * @method $this setname($name)
  * @method string getname()
@@ -417,7 +384,6 @@ class CancelDDLTask extends Request
  */
 class ProductInfoComplement extends Request
 {
-
 }/**
  * @method $this setDrdsInstanceId($drdsInstanceId)
  * @method string getDrdsInstanceId()
@@ -426,7 +392,6 @@ class ProductInfoComplement extends Request
  */
 class ListUnCompleteTasks extends Request
 {
-
 }/**
  * @method $this setDrdsInstanceId($drdsInstanceId)
  * @method string getDrdsInstanceId()
@@ -435,7 +400,6 @@ class ListUnCompleteTasks extends Request
  */
 class DescribeReadOnlyAccount extends Request
 {
-
 }/**
  * @method $this setDrdsInstanceId($drdsInstanceId)
  * @method string getDrdsInstanceId()
@@ -444,5 +408,4 @@ class DescribeReadOnlyAccount extends Request
  */
 class DeleteFailedDrdsDB extends Request
 {
-
 }

@@ -24,7 +24,6 @@ class V20171228
  */
 class CreateLubanrulerTask extends Request
 {
-
 }/**
  * @method $this setAoneInfo($aoneInfo)
  * @method string getAoneInfo()
@@ -33,7 +32,6 @@ class CreateLubanrulerTask extends Request
  */
 class UpdateLubanrulerTask extends Request
 {
-
 }/**
  * @method $this setAonePipelineId($aonePipelineId)
  * @method int getAonePipelineId()
@@ -42,5 +40,4 @@ class UpdateLubanrulerTask extends Request
  */
 class GetResultByLubanruler extends Request
 {
-
 }

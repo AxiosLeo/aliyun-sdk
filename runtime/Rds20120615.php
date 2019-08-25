@@ -26,5 +26,4 @@ class V20120615
  */
 class DescribeDBInstanceClassList extends Request
 {
-
 }

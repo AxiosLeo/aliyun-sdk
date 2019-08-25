@@ -39,7 +39,6 @@ class V20180807
  */
 class DetectFaceAttributes extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -52,7 +51,6 @@ class DetectFaceAttributes extends Request
  */
 class GetMaterials extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -69,7 +67,6 @@ class GetMaterials extends Request
  */
 class CompareFaces extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -82,7 +79,6 @@ class CompareFaces extends Request
  */
 class GetStatus extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -95,7 +91,6 @@ class GetStatus extends Request
  */
 class SubmitMaterials extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -114,5 +109,4 @@ class SubmitMaterials extends Request
  */
 class GetVerifyToken extends Request
 {
-
 }

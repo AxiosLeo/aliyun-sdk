@@ -35,110 +35,94 @@ class V20161222
  */
 class DeleteTask extends Request
 {
-
 }/**
  * @method $this setBody($body)
  * @method string getBody()
  */
 class GetTask extends Request
 {
-
 }/**
  * @method $this setBody($body)
  * @method string getBody()
  */
 class QueryTasksRate extends Request
 {
-
 }/**
  * @method $this setBody($body)
  * @method string getBody()
  */
 class QueryWeeklySla extends Request
 {
-
 }/**
  * @method $this setBody($body)
  * @method string getBody()
  */
 class QueryIspAreaCity extends Request
 {
-
 }/**
  * @method $this setBody($body)
  * @method string getBody()
  */
 class QueryTasksCurrentProbeStatus extends Request
 {
-
 }/**
  * @method $this setBody($body)
  * @method string getBody()
  */
 class QueryTasks extends Request
 {
-
 }/**
  * @method $this setBody($body)
  * @method string getBody()
  */
 class QueryErrorRate extends Request
 {
-
 }/**
  * @method $this setBody($body)
  * @method string getBody()
  */
 class CreateTaskWithSecurityCheck extends Request
 {
-
 }/**
  * @method $this setBody($body)
  * @method string getBody()
  */
 class QueryDailySla extends Request
 {
-
 }/**
  * @method $this setBody($body)
  * @method string getBody()
  */
 class QueryIspAvailRate extends Request
 {
-
 }/**
  * @method $this setBody($body)
  * @method string getBody()
  */
 class UpdateTaskWithSecurityCheck extends Request
 {
-
 }/**
  * @method $this setBody($body)
  * @method string getBody()
  */
 class QueryIspIndexData extends Request
 {
-
 }/**
  * @method $this setBody($body)
  * @method string getBody()
  */
 class BatchDeleteTasks extends Request
 {
-
 }/**
  * @method $this setBody($body)
  * @method string getBody()
  */
 class QueryIndexData extends Request
 {
-
 }/**
  * @method $this setBody($body)
  * @method string getBody()
  */
 class QueryMonthlySla extends Request
 {
-
 }

@@ -32,5 +32,4 @@ class V20170721
  */
 class Iconic extends Request
 {
-
 }

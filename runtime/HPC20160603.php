@@ -31,7 +31,6 @@ class V20160603
  */
 class ModifyJumpserverPassword extends Request
 {
-
 }/**
  * @method $this setTOKEN($tOKEN)
  * @method string getTOKEN()
@@ -42,7 +41,6 @@ class ModifyJumpserverPassword extends Request
  */
 class DescribeInstances extends Request
 {
-
 }/**
  * @method $this setTOKEN($tOKEN)
  * @method string getTOKEN()
@@ -53,7 +51,6 @@ class DescribeInstances extends Request
  */
 class DeleteInstance extends Request
 {
-
 }/**
  * @method $this setTOKEN($tOKEN)
  * @method string getTOKEN()
@@ -64,7 +61,6 @@ class DeleteInstance extends Request
  */
 class CreateInstance extends Request
 {
-
 }/**
  * @method $this setTOKEN($tOKEN)
  * @method string getTOKEN()
@@ -77,7 +73,6 @@ class CreateInstance extends Request
  */
 class StartJumpserver extends Request
 {
-
 }/**
  * @method $this setTOKEN($tOKEN)
  * @method string getTOKEN()
@@ -88,7 +83,6 @@ class StartJumpserver extends Request
  */
 class RebootInstance extends Request
 {
-
 }/**
  * @method $this setTOKEN($tOKEN)
  * @method string getTOKEN()
@@ -101,7 +95,6 @@ class RebootInstance extends Request
  */
 class StopJumpserver extends Request
 {
-
 }/**
  * @method $this setTOKEN($tOKEN)
  * @method string getTOKEN()
@@ -114,5 +107,4 @@ class StopJumpserver extends Request
  */
 class RebootJumpserver extends Request
 {
-
 }

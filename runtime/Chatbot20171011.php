@@ -68,7 +68,6 @@ class V20171011
  */
 class DisableKnowledge extends Request
 {
-
 }/**
  * @method $this setCoreWordName($coreWordName)
  * @method string getCoreWordName()
@@ -77,7 +76,6 @@ class DisableKnowledge extends Request
  */
 class UpdateCoreWord extends Request
 {
-
 }/**
  * @method $this setKnowledgeTitle($knowledgeTitle)
  * @method string getKnowledgeTitle()
@@ -92,7 +90,6 @@ class UpdateCoreWord extends Request
  */
 class QueryKnowledges extends Request
 {
-
 }/**
  * @method $this setKnowledgeId($knowledgeId)
  * @method int getKnowledgeId()
@@ -101,7 +98,6 @@ class QueryKnowledges extends Request
  */
 class MoveKnowledgeCategory extends Request
 {
-
 }/**
  * @method $this setName($name)
  * @method string getName()
@@ -110,21 +106,18 @@ class MoveKnowledgeCategory extends Request
  */
 class UpdateCategory extends Request
 {
-
 }/**
  * @method $this setDialogId($dialogId)
  * @method int getDialogId()
  */
 class DisableDialogFlow extends Request
 {
-
 }/**
  * @method $this setDialogId($dialogId)
  * @method int getDialogId()
  */
 class PublishDialogFlow extends Request
 {
-
 }/**
  * @method $this setParentCategoryId($parentCategoryId)
  * @method int getParentCategoryId()
@@ -133,14 +126,12 @@ class PublishDialogFlow extends Request
  */
 class QueryCategories extends Request
 {
-
 }/**
  * @method $this setDialogId($dialogId)
  * @method int getDialogId()
  */
 class TestDialogFlow extends Request
 {
-
 }/**
  * @method $this setPerspectiveId($perspectiveId)
  * @method string getPerspectiveId()
@@ -149,7 +140,6 @@ class TestDialogFlow extends Request
  */
 class UpdatePerspective extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -162,7 +152,6 @@ class UpdatePerspective extends Request
  */
 class QueryDialogs extends Request
 {
-
 }/**
  * @method $this setIntentDefinition($intentDefinition)
  * @method string getIntentDefinition()
@@ -171,14 +160,12 @@ class QueryDialogs extends Request
  */
 class UpdateIntent extends Request
 {
-
 }/**
  * @method $this setEntityId($entityId)
  * @method int getEntityId()
  */
 class DeleteEntity extends Request
 {
-
 }/**
  * @method $this setIntentDefinition($intentDefinition)
  * @method string getIntentDefinition()
@@ -187,21 +174,18 @@ class DeleteEntity extends Request
  */
 class CreateIntent extends Request
 {
-
 }/**
  * @method $this setDialogId($dialogId)
  * @method int getDialogId()
  */
 class DeleteDialog extends Request
 {
-
 }/**
  * @method $this setKnowledge($knowledge)
  * @method string getKnowledge()
  */
 class UpdateKnowledge extends Request
 {
-
 }/**
  * @method $this setEntityName($entityName)
  * @method string getEntityName()
@@ -214,21 +198,18 @@ class UpdateKnowledge extends Request
  */
 class QueryEntities extends Request
 {
-
 }/**
  * @method $this setDialogId($dialogId)
  * @method int getDialogId()
  */
 class DescribeDialog extends Request
 {
-
 }/**
  * @method $this setKnowledgeId($knowledgeId)
  * @method int getKnowledgeId()
  */
 class DescribeKnowledge extends Request
 {
-
 }/**
  * @method $this setParentCategoryId($parentCategoryId)
  * @method int getParentCategoryId()
@@ -237,56 +218,48 @@ class DescribeKnowledge extends Request
  */
 class CreateCategory extends Request
 {
-
 }/**
  * @method $this setPerspectiveId($perspectiveId)
  * @method string getPerspectiveId()
  */
 class DescribePerspective extends Request
 {
-
 }/**
  * @method $this setCoreWordName($coreWordName)
  * @method string getCoreWordName()
  */
 class CreateCoreWord extends Request
 {
-
 }/**
  * @method $this setCategoryId($categoryId)
  * @method int getCategoryId()
  */
 class DeleteCategory extends Request
 {
-
 }/**
  * @method $this setKnowledge($knowledge)
  * @method string getKnowledge()
  */
 class CreateKnowledge extends Request
 {
-
 }/**
  * @method $this setCategoryId($categoryId)
  * @method int getCategoryId()
  */
 class DescribeCategory extends Request
 {
-
 }/**
  * @method $this setCoreWordName($coreWordName)
  * @method string getCoreWordName()
  */
 class DescribeCoreWord extends Request
 {
-
 }/**
  * @method $this setKnowledgeId($knowledgeId)
  * @method int getKnowledgeId()
  */
 class PublishKnowledge extends Request
 {
-
 }/**
  * @method $this setCoreWordName($coreWordName)
  * @method string getCoreWordName()
@@ -299,7 +272,6 @@ class PublishKnowledge extends Request
  */
 class QueryCoreWords extends Request
 {
-
 }/**
  * @method $this setIntentName($intentName)
  * @method string getIntentName()
@@ -312,14 +284,12 @@ class QueryCoreWords extends Request
  */
 class QueryIntents extends Request
 {
-
 }/**
  * @method $this setPerspectiveId($perspectiveId)
  * @method string getPerspectiveId()
  */
 class ActivatePerspective extends Request
 {
-
 }/**
  * @method $this setEntityId($entityId)
  * @method int getEntityId()
@@ -334,7 +304,6 @@ class ActivatePerspective extends Request
  */
 class UpdateEntity extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -345,21 +314,18 @@ class UpdateEntity extends Request
  */
 class CreateDialog extends Request
 {
-
 }/**
  * @method $this setIntentId($intentId)
  * @method int getIntentId()
  */
 class DeleteIntent extends Request
 {
-
 }/**
  * @method $this setIntentId($intentId)
  * @method int getIntentId()
  */
 class DescribeIntent extends Request
 {
-
 }/**
  * @method $this setDialogId($dialogId)
  * @method int getDialogId()
@@ -368,12 +334,10 @@ class DescribeIntent extends Request
  */
 class UpdateDialogFlow extends Request
 {
-
 }/**
  */
 class QueryPerspectives extends Request
 {
-
 }/**
  * @method $this setCoreWordName($coreWordName)
  * @method string getCoreWordName()
@@ -382,28 +346,24 @@ class QueryPerspectives extends Request
  */
 class AddSynonym extends Request
 {
-
 }/**
  * @method $this setEntityId($entityId)
  * @method int getEntityId()
  */
 class DescribeEntities extends Request
 {
-
 }/**
  * @method $this setDialogId($dialogId)
  * @method int getDialogId()
  */
 class DescribeDialogFlow extends Request
 {
-
 }/**
  * @method $this setEntityName($entityName)
  * @method string getEntityName()
  */
 class QuerySystemEntities extends Request
 {
-
 }/**
  * @method $this setDialogId($dialogId)
  * @method int getDialogId()
@@ -418,7 +378,6 @@ class QuerySystemEntities extends Request
  */
 class CreateEntity extends Request
 {
-
 }/**
  * @method $this setDialogId($dialogId)
  * @method int getDialogId()
@@ -429,7 +388,6 @@ class CreateEntity extends Request
  */
 class UpdateDialog extends Request
 {
-
 }/**
  * @method $this setEntityId($entityId)
  * @method int getEntityId()
@@ -440,7 +398,6 @@ class UpdateDialog extends Request
  */
 class RemoveEntityMember extends Request
 {
-
 }/**
  * @method $this setEntityId($entityId)
  * @method int getEntityId()
@@ -451,7 +408,6 @@ class RemoveEntityMember extends Request
  */
 class AppendEntityMember extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -464,21 +420,18 @@ class AppendEntityMember extends Request
  */
 class Feedback extends Request
 {
-
 }/**
  * @method $this setName($name)
  * @method string getName()
  */
 class CreatePerspective extends Request
 {
-
 }/**
  * @method $this setKnowledgeId($knowledgeId)
  * @method int getKnowledgeId()
  */
 class DeleteKnowledge extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -501,7 +454,6 @@ class DeleteKnowledge extends Request
  */
 class Chat extends Request
 {
-
 }/**
  * @method $this setCoreWordName($coreWordName)
  * @method string getCoreWordName()
@@ -510,5 +462,4 @@ class Chat extends Request
  */
 class RemoveSynonym extends Request
 {
-
 }

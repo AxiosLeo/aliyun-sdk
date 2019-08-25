@@ -32,7 +32,6 @@ class V20160412
  */
 class Shield extends Request
 {
-
 }/**
  * @method $this setAppInfo($appInfo)
  * @method string getAppInfo()
@@ -41,21 +40,18 @@ class Shield extends Request
  */
 class ScanMalware extends Request
 {
-
 }/**
  * @method $this setItemId($itemId)
  * @method string getItemId()
  */
 class GetShieldResult extends Request
 {
-
 }/**
  * @method $this setAppInfoBatch($appInfoBatch)
  * @method string getAppInfoBatch()
  */
 class BatchScanPlugin extends Request
 {
-
 }/**
  * @method $this setItemId($itemId)
  * @method string getItemId()
@@ -66,7 +62,6 @@ class BatchScanPlugin extends Request
  */
 class GetRiskDetail4Batch extends Request
 {
-
 }/**
  * @method $this setAppInfo($appInfo)
  * @method string getAppInfo()
@@ -75,7 +70,6 @@ class GetRiskDetail4Batch extends Request
  */
 class ScanFake extends Request
 {
-
 }/**
  * @method $this setItemId($itemId)
  * @method string getItemId()
@@ -86,14 +80,12 @@ class ScanFake extends Request
  */
 class GetRiskDetail extends Request
 {
-
 }/**
  * @method $this setItemId($itemId)
  * @method string getItemId()
  */
 class GetRiskSummary extends Request
 {
-
 }/**
  * @method $this setAppInfo($appInfo)
  * @method string getAppInfo()
@@ -102,14 +94,12 @@ class GetRiskSummary extends Request
  */
 class ScanVuln extends Request
 {
-
 }/**
  * @method $this setAppInfoBatch($appInfoBatch)
  * @method string getAppInfoBatch()
  */
 class BatchScanMalware extends Request
 {
-
 }/**
  * @method $this setAppInfo($appInfo)
  * @method string getAppInfo()
@@ -120,5 +110,4 @@ class BatchScanMalware extends Request
  */
 class DiyShield extends Request
 {
-
 }

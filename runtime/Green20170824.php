@@ -29,7 +29,6 @@ class V20170824
  */
 class DescribeCdnImagePornStatData extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -50,7 +49,6 @@ class DescribeCdnImagePornStatData extends Request
  */
 class DescribeCdnImagePornScanData extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -61,7 +59,6 @@ class DescribeCdnImagePornScanData extends Request
  */
 class MarkCdnImagePornData extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -74,5 +71,4 @@ class MarkCdnImagePornData extends Request
  */
 class ExportCdnImagePornScanViolationData extends Request
 {
-
 }

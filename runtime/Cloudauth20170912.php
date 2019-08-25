@@ -26,7 +26,6 @@ class V20170912
  */
 class GetMaterials extends Request
 {
-
 }/**
  * @method $this setSourceImageType($sourceImageType)
  * @method string getSourceImageType()
@@ -39,7 +38,6 @@ class GetMaterials extends Request
  */
 class CompareFaces extends Request
 {
-
 }/**
  * @method $this setBiz($biz)
  * @method string getBiz()
@@ -48,7 +46,6 @@ class CompareFaces extends Request
  */
 class GetStatus extends Request
 {
-
 }/**
  * @method $this setVerifyToken($verifyToken)
  * @method string getVerifyToken()
@@ -57,7 +54,6 @@ class GetStatus extends Request
  */
 class SubmitMaterials extends Request
 {
-
 }/**
  * @method $this setBiz($biz)
  * @method string getBiz()
@@ -70,5 +66,4 @@ class SubmitMaterials extends Request
  */
 class GetVerifyToken extends Request
 {
-
 }

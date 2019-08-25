@@ -26,39 +26,32 @@ class V20160224
  */
 class SiteSuspectUrls extends Request
 {
-
 }/**
  * @method $this settaskid($taskid)
  * @method string gettaskid()
  */
 class ImageFeedback extends Request
 {
-
 }/**
  */
 class TextKeywordFilter extends Request
 {
-
 }/**
  */
 class ImageResults extends Request
 {
-
 }/**
  */
 class ImageDetection extends Request
 {
-
 }/**
  * @method $this settaskid($taskid)
  * @method string gettaskid()
  */
 class ImageResult extends Request
 {
-
 }/**
  */
 class TextWordCorrect extends Request
 {
-
 }

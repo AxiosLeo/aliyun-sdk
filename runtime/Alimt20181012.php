@@ -29,7 +29,6 @@ class V20181012
  */
 class TranslateGeneral extends Request
 {
-
 }/**
  * @method $this setFormatType($formatType)
  * @method string getFormatType()
@@ -44,5 +43,4 @@ class TranslateGeneral extends Request
  */
 class TranslateECommerce extends Request
 {
-
 }

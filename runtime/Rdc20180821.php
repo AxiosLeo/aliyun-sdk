@@ -37,7 +37,6 @@ class V20180821
  */
 class GetProjectMembers extends Request
 {
-
 }/**
  * @method $this setAKProjectId($aKProjectId)
  * @method int getAKProjectId()
@@ -48,7 +47,6 @@ class GetProjectMembers extends Request
  */
 class GetCustomFieldsByTemplateId extends Request
 {
-
 }/**
  * @method $this setTargetType($targetType)
  * @method string getTargetType()
@@ -59,7 +57,6 @@ class GetCustomFieldsByTemplateId extends Request
  */
 class GetChangeLog extends Request
 {
-
 }/**
  * @method $this setId($id)
  * @method int getId()
@@ -68,14 +65,12 @@ class GetChangeLog extends Request
  */
 class GetWorkitemById extends Request
 {
-
 }/**
  * @method $this setDingId($dingId)
  * @method string getDingId()
  */
 class GetBindedUserByDingId extends Request
 {
-
 }/**
  * @method $this setId($id)
  * @method int getId()
@@ -84,7 +79,6 @@ class GetBindedUserByDingId extends Request
  */
 class GetIssueById extends Request
 {
-
 }/**
  * @method $this setStamp($stamp)
  * @method string getStamp()
@@ -101,7 +95,6 @@ class GetIssueById extends Request
  */
 class SearchWorkitem extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -112,7 +105,6 @@ class SearchWorkitem extends Request
  */
 class AddEnterpriseMember extends Request
 {
-
 }/**
  * @method $this setAKProjectId($aKProjectId)
  * @method int getAKProjectId()
@@ -151,7 +143,6 @@ class AddEnterpriseMember extends Request
  */
 class UpdateWorkitem extends Request
 {
-
 }/**
  * @method $this setCorpIdentifier($corpIdentifier)
  * @method string getCorpIdentifier()
@@ -184,7 +175,6 @@ class UpdateWorkitem extends Request
  */
 class CreateWorkitem extends Request
 {
-
 }/**
  * @method $this setCorpIdentifier($corpIdentifier)
  * @method string getCorpIdentifier()
@@ -199,14 +189,12 @@ class CreateWorkitem extends Request
  */
 class SearchProjectsByRegion extends Request
 {
-
 }/**
  * @method $this setPk($pk)
  * @method string getPk()
  */
 class GetUserByAliyunPk extends Request
 {
-
 }/**
  * @method $this setPageSize($pageSize)
  * @method int getPageSize()
@@ -229,7 +217,6 @@ class GetUserByAliyunPk extends Request
  */
 class SearchTestCase extends Request
 {
-
 }/**
  * @method $this setName($name)
  * @method string getName()
@@ -244,5 +231,4 @@ class SearchTestCase extends Request
  */
 class CreateEnterprise extends Request
 {
-
 }

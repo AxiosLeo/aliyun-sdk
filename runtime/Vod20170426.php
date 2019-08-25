@@ -36,5 +36,4 @@ class V20170426
  */
 class UploadVideo extends Request
 {
-
 }

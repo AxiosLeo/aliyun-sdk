@@ -84,7 +84,6 @@ class V20181111
  */
 class GetRawPlanJson extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -95,7 +94,6 @@ class GetRawPlanJson extends Request
  */
 class OfflineJob extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -108,7 +106,6 @@ class OfflineJob extends Request
  */
 class GetInstanceConfig extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -117,7 +114,6 @@ class GetInstanceConfig extends Request
  */
 class GetClusterResource extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -136,7 +132,6 @@ class GetClusterResource extends Request
  */
 class ListPackage extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -163,7 +158,6 @@ class ListPackage extends Request
  */
 class UpdatePackage extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -174,7 +168,6 @@ class UpdatePackage extends Request
  */
 class CommitJob extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -195,7 +188,6 @@ class CommitJob extends Request
  */
 class CreateCluster extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -210,7 +202,6 @@ class CreateCluster extends Request
  */
 class GetRefPackageJob extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -221,7 +212,6 @@ class GetRefPackageJob extends Request
  */
 class ListChildFolder extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -234,7 +224,6 @@ class ListChildFolder extends Request
  */
 class MVFolder extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -253,7 +242,6 @@ class MVFolder extends Request
  */
 class ListCluster extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -264,7 +252,6 @@ class ListCluster extends Request
  */
 class DeletePackage extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -277,7 +264,6 @@ class DeletePackage extends Request
  */
 class BindQueue extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -286,7 +272,6 @@ class BindQueue extends Request
  */
 class DestroyCluster extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -315,7 +300,6 @@ class DestroyCluster extends Request
  */
 class CreatePackage extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -342,7 +326,6 @@ class CreatePackage extends Request
  */
 class ListJob extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -351,7 +334,6 @@ class ListJob extends Request
  */
 class GetProject extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -366,7 +348,6 @@ class GetProject extends Request
  */
 class GetInstanceMetric extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -377,7 +358,6 @@ class GetInstanceMetric extends Request
  */
 class DeleteQueue extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -390,7 +370,6 @@ class DeleteQueue extends Request
  */
 class ListProjectBindQueue extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -401,7 +380,6 @@ class ListProjectBindQueue extends Request
  */
 class GetJob extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -414,7 +392,6 @@ class GetJob extends Request
  */
 class GetInstanceCheckpoint extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -425,7 +402,6 @@ class GetInstanceCheckpoint extends Request
  */
 class DeleteFolder extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -434,7 +410,6 @@ class DeleteFolder extends Request
  */
 class GetClusterDetails extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -447,7 +422,6 @@ class GetClusterDetails extends Request
  */
 class StartJob extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -480,7 +454,6 @@ class StartJob extends Request
  */
 class ListInstance extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -497,7 +470,6 @@ class ListInstance extends Request
  */
 class CreateQueue extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -510,7 +482,6 @@ class CreateQueue extends Request
  */
 class ListProjectBindQueueResource extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -521,7 +492,6 @@ class ListProjectBindQueueResource extends Request
  */
 class GetPackage extends Request
 {
-
 }/**
  * @method $this setname($name)
  * @method string getname()
@@ -540,7 +510,6 @@ class GetPackage extends Request
  */
 class CreateProject extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -553,7 +522,6 @@ class CreateProject extends Request
  */
 class BatchGetInstanceRunSummary extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -562,7 +530,6 @@ class BatchGetInstanceRunSummary extends Request
  */
 class GetClusterEngineVersions extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -571,7 +538,6 @@ class GetClusterEngineVersions extends Request
  */
 class DeleteProject extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -582,7 +548,6 @@ class DeleteProject extends Request
  */
 class GetFolder extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -595,7 +560,6 @@ class GetFolder extends Request
  */
 class GetInstanceExceptions extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -608,7 +572,6 @@ class GetInstanceExceptions extends Request
  */
 class ShrinkCluster extends Request
 {
-
 }/**
  * @method $this setpackages($packages)
  * @method string getpackages()
@@ -637,7 +600,6 @@ class ShrinkCluster extends Request
  */
 class UpdateJob extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -648,7 +610,6 @@ class UpdateJob extends Request
  */
 class DeleteJob extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -663,7 +624,6 @@ class DeleteJob extends Request
  */
 class ExpandCluster extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -674,7 +634,6 @@ class ExpandCluster extends Request
  */
 class CreateFolder extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -691,7 +650,6 @@ class CreateFolder extends Request
  */
 class ModifyInstanceState extends Request
 {
-
 }/**
  * @method $this setprojectName($projectName)
  * @method string getprojectName()
@@ -724,7 +682,6 @@ class ModifyInstanceState extends Request
  */
 class CreateJob extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -737,7 +694,6 @@ class CreateJob extends Request
  */
 class GetInstance extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -756,7 +712,6 @@ class GetInstance extends Request
  */
 class ListProject extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -765,7 +720,6 @@ class ListProject extends Request
  */
 class GetClusterQueueInfo extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -778,7 +732,6 @@ class GetClusterQueueInfo extends Request
  */
 class GetInstanceRunSummary extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -791,7 +744,6 @@ class GetInstanceRunSummary extends Request
  */
 class GetInstanceDetail extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -804,7 +756,6 @@ class GetInstanceDetail extends Request
  */
 class UnbindQueue extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -815,7 +766,6 @@ class UnbindQueue extends Request
  */
 class ValidateJob extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -828,7 +778,6 @@ class ValidateJob extends Request
  */
 class CheckRawPlanJson extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -841,7 +790,6 @@ class CheckRawPlanJson extends Request
  */
 class GetInstanceFinalState extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -854,7 +802,6 @@ class GetInstanceFinalState extends Request
  */
 class GetInstanceResource extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -865,7 +812,6 @@ class GetInstanceResource extends Request
  */
 class ModifyMasterSpec extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -876,5 +822,4 @@ class ModifyMasterSpec extends Request
  */
 class GetClusterMetrics extends Request
 {
-
 }

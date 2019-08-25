@@ -71,7 +71,6 @@ class V20150801
  */
 class BatchPutDimTableData123 extends Request
 {
-
 }/**
  * @method $this setProjectName($projectName)
  * @method string getProjectName()
@@ -82,7 +81,6 @@ class BatchPutDimTableData123 extends Request
  */
 class GetMetrics extends Request
 {
-
 }/**
  * @method $this setProjectName($projectName)
  * @method string getProjectName()
@@ -91,7 +89,6 @@ class GetMetrics extends Request
  */
 class GetMetricStreamStatus extends Request
 {
-
 }/**
  * @method $this setProjectName($projectName)
  * @method string getProjectName()
@@ -100,7 +97,6 @@ class GetMetricStreamStatus extends Request
  */
 class StartMetricStream extends Request
 {
-
 }/**
  * @method $this setProject($project)
  * @method string getProject()
@@ -123,14 +119,12 @@ class StartMetricStream extends Request
  */
 class DescribeMetricDatum extends Request
 {
-
 }/**
  * @method $this setDimTable($dimTable)
  * @method string getDimTable()
  */
 class CreateDimTable extends Request
 {
-
 }/**
  * @method $this setProject($project)
  * @method string getProject()
@@ -153,7 +147,6 @@ class CreateDimTable extends Request
  */
 class QueryMetricTopN extends Request
 {
-
 }/**
  * @method $this setDimTableName($dimTableName)
  * @method string getDimTableName()
@@ -164,7 +157,6 @@ class QueryMetricTopN extends Request
  */
 class ListDimTable extends Request
 {
-
 }/**
  * @method $this setProject($project)
  * @method string getProject()
@@ -187,14 +179,12 @@ class ListDimTable extends Request
  */
 class QueryMetric extends Request
 {
-
 }/**
  * @method $this setDimTableName($dimTableName)
  * @method string getDimTableName()
  */
 class DeleteDimTable extends Request
 {
-
 }/**
  * @method $this setDimTableName($dimTableName)
  * @method string getDimTableName()
@@ -203,14 +193,12 @@ class DeleteDimTable extends Request
  */
 class ListDimTableData extends Request
 {
-
 }/**
  * @method $this setProjectName($projectName)
  * @method string getProjectName()
  */
 class GetProject extends Request
 {
-
 }/**
  * @method $this setProject($project)
  * @method string getProject()
@@ -233,7 +221,6 @@ class GetProject extends Request
  */
 class QueryStatistics extends Request
 {
-
 }/**
  * @method $this setProjectName($projectName)
  * @method string getProjectName()
@@ -242,7 +229,6 @@ class QueryStatistics extends Request
  */
 class GetMetricStreamMeta extends Request
 {
-
 }/**
  * @method $this setDimTableName($dimTableName)
  * @method string getDimTableName()
@@ -251,7 +237,6 @@ class GetMetricStreamMeta extends Request
  */
 class DeleteDimTableData extends Request
 {
-
 }/**
  * @method $this setDimTableName($dimTableName)
  * @method string getDimTableName()
@@ -260,7 +245,6 @@ class DeleteDimTableData extends Request
  */
 class UpdateDimTable extends Request
 {
-
 }/**
  * @method $this setProjectName($projectName)
  * @method string getProjectName()
@@ -269,7 +253,6 @@ class UpdateDimTable extends Request
  */
 class GetSQLMetrics extends Request
 {
-
 }/**
  * @method $this setProjectName($projectName)
  * @method string getProjectName()
@@ -282,14 +265,12 @@ class GetSQLMetrics extends Request
  */
 class updateSQLMetrics extends Request
 {
-
 }/**
  * @method $this setProjectName($projectName)
  * @method string getProjectName()
  */
 class StartProject extends Request
 {
-
 }/**
  * @method $this setProject($project)
  * @method string getProject()
@@ -310,7 +291,6 @@ class StartProject extends Request
  */
 class DescribeMetricList extends Request
 {
-
 }/**
  * @method $this setProjectName($projectName)
  * @method string getProjectName()
@@ -323,7 +303,6 @@ class DescribeMetricList extends Request
  */
 class UpdateMetrics extends Request
 {
-
 }/**
  * @method $this setProject($project)
  * @method string getProject()
@@ -340,7 +319,6 @@ class UpdateMetrics extends Request
  */
 class DescribeMetric extends Request
 {
-
 }/**
  * @method $this setProjectName($projectName)
  * @method string getProjectName()
@@ -355,7 +333,6 @@ class DescribeMetric extends Request
  */
 class ListMetrics extends Request
 {
-
 }/**
  * @method $this setProjectName($projectName)
  * @method string getProjectName()
@@ -366,28 +343,24 @@ class ListMetrics extends Request
  */
 class CreateSQLMetrics extends Request
 {
-
 }/**
  * @method $this setProject($project)
  * @method string getProject()
  */
 class CreateProject extends Request
 {
-
 }/**
  * @method $this setProjectName($projectName)
  * @method string getProjectName()
  */
 class DeleteProject extends Request
 {
-
 }/**
  * @method $this setProjectName($projectName)
  * @method string getProjectName()
  */
 class StatusProject extends Request
 {
-
 }/**
  * @method $this setDimTableName($dimTableName)
  * @method string getDimTableName()
@@ -396,7 +369,6 @@ class StatusProject extends Request
  */
 class PutDimTableData extends Request
 {
-
 }/**
  * @method $this setNamespace($namespace)
  * @method string getNamespace()
@@ -417,7 +389,6 @@ class PutDimTableData extends Request
  */
 class GetMetricStatistics extends Request
 {
-
 }/**
  * @method $this setProjectName($projectName)
  * @method string getProjectName()
@@ -426,7 +397,6 @@ class GetMetricStatistics extends Request
  */
 class UpdateProject extends Request
 {
-
 }/**
  * @method $this setProjectOwner($projectOwner)
  * @method string getProjectOwner()
@@ -437,7 +407,6 @@ class UpdateProject extends Request
  */
 class ListProject extends Request
 {
-
 }/**
  * @method $this setProjectName($projectName)
  * @method string getProjectName()
@@ -448,7 +417,6 @@ class ListProject extends Request
  */
 class UpdateMetricStream extends Request
 {
-
 }/**
  * @method $this setProjectName($projectName)
  * @method string getProjectName()
@@ -457,7 +425,6 @@ class UpdateMetricStream extends Request
  */
 class GetMetricsMeta extends Request
 {
-
 }/**
  * @method $this setProjectName($projectName)
  * @method string getProjectName()
@@ -470,7 +437,6 @@ class GetMetricsMeta extends Request
  */
 class ListSQLMetrics extends Request
 {
-
 }/**
  * @method $this setProjectName($projectName)
  * @method string getProjectName()
@@ -481,7 +447,6 @@ class ListSQLMetrics extends Request
  */
 class BatchCreateMetrics extends Request
 {
-
 }/**
  * @method $this setProjectName($projectName)
  * @method string getProjectName()
@@ -492,7 +457,6 @@ class BatchCreateMetrics extends Request
  */
 class CreateMetrics extends Request
 {
-
 }/**
  * @method $this setProjectName($projectName)
  * @method string getProjectName()
@@ -501,7 +465,6 @@ class CreateMetrics extends Request
  */
 class DeleteMetrics extends Request
 {
-
 }/**
  * @method $this setProject($project)
  * @method string getProject()
@@ -524,7 +487,6 @@ class DeleteMetrics extends Request
  */
 class QueryIncremental extends Request
 {
-
 }/**
  * @method $this setProjectName($projectName)
  * @method string getProjectName()
@@ -537,14 +499,12 @@ class QueryIncremental extends Request
  */
 class ListMetricStream extends Request
 {
-
 }/**
  * @method $this setProjectName($projectName)
  * @method string getProjectName()
  */
 class StopProject extends Request
 {
-
 }/**
  * @method $this setProjectName($projectName)
  * @method string getProjectName()
@@ -553,7 +513,6 @@ class StopProject extends Request
  */
 class CreateMetricStream extends Request
 {
-
 }/**
  * @method $this setProjectName($projectName)
  * @method string getProjectName()
@@ -562,7 +521,6 @@ class CreateMetricStream extends Request
  */
 class StopMetricStream extends Request
 {
-
 }/**
  * @method $this setProject($project)
  * @method string getProject()
@@ -587,7 +545,6 @@ class StopMetricStream extends Request
  */
 class QueryListMetric extends Request
 {
-
 }/**
  * @method $this setProjectName($projectName)
  * @method string getProjectName()
@@ -596,7 +553,6 @@ class QueryListMetric extends Request
  */
 class DeleteMetricStream extends Request
 {
-
 }/**
  * @method $this setDimTableName($dimTableName)
  * @method string getDimTableName()
@@ -605,7 +561,6 @@ class DeleteMetricStream extends Request
  */
 class BatchPutDimTableData extends Request
 {
-
 }/**
  * @method $this setProjectName($projectName)
  * @method string getProjectName()
@@ -616,7 +571,6 @@ class BatchPutDimTableData extends Request
  */
 class BatchCreateSqlMetrics extends Request
 {
-
 }/**
  * @method $this setProjectName($projectName)
  * @method string getProjectName()
@@ -631,14 +585,12 @@ class BatchCreateSqlMetrics extends Request
  */
 class ListMetricsPlan extends Request
 {
-
 }/**
  * @method $this setDimTableName($dimTableName)
  * @method string getDimTableName()
  */
 class GetDimTable extends Request
 {
-
 }/**
  * @method $this setProjectName($projectName)
  * @method string getProjectName()
@@ -647,7 +599,6 @@ class GetDimTable extends Request
  */
 class GetMetricStream extends Request
 {
-
 }/**
  * @method $this setProject($project)
  * @method string getProject()
@@ -668,5 +619,4 @@ class GetMetricStream extends Request
  */
 class BatchQueryMetric extends Request
 {
-
 }

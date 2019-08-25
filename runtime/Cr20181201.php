@@ -86,7 +86,6 @@ class V20181201
  */
 class DeleteRepoTag extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -97,7 +96,6 @@ class DeleteRepoTag extends Request
  */
 class ListRepoTrigger extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -110,7 +108,6 @@ class ListRepoTrigger extends Request
  */
 class ListRepoTriggerLog extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -129,7 +126,6 @@ class ListRepoTriggerLog extends Request
  */
 class ListRepository extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -140,7 +136,6 @@ class ListRepository extends Request
  */
 class GetNamespace extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -155,7 +150,6 @@ class GetNamespace extends Request
  */
 class ListRepoBuildRecordLog extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -168,7 +162,6 @@ class ListRepoBuildRecordLog extends Request
  */
 class UpdateInstanceEndpointAclStatus extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -183,7 +176,6 @@ class UpdateInstanceEndpointAclStatus extends Request
  */
 class ListRepoTag extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -206,7 +198,6 @@ class ListRepoTag extends Request
  */
 class CreateRepoSourceCodeRepo extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -221,7 +212,6 @@ class CreateRepoSourceCodeRepo extends Request
  */
 class GetRepoTagManifest extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -240,7 +230,6 @@ class GetRepoTagManifest extends Request
  */
 class CreateRepository extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -253,7 +242,6 @@ class CreateRepository extends Request
  */
 class CreateBuildRecordByRule extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -264,7 +252,6 @@ class CreateBuildRecordByRule extends Request
  */
 class DeleteRepository extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -277,7 +264,6 @@ class DeleteRepository extends Request
  */
 class GetInstanceStorageIntranetOut extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -290,7 +276,6 @@ class GetInstanceStorageIntranetOut extends Request
  */
 class GetRepoTagScanTask extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -299,7 +284,6 @@ class GetRepoTagScanTask extends Request
  */
 class GetInstanceUsage extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -312,7 +296,6 @@ class GetInstanceUsage extends Request
  */
 class DeleteRepoTrigger extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -329,7 +312,6 @@ class DeleteRepoTrigger extends Request
  */
 class CreateSourceCodeAccount extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -340,7 +322,6 @@ class CreateSourceCodeAccount extends Request
  */
 class ListSourceCodeAccount extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -353,7 +334,6 @@ class ListSourceCodeAccount extends Request
  */
 class CancelRepoBuildRecord extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -368,7 +348,6 @@ class CancelRepoBuildRecord extends Request
  */
 class CreateInstanceEndpointAclPolicy extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -381,7 +360,6 @@ class CreateInstanceEndpointAclPolicy extends Request
  */
 class DeleteRepoBuildRule extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -390,14 +368,12 @@ class DeleteRepoBuildRule extends Request
  */
 class GetInstanceStorage extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
  */
 class GetInstanceCount extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -406,7 +382,6 @@ class GetInstanceCount extends Request
  */
 class ListInstanceRegion extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -417,7 +392,6 @@ class ListInstanceRegion extends Request
  */
 class ListSourceCodeRepo extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -428,7 +402,6 @@ class ListSourceCodeRepo extends Request
  */
 class DeleteNamespace extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -443,7 +416,6 @@ class DeleteNamespace extends Request
  */
 class ListInstance extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -456,7 +428,6 @@ class ListInstance extends Request
  */
 class GetInstanceStorageIntranetIn extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -477,7 +448,6 @@ class GetInstanceStorageIntranetIn extends Request
  */
 class UpdateRepoTrigger extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -488,7 +458,6 @@ class UpdateRepoTrigger extends Request
  */
 class CreateInstance extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -501,7 +470,6 @@ class CreateInstance extends Request
  */
 class GetInstanceStorageUsage extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -514,7 +482,6 @@ class GetInstanceStorageUsage extends Request
  */
 class ListUserVpc extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -525,7 +492,6 @@ class ListUserVpc extends Request
  */
 class ListSourceCodeRepoRef extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -538,7 +504,6 @@ class ListSourceCodeRepoRef extends Request
  */
 class DeleteInstanceEndpointAclPolicy extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -559,7 +524,6 @@ class DeleteInstanceEndpointAclPolicy extends Request
  */
 class CreateRepoBuildRule extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -568,7 +532,6 @@ class CreateRepoBuildRule extends Request
  */
 class ListInstanceEndpoint extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -581,7 +544,6 @@ class ListInstanceEndpoint extends Request
  */
 class GetRepoBuildRecordStatus extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -590,7 +552,6 @@ class GetRepoBuildRecordStatus extends Request
  */
 class GetInstance extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -599,7 +560,6 @@ class GetInstance extends Request
  */
 class GetAuthorizationToken extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -618,7 +578,6 @@ class GetAuthorizationToken extends Request
  */
 class CreateRepoTrigger extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -631,7 +590,6 @@ class CreateRepoTrigger extends Request
  */
 class CreateRepoTagScanTask extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -644,7 +602,6 @@ class CreateRepoTagScanTask extends Request
  */
 class GetInstanceStorageInternetIn extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -655,7 +612,6 @@ class GetInstanceStorageInternetIn extends Request
  */
 class ResetLoginPassword extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -666,7 +622,6 @@ class ResetLoginPassword extends Request
  */
 class GetInstanceEndpoint extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -681,7 +636,6 @@ class GetInstanceEndpoint extends Request
  */
 class ListRepoBuildRecord extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -698,7 +652,6 @@ class ListRepoBuildRecord extends Request
  */
 class ListNamespace extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -713,7 +666,6 @@ class ListNamespace extends Request
  */
 class UpdateNamespace extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -726,7 +678,6 @@ class UpdateNamespace extends Request
  */
 class CreateInstanceVpcEndpointLinkedVpc extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -749,7 +700,6 @@ class CreateInstanceVpcEndpointLinkedVpc extends Request
  */
 class UpdateRepoBuildRule extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -760,7 +710,6 @@ class UpdateRepoBuildRule extends Request
  */
 class GetRepoSourceCodeRepo extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -773,7 +722,6 @@ class GetRepoSourceCodeRepo extends Request
  */
 class CreateBuildRecordByRecord extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -782,7 +730,6 @@ class CreateBuildRecordByRecord extends Request
  */
 class GetInstanceVpcEndpoint extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -799,7 +746,6 @@ class GetInstanceVpcEndpoint extends Request
  */
 class UpdateRepository extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -814,7 +760,6 @@ class UpdateRepository extends Request
  */
 class GetRepository extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -827,7 +772,6 @@ class GetRepository extends Request
  */
 class UpdateInstanceEndpointStatus extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -840,7 +784,6 @@ class UpdateInstanceEndpointStatus extends Request
  */
 class GetInstanceStorageInternetOut extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -855,7 +798,6 @@ class GetInstanceStorageInternetOut extends Request
  */
 class CreateNamespace extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -868,7 +810,6 @@ class CreateNamespace extends Request
  */
 class DeleteInstanceVpcEndpointLinkedVpc extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -883,7 +824,6 @@ class DeleteInstanceVpcEndpointLinkedVpc extends Request
  */
 class ListRepoBuildRule extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -896,5 +836,4 @@ class ListRepoBuildRule extends Request
  */
 class GetRepoTagLayers extends Request
 {
-
 }

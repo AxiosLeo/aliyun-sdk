@@ -83,21 +83,18 @@ class V20160607
  */
 class GetSubUserList extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
  */
 class CreateCollection extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
  */
 class CreateUserSourceAccount extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -108,7 +105,6 @@ class CreateUserSourceAccount extends Request
  */
 class GetRepoWebhook extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -121,7 +117,6 @@ class GetRepoWebhook extends Request
  */
 class GetUserSourceRepoRefList extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -134,7 +129,6 @@ class GetUserSourceRepoRefList extends Request
  */
 class DeleteRepoAuthorization extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -143,14 +137,12 @@ class DeleteRepoAuthorization extends Request
  */
 class GetUserSourceRepoList extends Request
 {
-
 }/**
  * @method $this setDomain($domain)
  * @method string getDomain()
  */
 class GetRegion extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -159,21 +151,18 @@ class GetRegion extends Request
  */
 class GetNamespace extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
  */
 class GetUserInfo extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
  */
 class CreateRepo extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -186,7 +175,6 @@ class CreateRepo extends Request
  */
 class GetRepoAuthorizationList extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -197,7 +185,6 @@ class GetRepoAuthorizationList extends Request
  */
 class UpdateRepoSourceRepo extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -212,7 +199,6 @@ class UpdateRepoSourceRepo extends Request
  */
 class GetImageManifest extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -221,7 +207,6 @@ class GetImageManifest extends Request
  */
 class GetRepoBatch extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -236,7 +221,6 @@ class GetRepoBatch extends Request
  */
 class GetRepoTags extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -249,7 +233,6 @@ class GetRepoTags extends Request
  */
 class GetRepoBuildStatus extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -262,7 +245,6 @@ class GetRepoBuildStatus extends Request
  */
 class GetRepoWebhookLogList extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -273,7 +255,6 @@ class GetRepoWebhookLogList extends Request
  */
 class GetRepoSourceRepo extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -286,7 +267,6 @@ class GetRepoSourceRepo extends Request
  */
 class GetImageScan extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -297,7 +277,6 @@ class GetImageScan extends Request
  */
 class CreateRepoWebhook extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -310,7 +289,6 @@ class CreateRepoWebhook extends Request
  */
 class DeleteRepoBuildRule extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -321,7 +299,6 @@ class DeleteRepoBuildRule extends Request
  */
 class GetNamespaceAuthorizationList extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -334,7 +311,6 @@ class GetNamespaceAuthorizationList extends Request
  */
 class CancelRepoBuild extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -345,7 +321,6 @@ class CancelRepoBuild extends Request
  */
 class CreateRepoAuthorization extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -358,7 +333,6 @@ class CreateRepoAuthorization extends Request
  */
 class UpdateRepoAuthorization extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -367,7 +341,6 @@ class UpdateRepoAuthorization extends Request
  */
 class DeleteUserSourceAccount extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -376,7 +349,6 @@ class DeleteUserSourceAccount extends Request
  */
 class DeleteNamespace extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -389,7 +361,6 @@ class DeleteNamespace extends Request
  */
 class GetImageLayer extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -398,7 +369,6 @@ class GetImageLayer extends Request
  */
 class GetUserSourceAccount extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -413,7 +383,6 @@ class GetUserSourceAccount extends Request
  */
 class GetSearch extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -422,21 +391,18 @@ class GetSearch extends Request
  */
 class DeleteCollection extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
  */
 class UpdateUserInfo extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
  */
 class GetMirrorList extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -449,7 +415,6 @@ class GetMirrorList extends Request
  */
 class UpdateRepoWebhook extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -460,7 +425,6 @@ class UpdateRepoWebhook extends Request
  */
 class CreateRepoBuildRule extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -473,7 +437,6 @@ class CreateRepoBuildRule extends Request
  */
 class GetRepoSyncTask extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -484,7 +447,6 @@ class GetRepoSyncTask extends Request
  */
 class DeleteNamespaceAuthorization extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -499,7 +461,6 @@ class DeleteNamespaceAuthorization extends Request
  */
 class GetRepoSyncTaskList extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -510,7 +471,6 @@ class GetRepoSyncTaskList extends Request
  */
 class UpdateNamespaceAuthorization extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -523,7 +483,6 @@ class UpdateNamespaceAuthorization extends Request
  */
 class StartImageScan extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -534,7 +493,6 @@ class StartImageScan extends Request
  */
 class DeleteRepo extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -547,14 +505,12 @@ class DeleteRepo extends Request
  */
 class DeleteRepoWebhook extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
  */
 class GetAuthorizationToken extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -565,7 +521,6 @@ class GetAuthorizationToken extends Request
  */
 class GetRepoBuildRuleList extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -576,14 +531,12 @@ class GetRepoBuildRuleList extends Request
  */
 class GetRepo extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
  */
 class GetRegionList extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -594,7 +547,6 @@ class GetRegionList extends Request
  */
 class CreateRepoSyncTask extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -609,7 +561,6 @@ class CreateRepoSyncTask extends Request
  */
 class GetRepoListByNamespace extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -622,7 +573,6 @@ class GetRepoListByNamespace extends Request
  */
 class DeleteImage extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -631,7 +581,6 @@ class DeleteImage extends Request
  */
 class UpdateNamespace extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -642,7 +591,6 @@ class UpdateNamespace extends Request
  */
 class GetNamespaceList extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -655,7 +603,6 @@ class GetNamespaceList extends Request
  */
 class UpdateRepoBuildRule extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -670,7 +617,6 @@ class UpdateRepoBuildRule extends Request
  */
 class GetRepoBuildList extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -681,7 +627,6 @@ class GetRepoBuildList extends Request
  */
 class GetCollection extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -694,7 +639,6 @@ class GetCollection extends Request
  */
 class GetRepoBuildLogs extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -705,14 +649,12 @@ class GetRepoBuildLogs extends Request
  */
 class StartRepoBuild extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
  */
 class CreateUserInfo extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -723,7 +665,6 @@ class CreateUserInfo extends Request
  */
 class UpdateRepo extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -736,7 +677,6 @@ class UpdateRepo extends Request
  */
 class GetRepoList extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -745,7 +685,6 @@ class GetRepoList extends Request
  */
 class CreateNamespaceAuthorization extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -760,14 +699,12 @@ class CreateNamespaceAuthorization extends Request
  */
 class SearchRepo extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
  */
 class CreateNamespace extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -780,5 +717,4 @@ class CreateNamespace extends Request
  */
 class StartRepoBuildByRule extends Request
 {
-
 }

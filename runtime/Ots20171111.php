@@ -27,7 +27,6 @@ class V20171111
  */
 class ListTrigger extends Request
 {
-
 }/**
  * @method $this setApiVersion($apiVersion)
  * @method string getApiVersion()
@@ -40,7 +39,6 @@ class ListTrigger extends Request
  */
 class DeleteTrigger extends Request
 {
-
 }/**
  * @method $this setApiVersion($apiVersion)
  * @method string getApiVersion()
@@ -51,7 +49,6 @@ class DeleteTrigger extends Request
  */
 class CreateTrigger extends Request
 {
-
 }/**
  * @method $this setApiVersion($apiVersion)
  * @method string getApiVersion()
@@ -64,5 +61,4 @@ class CreateTrigger extends Request
  */
 class GetTrigger extends Request
 {
-
 }

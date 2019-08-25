@@ -174,7 +174,6 @@ class V20180308
  */
 class PutMetricAlarm extends Request
 {
-
 }/**
  * @method $this setNamePrefix($namePrefix)
  * @method string getNamePrefix()
@@ -187,7 +186,6 @@ class PutMetricAlarm extends Request
  */
 class ListEventRules extends Request
 {
-
 }/**
  * @method $this setGroupId($groupId)
  * @method int getGroupId()
@@ -196,7 +194,6 @@ class ListEventRules extends Request
  */
 class DeleteGroupDynamicRule extends Request
 {
-
 }/**
  * @method $this setUserId($userId)
  * @method int getUserId()
@@ -209,7 +206,6 @@ class DeleteGroupDynamicRule extends Request
  */
 class ProfileSet extends Request
 {
-
 }/**
  * @method $this setRuleName($ruleName)
  * @method string getRuleName()
@@ -218,14 +214,12 @@ class ProfileSet extends Request
  */
 class DeleteEventTargets extends Request
 {
-
 }/**
  * @method $this setUserId($userId)
  * @method int getUserId()
  */
 class AccessKeyGet extends Request
 {
-
 }/**
  * @method $this setName($name)
  * @method string getName()
@@ -244,7 +238,6 @@ class AccessKeyGet extends Request
  */
 class ListMonitoringTemplates extends Request
 {
-
 }/**
  * @method $this setTaskId($taskId)
  * @method string getTaskId()
@@ -265,14 +258,12 @@ class ListMonitoringTemplates extends Request
  */
 class QueryMonitorData extends Request
 {
-
 }/**
  * @method $this setTaskId($taskId)
  * @method string getTaskId()
  */
 class DescribeTaskDetail extends Request
 {
-
 }/**
  * @method $this setProject($project)
  * @method string getProject()
@@ -297,35 +288,30 @@ class DescribeTaskDetail extends Request
  */
 class QueryMetricList extends Request
 {
-
 }/**
  * @method $this setRuleName($ruleName)
  * @method string getRuleName()
  */
 class DescribeMetricRuleTargets extends Request
 {
-
 }/**
  * @method $this setQueryJson($queryJson)
  * @method string getQueryJson()
  */
 class QuerySystemEventCount extends Request
 {
-
 }/**
  * @method $this setInstanceIds($instanceIds)
  * @method string getInstanceIds()
  */
 class NodeStatusList extends Request
 {
-
 }/**
  * @method $this setQueryJson($queryJson)
  * @method string getQueryJson()
  */
 class QueryCustomEventCount extends Request
 {
-
 }/**
  * @method $this setProject($project)
  * @method string getProject()
@@ -340,7 +326,6 @@ class QueryCustomEventCount extends Request
  */
 class QueryMetricMeta extends Request
 {
-
 }/**
  * @method $this setName($name)
  * @method string getName()
@@ -357,7 +342,6 @@ class QueryMetricMeta extends Request
  */
 class PutEventRule extends Request
 {
-
 }/**
  * @method $this setUserId($userId)
  * @method string getUserId()
@@ -368,7 +352,6 @@ class PutEventRule extends Request
  */
 class NodeInstall extends Request
 {
-
 }/**
  * @method $this setTaskId($taskId)
  * @method string getTaskId()
@@ -389,7 +372,6 @@ class NodeInstall extends Request
  */
 class QueryTaskMonitorData extends Request
 {
-
 }/**
  * @method $this setKeyWord($keyWord)
  * @method string getKeyWord()
@@ -412,7 +394,6 @@ class QueryTaskMonitorData extends Request
  */
 class NodeList extends Request
 {
-
 }/**
  * @method $this setTaskId($taskId)
  * @method string getTaskId()
@@ -421,7 +402,6 @@ class NodeList extends Request
  */
 class QueryStaticsResponseTime extends Request
 {
-
 }/**
  * @method $this setId($id)
  * @method string getId()
@@ -442,7 +422,6 @@ class QueryStaticsResponseTime extends Request
  */
 class ListAlarm extends Request
 {
-
 }/**
  * @method $this setRuleName($ruleName)
  * @method string getRuleName()
@@ -451,7 +430,6 @@ class ListAlarm extends Request
  */
 class DeleteEventRule extends Request
 {
-
 }/**
  * @method $this setRuleName($ruleName)
  * @method string getRuleName()
@@ -462,26 +440,22 @@ class DeleteEventRule extends Request
  */
 class PutMetricRuleTargets extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
  */
 class NodeProcesses extends Request
 {
-
 }/**
  * @method $this setContactName($contactName)
  * @method string getContactName()
  */
 class DescribeContact extends Request
 {
-
 }/**
  */
 class QueryTaskConfig extends Request
 {
-
 }/**
  * @method $this setGroupId($groupId)
  * @method int getGroupId()
@@ -500,21 +474,18 @@ class QueryTaskConfig extends Request
  */
 class ListMyGroupInstancesDetails extends Request
 {
-
 }/**
  * @method $this setEventInfo($eventInfo)
  * @method string getEventInfo()
  */
 class PutEvent extends Request
 {
-
 }/**
  * @method $this setQueryJson($queryJson)
  * @method string getQueryJson()
  */
 class QuerySystemEventDetail extends Request
 {
-
 }/**
  * @method $this setGroupId($groupId)
  * @method int getGroupId()
@@ -523,14 +494,12 @@ class QuerySystemEventDetail extends Request
  */
 class PutGroupDynamicRule extends Request
 {
-
 }/**
  * @method $this setQueryJson($queryJson)
  * @method string getQueryJson()
  */
 class QueryCustomEventDetail extends Request
 {
-
 }/**
  * @method $this setGroupId($groupId)
  * @method int getGroupId()
@@ -547,14 +516,12 @@ class QueryCustomEventDetail extends Request
  */
 class GetMyGroups extends Request
 {
-
 }/**
  * @method $this setRuleName($ruleName)
  * @method string getRuleName()
  */
 class ListEventTargetsByRule extends Request
 {
-
 }/**
  * @method $this setGroupId($groupId)
  * @method int getGroupId()
@@ -569,14 +536,12 @@ class ListEventTargetsByRule extends Request
  */
 class TaskConfigList extends Request
 {
-
 }/**
  * @method $this setIdList($idList)
  * @method array getIdList()
  */
 class TaskConfigDelete extends Request
 {
-
 }/**
  * @method $this setMetricName($metricName)
  * @method string getMetricName()
@@ -597,7 +562,6 @@ class TaskConfigDelete extends Request
  */
 class DescribeAlarmsForResources extends Request
 {
-
 }/**
  * @method $this setTaskId($taskId)
  * @method string getTaskId()
@@ -606,7 +570,6 @@ class DescribeAlarmsForResources extends Request
  */
 class QueryStaticsErrorRate extends Request
 {
-
 }/**
  * @method $this setProcessName($processName)
  * @method string getProcessName()
@@ -621,14 +584,12 @@ class QueryStaticsErrorRate extends Request
  */
 class NodeProcessCreate extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
  */
 class NodeStatus extends Request
 {
-
 }/**
  * @method $this setIsp($isp)
  * @method string getIsp()
@@ -637,28 +598,24 @@ class NodeStatus extends Request
  */
 class DescribeISPAreaCity extends Request
 {
-
 }/**
  * @method $this setGroupId($groupId)
  * @method int getGroupId()
  */
 class ListGroupDynamicRule extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
  */
 class NodeUninstall extends Request
 {
-
 }/**
  * @method $this setId($id)
  * @method string getId()
  */
 class DeleteMonitoringTemplate extends Request
 {
-
 }/**
  * @method $this setTaskIds($taskIds)
  * @method string getTaskIds()
@@ -667,7 +624,6 @@ class DeleteMonitoringTemplate extends Request
  */
 class DeleteTasks extends Request
 {
-
 }/**
  * @method $this setGroupId($groupId)
  * @method string getGroupId()
@@ -680,7 +636,6 @@ class DeleteTasks extends Request
  */
 class DeleteCustomMetric extends Request
 {
-
 }/**
  * @method $this setTemplateIds($templateIds)
  * @method string getTemplateIds()
@@ -699,7 +654,6 @@ class DeleteCustomMetric extends Request
  */
 class ApplyTemplate extends Request
 {
-
 }/**
  * @method $this setProduct($product)
  * @method string getProduct()
@@ -712,7 +666,6 @@ class ApplyTemplate extends Request
  */
 class SendDryRunSystemEvent extends Request
 {
-
 }/**
  * @method $this setName($name)
  * @method string getName()
@@ -721,21 +674,18 @@ class SendDryRunSystemEvent extends Request
  */
 class GetMonitoringTemplate extends Request
 {
-
 }/**
  * @method $this setTaskIds($taskIds)
  * @method string getTaskIds()
  */
 class StopTasks extends Request
 {
-
 }/**
  * @method $this setGroupName($groupName)
  * @method string getGroupName()
  */
 class GetContacts extends Request
 {
-
 }/**
  * @method $this setProduct($product)
  * @method string getProduct()
@@ -744,7 +694,6 @@ class GetContacts extends Request
  */
 class EnableActiveAlert extends Request
 {
-
 }/**
  * @method $this setGroupName($groupName)
  * @method string getGroupName()
@@ -765,7 +714,6 @@ class EnableActiveAlert extends Request
  */
 class TaskConfigCreate extends Request
 {
-
 }/**
  * @method $this setName($name)
  * @method string getName()
@@ -802,7 +750,6 @@ class TaskConfigCreate extends Request
  */
 class CreateAlarm extends Request
 {
-
 }/**
  * @method $this setGroupId($groupId)
  * @method int getGroupId()
@@ -825,7 +772,6 @@ class CreateAlarm extends Request
  */
 class TaskConfigModify extends Request
 {
-
 }/**
  * @method $this setRuleName($ruleName)
  * @method string getRuleName()
@@ -834,7 +780,6 @@ class TaskConfigModify extends Request
  */
 class EnableEventRule extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -845,7 +790,6 @@ class EnableEventRule extends Request
  */
 class NodeProcessDelete extends Request
 {
-
 }/**
  * @method $this setTaskId($taskId)
  * @method string getTaskId()
@@ -860,7 +804,6 @@ class NodeProcessDelete extends Request
  */
 class DescribeTasks extends Request
 {
-
 }/**
  * @method $this setAddress($address)
  * @method string getAddress()
@@ -883,7 +826,6 @@ class DescribeTasks extends Request
  */
 class CreateTask extends Request
 {
-
 }/**
  * @method $this setPageNumber($pageNumber)
  * @method int getPageNumber()
@@ -892,7 +834,6 @@ class CreateTask extends Request
  */
 class ListContactGroup extends Request
 {
-
 }/**
  * @method $this setAlertName($alertName)
  * @method string getAlertName()
@@ -909,7 +850,6 @@ class ListContactGroup extends Request
  */
 class ListNotifyPolicy extends Request
 {
-
 }/**
  * @method $this setType($type)
  * @method string getType()
@@ -926,7 +866,6 @@ class ListNotifyPolicy extends Request
  */
 class CreateMyGroups extends Request
 {
-
 }/**
  * @method $this setSilenceTime($silenceTime)
  * @method int getSilenceTime()
@@ -947,35 +886,30 @@ class CreateMyGroups extends Request
  */
 class ApplyMonitoringTemplate extends Request
 {
-
 }/**
  * @method $this setTaskIdList($taskIdList)
  * @method array getTaskIdList()
  */
 class TaskConfigUnhealthy extends Request
 {
-
 }/**
  * @method $this setMetricList($metricList)
  * @method string getMetricList()
  */
 class PutCustomMetric extends Request
 {
-
 }/**
  * @method $this setRuleName($ruleName)
  * @method string getRuleName()
  */
 class DescribeEventRule extends Request
 {
-
 }/**
  * @method $this setGroupId($groupId)
  * @method int getGroupId()
  */
 class ListMyGroupCategories extends Request
 {
-
 }/**
  * @method $this setName($name)
  * @method string getName()
@@ -990,7 +924,6 @@ class ListMyGroupCategories extends Request
  */
 class CreateMonitoringTemplate extends Request
 {
-
 }/**
  * @method $this setPeriod($period)
  * @method string getPeriod()
@@ -1017,7 +950,6 @@ class CreateMonitoringTemplate extends Request
  */
 class QueryMetricTop extends Request
 {
-
 }/**
  * @method $this setGroupId($groupId)
  * @method string getGroupId()
@@ -1034,14 +966,12 @@ class QueryMetricTop extends Request
  */
 class QueryCustomMetricList extends Request
 {
-
 }/**
  * @method $this setGroupId($groupId)
  * @method int getGroupId()
  */
 class DeleteMyGroups extends Request
 {
-
 }/**
  * @method $this setPageSize($pageSize)
  * @method int getPageSize()
@@ -1060,7 +990,6 @@ class DeleteMyGroups extends Request
  */
 class ListMyGroupInstances extends Request
 {
-
 }/**
  * @method $this setUserId($userId)
  * @method string getUserId()
@@ -1069,7 +998,6 @@ class ListMyGroupInstances extends Request
  */
 class ListActiveAlertRule extends Request
 {
-
 }/**
  * @method $this setType($type)
  * @method string getType()
@@ -1090,14 +1018,12 @@ class ListActiveAlertRule extends Request
  */
 class ListMyGroups extends Request
 {
-
 }/**
  * @method $this setQueryJson($queryJson)
  * @method string getQueryJson()
  */
 class QuerySystemEventHistogram extends Request
 {
-
 }/**
  * @method $this setGroupId($groupId)
  * @method int getGroupId()
@@ -1106,7 +1032,6 @@ class QuerySystemEventHistogram extends Request
  */
 class UpdateMyGroupInstances extends Request
 {
-
 }/**
  * @method $this setProduct($product)
  * @method string getProduct()
@@ -1115,7 +1040,6 @@ class UpdateMyGroupInstances extends Request
  */
 class DisableActiveAlert extends Request
 {
-
 }/**
  * @method $this setGroupId($groupId)
  * @method int getGroupId()
@@ -1124,7 +1048,6 @@ class DisableActiveAlert extends Request
  */
 class AddMyGroupInstances extends Request
 {
-
 }/**
  * @method $this setLabels($labels)
  * @method string getLabels()
@@ -1135,28 +1058,24 @@ class AddMyGroupInstances extends Request
  */
 class QueryProjectMeta extends Request
 {
-
 }/**
  * @method $this setId($id)
  * @method string getId()
  */
 class DisableAlarm extends Request
 {
-
 }/**
  * @method $this setUserId($userId)
  * @method int getUserId()
  */
 class ProfileGet extends Request
 {
-
 }/**
  * @method $this setId($id)
  * @method string getId()
  */
 class DeleteAlarm extends Request
 {
-
 }/**
  * @method $this setTaskId($taskId)
  * @method string getTaskId()
@@ -1165,7 +1084,6 @@ class DeleteAlarm extends Request
  */
 class QueryStaticsAvailability extends Request
 {
-
 }/**
  * @method $this setGroupId($groupId)
  * @method int getGroupId()
@@ -1174,7 +1092,6 @@ class QueryStaticsAvailability extends Request
  */
 class GetMyGroupAlert extends Request
 {
-
 }/**
  * @method $this setAlertName($alertName)
  * @method string getAlertName()
@@ -1205,14 +1122,12 @@ class GetMyGroupAlert extends Request
  */
 class DescribeAlarmHistory extends Request
 {
-
 }/**
  * @method $this setUserId($userId)
  * @method string getUserId()
  */
 class ListProductOfActiveAlert extends Request
 {
-
 }/**
  * @method $this setGroupBy($groupBy)
  * @method string getGroupBy()
@@ -1239,7 +1154,6 @@ class ListProductOfActiveAlert extends Request
  */
 class DescribeAlarms extends Request
 {
-
 }/**
  * @method $this setGroupId($groupId)
  * @method int getGroupId()
@@ -1252,7 +1166,6 @@ class DescribeAlarms extends Request
  */
 class DeleteMyGroupInstances extends Request
 {
-
 }/**
  * @method $this setName($name)
  * @method string getName()
@@ -1269,7 +1182,6 @@ class DeleteMyGroupInstances extends Request
  */
 class UpdateMonitoringTemplate extends Request
 {
-
 }/**
  * @method $this setProject($project)
  * @method string getProject()
@@ -1296,7 +1208,6 @@ class UpdateMonitoringTemplate extends Request
  */
 class QueryMetricLast extends Request
 {
-
 }/**
  * @method $this setRuleName($ruleName)
  * @method string getRuleName()
@@ -1305,7 +1216,6 @@ class QueryMetricLast extends Request
  */
 class DisableEventRule extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -1328,7 +1238,6 @@ class DisableEventRule extends Request
  */
 class QueryMetricData extends Request
 {
-
 }/**
  * @method $this setRuleName($ruleName)
  * @method string getRuleName()
@@ -1341,7 +1250,6 @@ class QueryMetricData extends Request
  */
 class RemoveMetricRuleTargets extends Request
 {
-
 }/**
  * @method $this setDimensions($dimensions)
  * @method string getDimensions()
@@ -1356,7 +1264,6 @@ class RemoveMetricRuleTargets extends Request
  */
 class GetNotifyPolicy extends Request
 {
-
 }/**
  * @method $this setId($id)
  * @method string getId()
@@ -1371,7 +1278,6 @@ class GetNotifyPolicy extends Request
  */
 class ListAlarmHistory extends Request
 {
-
 }/**
  * @method $this setRuleName($ruleName)
  * @method string getRuleName()
@@ -1388,7 +1294,6 @@ class ListAlarmHistory extends Request
  */
 class PutEventTargets extends Request
 {
-
 }/**
  * @method $this setBindUrls($bindUrls)
  * @method string getBindUrls()
@@ -1405,7 +1310,6 @@ class PutEventTargets extends Request
  */
 class UpdateMyGroups extends Request
 {
-
 }/**
  * @method $this setGroupId($groupId)
  * @method int getGroupId()
@@ -1416,21 +1320,18 @@ class UpdateMyGroups extends Request
  */
 class UpdateMyGroupMembers extends Request
 {
-
 }/**
  * @method $this setQueryJson($queryJson)
  * @method string getQueryJson()
  */
 class QueryCustomEventHistogram extends Request
 {
-
 }/**
  * @method $this setGroupAlertJson($groupAlertJson)
  * @method string getGroupAlertJson()
  */
 class UpdateMyGroupAlert extends Request
 {
-
 }/**
  * @method $this setProduct($product)
  * @method string getProduct()
@@ -1439,7 +1340,6 @@ class UpdateMyGroupAlert extends Request
  */
 class QuerySystemEventDemo extends Request
 {
-
 }/**
  * @method $this setAddress($address)
  * @method string getAddress()
@@ -1462,7 +1362,6 @@ class QuerySystemEventDemo extends Request
  */
 class ModifyTask extends Request
 {
-
 }/**
  * @method $this setIdList($idList)
  * @method array getIdList()
@@ -1471,14 +1370,12 @@ class ModifyTask extends Request
  */
 class TaskConfigEnable extends Request
 {
-
 }/**
  * @method $this setId($id)
  * @method string getId()
  */
 class EnableAlarm extends Request
 {
-
 }/**
  * @method $this setName($name)
  * @method string getName()
@@ -1511,14 +1408,12 @@ class EnableAlarm extends Request
  */
 class UpdateAlarm extends Request
 {
-
 }/**
  * @method $this setTaskIds($taskIds)
  * @method string getTaskIds()
  */
 class StartTasks extends Request
 {
-
 }/**
  * @method $this setDimensions($dimensions)
  * @method string getDimensions()
@@ -1533,7 +1428,6 @@ class StartTasks extends Request
  */
 class DeleteNotifyPolicy extends Request
 {
-
 }/**
  * @method $this setTaskId($taskId)
  * @method string getTaskId()
@@ -1542,7 +1436,6 @@ class DeleteNotifyPolicy extends Request
  */
 class QueryErrorDistribution extends Request
 {
-
 }/**
  * @method $this setGroupId($groupId)
  * @method int getGroupId()
@@ -1551,7 +1444,6 @@ class QueryErrorDistribution extends Request
  */
 class CreateMyGroupAlertBatch extends Request
 {
-
 }/**
  * @method $this setAlertName($alertName)
  * @method string getAlertName()
@@ -1568,5 +1460,4 @@ class CreateMyGroupAlertBatch extends Request
  */
 class CreateNotifyPolicy extends Request
 {
-
 }

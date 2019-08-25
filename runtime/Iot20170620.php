@@ -37,7 +37,6 @@ class V20170620
  */
 class UpdateDeviceShadow extends Request
 {
-
 }/**
  * @method $this setProductName($productName)
  * @method string getProductName()
@@ -52,14 +51,12 @@ class UpdateDeviceShadow extends Request
  */
 class UpdateProduct extends Request
 {
-
 }/**
  * @method $this setApplyId($applyId)
  * @method int getApplyId()
  */
 class QueryApplyStatus extends Request
 {
-
 }/**
  * @method $this setName($name)
  * @method string getName()
@@ -74,14 +71,12 @@ class QueryApplyStatus extends Request
  */
 class CreateProduct extends Request
 {
-
 }/**
  * @method $this setRootId($rootId)
  * @method int getRootId()
  */
 class GetCats extends Request
 {
-
 }/**
  * @method $this setCurrentPage($currentPage)
  * @method int getCurrentPage()
@@ -92,7 +87,6 @@ class GetCats extends Request
  */
 class QueryPageByApplyId extends Request
 {
-
 }/**
  * @method $this setDeviceName($deviceName)
  * @method string getDeviceName()
@@ -101,7 +95,6 @@ class QueryPageByApplyId extends Request
  */
 class RegistDevice extends Request
 {
-
 }/**
  * @method $this setDeviceName($deviceName)
  * @method string getDeviceName()
@@ -112,7 +105,6 @@ class RegistDevice extends Request
  */
 class GetDeviceShadow extends Request
 {
-
 }/**
  * @method $this setProductKey($productKey)
  * @method string getProductKey()
@@ -125,7 +117,6 @@ class GetDeviceShadow extends Request
  */
 class Pub extends Request
 {
-
 }/**
  * @method $this setProductKey($productKey)
  * @method string getProductKey()
@@ -134,7 +125,6 @@ class Pub extends Request
  */
 class BatchGetDeviceState extends Request
 {
-
 }/**
  * @method $this setProductKey($productKey)
  * @method string getProductKey()
@@ -145,7 +135,6 @@ class BatchGetDeviceState extends Request
  */
 class PubBroadcast extends Request
 {
-
 }/**
  * @method $this setDeviceName($deviceName)
  * @method string getDeviceName()
@@ -154,7 +143,6 @@ class PubBroadcast extends Request
  */
 class QueryDeviceByName extends Request
 {
-
 }/**
  * @method $this setProductKey($productKey)
  * @method string getProductKey()
@@ -165,7 +153,6 @@ class QueryDeviceByName extends Request
  */
 class QueryDevice extends Request
 {
-
 }/**
  * @method $this setDeviceName($deviceName)
  * @method array getDeviceName()
@@ -174,5 +161,4 @@ class QueryDevice extends Request
  */
 class ApplyDeviceWithNames extends Request
 {
-
 }

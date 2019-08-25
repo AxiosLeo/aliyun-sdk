@@ -69,7 +69,6 @@ class V20160101
  */
 class DescribeInstanceInfo extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -92,7 +91,6 @@ class DescribeInstanceInfo extends Request
  */
 class SwitchInstanceNetType extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -107,7 +105,6 @@ class SwitchInstanceNetType extends Request
  */
 class DescribeUserInfo extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -136,7 +133,6 @@ class DescribeUserInfo extends Request
  */
 class RestoreDatabase extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -159,7 +155,6 @@ class RestoreDatabase extends Request
  */
 class UntagResources extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -182,7 +177,6 @@ class UntagResources extends Request
  */
 class GrantAccountPrivilege extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -199,7 +193,6 @@ class GrantAccountPrivilege extends Request
  */
 class DescribeAccounts extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -218,7 +211,6 @@ class DescribeAccounts extends Request
  */
 class CreateDatabaseBackup extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -243,7 +235,6 @@ class CreateDatabaseBackup extends Request
  */
 class CreateDatabase extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -270,7 +261,6 @@ class CreateDatabase extends Request
  */
 class DescribeInstancePerformance extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -289,7 +279,6 @@ class DescribeInstancePerformance extends Request
  */
 class DescribeBackupPolicy extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -308,7 +297,6 @@ class DescribeBackupPolicy extends Request
  */
 class ModifyInstanceName extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -325,7 +313,6 @@ class ModifyInstanceName extends Request
  */
 class DescribeSecurityIPs extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -346,7 +333,6 @@ class DescribeSecurityIPs extends Request
  */
 class DeleteDatabase extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -369,7 +355,6 @@ class DeleteDatabase extends Request
  */
 class ModifyAccountPassword extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -394,7 +379,6 @@ class ModifyAccountPassword extends Request
  */
 class DescribeInstances extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -413,7 +397,6 @@ class DescribeInstances extends Request
  */
 class ReleaseInstancePublicConnection extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -434,7 +417,6 @@ class ReleaseInstancePublicConnection extends Request
  */
 class ResetAccountPassword extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -453,7 +435,6 @@ class ResetAccountPassword extends Request
  */
 class DescribePrice extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -472,7 +453,6 @@ class DescribePrice extends Request
  */
 class DescribeTaskStatus extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -491,7 +471,6 @@ class DescribeTaskStatus extends Request
  */
 class DeleteAccount extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -526,7 +505,6 @@ class DeleteAccount extends Request
  */
 class CreateAccount extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -559,7 +537,6 @@ class CreateAccount extends Request
  */
 class DescribeDatabaseBackup extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -578,7 +555,6 @@ class DescribeDatabaseBackup extends Request
  */
 class DeleteInstance extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -603,7 +579,6 @@ class DeleteInstance extends Request
  */
 class ModifySecurityIPs extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -644,7 +619,6 @@ class ModifySecurityIPs extends Request
  */
 class CreateInstance extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -659,7 +633,6 @@ class CreateInstance extends Request
  */
 class DescribeRegions extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -688,7 +661,6 @@ class DescribeRegions extends Request
  */
 class DescribeTasks extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -709,7 +681,6 @@ class DescribeTasks extends Request
  */
 class ModifyAccountDescription extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -730,7 +701,6 @@ class ModifyAccountDescription extends Request
  */
 class RevokeAccountPrivilege extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -753,7 +723,6 @@ class RevokeAccountPrivilege extends Request
  */
 class DescribeInstanceResourceUsage extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -774,7 +743,6 @@ class DescribeInstanceResourceUsage extends Request
  */
 class TagResources extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -803,7 +771,6 @@ class TagResources extends Request
  */
 class DescribeDatabasePerformance extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -828,7 +795,6 @@ class DescribeDatabasePerformance extends Request
  */
 class DescribeDatabaseResourceUsage extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -847,7 +813,6 @@ class DescribeDatabaseResourceUsage extends Request
  */
 class DescribeDatabases extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -868,7 +833,6 @@ class DescribeDatabases extends Request
  */
 class DescribeMonitorItems extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -887,7 +851,6 @@ class DescribeMonitorItems extends Request
  */
 class DescribeDatabasePartitions extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -908,7 +871,6 @@ class DescribeDatabasePartitions extends Request
  */
 class AllocateInstancePublicConnection extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -935,7 +897,6 @@ class AllocateInstancePublicConnection extends Request
  */
 class ModifyBackupPolicy extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -958,5 +919,4 @@ class ModifyBackupPolicy extends Request
  */
 class ListTagResources extends Request
 {
-
 }

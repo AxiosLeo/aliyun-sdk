@@ -28,7 +28,6 @@ class V20150212
  */
 class GetDataOpenConfig extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -51,7 +50,6 @@ class GetDataOpenConfig extends Request
  */
 class GetUserData extends Request
 {
-
 }/**
  * @method $this setProductName($productName)
  * @method string getProductName()
@@ -62,5 +60,4 @@ class GetUserData extends Request
  */
 class GetProductDefine extends Request
 {
-
 }

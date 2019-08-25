@@ -27,50 +27,40 @@ class V20150227
  */
 class AllMalwareNum extends Request
 {
-
 }/**
  */
 class TodayAegisOnlineRate extends Request
 {
-
 }/**
  */
 class TodayMalwareNum extends Request
 {
-
 }/**
  */
 class TodayCrackIntercept extends Request
 {
-
 }/**
  */
 class TodayqpsByRegion extends Request
 {
-
 }/**
  */
 class TodayAllkbps extends Request
 {
-
 }/**
  */
 class CurrentDdosAttackNum extends Request
 {
-
 }/**
  */
 class TodayBackdoor extends Request
 {
-
 }/**
  */
 class TodayAllpps extends Request
 {
-
 }/**
  */
 class WebAttackNum extends Request
 {
-
 }

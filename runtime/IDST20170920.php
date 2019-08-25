@@ -26,5 +26,4 @@ class V20170920
  */
 class Search extends Request
 {
-
 }

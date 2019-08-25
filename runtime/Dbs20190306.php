@@ -37,7 +37,6 @@ class V20190306
  */
 class DescribeIncrementBackupList extends Request
 {
-
 }/**
  * @method $this setRegion($region)
  * @method string getRegion()
@@ -54,7 +53,6 @@ class DescribeIncrementBackupList extends Request
  */
 class DescribeBackupGatewayList extends Request
 {
-
 }/**
  * @method $this setRegion($region)
  * @method string getRegion()
@@ -77,7 +75,6 @@ class DescribeBackupGatewayList extends Request
  */
 class CreateBackupPlan extends Request
 {
-
 }/**
  * @method $this setBackupPlanId($backupPlanId)
  * @method string getBackupPlanId()
@@ -92,7 +89,6 @@ class CreateBackupPlan extends Request
  */
 class StopBackupPlan extends Request
 {
-
 }/**
  * @method $this setBackupPlanId($backupPlanId)
  * @method string getBackupPlanId()
@@ -105,7 +101,6 @@ class StopBackupPlan extends Request
  */
 class StartBackupPlan extends Request
 {
-
 }/**
  * @method $this setBackupPlanId($backupPlanId)
  * @method string getBackupPlanId()
@@ -122,7 +117,6 @@ class StartBackupPlan extends Request
  */
 class DescribeFullBackupList extends Request
 {
-
 }/**
  * @method $this setBackupPlanId($backupPlanId)
  * @method string getBackupPlanId()
@@ -141,7 +135,6 @@ class DescribeFullBackupList extends Request
  */
 class DescribeBackupPlanList extends Request
 {
-
 }/**
  * @method $this setBackupPlanId($backupPlanId)
  * @method string getBackupPlanId()
@@ -192,5 +185,4 @@ class DescribeBackupPlanList extends Request
  */
 class ConfigureBackupPlan extends Request
 {
-
 }

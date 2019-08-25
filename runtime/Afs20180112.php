@@ -42,7 +42,6 @@ class V20180112
  */
 class ConfigurationStyle extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -63,14 +62,12 @@ class ConfigurationStyle extends Request
  */
 class SetEarlyWarning extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
  */
 class DescribePersonMachineList extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -87,7 +84,6 @@ class DescribePersonMachineList extends Request
  */
 class CreateConfiguration extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -106,7 +102,6 @@ class CreateConfiguration extends Request
  */
 class AuthenticateSig extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -117,7 +112,6 @@ class AuthenticateSig extends Request
  */
 class AnalyzeNvc extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -130,7 +124,6 @@ class AnalyzeNvc extends Request
  */
 class UpdateConfigName extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -145,21 +138,18 @@ class UpdateConfigName extends Request
  */
 class DescribeCaptchaIpCity extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
  */
 class DescribeOrderInfo extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
  */
 class DescribeEarlyWarning extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -174,7 +164,6 @@ class DescribeEarlyWarning extends Request
  */
 class DescribeCaptchaDay extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -189,7 +178,6 @@ class DescribeCaptchaDay extends Request
  */
 class DescribeCaptchaMin extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -198,14 +186,12 @@ class DescribeCaptchaMin extends Request
  */
 class DescribeCaptchaOrder extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
  */
 class DescribeConfigName extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -218,5 +204,4 @@ class DescribeConfigName extends Request
  */
 class DescribeCaptchaRisk extends Request
 {
-
 }

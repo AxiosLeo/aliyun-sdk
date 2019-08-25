@@ -20,5 +20,4 @@ class V20171001
  */
 class GenerateSubUserMiniLoginToken extends Request
 {
-
 }

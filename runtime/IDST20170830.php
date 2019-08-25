@@ -26,5 +26,4 @@ class V20170830
  */
 class Image extends Request
 {
-
 }

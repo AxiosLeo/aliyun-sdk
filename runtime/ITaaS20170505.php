@@ -44,7 +44,6 @@ class V20170505
  */
 class RemoveIPSegment extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -57,7 +56,6 @@ class RemoveIPSegment extends Request
  */
 class GetWelcomePageURI extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -70,7 +68,6 @@ class GetWelcomePageURI extends Request
  */
 class GetRegisterHistoryList extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -83,7 +80,6 @@ class GetRegisterHistoryList extends Request
  */
 class GetBoxCodeList extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -98,7 +94,6 @@ class GetBoxCodeList extends Request
  */
 class SetWelcomePageURI extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -113,7 +108,6 @@ class SetWelcomePageURI extends Request
  */
 class RemoveRegisterBox extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -130,7 +124,6 @@ class RemoveRegisterBox extends Request
  */
 class AddIPSegment extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -143,7 +136,6 @@ class AddIPSegment extends Request
  */
 class GetRegisterBoxList extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -156,7 +148,6 @@ class GetRegisterBoxList extends Request
  */
 class CreateBoxCode extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -169,7 +160,6 @@ class CreateBoxCode extends Request
  */
 class GetEnterpriseConfig extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -184,7 +174,6 @@ class GetEnterpriseConfig extends Request
  */
 class RemoveBoxCode extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -203,7 +192,6 @@ class RemoveBoxCode extends Request
  */
 class UpdateEnterpriseConfig extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -222,7 +210,6 @@ class UpdateEnterpriseConfig extends Request
  */
 class UpdateIPSegment extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -239,7 +226,6 @@ class UpdateIPSegment extends Request
  */
 class UpdateRoomName extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -252,7 +238,6 @@ class UpdateRoomName extends Request
  */
 class GetRegisterBoxNumber extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -265,7 +250,6 @@ class GetRegisterBoxNumber extends Request
  */
 class GetIPSegmentsList extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -282,5 +266,4 @@ class GetIPSegmentsList extends Request
  */
 class CreateEnterprise extends Request
 {
-
 }

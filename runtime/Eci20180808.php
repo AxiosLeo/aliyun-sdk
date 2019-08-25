@@ -44,7 +44,6 @@ class V20180808
  */
 class DescribeContainerGroupPrice extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -75,7 +74,6 @@ class DescribeContainerGroupPrice extends Request
  */
 class DescribeContainerGroups extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -92,7 +90,6 @@ class DescribeContainerGroups extends Request
  */
 class CreateContainerGroupFromTemplate extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -113,7 +110,6 @@ class CreateContainerGroupFromTemplate extends Request
  */
 class ExecContainerCommand extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -130,7 +126,6 @@ class ExecContainerCommand extends Request
  */
 class UpdateContainerGroupByTemplate extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -147,7 +142,6 @@ class UpdateContainerGroupByTemplate extends Request
  */
 class ExportContainerGroupTemplate extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -166,7 +160,6 @@ class ExportContainerGroupTemplate extends Request
  */
 class DescribeMultiContainerGroupMetric extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -225,7 +218,6 @@ class DescribeMultiContainerGroupMetric extends Request
  */
 class CreateContainerGroup extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -248,7 +240,6 @@ class CreateContainerGroup extends Request
  */
 class DescribeContainerLog extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -271,7 +262,6 @@ class DescribeContainerLog extends Request
  */
 class DescribeContainerGroupMetric extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -290,7 +280,6 @@ class DescribeContainerGroupMetric extends Request
  */
 class DeleteContainerGroup extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -331,7 +320,6 @@ class DeleteContainerGroup extends Request
  */
 class UpdateContainerGroup extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -350,5 +338,4 @@ class UpdateContainerGroup extends Request
  */
 class RestartContainerGroup extends Request
 {
-
 }

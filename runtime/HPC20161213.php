@@ -36,7 +36,6 @@ class V20161213
  */
 class ModifyJumpserverPassword extends Request
 {
-
 }/**
  * @method $this setTOKEN($tOKEN)
  * @method string getTOKEN()
@@ -49,7 +48,6 @@ class ModifyJumpserverPassword extends Request
  */
 class DescribeInstances extends Request
 {
-
 }/**
  * @method $this setTOKEN($tOKEN)
  * @method string getTOKEN()
@@ -58,7 +56,6 @@ class DescribeInstances extends Request
  */
 class DescribeInstancesInSecurityGroup extends Request
 {
-
 }/**
  * @method $this setTOKEN($tOKEN)
  * @method string getTOKEN()
@@ -71,7 +68,6 @@ class DescribeInstancesInSecurityGroup extends Request
  */
 class StartJumpserver extends Request
 {
-
 }/**
  * @method $this setTOKEN($tOKEN)
  * @method string getTOKEN()
@@ -84,7 +80,6 @@ class StartJumpserver extends Request
  */
 class ModifyInstancePassword extends Request
 {
-
 }/**
  * @method $this setTOKEN($tOKEN)
  * @method string getTOKEN()
@@ -95,7 +90,6 @@ class ModifyInstancePassword extends Request
  */
 class RebootInstance extends Request
 {
-
 }/**
  * @method $this setTOKEN($tOKEN)
  * @method string getTOKEN()
@@ -108,7 +102,6 @@ class RebootInstance extends Request
  */
 class StopJumpserver extends Request
 {
-
 }/**
  * @method $this setTOKEN($tOKEN)
  * @method string getTOKEN()
@@ -119,7 +112,6 @@ class StopJumpserver extends Request
  */
 class DescribeSecurityGroupAttribute extends Request
 {
-
 }/**
  * @method $this setTOKEN($tOKEN)
  * @method string getTOKEN()
@@ -132,7 +124,6 @@ class DescribeSecurityGroupAttribute extends Request
  */
 class RebootJumpserver extends Request
 {
-
 }/**
  * @method $this setTOKEN($tOKEN)
  * @method string getTOKEN()
@@ -149,7 +140,6 @@ class RebootJumpserver extends Request
  */
 class RevokeSecurityGroup extends Request
 {
-
 }/**
  * @method $this setTOKEN($tOKEN)
  * @method string getTOKEN()
@@ -166,5 +156,4 @@ class RevokeSecurityGroup extends Request
  */
 class AuthorizeSecurityGroup extends Request
 {
-
 }

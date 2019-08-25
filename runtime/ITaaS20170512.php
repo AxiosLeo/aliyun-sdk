@@ -106,7 +106,6 @@ class V20170512
  */
 class TrustDeviceLostClient extends Request
 {
-
 }/**
  * @method $this setTraceId($traceId)
  * @method string getTraceId()
@@ -115,7 +114,6 @@ class TrustDeviceLostClient extends Request
  */
 class ProduceInstance extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -128,7 +126,6 @@ class ProduceInstance extends Request
  */
 class CheckBuyShareScreen extends Request
 {
-
 }/**
  * @method $this setSid($sid)
  * @method string getSid()
@@ -139,7 +136,6 @@ class CheckBuyShareScreen extends Request
  */
 class DeleteOpenAgentCommand extends Request
 {
-
 }/**
  * @method $this setSid($sid)
  * @method string getSid()
@@ -148,7 +144,6 @@ class DeleteOpenAgentCommand extends Request
  */
 class CheckCid extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -163,7 +158,6 @@ class CheckCid extends Request
  */
 class RemoveIPSegment extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -176,7 +170,6 @@ class RemoveIPSegment extends Request
  */
 class GetWelcomePageURI extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -189,7 +182,6 @@ class GetWelcomePageURI extends Request
  */
 class GetRegisterHistoryList extends Request
 {
-
 }/**
  * @method $this setSid($sid)
  * @method string getSid()
@@ -212,7 +204,6 @@ class GetRegisterHistoryList extends Request
  */
 class ListByUidAndCidClient extends Request
 {
-
 }/**
  * @method $this setSid($sid)
  * @method string getSid()
@@ -237,7 +228,6 @@ class ListByUidAndCidClient extends Request
  */
 class FeedbackCommand extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -250,7 +240,6 @@ class FeedbackCommand extends Request
  */
 class GetBoxCodeList extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -265,7 +254,6 @@ class GetBoxCodeList extends Request
  */
 class SetWelcomePageURI extends Request
 {
-
 }/**
  * @method $this setOsType($osType)
  * @method string getOsType()
@@ -278,7 +266,6 @@ class SetWelcomePageURI extends Request
  */
 class AliyunADLogin extends Request
 {
-
 }/**
  * @method $this setSid($sid)
  * @method string getSid()
@@ -311,7 +298,6 @@ class AliyunADLogin extends Request
  */
 class PageFindNetDeviceByDTO extends Request
 {
-
 }/**
  * @method $this setSid($sid)
  * @method string getSid()
@@ -332,7 +318,6 @@ class PageFindNetDeviceByDTO extends Request
  */
 class NetDeviceFreeze extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -347,7 +332,6 @@ class NetDeviceFreeze extends Request
  */
 class RemoveRegisterBox extends Request
 {
-
 }/**
  * @method $this setSessionId($sessionId)
  * @method string getSessionId()
@@ -374,7 +358,6 @@ class RemoveRegisterBox extends Request
  */
 class ShareV2SenderRegister extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -393,7 +376,6 @@ class ShareV2SenderRegister extends Request
  */
 class AddIPSegment extends Request
 {
-
 }/**
  * @method $this setSid($sid)
  * @method string getSid()
@@ -426,7 +408,6 @@ class AddIPSegment extends Request
  */
 class SaveOrUpdateCommandTaskByCidAndId extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -439,7 +420,6 @@ class SaveOrUpdateCommandTaskByCidAndId extends Request
  */
 class GetRegisterBoxList extends Request
 {
-
 }/**
  * @method $this setSid($sid)
  * @method string getSid()
@@ -476,7 +456,6 @@ class GetRegisterBoxList extends Request
  */
 class TrustDeviceRegisterClient extends Request
 {
-
 }/**
  * @method $this setSid($sid)
  * @method string getSid()
@@ -493,7 +472,6 @@ class TrustDeviceRegisterClient extends Request
  */
 class HardwareDataCollection extends Request
 {
-
 }/**
  * @method $this setSid($sid)
  * @method string getSid()
@@ -506,7 +484,6 @@ class HardwareDataCollection extends Request
  */
 class ExecuteCommandTaskByCidAndId extends Request
 {
-
 }/**
  * @method $this setSid($sid)
  * @method string getSid()
@@ -523,7 +500,6 @@ class ExecuteCommandTaskByCidAndId extends Request
  */
 class SoftwareDataCollection extends Request
 {
-
 }/**
  * @method $this setSid($sid)
  * @method string getSid()
@@ -544,7 +520,6 @@ class SoftwareDataCollection extends Request
  */
 class SaveOrUpdateOpenAgentCommand extends Request
 {
-
 }/**
  * @method $this setSid($sid)
  * @method string getSid()
@@ -567,7 +542,6 @@ class SaveOrUpdateOpenAgentCommand extends Request
  */
 class LogOut extends Request
 {
-
 }/**
  * @method $this setCallerParentId($callerParentId)
  * @method string getCallerParentId()
@@ -594,7 +568,6 @@ class LogOut extends Request
  */
 class UpdateOpenUserByDTO extends Request
 {
-
 }/**
  * @method $this setSid($sid)
  * @method string getSid()
@@ -615,7 +588,6 @@ class UpdateOpenUserByDTO extends Request
  */
 class FetchCommand extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -628,7 +600,6 @@ class FetchCommand extends Request
  */
 class CreateBoxCode extends Request
 {
-
 }/**
  * @method $this setSid($sid)
  * @method string getSid()
@@ -649,14 +620,12 @@ class CreateBoxCode extends Request
  */
 class NetDeviceDisconnectionService extends Request
 {
-
 }/**
  * @method $this setSid($sid)
  * @method string getSid()
  */
 class ExportOpenUserByDTO extends Request
 {
-
 }/**
  * @method $this setLanguage($language)
  * @method string getLanguage()
@@ -675,7 +644,6 @@ class ExportOpenUserByDTO extends Request
  */
 class OAAuthSMSCodeService extends Request
 {
-
 }/**
  * @method $this setLanguage($language)
  * @method string getLanguage()
@@ -692,7 +660,6 @@ class OAAuthSMSCodeService extends Request
  */
 class AppFunctionModuleService extends Request
 {
-
 }/**
  * @method $this setTraceId($traceId)
  * @method string getTraceId()
@@ -701,7 +668,6 @@ class AppFunctionModuleService extends Request
  */
 class ReleaseInstance extends Request
 {
-
 }/**
  * @method $this setTraceId($traceId)
  * @method string getTraceId()
@@ -710,7 +676,6 @@ class ReleaseInstance extends Request
  */
 class ResumeInstance extends Request
 {
-
 }/**
  * @method $this setSid($sid)
  * @method string getSid()
@@ -737,7 +702,6 @@ class ResumeInstance extends Request
  */
 class InitOTP extends Request
 {
-
 }/**
  * @method $this setSid($sid)
  * @method string getSid()
@@ -788,7 +752,6 @@ class InitOTP extends Request
  */
 class HeartbeatService extends Request
 {
-
 }/**
  * @method $this setSid($sid)
  * @method string getSid()
@@ -821,7 +784,6 @@ class HeartbeatService extends Request
  */
 class MdmEnrollStart extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -834,7 +796,6 @@ class MdmEnrollStart extends Request
  */
 class GetCompanyId4BoxActived extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -849,7 +810,6 @@ class GetCompanyId4BoxActived extends Request
  */
 class RemoveBoxCode extends Request
 {
-
 }/**
  * @method $this setSid($sid)
  * @method string getSid()
@@ -874,7 +834,6 @@ class RemoveBoxCode extends Request
  */
 class TrustDeviceDeleteClient extends Request
 {
-
 }/**
  * @method $this setSid($sid)
  * @method string getSid()
@@ -891,7 +850,6 @@ class TrustDeviceDeleteClient extends Request
  */
 class GetOpenNacByCid extends Request
 {
-
 }/**
  * @method $this setSid($sid)
  * @method string getSid()
@@ -910,7 +868,6 @@ class GetOpenNacByCid extends Request
  */
 class ImportOpenUserByFile extends Request
 {
-
 }/**
  * @method $this setSid($sid)
  * @method string getSid()
@@ -933,7 +890,6 @@ class ImportOpenUserByFile extends Request
  */
 class AuthUpgradeService extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -952,7 +908,6 @@ class AuthUpgradeService extends Request
  */
 class UpdateEnterpriseConfig extends Request
 {
-
 }/**
  * @method $this setId($id)
  * @method string getId()
@@ -961,7 +916,6 @@ class UpdateEnterpriseConfig extends Request
  */
 class TrustDeviceDeteleService extends Request
 {
-
 }/**
  * @method $this setSid($sid)
  * @method string getSid()
@@ -982,7 +936,6 @@ class TrustDeviceDeteleService extends Request
  */
 class TrustDeviceOperate extends Request
 {
-
 }/**
  * @method $this setLanguage($language)
  * @method string getLanguage()
@@ -999,7 +952,6 @@ class TrustDeviceOperate extends Request
  */
 class OASendSMSService extends Request
 {
-
 }/**
  * @method $this setSid($sid)
  * @method string getSid()
@@ -1026,7 +978,6 @@ class OASendSMSService extends Request
  */
 class SyncOTP extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -1047,7 +998,6 @@ class SyncOTP extends Request
  */
 class UpdateIPSegment extends Request
 {
-
 }/**
  * @method $this setLanguage($language)
  * @method string getLanguage()
@@ -1066,7 +1016,6 @@ class UpdateIPSegment extends Request
  */
 class OAPCLogOutService extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -1081,7 +1030,6 @@ class OAPCLogOutService extends Request
  */
 class CheckIPSegment extends Request
 {
-
 }/**
  * @method $this setSid($sid)
  * @method string getSid()
@@ -1104,7 +1052,6 @@ class CheckIPSegment extends Request
  */
 class PageFindDto extends Request
 {
-
 }/**
  * @method $this setSid($sid)
  * @method string getSid()
@@ -1125,7 +1072,6 @@ class PageFindDto extends Request
  */
 class UpateOpenNacByIdAndCid extends Request
 {
-
 }/**
  * @method $this setSid($sid)
  * @method string getSid()
@@ -1148,7 +1094,6 @@ class UpateOpenNacByIdAndCid extends Request
  */
 class PageFindTrustDeviceByDTO extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -1165,7 +1110,6 @@ class PageFindTrustDeviceByDTO extends Request
  */
 class UpdateRoomName extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -1178,7 +1122,6 @@ class UpdateRoomName extends Request
  */
 class GetIPSegmentStatus extends Request
 {
-
 }/**
  * @method $this setSid($sid)
  * @method string getSid()
@@ -1211,7 +1154,6 @@ class GetIPSegmentStatus extends Request
  */
 class PageFindByDTO extends Request
 {
-
 }/**
  * @method $this setTraceId($traceId)
  * @method string getTraceId()
@@ -1220,7 +1162,6 @@ class PageFindByDTO extends Request
  */
 class CeaseInstance extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -1235,7 +1176,6 @@ class CeaseInstance extends Request
  */
 class SetIPSegmentStatus extends Request
 {
-
 }/**
  * @method $this setGuestUserId($guestUserId)
  * @method string getGuestUserId()
@@ -1260,7 +1200,6 @@ class SetIPSegmentStatus extends Request
  */
 class ShareV2SendMessageUrl extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -1273,7 +1212,6 @@ class ShareV2SendMessageUrl extends Request
  */
 class GetRegisterBoxNumber extends Request
 {
-
 }/**
  * @method $this setClientCID($clientCID)
  * @method string getClientCID()
@@ -1290,7 +1228,6 @@ class GetRegisterBoxNumber extends Request
  */
 class UpgradeService extends Request
 {
-
 }/**
  * @method $this setLanguage($language)
  * @method string getLanguage()
@@ -1307,7 +1244,6 @@ class UpgradeService extends Request
  */
 class OARefreshService extends Request
 {
-
 }/**
  * @method $this setSid($sid)
  * @method string getSid()
@@ -1328,7 +1264,6 @@ class OARefreshService extends Request
  */
 class SetAuthType extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -1341,7 +1276,6 @@ class SetAuthType extends Request
  */
 class GetIPSegmentsList extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -1354,5 +1288,4 @@ class GetIPSegmentsList extends Request
  */
 class CheckBuyVideoConference extends Request
 {
-
 }

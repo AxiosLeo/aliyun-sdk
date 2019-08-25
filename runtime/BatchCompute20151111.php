@@ -60,7 +60,6 @@ class V20151111
  */
 class ModifyCluster extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -73,14 +72,12 @@ class ModifyCluster extends Request
  */
 class DeleteClusterInstance extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
  */
 class CreateCluster extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -91,7 +88,6 @@ class CreateCluster extends Request
  */
 class GetTask extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -100,7 +96,6 @@ class GetTask extends Request
  */
 class DeleteCluster extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -109,7 +104,6 @@ class DeleteCluster extends Request
  */
 class GetJobDescription extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -120,7 +114,6 @@ class GetJobDescription extends Request
  */
 class ListInstances extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -129,7 +122,6 @@ class ListInstances extends Request
  */
 class CancelImage extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -140,12 +132,10 @@ class CancelImage extends Request
  */
 class ListClusterInstances extends Request
 {
-
 }/**
  */
 class CreateApp extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -154,21 +144,18 @@ class CreateApp extends Request
  */
 class GetJob extends Request
 {
-
 }/**
  * @method $this setResourceName($resourceName)
  * @method string getResourceName()
  */
 class DeleteApp extends Request
 {
-
 }/**
  * @method $this setResourceName($resourceName)
  * @method string getResourceName()
  */
 class ModifyApp extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -179,7 +166,6 @@ class ModifyApp extends Request
  */
 class ReportTaskStatus extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -188,7 +174,6 @@ class ReportTaskStatus extends Request
  */
 class StartJob extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -199,12 +184,10 @@ class StartJob extends Request
  */
 class PollForTask extends Request
 {
-
 }/**
  */
 class ListApps extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -213,7 +196,6 @@ class ListApps extends Request
  */
 class DeleteProject extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -222,7 +204,6 @@ class DeleteProject extends Request
  */
 class GetCluster extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -231,7 +212,6 @@ class GetCluster extends Request
  */
 class DeleteJob extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -242,7 +222,6 @@ class DeleteJob extends Request
  */
 class ReportWorkerStatus extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -255,14 +234,12 @@ class ReportWorkerStatus extends Request
  */
 class RecreateClusterInstance extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
  */
 class CreateJob extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -275,7 +252,6 @@ class CreateJob extends Request
  */
 class GetInstance extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -284,7 +260,6 @@ class GetInstance extends Request
  */
 class ChangeJobPriority extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -293,14 +268,12 @@ class ChangeJobPriority extends Request
  */
 class StopJob extends Request
 {
-
 }/**
  * @method $this setResourceName($resourceName)
  * @method string getResourceName()
  */
 class GetApp extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -309,14 +282,12 @@ class GetApp extends Request
  */
 class GetImage extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
  */
 class ListImages extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -325,38 +296,32 @@ class ListImages extends Request
  */
 class DeleteImage extends Request
 {
-
 }/**
  */
 class ListAvailableInstanceType extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
  */
 class ListJobs extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
  */
 class GetQuota extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
  */
 class ListClusters extends Request
 {
-
 }/**
  */
 class ListRegions extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -365,14 +330,12 @@ class ListRegions extends Request
  */
 class ListTasks extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
  */
 class CreateImage extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -385,7 +348,6 @@ class CreateImage extends Request
  */
 class RenewClusterInstance extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -398,5 +360,4 @@ class RenewClusterInstance extends Request
  */
 class GetClusterInstance extends Request
 {
-
 }

@@ -22,7 +22,6 @@ class V20170620
  */
 class GetProductGroupsAction extends Request
 {
-
 }/**
  * @method $this setTemplateId($templateId)
  * @method int getTemplateId()
@@ -33,7 +32,6 @@ class GetProductGroupsAction extends Request
  */
 class ListAlertTemplate extends Request
 {
-
 }/**
  * @method $this setTemplateId($templateId)
  * @method string getTemplateId()
@@ -42,7 +40,6 @@ class ListAlertTemplate extends Request
  */
 class UpdateTemplateApplyGroups extends Request
 {
-
 }/**
  * @method $this setTemplateId($templateId)
  * @method int getTemplateId()
@@ -67,12 +64,10 @@ class UpdateTemplateApplyGroups extends Request
  */
 class PutAlertTemplate extends Request
 {
-
 }/**
  * @method $this setTemplateId($templateId)
  * @method int getTemplateId()
  */
 class DeleteAlertTemplate extends Request
 {
-
 }

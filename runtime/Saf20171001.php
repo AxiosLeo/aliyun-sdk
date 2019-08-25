@@ -37,7 +37,6 @@ class V20171001
  */
 class SetWarnNum extends Request
 {
-
 }/**
  * @method $this setUserId($userId)
  * @method int getUserId()
@@ -48,5 +47,4 @@ class SetWarnNum extends Request
  */
 class GetUserWarnSetting extends Request
 {
-
 }

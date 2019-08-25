@@ -48,35 +48,30 @@ class V20180409
  */
 class DeleteGroups extends Request
 {
-
 }/**
  * @method $this setClientInfo($clientInfo)
  * @method string getClientInfo()
  */
 class FileAsyncScan extends Request
 {
-
 }/**
  * @method $this setClientInfo($clientInfo)
  * @method string getClientInfo()
  */
 class TextScan extends Request
 {
-
 }/**
  * @method $this setClientInfo($clientInfo)
  * @method string getClientInfo()
  */
 class VideoAsyncScan extends Request
 {
-
 }/**
  * @method $this setClientInfo($clientInfo)
  * @method string getClientInfo()
  */
 class ImageAsyncScanResults extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -85,35 +80,30 @@ class ImageAsyncScanResults extends Request
  */
 class SearchPerson extends Request
 {
-
 }/**
  * @method $this setClientInfo($clientInfo)
  * @method string getClientInfo()
  */
 class ImageScanFeedback extends Request
 {
-
 }/**
  * @method $this setClientInfo($clientInfo)
  * @method string getClientInfo()
  */
 class AddSimilarityImage extends Request
 {
-
 }/**
  * @method $this setClientInfo($clientInfo)
  * @method string getClientInfo()
  */
 class FileAsyncScanResults extends Request
 {
-
 }/**
  * @method $this setClientInfo($clientInfo)
  * @method string getClientInfo()
  */
 class VideoFeedback extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -122,7 +112,6 @@ class VideoFeedback extends Request
  */
 class AddPerson extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -131,28 +120,24 @@ class AddPerson extends Request
  */
 class GetPerson extends Request
 {
-
 }/**
  * @method $this setClientInfo($clientInfo)
  * @method string getClientInfo()
  */
 class ImageSyncScan extends Request
 {
-
 }/**
  * @method $this setClientInfo($clientInfo)
  * @method string getClientInfo()
  */
 class ImageAsyncScan extends Request
 {
-
 }/**
  * @method $this setClientInfo($clientInfo)
  * @method string getClientInfo()
  */
 class VoiceAsyncScan extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -161,7 +146,6 @@ class VoiceAsyncScan extends Request
  */
 class DeleteFaces extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -170,7 +154,6 @@ class DeleteFaces extends Request
  */
 class DeletePerson extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -179,7 +162,6 @@ class DeletePerson extends Request
  */
 class SetPerson extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -188,21 +170,18 @@ class SetPerson extends Request
  */
 class AddFaces extends Request
 {
-
 }/**
  * @method $this setClientInfo($clientInfo)
  * @method string getClientInfo()
  */
 class TextFeedback extends Request
 {
-
 }/**
  * @method $this setClientInfo($clientInfo)
  * @method string getClientInfo()
  */
 class DeleteSimilarityImage extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -211,7 +190,6 @@ class DeleteSimilarityImage extends Request
  */
 class GetPersons extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -220,7 +198,6 @@ class GetPersons extends Request
  */
 class GetGroups extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -229,7 +206,6 @@ class GetGroups extends Request
  */
 class AddGroups extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -238,19 +214,16 @@ class AddGroups extends Request
  */
 class GetFaces extends Request
 {
-
 }/**
  * @method $this setClientInfo($clientInfo)
  * @method string getClientInfo()
  */
 class VoiceAsyncScanResults extends Request
 {
-
 }/**
  * @method $this setClientInfo($clientInfo)
  * @method string getClientInfo()
  */
 class VideoAsyncScanResults extends Request
 {
-
 }

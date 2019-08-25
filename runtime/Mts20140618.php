@@ -187,7 +187,6 @@ class V20140618
  */
 class DeleteMcuTemplate extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -206,7 +205,6 @@ class DeleteMcuTemplate extends Request
  */
 class UpdateWaterMarkTemplate extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -221,7 +219,6 @@ class UpdateWaterMarkTemplate extends Request
  */
 class QueryFacerecogJobList extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -238,7 +235,6 @@ class QueryFacerecogJobList extends Request
  */
 class AddCategory extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -255,14 +251,12 @@ class AddCategory extends Request
  */
 class UpdateMediaPublishState extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
  */
 class DescribeMtsUserResourcePackage extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -277,7 +271,6 @@ class DescribeMtsUserResourcePackage extends Request
  */
 class QueryMcuJob extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -298,7 +291,6 @@ class QueryMcuJob extends Request
  */
 class SubmitTerrorismJob extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -317,7 +309,6 @@ class SubmitTerrorismJob extends Request
  */
 class SubmitImageQualityJob extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -332,7 +323,6 @@ class SubmitImageQualityJob extends Request
  */
 class QueryVideoPoseJobList extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -347,7 +337,6 @@ class QueryVideoPoseJobList extends Request
  */
 class QueryMcuTemplate extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -362,7 +351,6 @@ class QueryMcuTemplate extends Request
  */
 class QueryMediaInfoJobList extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -385,7 +373,6 @@ class QueryMediaInfoJobList extends Request
  */
 class ListMediaWorkflowExecutions extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -400,7 +387,6 @@ class ListMediaWorkflowExecutions extends Request
  */
 class CancelJob extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -415,7 +401,6 @@ class CancelJob extends Request
  */
 class QueryVideoSummaryJobList extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -438,7 +423,6 @@ class QueryVideoSummaryJobList extends Request
  */
 class UpdateTerrorismPipeline extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -453,7 +437,6 @@ class UpdateTerrorismPipeline extends Request
  */
 class QueryPipelineList extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -474,7 +457,6 @@ class QueryPipelineList extends Request
  */
 class SubmitCoverJob extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -489,7 +471,6 @@ class SubmitCoverJob extends Request
  */
 class DeleteMediaWorkflow extends Request
 {
-
 }/**
  * @method $this setInterrupt($interrupt)
  * @method bool getInterrupt()
@@ -522,7 +503,6 @@ class DeleteMediaWorkflow extends Request
  */
 class CheckResource extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -537,7 +517,6 @@ class CheckResource extends Request
  */
 class QueryCensorJobList extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method string getOwnerId()
@@ -560,7 +539,6 @@ class QueryCensorJobList extends Request
  */
 class GetLicense extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -577,7 +555,6 @@ class GetLicense extends Request
  */
 class UpdateMediaCover extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -592,7 +569,6 @@ class UpdateMediaCover extends Request
  */
 class QueryCoverPipelineList extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -611,7 +587,6 @@ class QueryCoverPipelineList extends Request
  */
 class ReportFacerecogJobResult extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -630,7 +605,6 @@ class ReportFacerecogJobResult extends Request
  */
 class AddCensorPipeline extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -649,7 +623,6 @@ class AddCensorPipeline extends Request
  */
 class RegisterMediaDetailScenario extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -664,7 +637,6 @@ class RegisterMediaDetailScenario extends Request
  */
 class QueryAsrPipelineList extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -681,7 +653,6 @@ class QueryAsrPipelineList extends Request
  */
 class UpdateMcuTemplate extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method string getOwnerId()
@@ -694,7 +665,6 @@ class UpdateMcuTemplate extends Request
  */
 class QueryAuthConfig extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -717,7 +687,6 @@ class QueryAuthConfig extends Request
  */
 class UpdateCensorPipeline extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -742,7 +711,6 @@ class UpdateCensorPipeline extends Request
  */
 class ListJob extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -761,7 +729,6 @@ class ListJob extends Request
  */
 class ReportTagJobResult extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -780,7 +747,6 @@ class ReportTagJobResult extends Request
  */
 class ListTerrorismPipeline extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -795,7 +761,6 @@ class ListTerrorismPipeline extends Request
  */
 class QueryEditingJobList extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method string getOwnerId()
@@ -808,7 +773,6 @@ class QueryEditingJobList extends Request
  */
 class PlayerAuth extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -823,7 +787,6 @@ class PlayerAuth extends Request
  */
 class QueryVideoSplitJobList extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -842,7 +805,6 @@ class QueryVideoSplitJobList extends Request
  */
 class AddPornPipeline extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -857,7 +819,6 @@ class AddPornPipeline extends Request
  */
 class DeleteMCTemplate extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -874,7 +835,6 @@ class DeleteMCTemplate extends Request
  */
 class UpdateMediaCategory extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -899,7 +859,6 @@ class UpdateMediaCategory extends Request
  */
 class SubmitImageSearchJob extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -914,7 +873,6 @@ class SubmitImageSearchJob extends Request
  */
 class QueryMediaWorkflowList extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -933,7 +891,6 @@ class QueryMediaWorkflowList extends Request
  */
 class ReportFpShotJobResult extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -948,7 +905,6 @@ class ReportFpShotJobResult extends Request
  */
 class QueryMediaDetailJobList extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -969,7 +925,6 @@ class QueryMediaDetailJobList extends Request
  */
 class SubmitVideoPoseJob extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -988,7 +943,6 @@ class SubmitVideoPoseJob extends Request
  */
 class ReportTerrorismJobResult extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1009,7 +963,6 @@ class ReportTerrorismJobResult extends Request
  */
 class SubmitMediaDetailJob extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method string getOwnerId()
@@ -1028,7 +981,6 @@ class SubmitMediaDetailJob extends Request
  */
 class CreateSession extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1049,7 +1001,6 @@ class CreateSession extends Request
  */
 class SubmitVideoSplitJob extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1072,7 +1023,6 @@ class SubmitVideoSplitJob extends Request
  */
 class SubmitJobs extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1087,7 +1037,6 @@ class SubmitJobs extends Request
  */
 class UnbindOutputBucket extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1102,7 +1051,6 @@ class UnbindOutputBucket extends Request
  */
 class QueryTemplateList extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1123,7 +1071,6 @@ class QueryTemplateList extends Request
  */
 class SubmitAnnotationJob extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1142,7 +1089,6 @@ class SubmitAnnotationJob extends Request
  */
 class ListCensorPipeline extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1163,7 +1109,6 @@ class ListCensorPipeline extends Request
  */
 class SubmitSubtitleJob extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1178,7 +1123,6 @@ class SubmitSubtitleJob extends Request
  */
 class QueryMediaWorkflowExecutionList extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1197,7 +1141,6 @@ class QueryMediaWorkflowExecutionList extends Request
  */
 class SearchMediaWorkflow extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method string getOwnerId()
@@ -1226,7 +1169,6 @@ class SearchMediaWorkflow extends Request
  */
 class PlayInfo extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1253,7 +1195,6 @@ class PlayInfo extends Request
  */
 class QueryCoverJobList extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1276,7 +1217,6 @@ class QueryCoverJobList extends Request
  */
 class QueryMediaListByURL extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1291,7 +1231,6 @@ class QueryMediaListByURL extends Request
  */
 class DeleteWaterMarkTemplate extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1314,7 +1253,6 @@ class DeleteWaterMarkTemplate extends Request
  */
 class SubmitEditingJobs extends Request
 {
-
 }/**
  * @method $this setInterrupt($interrupt)
  * @method bool getInterrupt()
@@ -1341,7 +1279,6 @@ class SubmitEditingJobs extends Request
  */
 class LogicalDeleteResource extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1356,7 +1293,6 @@ class LogicalDeleteResource extends Request
  */
 class ActivateMediaWorkflow extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1377,7 +1313,6 @@ class ActivateMediaWorkflow extends Request
  */
 class ListMedia extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method string getOwnerId()
@@ -1392,7 +1327,6 @@ class ListMedia extends Request
  */
 class RefreshCdnDomainConfigsCache extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1413,7 +1347,6 @@ class RefreshCdnDomainConfigsCache extends Request
  */
 class SubmitVideoGifJob extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1428,7 +1361,6 @@ class SubmitVideoGifJob extends Request
  */
 class DeleteCategory extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1449,7 +1381,6 @@ class DeleteCategory extends Request
  */
 class RegisterMediaDetailPerson extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1472,7 +1403,6 @@ class RegisterMediaDetailPerson extends Request
  */
 class SubmitAnalysisJob extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1491,7 +1421,6 @@ class SubmitAnalysisJob extends Request
  */
 class AddAsrPipeline extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1526,7 +1455,6 @@ class AddAsrPipeline extends Request
  */
 class AddMCTemplate extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1553,7 +1481,6 @@ class AddMCTemplate extends Request
  */
 class QuerySnapshotJobList extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1572,7 +1499,6 @@ class QuerySnapshotJobList extends Request
  */
 class QueryMediaCensorJobDetail extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1591,7 +1517,6 @@ class QueryMediaCensorJobDetail extends Request
  */
 class SearchWaterMarkTemplate extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1610,7 +1535,6 @@ class SearchWaterMarkTemplate extends Request
  */
 class ListCoverPipeline extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1633,7 +1557,6 @@ class ListCoverPipeline extends Request
  */
 class UpdateAsrPipeline extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method string getOwnerId()
@@ -1648,7 +1571,6 @@ class UpdateAsrPipeline extends Request
  */
 class GetPackage extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1663,7 +1585,6 @@ class GetPackage extends Request
  */
 class QueryVideoGifJobList extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1688,7 +1609,6 @@ class QueryVideoGifJobList extends Request
  */
 class SubmitFpCompareJob extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1709,7 +1629,6 @@ class SubmitFpCompareJob extends Request
  */
 class AddCoverPipeline extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method string getOwnerId()
@@ -1726,7 +1645,6 @@ class AddCoverPipeline extends Request
  */
 class SetAuthConfig extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1753,7 +1671,6 @@ class SetAuthConfig extends Request
  */
 class QueryMCJobList extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1770,7 +1687,6 @@ class QueryMCJobList extends Request
  */
 class AddMediaTag extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1789,7 +1705,6 @@ class AddMediaTag extends Request
  */
 class AddMediaWorkflow extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1808,7 +1723,6 @@ class AddMediaWorkflow extends Request
  */
 class ReportAnnotationJobResult extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1823,7 +1737,6 @@ class ReportAnnotationJobResult extends Request
  */
 class QueryMediaFpDeleteJobList extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1848,7 +1761,6 @@ class QueryMediaFpDeleteJobList extends Request
  */
 class SubmitMCJob extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1877,7 +1789,6 @@ class SubmitMCJob extends Request
  */
 class SubmitMediaCensorJob extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1900,7 +1811,6 @@ class SubmitMediaCensorJob extends Request
  */
 class UpdatePornPipeline extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1915,7 +1825,6 @@ class UpdatePornPipeline extends Request
  */
 class DeactivateMediaWorkflow extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1936,7 +1845,6 @@ class DeactivateMediaWorkflow extends Request
  */
 class QueryFpImportResult extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1965,7 +1873,6 @@ class QueryFpImportResult extends Request
  */
 class QueryFpShotJobList extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1984,7 +1891,6 @@ class QueryFpShotJobList extends Request
  */
 class SearchPipeline extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2009,7 +1915,6 @@ class SearchPipeline extends Request
  */
 class UpdateCoverPipeline extends Request
 {
-
 }/**
  * @method $this setInterrupt($interrupt)
  * @method bool getInterrupt()
@@ -2036,7 +1941,6 @@ class UpdateCoverPipeline extends Request
  */
 class PhysicalDeleteResource extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2061,7 +1965,6 @@ class PhysicalDeleteResource extends Request
  */
 class UpdateMedia extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2080,7 +1983,6 @@ class UpdateMedia extends Request
  */
 class ReportPornJobResult extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2095,7 +1997,6 @@ class ReportPornJobResult extends Request
  */
 class QueryFpCompareJobList extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2114,7 +2015,6 @@ class QueryFpCompareJobList extends Request
  */
 class ListPornPipeline extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2137,7 +2037,6 @@ class ListPornPipeline extends Request
  */
 class SubmitMcuJob extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2152,7 +2051,6 @@ class SubmitMcuJob extends Request
  */
 class QueryPornJobList extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2167,7 +2065,6 @@ class QueryPornJobList extends Request
  */
 class DeleteTemplate extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2184,7 +2081,6 @@ class DeleteTemplate extends Request
  */
 class UpdateMediaWorkflow extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2199,7 +2095,6 @@ class UpdateMediaWorkflow extends Request
  */
 class QueryTerrorismJobList extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2220,7 +2115,6 @@ class QueryTerrorismJobList extends Request
  */
 class SubmitFpShotJob extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2243,7 +2137,6 @@ class SubmitFpShotJob extends Request
  */
 class UpdatePipeline extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2260,7 +2153,6 @@ class UpdatePipeline extends Request
  */
 class UnbindInputBucket extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2283,7 +2175,6 @@ class UnbindInputBucket extends Request
  */
 class QueryMediaList extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2306,7 +2197,6 @@ class QueryMediaList extends Request
  */
 class AddPipeline extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method string getOwnerId()
@@ -2323,7 +2213,6 @@ class AddPipeline extends Request
  */
 class DecryptKey extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2338,7 +2227,6 @@ class DecryptKey extends Request
  */
 class QueryTerrorismPipelineList extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2353,7 +2241,6 @@ class QueryTerrorismPipelineList extends Request
  */
 class DeleteMcuJob extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2368,7 +2255,6 @@ class DeleteMcuJob extends Request
  */
 class QueryCensorPipelineList extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2389,7 +2275,6 @@ class QueryCensorPipelineList extends Request
  */
 class SubmitTagJob extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2408,7 +2293,6 @@ class SubmitTagJob extends Request
  */
 class SearchTemplate extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2441,7 +2325,6 @@ class SearchTemplate extends Request
  */
 class SearchMedia extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2458,7 +2341,6 @@ class SearchMedia extends Request
  */
 class ListAllMediaBucket extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2473,7 +2355,6 @@ class ListAllMediaBucket extends Request
  */
 class DeletePipeline extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2488,7 +2369,6 @@ class DeletePipeline extends Request
  */
 class QueryAnnotationJobList extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2503,7 +2383,6 @@ class QueryAnnotationJobList extends Request
  */
 class QueryWaterMarkTemplateList extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2520,7 +2399,6 @@ class QueryWaterMarkTemplateList extends Request
  */
 class UpdateCategoryName extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2547,7 +2425,6 @@ class UpdateCategoryName extends Request
  */
 class UpdateTemplate extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2568,7 +2445,6 @@ class UpdateTemplate extends Request
  */
 class SubmitMediaInfoJob extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2585,7 +2461,6 @@ class SubmitMediaInfoJob extends Request
  */
 class ReportCoverJobResult extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2600,7 +2475,6 @@ class ReportCoverJobResult extends Request
  */
 class QuerySubtitleJobList extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2615,7 +2489,6 @@ class QuerySubtitleJobList extends Request
  */
 class QueryAsrJobList extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2642,7 +2515,6 @@ class QueryAsrJobList extends Request
  */
 class QueryMediaCensorJobList extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2667,7 +2539,6 @@ class QueryMediaCensorJobList extends Request
  */
 class AddTemplate extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2682,7 +2553,6 @@ class AddTemplate extends Request
  */
 class QueryPornPipelineList extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2699,7 +2569,6 @@ class QueryPornPipelineList extends Request
  */
 class BindOutputBucket extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2718,7 +2587,6 @@ class BindOutputBucket extends Request
  */
 class AddTerrorismPipeline extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2733,7 +2601,6 @@ class AddTerrorismPipeline extends Request
  */
 class QueryComplexJobList extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2750,7 +2617,6 @@ class QueryComplexJobList extends Request
  */
 class BindInputBucket extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2787,7 +2653,6 @@ class BindInputBucket extends Request
  */
 class UpdateMCTemplate extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2802,7 +2667,6 @@ class UpdateMCTemplate extends Request
  */
 class DeleteMedia extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2823,7 +2687,6 @@ class DeleteMedia extends Request
  */
 class SubmitAsrJob extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2844,7 +2707,6 @@ class SubmitAsrJob extends Request
  */
 class SubmitMediaFpDeleteJob extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2865,7 +2727,6 @@ class SubmitMediaFpDeleteJob extends Request
  */
 class SubmitSnapshotJob extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2886,7 +2747,6 @@ class SubmitSnapshotJob extends Request
  */
 class SubmitVideoSummaryJob extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2903,7 +2763,6 @@ class SubmitVideoSummaryJob extends Request
  */
 class UpdateMediaWorkflowTriggerMode extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2916,7 +2775,6 @@ class UpdateMediaWorkflowTriggerMode extends Request
  */
 class ListAllCategory extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2937,7 +2795,6 @@ class ListAllCategory extends Request
  */
 class SubmitBeautifyJobs extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2964,7 +2821,6 @@ class SubmitBeautifyJobs extends Request
  */
 class SubmitComplexJob extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2979,7 +2835,6 @@ class SubmitComplexJob extends Request
  */
 class QueryMCTemplateList extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2992,7 +2847,6 @@ class QueryMCTemplateList extends Request
  */
 class CategoryTree extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -3007,7 +2861,6 @@ class CategoryTree extends Request
  */
 class QueryTagJobList extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -3040,7 +2893,6 @@ class QueryTagJobList extends Request
  */
 class AddMedia extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -3059,7 +2911,6 @@ class AddMedia extends Request
  */
 class ReportCensorJobResult extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -3076,7 +2927,6 @@ class ReportCensorJobResult extends Request
  */
 class DeleteMediaTag extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -3093,7 +2943,6 @@ class DeleteMediaTag extends Request
  */
 class AddWaterMarkTemplate extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -3114,7 +2963,6 @@ class AddWaterMarkTemplate extends Request
  */
 class SubmitFacerecogJob extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -3129,7 +2977,6 @@ class SubmitFacerecogJob extends Request
  */
 class QueryImageSearchJobList extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -3144,7 +2991,6 @@ class QueryImageSearchJobList extends Request
  */
 class CreateMcuTemplate extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -3165,7 +3011,6 @@ class CreateMcuTemplate extends Request
  */
 class SubmitPornJob extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -3184,7 +3029,6 @@ class SubmitPornJob extends Request
  */
 class ReportVideoSplitJobResult extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -3199,7 +3043,6 @@ class ReportVideoSplitJobResult extends Request
  */
 class QueryJobList extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -3218,7 +3061,6 @@ class QueryJobList extends Request
  */
 class ListAsrPipeline extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -3237,7 +3079,6 @@ class ListAsrPipeline extends Request
  */
 class ReportMediaDetailJobResult extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -3252,5 +3093,4 @@ class ReportMediaDetailJobResult extends Request
  */
 class QueryAnalysisJobList extends Request
 {
-
 }

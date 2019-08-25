@@ -38,7 +38,6 @@ class V20171001
  */
 class QueryTicket extends Request
 {
-
 }/**
  * @method $this setStartTime($startTime)
  * @method string getStartTime()
@@ -75,7 +74,6 @@ class QueryTicket extends Request
  */
 class QueryHotlineRecord extends Request
 {
-
 }/**
  * @method $this setId($id)
  * @method string getId()
@@ -84,7 +82,6 @@ class QueryHotlineRecord extends Request
  */
 class GetHotlineRecord extends Request
 {
-
 }/**
  * @method $this setCcsInstanceId($ccsInstanceId)
  * @method string getCcsInstanceId()
@@ -99,7 +96,6 @@ class GetHotlineRecord extends Request
  */
 class ProceedTicket extends Request
 {
-
 }/**
  * @method $this setCcsInstanceId($ccsInstanceId)
  * @method string getCcsInstanceId()
@@ -114,5 +110,4 @@ class ProceedTicket extends Request
  */
 class CreateTicket extends Request
 {
-
 }

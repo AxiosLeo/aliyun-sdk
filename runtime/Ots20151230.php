@@ -36,7 +36,6 @@ class V20151230
  */
 class InsertInstance extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -47,7 +46,6 @@ class InsertInstance extends Request
  */
 class DeleteInstance extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -62,7 +60,6 @@ class DeleteInstance extends Request
  */
 class ListInstance extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -75,7 +72,6 @@ class ListInstance extends Request
  */
 class InsertTags extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -86,7 +82,6 @@ class InsertTags extends Request
  */
 class GetInstance extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -99,7 +94,6 @@ class GetInstance extends Request
  */
 class DeleteTags extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -116,5 +110,4 @@ class DeleteTags extends Request
  */
 class ListTags extends Request
 {
-
 }

@@ -21,7 +21,6 @@ class V20160801
  */
 class OrderSucceededCallback extends Request
 {
-
 }/**
  * @method $this setBid($bid)
  * @method string getBid()
@@ -30,5 +29,4 @@ class OrderSucceededCallback extends Request
  */
 class OpenAccount extends Request
 {
-
 }

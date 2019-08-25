@@ -22,5 +22,4 @@ class V20190128
  */
 class ExecuteRequest extends Request
 {
-
 }

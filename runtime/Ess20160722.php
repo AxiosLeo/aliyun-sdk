@@ -69,7 +69,6 @@ class V20160722
  */
 class ModifyScalingGroup extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -82,7 +81,6 @@ class ModifyScalingGroup extends Request
  */
 class DescribeScalingActivityDetail extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -103,7 +101,6 @@ class DescribeScalingActivityDetail extends Request
  */
 class DescribeCapacityHistory extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -114,7 +111,6 @@ class DescribeCapacityHistory extends Request
  */
 class DescribeAccountAttributes extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -209,7 +205,6 @@ class DescribeAccountAttributes extends Request
  */
 class DescribeScalingGroups extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -232,7 +227,6 @@ class DescribeScalingGroups extends Request
  */
 class CreateScalingRule extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -247,7 +241,6 @@ class CreateScalingRule extends Request
  */
 class DeleteScalingConfiguration extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -302,7 +295,6 @@ class DeleteScalingConfiguration extends Request
  */
 class EnableScalingGroup extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -319,7 +311,6 @@ class EnableScalingGroup extends Request
  */
 class ExecuteScalingRule extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -388,7 +379,6 @@ class ExecuteScalingRule extends Request
  */
 class DescribeScalingInstances extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -421,7 +411,6 @@ class DescribeScalingInstances extends Request
  */
 class ModifyScheduledTask extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -430,7 +419,6 @@ class ModifyScheduledTask extends Request
  */
 class VerifyUser extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -445,7 +433,6 @@ class VerifyUser extends Request
  */
 class DeleteScheduledTask extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -456,7 +443,6 @@ class DeleteScheduledTask extends Request
  */
 class DescribeRegions extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -467,7 +453,6 @@ class DescribeRegions extends Request
  */
 class DescribeLimitation extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -530,7 +515,6 @@ class DescribeLimitation extends Request
  */
 class DescribeScalingActivities extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -585,7 +569,6 @@ class DescribeScalingActivities extends Request
  */
 class RemoveInstances extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -646,7 +629,6 @@ class RemoveInstances extends Request
  */
 class DescribeScalingConfigurations extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -659,7 +641,6 @@ class DescribeScalingConfigurations extends Request
  */
 class VerifyAuthentication extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -734,7 +715,6 @@ class VerifyAuthentication extends Request
  */
 class CreateScalingConfiguration extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -873,7 +853,6 @@ class CreateScalingConfiguration extends Request
  */
 class DescribeScheduledTasks extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -906,7 +885,6 @@ class DescribeScheduledTasks extends Request
  */
 class CreateScheduledTask extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -961,7 +939,6 @@ class CreateScheduledTask extends Request
  */
 class DetachInstances extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1042,7 +1019,6 @@ class DetachInstances extends Request
  */
 class DescribeScalingRules extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1057,7 +1033,6 @@ class DescribeScalingRules extends Request
  */
 class DeleteScalingRule extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1070,7 +1045,6 @@ class DeleteScalingRule extends Request
  */
 class DisableScalingGroup extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1125,7 +1099,6 @@ class DisableScalingGroup extends Request
  */
 class AttachInstances extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1140,7 +1113,6 @@ class AttachInstances extends Request
  */
 class DeleteScalingGroup extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1171,7 +1143,6 @@ class DeleteScalingGroup extends Request
  */
 class CreateScalingGroup extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1194,5 +1165,4 @@ class CreateScalingGroup extends Request
  */
 class ModifyScalingRule extends Request
 {
-
 }

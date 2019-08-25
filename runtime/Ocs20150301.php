@@ -56,7 +56,6 @@ class V20150301
  */
 class ModifyInstanceAttribute extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -81,7 +80,6 @@ class ModifyInstanceAttribute extends Request
  */
 class DescribeHistoryMonitorValues extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -100,7 +98,6 @@ class DescribeHistoryMonitorValues extends Request
  */
 class ModifyInstanceCapacity extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -123,7 +120,6 @@ class ModifyInstanceCapacity extends Request
  */
 class ModifyHotKeySwitchMode extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -140,7 +136,6 @@ class ModifyHotKeySwitchMode extends Request
  */
 class DeactivateInstance extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -157,7 +152,6 @@ class DeactivateInstance extends Request
  */
 class DescribeMonitorValues extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -174,7 +168,6 @@ class DescribeMonitorValues extends Request
  */
 class DescribeSecurityIps extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -193,7 +186,6 @@ class DescribeSecurityIps extends Request
  */
 class AddAuthenticIP extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -224,7 +216,6 @@ class AddAuthenticIP extends Request
  */
 class DescribeInstances extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -245,7 +236,6 @@ class DescribeInstances extends Request
  */
 class ReplaceAuthenticIP extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -262,7 +252,6 @@ class ReplaceAuthenticIP extends Request
  */
 class DeleteInstance extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -281,7 +270,6 @@ class DeleteInstance extends Request
  */
 class ModifySecurityIps extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -300,7 +288,6 @@ class ModifySecurityIps extends Request
  */
 class RemoveAuthenticIP extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -317,7 +304,6 @@ class RemoveAuthenticIP extends Request
  */
 class FlushInstance extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -338,7 +324,6 @@ class FlushInstance extends Request
  */
 class ModifyNetworkType extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -357,7 +342,6 @@ class ModifyNetworkType extends Request
  */
 class VerifyPassword extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -390,7 +374,6 @@ class VerifyPassword extends Request
  */
 class CreateInstance extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -405,7 +388,6 @@ class CreateInstance extends Request
  */
 class DescribeRegions extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -422,7 +404,6 @@ class DescribeRegions extends Request
  */
 class DescribeAuthenticIP extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -439,7 +420,6 @@ class DescribeAuthenticIP extends Request
  */
 class DescribeZones extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -454,7 +434,6 @@ class DescribeZones extends Request
  */
 class DescribeMonitorItems extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -473,7 +452,6 @@ class DescribeMonitorItems extends Request
  */
 class DataOperate extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -490,5 +468,4 @@ class DataOperate extends Request
  */
 class ActivateInstance extends Request
 {
-
 }

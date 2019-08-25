@@ -20,5 +20,4 @@ class V20181111
  */
 class GetReport extends Request
 {
-
 }

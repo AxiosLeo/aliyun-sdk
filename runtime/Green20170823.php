@@ -105,7 +105,6 @@ class V20170823
  */
 class DescribeWebsiteInstance extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -118,7 +117,6 @@ class DescribeWebsiteInstance extends Request
  */
 class DescribeSdkUrl extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -127,7 +125,6 @@ class DescribeSdkUrl extends Request
  */
 class DescribeWebsiteStat extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -142,7 +139,6 @@ class DescribeWebsiteStat extends Request
  */
 class MarkAuditContentItem extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -157,7 +153,6 @@ class MarkAuditContentItem extends Request
  */
 class DeleteKeyword extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -170,7 +165,6 @@ class DeleteKeyword extends Request
  */
 class UpdateWebsiteInstanceStatus extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -183,7 +177,6 @@ class UpdateWebsiteInstanceStatus extends Request
  */
 class MarkAuditContent extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -194,7 +187,6 @@ class MarkAuditContent extends Request
  */
 class DescribeWebsiteVerifyInfo extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -207,7 +199,6 @@ class DescribeWebsiteVerifyInfo extends Request
  */
 class CreateKeyword extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -218,7 +209,6 @@ class CreateKeyword extends Request
  */
 class SendVerifyCodeToPhone extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -229,14 +219,12 @@ class SendVerifyCodeToPhone extends Request
  */
 class DescribeKeywordLib extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
  */
 class DescribeOssCallbackSetting extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -247,7 +235,6 @@ class DescribeOssCallbackSetting extends Request
  */
 class UpdateAuditSetting extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -258,7 +245,6 @@ class UpdateAuditSetting extends Request
  */
 class DescribeWebsiteInstanceKeyUrl extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -267,7 +253,6 @@ class DescribeWebsiteInstanceKeyUrl extends Request
  */
 class DescribeOssIncrementCheckSetting extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -282,7 +267,6 @@ class DescribeOssIncrementCheckSetting extends Request
  */
 class CreatCustomOcrTemplate extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -299,7 +283,6 @@ class CreatCustomOcrTemplate extends Request
  */
 class UpdateNotificationSetting extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -318,7 +301,6 @@ class UpdateNotificationSetting extends Request
  */
 class UpdateImageLib extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -329,7 +311,6 @@ class UpdateImageLib extends Request
  */
 class MarkWebsiteScanResult extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -362,7 +343,6 @@ class MarkWebsiteScanResult extends Request
  */
 class UpdateOssStockStatus extends Request
 {
-
 }/**
  * @method $this setClientToken($clientToken)
  * @method string getClientToken()
@@ -379,7 +359,6 @@ class UpdateOssStockStatus extends Request
  */
 class CreateCdiBag extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -398,7 +377,6 @@ class CreateCdiBag extends Request
  */
 class DescribeKeyword extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -407,7 +385,6 @@ class DescribeKeyword extends Request
  */
 class DescribeOssIncrementOverview extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -420,7 +397,6 @@ class DescribeOssIncrementOverview extends Request
  */
 class DescribeWebsiteScanResultDetail extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -433,7 +409,6 @@ class DescribeWebsiteScanResultDetail extends Request
  */
 class VerifyPhone extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -452,7 +427,6 @@ class VerifyPhone extends Request
  */
 class CreateImageLib extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -463,7 +437,6 @@ class CreateImageLib extends Request
  */
 class VerifyCustomOcrTemplate extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -472,7 +445,6 @@ class VerifyCustomOcrTemplate extends Request
  */
 class ExportKeywords extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -481,7 +453,6 @@ class ExportKeywords extends Request
  */
 class DeleteImageLib extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -506,7 +477,6 @@ class DeleteImageLib extends Request
  */
 class DescribeWebsiteScanResult extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -519,7 +489,6 @@ class DescribeWebsiteScanResult extends Request
  */
 class UpdateWebsiteInstanceKeyUrl extends Request
 {
-
 }/**
  * @method $this setClientToken($clientToken)
  * @method string getClientToken()
@@ -536,7 +505,6 @@ class UpdateWebsiteInstanceKeyUrl extends Request
  */
 class CreateWebSiteInstance extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -547,7 +515,6 @@ class CreateWebSiteInstance extends Request
  */
 class DescribeWebsiteIndexPageBaseline extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -560,7 +527,6 @@ class DescribeWebsiteIndexPageBaseline extends Request
  */
 class SendWebsiteFeedback extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -573,7 +539,6 @@ class SendWebsiteFeedback extends Request
  */
 class VerifyWebsiteInstance extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -582,7 +547,6 @@ class VerifyWebsiteInstance extends Request
  */
 class RefundCdiBaseBag extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -601,7 +565,6 @@ class RefundCdiBaseBag extends Request
  */
 class UpdateKeywordLib extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -620,7 +583,6 @@ class UpdateKeywordLib extends Request
  */
 class MarkOssResult extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -629,7 +591,6 @@ class MarkOssResult extends Request
  */
 class DescribeNotificationSetting extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -646,7 +607,6 @@ class DescribeNotificationSetting extends Request
  */
 class UpdateAppPackage extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -655,7 +615,6 @@ class UpdateAppPackage extends Request
  */
 class DescribeWebsiteInstanceId extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -664,7 +623,6 @@ class DescribeWebsiteInstanceId extends Request
  */
 class DescribeAuditSetting extends Request
 {
-
 }/**
  * @method $this setClientToken($clientToken)
  * @method string getClientToken()
@@ -681,7 +639,6 @@ class DescribeAuditSetting extends Request
  */
 class CreateCdiBaseBag extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -694,7 +651,6 @@ class CreateCdiBaseBag extends Request
  */
 class DescribeOpenApiUsage extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -705,7 +661,6 @@ class DescribeOpenApiUsage extends Request
  */
 class CreateWebsiteIndexPageBaseline extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -720,7 +675,6 @@ class CreateWebsiteIndexPageBaseline extends Request
  */
 class UpdateCustomOcrTemplate extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -729,7 +683,6 @@ class UpdateCustomOcrTemplate extends Request
  */
 class DescribeUserStatus extends Request
 {
-
 }/**
  * @method $this setClientToken($clientToken)
  * @method string getClientToken()
@@ -750,7 +703,6 @@ class DescribeUserStatus extends Request
  */
 class RenewWebSiteInstance extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -777,7 +729,6 @@ class RenewWebSiteInstance extends Request
  */
 class CreateKeywordLib extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -788,7 +739,6 @@ class CreateKeywordLib extends Request
  */
 class DescribeUploadInfo extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -821,14 +771,12 @@ class DescribeUploadInfo extends Request
  */
 class ExportOssResult extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
  */
 class DescribeImageUploadInfo extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -839,7 +787,6 @@ class DescribeImageUploadInfo extends Request
  */
 class ImportKeywords extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -876,7 +823,6 @@ class ImportKeywords extends Request
  */
 class DescribeOssResultItems extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -885,7 +831,6 @@ class DescribeOssResultItems extends Request
  */
 class DescribeImageLib extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -896,7 +841,6 @@ class DescribeImageLib extends Request
  */
 class SendVerifyCodeToEmail extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -925,7 +869,6 @@ class SendVerifyCodeToEmail extends Request
  */
 class UpdateOssIncrementCheckSetting extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -936,7 +879,6 @@ class UpdateOssIncrementCheckSetting extends Request
  */
 class DescribeUpdatePackageResult extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -945,7 +887,6 @@ class DescribeUpdatePackageResult extends Request
  */
 class RefundWebSiteInstance extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -960,7 +901,6 @@ class RefundWebSiteInstance extends Request
  */
 class DescribeImageFromLib extends Request
 {
-
 }/**
  * @method $this setClientToken($clientToken)
  * @method string getClientToken()
@@ -977,7 +917,6 @@ class DescribeImageFromLib extends Request
  */
 class UpgradeCdiBaseBag extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -996,7 +935,6 @@ class UpgradeCdiBaseBag extends Request
  */
 class UpdateOssCallbackSetting extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -1015,7 +953,6 @@ class UpdateOssCallbackSetting extends Request
  */
 class DescribeAuditContentItem extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -1024,7 +961,6 @@ class DescribeAuditContentItem extends Request
  */
 class DeleteImageFromLib extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -1033,7 +969,6 @@ class DeleteImageFromLib extends Request
  */
 class DescribeCustomOcrTemplate extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -1042,7 +977,6 @@ class DescribeCustomOcrTemplate extends Request
  */
 class RefundCdiBag extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -1059,7 +993,6 @@ class RefundCdiBag extends Request
  */
 class DescribeOssIncrementStats extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -1070,7 +1003,6 @@ class DescribeOssIncrementStats extends Request
  */
 class UploadImageToLib extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -1079,7 +1011,6 @@ class UploadImageToLib extends Request
  */
 class DeleteCustomOcrTemplate extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -1090,7 +1021,6 @@ class DeleteCustomOcrTemplate extends Request
  */
 class DeleteKeywordLib extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -1107,7 +1037,6 @@ class DeleteKeywordLib extends Request
  */
 class DescribeAppInfo extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -1118,7 +1047,6 @@ class DescribeAppInfo extends Request
  */
 class DeleteNotificationContacts extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -1129,7 +1057,6 @@ class DeleteNotificationContacts extends Request
  */
 class VerifyEmail extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -1164,7 +1091,6 @@ class VerifyEmail extends Request
  */
 class DescribeAuditContent extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -1185,7 +1111,6 @@ class DescribeAuditContent extends Request
  */
 class UpdateWebsiteInstance extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -1194,5 +1119,4 @@ class UpdateWebsiteInstance extends Request
  */
 class DescribeOssStockStatus extends Request
 {
-
 }

@@ -65,7 +65,6 @@ class V20171214
  */
 class QueryInstanceGaapCost extends Request
 {
-
 }/**
  * @method $this setPageSize($pageSize)
  * @method int getPageSize()
@@ -92,7 +91,6 @@ class QueryInstanceGaapCost extends Request
  */
 class QuerySettlementBill extends Request
 {
-
 }/**
  * @method $this setBillingCycle($billingCycle)
  * @method string getBillingCycle()
@@ -105,7 +103,6 @@ class QuerySettlementBill extends Request
  */
 class QueryBillOverview extends Request
 {
-
 }/**
  * @method $this setOrderId($orderId)
  * @method string getOrderId()
@@ -114,26 +111,22 @@ class QueryBillOverview extends Request
  */
 class GetOrderDetail extends Request
 {
-
 }/**
  * @method $this setProductCode($productCode)
  * @method string getProductCode()
  */
 class DescribeResourcePackageProduct extends Request
 {
-
 }/**
  */
 class QueryAccountBalance extends Request
 {
-
 }/**
  * @method $this setSubscribeType($subscribeType)
  * @method string getSubscribeType()
  */
 class UnsubscribeBillToOSS extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -152,7 +145,6 @@ class UnsubscribeBillToOSS extends Request
  */
 class QueryUserOmsData extends Request
 {
-
 }/**
  * @method $this setBillingCycle($billingCycle)
  * @method string getBillingCycle()
@@ -175,7 +167,6 @@ class QueryUserOmsData extends Request
  */
 class QueryInstanceBill extends Request
 {
-
 }/**
  * @method $this setServicePeriodUnit($servicePeriodUnit)
  * @method string getServicePeriodUnit()
@@ -202,7 +193,6 @@ class QueryInstanceBill extends Request
  */
 class GetSubscriptionPrice extends Request
 {
-
 }/**
  * @method $this setRenewalPeriod($renewalPeriod)
  * @method int getRenewalPeriod()
@@ -223,7 +213,6 @@ class GetSubscriptionPrice extends Request
  */
 class SetRenewal extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -236,7 +225,6 @@ class SetRenewal extends Request
  */
 class DescribePricingModule extends Request
 {
-
 }/**
  * @method $this setType($type)
  * @method int getType()
@@ -273,7 +261,6 @@ class DescribePricingModule extends Request
  */
 class QueryEvaluateList extends Request
 {
-
 }/**
  * @method $this setSubscribeBucket($subscribeBucket)
  * @method string getSubscribeBucket()
@@ -282,7 +269,6 @@ class QueryEvaluateList extends Request
  */
 class SubscribeBillToOSS extends Request
 {
-
 }/**
  * @method $this setBillingCycle($billingCycle)
  * @method string getBillingCycle()
@@ -307,7 +293,6 @@ class SubscribeBillToOSS extends Request
  */
 class QueryBill extends Request
 {
-
 }/**
  * @method $this setExpiryTimeStart($expiryTimeStart)
  * @method string getExpiryTimeStart()
@@ -322,7 +307,6 @@ class QueryBill extends Request
  */
 class QueryRedeem extends Request
 {
-
 }/**
  * @method $this setProductCode($productCode)
  * @method string getProductCode()
@@ -343,7 +327,6 @@ class QueryRedeem extends Request
  */
 class CreateInstance extends Request
 {
-
 }/**
  * @method $this setProductCode($productCode)
  * @method string getProductCode()
@@ -352,7 +335,6 @@ class CreateInstance extends Request
  */
 class EnableBillGeneration extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -371,7 +353,6 @@ class EnableBillGeneration extends Request
  */
 class GetResourcePackagePrice extends Request
 {
-
 }/**
  * @method $this setCreateTimeEnd($createTimeEnd)
  * @method string getCreateTimeEnd()
@@ -396,7 +377,6 @@ class GetResourcePackagePrice extends Request
  */
 class QueryOrders extends Request
 {
-
 }/**
  * @method $this setExpiryTimeEnd($expiryTimeEnd)
  * @method string getExpiryTimeEnd()
@@ -407,7 +387,6 @@ class QueryOrders extends Request
  */
 class QueryCashCoupons extends Request
 {
-
 }/**
  * @method $this setExpiryTimeEnd($expiryTimeEnd)
  * @method string getExpiryTimeEnd()
@@ -418,7 +397,6 @@ class QueryCashCoupons extends Request
  */
 class QueryPrepaidCards extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -435,7 +413,6 @@ class QueryPrepaidCards extends Request
  */
 class QueryResourcePackageInstances extends Request
 {
-
 }/**
  * @method $this setQueryTotalCount($queryTotalCount)
  * @method bool getQueryTotalCount()
@@ -446,7 +423,6 @@ class QueryResourcePackageInstances extends Request
  */
 class QueryProductList extends Request
 {
-
 }/**
  * @method $this setRegion($region)
  * @method string getRegion()
@@ -477,7 +453,6 @@ class QueryProductList extends Request
  */
 class QueryAvailableInstances extends Request
 {
-
 }/**
  * @method $this setInvoiceAmount($invoiceAmount)
  * @method int getInvoiceAmount()
@@ -504,7 +479,6 @@ class QueryAvailableInstances extends Request
  */
 class ApplyInvoice extends Request
 {
-
 }/**
  * @method $this setProductCode($productCode)
  * @method string getProductCode()
@@ -523,7 +497,6 @@ class ApplyInvoice extends Request
  */
 class ModifyInstance extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -534,7 +507,6 @@ class ModifyInstance extends Request
  */
 class QueryInvoicingCustomerList extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -551,7 +523,6 @@ class QueryInvoicingCustomerList extends Request
  */
 class GetPayAsYouGoPrice extends Request
 {
-
 }/**
  * @method $this setProductCode($productCode)
  * @method string getProductCode()
@@ -570,7 +541,6 @@ class GetPayAsYouGoPrice extends Request
  */
 class QueryMonthlyInstanceConsumption extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -587,14 +557,12 @@ class QueryMonthlyInstanceConsumption extends Request
  */
 class ConvertChargeType extends Request
 {
-
 }/**
  * @method $this setBillingCycle($billingCycle)
  * @method string getBillingCycle()
  */
 class QueryMonthlyBill extends Request
 {
-
 }/**
  * @method $this setOrderId($orderId)
  * @method string getOrderId()
@@ -603,7 +571,6 @@ class QueryMonthlyBill extends Request
  */
 class CancelOrder extends Request
 {
-
 }/**
  * @method $this setProductCode($productCode)
  * @method string getProductCode()
@@ -620,7 +587,6 @@ class CancelOrder extends Request
  */
 class RenewInstance extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -639,7 +605,6 @@ class RenewInstance extends Request
  */
 class CreateResourcePackage extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -650,5 +615,4 @@ class CreateResourcePackage extends Request
  */
 class QueryCustomerAddressList extends Request
 {
-
 }

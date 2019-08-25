@@ -84,7 +84,6 @@ class V20150109
  */
 class UpdateDomainGroup extends Request
 {
-
 }/**
  * @method $this setLang($lang)
  * @method string getLang()
@@ -95,7 +94,6 @@ class UpdateDomainGroup extends Request
  */
 class AddDomain extends Request
 {
-
 }/**
  * @method $this setLang($lang)
  * @method string getLang()
@@ -110,7 +108,6 @@ class AddDomain extends Request
  */
 class DeleteSubDomainRecords extends Request
 {
-
 }/**
  * @method $this setLang($lang)
  * @method string getLang()
@@ -133,7 +130,6 @@ class DeleteSubDomainRecords extends Request
  */
 class AddDomainRecord extends Request
 {
-
 }/**
  * @method $this setLang($lang)
  * @method string getLang()
@@ -144,7 +140,6 @@ class AddDomainRecord extends Request
  */
 class DescribeGtmAccessStrategy extends Request
 {
-
 }/**
  * @method $this setLang($lang)
  * @method string getLang()
@@ -155,7 +150,6 @@ class DescribeGtmAccessStrategy extends Request
  */
 class DescribeSupportLines extends Request
 {
-
 }/**
  * @method $this setLang($lang)
  * @method string getLang()
@@ -168,7 +162,6 @@ class DescribeSupportLines extends Request
  */
 class OperateBatchDomain extends Request
 {
-
 }/**
  * @method $this setLang($lang)
  * @method string getLang()
@@ -177,7 +170,6 @@ class OperateBatchDomain extends Request
  */
 class DescribeGtmAvailableAlertGroup extends Request
 {
-
 }/**
  * @method $this setUserClientIp($userClientIp)
  * @method string getUserClientIp()
@@ -202,7 +194,6 @@ class DescribeGtmAvailableAlertGroup extends Request
  */
 class AddGtmMonitor extends Request
 {
-
 }/**
  * @method $this setLang($lang)
  * @method string getLang()
@@ -215,7 +206,6 @@ class AddGtmMonitor extends Request
  */
 class UpdateDNSSLBWeight extends Request
 {
-
 }/**
  * @method $this setLang($lang)
  * @method string getLang()
@@ -240,7 +230,6 @@ class UpdateDNSSLBWeight extends Request
  */
 class UpdateGtmInstanceGlobalConfig extends Request
 {
-
 }/**
  * @method $this setLang($lang)
  * @method string getLang()
@@ -255,7 +244,6 @@ class UpdateGtmInstanceGlobalConfig extends Request
  */
 class DescribeDNSSLBSubDomains extends Request
 {
-
 }/**
  * @method $this setLang($lang)
  * @method string getLang()
@@ -266,7 +254,6 @@ class DescribeDNSSLBSubDomains extends Request
  */
 class DeleteGtmAccessStrategy extends Request
 {
-
 }/**
  * @method $this setLang($lang)
  * @method string getLang()
@@ -277,7 +264,6 @@ class DeleteGtmAccessStrategy extends Request
  */
 class DeleteDomainGroup extends Request
 {
-
 }/**
  * @method $this setLang($lang)
  * @method string getLang()
@@ -292,7 +278,6 @@ class DeleteDomainGroup extends Request
  */
 class DescribeDomainGroups extends Request
 {
-
 }/**
  * @method $this setUserClientIp($userClientIp)
  * @method string getUserClientIp()
@@ -303,7 +288,6 @@ class DescribeDomainGroups extends Request
  */
 class DescribeGtmInstanceSystemCname extends Request
 {
-
 }/**
  * @method $this setLang($lang)
  * @method string getLang()
@@ -318,7 +302,6 @@ class DescribeGtmInstanceSystemCname extends Request
  */
 class ChangeDomainOfDnsProduct extends Request
 {
-
 }/**
  * @method $this setLang($lang)
  * @method string getLang()
@@ -337,7 +320,6 @@ class ChangeDomainOfDnsProduct extends Request
  */
 class UpdateGtmAccessStrategy extends Request
 {
-
 }/**
  * @method $this setLang($lang)
  * @method string getLang()
@@ -350,7 +332,6 @@ class UpdateGtmAccessStrategy extends Request
  */
 class SetDomainRecordStatus extends Request
 {
-
 }/**
  * @method $this setUserClientIp($userClientIp)
  * @method string getUserClientIp()
@@ -363,7 +344,6 @@ class SetDomainRecordStatus extends Request
  */
 class SetGtmMonitorStatus extends Request
 {
-
 }/**
  * @method $this setLang($lang)
  * @method string getLang()
@@ -384,7 +364,6 @@ class SetGtmMonitorStatus extends Request
  */
 class DescribeDomains extends Request
 {
-
 }/**
  * @method $this setLang($lang)
  * @method string getLang()
@@ -421,7 +400,6 @@ class DescribeDomains extends Request
  */
 class DescribeDomainRecords extends Request
 {
-
 }/**
  * @method $this setUserClientIp($userClientIp)
  * @method string getUserClientIp()
@@ -442,7 +420,6 @@ class DescribeDomainRecords extends Request
  */
 class DescribeGtmLogs extends Request
 {
-
 }/**
  * @method $this setLang($lang)
  * @method string getLang()
@@ -459,7 +436,6 @@ class DescribeGtmLogs extends Request
  */
 class DescribeBatchResultDetail extends Request
 {
-
 }/**
  * @method $this setLang($lang)
  * @method string getLang()
@@ -478,7 +454,6 @@ class DescribeBatchResultDetail extends Request
  */
 class CreateInstance extends Request
 {
-
 }/**
  * @method $this setUserClientIp($userClientIp)
  * @method string getUserClientIp()
@@ -503,7 +478,6 @@ class CreateInstance extends Request
  */
 class UpdateGtmMonitor extends Request
 {
-
 }/**
  * @method $this setLang($lang)
  * @method string getLang()
@@ -516,7 +490,6 @@ class UpdateGtmMonitor extends Request
  */
 class ChangeDomainGroup extends Request
 {
-
 }/**
  * @method $this setLang($lang)
  * @method string getLang()
@@ -539,7 +512,6 @@ class ChangeDomainGroup extends Request
  */
 class UpdateDomainRecord extends Request
 {
-
 }/**
  * @method $this setLang($lang)
  * @method string getLang()
@@ -550,7 +522,6 @@ class UpdateDomainRecord extends Request
  */
 class DescribeDomainRecordInfo extends Request
 {
-
 }/**
  * @method $this setLang($lang)
  * @method string getLang()
@@ -561,7 +532,6 @@ class DescribeDomainRecordInfo extends Request
  */
 class ModifyHichinaDomainDNS extends Request
 {
-
 }/**
  * @method $this setLang($lang)
  * @method string getLang()
@@ -572,7 +542,6 @@ class ModifyHichinaDomainDNS extends Request
  */
 class GetMainDomainName extends Request
 {
-
 }/**
  * @method $this setLang($lang)
  * @method string getLang()
@@ -585,7 +554,6 @@ class GetMainDomainName extends Request
  */
 class DescribeDomainInfo extends Request
 {
-
 }/**
  * @method $this setLang($lang)
  * @method string getLang()
@@ -606,7 +574,6 @@ class DescribeDomainInfo extends Request
  */
 class DescribeRecordLogs extends Request
 {
-
 }/**
  * @method $this setLang($lang)
  * @method string getLang()
@@ -619,7 +586,6 @@ class DescribeRecordLogs extends Request
  */
 class SetGtmAccessMode extends Request
 {
-
 }/**
  * @method $this setLang($lang)
  * @method string getLang()
@@ -630,7 +596,6 @@ class SetGtmAccessMode extends Request
  */
 class DescribeGtmInstanceStatus extends Request
 {
-
 }/**
  * @method $this setLang($lang)
  * @method string getLang()
@@ -649,7 +614,6 @@ class DescribeGtmInstanceStatus extends Request
  */
 class AddGtmAccessStrategy extends Request
 {
-
 }/**
  * @method $this setLang($lang)
  * @method string getLang()
@@ -660,7 +624,6 @@ class AddGtmAccessStrategy extends Request
  */
 class DescribeGtmInstance extends Request
 {
-
 }/**
  * @method $this setLang($lang)
  * @method string getLang()
@@ -671,7 +634,6 @@ class DescribeGtmInstance extends Request
  */
 class DescribeDomainNs extends Request
 {
-
 }/**
  * @method $this setLang($lang)
  * @method string getLang()
@@ -686,7 +648,6 @@ class DescribeDomainNs extends Request
  */
 class QueryCreateInstancePrice extends Request
 {
-
 }/**
  * @method $this setUserClientIp($userClientIp)
  * @method string getUserClientIp()
@@ -701,7 +662,6 @@ class QueryCreateInstancePrice extends Request
  */
 class DescribeGtmInstanceAddressPools extends Request
 {
-
 }/**
  * @method $this setLang($lang)
  * @method string getLang()
@@ -712,7 +672,6 @@ class DescribeGtmInstanceAddressPools extends Request
  */
 class DescribeGtmAccessStrategyAvailableConfig extends Request
 {
-
 }/**
  * @method $this setLang($lang)
  * @method string getLang()
@@ -723,7 +682,6 @@ class DescribeGtmAccessStrategyAvailableConfig extends Request
  */
 class DeleteDomain extends Request
 {
-
 }/**
  * @method $this setLang($lang)
  * @method string getLang()
@@ -734,7 +692,6 @@ class DeleteDomain extends Request
  */
 class DescribeDnsProductInstance extends Request
 {
-
 }/**
  * @method $this setLang($lang)
  * @method string getLang()
@@ -753,7 +710,6 @@ class DescribeDnsProductInstance extends Request
  */
 class DescribeSubDomainRecords extends Request
 {
-
 }/**
  * @method $this setUserClientIp($userClientIp)
  * @method string getUserClientIp()
@@ -764,7 +720,6 @@ class DescribeSubDomainRecords extends Request
  */
 class DeleteGtmAddressPool extends Request
 {
-
 }/**
  * @method $this setLang($lang)
  * @method string getLang()
@@ -781,7 +736,6 @@ class DeleteGtmAddressPool extends Request
  */
 class DescribeGtmInstances extends Request
 {
-
 }/**
  * @method $this setUserClientIp($userClientIp)
  * @method string getUserClientIp()
@@ -790,7 +744,6 @@ class DescribeGtmInstances extends Request
  */
 class DescribeGtmMonitorAvailableConfig extends Request
 {
-
 }/**
  * @method $this setUserClientIp($userClientIp)
  * @method string getUserClientIp()
@@ -809,7 +762,6 @@ class DescribeGtmMonitorAvailableConfig extends Request
  */
 class AddGtmAddressPool extends Request
 {
-
 }/**
  * @method $this setLang($lang)
  * @method string getLang()
@@ -824,7 +776,6 @@ class AddGtmAddressPool extends Request
  */
 class DescribeDnsProductInstances extends Request
 {
-
 }/**
  * @method $this setUserClientIp($userClientIp)
  * @method string getUserClientIp()
@@ -835,7 +786,6 @@ class DescribeDnsProductInstances extends Request
  */
 class DescribeGtmInstanceAddressPool extends Request
 {
-
 }/**
  * @method $this setLang($lang)
  * @method string getLang()
@@ -850,7 +800,6 @@ class DescribeGtmInstanceAddressPool extends Request
  */
 class DescribeGtmAccessStrategies extends Request
 {
-
 }/**
  * @method $this setLang($lang)
  * @method string getLang()
@@ -873,7 +822,6 @@ class DescribeGtmAccessStrategies extends Request
  */
 class DescribeDomainLogs extends Request
 {
-
 }/**
  * @method $this setUserClientIp($userClientIp)
  * @method string getUserClientIp()
@@ -892,7 +840,6 @@ class DescribeDomainLogs extends Request
  */
 class UpdateGtmAddressPool extends Request
 {
-
 }/**
  * @method $this setUserClientIp($userClientIp)
  * @method string getUserClientIp()
@@ -903,7 +850,6 @@ class UpdateGtmAddressPool extends Request
  */
 class DescribeGtmMonitorConfig extends Request
 {
-
 }/**
  * @method $this setLang($lang)
  * @method string getLang()
@@ -914,7 +860,6 @@ class DescribeGtmMonitorConfig extends Request
  */
 class DeleteDomainRecord extends Request
 {
-
 }/**
  * @method $this setLang($lang)
  * @method string getLang()
@@ -925,7 +870,6 @@ class DeleteDomainRecord extends Request
  */
 class AddDomainGroup extends Request
 {
-
 }/**
  * @method $this setLang($lang)
  * @method string getLang()
@@ -938,7 +882,6 @@ class AddDomainGroup extends Request
  */
 class DescribeBatchResultCount extends Request
 {
-
 }/**
  * @method $this setLang($lang)
  * @method string getLang()
@@ -951,7 +894,6 @@ class DescribeBatchResultCount extends Request
  */
 class SetDNSSLBStatus extends Request
 {
-
 }/**
  * @method $this setLang($lang)
  * @method string getLang()
@@ -968,5 +910,4 @@ class SetDNSSLBStatus extends Request
  */
 class CheckDomainRecord extends Request
 {
-
 }

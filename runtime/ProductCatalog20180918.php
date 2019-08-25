@@ -31,7 +31,6 @@ class V20180918
  */
 class GetApi extends Request
 {
-
 }/**
  * @method $this setProductId($productId)
  * @method string getProductId()
@@ -46,7 +45,6 @@ class GetApi extends Request
  */
 class ListApis extends Request
 {
-
 }/**
  * @method $this setProductId($productId)
  * @method string getProductId()
@@ -55,7 +53,6 @@ class ListApis extends Request
  */
 class GetProduct extends Request
 {
-
 }/**
  * @method $this setLanguage($language)
  * @method string getLanguage()
@@ -66,5 +63,4 @@ class GetProduct extends Request
  */
 class ListProducts extends Request
 {
-
 }

@@ -59,14 +59,12 @@ class V20180509
  */
 class VoiceCancelScan extends Request
 {
-
 }/**
  * @method $this setClientInfo($clientInfo)
  * @method string getClientInfo()
  */
 class DeleteVideoDna extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -75,14 +73,12 @@ class DeleteVideoDna extends Request
  */
 class DeleteGroups extends Request
 {
-
 }/**
  * @method $this setClientInfo($clientInfo)
  * @method string getClientInfo()
  */
 class FileAsyncScan extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -91,28 +87,24 @@ class FileAsyncScan extends Request
  */
 class VoiceIdentityCheck extends Request
 {
-
 }/**
  * @method $this setClientInfo($clientInfo)
  * @method string getClientInfo()
  */
 class TextScan extends Request
 {
-
 }/**
  * @method $this setClientInfo($clientInfo)
  * @method string getClientInfo()
  */
 class VideoAsyncScan extends Request
 {
-
 }/**
  * @method $this setClientInfo($clientInfo)
  * @method string getClientInfo()
  */
 class ImageAsyncScanResults extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -121,42 +113,36 @@ class ImageAsyncScanResults extends Request
  */
 class SearchPerson extends Request
 {
-
 }/**
  * @method $this setClientInfo($clientInfo)
  * @method string getClientInfo()
  */
 class ImageScanFeedback extends Request
 {
-
 }/**
  * @method $this setClientInfo($clientInfo)
  * @method string getClientInfo()
  */
 class AddSimilarityImage extends Request
 {
-
 }/**
  * @method $this setClientInfo($clientInfo)
  * @method string getClientInfo()
  */
 class FileAsyncScanResults extends Request
 {
-
 }/**
  * @method $this setClientInfo($clientInfo)
  * @method string getClientInfo()
  */
 class VideoFeedback extends Request
 {
-
 }/**
  * @method $this setClientInfo($clientInfo)
  * @method string getClientInfo()
  */
 class AddVideoDnaGroup extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -165,7 +151,6 @@ class AddVideoDnaGroup extends Request
  */
 class UploadCredentials extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -174,7 +159,6 @@ class UploadCredentials extends Request
  */
 class AddPerson extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -183,28 +167,24 @@ class AddPerson extends Request
  */
 class GetPerson extends Request
 {
-
 }/**
  * @method $this setClientInfo($clientInfo)
  * @method string getClientInfo()
  */
 class ImageSyncScan extends Request
 {
-
 }/**
  * @method $this setClientInfo($clientInfo)
  * @method string getClientInfo()
  */
 class AddVideoDna extends Request
 {
-
 }/**
  * @method $this setClientInfo($clientInfo)
  * @method string getClientInfo()
  */
 class ImageAsyncScan extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -213,14 +193,12 @@ class ImageAsyncScan extends Request
  */
 class VoiceIdentityRegister extends Request
 {
-
 }/**
  * @method $this setClientInfo($clientInfo)
  * @method string getClientInfo()
  */
 class VoiceAsyncScan extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -229,14 +207,12 @@ class VoiceAsyncScan extends Request
  */
 class DeleteFaces extends Request
 {
-
 }/**
  * @method $this setClientInfo($clientInfo)
  * @method string getClientInfo()
  */
 class VideoSyncScan extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -245,7 +221,6 @@ class VideoSyncScan extends Request
  */
 class DeletePerson extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -254,7 +229,6 @@ class DeletePerson extends Request
  */
 class SetPerson extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -263,7 +237,6 @@ class SetPerson extends Request
  */
 class VoiceIdentityUnregister extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -272,21 +245,18 @@ class VoiceIdentityUnregister extends Request
  */
 class AddFaces extends Request
 {
-
 }/**
  * @method $this setClientInfo($clientInfo)
  * @method string getClientInfo()
  */
 class TextFeedback extends Request
 {
-
 }/**
  * @method $this setClientInfo($clientInfo)
  * @method string getClientInfo()
  */
 class DeleteSimilarityImage extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -295,14 +265,12 @@ class DeleteSimilarityImage extends Request
  */
 class GetPersons extends Request
 {
-
 }/**
  * @method $this setClientInfo($clientInfo)
  * @method string getClientInfo()
  */
 class DeleteVideoDnaGroup extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -311,7 +279,6 @@ class DeleteVideoDnaGroup extends Request
  */
 class GetGroups extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -320,7 +287,6 @@ class GetGroups extends Request
  */
 class AddGroups extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -329,7 +295,6 @@ class AddGroups extends Request
  */
 class GetFaces extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -338,28 +303,24 @@ class GetFaces extends Request
  */
 class VoiceIdentityStartRegister extends Request
 {
-
 }/**
  * @method $this setClientInfo($clientInfo)
  * @method string getClientInfo()
  */
 class GetAddVideoDnaResults extends Request
 {
-
 }/**
  * @method $this setClientInfo($clientInfo)
  * @method string getClientInfo()
  */
 class VoiceAsyncScanResults extends Request
 {
-
 }/**
  * @method $this setClientInfo($clientInfo)
  * @method string getClientInfo()
  */
 class VideoAsyncScanResults extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -368,5 +329,4 @@ class VideoAsyncScanResults extends Request
  */
 class VoiceIdentityStartCheck extends Request
 {
-
 }

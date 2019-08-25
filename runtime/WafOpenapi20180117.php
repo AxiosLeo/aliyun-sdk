@@ -162,7 +162,6 @@ class V20180117
  */
 class DescribeScreenAccessAreaPv extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -179,7 +178,6 @@ class DescribeScreenAccessAreaPv extends Request
  */
 class SetWarnConfig extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -192,7 +190,6 @@ class SetWarnConfig extends Request
  */
 class DescribeDomainTransferConfig extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -213,7 +210,6 @@ class DescribeDomainTransferConfig extends Request
  */
 class DescribeNews extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -234,7 +230,6 @@ class DescribeNews extends Request
  */
 class DescribeScreenAttackTopAcl extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -259,7 +254,6 @@ class DescribeScreenAttackTopAcl extends Request
  */
 class DescribeLogHistograms extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -278,7 +272,6 @@ class DescribeLogHistograms extends Request
  */
 class DescribeScreenBandwidthGraph extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -297,7 +290,6 @@ class DescribeScreenBandwidthGraph extends Request
  */
 class DescribeDomainWebAttackTypePv extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -320,7 +312,6 @@ class DescribeDomainWebAttackTypePv extends Request
  */
 class DescribeQps extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -337,7 +328,6 @@ class DescribeQps extends Request
  */
 class DescribeIpRiskLabel extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -364,7 +354,6 @@ class DescribeIpRiskLabel extends Request
  */
 class ModifyRuleGroup extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -383,7 +372,6 @@ class ModifyRuleGroup extends Request
  */
 class ModifyProtectionRuleCacheStatus extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -398,7 +386,6 @@ class ModifyProtectionRuleCacheStatus extends Request
  */
 class DeleteIpDrainage extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -415,7 +402,6 @@ class DeleteIpDrainage extends Request
  */
 class ModifyAclRulesOrder extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -432,7 +418,6 @@ class ModifyAclRulesOrder extends Request
  */
 class DescribeRule extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -453,7 +438,6 @@ class DescribeRule extends Request
  */
 class CreateAutoAccess extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -474,7 +458,6 @@ class CreateAutoAccess extends Request
  */
 class DescribeDrainageIps extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -493,7 +476,6 @@ class DescribeDrainageIps extends Request
  */
 class DescribeScreenMobileOsPv extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -508,7 +490,6 @@ class DescribeScreenMobileOsPv extends Request
  */
 class DescribeWarnConfig extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -525,7 +506,6 @@ class DescribeWarnConfig extends Request
  */
 class DescribeRuleGroupRule extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -538,7 +518,6 @@ class DescribeRuleGroupRule extends Request
  */
 class DescribeTransferConfigInWork extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -563,7 +542,6 @@ class DescribeTransferConfigInWork extends Request
  */
 class DescribeAttackLog extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -580,7 +558,6 @@ class DescribeAttackLog extends Request
  */
 class ModifyDomainLogEnabled extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -599,7 +576,6 @@ class ModifyDomainLogEnabled extends Request
  */
 class SetDomainRuleGroup extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -614,7 +590,6 @@ class SetDomainRuleGroup extends Request
  */
 class DeleteRuleGroup extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -627,7 +602,6 @@ class DeleteRuleGroup extends Request
  */
 class DescribeDomainNames extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -646,7 +620,6 @@ class DescribeDomainNames extends Request
  */
 class DescribeScreenAbnormalMonitor extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -669,7 +642,6 @@ class DescribeScreenAbnormalMonitor extends Request
  */
 class ModifyProtectionRuleStatus extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -684,7 +656,6 @@ class ModifyProtectionRuleStatus extends Request
  */
 class CreateOutputDomainConfig extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -703,7 +674,6 @@ class CreateOutputDomainConfig extends Request
  */
 class DescribeWebSourceIpPv extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -720,7 +690,6 @@ class DescribeWebSourceIpPv extends Request
  */
 class DescribeProtectionModuleStatus extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -739,7 +708,6 @@ class DescribeProtectionModuleStatus extends Request
  */
 class SetProtectionModulePolicy extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -758,7 +726,6 @@ class SetProtectionModulePolicy extends Request
  */
 class DeleteProtectionModuleRule extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -773,7 +740,6 @@ class DeleteProtectionModuleRule extends Request
  */
 class ModifyDomainPackageCount extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -786,7 +752,6 @@ class ModifyDomainPackageCount extends Request
  */
 class DescribeHttpsCertInUse extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -807,7 +772,6 @@ class DescribeHttpsCertInUse extends Request
  */
 class CreateCertAndKey extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -826,7 +790,6 @@ class CreateCertAndKey extends Request
  */
 class DescribeScreenAccessUrlTop extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -841,7 +804,6 @@ class DescribeScreenAccessUrlTop extends Request
  */
 class DescribeNeedUpgradeDomainLimit extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -862,7 +824,6 @@ class DescribeNeedUpgradeDomainLimit extends Request
  */
 class SetWarnMode extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -881,7 +842,6 @@ class SetWarnMode extends Request
  */
 class DescribeDomains extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -894,7 +854,6 @@ class DescribeDomains extends Request
  */
 class CreateEmptyLogstore extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -913,7 +872,6 @@ class CreateEmptyLogstore extends Request
  */
 class DescribeScreenAccessIpTop extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -928,7 +886,6 @@ class DescribeScreenAccessIpTop extends Request
  */
 class CreateIpDrainage extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -957,7 +914,6 @@ class CreateIpDrainage extends Request
  */
 class ModifyDomainConfig extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -970,7 +926,6 @@ class ModifyDomainConfig extends Request
  */
 class DescribeSlsAuthStatus extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -987,7 +942,6 @@ class DescribeSlsAuthStatus extends Request
  */
 class CreateDomainDrainage extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -1002,7 +956,6 @@ class CreateDomainDrainage extends Request
  */
 class DescribeBriefRuleGroups extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -1019,7 +972,6 @@ class DescribeBriefRuleGroups extends Request
  */
 class DescribeLogExportTasks extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -1032,7 +984,6 @@ class DescribeLogExportTasks extends Request
  */
 class DescribeWafSourceIpSegment extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -1057,7 +1008,6 @@ class DescribeWafSourceIpSegment extends Request
  */
 class CreateLogExportTask extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -1076,7 +1026,6 @@ class CreateLogExportTask extends Request
  */
 class DescribeScreenPcBrowserPv extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -1097,7 +1046,6 @@ class DescribeScreenPcBrowserPv extends Request
  */
 class DescribeScreenAttackTopArea extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -1110,7 +1058,6 @@ class DescribeScreenAttackTopArea extends Request
  */
 class DescribeScreenPackage extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -1129,7 +1076,6 @@ class DescribeScreenPackage extends Request
  */
 class DescribeAclRules extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -1148,7 +1094,6 @@ class DescribeAclRules extends Request
  */
 class DescribeLogExportFiles extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -1165,7 +1110,6 @@ class DescribeLogExportFiles extends Request
  */
 class DescribeAccessAreaStatistics extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -1178,7 +1122,6 @@ class DescribeAccessAreaStatistics extends Request
  */
 class DescribePackage extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -1193,7 +1136,6 @@ class DescribePackage extends Request
  */
 class ModifyAppOpenStatus extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -1226,7 +1168,6 @@ class ModifyAppOpenStatus extends Request
  */
 class CreateDomainConfig extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -1241,7 +1182,6 @@ class CreateDomainConfig extends Request
  */
 class DescribeDomainRuleGroup extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -1250,7 +1190,6 @@ class DescribeDomainRuleGroup extends Request
  */
 class DescribeRegions extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -1263,7 +1202,6 @@ class DescribeRegions extends Request
  */
 class DescribeRegionStatus extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -1278,7 +1216,6 @@ class DescribeRegionStatus extends Request
  */
 class DeleteDomainConfig extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -1293,7 +1230,6 @@ class DeleteDomainConfig extends Request
  */
 class DescribeDomainProtocolType extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -1312,7 +1248,6 @@ class DescribeDomainProtocolType extends Request
  */
 class DescribeWebAttackCount extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -1329,7 +1264,6 @@ class DescribeWebAttackCount extends Request
  */
 class DescribeAccessWafSourcePvStatistics extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -1346,7 +1280,6 @@ class DescribeAccessWafSourcePvStatistics extends Request
  */
 class ModifyUnblockingIp extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -1359,7 +1292,6 @@ class ModifyUnblockingIp extends Request
  */
 class DescribeWarnMode extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -1374,7 +1306,6 @@ class DescribeWarnMode extends Request
  */
 class ModifyUserMobile extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -1383,7 +1314,6 @@ class ModifyUserMobile extends Request
  */
 class DescribeScreenRegions extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -1398,7 +1328,6 @@ class DescribeScreenRegions extends Request
  */
 class DescribeScreenIpRiskLabel extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -1411,7 +1340,6 @@ class DescribeScreenIpRiskLabel extends Request
  */
 class DescribeLogQuato extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -1426,7 +1354,6 @@ class DescribeLogQuato extends Request
  */
 class DescribeDomainConfig extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -1439,7 +1366,6 @@ class DescribeDomainConfig extends Request
  */
 class CreateSlsResource extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -1460,7 +1386,6 @@ class CreateSlsResource extends Request
  */
 class DescribeRuleGroups extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -1473,7 +1398,6 @@ class DescribeRuleGroups extends Request
  */
 class DescribeSlsOpenStatus extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -1494,7 +1418,6 @@ class DescribeSlsOpenStatus extends Request
  */
 class DescribeScreenAttackTypeChart extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -1513,7 +1436,6 @@ class DescribeScreenAttackTypeChart extends Request
  */
 class DescribeScreenQpsAttackTypeStatistics extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -1526,7 +1448,6 @@ class DescribeScreenQpsAttackTypeStatistics extends Request
  */
 class CreateSlsOpenOrder extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -1539,7 +1460,6 @@ class CreateSlsOpenOrder extends Request
  */
 class DescribePreDomains extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -1560,7 +1480,6 @@ class DescribePreDomains extends Request
  */
 class CreateRuleGroup extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -1573,7 +1492,6 @@ class CreateRuleGroup extends Request
  */
 class DescribeScreenPayInfo extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -1594,7 +1512,6 @@ class DescribeScreenPayInfo extends Request
  */
 class DescribeProtectionModuleRules extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -1617,7 +1534,6 @@ class DescribeProtectionModuleRules extends Request
  */
 class CreatePostpaidInstance extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -1632,7 +1548,6 @@ class CreatePostpaidInstance extends Request
  */
 class DescribeDomainLogEnableds extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -1645,7 +1560,6 @@ class DescribeDomainLogEnableds extends Request
  */
 class DescribePayInfo extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -1664,7 +1578,6 @@ class DescribePayInfo extends Request
  */
 class CreateProtectionModuleRule extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -1677,7 +1590,6 @@ class CreateProtectionModuleRule extends Request
  */
 class DescribeRegionThreshold extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -1692,7 +1604,6 @@ class DescribeRegionThreshold extends Request
  */
 class DeleteOutputDomainConfig extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -1715,7 +1626,6 @@ class DeleteOutputDomainConfig extends Request
  */
 class DescribeAclAttackPv extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -1736,7 +1646,6 @@ class DescribeAclAttackPv extends Request
  */
 class DescribeQpsHourFlowChart extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -1749,7 +1658,6 @@ class DescribeQpsHourFlowChart extends Request
  */
 class DescribeSlsResourceStatus extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -1766,7 +1674,6 @@ class DescribeSlsResourceStatus extends Request
  */
 class DescribeProtectionModuleCodeConfig extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -1781,7 +1688,6 @@ class DescribeProtectionModuleCodeConfig extends Request
  */
 class DeleteLogExportTask extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -1798,7 +1704,6 @@ class DeleteLogExportTask extends Request
  */
 class ModifyUserUsedScreen extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -1825,7 +1730,6 @@ class ModifyUserUsedScreen extends Request
  */
 class DescribeWebAttackLog extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -1854,7 +1758,6 @@ class DescribeWebAttackLog extends Request
  */
 class DescribeRules extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -1871,7 +1774,6 @@ class DescribeRules extends Request
  */
 class CreateAclRule extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -1888,7 +1790,6 @@ class CreateAclRule extends Request
  */
 class DescribeAutoAccessStatus extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -1905,7 +1806,6 @@ class DescribeAutoAccessStatus extends Request
  */
 class DeleteAclRule extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -1926,7 +1826,6 @@ class DeleteAclRule extends Request
  */
 class DescribeScreenQpsAttackTypeChart extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -1947,7 +1846,6 @@ class DescribeScreenQpsAttackTypeChart extends Request
  */
 class CreateCopyRuleGroup extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -1966,7 +1864,6 @@ class CreateCopyRuleGroup extends Request
  */
 class DescribeWebAttackTypePv extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -1979,7 +1876,6 @@ class DescribeWebAttackTypePv extends Request
  */
 class DescribeAuthorization extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -1996,7 +1892,6 @@ class DescribeAuthorization extends Request
  */
 class ModifyAclRule extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -2017,7 +1912,6 @@ class ModifyAclRule extends Request
  */
 class DescribeScreenAttackTopIp extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -2032,7 +1926,6 @@ class DescribeScreenAttackTopIp extends Request
  */
 class DescribeDomainConfigStatus extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -2045,7 +1938,6 @@ class DescribeDomainConfigStatus extends Request
  */
 class DescribeAccessMode extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -2060,7 +1952,6 @@ class DescribeAccessMode extends Request
  */
 class DescribeAsyncTaskStatus extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -2073,7 +1964,6 @@ class DescribeAsyncTaskStatus extends Request
  */
 class DescribeSlsAuthStatusHttpVersion extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -2086,7 +1976,6 @@ class DescribeSlsAuthStatusHttpVersion extends Request
  */
 class DescribeServiceStatus extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -2109,7 +1998,6 @@ class DescribeServiceStatus extends Request
  */
 class ModifyProtectionModuleRule extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -2126,7 +2014,6 @@ class ModifyProtectionModuleRule extends Request
  */
 class ModifyLogServiceOpenStatus extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -2145,7 +2032,6 @@ class ModifyLogServiceOpenStatus extends Request
  */
 class DescribeWebRegionPv extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -2164,7 +2050,6 @@ class DescribeWebRegionPv extends Request
  */
 class CheckDomainCert extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -2177,7 +2062,6 @@ class CheckDomainCert extends Request
  */
 class DescribeQrCode extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -2194,7 +2078,6 @@ class DescribeQrCode extends Request
  */
 class ModifyLogStatus extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -2215,7 +2098,6 @@ class ModifyLogStatus extends Request
  */
 class DescribeScreenAttackTypes extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -2228,7 +2110,6 @@ class DescribeScreenAttackTypes extends Request
  */
 class CreateAuthorization extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -2243,7 +2124,6 @@ class CreateAuthorization extends Request
  */
 class ModifyIpDrainage extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -2258,7 +2138,6 @@ class ModifyIpDrainage extends Request
  */
 class ModifyAccessMode extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -2275,7 +2154,6 @@ class ModifyAccessMode extends Request
  */
 class ModifyWafSwitch extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -2292,7 +2170,6 @@ class ModifyWafSwitch extends Request
  */
 class DescribeProtectionModulePolicy extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -2311,7 +2188,6 @@ class DescribeProtectionModulePolicy extends Request
  */
 class SetProtectionModuleStatus extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -2330,7 +2206,6 @@ class SetProtectionModuleStatus extends Request
  */
 class DescribeOutputDomains extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -2343,7 +2218,6 @@ class DescribeOutputDomains extends Request
  */
 class ModifyWafInstanceSwitch extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -2356,7 +2230,6 @@ class ModifyWafInstanceSwitch extends Request
  */
 class DescribeWebAttackType extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -2377,7 +2250,6 @@ class DescribeWebAttackType extends Request
  */
 class DescribeUntractedIps extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -2398,7 +2270,6 @@ class DescribeUntractedIps extends Request
  */
 class ModifyCertAndKey extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -2411,7 +2282,6 @@ class ModifyCertAndKey extends Request
  */
 class DescribeAppsStatusList extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -2430,5 +2300,4 @@ class DescribeAppsStatusList extends Request
  */
 class AppOpenAck extends Request
 {
-
 }

@@ -46,7 +46,6 @@ class V20160410
  */
 class DeleteLay4Rule extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -73,7 +72,6 @@ class DeleteLay4Rule extends Request
  */
 class CreateOrderInstance extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -88,7 +86,6 @@ class CreateOrderInstance extends Request
  */
 class CreateLay4Rule extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -99,7 +96,6 @@ class CreateLay4Rule extends Request
  */
 class DescribeDdosFlow extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -112,7 +108,6 @@ class DescribeDdosFlow extends Request
  */
 class ModifyDomain extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -129,7 +124,6 @@ class ModifyDomain extends Request
  */
 class CreateDomain extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -140,7 +134,6 @@ class CreateDomain extends Request
  */
 class ModifyWafConfig extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -153,7 +146,6 @@ class ModifyWafConfig extends Request
  */
 class DescribeWafAttackTypeStats extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -168,7 +160,6 @@ class DescribeWafAttackTypeStats extends Request
  */
 class DescribeDdosEvents extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -185,7 +176,6 @@ class DescribeDdosEvents extends Request
  */
 class DescribeWafAttackSourceStats extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -196,7 +186,6 @@ class DescribeWafAttackSourceStats extends Request
  */
 class UploadHttpsCert extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -209,7 +198,6 @@ class UploadHttpsCert extends Request
  */
 class DescribeDomains extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -218,7 +206,6 @@ class DescribeDomains extends Request
  */
 class ReleaseInstance extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -247,7 +234,6 @@ class ReleaseInstance extends Request
  */
 class CreateInstance extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -258,7 +244,6 @@ class CreateInstance extends Request
  */
 class ModifyCcConfig extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -275,7 +260,6 @@ class ModifyCcConfig extends Request
  */
 class DescribeWafAttackEvents extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -286,7 +270,6 @@ class DescribeWafAttackEvents extends Request
  */
 class UploadHttpsKey extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -299,7 +282,6 @@ class UploadHttpsKey extends Request
  */
 class DescribeCcFlow extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -316,7 +298,6 @@ class DescribeCcFlow extends Request
  */
 class DescribeWafAttackUrlStats extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -327,7 +308,6 @@ class DescribeWafAttackUrlStats extends Request
  */
 class DescribeLay4Rules extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -344,7 +324,6 @@ class DescribeLay4Rules extends Request
  */
 class DescribeCcEvents extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -353,7 +332,6 @@ class DescribeCcEvents extends Request
  */
 class DeleteDomain extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -364,7 +342,6 @@ class DeleteDomain extends Request
  */
 class ModifyLay4Rule extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -381,7 +358,6 @@ class ModifyLay4Rule extends Request
  */
 class UpgradeInstance extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -396,5 +372,4 @@ class UpgradeInstance extends Request
  */
 class RenewInstance extends Request
 {
-
 }

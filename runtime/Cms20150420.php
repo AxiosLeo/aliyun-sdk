@@ -38,5 +38,4 @@ class V20150420
  */
 class DescribeMetricDatum extends Request
 {
-
 }

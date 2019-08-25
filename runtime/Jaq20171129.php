@@ -37,7 +37,6 @@ class V20171129
  */
 class RiskControlSignVerify extends Request
 {
-
 }/**
  * @method $this setCallerName($callerName)
  * @method string getCallerName()
@@ -46,7 +45,6 @@ class RiskControlSignVerify extends Request
  */
 class AfsAppCheck extends Request
 {
-
 }/**
  * @method $this setCallerName($callerName)
  * @method string getCallerName()
@@ -107,7 +105,6 @@ class AfsAppCheck extends Request
  */
 class ActivityPrevention extends Request
 {
-
 }/**
  * @method $this setCallerName($callerName)
  * @method string getCallerName()
@@ -156,7 +153,6 @@ class ActivityPrevention extends Request
  */
 class SpamRegisterPrevention extends Request
 {
-
 }/**
  * @method $this setCallerName($callerName)
  * @method string getCallerName()
@@ -165,7 +161,6 @@ class SpamRegisterPrevention extends Request
  */
 class DeviceRiskIdentify extends Request
 {
-
 }/**
  * @method $this setCallerName($callerName)
  * @method string getCallerName()
@@ -182,7 +177,6 @@ class DeviceRiskIdentify extends Request
  */
 class AfsCheck extends Request
 {
-
 }/**
  * @method $this setCallerName($callerName)
  * @method string getCallerName()
@@ -227,7 +221,6 @@ class AfsCheck extends Request
  */
 class BbsPrevention extends Request
 {
-
 }/**
  * @method $this setCallerName($callerName)
  * @method string getCallerName()
@@ -244,7 +237,6 @@ class BbsPrevention extends Request
  */
 class GetRiskStatus extends Request
 {
-
 }/**
  * @method $this setCallerName($callerName)
  * @method string getCallerName()
@@ -255,7 +247,6 @@ class GetRiskStatus extends Request
  */
 class CheckAccountAndPasswordRisk extends Request
 {
-
 }/**
  * @method $this setCallerName($callerName)
  * @method string getCallerName()
@@ -316,7 +307,6 @@ class CheckAccountAndPasswordRisk extends Request
  */
 class LoginPrevention extends Request
 {
-
 }/**
  * @method $this setCallerName($callerName)
  * @method string getCallerName()
@@ -329,7 +319,6 @@ class LoginPrevention extends Request
  */
 class GetAntiCheatExcelResult extends Request
 {
-
 }/**
  * @method $this setCallerName($callerName)
  * @method string getCallerName()
@@ -340,7 +329,6 @@ class GetAntiCheatExcelResult extends Request
  */
 class DeviceRiskControl extends Request
 {
-
 }/**
  * @method $this setCallerName($callerName)
  * @method string getCallerName()
@@ -399,7 +387,6 @@ class DeviceRiskControl extends Request
  */
 class MessagePrevention extends Request
 {
-
 }/**
  * @method $this setCallerName($callerName)
  * @method string getCallerName()
@@ -458,5 +445,4 @@ class MessagePrevention extends Request
  */
 class OtherPrevention extends Request
 {
-
 }

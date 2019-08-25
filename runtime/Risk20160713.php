@@ -41,7 +41,6 @@ class V20160713
  */
 class VerifyIvToken extends Request
 {
-
 }/**
  * @method $this setType($type)
  * @method string getType()
@@ -64,7 +63,6 @@ class VerifyIvToken extends Request
  */
 class DelNameList extends Request
 {
-
 }/**
  * @method $this setType($type)
  * @method string getType()
@@ -79,7 +77,6 @@ class DelNameList extends Request
  */
 class QueryNameListForLx extends Request
 {
-
 }/**
  * @method $this setAppKey($appKey)
  * @method string getAppKey()
@@ -110,7 +107,6 @@ class QueryNameListForLx extends Request
  */
 class WriteUssc extends Request
 {
-
 }/**
  * @method $this setIdType($idType)
  * @method string getIdType()
@@ -131,7 +127,6 @@ class WriteUssc extends Request
  */
 class PushData extends Request
 {
-
 }/**
  * @method $this setRiskRequestId($riskRequestId)
  * @method string getRiskRequestId()
@@ -158,7 +153,6 @@ class PushData extends Request
  */
 class ValidateVerifyCode extends Request
 {
-
 }/**
  * @method $this setUserId($userId)
  * @method string getUserId()
@@ -171,7 +165,6 @@ class ValidateVerifyCode extends Request
  */
 class QueryHitUser extends Request
 {
-
 }/**
  * @method $this setType($type)
  * @method string getType()
@@ -194,7 +187,6 @@ class QueryHitUser extends Request
  */
 class UpdateNameList extends Request
 {
-
 }/**
  * @method $this setType($type)
  * @method string getType()
@@ -209,7 +201,6 @@ class UpdateNameList extends Request
  */
 class QueryNameList extends Request
 {
-
 }/**
  * @method $this setType($type)
  * @method string getType()
@@ -232,7 +223,6 @@ class QueryNameList extends Request
  */
 class AddNameList extends Request
 {
-
 }/**
  * @method $this setRiskRequestId($riskRequestId)
  * @method string getRiskRequestId()
@@ -261,7 +251,6 @@ class AddNameList extends Request
  */
 class SendVerifyCode extends Request
 {
-
 }/**
  * @method $this setUserId($userId)
  * @method string getUserId()
@@ -288,7 +277,6 @@ class SendVerifyCode extends Request
  */
 class FindRisk extends Request
 {
-
 }/**
  * @method $this setApn($apn)
  * @method string getApn()
@@ -301,7 +289,6 @@ class FindRisk extends Request
  */
 class TunnelReceive extends Request
 {
-
 }/**
  * @method $this setApn($apn)
  * @method string getApn()
@@ -314,5 +301,4 @@ class TunnelReceive extends Request
  */
 class TunnelSend extends Request
 {
-
 }

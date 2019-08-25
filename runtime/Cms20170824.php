@@ -58,7 +58,6 @@ class V20170824
  */
 class DeleteTask extends Request
 {
-
 }/**
  * @method $this settaskIds($taskIds)
  * @method string gettaskIds()
@@ -71,14 +70,12 @@ class DeleteTask extends Request
  */
 class getIspCityTrend extends Request
 {
-
 }/**
  * @method $this settaskIds($taskIds)
  * @method string gettaskIds()
  */
 class BatchDeleteTask extends Request
 {
-
 }/**
  * @method $this setProject($project)
  * @method string getProject()
@@ -91,14 +88,12 @@ class BatchDeleteTask extends Request
  */
 class ListMetricMeta extends Request
 {
-
 }/**
  * @method $this setpageSize($pageSize)
  * @method string getpageSize()
  */
 class QuerySlaTask extends Request
 {
-
 }/**
  * @method $this setalertName($alertName)
  * @method string getalertName()
@@ -137,7 +132,6 @@ class QuerySlaTask extends Request
  */
 class UpdateTask extends Request
 {
-
 }/**
  * @method $this settaskIds($taskIds)
  * @method string gettaskIds()
@@ -150,7 +144,6 @@ class UpdateTask extends Request
  */
 class GetAccessStrategy extends Request
 {
-
 }/**
  * @method $this settaskIds($taskIds)
  * @method string gettaskIds()
@@ -163,24 +156,20 @@ class GetAccessStrategy extends Request
  */
 class GetAgentAllCityTrend extends Request
 {
-
 }/**
  */
 class DescribeISPAreaCity extends Request
 {
-
 }/**
  * @method $this settaskIds($taskIds)
  * @method string gettaskIds()
  */
 class DeleteTasks extends Request
 {
-
 }/**
  */
 class ListMetricMetaProject extends Request
 {
-
 }/**
  * @method $this setstartTime($startTime)
  * @method string getstartTime()
@@ -193,7 +182,6 @@ class ListMetricMetaProject extends Request
  */
 class CountTaskInfo extends Request
 {
-
 }/**
  * @method $this settaskIds($taskIds)
  * @method string gettaskIds()
@@ -206,7 +194,6 @@ class CountTaskInfo extends Request
  */
 class GetErrorInfoUnconverge extends Request
 {
-
 }/**
  * @method $this settaskIds($taskIds)
  * @method string gettaskIds()
@@ -219,14 +206,12 @@ class GetErrorInfoUnconverge extends Request
  */
 class GetAgentIspTrend extends Request
 {
-
 }/**
  * @method $this settaskIds($taskIds)
  * @method string gettaskIds()
  */
 class StopTasks extends Request
 {
-
 }/**
  * @method $this settaskIds($taskIds)
  * @method string gettaskIds()
@@ -239,7 +224,6 @@ class StopTasks extends Request
  */
 class GetAgentCountryTrend extends Request
 {
-
 }/**
  * @method $this settaskIds($taskIds)
  * @method string gettaskIds()
@@ -252,7 +236,6 @@ class GetAgentCountryTrend extends Request
  */
 class GetErrorRateTrend extends Request
 {
-
 }/**
  * @method $this settaskId($taskId)
  * @method string gettaskId()
@@ -267,7 +250,6 @@ class GetErrorRateTrend extends Request
  */
 class DescribeTasks extends Request
 {
-
 }/**
  * @method $this setalertName($alertName)
  * @method string getalertName()
@@ -306,12 +288,10 @@ class DescribeTasks extends Request
  */
 class CreateTask extends Request
 {
-
 }/**
  */
 class GetISPAreaCity extends Request
 {
-
 }/**
  * @method $this settaskIds($taskIds)
  * @method string gettaskIds()
@@ -324,14 +304,12 @@ class GetISPAreaCity extends Request
  */
 class GetAgentCityTrend extends Request
 {
-
 }/**
  * @method $this settaskIds($taskIds)
  * @method string gettaskIds()
  */
 class PauseTasks extends Request
 {
-
 }/**
  * @method $this settaskIds($taskIds)
  * @method string gettaskIds()
@@ -344,7 +322,6 @@ class PauseTasks extends Request
  */
 class GetAgentAllCityAvailRate extends Request
 {
-
 }/**
  * @method $this settaskIds($taskIds)
  * @method string gettaskIds()
@@ -357,7 +334,6 @@ class GetAgentAllCityAvailRate extends Request
  */
 class GetAgentSingleIndexTrend extends Request
 {
-
 }/**
  * @method $this settaskIds($taskIds)
  * @method string gettaskIds()
@@ -370,7 +346,6 @@ class GetAgentSingleIndexTrend extends Request
  */
 class GetTracerouteRouteInfo extends Request
 {
-
 }/**
  * @method $this setstartTime($startTime)
  * @method string getstartTime()
@@ -383,14 +358,12 @@ class GetTracerouteRouteInfo extends Request
  */
 class QueryOverdueTask extends Request
 {
-
 }/**
  * @method $this settaskList($taskList)
  * @method string gettaskList()
  */
 class BatchCreateOnceTask extends Request
 {
-
 }/**
  * @method $this settaskIds($taskIds)
  * @method string gettaskIds()
@@ -403,7 +376,6 @@ class BatchCreateOnceTask extends Request
  */
 class GetErrorKindRateTrend extends Request
 {
-
 }/**
  * @method $this settaskId($taskId)
  * @method string gettaskId()
@@ -418,7 +390,6 @@ class GetErrorKindRateTrend extends Request
  */
 class QueryTask extends Request
 {
-
 }/**
  * @method $this settaskIds($taskIds)
  * @method string gettaskIds()
@@ -431,7 +402,6 @@ class QueryTask extends Request
  */
 class GetErrorInfo extends Request
 {
-
 }/**
  * @method $this settaskIds($taskIds)
  * @method string gettaskIds()
@@ -444,7 +414,6 @@ class GetErrorInfo extends Request
  */
 class GetIspRegionTrend extends Request
 {
-
 }/**
  * @method $this settaskIds($taskIds)
  * @method string gettaskIds()
@@ -457,7 +426,6 @@ class GetIspRegionTrend extends Request
  */
 class GetAgentIndexCombineTrend extends Request
 {
-
 }/**
  * @method $this settaskIds($taskIds)
  * @method string gettaskIds()
@@ -470,7 +438,6 @@ class GetAgentIndexCombineTrend extends Request
  */
 class GetAgentIndexTrend extends Request
 {
-
 }/**
  * @method $this settaskIds($taskIds)
  * @method string gettaskIds()
@@ -483,7 +450,6 @@ class GetAgentIndexTrend extends Request
  */
 class GetLastRecord extends Request
 {
-
 }/**
  * @method $this setalertName($alertName)
  * @method string getalertName()
@@ -522,14 +488,12 @@ class GetLastRecord extends Request
  */
 class ModifyTask extends Request
 {
-
 }/**
  * @method $this settaskIds($taskIds)
  * @method string gettaskIds()
  */
 class StartTasks extends Request
 {
-
 }/**
  * @method $this settaskId($taskId)
  * @method string gettaskId()
@@ -544,7 +508,6 @@ class StartTasks extends Request
  */
 class QueryReportTask extends Request
 {
-
 }/**
  * @method $this settaskIds($taskIds)
  * @method string gettaskIds()
@@ -557,7 +520,6 @@ class QueryReportTask extends Request
  */
 class GetAgentRegionTrend extends Request
 {
-
 }/**
  * @method $this settaskIds($taskIds)
  * @method string gettaskIds()
@@ -570,5 +532,4 @@ class GetAgentRegionTrend extends Request
  */
 class GetAgentIspCombineTrend extends Request
 {
-
 }

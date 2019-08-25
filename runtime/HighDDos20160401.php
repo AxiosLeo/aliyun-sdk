@@ -29,7 +29,6 @@ class V20160401
  */
 class AddDomain extends Request
 {
-
 }/**
  * @method $this setChannel($channel)
  * @method string getChannel()
@@ -44,7 +43,6 @@ class AddDomain extends Request
  */
 class DescribeInstances extends Request
 {
-
 }/**
  * @method $this setChannel($channel)
  * @method string getChannel()
@@ -57,7 +55,6 @@ class DescribeInstances extends Request
  */
 class UpdateDomain extends Request
 {
-
 }/**
  * @method $this setChannel($channel)
  * @method string getChannel()
@@ -68,5 +65,4 @@ class UpdateDomain extends Request
  */
 class DeleteDomain extends Request
 {
-
 }

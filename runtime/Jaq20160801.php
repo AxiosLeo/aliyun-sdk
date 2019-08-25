@@ -68,7 +68,6 @@ class V20160801
  */
 class SpamRegisterPrevention extends Request
 {
-
 }/**
  * @method $this setCallerName($callerName)
  * @method string getCallerName()
@@ -85,7 +84,6 @@ class SpamRegisterPrevention extends Request
  */
 class AfsCheck extends Request
 {
-
 }/**
  * @method $this setCallerName($callerName)
  * @method string getCallerName()
@@ -146,7 +144,6 @@ class AfsCheck extends Request
  */
 class CampaignPrevention extends Request
 {
-
 }/**
  * @method $this setCallerName($callerName)
  * @method string getCallerName()
@@ -191,7 +188,6 @@ class CampaignPrevention extends Request
  */
 class BbsPrevention extends Request
 {
-
 }/**
  * @method $this setCallerName($callerName)
  * @method string getCallerName()
@@ -202,7 +198,6 @@ class BbsPrevention extends Request
  */
 class CheckAccountAndPasswordRisk extends Request
 {
-
 }/**
  * @method $this setCallerName($callerName)
  * @method string getCallerName()
@@ -263,7 +258,6 @@ class CheckAccountAndPasswordRisk extends Request
  */
 class LoginPrevention extends Request
 {
-
 }/**
  * @method $this setCallerName($callerName)
  * @method string getCallerName()
@@ -322,5 +316,4 @@ class LoginPrevention extends Request
  */
 class OtherPrevention extends Request
 {
-
 }

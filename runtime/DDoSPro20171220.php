@@ -41,7 +41,6 @@ class V20171220
  */
 class CreateCcCustomedRule extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -54,7 +53,6 @@ class CreateCcCustomedRule extends Request
  */
 class DeleteCcCustomedRule extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -79,7 +77,6 @@ class DeleteCcCustomedRule extends Request
  */
 class UpdateCcCustomedRule extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -94,5 +91,4 @@ class UpdateCcCustomedRule extends Request
  */
 class ListCcCustomedRule extends Request
 {
-
 }

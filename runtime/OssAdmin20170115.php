@@ -31,7 +31,6 @@ class V20170115
  */
 class ProduceInstance extends Request
 {
-
 }/**
  * @method $this setdata($data)
  * @method string getdata()
@@ -48,5 +47,4 @@ class ProduceInstance extends Request
  */
 class FillInstanceParam extends Request
 {
-
 }

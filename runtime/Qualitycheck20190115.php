@@ -107,7 +107,6 @@ class V20190115
  */
 class DeleteScoreForApi extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -116,7 +115,6 @@ class DeleteScoreForApi extends Request
  */
 class UpdateRule extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -125,7 +123,6 @@ class UpdateRule extends Request
  */
 class GetResultReviewList extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -134,7 +131,6 @@ class GetResultReviewList extends Request
  */
 class GetFileDimension extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -143,7 +139,6 @@ class GetFileDimension extends Request
  */
 class UploadAudioDataWithRules4Pre extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -152,7 +147,6 @@ class UploadAudioDataWithRules4Pre extends Request
  */
 class GetAudioContentInfo extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -161,7 +155,6 @@ class GetAudioContentInfo extends Request
  */
 class GetTaskRuleList extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -170,7 +163,6 @@ class GetTaskRuleList extends Request
  */
 class GetDataSetOssHeader extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -179,7 +171,6 @@ class GetDataSetOssHeader extends Request
  */
 class DeleteBusinessCategory extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -188,7 +179,6 @@ class DeleteBusinessCategory extends Request
  */
 class CloseService extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -197,7 +187,6 @@ class CloseService extends Request
  */
 class RegisterNotice extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -228,7 +217,6 @@ class RegisterNotice extends Request
  */
 class DoCheckResource extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -237,14 +225,12 @@ class DoCheckResource extends Request
  */
 class ValidateRoleSet extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
  */
 class GetUserInfo extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -253,7 +239,6 @@ class GetUserInfo extends Request
  */
 class RestartAsrTask extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -262,7 +247,6 @@ class RestartAsrTask extends Request
  */
 class DeleteCustomizationConfig extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -271,7 +255,6 @@ class DeleteCustomizationConfig extends Request
  */
 class UploadDataWithRules extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -280,7 +263,6 @@ class UploadDataWithRules extends Request
  */
 class UpdateScoreForApi extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -289,7 +271,6 @@ class UpdateScoreForApi extends Request
  */
 class DeleteDataSet extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -314,7 +295,6 @@ class DeleteDataSet extends Request
  */
 class DoPhysicalDeleteResource extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -323,7 +303,6 @@ class DoPhysicalDeleteResource extends Request
  */
 class GetTaskFileResultList extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -332,14 +311,12 @@ class GetTaskFileResultList extends Request
  */
 class SubmitCustomizationConfig extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
  */
 class GetUserGroup extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -348,7 +325,6 @@ class GetUserGroup extends Request
  */
 class UploadRuleForAnt extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -357,7 +333,6 @@ class UploadRuleForAnt extends Request
  */
 class GetDataSetList extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -366,7 +341,6 @@ class GetDataSetList extends Request
  */
 class GetRule extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -375,7 +349,6 @@ class GetRule extends Request
  */
 class GetRuleCategory extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -384,7 +357,6 @@ class GetRuleCategory extends Request
  */
 class SubmitQualityCheckTask extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -393,7 +365,6 @@ class SubmitQualityCheckTask extends Request
  */
 class GetResult extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -402,7 +373,6 @@ class GetResult extends Request
  */
 class GetReviewInfo extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -411,7 +381,6 @@ class GetReviewInfo extends Request
  */
 class UploadAudioDataWithRules extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -438,7 +407,6 @@ class UploadAudioDataWithRules extends Request
  */
 class DoLogicalDeleteResource extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -447,7 +415,6 @@ class DoLogicalDeleteResource extends Request
  */
 class GetAsrVocab extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -456,7 +423,6 @@ class GetAsrVocab extends Request
  */
 class AddBusinessCategory extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -465,7 +431,6 @@ class AddBusinessCategory extends Request
  */
 class UploadData extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -474,7 +439,6 @@ class UploadData extends Request
  */
 class GetScoreInfo extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -483,7 +447,6 @@ class GetScoreInfo extends Request
  */
 class ExecuteAsrTransform extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -492,7 +455,6 @@ class ExecuteAsrTransform extends Request
  */
 class EditThesaurusForApi extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -501,7 +463,6 @@ class EditThesaurusForApi extends Request
  */
 class GetCustomizationConfigList extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -510,7 +471,6 @@ class GetCustomizationConfigList extends Request
  */
 class GetResultCount extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -519,7 +479,6 @@ class GetResultCount extends Request
  */
 class AddUploadDataSet extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -528,7 +487,6 @@ class AddUploadDataSet extends Request
  */
 class GetRuleDimension extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -537,7 +495,6 @@ class GetRuleDimension extends Request
  */
 class AddRuleCategory extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -546,7 +503,6 @@ class AddRuleCategory extends Request
  */
 class GetAudioUrl extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -555,7 +511,6 @@ class GetAudioUrl extends Request
  */
 class DeleteAsrVocab extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -564,7 +519,6 @@ class DeleteAsrVocab extends Request
  */
 class DelThesaurusForApi extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -573,7 +527,6 @@ class DelThesaurusForApi extends Request
  */
 class SubmitAudioLabel extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -582,7 +535,6 @@ class SubmitAudioLabel extends Request
  */
 class GetNextResultToReview extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -591,7 +543,6 @@ class GetNextResultToReview extends Request
  */
 class ListDataSetTask extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -600,7 +551,6 @@ class ListDataSetTask extends Request
  */
 class CreateAsrVocab extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -609,7 +559,6 @@ class CreateAsrVocab extends Request
  */
 class GetThesaurusBySynonymForApi extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -618,7 +567,6 @@ class GetThesaurusBySynonymForApi extends Request
  */
 class UpdateOnPurchaseSuccess extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -627,7 +575,6 @@ class UpdateOnPurchaseSuccess extends Request
  */
 class DeleteSubScoreForApi extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -636,7 +583,6 @@ class DeleteSubScoreForApi extends Request
  */
 class InvalidRule extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -645,7 +591,6 @@ class InvalidRule extends Request
  */
 class GetBusinessCategoryList extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -654,7 +599,6 @@ class GetBusinessCategoryList extends Request
  */
 class GetRecognizeResult extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -663,7 +607,6 @@ class GetRecognizeResult extends Request
  */
 class CreateRule extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -672,7 +615,6 @@ class CreateRule extends Request
  */
 class GetOssHeader extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -681,7 +623,6 @@ class GetOssHeader extends Request
  */
 class GetResultToReview extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -690,7 +631,6 @@ class GetResultToReview extends Request
  */
 class UpdateRuleForAnt extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -699,7 +639,6 @@ class UpdateRuleForAnt extends Request
  */
 class UpdateAsrVocab extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -708,7 +647,6 @@ class UpdateAsrVocab extends Request
  */
 class GetRuleDetail extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -717,7 +655,6 @@ class GetRuleDetail extends Request
  */
 class GetPocTestReport extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -726,7 +663,6 @@ class GetPocTestReport extends Request
  */
 class ExchangeAudio extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -735,7 +671,6 @@ class ExchangeAudio extends Request
  */
 class TestRule extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -744,7 +679,6 @@ class TestRule extends Request
  */
 class TestNetwork extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -753,7 +687,6 @@ class TestNetwork extends Request
  */
 class GetAccAsrResult extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -762,7 +695,6 @@ class GetAccAsrResult extends Request
  */
 class DelRuleCategory extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -771,7 +703,6 @@ class DelRuleCategory extends Request
  */
 class SubmitModelTestTask extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -780,7 +711,6 @@ class SubmitModelTestTask extends Request
  */
 class InsertSubScoreForApi extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -789,7 +719,6 @@ class InsertSubScoreForApi extends Request
  */
 class InsertScoreForApi extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -798,7 +727,6 @@ class InsertScoreForApi extends Request
  */
 class UploadRule extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -807,7 +735,6 @@ class UploadRule extends Request
  */
 class ConfigDataSet extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -816,7 +743,6 @@ class ConfigDataSet extends Request
  */
 class UpdateSubScoreForApi extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -825,7 +751,6 @@ class UpdateSubScoreForApi extends Request
  */
 class SaveConfigDataSet extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -834,7 +759,6 @@ class SaveConfigDataSet extends Request
  */
 class UploadDataSync extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -843,7 +767,6 @@ class UploadDataSync extends Request
  */
 class OpenService extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -852,7 +775,6 @@ class OpenService extends Request
  */
 class ReviewSingleResultById extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -861,7 +783,6 @@ class ReviewSingleResultById extends Request
  */
 class GetAudioDataStatus extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -870,7 +791,6 @@ class GetAudioDataStatus extends Request
  */
 class SubmitReviewInfo extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -879,7 +799,6 @@ class SubmitReviewInfo extends Request
  */
 class RemoveAndGetTaskRules extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -888,14 +807,12 @@ class RemoveAndGetTaskRules extends Request
  */
 class AddThesaurusForApi extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
  */
 class GenerateCustomizationModelId extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -904,7 +821,6 @@ class GenerateCustomizationModelId extends Request
  */
 class UploadAudioData4Pre extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -913,7 +829,6 @@ class UploadAudioData4Pre extends Request
  */
 class UploadAudioData extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -922,5 +837,4 @@ class UploadAudioData extends Request
  */
 class SaveReviewResult extends Request
 {
-
 }

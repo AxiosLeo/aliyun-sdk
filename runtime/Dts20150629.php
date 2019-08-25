@@ -20,5 +20,4 @@ class V20150629
  */
 class drcGuidRouteApi extends Request
 {
-
 }

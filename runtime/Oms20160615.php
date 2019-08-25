@@ -44,7 +44,6 @@ class V20160615
  */
 class GetDomainPart extends Request
 {
-
 }/**
  * @method $this setDomainCode($domainCode)
  * @method string getDomainCode()
@@ -57,7 +56,6 @@ class GetDomainPart extends Request
  */
 class GetDomainPartByProxy extends Request
 {
-
 }/**
  * @method $this setDomainCode($domainCode)
  * @method string getDomainCode()
@@ -70,7 +68,6 @@ class GetDomainPartByProxy extends Request
  */
 class PutDomainPartByProxy extends Request
 {
-
 }/**
  * @method $this setDomainCode($domainCode)
  * @method string getDomainCode()
@@ -81,7 +78,6 @@ class PutDomainPartByProxy extends Request
  */
 class DeleteDomainPartByProxy extends Request
 {
-
 }/**
  * @method $this setDomainCode($domainCode)
  * @method string getDomainCode()
@@ -94,7 +90,6 @@ class DeleteDomainPartByProxy extends Request
  */
 class GetDomainPartConfig extends Request
 {
-
 }/**
  * @method $this setDomainCode($domainCode)
  * @method string getDomainCode()
@@ -111,7 +106,6 @@ class GetDomainPartConfig extends Request
  */
 class CheckReadyFlag extends Request
 {
-
 }/**
  * @method $this setAliUid($aliUid)
  * @method string getAliUid()
@@ -120,7 +114,6 @@ class CheckReadyFlag extends Request
  */
 class GetAccessPolicyConfig extends Request
 {
-
 }/**
  * @method $this setDomainCode($domainCode)
  * @method string getDomainCode()
@@ -137,7 +130,6 @@ class GetAccessPolicyConfig extends Request
  */
 class PutMeasureDataByProxy extends Request
 {
-
 }/**
  * @method $this setDomainCode($domainCode)
  * @method string getDomainCode()
@@ -150,7 +142,6 @@ class PutMeasureDataByProxy extends Request
  */
 class PutDomainPart extends Request
 {
-
 }/**
  * @method $this setDomainCode($domainCode)
  * @method string getDomainCode()
@@ -167,7 +158,6 @@ class PutDomainPart extends Request
  */
 class PutMeasureData extends Request
 {
-
 }/**
  * @method $this setDomainCode($domainCode)
  * @method string getDomainCode()
@@ -178,7 +168,6 @@ class PutMeasureData extends Request
  */
 class GetReadyFlagAlertConfig extends Request
 {
-
 }/**
  * @method $this setDomainCode($domainCode)
  * @method string getDomainCode()
@@ -187,7 +176,6 @@ class GetReadyFlagAlertConfig extends Request
  */
 class GetDomainConfig extends Request
 {
-
 }/**
  * @method $this setProductName($productName)
  * @method string getProductName()
@@ -202,7 +190,6 @@ class GetDomainConfig extends Request
  */
 class GetOpenApiConfig extends Request
 {
-
 }/**
  * @method $this setDomainCode($domainCode)
  * @method string getDomainCode()
@@ -223,7 +210,6 @@ class GetOpenApiConfig extends Request
  */
 class GetMeasureData extends Request
 {
-
 }/**
  * @method $this setDomainCode($domainCode)
  * @method string getDomainCode()
@@ -242,7 +228,6 @@ class GetMeasureData extends Request
  */
 class GetReadyFlag extends Request
 {
-
 }/**
  * @method $this setDomainCode($domainCode)
  * @method string getDomainCode()
@@ -253,7 +238,6 @@ class GetReadyFlag extends Request
  */
 class DeleteDomainPart extends Request
 {
-
 }/**
  * @method $this setDomainCode($domainCode)
  * @method string getDomainCode()
@@ -268,7 +252,6 @@ class DeleteDomainPart extends Request
  */
 class PutReadyFlagByProxy extends Request
 {
-
 }/**
  * @method $this setDomainCode($domainCode)
  * @method string getDomainCode()
@@ -287,7 +270,6 @@ class PutReadyFlagByProxy extends Request
  */
 class GetReadyFlagByProxy extends Request
 {
-
 }/**
  * @method $this setDomainCode($domainCode)
  * @method string getDomainCode()
@@ -302,5 +284,4 @@ class GetReadyFlagByProxy extends Request
  */
 class PutReadyFlag extends Request
 {
-
 }

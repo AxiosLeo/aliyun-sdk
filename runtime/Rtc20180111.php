@@ -64,7 +64,6 @@ class V20180111
  */
 class MuteAudioAll extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -77,7 +76,6 @@ class MuteAudioAll extends Request
  */
 class GetTaskStatus extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -90,7 +88,6 @@ class GetTaskStatus extends Request
  */
 class RemoveTerminals extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -109,7 +106,6 @@ class RemoveTerminals extends Request
  */
 class ModifyConference extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -126,7 +122,6 @@ class ModifyConference extends Request
  */
 class ReceiveNotify extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -143,7 +138,6 @@ class ReceiveNotify extends Request
  */
 class DescribeApps extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -156,7 +150,6 @@ class DescribeApps extends Request
  */
 class StopTask extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -167,7 +160,6 @@ class StopTask extends Request
  */
 class StopMPUTask extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -184,7 +176,6 @@ class StopMPUTask extends Request
  */
 class CreateChannelToken extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -201,7 +192,6 @@ class CreateChannelToken extends Request
  */
 class DescribeRtcPeakUserCntData extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -218,7 +208,6 @@ class DescribeRtcPeakUserCntData extends Request
  */
 class DescribeRtcDurationData extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -229,7 +218,6 @@ class DescribeRtcDurationData extends Request
  */
 class ModifyApp extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -246,7 +234,6 @@ class ModifyApp extends Request
  */
 class DescribeRtcUserCntData extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -263,7 +250,6 @@ class DescribeRtcUserCntData extends Request
  */
 class UpdateTaskParam extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -276,7 +262,6 @@ class UpdateTaskParam extends Request
  */
 class MuteAudio extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -289,7 +274,6 @@ class MuteAudio extends Request
  */
 class UnmuteAudio extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -312,7 +296,6 @@ class UnmuteAudio extends Request
  */
 class StartMPUTask extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -329,7 +312,6 @@ class StartMPUTask extends Request
  */
 class DescribeRtcPeakChannelCntData extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -354,7 +336,6 @@ class DescribeRtcPeakChannelCntData extends Request
  */
 class DescribeRecordList extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -365,7 +346,6 @@ class DescribeRecordList extends Request
  */
 class CreateChannel extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -376,7 +356,6 @@ class CreateChannel extends Request
  */
 class DeleteChannel extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -389,7 +368,6 @@ class DeleteChannel extends Request
  */
 class UpdateChannel extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -402,7 +380,6 @@ class UpdateChannel extends Request
  */
 class RemoveParticipants extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -413,7 +390,6 @@ class RemoveParticipants extends Request
  */
 class DeleteTemplate extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -432,7 +408,6 @@ class DeleteTemplate extends Request
  */
 class CreateConference extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -445,7 +420,6 @@ class CreateConference extends Request
  */
 class UnmuteAudioAll extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -470,7 +444,6 @@ class UnmuteAudioAll extends Request
  */
 class CreateTemplate extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -481,7 +454,6 @@ class CreateTemplate extends Request
  */
 class GetTaskParam extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -492,7 +464,6 @@ class GetTaskParam extends Request
  */
 class GetTemplateInfo extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -509,7 +480,6 @@ class GetTemplateInfo extends Request
  */
 class DescribeRtcChannelCntData extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -520,7 +490,6 @@ class DescribeRtcChannelCntData extends Request
  */
 class DeleteConference extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -537,7 +506,6 @@ class DeleteConference extends Request
  */
 class DescribeRecordDetail extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -546,7 +514,6 @@ class DescribeRecordDetail extends Request
  */
 class GetAllTemplate extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -557,7 +524,6 @@ class GetAllTemplate extends Request
  */
 class DescribeRealTimeRecordList extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -574,7 +540,6 @@ class DescribeRealTimeRecordList extends Request
  */
 class StartTask extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -585,7 +550,6 @@ class StartTask extends Request
  */
 class GetMPUTaskStatus extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -596,7 +560,6 @@ class GetMPUTaskStatus extends Request
  */
 class DescribeConferenceAuthInfo extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -617,7 +580,6 @@ class DescribeConferenceAuthInfo extends Request
  */
 class DescribeStatis extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -630,5 +592,4 @@ class DescribeStatis extends Request
  */
 class DescribeRealTimeRecordDetail extends Request
 {
-
 }

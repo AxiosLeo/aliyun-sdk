@@ -26,7 +26,6 @@ class V20130912
  */
 class GetUser extends Request
 {
-
 }/**
  * @method $this setInstanceName($instanceName)
  * @method string getInstanceName()
@@ -41,12 +40,10 @@ class GetUser extends Request
  */
 class UpdateInstance extends Request
 {
-
 }/**
  */
 class DeleteUser extends Request
 {
-
 }/**
  * @method $this setInstanceName($instanceName)
  * @method string getInstanceName()
@@ -63,7 +60,6 @@ class DeleteUser extends Request
  */
 class InsertInstance extends Request
 {
-
 }/**
  * @method $this setInstanceQuota($instanceQuota)
  * @method int getInstanceQuota()
@@ -72,19 +68,16 @@ class InsertInstance extends Request
  */
 class UpdateUser extends Request
 {
-
 }/**
  * @method $this setInstanceName($instanceName)
  * @method string getInstanceName()
  */
 class DeleteInstance extends Request
 {
-
 }/**
  */
 class ListInstance extends Request
 {
-
 }/**
  * @method $this setInstanceQuota($instanceQuota)
  * @method int getInstanceQuota()
@@ -93,12 +86,10 @@ class ListInstance extends Request
  */
 class InsertUser extends Request
 {
-
 }/**
  * @method $this setInstanceName($instanceName)
  * @method string getInstanceName()
  */
 class GetInstance extends Request
 {
-
 }

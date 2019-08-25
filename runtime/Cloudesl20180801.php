@@ -37,7 +37,6 @@ class V20180801
  */
 class DeleteStore extends Request
 {
-
 }/**
  * @method $this setStoreId($storeId)
  * @method string getStoreId()
@@ -68,7 +67,6 @@ class DeleteStore extends Request
  */
 class DescribeUserOperationLog extends Request
 {
-
 }/**
  * @method $this setItemInfo($itemInfo)
  * @method array getItemInfo()
@@ -77,7 +75,6 @@ class DescribeUserOperationLog extends Request
  */
 class BatchInsertItems extends Request
 {
-
 }/**
  * @method $this setStoreId($storeId)
  * @method string getStoreId()
@@ -86,7 +83,6 @@ class BatchInsertItems extends Request
  */
 class UnbindEslDeviceShelf extends Request
 {
-
 }/**
  * @method $this setCompanyId($companyId)
  * @method string getCompanyId()
@@ -107,7 +103,6 @@ class UnbindEslDeviceShelf extends Request
  */
 class CreateStore extends Request
 {
-
 }/**
  * @method $this setStoreId($storeId)
  * @method string getStoreId()
@@ -116,7 +111,6 @@ class CreateStore extends Request
  */
 class DeleteItemBySkuId extends Request
 {
-
 }/**
  * @method $this setStoreId($storeId)
  * @method string getStoreId()
@@ -135,7 +129,6 @@ class DeleteItemBySkuId extends Request
  */
 class UpdateStore extends Request
 {
-
 }/**
  * @method $this setStoreId($storeId)
  * @method string getStoreId()
@@ -146,7 +139,6 @@ class UpdateStore extends Request
  */
 class BindEslDeviceShelf extends Request
 {
-
 }/**
  * @method $this setStoreId($storeId)
  * @method string getStoreId()
@@ -157,7 +149,6 @@ class BindEslDeviceShelf extends Request
  */
 class BindEslDevice extends Request
 {
-
 }/**
  * @method $this setStoreId($storeId)
  * @method string getStoreId()
@@ -166,7 +157,6 @@ class BindEslDevice extends Request
  */
 class DeleteEslDevice extends Request
 {
-
 }/**
  * @method $this setStoreId($storeId)
  * @method string getStoreId()
@@ -177,7 +167,6 @@ class DeleteEslDevice extends Request
  */
 class UnbindEslDevice extends Request
 {
-
 }/**
  * @method $this setUserType($userType)
  * @method string getUserType()
@@ -188,7 +177,6 @@ class UnbindEslDevice extends Request
  */
 class DescribeUserRamPolicy extends Request
 {
-
 }/**
  * @method $this setStoreId($storeId)
  * @method string getStoreId()
@@ -219,7 +207,6 @@ class DescribeUserRamPolicy extends Request
  */
 class DescribeEslDevices extends Request
 {
-
 }/**
  * @method $this setStoreId($storeId)
  * @method string getStoreId()
@@ -242,7 +229,6 @@ class DescribeEslDevices extends Request
  */
 class DescribeAlarms extends Request
 {
-
 }/**
  * @method $this setStoreId($storeId)
  * @method string getStoreId()
@@ -251,7 +237,6 @@ class DescribeAlarms extends Request
  */
 class DeleteItem extends Request
 {
-
 }/**
  * @method $this setStoreId($storeId)
  * @method string getStoreId()
@@ -274,12 +259,10 @@ class DeleteItem extends Request
  */
 class DescribeItems extends Request
 {
-
 }/**
  */
 class DescribeCompany extends Request
 {
-
 }/**
  * @method $this setStoreId($storeId)
  * @method string getStoreId()
@@ -300,5 +283,4 @@ class DescribeCompany extends Request
  */
 class DescribeStores extends Request
 {
-
 }

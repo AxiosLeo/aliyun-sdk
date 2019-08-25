@@ -127,7 +127,6 @@ class V20151201
  */
 class RestartDBInstance extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -146,7 +145,6 @@ class RestartDBInstance extends Request
  */
 class DescribeAvaliableTimeRange extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -163,7 +161,6 @@ class DescribeAvaliableTimeRange extends Request
  */
 class DescribeDBInstanceSSL extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -180,7 +177,6 @@ class DescribeDBInstanceSSL extends Request
  */
 class ReleaseReplica extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -203,7 +199,6 @@ class ReleaseReplica extends Request
  */
 class ModifyReplicaMode extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -226,7 +221,6 @@ class ModifyReplicaMode extends Request
  */
 class ModifyDBInstanceConnectionString extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -249,7 +243,6 @@ class ModifyDBInstanceConnectionString extends Request
  */
 class CreateRecommendationTask extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -274,7 +267,6 @@ class CreateRecommendationTask extends Request
  */
 class SwitchDBInstanceHA extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -297,7 +289,6 @@ class SwitchDBInstanceHA extends Request
  */
 class UntagResources extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -320,7 +311,6 @@ class UntagResources extends Request
  */
 class DescribeBackupDBs extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -337,7 +327,6 @@ class DescribeBackupDBs extends Request
  */
 class DescribeActiveOperationTaskType extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -388,7 +377,6 @@ class DescribeActiveOperationTaskType extends Request
  */
 class DescribeDBInstances extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -407,7 +395,6 @@ class DescribeDBInstances extends Request
  */
 class DescribeAccounts extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -424,7 +411,6 @@ class DescribeAccounts extends Request
  */
 class DescribeReplicaInitializeProgress extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -445,7 +431,6 @@ class DescribeReplicaInitializeProgress extends Request
  */
 class ModifyDBInstanceDescription extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -464,7 +449,6 @@ class ModifyDBInstanceDescription extends Request
  */
 class ModifyReplicaVerificationMode extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -489,7 +473,6 @@ class ModifyReplicaVerificationMode extends Request
  */
 class DescribeActiveOperationTask extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -508,7 +491,6 @@ class DescribeActiveOperationTask extends Request
  */
 class ModifyReplicaDescription extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -525,7 +507,6 @@ class ModifyReplicaDescription extends Request
  */
 class DescribeDBInstanceMonitor extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -542,7 +523,6 @@ class DescribeDBInstanceMonitor extends Request
  */
 class DescribeBackupPolicy extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -561,7 +541,6 @@ class DescribeBackupPolicy extends Request
  */
 class UpgradeDBInstanceEngineVersion extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -578,7 +557,6 @@ class UpgradeDBInstanceEngineVersion extends Request
  */
 class DescribeSecurityIps extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -631,7 +609,6 @@ class DescribeSecurityIps extends Request
  */
 class CreateShardingDBInstance extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -648,7 +625,6 @@ class CreateShardingDBInstance extends Request
  */
 class DescribeReplicaSetRole extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -667,7 +643,6 @@ class DescribeReplicaSetRole extends Request
  */
 class ModifyDBInstanceMonitor extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -688,7 +663,6 @@ class ModifyDBInstanceMonitor extends Request
  */
 class ModifyDBInstanceNetExpireTime extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -709,7 +683,6 @@ class ModifyDBInstanceNetExpireTime extends Request
  */
 class ResetAccountPassword extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -728,7 +701,6 @@ class ResetAccountPassword extends Request
  */
 class CreateBackup extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -745,7 +717,6 @@ class CreateBackup extends Request
  */
 class UpgradeDBInstanceKernelVersion extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -772,7 +743,6 @@ class UpgradeDBInstanceKernelVersion extends Request
  */
 class ModifyDBInstanceNetworkType extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -793,7 +763,6 @@ class ModifyDBInstanceNetworkType extends Request
  */
 class DescribeReplicaUsage extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -812,7 +781,6 @@ class DescribeReplicaUsage extends Request
  */
 class DescribeActiveOperationTaskRegion extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -835,7 +803,6 @@ class DescribeActiveOperationTaskRegion extends Request
  */
 class DescribeParameterModificationHistory extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -852,7 +819,6 @@ class DescribeParameterModificationHistory extends Request
  */
 class EvaluateFailOverSwitch extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -869,7 +835,6 @@ class EvaluateFailOverSwitch extends Request
  */
 class DescribeAvailableEngineVersion extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -888,7 +853,6 @@ class DescribeAvailableEngineVersion extends Request
  */
 class DescribeAuditLogFilter extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -907,7 +871,6 @@ class DescribeAuditLogFilter extends Request
  */
 class ModifyActiveOperationTask extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -936,7 +899,6 @@ class ModifyActiveOperationTask extends Request
  */
 class DescribeBackups extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -955,7 +917,6 @@ class DescribeBackups extends Request
  */
 class DescribeAvailableTimeRange extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -980,7 +941,6 @@ class DescribeAvailableTimeRange extends Request
  */
 class DescribeVerificationList extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -999,7 +959,6 @@ class DescribeVerificationList extends Request
  */
 class RestoreDBInstance extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1016,7 +975,6 @@ class RestoreDBInstance extends Request
  */
 class DescribeRdsVpcs extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1037,7 +995,6 @@ class DescribeRdsVpcs extends Request
  */
 class DescribeStaticVerificationList extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1058,7 +1015,6 @@ class DescribeStaticVerificationList extends Request
  */
 class ModifyInstanceAutoRenewalAttribute extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1083,7 +1039,6 @@ class ModifyInstanceAutoRenewalAttribute extends Request
  */
 class ModifySecurityIps extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1116,7 +1071,6 @@ class ModifySecurityIps extends Request
  */
 class DescribeRunningLogRecords extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1145,7 +1099,6 @@ class DescribeRunningLogRecords extends Request
  */
 class CreateNode extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1166,7 +1119,6 @@ class CreateNode extends Request
  */
 class MigrateToOtherZone extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1187,7 +1139,6 @@ class MigrateToOtherZone extends Request
  */
 class ModifyAuditLogFilter extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1206,7 +1157,6 @@ class ModifyAuditLogFilter extends Request
  */
 class DescribeRdsVSwitchs extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1225,7 +1175,6 @@ class DescribeRdsVSwitchs extends Request
  */
 class DescribeShardingNetworkAddress extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1244,7 +1193,6 @@ class DescribeShardingNetworkAddress extends Request
  */
 class DescribeDBInstanceAttribute extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1263,7 +1211,6 @@ class DescribeDBInstanceAttribute extends Request
  */
 class ReleasePublicNetworkAddress extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1298,7 +1245,6 @@ class ReleasePublicNetworkAddress extends Request
  */
 class DescribeIndexRecommendation extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1317,7 +1263,6 @@ class DescribeIndexRecommendation extends Request
  */
 class ModifyReplicaRecoveryMode extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1338,7 +1283,6 @@ class ModifyReplicaRecoveryMode extends Request
  */
 class CreateStaticVerification extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1355,7 +1299,6 @@ class CreateStaticVerification extends Request
  */
 class DescribeRegions extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1376,7 +1319,6 @@ class DescribeRegions extends Request
  */
 class DescribeReplicationGroup extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1399,7 +1341,6 @@ class DescribeReplicationGroup extends Request
  */
 class DescribeInstanceAutoRenewalAttribute extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1430,7 +1371,6 @@ class DescribeInstanceAutoRenewalAttribute extends Request
  */
 class DescribeSlowLogRecords extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1445,7 +1385,6 @@ class DescribeSlowLogRecords extends Request
  */
 class DescribeActiveOperationTaskCount extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1464,7 +1403,6 @@ class DescribeActiveOperationTaskCount extends Request
  */
 class DeleteDBInstance extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1485,7 +1423,6 @@ class DeleteDBInstance extends Request
  */
 class ModifyAccountDescription extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1510,7 +1447,6 @@ class ModifyAccountDescription extends Request
  */
 class SwithcDBInstanceHA extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1541,7 +1477,6 @@ class SwithcDBInstanceHA extends Request
  */
 class ModifyNodeSpec extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1560,7 +1495,6 @@ class ModifyNodeSpec extends Request
  */
 class AllocatePublicNetworkAddress extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1581,7 +1515,6 @@ class AllocatePublicNetworkAddress extends Request
  */
 class ModifyAuditPolicy extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1604,7 +1537,6 @@ class ModifyAuditPolicy extends Request
  */
 class DescribeAuditFiles extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1623,7 +1555,6 @@ class DescribeAuditFiles extends Request
  */
 class DescribeParameters extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1640,7 +1571,6 @@ class DescribeParameters extends Request
  */
 class ModifyReplicaRelation extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1661,7 +1591,6 @@ class ModifyReplicaRelation extends Request
  */
 class ModifyParameters extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1696,7 +1625,6 @@ class ModifyParameters extends Request
  */
 class DescribeAuditRecords extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1717,7 +1645,6 @@ class DescribeAuditRecords extends Request
  */
 class TagResources extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1746,7 +1673,6 @@ class TagResources extends Request
  */
 class DescribeDBInstancePerformance extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1771,7 +1697,6 @@ class DescribeDBInstancePerformance extends Request
  */
 class DescribeReplicaConflictInfo extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1804,7 +1729,6 @@ class DescribeReplicaConflictInfo extends Request
  */
 class DescribeErrorLogRecords extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1821,7 +1745,6 @@ class DescribeErrorLogRecords extends Request
  */
 class Sample extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1842,7 +1765,6 @@ class Sample extends Request
  */
 class DescribeRenewalPrice extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1863,7 +1785,6 @@ class DescribeRenewalPrice extends Request
  */
 class DestroyInstance extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1884,7 +1805,6 @@ class DestroyInstance extends Request
  */
 class ModifyDBInstanceMaintainTime extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1901,7 +1821,6 @@ class ModifyDBInstanceMaintainTime extends Request
  */
 class DescribeAuditPolicy extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1930,7 +1849,6 @@ class DescribeAuditPolicy extends Request
  */
 class TransformToPrePaid extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1947,7 +1865,6 @@ class TransformToPrePaid extends Request
  */
 class DescribeStrategy extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1982,7 +1899,6 @@ class DescribeStrategy extends Request
  */
 class ModifyDBInstanceSpec extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1999,7 +1915,6 @@ class ModifyDBInstanceSpec extends Request
  */
 class DescribeKernelReleaseNotes extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2020,7 +1935,6 @@ class DescribeKernelReleaseNotes extends Request
  */
 class ModifyBackupPolicy extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2039,7 +1953,6 @@ class ModifyBackupPolicy extends Request
  */
 class ModifyGuardDomainMode extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2058,7 +1971,6 @@ class ModifyGuardDomainMode extends Request
  */
 class DescribeParameterTemplates extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2079,7 +1991,6 @@ class DescribeParameterTemplates extends Request
  */
 class CheckRecoveryCondition extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2106,7 +2017,6 @@ class CheckRecoveryCondition extends Request
  */
 class RenewDBInstance extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2133,7 +2043,6 @@ class RenewDBInstance extends Request
  */
 class DescribeReplicaPerformance extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2152,7 +2061,6 @@ class DescribeReplicaPerformance extends Request
  */
 class ModifyDBInstanceSSL extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2175,7 +2083,6 @@ class ModifyDBInstanceSSL extends Request
  */
 class DescribeReplicas extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2238,7 +2145,6 @@ class DescribeReplicas extends Request
  */
 class CreateDBInstance extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2259,7 +2165,6 @@ class CreateDBInstance extends Request
  */
 class DeleteNode extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2282,5 +2187,4 @@ class DeleteNode extends Request
  */
 class ListTagResources extends Request
 {
-
 }

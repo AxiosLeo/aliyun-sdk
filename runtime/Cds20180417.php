@@ -34,7 +34,6 @@ class V20180417
  */
 class CheckResource extends Request
 {
-
 }/**
  * @method $this setPk($pk)
  * @method string getPk()
@@ -53,7 +52,6 @@ class CheckResource extends Request
  */
 class LogicalDeleteResource extends Request
 {
-
 }/**
  * @method $this setPk($pk)
  * @method string getPk()
@@ -72,5 +70,4 @@ class LogicalDeleteResource extends Request
  */
 class PhysicalDeleteResource extends Request
 {
-
 }

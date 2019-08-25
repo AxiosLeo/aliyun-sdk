@@ -49,14 +49,12 @@ class V20170824
  */
 class LoadFpgaImageTask extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
  */
 class PullCreateTask extends Request
 {
-
 }/**
  * @method $this setcallerUid($callerUid)
  * @method int getcallerUid()
@@ -67,7 +65,6 @@ class PullCreateTask extends Request
  */
 class DescribePublishFpgaImages extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -80,7 +77,6 @@ class DescribePublishFpgaImages extends Request
  */
 class DescribeLoadTaskStatus extends Request
 {
-
 }/**
  * @method $this setcallerUid($callerUid)
  * @method int getcallerUid()
@@ -97,7 +93,6 @@ class DescribeLoadTaskStatus extends Request
  */
 class UpdateImageAttribute extends Request
 {
-
 }/**
  * @method $this setcallerUid($callerUid)
  * @method int getcallerUid()
@@ -110,7 +105,6 @@ class UpdateImageAttribute extends Request
  */
 class PublishFpgaImage extends Request
 {
-
 }/**
  * @method $this setcallerUid($callerUid)
  * @method int getcallerUid()
@@ -127,7 +121,6 @@ class PublishFpgaImage extends Request
  */
 class UpdateCreateTask extends Request
 {
-
 }/**
  * @method $this setcallerUid($callerUid)
  * @method int getcallerUid()
@@ -136,7 +129,6 @@ class UpdateCreateTask extends Request
  */
 class DescribeFpgaImages extends Request
 {
-
 }/**
  * @method $this setcallerUid($callerUid)
  * @method int getcallerUid()
@@ -149,7 +141,6 @@ class DescribeFpgaImages extends Request
  */
 class DeletePublishFpgaImage extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -160,7 +151,6 @@ class DeletePublishFpgaImage extends Request
  */
 class DescribeFpgaInstances extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -189,7 +179,6 @@ class DescribeFpgaInstances extends Request
  */
 class CreateFpgaImageTask extends Request
 {
-
 }/**
  * @method $this setcallerUid($callerUid)
  * @method int getcallerUid()
@@ -200,5 +189,4 @@ class CreateFpgaImageTask extends Request
  */
 class DeleteFpgaImage extends Request
 {
-
 }

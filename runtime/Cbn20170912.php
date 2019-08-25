@@ -117,7 +117,6 @@ class V20170912
  */
 class CreateCenRouteMap extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -138,7 +137,6 @@ class CreateCenRouteMap extends Request
  */
 class DisableCenVbrHealthCheck extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -161,7 +159,6 @@ class DisableCenVbrHealthCheck extends Request
  */
 class UntagResources extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -186,7 +183,6 @@ class UntagResources extends Request
  */
 class DescribeCenRouteMaps extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -207,7 +203,6 @@ class DescribeCenRouteMaps extends Request
  */
 class DescribeCenBandwidthPackages extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -230,7 +225,6 @@ class DescribeCenBandwidthPackages extends Request
  */
 class DescribeCenGeographicSpanRemainingBandwidth extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -247,7 +241,6 @@ class DescribeCenGeographicSpanRemainingBandwidth extends Request
  */
 class ModifyCenBandwidthPackageSpec extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -272,7 +265,6 @@ class ModifyCenBandwidthPackageSpec extends Request
  */
 class DetachCenChildInstance extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -299,7 +291,6 @@ class DetachCenChildInstance extends Request
  */
 class DescribeRouteConflict extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -322,7 +313,6 @@ class DescribeRouteConflict extends Request
  */
 class AttachCenChildInstance extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -343,7 +333,6 @@ class AttachCenChildInstance extends Request
  */
 class DeleteRouteServiceInCen extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -360,7 +349,6 @@ class DeleteRouteServiceInCen extends Request
  */
 class UnroutePrivateZoneInCenToVpc extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -379,7 +367,6 @@ class UnroutePrivateZoneInCenToVpc extends Request
  */
 class DescribeCenGeographicSpans extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -398,7 +385,6 @@ class DescribeCenGeographicSpans extends Request
  */
 class ModifyCenBandwidthPackageAttribute extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -413,7 +399,6 @@ class ModifyCenBandwidthPackageAttribute extends Request
  */
 class DescribeChildInstanceRegions extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -432,7 +417,6 @@ class DescribeChildInstanceRegions extends Request
  */
 class DescribeGeographicRegionMembership extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -455,7 +439,6 @@ class DescribeGeographicRegionMembership extends Request
  */
 class DescribeCenAttachedChildInstances extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -478,7 +461,6 @@ class DescribeCenAttachedChildInstances extends Request
  */
 class DescribeCenRegionDomainRouteEntries extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -493,7 +475,6 @@ class DescribeCenRegionDomainRouteEntries extends Request
  */
 class DeleteCen extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -512,7 +493,6 @@ class DeleteCen extends Request
  */
 class DescribeCenInterRegionBandwidthLimits extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -533,7 +513,6 @@ class DescribeCenInterRegionBandwidthLimits extends Request
  */
 class DescribeCens extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -554,7 +533,6 @@ class DescribeCens extends Request
  */
 class CreateCen extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -571,7 +549,6 @@ class CreateCen extends Request
  */
 class UnassociateCenBandwidthPackage extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -596,7 +573,6 @@ class UnassociateCenBandwidthPackage extends Request
  */
 class DescribeCenVbrHealthCheck extends Request
 {
-
 }/**
  * @method $this setResourceOwnerAccount($resourceOwnerAccount)
  * @method string getResourceOwnerAccount()
@@ -621,7 +597,6 @@ class DescribeCenVbrHealthCheck extends Request
  */
 class DescribePublishedRouteEntries extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -642,7 +617,6 @@ class DescribePublishedRouteEntries extends Request
  */
 class DescribeCenAttachedChildInstanceAttribute extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -667,7 +641,6 @@ class DescribeCenAttachedChildInstanceAttribute extends Request
  */
 class EnableCenVbrHealthCheck extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -682,7 +655,6 @@ class EnableCenVbrHealthCheck extends Request
  */
 class DeleteCenBandwidthPackage extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -703,7 +675,6 @@ class DeleteCenBandwidthPackage extends Request
  */
 class ModifyCenAttribute extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -720,7 +691,6 @@ class ModifyCenAttribute extends Request
  */
 class AssociateCenBandwidthPackage extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -741,7 +711,6 @@ class AssociateCenBandwidthPackage extends Request
  */
 class RoutePrivateZoneInCenToVpc extends Request
 {
-
 }/**
  * @method $this setResourceOwnerAccount($resourceOwnerAccount)
  * @method string getResourceOwnerAccount()
@@ -760,7 +729,6 @@ class RoutePrivateZoneInCenToVpc extends Request
  */
 class DescribeCenPrivateZoneRoutes extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -787,7 +755,6 @@ class DescribeCenPrivateZoneRoutes extends Request
  */
 class DescribeCenChildInstanceRouteEntries extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -806,7 +773,6 @@ class DescribeCenChildInstanceRouteEntries extends Request
  */
 class DescribeGrantRulesToCen extends Request
 {
-
 }/**
  * @method $this setResourceOwnerAccount($resourceOwnerAccount)
  * @method string getResourceOwnerAccount()
@@ -827,7 +793,6 @@ class DescribeGrantRulesToCen extends Request
  */
 class PublishRouteEntries extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -852,7 +817,6 @@ class PublishRouteEntries extends Request
  */
 class DescribeRouteServicesInCen extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -915,7 +879,6 @@ class DescribeRouteServicesInCen extends Request
  */
 class ModifyCenRouteMap extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -948,7 +911,6 @@ class ModifyCenRouteMap extends Request
  */
 class CreateCenBandwidthPackage extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -973,7 +935,6 @@ class CreateCenBandwidthPackage extends Request
  */
 class ResolveAndRouteServiceInCen extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -994,7 +955,6 @@ class ResolveAndRouteServiceInCen extends Request
  */
 class SetCenInterRegionBandwidthLimit extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -1013,7 +973,6 @@ class SetCenInterRegionBandwidthLimit extends Request
  */
 class DeleteCenRouteMap extends Request
 {
-
 }/**
  * @method $this setResourceOwnerAccount($resourceOwnerAccount)
  * @method string getResourceOwnerAccount()
@@ -1034,5 +993,4 @@ class DeleteCenRouteMap extends Request
  */
 class WithdrawPublishedRouteEntries extends Request
 {
-
 }

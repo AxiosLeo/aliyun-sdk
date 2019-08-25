@@ -42,7 +42,6 @@ class V20170420
  */
 class AddCategory extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method string getOwnerId()
@@ -57,7 +56,6 @@ class AddCategory extends Request
  */
 class GetImageUploadAuth extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -70,7 +68,6 @@ class GetImageUploadAuth extends Request
  */
 class GetVideoInfo extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method string getOwnerId()
@@ -83,7 +80,6 @@ class GetVideoInfo extends Request
  */
 class GetCategoryList extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -104,7 +100,6 @@ class GetCategoryList extends Request
  */
 class GetVideoList extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method string getOwnerId()
@@ -119,7 +114,6 @@ class GetVideoList extends Request
  */
 class DeleteCategory extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method string getOwnerId()
@@ -132,7 +126,6 @@ class DeleteCategory extends Request
  */
 class GetDomainList extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -145,7 +138,6 @@ class GetDomainList extends Request
  */
 class DeleteVideo extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method string getOwnerId()
@@ -162,7 +154,6 @@ class DeleteVideo extends Request
  */
 class UpdateCategoryName extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -175,7 +166,6 @@ class UpdateCategoryName extends Request
  */
 class GetVideoPlayAuth extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method string getOwnerId()
@@ -188,7 +178,6 @@ class GetVideoPlayAuth extends Request
  */
 class GetCategoryTree extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -215,7 +204,6 @@ class GetCategoryTree extends Request
  */
 class CreateUploadVideo extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -238,5 +226,4 @@ class CreateUploadVideo extends Request
  */
 class UpdateVideoInfo extends Request
 {
-
 }

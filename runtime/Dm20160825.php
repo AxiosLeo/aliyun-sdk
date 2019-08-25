@@ -71,7 +71,6 @@ class V20160825
  */
 class SenderStatisticsByTagNameAndBatchID extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -90,7 +89,6 @@ class SenderStatisticsByTagNameAndBatchID extends Request
  */
 class QueryReceiverDetail extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -105,7 +103,6 @@ class QueryReceiverDetail extends Request
  */
 class DeleteSign extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -130,7 +127,6 @@ class DeleteSign extends Request
  */
 class BatchSendMail extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -147,7 +143,6 @@ class BatchSendMail extends Request
  */
 class QueryTagByParam extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -174,7 +169,6 @@ class QueryTagByParam extends Request
  */
 class SenderStatisticsDetailByParam extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -193,7 +187,6 @@ class SenderStatisticsDetailByParam extends Request
  */
 class QueryMailAddressByParam extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -206,7 +199,6 @@ class QueryMailAddressByParam extends Request
  */
 class CheckReplyToMailAddress extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -221,7 +213,6 @@ class CheckReplyToMailAddress extends Request
  */
 class ApproveSmsTemplate extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -234,7 +225,6 @@ class ApproveSmsTemplate extends Request
  */
 class DeleteTag extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -247,7 +237,6 @@ class DeleteTag extends Request
  */
 class DeleteReceiver extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -262,7 +251,6 @@ class DeleteReceiver extends Request
  */
 class ModifyTag extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -275,7 +263,6 @@ class ModifyTag extends Request
  */
 class CreateTag extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -294,7 +281,6 @@ class CreateTag extends Request
  */
 class QuerySignByParam extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -307,7 +293,6 @@ class QuerySignByParam extends Request
  */
 class CreateDomain extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -324,7 +309,6 @@ class CreateDomain extends Request
  */
 class CreateReceiver extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -341,7 +325,6 @@ class CreateReceiver extends Request
  */
 class ModifyMailAddress extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -374,7 +357,6 @@ class ModifyMailAddress extends Request
  */
 class SingleSendMail extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -387,7 +369,6 @@ class SingleSendMail extends Request
  */
 class CreateDayu extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -402,7 +383,6 @@ class CreateDayu extends Request
  */
 class SaveReceiverDetail extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -423,7 +403,6 @@ class SaveReceiverDetail extends Request
  */
 class QueryTemplateByParam extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -436,7 +415,6 @@ class QueryTemplateByParam extends Request
  */
 class ApproveReplyMailAddress extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -465,7 +443,6 @@ class ApproveReplyMailAddress extends Request
  */
 class ModifyTemplate extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -486,7 +463,6 @@ class ModifyTemplate extends Request
  */
 class QueryInvalidAddress extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -505,7 +481,6 @@ class QueryInvalidAddress extends Request
  */
 class QueryTaskByParam extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -520,7 +495,6 @@ class QueryTaskByParam extends Request
  */
 class ApproveMailTemplate extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -537,7 +511,6 @@ class ApproveMailTemplate extends Request
  */
 class CreateMailAddress extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -558,7 +531,6 @@ class CreateMailAddress extends Request
  */
 class CreateSign extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -585,7 +557,6 @@ class CreateSign extends Request
  */
 class SendTestByTemplate extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -598,7 +569,6 @@ class SendTestByTemplate extends Request
  */
 class CheckDomain extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -617,7 +587,6 @@ class CheckDomain extends Request
  */
 class QueryReceiverByParam extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -632,7 +601,6 @@ class QueryReceiverByParam extends Request
  */
 class DeleteTemplate extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -647,7 +615,6 @@ class DeleteTemplate extends Request
  */
 class DescTemplate extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -676,7 +643,6 @@ class DescTemplate extends Request
  */
 class CreateTemplate extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -695,7 +661,6 @@ class CreateTemplate extends Request
  */
 class SingleSendSms extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -714,7 +679,6 @@ class SingleSendSms extends Request
  */
 class QueryDomainByParam extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -727,7 +691,6 @@ class QueryDomainByParam extends Request
  */
 class DeleteDomain extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -742,7 +705,6 @@ class DeleteDomain extends Request
  */
 class DeleteReceiverDetail extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -753,7 +715,6 @@ class DeleteReceiverDetail extends Request
  */
 class DescAccountSummary extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -770,5 +731,4 @@ class DescAccountSummary extends Request
  */
 class QuerySmsStatistics extends Request
 {
-
 }

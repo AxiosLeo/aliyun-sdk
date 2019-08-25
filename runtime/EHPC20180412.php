@@ -111,14 +111,12 @@ class V20180412
  */
 class ListClusterLogs extends Request
 {
-
 }/**
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
  */
 class DescribeImageGatewayConfig extends Request
 {
-
 }/**
  * @method $this setZoneId($zoneId)
  * @method string getZoneId()
@@ -129,7 +127,6 @@ class DescribeImageGatewayConfig extends Request
  */
 class ListAvailableEcsTypes extends Request
 {
-
 }/**
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
@@ -148,14 +145,12 @@ class ListAvailableEcsTypes extends Request
  */
 class RecoverCluster extends Request
 {
-
 }/**
  * @method $this setTemplates($templates)
  * @method string getTemplates()
  */
 class DeleteJobTemplates extends Request
 {
-
 }/**
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
@@ -164,7 +159,6 @@ class DeleteJobTemplates extends Request
  */
 class RerunJobs extends Request
 {
-
 }/**
  * @method $this setZoneId($zoneId)
  * @method string getZoneId()
@@ -259,7 +253,6 @@ class RerunJobs extends Request
  */
 class CreateCluster extends Request
 {
-
 }/**
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
@@ -268,7 +261,6 @@ class CreateCluster extends Request
  */
 class DeleteCluster extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -285,7 +277,6 @@ class DeleteCluster extends Request
  */
 class RunCloudMetricProfiling extends Request
 {
-
 }/**
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
@@ -296,7 +287,6 @@ class RunCloudMetricProfiling extends Request
  */
 class ListUsers extends Request
 {
-
 }/**
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
@@ -305,7 +295,6 @@ class ListUsers extends Request
  */
 class UpgradeClient extends Request
 {
-
 }/**
  * @method $this setPageNumber($pageNumber)
  * @method int getPageNumber()
@@ -314,7 +303,6 @@ class UpgradeClient extends Request
  */
 class ListClustersMeta extends Request
 {
-
 }/**
  * @method $this setImageId($imageId)
  * @method string getImageId()
@@ -331,7 +319,6 @@ class ListClustersMeta extends Request
  */
 class DescribeImagePrice extends Request
 {
-
 }/**
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
@@ -342,7 +329,6 @@ class DescribeImagePrice extends Request
  */
 class ModifyClusterAttributes extends Request
 {
-
 }/**
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
@@ -355,7 +341,6 @@ class ModifyClusterAttributes extends Request
  */
 class DescribeImage extends Request
 {
-
 }/**
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
@@ -364,7 +349,6 @@ class DescribeImage extends Request
  */
 class UpdateClusterVolumes extends Request
 {
-
 }/**
  * @method $this setCommandLine($commandLine)
  * @method string getCommandLine()
@@ -389,7 +373,6 @@ class UpdateClusterVolumes extends Request
  */
 class CreateJobTemplate extends Request
 {
-
 }/**
  * @method $this setPageNumber($pageNumber)
  * @method int getPageNumber()
@@ -398,7 +381,6 @@ class CreateJobTemplate extends Request
  */
 class ListVolumes extends Request
 {
-
 }/**
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
@@ -407,7 +389,6 @@ class ListVolumes extends Request
  */
 class ListInvocationStatus extends Request
 {
-
 }/**
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
@@ -420,7 +401,6 @@ class ListInvocationStatus extends Request
  */
 class PullImage extends Request
 {
-
 }/**
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
@@ -429,21 +409,18 @@ class PullImage extends Request
  */
 class DeleteQueue extends Request
 {
-
 }/**
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
  */
 class GetClusterVolumes extends Request
 {
-
 }/**
  * @method $this setContainerApp($containerApp)
  * @method array getContainerApp()
  */
 class DeleteContainerApps extends Request
 {
-
 }/**
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
@@ -452,7 +429,6 @@ class DeleteContainerApps extends Request
  */
 class AddQueue extends Request
 {
-
 }/**
  * @method $this setCommodities($commodities)
  * @method array getCommodities()
@@ -465,7 +441,6 @@ class AddQueue extends Request
  */
 class DescribePrice extends Request
 {
-
 }/**
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
@@ -476,7 +451,6 @@ class DescribePrice extends Request
  */
 class StartNodes extends Request
 {
-
 }/**
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
@@ -487,14 +461,12 @@ class StartNodes extends Request
  */
 class SetQueue extends Request
 {
-
 }/**
  * @method $this setContainerId($containerId)
  * @method string getContainerId()
  */
 class DescribeContainerApp extends Request
 {
-
 }/**
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
@@ -509,19 +481,16 @@ class DescribeContainerApp extends Request
  */
 class ListNodes extends Request
 {
-
 }/**
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
  */
 class DescribeCluster extends Request
 {
-
 }/**
  */
 class ListCurrentClientVersion extends Request
 {
-
 }/**
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
@@ -560,21 +529,18 @@ class ListCurrentClientVersion extends Request
  */
 class SubmitJob extends Request
 {
-
 }/**
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
  */
 class ListInstalledSoftware extends Request
 {
-
 }/**
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
  */
 class StopCluster extends Request
 {
-
 }/**
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
@@ -587,7 +553,6 @@ class StopCluster extends Request
  */
 class ModifyVisualServicePasswd extends Request
 {
-
 }/**
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
@@ -596,14 +561,12 @@ class ModifyVisualServicePasswd extends Request
  */
 class AddLocalNodes extends Request
 {
-
 }/**
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
  */
 class DescribeAutoScaleConfig extends Request
 {
-
 }/**
  * @method $this setName($name)
  * @method string getName()
@@ -614,7 +577,6 @@ class DescribeAutoScaleConfig extends Request
  */
 class ListJobTemplates extends Request
 {
-
 }/**
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
@@ -623,7 +585,6 @@ class ListJobTemplates extends Request
  */
 class DescribeJob extends Request
 {
-
 }/**
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
@@ -638,14 +599,12 @@ class DescribeJob extends Request
  */
 class CreateJobFile extends Request
 {
-
 }/**
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
  */
 class GetVisualServiceStatus extends Request
 {
-
 }/**
  * @method $this setPageNumber($pageNumber)
  * @method int getPageNumber()
@@ -654,7 +613,6 @@ class GetVisualServiceStatus extends Request
  */
 class ListFileSystemWithMountTargets extends Request
 {
-
 }/**
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
@@ -663,7 +621,6 @@ class ListFileSystemWithMountTargets extends Request
  */
 class UninstallSoftware extends Request
 {
-
 }/**
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
@@ -686,7 +643,6 @@ class UninstallSoftware extends Request
  */
 class GetCloudMetricLogs extends Request
 {
-
 }/**
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
@@ -699,14 +655,12 @@ class GetCloudMetricLogs extends Request
  */
 class GetAccountingReport extends Request
 {
-
 }/**
  * @method $this setEhpcVersion($ehpcVersion)
  * @method string getEhpcVersion()
  */
 class ListSoftwares extends Request
 {
-
 }/**
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
@@ -715,7 +669,6 @@ class ListSoftwares extends Request
  */
 class AddUsers extends Request
 {
-
 }/**
  * @method $this setImageOwnerAlias($imageOwnerAlias)
  * @method string getImageOwnerAlias()
@@ -724,7 +677,6 @@ class AddUsers extends Request
  */
 class ListCustomImages extends Request
 {
-
 }/**
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
@@ -747,7 +699,6 @@ class ListCustomImages extends Request
  */
 class ModifyImageGatewayConfig extends Request
 {
-
 }/**
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
@@ -756,7 +707,6 @@ class ModifyImageGatewayConfig extends Request
  */
 class ResetNodes extends Request
 {
-
 }/**
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
@@ -767,7 +717,6 @@ class ResetNodes extends Request
  */
 class SetJobUser extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -780,7 +729,6 @@ class SetJobUser extends Request
  */
 class ListCloudMetricProfilings extends Request
 {
-
 }/**
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
@@ -793,7 +741,6 @@ class ListCloudMetricProfilings extends Request
  */
 class ListNodesByQueue extends Request
 {
-
 }/**
  * @method $this setName($name)
  * @method string getName()
@@ -808,7 +755,6 @@ class ListNodesByQueue extends Request
  */
 class AddContainerApp extends Request
 {
-
 }/**
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
@@ -819,7 +765,6 @@ class AddContainerApp extends Request
  */
 class StartVisualService extends Request
 {
-
 }/**
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
@@ -828,24 +773,20 @@ class StartVisualService extends Request
  */
 class DeleteUsers extends Request
 {
-
 }/**
  */
 class ListAvailableFileSystemTypes extends Request
 {
-
 }/**
  */
 class ListImages extends Request
 {
-
 }/**
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
  */
 class ListQueues extends Request
 {
-
 }/**
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
@@ -854,7 +795,6 @@ class ListQueues extends Request
  */
 class DeleteJobs extends Request
 {
-
 }/**
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
@@ -865,7 +805,6 @@ class DeleteJobs extends Request
  */
 class DeleteNodes extends Request
 {
-
 }/**
  * @method $this setFileSystemId($fileSystemId)
  * @method string getFileSystemId()
@@ -876,7 +815,6 @@ class DeleteNodes extends Request
  */
 class ListCpfsFileSystems extends Request
 {
-
 }/**
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
@@ -909,7 +847,6 @@ class ListCpfsFileSystems extends Request
  */
 class SetAutoScaleConfig extends Request
 {
-
 }/**
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
@@ -922,7 +859,6 @@ class SetAutoScaleConfig extends Request
  */
 class DeleteImage extends Request
 {
-
 }/**
  * @method $this setTemplateId($templateId)
  * @method string getTemplateId()
@@ -949,7 +885,6 @@ class DeleteImage extends Request
  */
 class EditJobTemplate extends Request
 {
-
 }/**
  * @method $this setContainerId($containerId)
  * @method string getContainerId()
@@ -958,7 +893,6 @@ class EditJobTemplate extends Request
  */
 class ModifyContainerAppAttributes extends Request
 {
-
 }/**
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
@@ -969,7 +903,6 @@ class ModifyContainerAppAttributes extends Request
  */
 class StopNodes extends Request
 {
-
 }/**
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
@@ -1008,7 +941,6 @@ class StopNodes extends Request
  */
 class AddNodes extends Request
 {
-
 }/**
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
@@ -1021,7 +953,6 @@ class AddNodes extends Request
  */
 class ListContainerImages extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -1032,7 +963,6 @@ class ListContainerImages extends Request
  */
 class GetCloudMetricProfiling extends Request
 {
-
 }/**
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
@@ -1047,7 +977,6 @@ class GetCloudMetricProfiling extends Request
  */
 class InvokeShellCommand extends Request
 {
-
 }/**
  * @method $this setZoneId($zoneId)
  * @method string getZoneId()
@@ -1058,7 +987,6 @@ class InvokeShellCommand extends Request
  */
 class ListPreferredEcsTypes extends Request
 {
-
 }/**
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
@@ -1067,14 +995,12 @@ class ListPreferredEcsTypes extends Request
  */
 class GetHybridClusterConfig extends Request
 {
-
 }/**
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
  */
 class GetAutoScaleConfig extends Request
 {
-
 }/**
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
@@ -1083,7 +1009,6 @@ class GetAutoScaleConfig extends Request
  */
 class ModifyUserGroups extends Request
 {
-
 }/**
  * @method $this setZoneId($zoneId)
  * @method string getZoneId()
@@ -1146,7 +1071,6 @@ class ModifyUserGroups extends Request
  */
 class CreateHybridCluster extends Request
 {
-
 }/**
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
@@ -1157,7 +1081,6 @@ class CreateHybridCluster extends Request
  */
 class StopVisualService extends Request
 {
-
 }/**
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
@@ -1174,14 +1097,12 @@ class StopVisualService extends Request
  */
 class ListJobs extends Request
 {
-
 }/**
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
  */
 class StartCluster extends Request
 {
-
 }/**
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
@@ -1198,7 +1119,6 @@ class StartCluster extends Request
  */
 class ListInvocationResults extends Request
 {
-
 }/**
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
@@ -1207,7 +1127,6 @@ class ListInvocationResults extends Request
  */
 class InstallSoftware extends Request
 {
-
 }/**
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
@@ -1216,7 +1135,6 @@ class InstallSoftware extends Request
  */
 class ModifyUserPasswords extends Request
 {
-
 }/**
  * @method $this setPageNumber($pageNumber)
  * @method int getPageNumber()
@@ -1225,12 +1143,10 @@ class ModifyUserPasswords extends Request
  */
 class ListClusters extends Request
 {
-
 }/**
  */
 class ListRegions extends Request
 {
-
 }/**
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
@@ -1243,7 +1159,6 @@ class ListRegions extends Request
  */
 class ListCommands extends Request
 {
-
 }/**
  * @method $this setPageNumber($pageNumber)
  * @method int getPageNumber()
@@ -1252,7 +1167,6 @@ class ListCommands extends Request
  */
 class ListContainerApps extends Request
 {
-
 }/**
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
@@ -1265,7 +1179,6 @@ class ListContainerApps extends Request
  */
 class ListNodesNoPaging extends Request
 {
-
 }/**
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
@@ -1274,5 +1187,4 @@ class ListNodesNoPaging extends Request
  */
 class StopJobs extends Request
 {
-
 }

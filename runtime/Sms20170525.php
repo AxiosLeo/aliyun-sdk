@@ -44,5 +44,4 @@ class V20170525
  */
 class SendSms extends Request
 {
-
 }

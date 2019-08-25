@@ -110,14 +110,12 @@ class V20160922
  */
 class ProfileSet extends Request
 {
-
 }/**
  * @method $this setUserId($userId)
  * @method int getUserId()
  */
 class AccessKeyGet extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -128,7 +126,6 @@ class AccessKeyGet extends Request
  */
 class IsMetricNameValid extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -157,7 +154,6 @@ class IsMetricNameValid extends Request
  */
 class QueryEvent extends Request
 {
-
 }/**
  * @method $this setProjectName($projectName)
  * @method string getProjectName()
@@ -168,7 +164,6 @@ class QueryEvent extends Request
  */
 class GetMetrics extends Request
 {
-
 }/**
  * @method $this setUserId($userId)
  * @method int getUserId()
@@ -181,7 +176,6 @@ class GetMetrics extends Request
  */
 class H5WeeklyReportUrl extends Request
 {
-
 }/**
  * @method $this setProjectName($projectName)
  * @method string getProjectName()
@@ -190,7 +184,6 @@ class H5WeeklyReportUrl extends Request
  */
 class GetMetricStreamStatus extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -219,7 +212,6 @@ class GetMetricStreamStatus extends Request
  */
 class QueryMetricList extends Request
 {
-
 }/**
  * @method $this setProjectName($projectName)
  * @method string getProjectName()
@@ -228,7 +220,6 @@ class QueryMetricList extends Request
  */
 class StartMetricStream extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -255,14 +246,12 @@ class StartMetricStream extends Request
  */
 class DescribeMetricDatum extends Request
 {
-
 }/**
  * @method $this setInstanceIds($instanceIds)
  * @method string getInstanceIds()
  */
 class NodeStatusList extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -273,7 +262,6 @@ class NodeStatusList extends Request
  */
 class GetLogMonitorInAll extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -282,14 +270,12 @@ class GetLogMonitorInAll extends Request
  */
 class cmsShareDeleteTokenByToken extends Request
 {
-
 }/**
  * @method $this setAccessKey($accessKey)
  * @method string getAccessKey()
  */
 class AccessKeyQuery extends Request
 {
-
 }/**
  * @method $this setUserId($userId)
  * @method string getUserId()
@@ -300,14 +286,12 @@ class AccessKeyQuery extends Request
  */
 class NodeInstall extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
  */
 class JVMConfigRemoveByInstanceId extends Request
 {
-
 }/**
  * @method $this setUserId($userId)
  * @method int getUserId()
@@ -328,7 +312,6 @@ class JVMConfigRemoveByInstanceId extends Request
  */
 class NodeList extends Request
 {
-
 }/**
  * @method $this setProject($project)
  * @method string getProject()
@@ -361,7 +344,6 @@ class NodeList extends Request
  */
 class MetricData extends Request
 {
-
 }/**
  * @method $this setTemplateId($templateId)
  * @method int getTemplateId()
@@ -372,7 +354,6 @@ class MetricData extends Request
  */
 class ListAlarmTemplate extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -383,7 +364,6 @@ class ListAlarmTemplate extends Request
  */
 class ListMetricsOfLogMonitor extends Request
 {
-
 }/**
  * @method $this setId($id)
  * @method int getId()
@@ -392,7 +372,6 @@ class ListMetricsOfLogMonitor extends Request
  */
 class JVMConfigRemoveById extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -419,7 +398,6 @@ class JVMConfigRemoveById extends Request
  */
 class QueryMetricTopN extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -446,19 +424,16 @@ class QueryMetricTopN extends Request
  */
 class QueryMetric extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
  */
 class NodeProcesses extends Request
 {
-
 }/**
  */
 class ProjectList extends Request
 {
-
 }/**
  * @method $this setDimTableName($dimTableName)
  * @method string getDimTableName()
@@ -467,7 +442,6 @@ class ProjectList extends Request
  */
 class ListDimTableData extends Request
 {
-
 }/**
  * @method $this setProjectName($projectName)
  * @method string getProjectName()
@@ -476,7 +450,6 @@ class ListDimTableData extends Request
  */
 class GetMetricStreamMeta extends Request
 {
-
 }/**
  * @method $this setId($id)
  * @method int getId()
@@ -491,14 +464,12 @@ class GetMetricStreamMeta extends Request
  */
 class TaskConfigList extends Request
 {
-
 }/**
  * @method $this setIdList($idList)
  * @method array getIdList()
  */
 class TaskConfigDelete extends Request
 {
-
 }/**
  * @method $this setProject($project)
  * @method string getProject()
@@ -517,14 +488,12 @@ class TaskConfigDelete extends Request
  */
 class DimensionValues extends Request
 {
-
 }/**
  * @method $this setUserId($userId)
  * @method int getUserId()
  */
 class AccessKeyGenerate extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -539,14 +508,12 @@ class AccessKeyGenerate extends Request
  */
 class NodeProcessCreate extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
  */
 class NodeStatus extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -555,14 +522,12 @@ class NodeStatus extends Request
  */
 class putProductGroup extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
  */
 class NodeUninstall extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -573,7 +538,6 @@ class NodeUninstall extends Request
  */
 class PutLogMonitor extends Request
 {
-
 }/**
  * @method $this setcallby_cms_owner($callby_cms_owner)
  * @method string getcallby_cms_owner()
@@ -582,12 +546,10 @@ class PutLogMonitor extends Request
  */
 class PutMetricData extends Request
 {
-
 }/**
  */
 class NodeAgentVersion extends Request
 {
-
 }/**
  * @method $this setcallby_cms_owner($callby_cms_owner)
  * @method string getcallby_cms_owner()
@@ -602,7 +564,6 @@ class NodeAgentVersion extends Request
  */
 class UploadData extends Request
 {
-
 }/**
  * @method $this setProject($project)
  * @method string getProject()
@@ -623,7 +584,6 @@ class UploadData extends Request
  */
 class DescribeMetricList extends Request
 {
-
 }/**
  * @method $this setProjectName($projectName)
  * @method string getProjectName()
@@ -636,7 +596,6 @@ class DescribeMetricList extends Request
  */
 class UpdateMetrics extends Request
 {
-
 }/**
  * @method $this setGroupName($groupName)
  * @method string getGroupName()
@@ -657,14 +616,12 @@ class UpdateMetrics extends Request
  */
 class TaskConfigCreate extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
  */
 class JVMConfigGetByInstanceId extends Request
 {
-
 }/**
  * @method $this setProjectName($projectName)
  * @method string getProjectName()
@@ -679,7 +636,6 @@ class JVMConfigGetByInstanceId extends Request
  */
 class ListMetrics extends Request
 {
-
 }/**
  * @method $this setGroupId($groupId)
  * @method int getGroupId()
@@ -702,7 +658,6 @@ class ListMetrics extends Request
  */
 class TaskConfigModify extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -713,21 +668,18 @@ class TaskConfigModify extends Request
  */
 class NodeProcessDelete extends Request
 {
-
 }/**
  * @method $this settemplateId($templateId)
  * @method int gettemplateId()
  */
 class DeleteAlarmTemplate extends Request
 {
-
 }/**
  * @method $this setTaskIdList($taskIdList)
  * @method array getTaskIdList()
  */
 class TaskConfigUnhealthy extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -738,7 +690,6 @@ class TaskConfigUnhealthy extends Request
  */
 class QueryIsMetricNameValid extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -767,7 +718,6 @@ class QueryIsMetricNameValid extends Request
  */
 class QueryMetricTop extends Request
 {
-
 }/**
  * @method $this setKeyword($keyword)
  * @method string getKeyword()
@@ -778,7 +728,6 @@ class QueryMetricTop extends Request
  */
 class ListMyGroups extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -789,7 +738,6 @@ class ListMyGroups extends Request
  */
 class DeleteLogMonitor extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -804,12 +752,10 @@ class DeleteLogMonitor extends Request
  */
 class JVMConfigCreate extends Request
 {
-
 }/**
  */
 class Heartbeat extends Request
 {
-
 }/**
  * @method $this setId($id)
  * @method int getId()
@@ -826,7 +772,6 @@ class Heartbeat extends Request
  */
 class JVMConfigModify extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -853,7 +798,6 @@ class JVMConfigModify extends Request
  */
 class PutAlertTemplate extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -862,7 +806,6 @@ class PutAlertTemplate extends Request
  */
 class getProductGroupInstances extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -871,7 +814,6 @@ class getProductGroupInstances extends Request
  */
 class getProductGroups extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -884,7 +826,6 @@ class getProductGroups extends Request
  */
 class PutDimTableData extends Request
 {
-
 }/**
  * @method $this setIdList($idList)
  * @method string getIdList()
@@ -893,7 +834,6 @@ class PutDimTableData extends Request
  */
 class JVMConfigRemoveByIdList extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -918,14 +858,12 @@ class JVMConfigRemoveByIdList extends Request
  */
 class GetMetricStatistics extends Request
 {
-
 }/**
  * @method $this setUserId($userId)
  * @method int getUserId()
  */
 class ProfileGet extends Request
 {
-
 }/**
  * @method $this setProjectName($projectName)
  * @method string getProjectName()
@@ -936,7 +874,6 @@ class ProfileGet extends Request
  */
 class BatchCreateMetrics extends Request
 {
-
 }/**
  * @method $this setProjectName($projectName)
  * @method string getProjectName()
@@ -947,7 +884,6 @@ class BatchCreateMetrics extends Request
  */
 class CreateMetrics extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -956,7 +892,6 @@ class CreateMetrics extends Request
  */
 class deleteProductGroup extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -967,7 +902,6 @@ class deleteProductGroup extends Request
  */
 class GetLogMonitorByMetricName extends Request
 {
-
 }/**
  * @method $this setSelectContactGroups($selectContactGroups)
  * @method bool getSelectContactGroups()
@@ -990,14 +924,12 @@ class GetLogMonitorByMetricName extends Request
  */
 class ListGroupsInner extends Request
 {
-
 }/**
  * @method $this setUserId($userId)
  * @method int getUserId()
  */
 class NodeListUpdate extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -1026,7 +958,6 @@ class NodeListUpdate extends Request
  */
 class QueryMetricLast extends Request
 {
-
 }/**
  * @method $this setProjectName($projectName)
  * @method string getProjectName()
@@ -1035,7 +966,6 @@ class QueryMetricLast extends Request
  */
 class StopMetricStream extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -1064,7 +994,6 @@ class StopMetricStream extends Request
  */
 class QueryListMetric extends Request
 {
-
 }/**
  * @method $this setId($id)
  * @method int getId()
@@ -1073,7 +1002,6 @@ class QueryListMetric extends Request
  */
 class JVMConfigDisable extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -1098,7 +1026,6 @@ class JVMConfigDisable extends Request
  */
 class QueryMetricData extends Request
 {
-
 }/**
  * @method $this setProjectName($projectName)
  * @method string getProjectName()
@@ -1107,7 +1034,6 @@ class QueryMetricData extends Request
  */
 class MetricMeta extends Request
 {
-
 }/**
  * @method $this setId($id)
  * @method int getId()
@@ -1116,7 +1042,6 @@ class MetricMeta extends Request
  */
 class JVMConfigEnable extends Request
 {
-
 }/**
  * @method $this setcallby_cms_owner($callby_cms_owner)
  * @method string getcallby_cms_owner()
@@ -1131,7 +1056,6 @@ class JVMConfigEnable extends Request
  */
 class PutMetrics extends Request
 {
-
 }/**
  * @method $this setProjectName($projectName)
  * @method string getProjectName()
@@ -1146,14 +1070,12 @@ class PutMetrics extends Request
  */
 class ListMetricsPlan extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
  */
 class GetLogMonitorResourceControlInfo extends Request
 {
-
 }/**
  * @method $this setTemplateId($templateId)
  * @method int getTemplateId()
@@ -1164,7 +1086,6 @@ class GetLogMonitorResourceControlInfo extends Request
  */
 class PutAlarmTemplate extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -1181,7 +1102,6 @@ class PutAlarmTemplate extends Request
  */
 class cmsShareGenerateToken extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -1192,7 +1112,6 @@ class cmsShareGenerateToken extends Request
  */
 class ListLogMonitorByGroupId extends Request
 {
-
 }/**
  * @method $this setId($id)
  * @method int getId()
@@ -1201,7 +1120,6 @@ class ListLogMonitorByGroupId extends Request
  */
 class JVMConfigGetById extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -1226,7 +1144,6 @@ class JVMConfigGetById extends Request
  */
 class QueryEventLast extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -1243,7 +1160,6 @@ class QueryEventLast extends Request
  */
 class ListLogMonitor extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -1254,7 +1170,6 @@ class ListLogMonitor extends Request
  */
 class cmsListShares extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -1265,7 +1180,6 @@ class cmsListShares extends Request
  */
 class DeleteMetricOfLogMonitor extends Request
 {
-
 }/**
  * @method $this setIdList($idList)
  * @method array getIdList()
@@ -1274,5 +1188,4 @@ class DeleteMetricOfLogMonitor extends Request
  */
 class TaskConfigEnable extends Request
 {
-
 }

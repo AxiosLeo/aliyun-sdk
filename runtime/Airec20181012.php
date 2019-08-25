@@ -50,14 +50,12 @@ class V20181012
  */
 class ListDataSet extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
  */
 class DescribeSchema extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -76,14 +74,12 @@ class DescribeSchema extends Request
  */
 class Recommend extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
  */
 class RunInstance extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -92,14 +88,12 @@ class RunInstance extends Request
  */
 class DescribeDataSetReport extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
  */
 class ListDataSource extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -108,14 +102,12 @@ class ListDataSource extends Request
  */
 class DeleteDataSet extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
  */
 class CreateDiversify extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -126,7 +118,6 @@ class CreateDiversify extends Request
  */
 class DescribeDashboard extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -135,19 +126,16 @@ class DescribeDashboard extends Request
  */
 class DescribeDiversify extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
  */
 class CreateMix extends Request
 {
-
 }/**
  */
 class ListInstance extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -156,7 +144,6 @@ class ListInstance extends Request
  */
 class StopDataSet extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -165,7 +152,6 @@ class StopDataSet extends Request
  */
 class ModifyMix extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -174,26 +160,22 @@ class ModifyMix extends Request
  */
 class DeleteMix extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
  */
 class ListDiversify extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
  */
 class DescribeQuota extends Request
 {
-
 }/**
  */
 class CreateInstance extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -202,21 +184,18 @@ class CreateInstance extends Request
  */
 class AttachDataset extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
  */
 class DescribeInstance extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
  */
 class ValidateInstance extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -225,7 +204,6 @@ class ValidateInstance extends Request
  */
 class DescribeMix extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -234,7 +212,6 @@ class DescribeMix extends Request
  */
 class PushDocument extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -243,14 +220,12 @@ class PushDocument extends Request
  */
 class ModifyDataSource extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
  */
 class ModifyInstance extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -259,28 +234,24 @@ class ModifyInstance extends Request
  */
 class DeleteDiversify extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
  */
 class PushIntervention extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
  */
 class UpgradeInstance extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
  */
 class ListMix extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -289,7 +260,6 @@ class ListMix extends Request
  */
 class ModifyDiversify extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -298,5 +268,4 @@ class ModifyDiversify extends Request
  */
 class DescribeDataSetMessage extends Request
 {
-
 }

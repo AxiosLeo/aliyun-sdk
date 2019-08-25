@@ -1,13 +1,5 @@
 <?php
 /**
- * @author: axios
- *
- * @email: axiosleo@foxmail.com
- * @blog:  http://hanxv.cn
- * @datetime: 2018/3/15 09:51
- */
-
-/**
  * @param $var
  * @param bool $echo
  * @param null $label
@@ -38,4 +30,3 @@ function dump($var = null, $echo = true, $label = null, $flags = ENT_SUBSTITUTE)
 require_once __DIR__ . '/../vendor/autoload.php';
 $access_id     = 'testAccessKeyId';
 $access_secret = 'testAccessKeySecret';
-

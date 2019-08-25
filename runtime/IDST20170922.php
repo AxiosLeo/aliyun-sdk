@@ -32,5 +32,4 @@ class V20170922
  */
 class RoaSearch extends Request
 {
-
 }

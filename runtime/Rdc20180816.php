@@ -32,7 +32,6 @@ class V20180816
  */
 class AddProjectMembers extends Request
 {
-
 }/**
  * @method $this setCorpIdentifier($corpIdentifier)
  * @method string getCorpIdentifier()
@@ -47,7 +46,6 @@ class AddProjectMembers extends Request
  */
 class DeleteProjectMembers extends Request
 {
-
 }/**
  * @method $this setCorpIdentifier($corpIdentifier)
  * @method string getCorpIdentifier()
@@ -56,7 +54,6 @@ class DeleteProjectMembers extends Request
  */
 class GetProjectInfo extends Request
 {
-
 }/**
  * @method $this setCorpIdentifier($corpIdentifier)
  * @method string getCorpIdentifier()
@@ -69,7 +66,6 @@ class GetProjectInfo extends Request
  */
 class CreateProject extends Request
 {
-
 }/**
  * @method $this setCorpIdentifier($corpIdentifier)
  * @method string getCorpIdentifier()
@@ -80,5 +76,4 @@ class CreateProject extends Request
  */
 class UpdateProject extends Request
 {
-
 }

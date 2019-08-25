@@ -31,7 +31,6 @@ class V20180501
  */
 class QueryMessage extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -50,7 +49,6 @@ class QueryMessage extends Request
  */
 class SendMessageToGlobe extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -65,7 +63,6 @@ class SendMessageToGlobe extends Request
  */
 class SmsConversion extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -86,7 +83,6 @@ class SmsConversion extends Request
  */
 class SendSms extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -109,7 +105,6 @@ class SendSms extends Request
  */
 class QuerySendDetails extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -130,5 +125,4 @@ class QuerySendDetails extends Request
  */
 class SendMessageWithTemplate extends Request
 {
-
 }

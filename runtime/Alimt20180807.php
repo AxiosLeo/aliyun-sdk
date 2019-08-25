@@ -31,7 +31,6 @@ class V20180807
  */
 class MachineTranslateGeneral extends Request
 {
-
 }/**
  * @method $this setFieldType($fieldType)
  * @method string getFieldType()
@@ -48,5 +47,4 @@ class MachineTranslateGeneral extends Request
  */
 class MachineTranslateECommerce extends Request
 {
-
 }

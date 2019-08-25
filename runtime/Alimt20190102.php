@@ -19,10 +19,8 @@ class V20190102
  */
 class TranslateGeneral extends Request
 {
-
 }/**
  */
 class TranslateECommerce extends Request
 {
-
 }

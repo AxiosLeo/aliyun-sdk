@@ -69,7 +69,6 @@ class V20170725
  */
 class UpdatePortRule extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -88,7 +87,6 @@ class UpdatePortRule extends Request
  */
 class UploadCertificate extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -105,7 +103,6 @@ class UploadCertificate extends Request
  */
 class ModifyDDoSProtectConfig extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -122,7 +119,6 @@ class ModifyDDoSProtectConfig extends Request
  */
 class ModifyRealServers extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -147,7 +143,6 @@ class ModifyRealServers extends Request
  */
 class CreateCcCustomedRule extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -170,7 +165,6 @@ class CreateCcCustomedRule extends Request
  */
 class CreateDomain extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -181,7 +175,6 @@ class CreateDomain extends Request
  */
 class DescribeDomainSecurityConfig extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -194,7 +187,6 @@ class DescribeDomainSecurityConfig extends Request
  */
 class ModifyCcTemplate extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -203,7 +195,6 @@ class ModifyCcTemplate extends Request
  */
 class DescribeCnameAutoStatus extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -216,7 +207,6 @@ class DescribeCnameAutoStatus extends Request
  */
 class ModifyTransmitLine extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -229,7 +219,6 @@ class ModifyTransmitLine extends Request
  */
 class ModifyElasticBandwidth extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -244,7 +233,6 @@ class ModifyElasticBandwidth extends Request
  */
 class DescribeDdosIpConfig extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -257,7 +245,6 @@ class DescribeDdosIpConfig extends Request
  */
 class DescribeBackSourceCidr extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -274,7 +261,6 @@ class DescribeBackSourceCidr extends Request
  */
 class ModifyHealthCheckConfig extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -289,7 +275,6 @@ class ModifyHealthCheckConfig extends Request
  */
 class ModifyDomainBlackWhiteList extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -300,7 +285,6 @@ class ModifyDomainBlackWhiteList extends Request
  */
 class DescribeHealthCheckConfig extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -319,7 +303,6 @@ class DescribeHealthCheckConfig extends Request
  */
 class CreatePortRule extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -332,7 +315,6 @@ class CreatePortRule extends Request
  */
 class ModifyCcStatus extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -345,7 +327,6 @@ class ModifyCcStatus extends Request
  */
 class DeletePortRule extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -360,7 +341,6 @@ class DeletePortRule extends Request
  */
 class DescribeDomainConfigPage extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -375,7 +355,6 @@ class DescribeDomainConfigPage extends Request
  */
 class DescribeDdosPeakFlow extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -388,7 +367,6 @@ class DescribeDdosPeakFlow extends Request
  */
 class ModifyDomainProxy extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -401,7 +379,6 @@ class ModifyDomainProxy extends Request
  */
 class DeleteCcCustomedRule extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -416,7 +393,6 @@ class DeleteCcCustomedRule extends Request
  */
 class DescribePortRulePage extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -431,7 +407,6 @@ class DescribePortRulePage extends Request
  */
 class DescribeDdosFlowProportionDiagram extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -448,7 +423,6 @@ class DescribeDdosFlowProportionDiagram extends Request
  */
 class CreateTransmitLine extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -461,7 +435,6 @@ class CreateTransmitLine extends Request
  */
 class DeleteTransmitLine extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -478,7 +451,6 @@ class DeleteTransmitLine extends Request
  */
 class ModifyPersistenceTimeOut extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -493,7 +465,6 @@ class ModifyPersistenceTimeOut extends Request
  */
 class ModifyIpCnameStatus extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -506,7 +477,6 @@ class ModifyIpCnameStatus extends Request
  */
 class ConfigSwitchPriority extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -525,7 +495,6 @@ class ConfigSwitchPriority extends Request
  */
 class DescribeDdosAttackEvents extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -544,7 +513,6 @@ class DescribeDdosAttackEvents extends Request
  */
 class DescribeCcEvents extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -569,7 +537,6 @@ class DescribeCcEvents extends Request
  */
 class UpdateCcCustomedRule extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -582,7 +549,6 @@ class UpdateCcCustomedRule extends Request
  */
 class ModifyCcCustomStatus extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -603,7 +569,6 @@ class ModifyCcCustomStatus extends Request
  */
 class DescribeInstancePage extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -622,7 +587,6 @@ class DescribeInstancePage extends Request
  */
 class DescribeDdosAttackEventSourceIps extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -637,7 +601,6 @@ class DescribeDdosAttackEventSourceIps extends Request
  */
 class ListCcCustomedRule extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -648,7 +611,6 @@ class ListCcCustomedRule extends Request
  */
 class DeleteDomain extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -663,7 +625,6 @@ class DeleteDomain extends Request
  */
 class DescribeBizFlow extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -676,7 +637,6 @@ class DescribeBizFlow extends Request
  */
 class ModifySwitchMode extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -691,7 +651,6 @@ class ModifySwitchMode extends Request
  */
 class DescribeDdosAttackTypeChart extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -702,5 +661,4 @@ class DescribeDdosAttackTypeChart extends Request
  */
 class DescribeDomainBlackWhiteList extends Request
 {
-
 }

@@ -31,7 +31,6 @@ class V20170920
  */
 class DescribeDdosFlow extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -48,7 +47,6 @@ class DescribeDdosFlow extends Request
  */
 class DescribeDdosEvents extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -63,7 +61,6 @@ class DescribeDdosEvents extends Request
  */
 class DescribeCcFlow extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -82,7 +79,6 @@ class DescribeCcFlow extends Request
  */
 class DescribeCcEvents extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -91,12 +87,10 @@ class DescribeCcEvents extends Request
  */
 class DescribeDomainList extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
  */
 class DescribeSimpleInstanceList extends Request
 {
-
 }

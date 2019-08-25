@@ -20,5 +20,4 @@ class V20161213
  */
 class OrderRefund extends Request
 {
-
 }

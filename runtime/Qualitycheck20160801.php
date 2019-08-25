@@ -71,42 +71,36 @@ class V20160801
  */
 class DeleteScoreForApi extends Request
 {
-
 }/**
  * @method $this setJsonStr($jsonStr)
  * @method string getJsonStr()
  */
 class UpdateRule extends Request
 {
-
 }/**
  * @method $this setJsonStr($jsonStr)
  * @method string getJsonStr()
  */
 class GetFileDimension extends Request
 {
-
 }/**
  * @method $this setJsonStr($jsonStr)
  * @method string getJsonStr()
  */
 class UploadAudioDataWithRules4Pre extends Request
 {
-
 }/**
  * @method $this setJsonStr($jsonStr)
  * @method string getJsonStr()
  */
 class DeleteBusinessCategory extends Request
 {
-
 }/**
  * @method $this setJsonStr($jsonStr)
  * @method string getJsonStr()
  */
 class RegisterNotice extends Request
 {
-
 }/**
  * @method $this setInterrupt($interrupt)
  * @method bool getInterrupt()
@@ -135,21 +129,18 @@ class RegisterNotice extends Request
  */
 class DoCheckResource extends Request
 {
-
 }/**
  * @method $this setJsonStr($jsonStr)
  * @method string getJsonStr()
  */
 class UploadDataWithRules extends Request
 {
-
 }/**
  * @method $this setJsonStr($jsonStr)
  * @method string getJsonStr()
  */
 class UpdateScoreForApi extends Request
 {
-
 }/**
  * @method $this setInterrupt($interrupt)
  * @method bool getInterrupt()
@@ -172,49 +163,42 @@ class UpdateScoreForApi extends Request
  */
 class DoPhysicalDeleteResource extends Request
 {
-
 }/**
  * @method $this setJsonStr($jsonStr)
  * @method string getJsonStr()
  */
 class UploadRuleForAnt extends Request
 {
-
 }/**
  * @method $this setJsonStr($jsonStr)
  * @method string getJsonStr()
  */
 class GetDataSetList extends Request
 {
-
 }/**
  * @method $this setJsonStr($jsonStr)
  * @method string getJsonStr()
  */
 class GetRule extends Request
 {
-
 }/**
  * @method $this setJsonStr($jsonStr)
  * @method string getJsonStr()
  */
 class GetResult extends Request
 {
-
 }/**
  * @method $this setJsonStr($jsonStr)
  * @method string getJsonStr()
  */
 class GetReviewInfo extends Request
 {
-
 }/**
  * @method $this setJsonStr($jsonStr)
  * @method string getJsonStr()
  */
 class UploadAudioDataWithRules extends Request
 {
-
 }/**
  * @method $this setInterrupt($interrupt)
  * @method bool getInterrupt()
@@ -239,248 +223,212 @@ class UploadAudioDataWithRules extends Request
  */
 class DoLogicalDeleteResource extends Request
 {
-
 }/**
  * @method $this setJsonStr($jsonStr)
  * @method string getJsonStr()
  */
 class GetAsrVocab extends Request
 {
-
 }/**
  * @method $this setJsonStr($jsonStr)
  * @method string getJsonStr()
  */
 class AddBusinessCategory extends Request
 {
-
 }/**
  * @method $this setJsonStr($jsonStr)
  * @method string getJsonStr()
  */
 class UploadData extends Request
 {
-
 }/**
  * @method $this setJsonStr($jsonStr)
  * @method string getJsonStr()
  */
 class GetScoreInfo extends Request
 {
-
 }/**
  * @method $this setJsonStr($jsonStr)
  * @method string getJsonStr()
  */
 class ExecuteAsrTransform extends Request
 {
-
 }/**
  * @method $this setJsonStr($jsonStr)
  * @method string getJsonStr()
  */
 class EditThesaurusForApi extends Request
 {
-
 }/**
  * @method $this setJsonStr($jsonStr)
  * @method string getJsonStr()
  */
 class GetCustomizationConfigList extends Request
 {
-
 }/**
  * @method $this setJsonStr($jsonStr)
  * @method string getJsonStr()
  */
 class GetResultCount extends Request
 {
-
 }/**
  * @method $this setJsonStr($jsonStr)
  * @method string getJsonStr()
  */
 class GetRuleDimension extends Request
 {
-
 }/**
  * @method $this setJsonStr($jsonStr)
  * @method string getJsonStr()
  */
 class DeleteAsrVocab extends Request
 {
-
 }/**
  * @method $this setJsonStr($jsonStr)
  * @method string getJsonStr()
  */
 class DelThesaurusForApi extends Request
 {
-
 }/**
  * @method $this setJsonStr($jsonStr)
  * @method string getJsonStr()
  */
 class ListDataSetTask extends Request
 {
-
 }/**
  * @method $this setJsonStr($jsonStr)
  * @method string getJsonStr()
  */
 class CreateAsrVocab extends Request
 {
-
 }/**
  * @method $this setJsonStr($jsonStr)
  * @method string getJsonStr()
  */
 class GetThesaurusBySynonymForApi extends Request
 {
-
 }/**
  * @method $this setdata($data)
  * @method string getdata()
  */
 class UpdateOnPurchaseSuccess extends Request
 {
-
 }/**
  * @method $this setJsonStr($jsonStr)
  * @method string getJsonStr()
  */
 class DeleteSubScoreForApi extends Request
 {
-
 }/**
  * @method $this setJsonStr($jsonStr)
  * @method string getJsonStr()
  */
 class InvalidRule extends Request
 {
-
 }/**
  * @method $this setJsonStr($jsonStr)
  * @method string getJsonStr()
  */
 class GetBusinessCategoryList extends Request
 {
-
 }/**
  * @method $this setJsonStr($jsonStr)
  * @method string getJsonStr()
  */
 class UpdateRuleForAnt extends Request
 {
-
 }/**
  * @method $this setJsonStr($jsonStr)
  * @method string getJsonStr()
  */
 class UpdateAsrVocab extends Request
 {
-
 }/**
  * @method $this setJsonStr($jsonStr)
  * @method string getJsonStr()
  */
 class GetRuleDetail extends Request
 {
-
 }/**
  * @method $this setJsonStr($jsonStr)
  * @method string getJsonStr()
  */
 class TestNetwork extends Request
 {
-
 }/**
  * @method $this setJsonStr($jsonStr)
  * @method string getJsonStr()
  */
 class GetAccAsrResult extends Request
 {
-
 }/**
  * @method $this setJsonStr($jsonStr)
  * @method string getJsonStr()
  */
 class InsertSubScoreForApi extends Request
 {
-
 }/**
  * @method $this setJsonStr($jsonStr)
  * @method string getJsonStr()
  */
 class InsertScoreForApi extends Request
 {
-
 }/**
  * @method $this setJsonStr($jsonStr)
  * @method string getJsonStr()
  */
 class UploadRule extends Request
 {
-
 }/**
  * @method $this setJsonStr($jsonStr)
  * @method string getJsonStr()
  */
 class UpdateSubScoreForApi extends Request
 {
-
 }/**
  * @method $this setJsonStr($jsonStr)
  * @method string getJsonStr()
  */
 class UploadDataSync extends Request
 {
-
 }/**
  * @method $this setJsonStr($jsonStr)
  * @method string getJsonStr()
  */
 class GetAudioDataStatus extends Request
 {
-
 }/**
  * @method $this setJsonStr($jsonStr)
  * @method string getJsonStr()
  */
 class SubmitReviewInfo extends Request
 {
-
 }/**
  * @method $this setJsonStr($jsonStr)
  * @method string getJsonStr()
  */
 class AddThesaurusForApi extends Request
 {
-
 }/**
  */
 class GenerateCustomizationModelId extends Request
 {
-
 }/**
  * @method $this setJsonStr($jsonStr)
  * @method string getJsonStr()
  */
 class UploadAudioData4Pre extends Request
 {
-
 }/**
  * @method $this setJsonStr($jsonStr)
  * @method string getJsonStr()
  */
 class UploadAudioData extends Request
 {
-
 }/**
  * @method $this setJsonStr($jsonStr)
  * @method string getJsonStr()
  */
 class SaveReviewResult extends Request
 {
-
 }

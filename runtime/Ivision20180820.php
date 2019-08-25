@@ -59,7 +59,6 @@ class V20180820
  */
 class QueryLivePredictList extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -72,7 +71,6 @@ class QueryLivePredictList extends Request
  */
 class GetIterationPerformance extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -83,7 +81,6 @@ class GetIterationPerformance extends Request
  */
 class GetIterations extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -96,7 +93,6 @@ class GetIterations extends Request
  */
 class UpdateLabel extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -105,7 +101,6 @@ class UpdateLabel extends Request
  */
 class QueryProject extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -116,7 +111,6 @@ class QueryProject extends Request
  */
 class GetUploadToken extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -127,7 +121,6 @@ class GetUploadToken extends Request
  */
 class SearchProject extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -136,7 +129,6 @@ class SearchProject extends Request
  */
 class StopLivePredict extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -149,7 +141,6 @@ class StopLivePredict extends Request
  */
 class QuickTestDataUrl extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -162,7 +153,6 @@ class QuickTestDataUrl extends Request
  */
 class CreateLabel extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -183,7 +173,6 @@ class CreateLabel extends Request
  */
 class GetPredictionDatas extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -202,7 +191,6 @@ class GetPredictionDatas extends Request
  */
 class GetTrainDatas extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -221,7 +209,6 @@ class GetTrainDatas extends Request
  */
 class StartLivePredict extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -234,7 +221,6 @@ class StartLivePredict extends Request
  */
 class CreateDataLabel extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -245,7 +231,6 @@ class CreateDataLabel extends Request
  */
 class DeleteLabel extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -264,7 +249,6 @@ class DeleteLabel extends Request
  */
 class CreateProject extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -273,7 +257,6 @@ class CreateProject extends Request
  */
 class DeleteProject extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -294,7 +277,6 @@ class DeleteProject extends Request
  */
 class QueryLivePredictResult extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -307,7 +289,6 @@ class QueryLivePredictResult extends Request
  */
 class CreateDatasFromPrediction extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -316,7 +297,6 @@ class CreateDatasFromPrediction extends Request
  */
 class TrainProject extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -329,7 +309,6 @@ class TrainProject extends Request
  */
 class UpdateProject extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -342,7 +321,6 @@ class UpdateProject extends Request
  */
 class DeletePredictData extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -353,7 +331,6 @@ class DeletePredictData extends Request
  */
 class GetLabels extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -364,7 +341,6 @@ class GetLabels extends Request
  */
 class DeleteIteration extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -375,7 +351,6 @@ class DeleteIteration extends Request
  */
 class DeleteData extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -388,7 +363,6 @@ class DeleteData extends Request
  */
 class QueryDataById extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -399,7 +373,6 @@ class QueryDataById extends Request
  */
 class CreateDatasFromUrls extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -412,5 +385,4 @@ class CreateDatasFromUrls extends Request
  */
 class DeleteDataLabel extends Request
 {
-
 }

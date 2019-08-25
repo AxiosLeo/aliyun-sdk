@@ -231,7 +231,6 @@ class V20160428
  */
 class EnablePhysicalConnection extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -250,7 +249,6 @@ class EnablePhysicalConnection extends Request
  */
 class DeleteCustomerGateway extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -267,7 +265,6 @@ class DeleteCustomerGateway extends Request
  */
 class DeleteGlobalAccelerationInstance extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -310,7 +307,6 @@ class DeleteGlobalAccelerationInstance extends Request
  */
 class DescribeIPv6TranslatorEntries extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -333,7 +329,6 @@ class DescribeIPv6TranslatorEntries extends Request
  */
 class ModifyCustomerGatewayAttribute extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -354,7 +349,6 @@ class ModifyCustomerGatewayAttribute extends Request
  */
 class ModifyIPv6TranslatorAclAttribute extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -371,7 +365,6 @@ class ModifyIPv6TranslatorAclAttribute extends Request
  */
 class DescribeSslVpnClientCert extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -394,7 +387,6 @@ class DescribeSslVpnClientCert extends Request
  */
 class CreateCustomerGateway extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -413,7 +405,6 @@ class CreateCustomerGateway extends Request
  */
 class UnassociateGlobalAccelerationInstance extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -434,7 +425,6 @@ class UnassociateGlobalAccelerationInstance extends Request
  */
 class DescribeVpnRouteEntries extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -459,7 +449,6 @@ class DescribeVpnRouteEntries extends Request
  */
 class ModifyVpcAttribute extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -478,7 +467,6 @@ class ModifyVpcAttribute extends Request
  */
 class DisableVpcClassicLink extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -497,7 +485,6 @@ class DisableVpcClassicLink extends Request
  */
 class RemoveGlobalAccelerationInstanceIp extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -518,7 +505,6 @@ class RemoveGlobalAccelerationInstanceIp extends Request
  */
 class ModifyFlowLogAttribute extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -539,7 +525,6 @@ class ModifyFlowLogAttribute extends Request
  */
 class ModifyRouterInterfaceSpec extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -564,7 +549,6 @@ class ModifyRouterInterfaceSpec extends Request
  */
 class DescribePhysicalConnections extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -583,7 +567,6 @@ class DescribePhysicalConnections extends Request
  */
 class ModifyGlobalAccelerationInstanceSpec extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -604,7 +587,6 @@ class ModifyGlobalAccelerationInstanceSpec extends Request
  */
 class ModifyGlobalAccelerationInstanceAttributes extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -627,7 +609,6 @@ class ModifyGlobalAccelerationInstanceAttributes extends Request
  */
 class ModifyVpnGatewayAttribute extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -648,7 +629,6 @@ class ModifyVpnGatewayAttribute extends Request
  */
 class ModifyCommonBandwidthPackageIpBandwidth extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -673,7 +653,6 @@ class ModifyCommonBandwidthPackageIpBandwidth extends Request
  */
 class DeleteVpnRouteEntry extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -704,7 +683,6 @@ class DeleteVpnRouteEntry extends Request
  */
 class ModifyForwardEntry extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -731,7 +709,6 @@ class ModifyForwardEntry extends Request
  */
 class CreateIpv6EgressOnlyRule extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -752,7 +729,6 @@ class CreateIpv6EgressOnlyRule extends Request
  */
 class AddBandwidthPackageIps extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -771,7 +747,6 @@ class AddBandwidthPackageIps extends Request
  */
 class DeleteVpnConnection extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -792,7 +767,6 @@ class DeleteVpnConnection extends Request
  */
 class UnassociatePhysicalConnectionFromVirtualBorderRouter extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -809,7 +783,6 @@ class UnassociatePhysicalConnectionFromVirtualBorderRouter extends Request
  */
 class ActiveFlowLog extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -840,7 +813,6 @@ class ActiveFlowLog extends Request
  */
 class CreateIPv6Translator extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -873,7 +845,6 @@ class CreateIPv6Translator extends Request
  */
 class ModifySslVpnServer extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -910,7 +881,6 @@ class ModifySslVpnServer extends Request
  */
 class DescribeIpv6Addresses extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -931,7 +901,6 @@ class DescribeIpv6Addresses extends Request
  */
 class DeletePhysicalConnection extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -950,7 +919,6 @@ class DeletePhysicalConnection extends Request
  */
 class DeleteCommonBandwidthPackage extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -973,7 +941,6 @@ class DeleteCommonBandwidthPackage extends Request
  */
 class DescribeEipMonitorData extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1002,7 +969,6 @@ class DescribeEipMonitorData extends Request
  */
 class CreateFlowLog extends Request
 {
-
 }/**
  * @method $this setBandwidthPackageId($bandwidthPackageId)
  * @method string getBandwidthPackageId()
@@ -1035,7 +1001,6 @@ class CreateFlowLog extends Request
  */
 class ModifyCommonBandwidthPackagePayType extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -1060,7 +1025,6 @@ class ModifyCommonBandwidthPackagePayType extends Request
  */
 class DescribeVpnConnections extends Request
 {
-
 }/**
  * @method $this setClientToken($clientToken)
  * @method string getClientToken()
@@ -1083,7 +1047,6 @@ class DescribeVpnConnections extends Request
  */
 class CompletePhysicalConnectionLOA extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -1100,7 +1063,6 @@ class CompletePhysicalConnectionLOA extends Request
  */
 class DescribeIpv6GatewayAttribute extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -1125,7 +1087,6 @@ class DescribeIpv6GatewayAttribute extends Request
  */
 class CreateIpv6Gateway extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1142,7 +1103,6 @@ class CreateIpv6Gateway extends Request
  */
 class DeleteFlowLog extends Request
 {
-
 }/**
  * @method $this setClientToken($clientToken)
  * @method string getClientToken()
@@ -1175,7 +1135,6 @@ class DeleteFlowLog extends Request
  */
 class ApplyPhysicalConnectionLOA extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1200,7 +1159,6 @@ class ApplyPhysicalConnectionLOA extends Request
  */
 class AssociateEipAddress extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1219,7 +1177,6 @@ class AssociateEipAddress extends Request
  */
 class ModifyBandwidthPackageSpec extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -1240,7 +1197,6 @@ class ModifyBandwidthPackageSpec extends Request
  */
 class DescribeCustomerGateways extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1257,7 +1213,6 @@ class DescribeCustomerGateways extends Request
  */
 class DeactiveFlowLog extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1286,7 +1241,6 @@ class DeactiveFlowLog extends Request
  */
 class ModifyBgpGroupAttribute extends Request
 {
-
 }/**
  * @method $this setTag($tag)
  * @method array getTag()
@@ -1335,7 +1289,6 @@ class ModifyBgpGroupAttribute extends Request
  */
 class DescribeEipAddresses extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -1356,7 +1309,6 @@ class DescribeEipAddresses extends Request
  */
 class ModifyIPv6TranslatorAclListEntry extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1379,7 +1331,6 @@ class ModifyIPv6TranslatorAclListEntry extends Request
  */
 class ModifyVSwitchAttribute extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1398,7 +1349,6 @@ class ModifyVSwitchAttribute extends Request
  */
 class DeleteBandwidthPackage extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1421,7 +1371,6 @@ class DeleteBandwidthPackage extends Request
  */
 class DescribeBandwidthPackages extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -1438,7 +1387,6 @@ class DescribeBandwidthPackages extends Request
  */
 class ModifyRouteEntry extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -1457,7 +1405,6 @@ class ModifyRouteEntry extends Request
  */
 class DeleteIpv6InternetBandwidth extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -1498,7 +1445,6 @@ class DeleteIpv6InternetBandwidth extends Request
  */
 class CreatePhysicalConnectionNew extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1519,7 +1465,6 @@ class CreatePhysicalConnectionNew extends Request
  */
 class ModifyCommonBandwidthPackageAttribute extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -1538,7 +1483,6 @@ class ModifyCommonBandwidthPackageAttribute extends Request
  */
 class DescribePhysicalConnectionLOA extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1561,7 +1505,6 @@ class DescribePhysicalConnectionLOA extends Request
  */
 class AddBgpNetwork extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1586,7 +1529,6 @@ class AddBgpNetwork extends Request
  */
 class DescribeNqas extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1601,7 +1543,6 @@ class DescribeNqas extends Request
  */
 class DeactivateRouterInterface extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1620,7 +1561,6 @@ class DeactivateRouterInterface extends Request
  */
 class RemoveCommonBandwidthPackageIp extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1653,7 +1593,6 @@ class RemoveCommonBandwidthPackageIp extends Request
  */
 class CreateCommonBandwidthPackage extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1672,7 +1611,6 @@ class CreateCommonBandwidthPackage extends Request
  */
 class CancelCommonBandwidthPackageIpBandwidth extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1691,7 +1629,6 @@ class CancelCommonBandwidthPackageIpBandwidth extends Request
  */
 class AddCommonBandwidthPackageIp extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1724,7 +1661,6 @@ class AddCommonBandwidthPackageIp extends Request
  */
 class CreateBandwidthPackage extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -1741,7 +1677,6 @@ class CreateBandwidthPackage extends Request
  */
 class DescribeCustomerGateway extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1766,7 +1701,6 @@ class DescribeCustomerGateway extends Request
  */
 class CreateSnatEntry extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1795,7 +1729,6 @@ class CreateSnatEntry extends Request
  */
 class CreateBgpGroup extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -1820,7 +1753,6 @@ class CreateBgpGroup extends Request
  */
 class DescribeSslVpnServers extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -1849,7 +1781,6 @@ class DescribeSslVpnServers extends Request
  */
 class DescribeIpv6EgressOnlyRules extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1870,7 +1801,6 @@ class DescribeIpv6EgressOnlyRules extends Request
  */
 class DescribeBgpNetworks extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1905,7 +1835,6 @@ class DescribeBgpNetworks extends Request
  */
 class DescribeForwardTableEntries extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1926,7 +1855,6 @@ class DescribeForwardTableEntries extends Request
  */
 class DeleteBgpNetwork extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1951,7 +1879,6 @@ class DeleteBgpNetwork extends Request
  */
 class UnassociateEipAddress extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1970,7 +1897,6 @@ class UnassociateEipAddress extends Request
  */
 class AddGlobalAccelerationInstanceIp extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -1987,7 +1913,6 @@ class AddGlobalAccelerationInstanceIp extends Request
  */
 class DescribeVpnGateway extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2006,7 +1931,6 @@ class DescribeVpnGateway extends Request
  */
 class DescribeVirtualBorderRouters extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -2035,7 +1959,6 @@ class DescribeVirtualBorderRouters extends Request
  */
 class ModifyVpnPbrRouteEntryWeight extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2054,7 +1977,6 @@ class ModifyVpnPbrRouteEntryWeight extends Request
  */
 class DeleteBgpGroup extends Request
 {
-
 }/**
  * @method $this setRouteTableId($routeTableId)
  * @method string getRouteTableId()
@@ -2083,7 +2005,6 @@ class DeleteBgpGroup extends Request
  */
 class ModifyRouteTableAttributes extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2110,7 +2031,6 @@ class ModifyRouteTableAttributes extends Request
  */
 class DescribeCommonBandwidthPackages extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2139,7 +2059,6 @@ class DescribeCommonBandwidthPackages extends Request
  */
 class DescribeNatGateways extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2164,7 +2083,6 @@ class DescribeNatGateways extends Request
  */
 class DescribeBgpGroups extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -2185,7 +2103,6 @@ class DescribeBgpGroups extends Request
  */
 class DescribeIPv6TranslatorAclListAttributes extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2204,7 +2121,6 @@ class DescribeIPv6TranslatorAclListAttributes extends Request
  */
 class DescribeServerRelatedGlobalAccelerationInstances extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2235,7 +2151,6 @@ class DescribeServerRelatedGlobalAccelerationInstances extends Request
  */
 class CreateVpc extends Request
 {
-
 }/**
  * @method $this setProductType($productType)
  * @method string getProductType()
@@ -2252,7 +2167,6 @@ class CreateVpc extends Request
  */
 class DescribeRegions extends Request
 {
-
 }/**
  * @method $this setFilter($filter)
  * @method array getFilter()
@@ -2273,7 +2187,6 @@ class DescribeRegions extends Request
  */
 class DescribeVirtualBorderRoutersForPhysicalConnection extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -2294,7 +2207,6 @@ class DescribeVirtualBorderRoutersForPhysicalConnection extends Request
  */
 class ModifyIpv6GatewayAttribute extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2319,7 +2231,6 @@ class ModifyIpv6GatewayAttribute extends Request
  */
 class DeleteRouteEntry extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2354,7 +2265,6 @@ class DeleteRouteEntry extends Request
  */
 class CreateNatGateway extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -2373,7 +2283,6 @@ class CreateNatGateway extends Request
  */
 class DeleteIPv6Translator extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2388,7 +2297,6 @@ class DeleteIPv6Translator extends Request
  */
 class ConnectRouterInterface extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -2415,7 +2323,6 @@ class ConnectRouterInterface extends Request
  */
 class CreatePhysicalConnectionOccupancyOrder extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2448,7 +2355,6 @@ class CreatePhysicalConnectionOccupancyOrder extends Request
  */
 class ModifyRouterInterfaceAttribute extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -2467,7 +2373,6 @@ class ModifyRouterInterfaceAttribute extends Request
  */
 class DeleteVpnGateway extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -2488,7 +2393,6 @@ class DeleteVpnGateway extends Request
  */
 class UnassociateRouteTable extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2513,7 +2417,6 @@ class UnassociateRouteTable extends Request
  */
 class RevokeInstanceFromCen extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -2536,7 +2439,6 @@ class RevokeInstanceFromCen extends Request
  */
 class CreateRouteTable extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -2557,7 +2459,6 @@ class CreateRouteTable extends Request
  */
 class ModifyIpv6AddressAttribute extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2574,7 +2475,6 @@ class ModifyIpv6AddressAttribute extends Request
  */
 class DeleteVpc extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -2601,7 +2501,6 @@ class DeleteVpc extends Request
  */
 class CreatePhysicalConnectionSetupOrder extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -2636,7 +2535,6 @@ class CreatePhysicalConnectionSetupOrder extends Request
  */
 class ModifyVpnConnectionAttribute extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2657,7 +2555,6 @@ class ModifyVpnConnectionAttribute extends Request
  */
 class DescribeHaVips extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -2678,7 +2575,6 @@ class DescribeHaVips extends Request
  */
 class ModifySslVpnClientCert extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -2699,7 +2595,6 @@ class ModifySslVpnClientCert extends Request
  */
 class ModifyIpv6GatewaySpec extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2722,7 +2617,6 @@ class ModifyIpv6GatewaySpec extends Request
  */
 class AssociateGlobalAccelerationInstance extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2751,7 +2645,6 @@ class AssociateGlobalAccelerationInstance extends Request
  */
 class CreateGlobalAccelerationInstance extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -2786,7 +2679,6 @@ class CreateGlobalAccelerationInstance extends Request
  */
 class ModifyPhysicalConnectionAttribute extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -2807,7 +2699,6 @@ class ModifyPhysicalConnectionAttribute extends Request
  */
 class DescribeVpnPbrRouteEntries extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2838,7 +2729,6 @@ class DescribeVpnPbrRouteEntries extends Request
  */
 class DescribeSnatTableEntries extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -2857,7 +2747,6 @@ class DescribeSnatTableEntries extends Request
  */
 class DeleteVirtualBorderRouter extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -2882,7 +2771,6 @@ class DeleteVirtualBorderRouter extends Request
  */
 class DescribeSslVpnClientCerts extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -2903,7 +2791,6 @@ class DescribeSslVpnClientCerts extends Request
  */
 class RemoveIPv6TranslatorAclListEntry extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2918,7 +2805,6 @@ class RemoveIPv6TranslatorAclListEntry extends Request
  */
 class ActivateRouterInterface extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2939,7 +2825,6 @@ class ActivateRouterInterface extends Request
  */
 class DescribeVRouters extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -2976,7 +2861,6 @@ class DescribeVRouters extends Request
  */
 class CreateIPv6TranslatorEntry extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2999,7 +2883,6 @@ class CreateIPv6TranslatorEntry extends Request
  */
 class ModifyNatGatewaySpec extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -3026,7 +2909,6 @@ class ModifyNatGatewaySpec extends Request
  */
 class ModifyVpnRouteEntryWeight extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -3053,7 +2935,6 @@ class ModifyVpnRouteEntryWeight extends Request
  */
 class PublishVpnRouteEntry extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -3088,7 +2969,6 @@ class PublishVpnRouteEntry extends Request
  */
 class DescribeIPv6Translators extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -3115,7 +2995,6 @@ class DescribeIPv6Translators extends Request
  */
 class DescribeVpnGateways extends Request
 {
-
 }/**
  * @method $this setRouterType($routerType)
  * @method string getRouterType()
@@ -3148,7 +3027,6 @@ class DescribeVpnGateways extends Request
  */
 class DescribeRouteTableList extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -3177,7 +3055,6 @@ class DescribeRouteTableList extends Request
  */
 class CreateForwardEntry extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -3196,7 +3073,6 @@ class CreateForwardEntry extends Request
  */
 class DescribePhysicalConnectionOrder extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -3219,7 +3095,6 @@ class DescribePhysicalConnectionOrder extends Request
  */
 class ModifyIpv6InternetBandwidth extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -3250,7 +3125,6 @@ class ModifyIpv6InternetBandwidth extends Request
  */
 class CreateVpnPbrRouteEntry extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -3271,7 +3145,6 @@ class CreateVpnPbrRouteEntry extends Request
  */
 class AssociateRouteTable extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -3306,7 +3179,6 @@ class AssociateRouteTable extends Request
  */
 class AllocateEipAddress extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -3321,7 +3193,6 @@ class AllocateEipAddress extends Request
  */
 class DescribeZones extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -3356,7 +3227,6 @@ class DescribeZones extends Request
  */
 class DescribeGlobalAccelerationInstances extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -3375,7 +3245,6 @@ class DescribeGlobalAccelerationInstances extends Request
  */
 class DeleteForwardEntry extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -3394,7 +3263,6 @@ class DeleteForwardEntry extends Request
  */
 class DeleteHaVip extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -3413,7 +3281,6 @@ class DeleteHaVip extends Request
  */
 class EnableVpcClassicLink extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -3446,7 +3313,6 @@ class EnableVpcClassicLink extends Request
  */
 class CreateSslVpnServer extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -3483,7 +3349,6 @@ class CreateSslVpnServer extends Request
  */
 class DescribeFlowLogs extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -3502,7 +3367,6 @@ class DescribeFlowLogs extends Request
  */
 class CancelPhysicalConnection extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -3521,7 +3385,6 @@ class CancelPhysicalConnection extends Request
  */
 class DeleteBgpPeer extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -3556,7 +3419,6 @@ class DeleteBgpPeer extends Request
  */
 class ModifyVirtualBorderRouterAttribute extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -3579,7 +3441,6 @@ class ModifyVirtualBorderRouterAttribute extends Request
  */
 class DescribeGrantRulesToCen extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -3602,7 +3463,6 @@ class DescribeGrantRulesToCen extends Request
  */
 class UnassociateHaVip extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -3621,7 +3481,6 @@ class UnassociateHaVip extends Request
  */
 class ModifyCommonBandwidthPackageSpec extends Request
 {
-
 }/**
  * @method $this setTag($tag)
  * @method array getTag()
@@ -3650,7 +3509,6 @@ class ModifyCommonBandwidthPackageSpec extends Request
  */
 class DescribeVpcs extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -3667,7 +3525,6 @@ class DescribeVpcs extends Request
  */
 class DescribeVpnConnection extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -3686,7 +3543,6 @@ class DescribeVpnConnection extends Request
  */
 class DeleteSslVpnServer extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -3707,7 +3563,6 @@ class DeleteSslVpnServer extends Request
  */
 class CreateBgpPeer extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -3724,7 +3579,6 @@ class CreateBgpPeer extends Request
  */
 class DeleteIpv6Gateway extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -3753,7 +3607,6 @@ class DeleteIpv6Gateway extends Request
  */
 class CreateVpnRouteEntry extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -3786,7 +3639,6 @@ class CreateVpnRouteEntry extends Request
  */
 class DescribeRouteTables extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -3805,7 +3657,6 @@ class DescribeRouteTables extends Request
  */
 class TerminatePhysicalConnection extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -3824,7 +3675,6 @@ class TerminatePhysicalConnection extends Request
  */
 class DeleteIpv6EgressOnlyRule extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -3853,7 +3703,6 @@ class DeleteIpv6EgressOnlyRule extends Request
  */
 class CreateVSwitch extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -3870,7 +3719,6 @@ class CreateVSwitch extends Request
  */
 class DeleteVSwitch extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -3887,7 +3735,6 @@ class DeleteVSwitch extends Request
  */
 class DownloadVpnConnectionConfig extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -3910,7 +3757,6 @@ class DownloadVpnConnectionConfig extends Request
  */
 class ModifySnatEntry extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -3931,7 +3777,6 @@ class ModifySnatEntry extends Request
  */
 class AddIPv6TranslatorAclListEntry extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -3952,7 +3797,6 @@ class AddIPv6TranslatorAclListEntry extends Request
  */
 class ModifyBandwidthPackageAttribute extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -3971,7 +3815,6 @@ class ModifyBandwidthPackageAttribute extends Request
  */
 class DeleteSslVpnClientCert extends Request
 {
-
 }/**
  * @method $this setBandwidthPackageId($bandwidthPackageId)
  * @method string getBandwidthPackageId()
@@ -3988,7 +3831,6 @@ class DeleteSslVpnClientCert extends Request
  */
 class ConvertBandwidthPackage extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -4007,7 +3849,6 @@ class ConvertBandwidthPackage extends Request
  */
 class CreateIPv6TranslatorAclList extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -4028,7 +3869,6 @@ class CreateIPv6TranslatorAclList extends Request
  */
 class ModifyHaVipAttribute extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -4045,7 +3885,6 @@ class ModifyHaVipAttribute extends Request
  */
 class DescribeVSwitchAttributes extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -4068,7 +3907,6 @@ class DescribeVSwitchAttributes extends Request
  */
 class ModifyIPv6TranslatorAttribute extends Request
 {
-
 }/**
  * @method $this setFilter($filter)
  * @method array getFilter()
@@ -4093,7 +3931,6 @@ class ModifyIPv6TranslatorAttribute extends Request
  */
 class DescribeAccessPoints extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -4130,7 +3967,6 @@ class DescribeAccessPoints extends Request
  */
 class CreatePhysicalConnection extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -4149,7 +3985,6 @@ class CreatePhysicalConnection extends Request
  */
 class RecoverVirtualBorderRouter extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -4172,7 +4007,6 @@ class RecoverVirtualBorderRouter extends Request
  */
 class ModifyEipAddressAttribute extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -4199,7 +4033,6 @@ class ModifyEipAddressAttribute extends Request
  */
 class DescribeBgpPeers extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -4236,7 +4069,6 @@ class DescribeBgpPeers extends Request
  */
 class ModifyIPv6TranslatorEntry extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -4253,7 +4085,6 @@ class ModifyIPv6TranslatorEntry extends Request
  */
 class ReleaseEipAddress extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -4272,7 +4103,6 @@ class ReleaseEipAddress extends Request
  */
 class TerminateVirtualBorderRouter extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -4291,7 +4121,6 @@ class TerminateVirtualBorderRouter extends Request
  */
 class DescribeVpcAttribute extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -4312,7 +4141,6 @@ class DescribeVpcAttribute extends Request
  */
 class RemoveBandwidthPackageIps extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -4329,7 +4157,6 @@ class RemoveBandwidthPackageIps extends Request
  */
 class DeleteRouteTable extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -4350,7 +4177,6 @@ class DeleteRouteTable extends Request
  */
 class DeleteIPv6TranslatorEntry extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -4375,7 +4201,6 @@ class DeleteIPv6TranslatorEntry extends Request
  */
 class AllocateIpv6InternetBandwidth extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -4398,7 +4223,6 @@ class AllocateIpv6InternetBandwidth extends Request
  */
 class DescribeIPv6TranslatorAclLists extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -4429,7 +4253,6 @@ class DescribeIPv6TranslatorAclLists extends Request
  */
 class AssociatePhysicalConnectionToVirtualBorderRouter extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -4450,7 +4273,6 @@ class AssociatePhysicalConnectionToVirtualBorderRouter extends Request
  */
 class CreateNqa extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -4487,7 +4309,6 @@ class CreateNqa extends Request
  */
 class CreateVpnConnection extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -4520,7 +4341,6 @@ class CreateVpnConnection extends Request
  */
 class CreateVpnGateway extends Request
 {
-
 }/**
  * @method $this setTag($tag)
  * @method array getTag()
@@ -4555,7 +4375,6 @@ class CreateVpnGateway extends Request
  */
 class DescribeVSwitches extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -4582,7 +4401,6 @@ class DescribeVSwitches extends Request
  */
 class DeleteVpnPbrRouteEntry extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -4601,7 +4419,6 @@ class DeleteVpnPbrRouteEntry extends Request
  */
 class DeleteIPv6TranslatorAclList extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -4620,7 +4437,6 @@ class DeleteIPv6TranslatorAclList extends Request
  */
 class DeleteNqa extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -4645,7 +4461,6 @@ class DeleteNqa extends Request
  */
 class DescribeIpv6Gateways extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -4666,7 +4481,6 @@ class DescribeIpv6Gateways extends Request
  */
 class ModifyNqa extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -4687,7 +4501,6 @@ class ModifyNqa extends Request
  */
 class AssociateHaVip extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -4706,7 +4519,6 @@ class AssociateHaVip extends Request
  */
 class DeleteRouterInterface extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -4727,7 +4539,6 @@ class DeleteRouterInterface extends Request
  */
 class CreateSslVpnClientCert extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -4746,7 +4557,6 @@ class CreateSslVpnClientCert extends Request
  */
 class DeleteNatGateway extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -4769,7 +4579,6 @@ class DeleteNatGateway extends Request
  */
 class CreateHaVip extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -4788,7 +4597,6 @@ class CreateHaVip extends Request
  */
 class DeleteSnatEntry extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -4819,7 +4627,6 @@ class DeleteSnatEntry extends Request
  */
 class CreateRouteEntry extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -4844,7 +4651,6 @@ class CreateRouteEntry extends Request
  */
 class GrantInstanceToCen extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -4867,7 +4673,6 @@ class GrantInstanceToCen extends Request
  */
 class ModifyIPv6TranslatorBandwidth extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -4888,7 +4693,6 @@ class ModifyIPv6TranslatorBandwidth extends Request
  */
 class DescribeRouterInterfaces extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -4909,7 +4713,6 @@ class DescribeRouterInterfaces extends Request
  */
 class ModifyNatGatewayAttribute extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -4944,7 +4747,6 @@ class ModifyNatGatewayAttribute extends Request
  */
 class CreateVirtualBorderRouter extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -4999,7 +4801,6 @@ class CreateVirtualBorderRouter extends Request
  */
 class CreateRouterInterface extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -5020,5 +4821,4 @@ class CreateRouterInterface extends Request
  */
 class ModifyVRouterAttribute extends Request
 {
-
 }

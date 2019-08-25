@@ -52,7 +52,6 @@ class V20160801
  */
 class UnbindPhone extends Request
 {
-
 }/**
  * @method $this setAppKey($appKey)
  * @method int getAppKey()
@@ -61,7 +60,6 @@ class UnbindPhone extends Request
  */
 class RemoveTag extends Request
 {
-
 }/**
  * @method $this setAppKey($appKey)
  * @method int getAppKey()
@@ -78,7 +76,6 @@ class RemoveTag extends Request
  */
 class PushMessageToAndroid extends Request
 {
-
 }/**
  * @method $this setAppKey($appKey)
  * @method int getAppKey()
@@ -93,7 +90,6 @@ class PushMessageToAndroid extends Request
  */
 class QueryDeviceStat extends Request
 {
-
 }/**
  * @method $this setAppKey($appKey)
  * @method int getAppKey()
@@ -104,7 +100,6 @@ class QueryDeviceStat extends Request
  */
 class QueryTags extends Request
 {
-
 }/**
  * @method $this setAppKey($appKey)
  * @method int getAppKey()
@@ -113,7 +108,6 @@ class QueryTags extends Request
  */
 class QueryAliases extends Request
 {
-
 }/**
  * @method $this setAppKey($appKey)
  * @method int getAppKey()
@@ -130,7 +124,6 @@ class QueryAliases extends Request
  */
 class ListPushRecords extends Request
 {
-
 }/**
  * @method $this setAppKey($appKey)
  * @method int getAppKey()
@@ -139,7 +132,6 @@ class ListPushRecords extends Request
  */
 class CheckDevice extends Request
 {
-
 }/**
  * @method $this setAppKey($appKey)
  * @method int getAppKey()
@@ -152,7 +144,6 @@ class CheckDevice extends Request
  */
 class BindTag extends Request
 {
-
 }/**
  * @method $this setAppKey($appKey)
  * @method int getAppKey()
@@ -163,7 +154,6 @@ class BindTag extends Request
  */
 class BindAlias_GatedLaunch extends Request
 {
-
 }/**
  * @method $this setAppKey($appKey)
  * @method int getAppKey()
@@ -172,7 +162,6 @@ class BindAlias_GatedLaunch extends Request
  */
 class QueryPushStatByMsg extends Request
 {
-
 }/**
  * @method $this setAppKey($appKey)
  * @method int getAppKey()
@@ -185,7 +174,6 @@ class QueryPushStatByMsg extends Request
  */
 class QueryPushStatByApp extends Request
 {
-
 }/**
  * @method $this setAppKey($appKey)
  * @method int getAppKey()
@@ -204,7 +192,6 @@ class QueryPushStatByApp extends Request
  */
 class PushNoticeToAndroid extends Request
 {
-
 }/**
  * @method $this setAppKey($appKey)
  * @method int getAppKey()
@@ -217,7 +204,6 @@ class PushNoticeToAndroid extends Request
  */
 class UnbindAlias extends Request
 {
-
 }/**
  * @method $this setAppKey($appKey)
  * @method int getAppKey()
@@ -230,7 +216,6 @@ class UnbindAlias extends Request
  */
 class UnbindAlias_GatedLaunch extends Request
 {
-
 }/**
  * @method $this setAppKey($appKey)
  * @method int getAppKey()
@@ -247,7 +232,6 @@ class UnbindAlias_GatedLaunch extends Request
  */
 class PushMessageToiOS extends Request
 {
-
 }/**
  * @method $this setAppKey($appKey)
  * @method int getAppKey()
@@ -260,7 +244,6 @@ class PushMessageToiOS extends Request
  */
 class UnbindTag extends Request
 {
-
 }/**
  * @method $this setAppKey($appKey)
  * @method int getAppKey()
@@ -273,7 +256,6 @@ class UnbindTag extends Request
  */
 class QueryUniqueDeviceStat extends Request
 {
-
 }/**
  * @method $this setAppKey($appKey)
  * @method int getAppKey()
@@ -284,7 +266,6 @@ class QueryUniqueDeviceStat extends Request
  */
 class BindAlias extends Request
 {
-
 }/**
  * @method $this setAppKey($appKey)
  * @method int getAppKey()
@@ -293,12 +274,10 @@ class BindAlias extends Request
  */
 class QueryDevicesByAlias extends Request
 {
-
 }/**
  */
 class ListSummaryApps extends Request
 {
-
 }/**
  * @method $this setAppKey($appKey)
  * @method int getAppKey()
@@ -391,7 +370,6 @@ class ListSummaryApps extends Request
  */
 class Push extends Request
 {
-
 }/**
  * @method $this setAppKey($appKey)
  * @method int getAppKey()
@@ -400,7 +378,6 @@ class Push extends Request
  */
 class QueryDevicesByAccount extends Request
 {
-
 }/**
  * @method $this setAppKey($appKey)
  * @method int getAppKey()
@@ -417,7 +394,6 @@ class QueryDevicesByAccount extends Request
  */
 class QueryPushList extends Request
 {
-
 }/**
  * @method $this setAppKey($appKey)
  * @method int getAppKey()
@@ -426,7 +402,6 @@ class QueryPushList extends Request
  */
 class CheckDevices extends Request
 {
-
 }/**
  * @method $this setAppKey($appKey)
  * @method int getAppKey()
@@ -435,7 +410,6 @@ class CheckDevices extends Request
  */
 class CancelPush extends Request
 {
-
 }/**
  * @method $this setAppKey($appKey)
  * @method int getAppKey()
@@ -530,7 +504,6 @@ class CancelPush extends Request
  */
 class Push_GatedLaunch extends Request
 {
-
 }/**
  * @method $this setAppKey($appKey)
  * @method int getAppKey()
@@ -539,7 +512,6 @@ class Push_GatedLaunch extends Request
  */
 class QueryDeviceInfo extends Request
 {
-
 }/**
  * @method $this setAppKey($appKey)
  * @method int getAppKey()
@@ -560,7 +532,6 @@ class QueryDeviceInfo extends Request
  */
 class PushNoticeToiOS extends Request
 {
-
 }/**
  * @method $this setAppKey($appKey)
  * @method int getAppKey()
@@ -571,12 +542,10 @@ class PushNoticeToiOS extends Request
  */
 class BindPhone extends Request
 {
-
 }/**
  * @method $this setAppKey($appKey)
  * @method int getAppKey()
  */
 class ListTags extends Request
 {
-
 }

@@ -64,7 +64,6 @@ class V20160405
  */
 class OnsMessagePush extends Request
 {
-
 }/**
  * @method $this setOnsRegionId($onsRegionId)
  * @method string getOnsRegionId()
@@ -85,7 +84,6 @@ class OnsMessagePush extends Request
  */
 class OnsTrendTopicInputTps extends Request
 {
-
 }/**
  * @method $this setOnsRegionId($onsRegionId)
  * @method string getOnsRegionId()
@@ -98,7 +96,6 @@ class OnsTrendTopicInputTps extends Request
  */
 class OnsTopicList extends Request
 {
-
 }/**
  * @method $this setOnsRegionId($onsRegionId)
  * @method string getOnsRegionId()
@@ -121,7 +118,6 @@ class OnsTopicList extends Request
  */
 class OnsTrendGroupOutputTps extends Request
 {
-
 }/**
  * @method $this setOnsRegionId($onsRegionId)
  * @method string getOnsRegionId()
@@ -136,7 +132,6 @@ class OnsTrendGroupOutputTps extends Request
  */
 class OnsConsumerAccumulate extends Request
 {
-
 }/**
  * @method $this setOnsRegionId($onsRegionId)
  * @method string getOnsRegionId()
@@ -151,7 +146,6 @@ class OnsConsumerAccumulate extends Request
  */
 class OnsPublishDelete extends Request
 {
-
 }/**
  * @method $this setOnsRegionId($onsRegionId)
  * @method string getOnsRegionId()
@@ -168,7 +162,6 @@ class OnsPublishDelete extends Request
  */
 class OnsConsumerStatus extends Request
 {
-
 }/**
  * @method $this setOnsRegionId($onsRegionId)
  * @method string getOnsRegionId()
@@ -183,7 +176,6 @@ class OnsConsumerStatus extends Request
  */
 class OnsSubscriptionDelete extends Request
 {
-
 }/**
  * @method $this setOnsRegionId($onsRegionId)
  * @method string getOnsRegionId()
@@ -198,7 +190,6 @@ class OnsSubscriptionDelete extends Request
  */
 class OnsSubscriptionGet extends Request
 {
-
 }/**
  * @method $this setOnsRegionId($onsRegionId)
  * @method string getOnsRegionId()
@@ -219,7 +210,6 @@ class OnsSubscriptionGet extends Request
  */
 class OnsMessageSend extends Request
 {
-
 }/**
  * @method $this setOnsRegionId($onsRegionId)
  * @method string getOnsRegionId()
@@ -232,7 +222,6 @@ class OnsMessageSend extends Request
  */
 class OnsTopicGet extends Request
 {
-
 }/**
  * @method $this setOnsRegionId($onsRegionId)
  * @method string getOnsRegionId()
@@ -245,7 +234,6 @@ class OnsTopicGet extends Request
  */
 class OnsConsumerGetConnection extends Request
 {
-
 }/**
  * @method $this setOnsRegionId($onsRegionId)
  * @method string getOnsRegionId()
@@ -258,7 +246,6 @@ class OnsConsumerGetConnection extends Request
  */
 class OnsTopicStatus extends Request
 {
-
 }/**
  * @method $this setOnsRegionId($onsRegionId)
  * @method string getOnsRegionId()
@@ -273,7 +260,6 @@ class OnsTopicStatus extends Request
  */
 class OnsConsumerTimeSpan extends Request
 {
-
 }/**
  * @method $this setOnsRegionId($onsRegionId)
  * @method string getOnsRegionId()
@@ -288,7 +274,6 @@ class OnsConsumerTimeSpan extends Request
  */
 class OnsEmpowerDelete extends Request
 {
-
 }/**
  * @method $this setOnsRegionId($onsRegionId)
  * @method string getOnsRegionId()
@@ -303,7 +288,6 @@ class OnsEmpowerDelete extends Request
  */
 class OnsTopicDelete extends Request
 {
-
 }/**
  * @method $this setOnsRegionId($onsRegionId)
  * @method string getOnsRegionId()
@@ -318,7 +302,6 @@ class OnsTopicDelete extends Request
  */
 class OnsMessageTrace extends Request
 {
-
 }/**
  * @method $this setOnsRegionId($onsRegionId)
  * @method string getOnsRegionId()
@@ -341,7 +324,6 @@ class OnsMessageTrace extends Request
  */
 class OnsMessagePageQueryByTopic extends Request
 {
-
 }/**
  * @method $this setOnsRegionId($onsRegionId)
  * @method string getOnsRegionId()
@@ -356,7 +338,6 @@ class OnsMessagePageQueryByTopic extends Request
  */
 class OnsMessageGetByKey extends Request
 {
-
 }/**
  * @method $this setOnsRegionId($onsRegionId)
  * @method string getOnsRegionId()
@@ -373,7 +354,6 @@ class OnsMessageGetByKey extends Request
  */
 class OnsEmpowerCreate extends Request
 {
-
 }/**
  * @method $this setOnsRegionId($onsRegionId)
  * @method string getOnsRegionId()
@@ -384,7 +364,6 @@ class OnsEmpowerCreate extends Request
  */
 class OnsPublishList extends Request
 {
-
 }/**
  * @method $this setOnsRegionId($onsRegionId)
  * @method string getOnsRegionId()
@@ -413,7 +392,6 @@ class OnsPublishList extends Request
  */
 class OnsTopicCreate extends Request
 {
-
 }/**
  * @method $this setOnsRegionId($onsRegionId)
  * @method string getOnsRegionId()
@@ -428,7 +406,6 @@ class OnsTopicCreate extends Request
  */
 class OnsPublishGet extends Request
 {
-
 }/**
  * @method $this setOnsRegionId($onsRegionId)
  * @method string getOnsRegionId()
@@ -441,7 +418,6 @@ class OnsPublishGet extends Request
  */
 class OnsTopicSearch extends Request
 {
-
 }/**
  * @method $this setOnsRegionId($onsRegionId)
  * @method string getOnsRegionId()
@@ -456,7 +432,6 @@ class OnsTopicSearch extends Request
  */
 class OnsMessageGetByMsgId extends Request
 {
-
 }/**
  * @method $this setOnsRegionId($onsRegionId)
  * @method string getOnsRegionId()
@@ -467,7 +442,6 @@ class OnsMessageGetByMsgId extends Request
  */
 class OnsSubscriptionList extends Request
 {
-
 }/**
  * @method $this setOnsRegionId($onsRegionId)
  * @method string getOnsRegionId()
@@ -482,7 +456,6 @@ class OnsSubscriptionList extends Request
  */
 class OnsEmpowerList extends Request
 {
-
 }/**
  * @method $this setOnsRegionId($onsRegionId)
  * @method string getOnsRegionId()
@@ -501,7 +474,6 @@ class OnsEmpowerList extends Request
  */
 class OnsConsumerResetOffset extends Request
 {
-
 }/**
  * @method $this setOnsRegionId($onsRegionId)
  * @method string getOnsRegionId()
@@ -512,7 +484,6 @@ class OnsConsumerResetOffset extends Request
  */
 class OnsRegionList extends Request
 {
-
 }/**
  * @method $this setOnsRegionId($onsRegionId)
  * @method string getOnsRegionId()
@@ -529,7 +500,6 @@ class OnsRegionList extends Request
  */
 class OnsPublishCreate extends Request
 {
-
 }/**
  * @method $this setOnsRegionId($onsRegionId)
  * @method string getOnsRegionId()
@@ -542,7 +512,6 @@ class OnsPublishCreate extends Request
  */
 class OnsPublishSearch extends Request
 {
-
 }/**
  * @method $this setOnsRegionId($onsRegionId)
  * @method string getOnsRegionId()
@@ -557,7 +526,6 @@ class OnsPublishSearch extends Request
  */
 class OnsSubscriptionCreate extends Request
 {
-
 }/**
  * @method $this setOnsRegionId($onsRegionId)
  * @method string getOnsRegionId()
@@ -570,5 +538,4 @@ class OnsSubscriptionCreate extends Request
  */
 class OnsSubscriptionSearch extends Request
 {
-
 }

@@ -31,7 +31,6 @@ class V20170825
  */
 class ListEventTrigger extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -42,7 +41,6 @@ class ListEventTrigger extends Request
  */
 class DeleteEventTrigger extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -57,7 +55,6 @@ class DeleteEventTrigger extends Request
  */
 class UpdateEventTriggerDesc extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -68,7 +65,6 @@ class UpdateEventTriggerDesc extends Request
  */
 class GetEventTrigger extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -81,7 +77,6 @@ class GetEventTrigger extends Request
  */
 class ChangeEventTriggerStatus extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -110,5 +105,4 @@ class ChangeEventTriggerStatus extends Request
  */
 class SetEventTrigger extends Request
 {
-
 }

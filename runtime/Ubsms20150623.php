@@ -34,7 +34,6 @@ class V20150623
  */
 class NotifyUserBusinessCommand extends Request
 {
-
 }/**
  * @method $this setUid($uid)
  * @method string getUid()
@@ -47,7 +46,6 @@ class NotifyUserBusinessCommand extends Request
  */
 class SetUserBusinessStatus extends Request
 {
-
 }/**
  * @method $this setcallerBid($callerBid)
  * @method string getcallerBid()
@@ -56,5 +54,4 @@ class SetUserBusinessStatus extends Request
  */
 class DescribeBusinessStatus extends Request
 {
-
 }

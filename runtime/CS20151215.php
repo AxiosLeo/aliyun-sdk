@@ -39,38 +39,32 @@ class V20151215
  */
 class DescribeClusters extends Request
 {
-
 }/**
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
  */
 class DescribeClusterDetail extends Request
 {
-
 }/**
  */
 class CreateCluster extends Request
 {
-
 }/**
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
  */
 class DeleteCluster extends Request
 {
-
 }/**
  */
 class CheckAliyunCSServiceRole extends Request
 {
-
 }/**
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
  */
 class DescribeClusterCerts extends Request
 {
-
 }/**
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
@@ -79,28 +73,24 @@ class DescribeClusterCerts extends Request
  */
 class ResetClusterNode extends Request
 {
-
 }/**
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
  */
 class DescribeClusterLogs extends Request
 {
-
 }/**
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
  */
 class DescribeClusterUserKubeconfig extends Request
 {
-
 }/**
  * @method $this setToken($token)
  * @method string getToken()
  */
 class RevokeClusterToken extends Request
 {
-
 }/**
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
@@ -113,14 +103,12 @@ class RevokeClusterToken extends Request
  */
 class DeleteClusterNode extends Request
 {
-
 }/**
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
  */
 class DescribeClusterEndpoints extends Request
 {
-
 }/**
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
@@ -131,26 +119,22 @@ class DescribeClusterEndpoints extends Request
  */
 class DescribeClusterNodes extends Request
 {
-
 }/**
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
  */
 class DeleteClusterNodes extends Request
 {
-
 }/**
  */
 class DescribeApiVersion extends Request
 {
-
 }/**
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
  */
 class ScaleCluster extends Request
 {
-
 }/**
  * @method $this setToken($token)
  * @method string getToken()
@@ -159,12 +143,10 @@ class ScaleCluster extends Request
  */
 class DownloadClusterNodeCerts extends Request
 {
-
 }/**
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
  */
 class AttachInstances extends Request
 {
-
 }

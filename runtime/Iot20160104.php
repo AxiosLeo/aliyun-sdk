@@ -35,7 +35,6 @@ class V20160104
  */
 class DeviceGrant extends Request
 {
-
 }/**
  * @method $this setAppKey($appKey)
  * @method int getAppKey()
@@ -48,7 +47,6 @@ class DeviceGrant extends Request
  */
 class Sub extends Request
 {
-
 }/**
  * @method $this setAppKey($appKey)
  * @method int getAppKey()
@@ -59,7 +57,6 @@ class Sub extends Request
  */
 class PushByteMessage extends Request
 {
-
 }/**
  * @method $this setAppKey($appKey)
  * @method int getAppKey()
@@ -70,7 +67,6 @@ class PushByteMessage extends Request
  */
 class Pub extends Request
 {
-
 }/**
  * @method $this setAppKey($appKey)
  * @method int getAppKey()
@@ -83,7 +79,6 @@ class Pub extends Request
  */
 class RevertRpc extends Request
 {
-
 }/**
  * @method $this setAppKey($appKey)
  * @method int getAppKey()
@@ -98,7 +93,6 @@ class RevertRpc extends Request
  */
 class DevicePermitModify extends Request
 {
-
 }/**
  * @method $this setAppKey($appKey)
  * @method int getAppKey()
@@ -109,7 +103,6 @@ class DevicePermitModify extends Request
  */
 class UnSub extends Request
 {
-
 }/**
  * @method $this setAppKey($appKey)
  * @method int getAppKey()
@@ -122,7 +115,6 @@ class UnSub extends Request
  */
 class DeviceRevokeByTopic extends Request
 {
-
 }/**
  * @method $this setAppKey($appKey)
  * @method int getAppKey()
@@ -131,7 +123,6 @@ class DeviceRevokeByTopic extends Request
  */
 class ListDevicePermits extends Request
 {
-
 }/**
  * @method $this setAppKey($appKey)
  * @method int getAppKey()
@@ -142,5 +133,4 @@ class ListDevicePermits extends Request
  */
 class DeviceRevokeById extends Request
 {
-
 }

@@ -161,7 +161,6 @@ class V20180129
  */
 class ScrollDomainList extends Request
 {
-
 }/**
  * @method $this setDomainName($domainName)
  * @method string getDomainName()
@@ -172,7 +171,6 @@ class ScrollDomainList extends Request
  */
 class SaveSingleTaskForQueryingTransferAuthorizationCode extends Request
 {
-
 }/**
  * @method $this setUserClientIp($userClientIp)
  * @method string getUserClientIp()
@@ -197,7 +195,6 @@ class SaveSingleTaskForQueryingTransferAuthorizationCode extends Request
  */
 class SaveSingleTaskForCreatingOrderTransfer extends Request
 {
-
 }/**
  * @method $this setDomainName($domainName)
  * @method string getDomainName()
@@ -216,7 +213,6 @@ class SaveSingleTaskForCreatingOrderTransfer extends Request
  */
 class SaveSingleTaskForAddingDSRecord extends Request
 {
-
 }/**
  * @method $this setUserClientIp($userClientIp)
  * @method string getUserClientIp()
@@ -233,7 +229,6 @@ class SaveSingleTaskForAddingDSRecord extends Request
  */
 class SaveTaskForSubmittingDomainRealNameVerificationByIdentityCredential extends Request
 {
-
 }/**
  * @method $this setUserClientIp($userClientIp)
  * @method string getUserClientIp()
@@ -248,7 +243,6 @@ class SaveTaskForSubmittingDomainRealNameVerificationByIdentityCredential extend
  */
 class SaveTaskForUpdatingRegistrantInfoByRegistrantProfileID extends Request
 {
-
 }/**
  * @method $this setUserClientIp($userClientIp)
  * @method string getUserClientIp()
@@ -261,7 +255,6 @@ class SaveTaskForUpdatingRegistrantInfoByRegistrantProfileID extends Request
  */
 class QueryDomainRealNameVerificationInfo extends Request
 {
-
 }/**
  * @method $this setLang($lang)
  * @method string getLang()
@@ -272,7 +265,6 @@ class QueryDomainRealNameVerificationInfo extends Request
  */
 class SaveTaskForSubmittingDomainDelete extends Request
 {
-
 }/**
  * @method $this setUserClientIp($userClientIp)
  * @method string getUserClientIp()
@@ -283,7 +275,6 @@ class SaveTaskForSubmittingDomainDelete extends Request
  */
 class SaveSingleTaskForDisassociatingEns extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -296,7 +287,6 @@ class SaveSingleTaskForDisassociatingEns extends Request
  */
 class QueryQualificationDetail extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -307,7 +297,6 @@ class QueryQualificationDetail extends Request
  */
 class SaveSingleTaskForSynchronizingDnsHost extends Request
 {
-
 }/**
  * @method $this setDomainName($domainName)
  * @method string getDomainName()
@@ -318,7 +307,6 @@ class SaveSingleTaskForSynchronizingDnsHost extends Request
  */
 class TransferInResendMailToken extends Request
 {
-
 }/**
  * @method $this setUserClientIp($userClientIp)
  * @method string getUserClientIp()
@@ -337,7 +325,6 @@ class TransferInResendMailToken extends Request
  */
 class SaveSingleTaskForUpdatingContactInfo extends Request
 {
-
 }/**
  * @method $this setLang($lang)
  * @method string getLang()
@@ -358,7 +345,6 @@ class SaveSingleTaskForUpdatingContactInfo extends Request
  */
 class ListEmailVerification extends Request
 {
-
 }/**
  * @method $this setDefaultRegistrantProfile($defaultRegistrantProfile)
  * @method bool getDefaultRegistrantProfile()
@@ -407,7 +393,6 @@ class ListEmailVerification extends Request
  */
 class SaveRegistrantProfile extends Request
 {
-
 }/**
  * @method $this setDomainName($domainName)
  * @method string getDomainName()
@@ -418,7 +403,6 @@ class SaveRegistrantProfile extends Request
  */
 class TransferInRefetchWhoisEmail extends Request
 {
-
 }/**
  * @method $this setUserClientIp($userClientIp)
  * @method string getUserClientIp()
@@ -431,7 +415,6 @@ class TransferInRefetchWhoisEmail extends Request
  */
 class SaveBatchTaskForTransferProhibitionLock extends Request
 {
-
 }/**
  * @method $this setUserClientIp($userClientIp)
  * @method string getUserClientIp()
@@ -444,7 +427,6 @@ class SaveBatchTaskForTransferProhibitionLock extends Request
  */
 class QueryFailReasonForDomainRealNameVerification extends Request
 {
-
 }/**
  * @method $this setLang($lang)
  * @method string getLang()
@@ -457,7 +439,6 @@ class QueryFailReasonForDomainRealNameVerification extends Request
  */
 class CheckTransferInFeasibility extends Request
 {
-
 }/**
  * @method $this setUserClientIp($userClientIp)
  * @method string getUserClientIp()
@@ -468,7 +449,6 @@ class CheckTransferInFeasibility extends Request
  */
 class DeleteDomainGroup extends Request
 {
-
 }/**
  * @method $this setLang($lang)
  * @method string getLang()
@@ -479,7 +459,6 @@ class DeleteDomainGroup extends Request
  */
 class EmailVerified extends Request
 {
-
 }/**
  * @method $this setDomainName($domainName)
  * @method string getDomainName()
@@ -490,7 +469,6 @@ class EmailVerified extends Request
  */
 class SaveSingleTaskForApprovingTransferOut extends Request
 {
-
 }/**
  * @method $this setDomainName($domainName)
  * @method string getDomainName()
@@ -501,7 +479,6 @@ class SaveSingleTaskForApprovingTransferOut extends Request
  */
 class QueryTransferOutInfo extends Request
 {
-
 }/**
  * @method $this setUserClientIp($userClientIp)
  * @method string getUserClientIp()
@@ -520,7 +497,6 @@ class QueryTransferOutInfo extends Request
  */
 class UpdateDomainToDomainGroup extends Request
 {
-
 }/**
  * @method $this setUserClientIp($userClientIp)
  * @method string getUserClientIp()
@@ -537,7 +513,6 @@ class UpdateDomainToDomainGroup extends Request
  */
 class QueryTaskList extends Request
 {
-
 }/**
  * @method $this setLang($lang)
  * @method string getLang()
@@ -546,7 +521,6 @@ class QueryTaskList extends Request
  */
 class QueryDomainAdminDivision extends Request
 {
-
 }/**
  * @method $this setLang($lang)
  * @method string getLang()
@@ -557,7 +531,6 @@ class QueryDomainAdminDivision extends Request
  */
 class DeleteEmailVerification extends Request
 {
-
 }/**
  * @method $this setUserClientIp($userClientIp)
  * @method string getUserClientIp()
@@ -568,7 +541,6 @@ class DeleteEmailVerification extends Request
  */
 class DeleteRegistrantProfile extends Request
 {
-
 }/**
  * @method $this setKeyword($keyword)
  * @method string getKeyword()
@@ -579,7 +551,6 @@ class DeleteRegistrantProfile extends Request
  */
 class FuzzyMatchDomainSensitiveWord extends Request
 {
-
 }/**
  * @method $this setEndExpirationDate($endExpirationDate)
  * @method int getEndExpirationDate()
@@ -612,7 +583,6 @@ class FuzzyMatchDomainSensitiveWord extends Request
  */
 class QueryDomainList extends Request
 {
-
 }/**
  * @method $this setUserClientIp($userClientIp)
  * @method string getUserClientIp()
@@ -631,7 +601,6 @@ class QueryDomainList extends Request
  */
 class SaveBatchTaskForCreatingOrderTransfer extends Request
 {
-
 }/**
  * @method $this setUserClientIp($userClientIp)
  * @method string getUserClientIp()
@@ -652,7 +621,6 @@ class SaveBatchTaskForCreatingOrderTransfer extends Request
  */
 class PollTaskResult extends Request
 {
-
 }/**
  * @method $this setPostalCode($postalCode)
  * @method string getPostalCode()
@@ -705,7 +673,6 @@ class PollTaskResult extends Request
  */
 class SaveTaskForUpdatingRegistrantInfoByIdentityCredential extends Request
 {
-
 }/**
  * @method $this setLang($lang)
  * @method string getLang()
@@ -716,7 +683,6 @@ class SaveTaskForUpdatingRegistrantInfoByIdentityCredential extends Request
  */
 class ResendEmailVerification extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -731,7 +697,6 @@ class ResendEmailVerification extends Request
  */
 class SaveSingleTaskForCreatingDnsHost extends Request
 {
-
 }/**
  * @method $this setTaskStatus($taskStatus)
  * @method int getTaskStatus()
@@ -752,7 +717,6 @@ class SaveSingleTaskForCreatingDnsHost extends Request
  */
 class QueryTaskDetailList extends Request
 {
-
 }/**
  * @method $this setEndExpirationDate($endExpirationDate)
  * @method int getEndExpirationDate()
@@ -809,7 +773,6 @@ class QueryTaskDetailList extends Request
  */
 class QueryAdvancedDomainList extends Request
 {
-
 }/**
  * @method $this setLang($lang)
  * @method string getLang()
@@ -838,7 +801,6 @@ class QueryAdvancedDomainList extends Request
  */
 class QueryRegistrantProfiles extends Request
 {
-
 }/**
  * @method $this setDomainName($domainName)
  * @method string getDomainName()
@@ -849,7 +811,6 @@ class QueryRegistrantProfiles extends Request
  */
 class SaveSingleTaskForSynchronizingDSRecord extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -860,7 +821,6 @@ class SaveSingleTaskForSynchronizingDSRecord extends Request
  */
 class ResetQualificationVerification extends Request
 {
-
 }/**
  * @method $this setUserClientIp($userClientIp)
  * @method string getUserClientIp()
@@ -877,7 +837,6 @@ class ResetQualificationVerification extends Request
  */
 class SaveBatchTaskForUpdatingContactInfoByRegistrantProfileId extends Request
 {
-
 }/**
  * @method $this setLang($lang)
  * @method string getLang()
@@ -886,7 +845,6 @@ class SaveBatchTaskForUpdatingContactInfoByRegistrantProfileId extends Request
  */
 class GetQualificationUploadPolicy extends Request
 {
-
 }/**
  * @method $this setLang($lang)
  * @method string getLang()
@@ -899,7 +857,6 @@ class GetQualificationUploadPolicy extends Request
  */
 class SubmitEmailVerification extends Request
 {
-
 }/**
  * @method $this setUserClientIp($userClientIp)
  * @method string getUserClientIp()
@@ -910,7 +867,6 @@ class SubmitEmailVerification extends Request
  */
 class QueryLocalEnsAssociation extends Request
 {
-
 }/**
  * @method $this setLang($lang)
  * @method string getLang()
@@ -923,7 +879,6 @@ class QueryLocalEnsAssociation extends Request
  */
 class SaveBatchDomainRemark extends Request
 {
-
 }/**
  * @method $this setUserClientIp($userClientIp)
  * @method string getUserClientIp()
@@ -936,7 +891,6 @@ class SaveBatchDomainRemark extends Request
  */
 class SaveBatchTaskForUpdateProhibitionLock extends Request
 {
-
 }/**
  * @method $this setUserClientIp($userClientIp)
  * @method string getUserClientIp()
@@ -949,7 +903,6 @@ class SaveBatchTaskForUpdateProhibitionLock extends Request
  */
 class CancelDomainVerification extends Request
 {
-
 }/**
  * @method $this setUserClientIp($userClientIp)
  * @method string getUserClientIp()
@@ -964,7 +917,6 @@ class CancelDomainVerification extends Request
  */
 class SaveTaskForSubmittingDomainRealNameVerificationByRegistrantProfileID extends Request
 {
-
 }/**
  * @method $this setUserClientIp($userClientIp)
  * @method string getUserClientIp()
@@ -975,7 +927,6 @@ class SaveTaskForSubmittingDomainRealNameVerificationByRegistrantProfileID exten
  */
 class AcknowledgeTaskResult extends Request
 {
-
 }/**
  * @method $this setDomainName($domainName)
  * @method string getDomainName()
@@ -988,7 +939,6 @@ class AcknowledgeTaskResult extends Request
  */
 class TransferInReenterTransferAuthorizationCode extends Request
 {
-
 }/**
  * @method $this setDomainName($domainName)
  * @method string getDomainName()
@@ -1015,7 +965,6 @@ class TransferInReenterTransferAuthorizationCode extends Request
  */
 class ListServerLock extends Request
 {
-
 }/**
  * @method $this setLang($lang)
  * @method string getLang()
@@ -1028,7 +977,6 @@ class ListServerLock extends Request
  */
 class CancelQualificationVerification extends Request
 {
-
 }/**
  * @method $this setUserClientIp($userClientIp)
  * @method string getUserClientIp()
@@ -1043,7 +991,6 @@ class CancelQualificationVerification extends Request
  */
 class SaveBatchTaskForModifyingDomainDns extends Request
 {
-
 }/**
  * @method $this setUserClientIp($userClientIp)
  * @method string getUserClientIp()
@@ -1062,7 +1009,6 @@ class SaveBatchTaskForModifyingDomainDns extends Request
  */
 class QueryTaskInfoHistory extends Request
 {
-
 }/**
  * @method $this setOrderActivateParam($orderActivateParam)
  * @method array getOrderActivateParam()
@@ -1081,7 +1027,6 @@ class QueryTaskInfoHistory extends Request
  */
 class SaveBatchTaskForCreatingOrderActivate extends Request
 {
-
 }/**
  * @method $this setLang($lang)
  * @method string getLang()
@@ -1102,7 +1047,6 @@ class SaveBatchTaskForCreatingOrderActivate extends Request
  */
 class QueryTaskDetailHistory extends Request
 {
-
 }/**
  * @method $this setDomainName($domainName)
  * @method string getDomainName()
@@ -1117,7 +1061,6 @@ class QueryTaskDetailHistory extends Request
  */
 class CheckDomain extends Request
 {
-
 }/**
  * @method $this setLang($lang)
  * @method string getLang()
@@ -1128,7 +1071,6 @@ class CheckDomain extends Request
  */
 class QueryEmailVerification extends Request
 {
-
 }/**
  * @method $this setUserClientIp($userClientIp)
  * @method string getUserClientIp()
@@ -1141,7 +1083,6 @@ class QueryEmailVerification extends Request
  */
 class QueryRegistrantProfileRealNameVerificationInfo extends Request
 {
-
 }/**
  * @method $this setLang($lang)
  * @method string getLang()
@@ -1150,7 +1091,6 @@ class QueryRegistrantProfileRealNameVerificationInfo extends Request
  */
 class QueryDomainSuffix extends Request
 {
-
 }/**
  * @method $this setLang($lang)
  * @method string getLang()
@@ -1163,7 +1103,6 @@ class QueryDomainSuffix extends Request
  */
 class QueryDomainGroupList extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -1174,7 +1113,6 @@ class QueryDomainGroupList extends Request
  */
 class QueryDnsHost extends Request
 {
-
 }/**
  * @method $this setUserClientIp($userClientIp)
  * @method string getUserClientIp()
@@ -1197,7 +1135,6 @@ class QueryDnsHost extends Request
  */
 class SaveSingleTaskForCreatingOrderRenew extends Request
 {
-
 }/**
  * @method $this setUserClientIp($userClientIp)
  * @method string getUserClientIp()
@@ -1208,7 +1145,6 @@ class SaveSingleTaskForCreatingOrderRenew extends Request
  */
 class QueryDomainByInstanceId extends Request
 {
-
 }/**
  * @method $this setDomainName($domainName)
  * @method string getDomainName()
@@ -1221,7 +1157,6 @@ class QueryDomainByInstanceId extends Request
  */
 class CheckMaxYearOfServerLock extends Request
 {
-
 }/**
  * @method $this setClaimKey($claimKey)
  * @method string getClaimKey()
@@ -1232,7 +1167,6 @@ class CheckMaxYearOfServerLock extends Request
  */
 class LookupTmchNotice extends Request
 {
-
 }/**
  * @method $this setDomainName($domainName)
  * @method string getDomainName()
@@ -1243,7 +1177,6 @@ class LookupTmchNotice extends Request
  */
 class CheckDomainSunriseClaim extends Request
 {
-
 }/**
  * @method $this setQualificationType($qualificationType)
  * @method string getQualificationType()
@@ -1258,7 +1191,6 @@ class CheckDomainSunriseClaim extends Request
  */
 class QueryFailingReasonListForQualification extends Request
 {
-
 }/**
  * @method $this setLang($lang)
  * @method string getLang()
@@ -1269,7 +1201,6 @@ class QueryFailingReasonListForQualification extends Request
  */
 class QueryServerLock extends Request
 {
-
 }/**
  * @method $this setDomainName($domainName)
  * @method string getDomainName()
@@ -1280,7 +1211,6 @@ class QueryServerLock extends Request
  */
 class SaveSingleTaskForCancelingTransferIn extends Request
 {
-
 }/**
  * @method $this setUserClientIp($userClientIp)
  * @method string getUserClientIp()
@@ -1293,7 +1223,6 @@ class SaveSingleTaskForCancelingTransferIn extends Request
  */
 class SaveSingleTaskForDomainNameProxyService extends Request
 {
-
 }/**
  * @method $this setUserClientIp($userClientIp)
  * @method string getUserClientIp()
@@ -1312,7 +1241,6 @@ class SaveSingleTaskForDomainNameProxyService extends Request
  */
 class SaveBatchTaskForCreatingOrderRenew extends Request
 {
-
 }/**
  * @method $this setUserClientIp($userClientIp)
  * @method string getUserClientIp()
@@ -1325,7 +1253,6 @@ class SaveBatchTaskForCreatingOrderRenew extends Request
  */
 class SaveSingleTaskForTransferProhibitionLock extends Request
 {
-
 }/**
  * @method $this setUserClientIp($userClientIp)
  * @method string getUserClientIp()
@@ -1344,7 +1271,6 @@ class SaveSingleTaskForTransferProhibitionLock extends Request
  */
 class SaveBatchTaskForCreatingOrderRedeem extends Request
 {
-
 }/**
  * @method $this setDomainName($domainName)
  * @method string getDomainName()
@@ -1355,7 +1281,6 @@ class SaveBatchTaskForCreatingOrderRedeem extends Request
  */
 class QueryEnsAssociation extends Request
 {
-
 }/**
  * @method $this setProvince($province)
  * @method string getProvince()
@@ -1400,7 +1325,6 @@ class QueryEnsAssociation extends Request
  */
 class VerifyContactField extends Request
 {
-
 }/**
  * @method $this setUserClientIp($userClientIp)
  * @method string getUserClientIp()
@@ -1413,7 +1337,6 @@ class VerifyContactField extends Request
  */
 class SaveBatchTaskForDomainNameProxyService extends Request
 {
-
 }/**
  * @method $this setZhRegistrantName($zhRegistrantName)
  * @method string getZhRegistrantName()
@@ -1482,7 +1405,6 @@ class SaveBatchTaskForDomainNameProxyService extends Request
  */
 class SaveSingleTaskForCreatingOrderActivate extends Request
 {
-
 }/**
  * @method $this setDomainName($domainName)
  * @method string getDomainName()
@@ -1493,7 +1415,6 @@ class SaveSingleTaskForCreatingOrderActivate extends Request
  */
 class QueryDSRecord extends Request
 {
-
 }/**
  * @method $this setUserClientIp($userClientIp)
  * @method string getUserClientIp()
@@ -1506,7 +1427,6 @@ class QueryDSRecord extends Request
  */
 class ConfirmTransferInEmail extends Request
 {
-
 }/**
  * @method $this setUserClientIp($userClientIp)
  * @method string getUserClientIp()
@@ -1525,7 +1445,6 @@ class ConfirmTransferInEmail extends Request
  */
 class QueryChangeLogList extends Request
 {
-
 }/**
  * @method $this setUserClientIp($userClientIp)
  * @method string getUserClientIp()
@@ -1546,7 +1465,6 @@ class QueryChangeLogList extends Request
  */
 class SaveSingleTaskForCreatingOrderRedeem extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -1557,7 +1475,6 @@ class SaveSingleTaskForCreatingOrderRedeem extends Request
  */
 class QueryTransferInByInstanceId extends Request
 {
-
 }/**
  * @method $this setUserClientIp($userClientIp)
  * @method string getUserClientIp()
@@ -1570,7 +1487,6 @@ class QueryTransferInByInstanceId extends Request
  */
 class SaveSingleTaskForUpdateProhibitionLock extends Request
 {
-
 }/**
  * @method $this setUserClientIp($userClientIp)
  * @method string getUserClientIp()
@@ -1587,7 +1503,6 @@ class SaveSingleTaskForUpdateProhibitionLock extends Request
  */
 class RegistrantProfileRealNameVerification extends Request
 {
-
 }/**
  * @method $this setKeyword($keyword)
  * @method string getKeyword()
@@ -1598,7 +1513,6 @@ class RegistrantProfileRealNameVerification extends Request
  */
 class BatchFuzzyMatchDomainSensitiveWord extends Request
 {
-
 }/**
  * @method $this setAddress($address)
  * @method string getAddress()
@@ -1647,7 +1561,6 @@ class BatchFuzzyMatchDomainSensitiveWord extends Request
  */
 class SaveBatchTaskForUpdatingContactInfoByNewContact extends Request
 {
-
 }/**
  * @method $this setFeePeriod($feePeriod)
  * @method int getFeePeriod()
@@ -1660,7 +1573,6 @@ class SaveBatchTaskForUpdatingContactInfoByNewContact extends Request
  */
 class CheckProcessingServerLockApply extends Request
 {
-
 }/**
  * @method $this setLang($lang)
  * @method string getLang()
@@ -1681,7 +1593,6 @@ class CheckProcessingServerLockApply extends Request
  */
 class QueryTransferInList extends Request
 {
-
 }/**
  * @method $this setDomainName($domainName)
  * @method string getDomainName()
@@ -1700,7 +1611,6 @@ class QueryTransferInList extends Request
  */
 class SaveSingleTaskForModifyingDSRecord extends Request
 {
-
 }/**
  * @method $this setUserClientIp($userClientIp)
  * @method string getUserClientIp()
@@ -1711,7 +1621,6 @@ class SaveSingleTaskForModifyingDSRecord extends Request
  */
 class QueryFailReasonForRegistrantProfileRealNameVerification extends Request
 {
-
 }/**
  * @method $this setToken($token)
  * @method string getToken()
@@ -1722,7 +1631,6 @@ class QueryFailReasonForRegistrantProfileRealNameVerification extends Request
  */
 class TransferInCheckMailToken extends Request
 {
-
 }/**
  * @method $this setUserClientIp($userClientIp)
  * @method string getUserClientIp()
@@ -1735,7 +1643,6 @@ class TransferInCheckMailToken extends Request
  */
 class QueryContactInfo extends Request
 {
-
 }/**
  * @method $this setDomainName($domainName)
  * @method string getDomainName()
@@ -1746,7 +1653,6 @@ class QueryContactInfo extends Request
  */
 class SaveSingleTaskForCancelingTransferOut extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -1761,7 +1667,6 @@ class SaveSingleTaskForCancelingTransferOut extends Request
  */
 class SaveSingleTaskForModifyingDnsHost extends Request
 {
-
 }/**
  * @method $this setLang($lang)
  * @method string getLang()
@@ -1774,7 +1679,6 @@ class SaveSingleTaskForModifyingDnsHost extends Request
  */
 class SaveDomainGroup extends Request
 {
-
 }/**
  * @method $this setLang($lang)
  * @method string getLang()
@@ -1785,7 +1689,6 @@ class SaveDomainGroup extends Request
  */
 class VerifyEmail extends Request
 {
-
 }/**
  * @method $this setDomainName($domainName)
  * @method string getDomainName()
@@ -1798,7 +1701,6 @@ class VerifyEmail extends Request
  */
 class SaveSingleTaskForDeletingDSRecord extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -1811,7 +1713,6 @@ class SaveSingleTaskForDeletingDSRecord extends Request
  */
 class SaveSingleTaskForDeletingDnsHost extends Request
 {
-
 }/**
  * @method $this setUserClientIp($userClientIp)
  * @method string getUserClientIp()
@@ -1824,5 +1725,4 @@ class SaveSingleTaskForDeletingDnsHost extends Request
  */
 class SaveSingleTaskForAssociatingEns extends Request
 {
-
 }

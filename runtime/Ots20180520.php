@@ -43,7 +43,6 @@ class V20180520
  */
 class UnbindInstance2Vpc extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -56,7 +55,6 @@ class UnbindInstance2Vpc extends Request
  */
 class UpdateInstance extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -93,7 +91,6 @@ class UpdateInstance extends Request
  */
 class DoCheckResource extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -112,7 +109,6 @@ class DoCheckResource extends Request
  */
 class InsertInstance extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -143,7 +139,6 @@ class InsertInstance extends Request
  */
 class DoPhysicalDeleteResource extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -152,7 +147,6 @@ class DoPhysicalDeleteResource extends Request
  */
 class ListClusterType extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -163,7 +157,6 @@ class ListClusterType extends Request
  */
 class DeleteInstance extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -178,7 +171,6 @@ class DeleteInstance extends Request
  */
 class ListInstance extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -209,7 +201,6 @@ class ListInstance extends Request
  */
 class DoLogicalDeleteResource extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -222,7 +213,6 @@ class DoLogicalDeleteResource extends Request
  */
 class InsertTags extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -239,7 +229,6 @@ class InsertTags extends Request
  */
 class ListVpcInfoByVpc extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -260,7 +249,6 @@ class ListVpcInfoByVpc extends Request
  */
 class BindInstance2Vpc extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -271,7 +259,6 @@ class BindInstance2Vpc extends Request
  */
 class GetInstance extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -286,7 +273,6 @@ class GetInstance extends Request
  */
 class ListVpcInfoByInstance extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -299,7 +285,6 @@ class ListVpcInfoByInstance extends Request
  */
 class DeleteTags extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -316,5 +301,4 @@ class DeleteTags extends Request
  */
 class ListTags extends Request
 {
-
 }

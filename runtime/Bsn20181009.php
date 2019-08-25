@@ -23,7 +23,6 @@ class V20181009
  */
 class VhostListBsnInfo extends Request
 {
-
 }/**
  * @method $this setAliuid($aliuid)
  * @method int getAliuid()
@@ -32,5 +31,4 @@ class VhostListBsnInfo extends Request
  */
 class VhostBindBsn extends Request
 {
-
 }

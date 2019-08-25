@@ -34,7 +34,6 @@ class V20130712
  */
 class createOssInstance extends Request
 {
-
 }/**
  * @method $this setuid($uid)
  * @method string getuid()
@@ -65,7 +64,6 @@ class createOssInstance extends Request
  */
 class PutBucketPolicy extends Request
 {
-
 }/**
  * @method $this setuid($uid)
  * @method string getuid()
@@ -78,7 +76,6 @@ class PutBucketPolicy extends Request
  */
 class GetBucketPolicy extends Request
 {
-
 }/**
  * @method $this setuid($uid)
  * @method string getuid()
@@ -93,7 +90,6 @@ class GetBucketPolicy extends Request
  */
 class PutBucketStatus extends Request
 {
-
 }/**
  * @method $this setuid($uid)
  * @method string getuid()
@@ -106,5 +102,4 @@ class PutBucketStatus extends Request
  */
 class PutBucketLimit extends Request
 {
-
 }

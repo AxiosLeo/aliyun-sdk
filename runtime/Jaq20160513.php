@@ -22,19 +22,16 @@ class V20160513
  */
 class PayBill extends Request
 {
-
 }/**
  * @method $this setdata($data)
  * @method string getdata()
  */
 class CheckBill extends Request
 {
-
 }/**
  * @method $this setdata($data)
  * @method string getdata()
  */
 class RefundBill extends Request
 {
-
 }

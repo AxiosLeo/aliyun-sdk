@@ -50,7 +50,6 @@ class V20150416
  */
 class DdosFlowGraph extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -63,7 +62,6 @@ class DdosFlowGraph extends Request
  */
 class DeleteCNameWaf extends Request
 {
-
 }/**
  * @method $this setJstOwnerId($jstOwnerId)
  * @method int getJstOwnerId()
@@ -78,7 +76,6 @@ class DeleteCNameWaf extends Request
  */
 class WebshellLog extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -87,7 +84,6 @@ class WebshellLog extends Request
  */
 class SetDdosAuto extends Request
 {
-
 }/**
  * @method $this setJstOwnerId($jstOwnerId)
  * @method int getJstOwnerId()
@@ -102,7 +98,6 @@ class SetDdosAuto extends Request
  */
 class WafLog extends Request
 {
-
 }/**
  * @method $this setJstOwnerId($jstOwnerId)
  * @method int getJstOwnerId()
@@ -123,21 +118,18 @@ class WafLog extends Request
  */
 class ListInstanceInfos extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
  */
 class CloseVulScan extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
  */
 class ClosePortScan extends Request
 {
-
 }/**
  * @method $this setJstOwnerId($jstOwnerId)
  * @method int getJstOwnerId()
@@ -152,7 +144,6 @@ class ClosePortScan extends Request
  */
 class LogineventLog extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -161,7 +152,6 @@ class LogineventLog extends Request
  */
 class DetectVulById extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -176,7 +166,6 @@ class DetectVulById extends Request
  */
 class ConfigDdos extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -185,7 +174,6 @@ class ConfigDdos extends Request
  */
 class DetectVulByIp extends Request
 {
-
 }/**
  * @method $this setJstOwnerId($jstOwnerId)
  * @method int getJstOwnerId()
@@ -196,7 +184,6 @@ class DetectVulByIp extends Request
  */
 class DeleteBackDoorFile extends Request
 {
-
 }/**
  * @method $this setJstOwnerId($jstOwnerId)
  * @method int getJstOwnerId()
@@ -211,7 +198,6 @@ class DeleteBackDoorFile extends Request
  */
 class VulScanLog extends Request
 {
-
 }/**
  * @method $this setJstOwnerId($jstOwnerId)
  * @method int getJstOwnerId()
@@ -220,7 +206,6 @@ class VulScanLog extends Request
  */
 class SecureCheck extends Request
 {
-
 }/**
  * @method $this setJstOwnerId($jstOwnerId)
  * @method int getJstOwnerId()
@@ -235,7 +220,6 @@ class SecureCheck extends Request
  */
 class DdosLog extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -246,19 +230,16 @@ class DdosLog extends Request
  */
 class AddCNameWaf extends Request
 {
-
 }/**
  */
 class GetDdosConfigOptions extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
  */
 class OpenVulScan extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -269,7 +250,6 @@ class OpenVulScan extends Request
  */
 class ConfirmLogin extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -278,7 +258,6 @@ class ConfirmLogin extends Request
  */
 class CloseCCProtect extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -287,14 +266,12 @@ class CloseCCProtect extends Request
  */
 class WafInfo extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
  */
 class OpenPortScan extends Request
 {
-
 }/**
  * @method $this setJstOwnerId($jstOwnerId)
  * @method int getJstOwnerId()
@@ -303,7 +280,6 @@ class OpenPortScan extends Request
  */
 class Summary extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -312,14 +288,12 @@ class Summary extends Request
  */
 class QueryDdosConfig extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
  */
 class ServiceStatus extends Request
 {
-
 }/**
  * @method $this setJstOwnerId($jstOwnerId)
  * @method int getJstOwnerId()
@@ -334,7 +308,6 @@ class ServiceStatus extends Request
  */
 class BruteforceLog extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -343,7 +316,6 @@ class BruteforceLog extends Request
  */
 class OpenCCProtect extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -356,5 +328,4 @@ class OpenCCProtect extends Request
  */
 class SetDdosQps extends Request
 {
-
 }

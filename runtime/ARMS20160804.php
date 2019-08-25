@@ -32,5 +32,4 @@ class V20160804
  */
 class ArmsQueryDataSet extends Request
 {
-
 }

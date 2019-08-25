@@ -78,7 +78,6 @@ class V20181221
  */
 class AcceptInvitation extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -89,7 +88,6 @@ class AcceptInvitation extends Request
  */
 class QueryConsortiumDeletable extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -118,7 +116,6 @@ class QueryConsortiumDeletable extends Request
  */
 class CreateConsortium extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -131,7 +128,6 @@ class CreateConsortium extends Request
  */
 class CreateOrganizationUser extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -142,7 +138,6 @@ class CreateOrganizationUser extends Request
  */
 class DescribeOrganizationUsers extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -153,7 +148,6 @@ class DescribeOrganizationUsers extends Request
  */
 class DescribeOrgnaizationChaincodes extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -164,7 +158,6 @@ class DescribeOrgnaizationChaincodes extends Request
  */
 class CheckOrganizationDomain extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -175,7 +168,6 @@ class CheckOrganizationDomain extends Request
  */
 class SynchronizeChaincode extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -184,14 +176,12 @@ class SynchronizeChaincode extends Request
  */
 class DeleteChaincode extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
  */
 class DescribeRootDomain extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -202,7 +192,6 @@ class DescribeRootDomain extends Request
  */
 class DescribeConsortiumChannels extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -215,7 +204,6 @@ class DescribeConsortiumChannels extends Request
  */
 class DescribeOrdererLogs extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -230,7 +218,6 @@ class DescribeOrdererLogs extends Request
  */
 class UpgradeChaincode extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -241,7 +228,6 @@ class UpgradeChaincode extends Request
  */
 class DescribeOrganizationDeletable extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -252,7 +238,6 @@ class DescribeOrganizationDeletable extends Request
  */
 class ConfirmConsortiumMember extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -263,7 +248,6 @@ class ConfirmConsortiumMember extends Request
  */
 class DescribeConsortiumChaincodes extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -274,7 +258,6 @@ class DescribeConsortiumChaincodes extends Request
  */
 class DescribeConsortiumMembers extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -283,7 +266,6 @@ class DescribeConsortiumMembers extends Request
  */
 class DescribeConsortiumAdminStatus extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -294,7 +276,6 @@ class DescribeConsortiumAdminStatus extends Request
  */
 class QueryOrganizationDeletable extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -309,14 +290,12 @@ class QueryOrganizationDeletable extends Request
  */
 class ResetOrganizationUserPassword extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
  */
 class DescribeConsortiumSpecs extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -327,7 +306,6 @@ class DescribeConsortiumSpecs extends Request
  */
 class DescribeConsortiums extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -340,7 +318,6 @@ class DescribeConsortiums extends Request
  */
 class InstallChaincode extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -351,7 +328,6 @@ class InstallChaincode extends Request
  */
 class DescribeOrganizationChannels extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -362,7 +338,6 @@ class DescribeOrganizationChannels extends Request
  */
 class DescribeConsortiumDeletable extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -371,7 +346,6 @@ class DescribeConsortiumDeletable extends Request
  */
 class DescribeCandidateOrganizations extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -384,21 +358,18 @@ class DescribeCandidateOrganizations extends Request
  */
 class CreateConsortiumMember extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
  */
 class DescribeRegions extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
  */
 class DescribeTasks extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -427,14 +398,12 @@ class DescribeTasks extends Request
  */
 class CreateEcosphere extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
  */
 class DescribeOrganizationSpecs extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -443,7 +412,6 @@ class DescribeOrganizationSpecs extends Request
  */
 class DescribeChannelMembers extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -458,14 +426,12 @@ class DescribeChannelMembers extends Request
  */
 class DescribeExplorer extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
  */
 class DescribeConsortiumConfig extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -478,7 +444,6 @@ class DescribeConsortiumConfig extends Request
  */
 class CreateChannel extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -491,7 +456,6 @@ class CreateChannel extends Request
  */
 class DownloadOrganizationSDK extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -500,7 +464,6 @@ class DownloadOrganizationSDK extends Request
  */
 class DescribeOrganizations extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -511,7 +474,6 @@ class DescribeOrganizations extends Request
  */
 class DescribeOrganizationMembers extends Request
 {
-
 }/**
  * @method $this setOrganizationId($organizationId)
  * @method string getOrganizationId()
@@ -532,7 +494,6 @@ class DescribeOrganizationMembers extends Request
  */
 class CreateChaincode extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -541,7 +502,6 @@ class CreateChaincode extends Request
  */
 class CheckConsortiumDomain extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -556,7 +516,6 @@ class CheckConsortiumDomain extends Request
  */
 class InstantiateChaincode extends Request
 {
-
 }/**
  * @method $this setOrganizationId($organizationId)
  * @method string getOrganizationId()
@@ -569,14 +528,12 @@ class InstantiateChaincode extends Request
  */
 class DescribePeerLogs extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
  */
 class DescribeEcosphereSpecs extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -587,7 +544,6 @@ class DescribeEcosphereSpecs extends Request
  */
 class DescribeOrganizationChaincodes extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -598,7 +554,6 @@ class DescribeOrganizationChaincodes extends Request
  */
 class DescribeOrganization extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -609,7 +564,6 @@ class DescribeOrganization extends Request
  */
 class DescribeConsortiumOrderers extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -620,7 +574,6 @@ class DescribeConsortiumOrderers extends Request
  */
 class CreateChannelMember extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -631,7 +584,6 @@ class CreateChannelMember extends Request
  */
 class DescribeOrganizationPeers extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -648,7 +600,6 @@ class DescribeOrganizationPeers extends Request
  */
 class CreateOrganization extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -659,7 +610,6 @@ class CreateOrganization extends Request
  */
 class DescribeConsortiumMemberApproval extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -668,7 +618,6 @@ class DescribeConsortiumMemberApproval extends Request
  */
 class QueryEthereumDeletable extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -677,7 +626,6 @@ class QueryEthereumDeletable extends Request
  */
 class DescribeChaincodeUploadPolicy extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -686,7 +634,6 @@ class DescribeChaincodeUploadPolicy extends Request
  */
 class DescribeInvitationCode extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -695,7 +642,6 @@ class DescribeInvitationCode extends Request
  */
 class DescribeInviter extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -708,5 +654,4 @@ class DescribeInviter extends Request
  */
 class JoinChannel extends Request
 {
-
 }

@@ -36,14 +36,12 @@ class V20150801
  */
 class SetScenarioStatus extends Request
 {
-
 }/**
  * @method $this setStatus($status)
  * @method string getStatus()
  */
 class GetTasks extends Request
 {
-
 }/**
  * @method $this setWskey($wskey)
  * @method string getWskey()
@@ -56,7 +54,6 @@ class GetTasks extends Request
  */
 class ReportVuser extends Request
 {
-
 }/**
  * @method $this setTaskId($taskId)
  * @method int getTaskId()
@@ -67,12 +64,10 @@ class ReportVuser extends Request
  */
 class StopTask extends Request
 {
-
 }/**
  */
 class GetKeySecret extends Request
 {
-
 }/**
  * @method $this setWskey($wskey)
  * @method string getWskey()
@@ -81,7 +76,6 @@ class GetKeySecret extends Request
  */
 class SetTaskStatus extends Request
 {
-
 }/**
  * @method $this setScriptId($scriptId)
  * @method int getScriptId()
@@ -90,7 +84,6 @@ class SetTaskStatus extends Request
  */
 class CreateTransaction extends Request
 {
-
 }/**
  * @method $this setWskey($wskey)
  * @method string getWskey()
@@ -101,14 +94,12 @@ class CreateTransaction extends Request
  */
 class ReportLogSample extends Request
 {
-
 }/**
  * @method $this setTestSample($testSample)
  * @method string getTestSample()
  */
 class ReportTestSample extends Request
 {
-
 }/**
  * @method $this setScriptId($scriptId)
  * @method int getScriptId()
@@ -117,7 +108,6 @@ class ReportTestSample extends Request
  */
 class GetScript extends Request
 {
-
 }/**
  * @method $this setTo($to)
  * @method string getTo()
@@ -128,5 +118,4 @@ class GetScript extends Request
  */
 class SendWangWang extends Request
 {
-
 }

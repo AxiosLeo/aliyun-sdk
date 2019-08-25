@@ -44,17 +44,14 @@ class V20150901
  */
 class DescribeStackDetail extends Request
 {
-
 }/**
  */
 class PreviewStack extends Request
 {
-
 }/**
  */
 class CreateStacks extends Request
 {
-
 }/**
  * @method $this setStackName($stackName)
  * @method string getStackName()
@@ -63,7 +60,6 @@ class CreateStacks extends Request
  */
 class SetStackPolicy extends Request
 {
-
 }/**
  * @method $this setStackName($stackName)
  * @method string getStackName()
@@ -72,7 +68,6 @@ class SetStackPolicy extends Request
  */
 class GetStackPolicy extends Request
 {
-
 }/**
  * @method $this setStackName($stackName)
  * @method string getStackName()
@@ -81,7 +76,6 @@ class GetStackPolicy extends Request
  */
 class AbandonStack extends Request
 {
-
 }/**
  * @method $this setStackName($stackName)
  * @method string getStackName()
@@ -90,19 +84,16 @@ class AbandonStack extends Request
  */
 class DescribeTemplate extends Request
 {
-
 }/**
  */
 class ValidateTemplate extends Request
 {
-
 }/**
  * @method $this setSupportStatus($supportStatus)
  * @method string getSupportStatus()
  */
 class DescribeResourceTypes extends Request
 {
-
 }/**
  * @method $this setstackname($stackname)
  * @method string getstackname()
@@ -117,12 +108,10 @@ class DescribeResourceTypes extends Request
  */
 class WaitConditions extends Request
 {
-
 }/**
  */
 class DescribeRegions extends Request
 {
-
 }/**
  * @method $this setStackName($stackName)
  * @method string getStackName()
@@ -133,12 +122,10 @@ class DescribeRegions extends Request
  */
 class DeleteStack extends Request
 {
-
 }/**
  */
 class InquiryStack extends Request
 {
-
 }/**
  * @method $this setStackName($stackName)
  * @method string getStackName()
@@ -147,14 +134,12 @@ class InquiryStack extends Request
  */
 class CancelUpdateStack extends Request
 {
-
 }/**
  * @method $this setTypeName($typeName)
  * @method string getTypeName()
  */
 class DescribeResourceTypeTemplate extends Request
 {
-
 }/**
  * @method $this setStackName($stackName)
  * @method string getStackName()
@@ -173,14 +158,12 @@ class DescribeResourceTypeTemplate extends Request
  */
 class DescribeEvents extends Request
 {
-
 }/**
  * @method $this setTypeName($typeName)
  * @method string getTypeName()
  */
 class DescribeResourceTypeDetail extends Request
 {
-
 }/**
  * @method $this setStackName($stackName)
  * @method string getStackName()
@@ -189,7 +172,6 @@ class DescribeResourceTypeDetail extends Request
  */
 class DoActions extends Request
 {
-
 }/**
  * @method $this setStackName($stackName)
  * @method string getStackName()
@@ -198,7 +180,6 @@ class DoActions extends Request
  */
 class DescribeResources extends Request
 {
-
 }/**
  * @method $this setStackName($stackName)
  * @method string getStackName()
@@ -207,7 +188,6 @@ class DescribeResources extends Request
  */
 class UpdateStack extends Request
 {
-
 }/**
  * @method $this setStatus($status)
  * @method string getStatus()
@@ -222,7 +202,6 @@ class UpdateStack extends Request
  */
 class DescribeStacks extends Request
 {
-
 }/**
  * @method $this setStackName($stackName)
  * @method string getStackName()
@@ -233,7 +212,6 @@ class DescribeStacks extends Request
  */
 class DescribeResourceDetail extends Request
 {
-
 }/**
  * @method $this setStackName($stackName)
  * @method string getStackName()
@@ -242,5 +220,4 @@ class DescribeResourceDetail extends Request
  */
 class ContinueCreateStack extends Request
 {
-
 }

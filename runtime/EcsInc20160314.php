@@ -295,7 +295,6 @@ class V20160314
  */
 class InnerEcsInstanceQueryByParam extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -338,7 +337,6 @@ class InnerEcsInstanceQueryByParam extends Request
  */
 class InnerImageQueryUserImages extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -369,7 +367,6 @@ class InnerImageQueryUserImages extends Request
  */
 class InnerReleasePublicIpAddress extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -392,7 +389,6 @@ class InnerReleasePublicIpAddress extends Request
  */
 class CreateSystemEvent extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -423,7 +419,6 @@ class CreateSystemEvent extends Request
  */
 class InnerEcsQueryByIp extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -452,7 +447,6 @@ class InnerEcsQueryByIp extends Request
  */
 class InnerEcsDescribeVPortInfo extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -477,7 +471,6 @@ class InnerEcsDescribeVPortInfo extends Request
  */
 class InnerDiskFindDiskByDiskId extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -514,7 +507,6 @@ class InnerDiskFindDiskByDiskId extends Request
  */
 class CopyImageAtTarget extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -531,7 +523,6 @@ class CopyImageAtTarget extends Request
  */
 class InnerSendMessage extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -564,7 +555,6 @@ class InnerSendMessage extends Request
  */
 class InnerDescribeTags extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -589,7 +579,6 @@ class InnerDescribeTags extends Request
  */
 class InnerEcsGetBflagByBidAndUid extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -614,7 +603,6 @@ class InnerEcsGetBflagByBidAndUid extends Request
  */
 class InnerMarketplaceImageExpire extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -637,7 +625,6 @@ class InnerMarketplaceImageExpire extends Request
  */
 class InnerDiskQueryUserDiskSummary extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -672,7 +659,6 @@ class InnerDiskQueryUserDiskSummary extends Request
  */
 class InnerGroupJoin extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -713,7 +699,6 @@ class InnerGroupJoin extends Request
  */
 class InnerAntInstanceConvertToPrepaid extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -732,7 +717,6 @@ class InnerAntInstanceConvertToPrepaid extends Request
  */
 class InnerLinkNetworkInterfaces extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -757,7 +741,6 @@ class InnerLinkNetworkInterfaces extends Request
  */
 class InnerEcsInstanceDetailForConsole extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -782,7 +765,6 @@ class InnerEcsInstanceDetailForConsole extends Request
  */
 class InnerEcsQueryNcInfoByInstanceId extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -799,7 +781,6 @@ class InnerEcsQueryNcInfoByInstanceId extends Request
  */
 class InnerDescribeInstanceTypes extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -852,7 +833,6 @@ class InnerDescribeInstanceTypes extends Request
  */
 class InnerGroupAuthorize extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -873,7 +853,6 @@ class InnerGroupAuthorize extends Request
  */
 class GetCommodity extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -900,7 +879,6 @@ class GetCommodity extends Request
  */
 class AddSystemTag extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -921,7 +899,6 @@ class AddSystemTag extends Request
  */
 class GetCommodityProxy extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -938,7 +915,6 @@ class GetCommodityProxy extends Request
  */
 class ListImageBinding extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -991,7 +967,6 @@ class ListImageBinding extends Request
  */
 class InnerGroupQuery extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1016,7 +991,6 @@ class InnerGroupQuery extends Request
  */
 class ReInitDisks extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1051,7 +1025,6 @@ class ReInitDisks extends Request
  */
 class InnerGroupLeave extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1118,7 +1091,6 @@ class InnerGroupLeave extends Request
  */
 class InnerImageQueryAvailableImgs extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1137,7 +1109,6 @@ class InnerImageQueryAvailableImgs extends Request
  */
 class CancelSystemEvent extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1150,7 +1121,6 @@ class CancelSystemEvent extends Request
  */
 class InnerDescribeSnapshotBusinessStatus extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1177,7 +1147,6 @@ class InnerDescribeSnapshotBusinessStatus extends Request
  */
 class InnerNetworkModifyValidation extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -1200,7 +1169,6 @@ class InnerNetworkModifyValidation extends Request
  */
 class QueryImageCopyProgress extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1219,7 +1187,6 @@ class QueryImageCopyProgress extends Request
  */
 class KeepUsing extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1262,7 +1229,6 @@ class KeepUsing extends Request
  */
 class DescribeAvailableResource extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1289,7 +1255,6 @@ class DescribeAvailableResource extends Request
  */
 class InnerMonitorDataDescribeDisk extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1308,7 +1273,6 @@ class InnerMonitorDataDescribeDisk extends Request
  */
 class CancelAgreement extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1339,7 +1303,6 @@ class CancelAgreement extends Request
  */
 class InnerGroupFindDefaultSystemGroup extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1370,7 +1333,6 @@ class InnerGroupFindDefaultSystemGroup extends Request
  */
 class InnerCheckProduce extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1389,7 +1351,6 @@ class InnerCheckProduce extends Request
  */
 class DescribeEventDetail extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1404,7 +1365,6 @@ class DescribeEventDetail extends Request
  */
 class InnerQueryCopyImageSupportRegions extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1421,7 +1381,6 @@ class InnerQueryCopyImageSupportRegions extends Request
  */
 class QueryAvailableRegion_GatedLaunch extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1446,7 +1405,6 @@ class QueryAvailableRegion_GatedLaunch extends Request
  */
 class InnerEcsCountInRegion extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1481,7 +1439,6 @@ class InnerEcsCountInRegion extends Request
  */
 class DescribeResourcesModification extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1504,7 +1461,6 @@ class DescribeResourcesModification extends Request
  */
 class InnerGetInstanceTypeModelByType extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1527,7 +1483,6 @@ class InnerGetInstanceTypeModelByType extends Request
  */
 class InnerEcsQueryByInstanceId extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1562,7 +1517,6 @@ class InnerEcsQueryByInstanceId extends Request
  */
 class InnerInstanceSetEndTime extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1587,7 +1541,6 @@ class InnerInstanceSetEndTime extends Request
  */
 class InnerEcsExpireRegionQuery extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1614,7 +1567,6 @@ class InnerEcsExpireRegionQuery extends Request
  */
 class InnerEcsIsClassicLinkVpcUser extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1707,7 +1659,6 @@ class InnerEcsIsClassicLinkVpcUser extends Request
  */
 class InnerInstanceQueryByParamBackyard extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1730,7 +1681,6 @@ class InnerInstanceQueryByParamBackyard extends Request
  */
 class InnerEcsQueryByInternetIp extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1769,7 +1719,6 @@ class InnerEcsQueryByInternetIp extends Request
  */
 class InnerEcsFindById extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1790,7 +1739,6 @@ class InnerEcsFindById extends Request
  */
 class InnerSnapshotIsUserAutoSnapshotPause extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1819,7 +1767,6 @@ class InnerSnapshotIsUserAutoSnapshotPause extends Request
  */
 class InnerEcsInstanceQueryRegionNoFilter extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1848,7 +1795,6 @@ class InnerEcsInstanceQueryRegionNoFilter extends Request
  */
 class InnerVncQueryPasswd extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1873,7 +1819,6 @@ class InnerVncQueryPasswd extends Request
  */
 class InnerStockListUsedVms extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1888,7 +1833,6 @@ class InnerStockListUsedVms extends Request
  */
 class QueryUserInfo_GatedLaunch extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1917,7 +1861,6 @@ class QueryUserInfo_GatedLaunch extends Request
  */
 class InnerImageQueryProductQuota extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1934,7 +1877,6 @@ class InnerImageQueryProductQuota extends Request
  */
 class InnerQueryLazyLoadProgress extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1953,7 +1895,6 @@ class InnerQueryLazyLoadProgress extends Request
  */
 class SignAgreement extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1976,7 +1917,6 @@ class SignAgreement extends Request
  */
 class InnerModifyEntityConstraints extends Request
 {
-
 }/**
  * @method $this setcallerBid($callerBid)
  * @method string getcallerBid()
@@ -1995,7 +1935,6 @@ class InnerModifyEntityConstraints extends Request
  */
 class QueryEcsInstanceOrderInfo extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2010,7 +1949,6 @@ class QueryEcsInstanceOrderInfo extends Request
  */
 class QueryMarketImageCategory extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2029,7 +1967,6 @@ class QueryMarketImageCategory extends Request
  */
 class InnerInstallCloudAssistant extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2066,7 +2003,6 @@ class InnerInstallCloudAssistant extends Request
  */
 class InnerGroupCreate extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2129,7 +2065,6 @@ class InnerGroupCreate extends Request
  */
 class DescribePrice extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2152,7 +2087,6 @@ class DescribePrice extends Request
  */
 class InnerEcsRegionQueryByBid extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2171,7 +2105,6 @@ class InnerEcsRegionQueryByBid extends Request
  */
 class InnerCopyImageAtSameRegion extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2198,7 +2131,6 @@ class InnerCopyImageAtSameRegion extends Request
  */
 class QueryMarketImages_GatedLaunch extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2221,7 +2153,6 @@ class QueryMarketImages_GatedLaunch extends Request
  */
 class InnerAuthorizeImagesToBids extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2296,7 +2227,6 @@ class InnerAuthorizeImagesToBids extends Request
  */
 class InnerDiskQueryByParamForConsole extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2313,7 +2243,6 @@ class InnerDiskQueryByParamForConsole extends Request
  */
 class InnerReleaseDedicatedHost extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2344,7 +2273,6 @@ class InnerReleaseDedicatedHost extends Request
  */
 class InnerProduce extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2383,7 +2311,6 @@ class InnerProduce extends Request
  */
 class InnerEcsRiskControlPunish extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2406,7 +2333,6 @@ class InnerEcsRiskControlPunish extends Request
  */
 class InnerEcsQueryBySerialNumber extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2429,7 +2355,6 @@ class InnerEcsQueryBySerialNumber extends Request
  */
 class InnerEcsIsChannelMerchant extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2460,7 +2385,6 @@ class InnerEcsIsChannelMerchant extends Request
  */
 class InnerImageModifyProductCapacity extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2487,7 +2411,6 @@ class InnerImageModifyProductCapacity extends Request
  */
 class InnerDiskResizeByParam_GatedLaunch extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2502,7 +2425,6 @@ class InnerDiskResizeByParam_GatedLaunch extends Request
  */
 class QueryNeedKeepUsing extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2529,7 +2451,6 @@ class QueryNeedKeepUsing extends Request
  */
 class UntagResourcesSystemTags extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2556,7 +2477,6 @@ class UntagResourcesSystemTags extends Request
  */
 class InnerGetZoneVendibleDataAndStatusById extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2573,7 +2493,6 @@ class InnerGetZoneVendibleDataAndStatusById extends Request
  */
 class InnerQueryRetainVcpu extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2588,7 +2507,6 @@ class InnerQueryRetainVcpu extends Request
  */
 class ListAllIzMap_GatedLaunch extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2607,7 +2525,6 @@ class ListAllIzMap_GatedLaunch extends Request
  */
 class QueryAvailableRegion extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2636,7 +2553,6 @@ class QueryAvailableRegion extends Request
  */
 class InnerInstanceEnableSLBFlow extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -2677,7 +2593,6 @@ class InnerInstanceEnableSLBFlow extends Request
  */
 class DescribeCopyProgressAtOrigin extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2694,7 +2609,6 @@ class DescribeCopyProgressAtOrigin extends Request
  */
 class QueryResourceModify extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2713,7 +2627,6 @@ class QueryResourceModify extends Request
  */
 class QueryImageIdByRegion extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2760,7 +2673,6 @@ class QueryImageIdByRegion extends Request
  */
 class InnerImageModify extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2779,7 +2691,6 @@ class InnerImageModify extends Request
  */
 class KeepUsing_GatedLaunch extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2812,7 +2723,6 @@ class KeepUsing_GatedLaunch extends Request
  */
 class InnerImageConvert2Product extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2835,7 +2745,6 @@ class InnerImageConvert2Product extends Request
  */
 class ModifySystemEventAttribute extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2926,7 +2835,6 @@ class ModifySystemEventAttribute extends Request
  */
 class InnerEcsQueryByParam extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2953,7 +2861,6 @@ class InnerEcsQueryByParam extends Request
  */
 class InnerEcsInstanceQueryRegions extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2992,7 +2899,6 @@ class InnerEcsInstanceQueryRegions extends Request
  */
 class InnerSnapshotDescribeMountedSnapshots extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -3021,7 +2927,6 @@ class InnerSnapshotDescribeMountedSnapshots extends Request
  */
 class InnerEcsQueryByHpcClusterId extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -3048,7 +2953,6 @@ class InnerEcsQueryByHpcClusterId extends Request
  */
 class QueryUsableSnapshots extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -3075,7 +2979,6 @@ class QueryUsableSnapshots extends Request
  */
 class InnerInstanceDetail extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -3090,7 +2993,6 @@ class InnerInstanceDetail extends Request
  */
 class FiveDaysRefund_GatedLaunch extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -3137,7 +3039,6 @@ class FiveDaysRefund_GatedLaunch extends Request
  */
 class InnerEcsTransitionQuery extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -3164,7 +3065,6 @@ class InnerEcsTransitionQuery extends Request
  */
 class QueryUsableSnapshots_GatedLaunch extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -3241,7 +3141,6 @@ class QueryUsableSnapshots_GatedLaunch extends Request
  */
 class InnerInstanceQueryByParam extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -3264,7 +3163,6 @@ class InnerInstanceQueryByParam extends Request
  */
 class InnerImageQueryNeedKeepUsing extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -3305,7 +3203,6 @@ class InnerImageQueryNeedKeepUsing extends Request
  */
 class InnerEcsTransitionModify extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -3332,7 +3229,6 @@ class InnerEcsTransitionModify extends Request
  */
 class DescribeResourceModificationCapacity extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -3355,7 +3251,6 @@ class DescribeResourceModificationCapacity extends Request
  */
 class RemoveSystemTags extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -3374,7 +3269,6 @@ class RemoveSystemTags extends Request
  */
 class ReopenInstance_GatedLaunch extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -3407,7 +3301,6 @@ class ReopenInstance_GatedLaunch extends Request
  */
 class InnerInstanceQueryEcsByImgPc extends Request
 {
-
 }/**
  * @method $this setInterrupt($interrupt)
  * @method bool getInterrupt()
@@ -3434,7 +3327,6 @@ class InnerInstanceQueryEcsByImgPc extends Request
  */
 class GdprLogicalDeleteResource extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -3459,7 +3351,6 @@ class GdprLogicalDeleteResource extends Request
  */
 class TagResourcesSystemTags extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -3484,7 +3375,6 @@ class TagResourcesSystemTags extends Request
  */
 class InnerRefundVcpuCallBack extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -3505,7 +3395,6 @@ class InnerRefundVcpuCallBack extends Request
  */
 class CheckImageSupportCloudinit extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -3542,7 +3431,6 @@ class CheckImageSupportCloudinit extends Request
  */
 class InnerDiskReset extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -3567,7 +3455,6 @@ class InnerDiskReset extends Request
  */
 class DescribeEipPrice extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -3582,7 +3469,6 @@ class DescribeEipPrice extends Request
  */
 class QueryUserInfo extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -3615,7 +3501,6 @@ class QueryUserInfo extends Request
  */
 class InnerGroupRemove extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -3642,7 +3527,6 @@ class InnerGroupRemove extends Request
  */
 class InnerIpLoad extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -3675,7 +3559,6 @@ class InnerIpLoad extends Request
  */
 class InnerMaliceEcsUnlock extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -3696,7 +3579,6 @@ class InnerMaliceEcsUnlock extends Request
  */
 class CheckImageSupportCloudinit_GatedLaunch extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -3727,7 +3609,6 @@ class CheckImageSupportCloudinit_GatedLaunch extends Request
  */
 class InnerEcsResourceGroupQueryByResources extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -3756,7 +3637,6 @@ class InnerEcsResourceGroupQueryByResources extends Request
  */
 class InnerCheckProduce_GatedLaunch extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -3783,7 +3663,6 @@ class InnerCheckProduce_GatedLaunch extends Request
  */
 class InnerEcsQuerySecurity extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -3810,7 +3689,6 @@ class InnerEcsQuerySecurity extends Request
  */
 class InnerImageKeepUsing extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -3837,7 +3715,6 @@ class InnerImageKeepUsing extends Request
  */
 class InnerEcsReleaseByDriver extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -3868,7 +3745,6 @@ class InnerEcsReleaseByDriver extends Request
  */
 class InnerIzQueryForVmSale extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -3915,7 +3791,6 @@ class InnerIzQueryForVmSale extends Request
  */
 class ResourceOwnershipTransfer extends Request
 {
-
 }/**
  * @method $this setcallerBid($callerBid)
  * @method string getcallerBid()
@@ -3934,7 +3809,6 @@ class ResourceOwnershipTransfer extends Request
  */
 class QueryEcsElasticUpgradeInfo extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -3971,7 +3845,6 @@ class QueryEcsElasticUpgradeInfo extends Request
  */
 class DescribeResourceCreationCapacity extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -3988,7 +3861,6 @@ class DescribeResourceCreationCapacity extends Request
  */
 class QueryImageByImageId_GatedLaunch extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -4005,7 +3877,6 @@ class QueryImageByImageId_GatedLaunch extends Request
  */
 class InnerDescribeNcExpression extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -4034,7 +3905,6 @@ class InnerDescribeNcExpression extends Request
  */
 class InnerInstanceDisableSLBFlow extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -4059,7 +3929,6 @@ class InnerInstanceDisableSLBFlow extends Request
  */
 class CheckIsDefaultVpcUser extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -4086,7 +3955,6 @@ class CheckIsDefaultVpcUser extends Request
  */
 class InnerEcsQueryIpThreshold extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -4127,7 +3995,6 @@ class InnerEcsQueryIpThreshold extends Request
  */
 class InnerEcsRiskControlPunishRemove extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -4144,7 +4011,6 @@ class InnerEcsRiskControlPunishRemove extends Request
  */
 class InnerCreateNcExpression extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -4173,7 +4039,6 @@ class InnerCreateNcExpression extends Request
  */
 class InnerQueryImageBindByInstance extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -4206,7 +4071,6 @@ class InnerQueryImageBindByInstance extends Request
  */
 class InnerEcsDescribeIpsInGroup extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -4229,7 +4093,6 @@ class InnerEcsDescribeIpsInGroup extends Request
  */
 class InnerCheckEniBindEip extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -4250,7 +4113,6 @@ class InnerCheckEniBindEip extends Request
  */
 class InnerEcsRegionQueryAll extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -4265,7 +4127,6 @@ class InnerEcsRegionQueryAll extends Request
  */
 class InnerDeleteNcExpression extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -4286,7 +4147,6 @@ class InnerDeleteNcExpression extends Request
  */
 class InnerQueryExplanation extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -4313,7 +4173,6 @@ class InnerQueryExplanation extends Request
  */
 class InnerDiskResizeByParam extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -4348,7 +4207,6 @@ class InnerDiskResizeByParam extends Request
  */
 class InnerSnapshotSecurityUnmount extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -4399,7 +4257,6 @@ class InnerSnapshotSecurityUnmount extends Request
  */
 class InnerGroupRevoke extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -4416,7 +4273,6 @@ class InnerGroupRevoke extends Request
  */
 class ListEcsInstanceOrderInfo_GatedLaunch extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -4433,7 +4289,6 @@ class ListEcsInstanceOrderInfo_GatedLaunch extends Request
  */
 class InnerDetailInstanceFamilyDefine extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -4456,7 +4311,6 @@ class InnerDetailInstanceFamilyDefine extends Request
  */
 class DescribeResourcesBySystemTag extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -4491,7 +4345,6 @@ class DescribeResourcesBySystemTag extends Request
  */
 class InnerInstanceSetEndTime_GatedLaunch extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -4508,7 +4361,6 @@ class InnerInstanceSetEndTime_GatedLaunch extends Request
  */
 class ListBandwidthHistory extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -4541,7 +4393,6 @@ class ListBandwidthHistory extends Request
  */
 class DescribeEvents extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -4562,7 +4413,6 @@ class DescribeEvents extends Request
  */
 class InnerRefundVcpuQuery extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -4589,7 +4439,6 @@ class InnerRefundVcpuQuery extends Request
  */
 class CopySystemImageAtTarget extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -4622,7 +4471,6 @@ class CopySystemImageAtTarget extends Request
  */
 class InnerModifyInstanceChargeType extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -4649,7 +4497,6 @@ class InnerModifyInstanceChargeType extends Request
  */
 class InnerRemedyRenewInstance extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -4668,7 +4515,6 @@ class InnerRemedyRenewInstance extends Request
  */
 class QueryImageIdByRegion_GatedLaunch extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -4691,7 +4537,6 @@ class QueryImageIdByRegion_GatedLaunch extends Request
  */
 class DescribeRenewalPrice extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -4706,7 +4551,6 @@ class DescribeRenewalPrice extends Request
  */
 class FiveDaysRefund extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -4731,7 +4575,6 @@ class FiveDaysRefund extends Request
  */
 class CopySystemImage extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -4748,7 +4591,6 @@ class CopySystemImage extends Request
  */
 class GetActiveRegions_GatedLaunch extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -4767,7 +4609,6 @@ class GetActiveRegions_GatedLaunch extends Request
  */
 class InnerDescribeEniBdf extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -4784,7 +4625,6 @@ class InnerDescribeEniBdf extends Request
  */
 class ListBandwidthHistory_GatedLaunch extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -4799,7 +4639,6 @@ class ListBandwidthHistory_GatedLaunch extends Request
  */
 class InnerCheckOpenSnapshotService extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -4816,7 +4655,6 @@ class InnerCheckOpenSnapshotService extends Request
  */
 class CheckOrderNotPaid extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -4851,7 +4689,6 @@ class CheckOrderNotPaid extends Request
  */
 class InnerSnapshotSecurityMount extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -4866,7 +4703,6 @@ class InnerSnapshotSecurityMount extends Request
  */
 class InnerModifySnapshotBusinessStatus extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -4895,7 +4731,6 @@ class InnerModifySnapshotBusinessStatus extends Request
  */
 class InnerMonitor extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -4930,7 +4765,6 @@ class InnerMonitor extends Request
  */
 class InnerGroupQueryVm extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -4953,7 +4787,6 @@ class InnerGroupQueryVm extends Request
  */
 class DescribeBandwidthLimitation extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -4978,7 +4811,6 @@ class DescribeBandwidthLimitation extends Request
  */
 class NotifyRefund_GatedLaunch extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -5007,7 +4839,6 @@ class NotifyRefund_GatedLaunch extends Request
  */
 class InnerQueryEcsCountByCondition extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -5026,7 +4857,6 @@ class InnerQueryEcsCountByCondition extends Request
  */
 class ReopenInstance extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -5053,7 +4883,6 @@ class ReopenInstance extends Request
  */
 class QueryInstanceInfo extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -5084,7 +4913,6 @@ class QueryInstanceInfo extends Request
  */
 class UploadSystemImageAtOrigin extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -5111,7 +4939,6 @@ class UploadSystemImageAtOrigin extends Request
  */
 class InnerRenewInstance extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -5138,7 +4965,6 @@ class InnerRenewInstance extends Request
  */
 class QueryInstanceInfo_GatedLaunch extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -5165,7 +4991,6 @@ class QueryInstanceInfo_GatedLaunch extends Request
  */
 class QueryMarketImages extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -5192,7 +5017,6 @@ class QueryMarketImages extends Request
  */
 class InnerMonitorDataDescribeInstance extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -5215,7 +5039,6 @@ class InnerMonitorDataDescribeInstance extends Request
  */
 class InnerEcsSnapshotQueryAllSnapshotsByEcsId extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -5294,7 +5117,6 @@ class InnerEcsSnapshotQueryAllSnapshotsByEcsId extends Request
  */
 class InnerDiskQueryByParam extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -5333,7 +5155,6 @@ class InnerDiskQueryByParam extends Request
  */
 class InnerQueryInstanceCreatedByProduct extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -5352,7 +5173,6 @@ class InnerQueryInstanceCreatedByProduct extends Request
  */
 class InnerUnlinkNetworkInterfaces extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -5367,7 +5187,6 @@ class InnerUnlinkNetworkInterfaces extends Request
  */
 class InnerOpenSnapshotService extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -5398,7 +5217,6 @@ class InnerOpenSnapshotService extends Request
  */
 class InnerImageDetail extends Request
 {
-
 }/**
  * @method $this setInterrupt($interrupt)
  * @method bool getInterrupt()
@@ -5431,7 +5249,6 @@ class InnerImageDetail extends Request
  */
 class GdprCheckResource extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -5452,7 +5269,6 @@ class GdprCheckResource extends Request
  */
 class GetCommodity_GatedLaunch extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -5467,7 +5283,6 @@ class GetCommodity_GatedLaunch extends Request
  */
 class InnerRegionSupportInstancetypes extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -5482,7 +5297,6 @@ class InnerRegionSupportInstancetypes extends Request
  */
 class ListAllIzMap extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -5501,7 +5315,6 @@ class ListAllIzMap extends Request
  */
 class QueryImageByImageId extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -5518,7 +5331,6 @@ class QueryImageByImageId extends Request
  */
 class ListEcsInstanceOrderInfo extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -5539,7 +5351,6 @@ class ListEcsInstanceOrderInfo extends Request
  */
 class InnerQueryConstraints extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -5576,7 +5387,6 @@ class InnerQueryConstraints extends Request
  */
 class InnerEcsRiskControlQuery extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -5609,7 +5419,6 @@ class InnerEcsRiskControlQuery extends Request
  */
 class DescribeGroupHighRiskAcl extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -5638,7 +5447,6 @@ class DescribeGroupHighRiskAcl extends Request
  */
 class InnerProduce_GatedLaunch extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -5711,7 +5519,6 @@ class InnerProduce_GatedLaunch extends Request
  */
 class InnerSnapshotQueryUserSnapshots extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -5748,7 +5555,6 @@ class InnerSnapshotQueryUserSnapshots extends Request
  */
 class InnerGroupDetail extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -5773,7 +5579,6 @@ class InnerGroupDetail extends Request
  */
 class InnerConstraintDataPush extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -5800,7 +5605,6 @@ class InnerConstraintDataPush extends Request
  */
 class NotifyRefund extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -5823,7 +5627,6 @@ class NotifyRefund extends Request
  */
 class InnerEcsQueryByIntranetIp extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -5848,7 +5651,6 @@ class InnerEcsQueryByIntranetIp extends Request
  */
 class InnerEcsRegionQueryActive extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -5877,7 +5679,6 @@ class InnerEcsRegionQueryActive extends Request
  */
 class InnerEcsInstanceDetail extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -5894,7 +5695,6 @@ class InnerEcsInstanceDetail extends Request
  */
 class CheckOrderNotPaid_GatedLaunch extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -5927,7 +5727,6 @@ class CheckOrderNotPaid_GatedLaunch extends Request
  */
 class InnerMaliceEcsLock extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -5942,7 +5741,6 @@ class InnerMaliceEcsLock extends Request
  */
 class QueryMarketImageCategory_GatedLaunch extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -5959,7 +5757,6 @@ class QueryMarketImageCategory_GatedLaunch extends Request
  */
 class GetActiveRegions extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -5996,7 +5793,6 @@ class GetActiveRegions extends Request
  */
 class InnerDescribeEni extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -6011,7 +5807,6 @@ class InnerDescribeEni extends Request
  */
 class QueryNeedKeepUsing_GatedLaunch extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -6040,7 +5835,6 @@ class QueryNeedKeepUsing_GatedLaunch extends Request
  */
 class ListTagResources extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -6063,7 +5857,6 @@ class ListTagResources extends Request
  */
 class InnerCheckEniEipOperate extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -6092,7 +5885,6 @@ class InnerCheckEniEipOperate extends Request
  */
 class InnerInstanceGetInstanceTypeModelByType extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -6129,7 +5921,6 @@ class InnerInstanceGetInstanceTypeModelByType extends Request
  */
 class QueryResourceTransit extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -6160,7 +5951,6 @@ class QueryResourceTransit extends Request
  */
 class DescribeGroupHighRiskStat extends Request
 {
-
 }/**
  * @method $this setInterrupt($interrupt)
  * @method bool getInterrupt()
@@ -6187,7 +5977,6 @@ class DescribeGroupHighRiskStat extends Request
  */
 class GdprPhysicalDeleteResource extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -6230,5 +6019,4 @@ class GdprPhysicalDeleteResource extends Request
  */
 class InnerImageQueryImgsByParam extends Request
 {
-
 }

@@ -77,7 +77,6 @@ class V20130528
  */
 class ModifyDBInstanceAttribute extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -92,7 +91,6 @@ class ModifyDBInstanceAttribute extends Request
  */
 class RestartDBInstance extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -109,7 +107,6 @@ class RestartDBInstance extends Request
  */
 class ModifyParameter extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -136,7 +133,6 @@ class ModifyParameter extends Request
  */
 class DescribeSlowLogs extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -155,7 +151,6 @@ class DescribeSlowLogs extends Request
  */
 class DescribeResourceUsage extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -176,7 +171,6 @@ class DescribeResourceUsage extends Request
  */
 class GrantAccountPrivilege extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -213,7 +207,6 @@ class GrantAccountPrivilege extends Request
  */
 class DescribeDBInstances extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -236,7 +229,6 @@ class DescribeDBInstances extends Request
  */
 class ModifyAccountAttribute extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -253,7 +245,6 @@ class ModifyAccountAttribute extends Request
  */
 class DescribeAccounts extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -278,7 +269,6 @@ class DescribeAccounts extends Request
  */
 class CreateDatabase extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -297,7 +287,6 @@ class CreateDatabase extends Request
  */
 class MigratingDB extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -312,7 +301,6 @@ class MigratingDB extends Request
  */
 class DescribeSecurityIps extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -329,7 +317,6 @@ class DescribeSecurityIps extends Request
  */
 class DeleteDatabase extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -352,7 +339,6 @@ class DeleteDatabase extends Request
  */
 class DescribeBinlogFiles extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -371,7 +357,6 @@ class DescribeBinlogFiles extends Request
  */
 class CreateChildDBInstance extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -386,7 +371,6 @@ class CreateChildDBInstance extends Request
  */
 class CreateBackup extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -405,7 +389,6 @@ class CreateBackup extends Request
  */
 class DescribeDataFiles extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -430,7 +413,6 @@ class DescribeDataFiles extends Request
  */
 class CreateGuardDBInstance extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -449,7 +431,6 @@ class CreateGuardDBInstance extends Request
  */
 class DeleteChildInstance extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -472,7 +453,6 @@ class DeleteChildInstance extends Request
  */
 class DescribeErrorLogs extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -495,7 +475,6 @@ class DescribeErrorLogs extends Request
  */
 class DescribeBackups extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -512,7 +491,6 @@ class DescribeBackups extends Request
  */
 class DeleteAccount extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -537,7 +515,6 @@ class DeleteAccount extends Request
  */
 class CreateAccount extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -554,7 +531,6 @@ class CreateAccount extends Request
  */
 class RestoreDBInstance extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -571,7 +547,6 @@ class RestoreDBInstance extends Request
  */
 class ModifySecurityIps extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -596,7 +571,6 @@ class ModifySecurityIps extends Request
  */
 class DescribeSQLLogRecords extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -621,7 +595,6 @@ class DescribeSQLLogRecords extends Request
  */
 class DescribeSQLLogReports extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -638,7 +611,6 @@ class DescribeSQLLogReports extends Request
  */
 class SwitchDBInstance extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -663,7 +635,6 @@ class SwitchDBInstance extends Request
  */
 class DescribeSlowLogRecords extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -680,7 +651,6 @@ class DescribeSlowLogRecords extends Request
  */
 class CreateImportDataUpload extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -697,7 +667,6 @@ class CreateImportDataUpload extends Request
  */
 class DeleteDBInstance extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -712,7 +681,6 @@ class DeleteDBInstance extends Request
  */
 class DescribeParameters extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -731,7 +699,6 @@ class DescribeParameters extends Request
  */
 class RevokeAccountPrivilege extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -748,7 +715,6 @@ class RevokeAccountPrivilege extends Request
  */
 class ImportData extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -769,7 +735,6 @@ class ImportData extends Request
  */
 class DescribeDBInstancePerformance extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -786,7 +751,6 @@ class DescribeDBInstancePerformance extends Request
  */
 class SwitchDBInstanceNetType extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -805,7 +769,6 @@ class SwitchDBInstanceNetType extends Request
  */
 class DescribeDatabases extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -818,7 +781,6 @@ class DescribeDatabases extends Request
  */
 class QueryShareDBInstancesService extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -835,7 +797,6 @@ class QueryShareDBInstancesService extends Request
  */
 class DescribeParameterTemplates extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -854,7 +815,6 @@ class DescribeParameterTemplates extends Request
  */
 class DescribeSwitchDBInstanceList extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -905,7 +865,6 @@ class DescribeSwitchDBInstanceList extends Request
  */
 class CreateDBInstance extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -918,5 +877,4 @@ class CreateDBInstance extends Request
  */
 class DescribeDBInstanceClasses extends Request
 {
-
 }

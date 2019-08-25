@@ -40,7 +40,6 @@ class V20181219
  */
 class SearchTraces extends Request
 {
-
 }/**
  * @method $this setFilters($filters)
  * @method array getFilters()
@@ -67,7 +66,6 @@ class SearchTraces extends Request
  */
 class MetricQuery extends Request
 {
-
 }/**
  * @method $this setDimensions($dimensions)
  * @method array getDimensions()
@@ -102,7 +100,6 @@ class MetricQuery extends Request
  */
 class ARMSQueryDataSet extends Request
 {
-
 }/**
  * @method $this setTraceID($traceID)
  * @method string getTraceID()
@@ -113,7 +110,6 @@ class ARMSQueryDataSet extends Request
  */
 class GetTrace extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -122,5 +118,4 @@ class GetTrace extends Request
  */
 class GetServices extends Request
 {
-
 }

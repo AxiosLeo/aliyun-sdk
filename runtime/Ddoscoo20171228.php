@@ -86,7 +86,6 @@ class V20171228
  */
 class DescribeIpTraffic extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -95,7 +94,6 @@ class DescribeIpTraffic extends Request
  */
 class CreateLayer4Rule extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -106,7 +104,6 @@ class CreateLayer4Rule extends Request
  */
 class DeleteAsyncTask extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -123,7 +120,6 @@ class DeleteAsyncTask extends Request
  */
 class DescribeDomainAttackEvents extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -146,7 +142,6 @@ class DescribeDomainAttackEvents extends Request
  */
 class ConfigLayer7CCRule extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -165,7 +160,6 @@ class ConfigLayer7CCRule extends Request
  */
 class ConfigLayer7Rule extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -180,7 +174,6 @@ class ConfigLayer7Rule extends Request
  */
 class ConfigHealthCheck extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -191,14 +184,12 @@ class ConfigHealthCheck extends Request
  */
 class DeleteLayer7CCRule extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
  */
 class DescribleCertList extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -207,7 +198,6 @@ class DescribleCertList extends Request
  */
 class DescribleLayer7InstanceRelations extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -224,7 +214,6 @@ class DescribleLayer7InstanceRelations extends Request
  */
 class ConfigLayer7Cert extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -233,7 +222,6 @@ class ConfigLayer7Cert extends Request
  */
 class DeleteLayer7Rule extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -250,7 +238,6 @@ class DeleteLayer7Rule extends Request
  */
 class DescribeLayer4Rules extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -269,7 +256,6 @@ class DescribeLayer4Rules extends Request
  */
 class DescribeInstances extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -278,7 +264,6 @@ class DescribeInstances extends Request
  */
 class DisableLayer7CCRule extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -293,7 +278,6 @@ class DisableLayer7CCRule extends Request
  */
 class ConfigLayer4RuleAttribute extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -304,7 +288,6 @@ class ConfigLayer4RuleAttribute extends Request
  */
 class ModifyElasticBandWidth extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -313,7 +296,6 @@ class ModifyElasticBandWidth extends Request
  */
 class DescribeInstanceDetails extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -330,7 +312,6 @@ class DescribeInstanceDetails extends Request
  */
 class DescribeDDoSEvents extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -339,7 +320,6 @@ class DescribeDDoSEvents extends Request
  */
 class DescribeBackSourceCidr extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -354,7 +334,6 @@ class DescribeBackSourceCidr extends Request
  */
 class CreateLayer7Rule extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -363,7 +342,6 @@ class CreateLayer7Rule extends Request
  */
 class EnableLayer7CC extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -372,7 +350,6 @@ class EnableLayer7CC extends Request
  */
 class ConfigLayer4Rule extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -387,7 +364,6 @@ class ConfigLayer4Rule extends Request
  */
 class DescribeDomains extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -396,7 +372,6 @@ class DescribeDomains extends Request
  */
 class DescribeHealthCheckList extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -405,7 +380,6 @@ class DescribeHealthCheckList extends Request
  */
 class DescribeUnBlockCount extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -416,7 +390,6 @@ class DescribeUnBlockCount extends Request
  */
 class ConfigDomainAccessMode extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -425,7 +398,6 @@ class ConfigDomainAccessMode extends Request
  */
 class ReleaseInstance extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -434,7 +406,6 @@ class ReleaseInstance extends Request
  */
 class ListLayer7CustomPorts extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -447,7 +418,6 @@ class ListLayer7CustomPorts extends Request
  */
 class ConfigLayer7BlackWhiteList extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -456,7 +426,6 @@ class ConfigLayer7BlackWhiteList extends Request
  */
 class DeleteLayer4Rule extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -465,7 +434,6 @@ class DeleteLayer4Rule extends Request
  */
 class DisableLayer7CC extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -474,7 +442,6 @@ class DisableLayer7CC extends Request
  */
 class DescribeInstanceStatistics extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -487,7 +454,6 @@ class DescribeInstanceStatistics extends Request
  */
 class CreateAsyncTask extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -496,7 +462,6 @@ class CreateAsyncTask extends Request
  */
 class DescribeDomainAccessMode extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -507,7 +472,6 @@ class DescribeDomainAccessMode extends Request
  */
 class DescribeBlockStatus extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -520,7 +484,6 @@ class DescribeBlockStatus extends Request
  */
 class DescribeDomainQps extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -533,7 +496,6 @@ class DescribeDomainQps extends Request
  */
 class ListAsyncTask extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -542,7 +504,6 @@ class ListAsyncTask extends Request
  */
 class DescribeLayer4RuleAttributes extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -557,7 +518,6 @@ class DescribeLayer4RuleAttributes extends Request
  */
 class DescribeDDoSTraffic extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -566,7 +526,6 @@ class DescribeDDoSTraffic extends Request
  */
 class DescribeElasticBandwidthSpec extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -575,7 +534,6 @@ class DescribeElasticBandwidthSpec extends Request
  */
 class EnableLayer7CCRule extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -588,7 +546,6 @@ class EnableLayer7CCRule extends Request
  */
 class DescribeDomainQpsWithCache extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -605,7 +562,6 @@ class DescribeDomainQpsWithCache extends Request
  */
 class ConfigBlockStatus extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -616,7 +572,6 @@ class ConfigBlockStatus extends Request
  */
 class ConfigLayer7CCTemplate extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -627,7 +582,6 @@ class ConfigLayer7CCTemplate extends Request
  */
 class ModifyInstanceRemark extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -640,7 +594,6 @@ class ModifyInstanceRemark extends Request
  */
 class DescribeLayer7CCRules extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -649,7 +602,6 @@ class DescribeLayer7CCRules extends Request
  */
 class DescribeInstanceSpecs extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -668,7 +620,6 @@ class DescribeInstanceSpecs extends Request
  */
 class DescribeDefenseRecords extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -677,14 +628,12 @@ class DescribeDefenseRecords extends Request
  */
 class DescribeDomainList extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
  */
 class DescribeDefenseCountStatistics extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -693,7 +642,6 @@ class DescribeDefenseCountStatistics extends Request
  */
 class DescribeHealthCheckStatusList extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -716,7 +664,6 @@ class DescribeHealthCheckStatusList extends Request
  */
 class AddLayer7CCRule extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -725,7 +672,6 @@ class AddLayer7CCRule extends Request
  */
 class DescribeSimpleDomains extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -744,5 +690,4 @@ class DescribeSimpleDomains extends Request
  */
 class DescribeOpEntities extends Request
 {
-
 }

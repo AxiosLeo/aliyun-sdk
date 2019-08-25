@@ -28,7 +28,6 @@ class V20171117
  */
 class GetMaterials extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -43,7 +42,6 @@ class GetMaterials extends Request
  */
 class CompareFaces extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -54,7 +52,6 @@ class CompareFaces extends Request
  */
 class GetStatus extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -67,7 +64,6 @@ class GetStatus extends Request
  */
 class SubmitMaterials extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -82,5 +78,4 @@ class SubmitMaterials extends Request
  */
 class GetVerifyToken extends Request
 {
-
 }

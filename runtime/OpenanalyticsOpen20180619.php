@@ -45,28 +45,24 @@ class V20180619
  */
 class ResetMainPassword extends Request
 {
-
 }/**
  * @method $this setRegionID($regionID)
  * @method string getRegionID()
  */
 class QueryServiceAccountList extends Request
 {
-
 }/**
  * @method $this setRegionID($regionID)
  * @method string getRegionID()
  */
 class GetEndPoint extends Request
 {
-
 }/**
  * @method $this setRegionID($regionID)
  * @method string getRegionID()
  */
 class GetEndPointByDomain extends Request
 {
-
 }/**
  * @method $this setRegionID($regionID)
  * @method string getRegionID()
@@ -79,42 +75,36 @@ class GetEndPointByDomain extends Request
  */
 class InitializeRegion extends Request
 {
-
 }/**
  * @method $this setRegionID($regionID)
  * @method string getRegionID()
  */
 class DeleteAccount extends Request
 {
-
 }/**
  * @method $this setRegionID($regionID)
  * @method string getRegionID()
  */
 class QueryDataSourceDef extends Request
 {
-
 }/**
  * @method $this setRegionID($regionID)
  * @method string getRegionID()
  */
 class GetConsolePermission extends Request
 {
-
 }/**
  * @method $this setRegionID($regionID)
  * @method string getRegionID()
  */
 class QueryAccountList extends Request
 {
-
 }/**
  * @method $this setRegionID($regionID)
  * @method string getRegionID()
  */
 class SetAllowIP extends Request
 {
-
 }/**
  * @method $this setRegionID($regionID)
  * @method string getRegionID()
@@ -129,7 +119,6 @@ class SetAllowIP extends Request
  */
 class AddEndPoint extends Request
 {
-
 }/**
  * @method $this setRegionID($regionID)
  * @method string getRegionID()
@@ -144,21 +133,18 @@ class AddEndPoint extends Request
  */
 class AddAccount extends Request
 {
-
 }/**
  * @method $this setRegionID($regionID)
  * @method string getRegionID()
  */
 class GetRegionStatus extends Request
 {
-
 }/**
  * @method $this setRegionID($regionID)
  * @method string getRegionID()
  */
 class QueryDiscountList extends Request
 {
-
 }/**
  * @method $this setRegionID($regionID)
  * @method string getRegionID()
@@ -173,38 +159,32 @@ class QueryDiscountList extends Request
  */
 class UpdateAccountPassword extends Request
 {
-
 }/**
  * @method $this setRegionID($regionID)
  * @method string getRegionID()
  */
 class QueryEndPointList extends Request
 {
-
 }/**
  * @method $this setRegionID($regionID)
  * @method string getRegionID()
  */
 class GetAllowIP extends Request
 {
-
 }/**
  */
 class DescribeRegionList extends Request
 {
-
 }/**
  * @method $this setRegionID($regionID)
  * @method string getRegionID()
  */
 class UnSubscribeRegion extends Request
 {
-
 }/**
  * @method $this setRegionID($regionID)
  * @method string getRegionID()
  */
 class RemoveEndPoint extends Request
 {
-
 }

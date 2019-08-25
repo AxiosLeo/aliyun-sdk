@@ -60,7 +60,6 @@ class V20190308
  */
 class ModifyTrainDataRegionTagAttribute extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -71,7 +70,6 @@ class ModifyTrainDataRegionTagAttribute extends Request
  */
 class StartStreamPredict extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -94,7 +92,6 @@ class StartStreamPredict extends Request
  */
 class DescribeTrainDatas extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -109,7 +106,6 @@ class DescribeTrainDatas extends Request
  */
 class ModifyProjectAttribute extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -124,7 +120,6 @@ class ModifyProjectAttribute extends Request
  */
 class ModifyTrainDataTagAttribute extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -139,7 +134,6 @@ class ModifyTrainDataTagAttribute extends Request
  */
 class DescribeTrainResult extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -152,7 +146,6 @@ class DescribeTrainResult extends Request
  */
 class DeleteTag extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -179,7 +172,6 @@ class DeleteTag extends Request
  */
 class DescribePredictDatas extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -194,7 +186,6 @@ class DescribePredictDatas extends Request
  */
 class CreateTag extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -211,7 +202,6 @@ class CreateTag extends Request
  */
 class DescribeStreamPredicts extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -226,7 +216,6 @@ class DescribeStreamPredicts extends Request
  */
 class DeletePredictDatas extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -243,7 +232,6 @@ class DeletePredictDatas extends Request
  */
 class DescribeIterations extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -268,7 +256,6 @@ class DescribeIterations extends Request
  */
 class DescribeStreamPredictResult extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -283,7 +270,6 @@ class DescribeStreamPredictResult extends Request
  */
 class DeleteTrainDatasTag extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -294,7 +280,6 @@ class DeleteTrainDatasTag extends Request
  */
 class StopStreamPredict extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -309,7 +294,6 @@ class StopStreamPredict extends Request
  */
 class CreateTrainDataRegionTag extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -322,7 +306,6 @@ class CreateTrainDataRegionTag extends Request
  */
 class CreateUploadToken extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -333,7 +316,6 @@ class CreateUploadToken extends Request
  */
 class DeleteStreamPredict extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -348,7 +330,6 @@ class DeleteStreamPredict extends Request
  */
 class PredictImage extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -363,7 +344,6 @@ class PredictImage extends Request
  */
 class CreateTrainDatasFromUrls extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -380,7 +360,6 @@ class CreateTrainDatasFromUrls extends Request
  */
 class CreateTrainDatasFromPrediction extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -395,7 +374,6 @@ class CreateTrainDatasFromPrediction extends Request
  */
 class CreateProject extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -406,7 +384,6 @@ class CreateProject extends Request
  */
 class DeleteProject extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -421,7 +398,6 @@ class DeleteProject extends Request
  */
 class CreateTrainDatasTag extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -438,7 +414,6 @@ class CreateTrainDatasTag extends Request
  */
 class DescribeProjects extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -449,7 +424,6 @@ class DescribeProjects extends Request
  */
 class TrainProject extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -466,7 +440,6 @@ class TrainProject extends Request
  */
 class ModifyTagAttribute extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -491,7 +464,6 @@ class ModifyTagAttribute extends Request
  */
 class CreateStreamPredict extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -512,7 +484,6 @@ class CreateStreamPredict extends Request
  */
 class DescribeTags extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -527,7 +498,6 @@ class DescribeTags extends Request
  */
 class DescribeTrainDatasByIds extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -540,7 +510,6 @@ class DescribeTrainDatasByIds extends Request
  */
 class DeleteIteration extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -555,7 +524,6 @@ class DeleteIteration extends Request
  */
 class CreateTrainDataTag extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -568,5 +536,4 @@ class CreateTrainDataTag extends Request
  */
 class DeleteTrainDatas extends Request
 {
-
 }

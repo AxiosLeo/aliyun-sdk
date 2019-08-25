@@ -27,21 +27,18 @@ class V20160627
  */
 class ImageFeedback extends Request
 {
-
 }/**
  * @method $this setText($text)
  * @method string getText()
  */
 class TextKeywordFilter extends Request
 {
-
 }/**
  * @method $this setTaskId($taskId)
  * @method array getTaskId()
  */
 class ImageResults extends Request
 {
-
 }/**
  * @method $this setAsync($async)
  * @method bool getAsync()
@@ -56,28 +53,24 @@ class ImageResults extends Request
  */
 class ImageDetection extends Request
 {
-
 }/**
  * @method $this setTaskId($taskId)
  * @method string getTaskId()
  */
 class ImageResult extends Request
 {
-
 }/**
  * @method $this setDataId($dataId)
  * @method array getDataId()
  */
 class AntispamResults extends Request
 {
-
 }/**
  * @method $this setText($text)
  * @method string getText()
  */
 class TextWordCorrect extends Request
 {
-
 }/**
  * @method $this setDataId($dataId)
  * @method string getDataId()
@@ -106,5 +99,4 @@ class TextWordCorrect extends Request
  */
 class AntispamDetection extends Request
 {
-
 }

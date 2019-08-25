@@ -21,12 +21,10 @@ class V20180131
  */
 class EdasRefund extends Request
 {
-
 }/**
  * @method $this setdata($data)
  * @method string getdata()
  */
 class EdasProduce extends Request
 {
-
 }

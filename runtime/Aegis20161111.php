@@ -245,7 +245,6 @@ class V20161111
  */
 class DescribeSearchCondition extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -254,14 +253,12 @@ class DescribeSearchCondition extends Request
  */
 class DescribeSuspiciousOverallConfig extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
  */
 class TransformLeakage extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -274,7 +271,6 @@ class TransformLeakage extends Request
  */
 class DescribeHistogram extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -283,7 +279,6 @@ class DescribeHistogram extends Request
  */
 class DescribeVulConfig extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -312,7 +307,6 @@ class DescribeVulConfig extends Request
  */
 class ModifySaveVulBatch extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -325,7 +319,6 @@ class ModifySaveVulBatch extends Request
  */
 class OperateSuspiciousOverallConfig extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -334,7 +327,6 @@ class OperateSuspiciousOverallConfig extends Request
  */
 class DeleteLogQuery extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -351,7 +343,6 @@ class DeleteLogQuery extends Request
  */
 class DescribeCheckWarnings extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -360,28 +351,24 @@ class DescribeCheckWarnings extends Request
  */
 class DescribeDefenceThread extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
  */
 class AutoUpgradeSas extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
  */
 class AutoUpgradeToSasAdvancedVersion extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
  */
 class DescribeAnalysisSlsIndex extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -392,7 +379,6 @@ class DescribeAnalysisSlsIndex extends Request
  */
 class RollbackSuspEventQuaraFile extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -405,7 +391,6 @@ class RollbackSuspEventQuaraFile extends Request
  */
 class DescribeVulLevelStatistics extends Request
 {
-
 }/**
  * @method $this setUuid($uuid)
  * @method string getUuid()
@@ -420,7 +405,6 @@ class DescribeVulLevelStatistics extends Request
  */
 class QueryLoginEvent extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -429,7 +413,6 @@ class QueryLoginEvent extends Request
  */
 class DescribeSecurityStatInfo extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -440,7 +423,6 @@ class DescribeSecurityStatInfo extends Request
  */
 class CreatScreenSetting extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -453,7 +435,6 @@ class CreatScreenSetting extends Request
  */
 class CreateLogQuery extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -462,7 +443,6 @@ class CreateLogQuery extends Request
  */
 class DeleteDingTalk extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -505,14 +485,12 @@ class DeleteDingTalk extends Request
  */
 class DescribeGroupedVul extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
  */
 class DescribeSasAssetStatisticsColumn extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -527,7 +505,6 @@ class DescribeSasAssetStatisticsColumn extends Request
  */
 class DescribeJoinRuleList extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -540,7 +517,6 @@ class DescribeJoinRuleList extends Request
  */
 class DownloadLog extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -549,14 +525,12 @@ class DownloadLog extends Request
  */
 class ExecStrategy extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
  */
 class DescribeYesterdayStatistics extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -575,7 +549,6 @@ class DescribeYesterdayStatistics extends Request
  */
 class DescribeTraceInfoNode extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -586,7 +559,6 @@ class DescribeTraceInfoNode extends Request
  */
 class ModifySearchCondition extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -599,7 +571,6 @@ class ModifySearchCondition extends Request
  */
 class DescribeAnalysisHistograms extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -608,14 +579,12 @@ class DescribeAnalysisHistograms extends Request
  */
 class DescribeVulBatch extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
  */
 class DescribeCanUpgradeSas extends Request
 {
-
 }/**
  * @method $this setUuid($uuid)
  * @method string getUuid()
@@ -630,7 +599,6 @@ class DescribeCanUpgradeSas extends Request
  */
 class QueryCrackEvent extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -661,7 +629,6 @@ class QueryCrackEvent extends Request
  */
 class DescribeLogItems extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -688,7 +655,6 @@ class DescribeLogItems extends Request
  */
 class DescribeWebLockEvents extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -697,7 +663,6 @@ class DescribeWebLockEvents extends Request
  */
 class DescribeFilterFields extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -708,7 +673,6 @@ class DescribeFilterFields extends Request
  */
 class CreateUserSetting extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -719,7 +683,6 @@ class CreateUserSetting extends Request
  */
 class DescribeLogstoreStorage extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -732,7 +695,6 @@ class DescribeLogstoreStorage extends Request
  */
 class ModifyWebLockStatus extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -745,7 +707,6 @@ class ModifyWebLockStatus extends Request
  */
 class OperateAgentClientInstall extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -756,7 +717,6 @@ class OperateAgentClientInstall extends Request
  */
 class DescribeTargetConfig extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -779,14 +739,12 @@ class DescribeTargetConfig extends Request
  */
 class DescribeResultList extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
  */
 class DescribeScreenHostStatistics extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -795,7 +753,6 @@ class DescribeScreenHostStatistics extends Request
  */
 class DescribeScreenSummaryInfo extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -810,7 +767,6 @@ class DescribeScreenSummaryInfo extends Request
  */
 class OperateSuspiciousTargetConfig extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -819,7 +775,6 @@ class OperateSuspiciousTargetConfig extends Request
  */
 class DescribeAssetSummary extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -828,7 +783,6 @@ class DescribeAssetSummary extends Request
  */
 class DeleteStrategy extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -839,7 +793,6 @@ class DeleteStrategy extends Request
  */
 class ModifyMachineConfig extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -850,7 +803,6 @@ class ModifyMachineConfig extends Request
  */
 class DeleteRuleGroup extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -877,7 +829,6 @@ class DeleteRuleGroup extends Request
  */
 class DescribeWarning extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -892,7 +843,6 @@ class DescribeWarning extends Request
  */
 class DescribeRisks extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -903,7 +853,6 @@ class DescribeRisks extends Request
  */
 class ModifyWebLockRefresh extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -912,7 +861,6 @@ class ModifyWebLockRefresh extends Request
  */
 class DeleteScreenSetting extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -927,7 +875,6 @@ class DeleteScreenSetting extends Request
  */
 class SaveWhiteListStrategy extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -944,7 +891,6 @@ class SaveWhiteListStrategy extends Request
  */
 class CreateOrUpdateDataSource extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -953,7 +899,6 @@ class CreateOrUpdateDataSource extends Request
  */
 class DescribeUuidConfig extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -964,7 +909,6 @@ class DescribeUuidConfig extends Request
  */
 class ModifyScreenSetting extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -989,7 +933,6 @@ class ModifyScreenSetting extends Request
  */
 class DescribeAlarmEventList extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -1002,7 +945,6 @@ class DescribeAlarmEventList extends Request
  */
 class ModifyStrategyTarget extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -1011,7 +953,6 @@ class ModifyStrategyTarget extends Request
  */
 class DescribeExportInfo extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -1020,7 +961,6 @@ class DescribeExportInfo extends Request
  */
 class DescribeConcernNecessity extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -1031,14 +971,12 @@ class DescribeConcernNecessity extends Request
  */
 class DeleteRule extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
  */
 class DescribeTopicList extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -1049,7 +987,6 @@ class DescribeTopicList extends Request
  */
 class DescribeLogShipperStatus extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -1060,7 +997,6 @@ class DescribeLogShipperStatus extends Request
  */
 class DescribeSuspiciousUUIDConfig extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -1069,7 +1005,6 @@ class DescribeSuspiciousUUIDConfig extends Request
  */
 class DescribeEcsStsStatus extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -1078,7 +1013,6 @@ class DescribeEcsStsStatus extends Request
  */
 class DescribeSlsProject extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -1087,7 +1021,6 @@ class DescribeSlsProject extends Request
  */
 class DescribeSuspiciousExportInfo extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -1100,7 +1033,6 @@ class DescribeSuspiciousExportInfo extends Request
  */
 class ModifyWebLockDeleteConfig extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -1143,7 +1075,6 @@ class ModifyWebLockDeleteConfig extends Request
  */
 class DescribeAllRegionsStatistics extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -1154,7 +1085,6 @@ class DescribeAllRegionsStatistics extends Request
  */
 class ValidateHcWarnings extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -1165,7 +1095,6 @@ class ValidateHcWarnings extends Request
  */
 class ModifyAssetGroup extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -1176,7 +1105,6 @@ class ModifyAssetGroup extends Request
  */
 class ModifyWebLockMachineList extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -1185,7 +1113,6 @@ class ModifyWebLockMachineList extends Request
  */
 class ModifyAutoDelConfig extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -1202,7 +1129,6 @@ class ModifyAutoDelConfig extends Request
  */
 class DescribeVulNumStatistics extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -1247,7 +1173,6 @@ class DescribeVulNumStatistics extends Request
  */
 class DescribeTotalStatistics extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -1256,7 +1181,6 @@ class DescribeTotalStatistics extends Request
  */
 class DescribeEmgNotice extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -1265,14 +1189,12 @@ class DescribeEmgNotice extends Request
  */
 class DeleteSearchCondition extends Request
 {
-
 }/**
  * @method $this setUuid($uuid)
  * @method string getUuid()
  */
 class GetStatisticsByUuid extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -1283,7 +1205,6 @@ class GetStatisticsByUuid extends Request
  */
 class DescribeScreenScoreThread extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -1298,7 +1219,6 @@ class DescribeScreenScoreThread extends Request
  */
 class DescribeWhiteListStrategyStatistics extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -1311,7 +1231,6 @@ class DescribeWhiteListStrategyStatistics extends Request
  */
 class ModifyEmgVulSubmit extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -1324,7 +1243,6 @@ class ModifyEmgVulSubmit extends Request
  */
 class DescribeWhiteListStrategyUuidCount extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -1335,7 +1253,6 @@ class DescribeWhiteListStrategyUuidCount extends Request
  */
 class DescribeStrategyTarget extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -1344,7 +1261,6 @@ class DescribeStrategyTarget extends Request
  */
 class DescribeOperateInfo extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -1359,7 +1275,6 @@ class DescribeOperateInfo extends Request
  */
 class DescribeNsasSuspEventType extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -1368,7 +1283,6 @@ class DescribeNsasSuspEventType extends Request
  */
 class ModifySasAssetStatisticsColumn extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -1385,7 +1299,6 @@ class ModifySasAssetStatisticsColumn extends Request
  */
 class ModifyLogMetaStatus extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -1396,7 +1309,6 @@ class ModifyLogMetaStatus extends Request
  */
 class ModifyClearLogstoreStorage extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -1407,7 +1319,6 @@ class ModifyClearLogstoreStorage extends Request
  */
 class CreateUserWhiteList extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -1416,7 +1327,6 @@ class CreateUserWhiteList extends Request
  */
 class DescribeWhiteListAuthorize extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -1431,7 +1341,6 @@ class DescribeWhiteListAuthorize extends Request
  */
 class CreateOrUpdateDingTalk extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -1442,14 +1351,12 @@ class CreateOrUpdateDingTalk extends Request
  */
 class DescribeAssetDetailByUuid extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
  */
 class DescribeSuspEventTypes extends Request
 {
-
 }/**
  * @method $this setGroupId($groupId)
  * @method int getGroupId()
@@ -1466,7 +1373,6 @@ class DescribeSuspEventTypes extends Request
  */
 class GetEntityList extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -1477,7 +1383,6 @@ class GetEntityList extends Request
  */
 class DescribeSuspEventExportInfo extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -1492,7 +1397,6 @@ class DescribeSuspEventExportInfo extends Request
  */
 class SetDatasourceStatus extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1501,7 +1405,6 @@ class SetDatasourceStatus extends Request
  */
 class ReleaseInstance extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -1512,7 +1415,6 @@ class ReleaseInstance extends Request
  */
 class ModifyOpenLogShipper extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -1521,7 +1423,6 @@ class ModifyOpenLogShipper extends Request
  */
 class DescribeVulTargetStatistics extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -1542,7 +1443,6 @@ class DescribeVulTargetStatistics extends Request
  */
 class CreateInstance extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -1565,7 +1465,6 @@ class CreateInstance extends Request
  */
 class CreateSuspiciousExport extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -1574,7 +1473,6 @@ class CreateSuspiciousExport extends Request
  */
 class DescribeVulExportInfo extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -1603,7 +1501,6 @@ class DescribeVulExportInfo extends Request
  */
 class ExportVul extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -1622,7 +1519,6 @@ class ExportVul extends Request
  */
 class DescribeMacConfig extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -1633,14 +1529,12 @@ class DescribeMacConfig extends Request
  */
 class SaveSuspEventUserSetting extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
  */
 class DescribeBuySummary extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -1655,7 +1549,6 @@ class DescribeBuySummary extends Request
  */
 class DescribeDataSource extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -1666,7 +1559,6 @@ class DescribeDataSource extends Request
  */
 class OperateResult extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -1685,7 +1577,6 @@ class OperateResult extends Request
  */
 class CreateOrUpdateGroup extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -1698,7 +1589,6 @@ class CreateOrUpdateGroup extends Request
  */
 class DescribeSuspEventDetail extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -1709,7 +1599,6 @@ class DescribeSuspEventDetail extends Request
  */
 class OperateSuspiciousEvent extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -1720,7 +1609,6 @@ class OperateSuspiciousEvent extends Request
  */
 class DescribeStratety extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -1737,7 +1625,6 @@ class DescribeStratety extends Request
  */
 class DescribeEventCountCurve extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -1752,14 +1639,12 @@ class DescribeEventCountCurve extends Request
  */
 class DescribeWebshell extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
  */
 class CanTrySas extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -1770,7 +1655,6 @@ class CanTrySas extends Request
  */
 class DescribeInstanceStatistics extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -1793,7 +1677,6 @@ class DescribeInstanceStatistics extends Request
  */
 class DescribeWhiteListProcess extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -1804,7 +1687,6 @@ class DescribeWhiteListProcess extends Request
  */
 class ModifyVulTarget extends Request
 {
-
 }/**
  * @method $this setStartTime($startTime)
  * @method string getStartTime()
@@ -1813,7 +1695,6 @@ class ModifyVulTarget extends Request
  */
 class GetStatistics extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -1828,7 +1709,6 @@ class GetStatistics extends Request
  */
 class DescribeSasAssetStatistics extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -1853,7 +1733,6 @@ class DescribeSasAssetStatistics extends Request
  */
 class DescribeScreenAlarmEventList extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -1862,7 +1741,6 @@ class DescribeScreenAlarmEventList extends Request
  */
 class DescribeEmgUserAgreement extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -1877,7 +1755,6 @@ class DescribeEmgUserAgreement extends Request
  */
 class UpdateWhiteListProcessStatus extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -1888,7 +1765,6 @@ class UpdateWhiteListProcessStatus extends Request
  */
 class ModifyVulConfig extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -1897,14 +1773,12 @@ class ModifyVulConfig extends Request
  */
 class DescribeTopRiskyAssets extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
  */
 class DescribeAnalysisStatistics extends Request
 {
-
 }/**
  * @method $this setStartTime($startTime)
  * @method string getStartTime()
@@ -1913,7 +1787,6 @@ class DescribeAnalysisStatistics extends Request
  */
 class GetAccountStatistics extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -1940,7 +1813,6 @@ class GetAccountStatistics extends Request
  */
 class Describesummary extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -1951,7 +1823,6 @@ class Describesummary extends Request
  */
 class DescribeWebLockConfigList extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -1960,7 +1831,6 @@ class DescribeWebLockConfigList extends Request
  */
 class ModifyVulLevel extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -1993,7 +1863,6 @@ class ModifyVulLevel extends Request
  */
 class ExportWarning extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -2012,7 +1881,6 @@ class ExportWarning extends Request
  */
 class DescribeWhiteListEffectiveAssets extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -2037,7 +1905,6 @@ class DescribeWhiteListEffectiveAssets extends Request
  */
 class DescribeCheckWarningSummary extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -2050,14 +1917,12 @@ class DescribeCheckWarningSummary extends Request
  */
 class DescribeVulMachineList extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
  */
 class DescribeVersionConfig extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -2066,7 +1931,6 @@ class DescribeVersionConfig extends Request
  */
 class DescribeEmgVulGroup extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -2083,7 +1947,6 @@ class DescribeEmgVulGroup extends Request
  */
 class DescribeLogInfo extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -2094,7 +1957,6 @@ class DescribeLogInfo extends Request
  */
 class DescribeEventLevelCount extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -2105,7 +1967,6 @@ class DescribeEventLevelCount extends Request
  */
 class ExecuteRuleEngineActualTime extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -2114,7 +1975,6 @@ class ExecuteRuleEngineActualTime extends Request
  */
 class DescribeSecureSuggestion extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -2127,7 +1987,6 @@ class DescribeSecureSuggestion extends Request
  */
 class DescribeSasLeftCondition extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -2154,7 +2013,6 @@ class DescribeSasLeftCondition extends Request
  */
 class DescribeSuspEvents extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -2165,7 +2023,6 @@ class DescribeSuspEvents extends Request
  */
 class CreateVulWhitelist extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -2174,7 +2031,6 @@ class CreateVulWhitelist extends Request
  */
 class DescribeSummaryInfo extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -2183,7 +2039,6 @@ class DescribeSummaryInfo extends Request
  */
 class DescribeScreenSetting extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -2198,7 +2053,6 @@ class DescribeScreenSetting extends Request
  */
 class OperateVul extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -2207,21 +2061,18 @@ class OperateVul extends Request
  */
 class DeleteVulWhitelist extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
  */
 class DescribeVulLevel extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
  */
 class DescribeAnalysisShipperStatus extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -2244,7 +2095,6 @@ class DescribeAnalysisShipperStatus extends Request
  */
 class DescribeAttackAnalysisData extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -2263,7 +2113,6 @@ class DescribeAttackAnalysisData extends Request
  */
 class DescribeAnalysisLogs extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -2284,7 +2133,6 @@ class DescribeAnalysisLogs extends Request
  */
 class DescribeSuspiciousEvents extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -2299,7 +2147,6 @@ class DescribeSuspiciousEvents extends Request
  */
 class DescribeAssetList extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -2312,7 +2159,6 @@ class DescribeAssetList extends Request
  */
 class DescribeRiskWhiteList extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -2325,7 +2171,6 @@ class DescribeRiskWhiteList extends Request
  */
 class DescribeRiskType extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -2336,14 +2181,12 @@ class DescribeRiskType extends Request
  */
 class DescribeSuspEventUserSetting extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
  */
 class DescribeSuspTrendStatistics extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -2362,14 +2205,12 @@ class DescribeSuspTrendStatistics extends Request
  */
 class ModifyWebLockCreateConfig extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
  */
 class DescribeUserSetting extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -2380,7 +2221,6 @@ class DescribeUserSetting extends Request
  */
 class DescribeTarget extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -2389,14 +2229,12 @@ class DescribeTarget extends Request
  */
 class OpenSasTrial extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
  */
 class DescribeAutoDelConfig extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -2413,7 +2251,6 @@ class DescribeAutoDelConfig extends Request
  */
 class DescribeWebLockBindList extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -2424,7 +2261,6 @@ class DescribeWebLockBindList extends Request
  */
 class DescribeVulWhitelist extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -2433,7 +2269,6 @@ class DescribeVulWhitelist extends Request
  */
 class DeleteJoinRule extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -2460,7 +2295,6 @@ class DeleteJoinRule extends Request
  */
 class ExportSuspEvents extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -2473,14 +2307,12 @@ class ExportSuspEvents extends Request
  */
 class DescribeAlarmEventDetail extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
  */
 class DescribeListAccessKeyIdAuth extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -2493,7 +2325,6 @@ class DescribeListAccessKeyIdAuth extends Request
  */
 class ModifyTargetConfig extends Request
 {
-
 }/**
  * @method $this setStartTime($startTime)
  * @method string getStartTime()
@@ -2502,7 +2333,6 @@ class ModifyTargetConfig extends Request
  */
 class GetCrackStatistics extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -2513,7 +2343,6 @@ class GetCrackStatistics extends Request
  */
 class DescribeGroupStruct extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -2524,7 +2353,6 @@ class DescribeGroupStruct extends Request
  */
 class DescribeStratetyDetail extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -2545,7 +2373,6 @@ class DescribeStratetyDetail extends Request
  */
 class ModifyWebLockUpdateConfig extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -2556,7 +2383,6 @@ class ModifyWebLockUpdateConfig extends Request
  */
 class ModifyWebLockOperateEvents extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -2567,7 +2393,6 @@ class ModifyWebLockOperateEvents extends Request
  */
 class DescribeAgentInstallStatus extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -2578,7 +2403,6 @@ class DescribeAgentInstallStatus extends Request
  */
 class DescribeLogMeta extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -2589,7 +2413,6 @@ class DescribeLogMeta extends Request
  */
 class DescribeVulnerabilitySummary extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -2616,7 +2439,6 @@ class DescribeVulnerabilitySummary extends Request
  */
 class CreateOrUpdateRule extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -2627,14 +2449,12 @@ class CreateOrUpdateRule extends Request
  */
 class ModifyBatchIgnoreVul extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
  */
 class DescribeStatistics extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -2653,7 +2473,6 @@ class DescribeStatistics extends Request
  */
 class DescribeLoginLogs extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -2664,7 +2483,6 @@ class DescribeLoginLogs extends Request
  */
 class DescribeAnalysisCurve extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -2673,7 +2491,6 @@ class DescribeAnalysisCurve extends Request
  */
 class DescribeScreenSecurityStatInfo extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -2692,7 +2509,6 @@ class DescribeScreenSecurityStatInfo extends Request
  */
 class DescribeGroupList extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -2709,7 +2525,6 @@ class DescribeGroupList extends Request
  */
 class DescribeTraceInfoDetail extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -2720,7 +2535,6 @@ class DescribeTraceInfoDetail extends Request
  */
 class DeleteVulBatch extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -2737,7 +2551,6 @@ class DeleteVulBatch extends Request
  */
 class OperationSuspEvents extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -2748,7 +2561,6 @@ class OperationSuspEvents extends Request
  */
 class DescribeCheckWarningDetail extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -2759,7 +2571,6 @@ class DescribeCheckWarningDetail extends Request
  */
 class DescribeWebLockStatus extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -2790,7 +2601,6 @@ class DescribeWebLockStatus extends Request
  */
 class CreateOrUpdateJoinRule extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -2829,14 +2639,12 @@ class CreateOrUpdateJoinRule extends Request
  */
 class DescribeVulList extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
  */
 class DescribeScreenSettings extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -2845,7 +2653,6 @@ class DescribeScreenSettings extends Request
  */
 class DescribeStrategyExecDetail extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -2856,7 +2663,6 @@ class DescribeStrategyExecDetail extends Request
  */
 class ModifyConcernNecessity extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -2879,7 +2685,6 @@ class ModifyConcernNecessity extends Request
  */
 class DescribeMachineConfig extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -2894,7 +2699,6 @@ class DescribeMachineConfig extends Request
  */
 class SaveWhiteListStrategyAssets extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -2909,7 +2713,6 @@ class SaveWhiteListStrategyAssets extends Request
  */
 class UpgradeInstance extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -2926,7 +2729,6 @@ class UpgradeInstance extends Request
  */
 class ModifyStrategy extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -2939,7 +2741,6 @@ class ModifyStrategy extends Request
  */
 class OperateWarning extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -2962,7 +2763,6 @@ class OperateWarning extends Request
  */
 class DescribeRuleList extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -2975,7 +2775,6 @@ class DescribeRuleList extends Request
  */
 class UpdateWhiteListStrategyStatus extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -2996,7 +2795,6 @@ class UpdateWhiteListStrategyStatus extends Request
  */
 class DescribeWarningMachines extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -3011,7 +2809,6 @@ class DescribeWarningMachines extends Request
  */
 class DescribeSuspEventQuaraFiles extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -3030,7 +2827,6 @@ class DescribeSuspEventQuaraFiles extends Request
  */
 class UpdateWhiteListStrategyRelation extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -3039,7 +2835,6 @@ class UpdateWhiteListStrategyRelation extends Request
  */
 class DescribeDingTalk extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -3052,14 +2847,12 @@ class DescribeDingTalk extends Request
  */
 class DescribeMetaData extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
  */
 class DescribeCanTrySas extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -3076,7 +2869,6 @@ class DescribeCanTrySas extends Request
  */
 class RenewInstance extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -3085,14 +2877,12 @@ class RenewInstance extends Request
  */
 class DescribeStrategyProcess extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
  */
 class DescribeScreenVersionConfig extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -3101,7 +2891,6 @@ class DescribeScreenVersionConfig extends Request
  */
 class DescribeWebLockMachineList extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -3118,7 +2907,6 @@ class DescribeWebLockMachineList extends Request
  */
 class DescribeWhiteListAsset extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -3133,7 +2921,6 @@ class DescribeWhiteListAsset extends Request
  */
 class DescribeVulDetails extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -3144,7 +2931,6 @@ class DescribeVulDetails extends Request
  */
 class DescribeQuaraFile extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -3153,7 +2939,6 @@ class DescribeQuaraFile extends Request
  */
 class DescribeWhiteListStrategyCount extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -3164,7 +2949,6 @@ class DescribeWhiteListStrategyCount extends Request
  */
 class DescribeWhiteListStrategyList extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -3187,14 +2971,12 @@ class DescribeWhiteListStrategyList extends Request
  */
 class DescribeScreenAttackAnalysisData extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
  */
 class DescribeApiBuySummary extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -3203,14 +2985,12 @@ class DescribeApiBuySummary extends Request
  */
 class BatchDeleteWhiteList extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
  */
 class DescribeLogQuery extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -3233,7 +3013,6 @@ class DescribeLogQuery extends Request
  */
 class DescribeTraceInfoNodeList extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -3248,7 +3027,6 @@ class DescribeTraceInfoNodeList extends Request
  */
 class IgnoreHcCheckWarnings extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -3257,7 +3035,6 @@ class IgnoreHcCheckWarnings extends Request
  */
 class DescribeScreenOperateInfo extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -3272,5 +3049,4 @@ class DescribeScreenOperateInfo extends Request
  */
 class RollbackQuaraFile extends Request
 {
-
 }

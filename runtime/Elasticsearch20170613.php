@@ -45,21 +45,18 @@ class V20170613
  */
 class UpdateDescription extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
  */
 class UpdateInstanceSettings extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
  */
 class UpdateBlackIps extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -78,35 +75,30 @@ class UpdateBlackIps extends Request
  */
 class ListSearchLog extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
  */
 class UpdateKibanaWhiteIps extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
  */
 class UpdateInstance extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
  */
 class UpdatePrivateNetworkWhiteIps extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
  */
 class UpdateAdminPassword extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -121,21 +113,18 @@ class UpdateAdminPassword extends Request
  */
 class ListPlugins extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
  */
 class UpdateSnapshotSetting extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
  */
 class DeleteInstance extends Request
 {
-
 }/**
  * @method $this setpage($page)
  * @method int getpage()
@@ -150,97 +139,82 @@ class DeleteInstance extends Request
  */
 class ListInstance extends Request
 {
-
 }/**
  */
 class createInstance extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
  */
 class UpdateDict extends Request
 {
-
 }/**
  */
 class CreateProject extends Request
 {
-
 }/**
  * @method $this setId($id)
  * @method string getId()
  */
 class DeleteProject extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
  */
 class UpdateWhiteIps extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
  */
 class DescribeInstance extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
  */
 class UpdatePublicNetwork extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
  */
 class InstallSystemPlugin extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
  */
 class RestartInstance extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
  */
 class UpdateSynonymsDicts extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
  */
 class UpdatePublicWhiteIps extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
  */
 class UninstallPlugin extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
  */
 class UpdateHotIkDicts extends Request
 {
-
 }/**
  */
 class GetRegionConfiguration extends Request
 {
-
 }

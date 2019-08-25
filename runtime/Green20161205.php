@@ -32,7 +32,6 @@ class V20161205
  */
 class TextKeywordFilter extends Request
 {
-
 }/**
  * @method $this setTaskId($taskId)
  * @method array getTaskId()
@@ -41,7 +40,6 @@ class TextKeywordFilter extends Request
  */
 class ImageResults extends Request
 {
-
 }/**
  * @method $this setImageUrl($imageUrl)
  * @method array getImageUrl()
@@ -58,7 +56,6 @@ class ImageResults extends Request
  */
 class ImageDetection extends Request
 {
-
 }/**
  * @method $this setDataId($dataId)
  * @method array getDataId()
@@ -67,7 +64,6 @@ class ImageDetection extends Request
  */
 class AntispamResults extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -84,7 +80,6 @@ class AntispamResults extends Request
  */
 class PluginAntispamResults extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -93,7 +88,6 @@ class PluginAntispamResults extends Request
  */
 class TextWordCorrect extends Request
 {
-
 }/**
  * @method $this setImageUrl($imageUrl)
  * @method array getImageUrl()
@@ -124,7 +118,6 @@ class TextWordCorrect extends Request
  */
 class AntispamDetection extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -133,7 +126,6 @@ class AntispamDetection extends Request
  */
 class TextAntispamDetection extends Request
 {
-
 }/**
  * @method $this setTaskId($taskId)
  * @method array getTaskId()
@@ -146,7 +138,6 @@ class TextAntispamDetection extends Request
  */
 class SampleFeedback extends Request
 {
-
 }/**
  * @method $this setIds($ids)
  * @method array getIds()
@@ -159,7 +150,6 @@ class SampleFeedback extends Request
  */
 class PluginAntispamFeedback extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -186,5 +176,4 @@ class PluginAntispamFeedback extends Request
  */
 class PluginAntispamDetection extends Request
 {
-
 }

@@ -43,7 +43,6 @@ class V20180720
  */
 class QueryAddUserInfo extends Request
 {
-
 }/**
  * @method $this setGroupId($groupId)
  * @method string getGroupId()
@@ -52,21 +51,18 @@ class QueryAddUserInfo extends Request
  */
 class DeleteFace extends Request
 {
-
 }/**
  * @method $this setGroupId($groupId)
  * @method string getGroupId()
  */
 class DeleteGroup extends Request
 {
-
 }/**
  * @method $this setGroupId($groupId)
  * @method string getGroupId()
  */
 class CreateGroup extends Request
 {
-
 }/**
  * @method $this setIotId($iotId)
  * @method string getIotId()
@@ -79,7 +75,6 @@ class CreateGroup extends Request
  */
 class QuerySyncPicSchedule extends Request
 {
-
 }/**
  * @method $this setImage($image)
  * @method string getImage()
@@ -88,7 +83,6 @@ class QuerySyncPicSchedule extends Request
  */
 class SearchFace extends Request
 {
-
 }/**
  * @method $this setUserId($userId)
  * @method string getUserId()
@@ -97,7 +91,6 @@ class SearchFace extends Request
  */
 class UnlinkFace extends Request
 {
-
 }/**
  * @method $this setUserId($userId)
  * @method string getUserId()
@@ -108,7 +101,6 @@ class UnlinkFace extends Request
  */
 class UpdateFace extends Request
 {
-
 }/**
  * @method $this setCurrentPage($currentPage)
  * @method int getCurrentPage()
@@ -117,7 +109,6 @@ class UpdateFace extends Request
  */
 class QueryAllGroups extends Request
 {
-
 }/**
  * @method $this setIotId($iotId)
  * @method string getIotId()
@@ -130,7 +121,6 @@ class QueryAllGroups extends Request
  */
 class DeleteDeviceGroup extends Request
 {
-
 }/**
  * @method $this setGroupId($groupId)
  * @method string getGroupId()
@@ -143,7 +133,6 @@ class DeleteDeviceGroup extends Request
  */
 class RegisterFace extends Request
 {
-
 }/**
  * @method $this setGroupId($groupId)
  * @method string getGroupId()
@@ -154,7 +143,6 @@ class RegisterFace extends Request
  */
 class QueryGroupUsers extends Request
 {
-
 }/**
  * @method $this setLicenseType($licenseType)
  * @method int getLicenseType()
@@ -165,7 +153,6 @@ class QueryGroupUsers extends Request
  */
 class QueryLicenses extends Request
 {
-
 }/**
  * @method $this setIotId($iotId)
  * @method string getIotId()
@@ -176,14 +163,12 @@ class QueryLicenses extends Request
  */
 class DeleteDeviceAllGroup extends Request
 {
-
 }/**
  * @method $this setUserId($userId)
  * @method string getUserId()
  */
 class QueryFace extends Request
 {
-
 }/**
  * @method $this setIotId($iotId)
  * @method string getIotId()
@@ -196,7 +181,6 @@ class QueryFace extends Request
  */
 class SyncFacePictures extends Request
 {
-
 }/**
  * @method $this setLicenseType($licenseType)
  * @method int getLicenseType()
@@ -213,7 +197,6 @@ class SyncFacePictures extends Request
  */
 class QueryAuthentication extends Request
 {
-
 }/**
  * @method $this setUserId($userId)
  * @method string getUserId()
@@ -222,5 +205,4 @@ class QueryAuthentication extends Request
  */
 class LinkFace extends Request
 {
-
 }

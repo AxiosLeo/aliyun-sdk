@@ -28,5 +28,4 @@ class V20170525
  */
 class QueryTokenForMnsQueue extends Request
 {
-
 }

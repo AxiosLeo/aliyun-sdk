@@ -43,7 +43,6 @@ class V20170525
  */
 class QueryCallDetailByCallId extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -72,7 +71,6 @@ class QueryCallDetailByCallId extends Request
  */
 class ClickToDial extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -89,7 +87,6 @@ class ClickToDial extends Request
  */
 class GetRtcToken extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -106,7 +103,6 @@ class GetRtcToken extends Request
  */
 class QueryCallDetailByTaskId extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -119,7 +115,6 @@ class QueryCallDetailByTaskId extends Request
  */
 class AddRtcAccount extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -136,7 +131,6 @@ class AddRtcAccount extends Request
  */
 class VoipGetToken extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -189,7 +183,6 @@ class VoipGetToken extends Request
  */
 class SmartCall extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -214,7 +207,6 @@ class SmartCall extends Request
  */
 class SingleCallByVoice extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -227,7 +219,6 @@ class SingleCallByVoice extends Request
  */
 class VoipAddAccount extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -240,7 +231,6 @@ class VoipAddAccount extends Request
  */
 class CancelCall extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -273,7 +263,6 @@ class CancelCall extends Request
  */
 class BatchRobotSmartCall extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -286,7 +275,6 @@ class BatchRobotSmartCall extends Request
  */
 class QueryRobotInfoList extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -313,7 +301,6 @@ class QueryRobotInfoList extends Request
  */
 class SingleCallByTts extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -344,5 +331,4 @@ class SingleCallByTts extends Request
  */
 class IvrCall extends Request
 {
-
 }

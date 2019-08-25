@@ -34,28 +34,24 @@ class V20180608
  */
 class DeleteFace extends Request
 {
-
 }/**
  * @method $this setGroupId($groupId)
  * @method string getGroupId()
  */
 class DeleteGroup extends Request
 {
-
 }/**
  * @method $this setGroupId($groupId)
  * @method string getGroupId()
  */
 class CreateGroup extends Request
 {
-
 }/**
  * @method $this setIotId($iotId)
  * @method string getIotId()
  */
 class QuerySyncPicSchedule extends Request
 {
-
 }/**
  * @method $this setUserId($userId)
  * @method string getUserId()
@@ -64,7 +60,6 @@ class QuerySyncPicSchedule extends Request
  */
 class UnLinkFace extends Request
 {
-
 }/**
  * @method $this setUserId($userId)
  * @method string getUserId()
@@ -73,7 +68,6 @@ class UnLinkFace extends Request
  */
 class UpdateFace extends Request
 {
-
 }/**
  * @method $this setGroupId($groupId)
  * @method string getGroupId()
@@ -84,26 +78,22 @@ class UpdateFace extends Request
  */
 class RegisterFace extends Request
 {
-
 }/**
  * @method $this setGroupId($groupId)
  * @method string getGroupId()
  */
 class QueryUsers extends Request
 {
-
 }/**
  */
 class QueryGroups extends Request
 {
-
 }/**
  * @method $this setUserId($userId)
  * @method string getUserId()
  */
 class QueryFace extends Request
 {
-
 }/**
  * @method $this setIotId($iotId)
  * @method string getIotId()
@@ -112,7 +102,6 @@ class QueryFace extends Request
  */
 class SyncFacePictures extends Request
 {
-
 }/**
  * @method $this setUserId($userId)
  * @method string getUserId()
@@ -121,7 +110,6 @@ class SyncFacePictures extends Request
  */
 class LinkFace extends Request
 {
-
 }/**
  * @method $this setLicenseType($licenseType)
  * @method int getLicenseType()
@@ -130,5 +118,4 @@ class LinkFace extends Request
  */
 class BuyLicenses extends Request
 {
-
 }

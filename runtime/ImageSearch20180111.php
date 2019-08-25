@@ -27,7 +27,6 @@ class V20180111
  */
 class ClearInstance extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method int getInstanceId()
@@ -42,14 +41,12 @@ class ClearInstance extends Request
  */
 class IncreaseInstance extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method int getInstanceId()
  */
 class CountInstance extends Request
 {
-
 }/**
  * @method $this setServiceType($serviceType)
  * @method int getServiceType()
@@ -62,19 +59,16 @@ class CountInstance extends Request
  */
 class ListInstance extends Request
 {
-
 }/**
  */
 class DescribeRegions extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method int getInstanceId()
  */
 class DescribeInstance extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method int getInstanceId()
@@ -87,12 +81,10 @@ class DescribeInstance extends Request
  */
 class ListIncrement extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method int getInstanceId()
  */
 class InitInstance extends Request
 {
-
 }

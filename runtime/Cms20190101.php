@@ -123,21 +123,18 @@ class V20190101
  */
 class ModifyMonitorGroup extends Request
 {
-
 }/**
  * @method $this setProduct($product)
  * @method string getProduct()
  */
 class EnableActiveMetricRule extends Request
 {
-
 }/**
  * @method $this setGroupId($groupId)
  * @method int getGroupId()
  */
 class DescribeMonitorGroupCategories extends Request
 {
-
 }/**
  * @method $this setNamePrefix($namePrefix)
  * @method string getNamePrefix()
@@ -150,7 +147,6 @@ class DescribeMonitorGroupCategories extends Request
  */
 class DescribeEventRuleList extends Request
 {
-
 }/**
  * @method $this setPageSize($pageSize)
  * @method int getPageSize()
@@ -159,7 +155,6 @@ class DescribeEventRuleList extends Request
  */
 class DescribeContactGroupList extends Request
 {
-
 }/**
  * @method $this setContactName($contactName)
  * @method string getContactName()
@@ -176,7 +171,6 @@ class DescribeContactGroupList extends Request
  */
 class PutContact extends Request
 {
-
 }/**
  * @method $this setAddress($address)
  * @method string getAddress()
@@ -195,7 +189,6 @@ class PutContact extends Request
  */
 class CreateSiteMonitor extends Request
 {
-
 }/**
  * @method $this setGroupId($groupId)
  * @method string getGroupId()
@@ -212,14 +205,12 @@ class CreateSiteMonitor extends Request
  */
 class DescribeCustomMetricList extends Request
 {
-
 }/**
  * @method $this setTaskIds($taskIds)
  * @method string getTaskIds()
  */
 class DisableSiteMonitors extends Request
 {
-
 }/**
  * @method $this setRuleName($ruleName)
  * @method string getRuleName()
@@ -236,7 +227,6 @@ class DisableSiteMonitors extends Request
  */
 class PutEventRule extends Request
 {
-
 }/**
  * @method $this setAutoInstall($autoInstall)
  * @method bool getAutoInstall()
@@ -245,7 +235,6 @@ class PutEventRule extends Request
  */
 class PutMonitoringConfig extends Request
 {
-
 }/**
  * @method $this setContactGroupName($contactGroupName)
  * @method string getContactGroupName()
@@ -256,19 +245,16 @@ class PutMonitoringConfig extends Request
  */
 class PutContactGroup extends Request
 {
-
 }/**
  * @method $this setId($id)
  * @method array getId()
  */
 class DeleteMetricRules extends Request
 {
-
 }/**
  */
 class DescribeProductsOfActiveMetricRule extends Request
 {
-
 }/**
  * @method $this setPageSize($pageSize)
  * @method int getPageSize()
@@ -285,14 +271,12 @@ class DescribeProductsOfActiveMetricRule extends Request
  */
 class DescribeMonitorGroupInstances extends Request
 {
-
 }/**
  * @method $this setProduct($product)
  * @method string getProduct()
  */
 class DescribeActiveMetricRuleList extends Request
 {
-
 }/**
  * @method $this setGroupId($groupId)
  * @method int getGroupId()
@@ -301,14 +285,12 @@ class DescribeActiveMetricRuleList extends Request
  */
 class PutMonitorGroupDynamicRule extends Request
 {
-
 }/**
  * @method $this setProduct($product)
  * @method string getProduct()
  */
 class DisableActiveMetricRule extends Request
 {
-
 }/**
  * @method $this setTaskIds($taskIds)
  * @method string getTaskIds()
@@ -317,7 +299,6 @@ class DisableActiveMetricRule extends Request
  */
 class DeleteSiteMonitors extends Request
 {
-
 }/**
  * @method $this setTaskId($taskId)
  * @method string getTaskId()
@@ -332,7 +313,6 @@ class DeleteSiteMonitors extends Request
  */
 class DescribeSiteMonitorList extends Request
 {
-
 }/**
  * @method $this setKeyWord($keyWord)
  * @method string getKeyWord()
@@ -351,14 +331,12 @@ class DescribeSiteMonitorList extends Request
  */
 class DescribeMonitoringAgentHosts extends Request
 {
-
 }/**
  * @method $this setRuleNames($ruleNames)
  * @method array getRuleNames()
  */
 class EnableEventRules extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -369,14 +347,12 @@ class EnableEventRules extends Request
  */
 class DeleteMonitoringAgentProcess extends Request
 {
-
 }/**
  * @method $this setRuleId($ruleId)
  * @method array getRuleId()
  */
 class DisableMetricRules extends Request
 {
-
 }/**
  * @method $this setGroupId($groupId)
  * @method int getGroupId()
@@ -385,7 +361,6 @@ class DisableMetricRules extends Request
  */
 class DeleteMonitorGroupDynamicRule extends Request
 {
-
 }/**
  * @method $this setGroupId($groupId)
  * @method int getGroupId()
@@ -396,7 +371,6 @@ class DeleteMonitorGroupDynamicRule extends Request
  */
 class DeleteMonitorGroupInstances extends Request
 {
-
 }/**
  * @method $this setNamespace($namespace)
  * @method string getNamespace()
@@ -419,7 +393,6 @@ class DeleteMonitorGroupInstances extends Request
  */
 class DescribeMetricLast extends Request
 {
-
 }/**
  * @method $this setTaskId($taskId)
  * @method string getTaskId()
@@ -428,19 +401,16 @@ class DescribeMetricLast extends Request
  */
 class DescribeSiteMonitorAttribute extends Request
 {
-
 }/**
  */
 class DescribeMonitoringAgentConfig extends Request
 {
-
 }/**
  * @method $this setRuleNames($ruleNames)
  * @method array getRuleNames()
  */
 class DeleteEventRules extends Request
 {
-
 }/**
  * @method $this setProcessName($processName)
  * @method string getProcessName()
@@ -451,7 +421,6 @@ class DeleteEventRules extends Request
  */
 class CreateMonitoringAgentProcess extends Request
 {
-
 }/**
  * @method $this setPolicyType($policyType)
  * @method string getPolicyType()
@@ -464,7 +433,6 @@ class CreateMonitoringAgentProcess extends Request
  */
 class CreateMonitorGroupNotifyPolicy extends Request
 {
-
 }/**
  * @method $this setName($name)
  * @method string getName()
@@ -481,12 +449,10 @@ class CreateMonitorGroupNotifyPolicy extends Request
  */
 class DescribeMetricRuleTemplateList extends Request
 {
-
 }/**
  */
 class DescribeSystemEventMetaList extends Request
 {
-
 }/**
  * @method $this setNamespace($namespace)
  * @method string getNamespace()
@@ -507,7 +473,6 @@ class DescribeSystemEventMetaList extends Request
  */
 class DescribeMetricData extends Request
 {
-
 }/**
  * @method $this setPeriod($period)
  * @method string getPeriod()
@@ -532,14 +497,12 @@ class DescribeMetricData extends Request
  */
 class DescribeMetricTop extends Request
 {
-
 }/**
  * @method $this setRuleName($ruleName)
  * @method string getRuleName()
  */
 class DescribeEventRuleTargetList extends Request
 {
-
 }/**
  * @method $this setGroupId($groupId)
  * @method string getGroupId()
@@ -552,7 +515,6 @@ class DescribeEventRuleTargetList extends Request
  */
 class DeleteCustomMetric extends Request
 {
-
 }/**
  * @method $this setNamespace($namespace)
  * @method string getNamespace()
@@ -567,14 +529,12 @@ class DeleteCustomMetric extends Request
  */
 class DescribeMetricMetaList extends Request
 {
-
 }/**
  * @method $this setRuleNames($ruleNames)
  * @method array getRuleNames()
  */
 class DisableEventRules extends Request
 {
-
 }/**
  * @method $this setProduct($product)
  * @method string getProduct()
@@ -587,7 +547,6 @@ class DisableEventRules extends Request
  */
 class SendDryRunSystemEvent extends Request
 {
-
 }/**
  * @method $this setGroupId($groupId)
  * @method int getGroupId()
@@ -596,21 +555,18 @@ class SendDryRunSystemEvent extends Request
  */
 class CreateMonitorGroupInstances extends Request
 {
-
 }/**
  * @method $this setTemplateId($templateId)
  * @method string getTemplateId()
  */
 class DeleteMetricRuleTemplate extends Request
 {
-
 }/**
  * @method $this setContactName($contactName)
  * @method string getContactName()
  */
 class DeleteContact extends Request
 {
-
 }/**
  * @method $this setName($name)
  * @method string getName()
@@ -629,14 +585,12 @@ class DeleteContact extends Request
  */
 class DescribeCustomEventHistogram extends Request
 {
-
 }/**
  * @method $this setTaskIds($taskIds)
  * @method string getTaskIds()
  */
 class EnableSiteMonitors extends Request
 {
-
 }/**
  * @method $this setNamespace($namespace)
  * @method string getNamespace()
@@ -659,14 +613,12 @@ class EnableSiteMonitors extends Request
  */
 class DescribeMetricList extends Request
 {
-
 }/**
  * @method $this setId($id)
  * @method array getId()
  */
 class DeleteHostAvailability extends Request
 {
-
 }/**
  * @method $this setGroupId($groupId)
  * @method int getGroupId()
@@ -675,7 +627,6 @@ class DeleteHostAvailability extends Request
  */
 class CreateGroupMetricRules extends Request
 {
-
 }/**
  * @method $this setNamespace($namespace)
  * @method string getNamespace()
@@ -684,19 +635,16 @@ class CreateGroupMetricRules extends Request
  */
 class DescribeMetricRuleCount extends Request
 {
-
 }/**
  */
 class DescribeMonitoringConfig extends Request
 {
-
 }/**
  * @method $this setGroupId($groupId)
  * @method int getGroupId()
  */
 class DescribeMonitorGroupDynamicRules extends Request
 {
-
 }/**
  * @method $this setName($name)
  * @method string getName()
@@ -707,7 +655,6 @@ class DescribeMonitorGroupDynamicRules extends Request
  */
 class CreateMetricRuleTemplate extends Request
 {
-
 }/**
  * @method $this setName($name)
  * @method string getName()
@@ -716,21 +663,18 @@ class CreateMetricRuleTemplate extends Request
  */
 class DescribeMetricRuleTemplateAttribute extends Request
 {
-
 }/**
  * @method $this setMetricList($metricList)
  * @method array getMetricList()
  */
 class PutCustomMetric extends Request
 {
-
 }/**
  * @method $this setRuleId($ruleId)
  * @method array getRuleId()
  */
 class EnableMetricRules extends Request
 {
-
 }/**
  * @method $this setForce($force)
  * @method bool getForce()
@@ -739,7 +683,6 @@ class EnableMetricRules extends Request
  */
 class InstallMonitoringAgent extends Request
 {
-
 }/**
  * @method $this setName($name)
  * @method string getName()
@@ -762,7 +705,6 @@ class InstallMonitoringAgent extends Request
  */
 class DescribeCustomEventAttribute extends Request
 {
-
 }/**
  * @method $this setSilenceTime($silenceTime)
  * @method int getSilenceTime()
@@ -783,7 +725,6 @@ class DescribeCustomEventAttribute extends Request
  */
 class ApplyMetricRuleTemplate extends Request
 {
-
 }/**
  * @method $this setName($name)
  * @method string getName()
@@ -802,7 +743,6 @@ class ApplyMetricRuleTemplate extends Request
  */
 class DescribeCustomEventCount extends Request
 {
-
 }/**
  * @method $this setTaskId($taskId)
  * @method string getTaskId()
@@ -813,7 +753,6 @@ class DescribeCustomEventCount extends Request
  */
 class DescribeSiteMonitorStatistics extends Request
 {
-
 }/**
  * @method $this setProduct($product)
  * @method string getProduct()
@@ -836,7 +775,6 @@ class DescribeSiteMonitorStatistics extends Request
  */
 class DescribeSystemEventCount extends Request
 {
-
 }/**
  * @method $this setTemplateId($templateId)
  * @method int getTemplateId()
@@ -851,7 +789,6 @@ class DescribeSystemEventCount extends Request
  */
 class ModifyMetricRuleTemplate extends Request
 {
-
 }/**
  * @method $this setRuleId($ruleId)
  * @method string getRuleId()
@@ -860,14 +797,12 @@ class ModifyMetricRuleTemplate extends Request
  */
 class DescribeAlertingMetricRuleResources extends Request
 {
-
 }/**
  * @method $this setEventInfo($eventInfo)
  * @method array getEventInfo()
  */
 class PutCustomEvent extends Request
 {
-
 }/**
  * @method $this setId($id)
  * @method int getId()
@@ -882,7 +817,6 @@ class PutCustomEvent extends Request
  */
 class DescribeHostAvailabilityList extends Request
 {
-
 }/**
  * @method $this setGroupId($groupId)
  * @method int getGroupId()
@@ -921,19 +855,16 @@ class DescribeHostAvailabilityList extends Request
  */
 class CreateHostAvailability extends Request
 {
-
 }/**
  * @method $this setId($id)
  * @method array getId()
  */
 class DescribeUnhealthyHostAvailability extends Request
 {
-
 }/**
  */
 class DescribeMonitoringAgentAccessKey extends Request
 {
-
 }/**
  * @method $this setGroupId($groupId)
  * @method string getGroupId()
@@ -990,14 +921,12 @@ class DescribeMonitoringAgentAccessKey extends Request
  */
 class PutGroupMetricRule extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
  */
 class UninstallMonitoringAgent extends Request
 {
-
 }/**
  * @method $this setRuleName($ruleName)
  * @method string getRuleName()
@@ -1006,12 +935,10 @@ class UninstallMonitoringAgent extends Request
  */
 class DeleteEventRuleTargets extends Request
 {
-
 }/**
  */
 class DescribeSiteMonitorQuota extends Request
 {
-
 }/**
  * @method $this setMetricName($metricName)
  * @method string getMetricName()
@@ -1036,7 +963,6 @@ class DescribeSiteMonitorQuota extends Request
  */
 class DescribeMetricRuleList extends Request
 {
-
 }/**
  * @method $this setRuleId($ruleId)
  * @method string getRuleId()
@@ -1091,7 +1017,6 @@ class DescribeMetricRuleList extends Request
  */
 class PutResourceMetricRule extends Request
 {
-
 }/**
  * @method $this setIsp($isp)
  * @method string getIsp()
@@ -1100,7 +1025,6 @@ class PutResourceMetricRule extends Request
  */
 class DescribeSiteMonitorISPCityList extends Request
 {
-
 }/**
  * @method $this setGroupId($groupId)
  * @method int getGroupId()
@@ -1139,7 +1063,6 @@ class DescribeSiteMonitorISPCityList extends Request
  */
 class ModifyHostAvailability extends Request
 {
-
 }/**
  * @method $this setProduct($product)
  * @method string getProduct()
@@ -1166,7 +1089,6 @@ class ModifyHostAvailability extends Request
  */
 class DescribeSystemEventHistogram extends Request
 {
-
 }/**
  * @method $this setAddress($address)
  * @method string getAddress()
@@ -1185,14 +1107,12 @@ class DescribeSystemEventHistogram extends Request
  */
 class ModifySiteMonitor extends Request
 {
-
 }/**
  * @method $this setId($id)
  * @method array getId()
  */
 class DisableHostAvailability extends Request
 {
-
 }/**
  * @method $this setPolicyType($policyType)
  * @method string getPolicyType()
@@ -1201,14 +1121,12 @@ class DisableHostAvailability extends Request
  */
 class DeleteMonitorGroupNotifyPolicy extends Request
 {
-
 }/**
  * @method $this setContactGroupName($contactGroupName)
  * @method string getContactGroupName()
  */
 class DescribeContactListByContactGroup extends Request
 {
-
 }/**
  * @method $this setLabels($labels)
  * @method string getLabels()
@@ -1219,7 +1137,6 @@ class DescribeContactListByContactGroup extends Request
  */
 class DescribeProjectMeta extends Request
 {
-
 }/**
  * @method $this setProduct($product)
  * @method string getProduct()
@@ -1246,7 +1163,6 @@ class DescribeProjectMeta extends Request
  */
 class DescribeSystemEventAttribute extends Request
 {
-
 }/**
  * @method $this setType($type)
  * @method string getType()
@@ -1267,7 +1183,6 @@ class DescribeSystemEventAttribute extends Request
  */
 class DescribeMonitorGroups extends Request
 {
-
 }/**
  * @method $this setTaskId($taskId)
  * @method string getTaskId()
@@ -1288,14 +1203,12 @@ class DescribeMonitorGroups extends Request
  */
 class DescribeSiteMonitorData extends Request
 {
-
 }/**
  * @method $this setRuleName($ruleName)
  * @method string getRuleName()
  */
 class DescribeEventRuleAttribute extends Request
 {
-
 }/**
  * @method $this setType($type)
  * @method string getType()
@@ -1312,21 +1225,18 @@ class DescribeEventRuleAttribute extends Request
  */
 class CreateMonitorGroup extends Request
 {
-
 }/**
  * @method $this setGroupId($groupId)
  * @method int getGroupId()
  */
 class DeleteMonitorGroup extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
  */
 class DescribeMonitoringAgentProcesses extends Request
 {
-
 }/**
  * @method $this setPolicyType($policyType)
  * @method string getPolicyType()
@@ -1339,7 +1249,6 @@ class DescribeMonitoringAgentProcesses extends Request
  */
 class DescribeMonitorGroupNotifyPolicyList extends Request
 {
-
 }/**
  * @method $this setPageSize($pageSize)
  * @method int getPageSize()
@@ -1348,7 +1257,6 @@ class DescribeMonitorGroupNotifyPolicyList extends Request
  */
 class DescribeContactList extends Request
 {
-
 }/**
  * @method $this setGroupId($groupId)
  * @method int getGroupId()
@@ -1367,21 +1275,18 @@ class DescribeContactList extends Request
  */
 class DescribeMonitorGroupInstanceAttribute extends Request
 {
-
 }/**
  * @method $this setContactGroupName($contactGroupName)
  * @method string getContactGroupName()
  */
 class DeleteContactGroup extends Request
 {
-
 }/**
  * @method $this setId($id)
  * @method array getId()
  */
 class EnableHostAvailability extends Request
 {
-
 }/**
  * @method $this setRuleName($ruleName)
  * @method string getRuleName()
@@ -1398,5 +1303,4 @@ class EnableHostAvailability extends Request
  */
 class PutEventRuleTargets extends Request
 {
-
 }

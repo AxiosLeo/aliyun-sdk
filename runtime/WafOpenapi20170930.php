@@ -45,7 +45,6 @@ class V20170930
  */
 class DescribeDomainTransferConfig extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -66,7 +65,6 @@ class DescribeDomainTransferConfig extends Request
  */
 class DescribeQps extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -87,7 +85,6 @@ class DescribeQps extends Request
  */
 class GetQps extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -108,7 +105,6 @@ class GetQps extends Request
  */
 class GetQpsTotal extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -121,7 +117,6 @@ class GetQpsTotal extends Request
  */
 class DescribeTransferConfigInWork extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -132,7 +127,6 @@ class DescribeTransferConfigInWork extends Request
  */
 class DescribeDomainNames extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -145,7 +139,6 @@ class DescribeDomainNames extends Request
  */
 class ModifyDomainPackageCount extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -156,7 +149,6 @@ class ModifyDomainPackageCount extends Request
  */
 class DescribeHttpsCertInUse extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -169,7 +161,6 @@ class DescribeHttpsCertInUse extends Request
  */
 class DescribeNeedUpgradeDomainLimit extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -186,7 +177,6 @@ class DescribeNeedUpgradeDomainLimit extends Request
  */
 class DescribeDomains extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -221,7 +211,6 @@ class DescribeDomains extends Request
  */
 class ModifyDomainConfig extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -230,7 +219,6 @@ class ModifyDomainConfig extends Request
  */
 class DescribePackage extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -265,14 +253,12 @@ class DescribePackage extends Request
  */
 class CreateDomainConfig extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
  */
 class DescribeRegions extends Request
 {
-
 }/**
  * @method $this setSourceIp($sourceIp)
  * @method string getSourceIp()
@@ -285,7 +271,6 @@ class DescribeRegions extends Request
  */
 class DescribeRegionStatus extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -300,14 +285,12 @@ class DescribeRegionStatus extends Request
  */
 class DeleteDomainConfig extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
  */
 class GetRegionList extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -324,7 +307,6 @@ class GetRegionList extends Request
  */
 class ModifyWafSwitch extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -345,7 +327,6 @@ class ModifyWafSwitch extends Request
  */
 class ModifyCertAndKey extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -362,5 +343,4 @@ class ModifyCertAndKey extends Request
  */
 class AppOpenAck extends Request
 {
-
 }

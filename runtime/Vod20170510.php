@@ -22,7 +22,6 @@ class V20170510
  */
 class GetVAEResult extends Request
 {
-
 }/**
  * @method $this setMediaId($mediaId)
  * @method string getMediaId()
@@ -41,12 +40,10 @@ class GetVAEResult extends Request
  */
 class AddReview extends Request
 {
-
 }/**
  * @method $this setMediaId($mediaId)
  * @method string getMediaId()
  */
 class GetReviews extends Request
 {
-
 }

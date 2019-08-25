@@ -59,7 +59,6 @@ class V20170511
  */
 class DeleteAlbums extends Request
 {
-
 }/**
  * @method $this setId($id)
  * @method int getId()
@@ -70,7 +69,6 @@ class DeleteAlbums extends Request
  */
 class RenameFace extends Request
 {
-
 }/**
  * @method $this setFileId($fileId)
  * @method string getFileId()
@@ -81,14 +79,12 @@ class RenameFace extends Request
  */
 class GetThumbnail extends Request
 {
-
 }/**
  * @method $this setStoreName($storeName)
  * @method string getStoreName()
  */
 class GetPhotoStore extends Request
 {
-
 }/**
  * @method $this setId($id)
  * @method int getId()
@@ -105,7 +101,6 @@ class GetPhotoStore extends Request
  */
 class ListTagPhotos extends Request
 {
-
 }/**
  * @method $this setId($id)
  * @method int getId()
@@ -116,7 +111,6 @@ class ListTagPhotos extends Request
  */
 class SetAlbumCover extends Request
 {
-
 }/**
  * @method $this setIds($ids)
  * @method array getIds()
@@ -125,7 +119,6 @@ class SetAlbumCover extends Request
  */
 class DeletePhotos extends Request
 {
-
 }/**
  * @method $this setId($id)
  * @method int getId()
@@ -142,7 +135,6 @@ class DeletePhotos extends Request
  */
 class ListMomentPhotos extends Request
 {
-
 }/**
  * @method $this setPage($page)
  * @method int getPage()
@@ -157,7 +149,6 @@ class ListMomentPhotos extends Request
  */
 class ListFaces extends Request
 {
-
 }/**
  * @method $this setId($id)
  * @method int getId()
@@ -174,7 +165,6 @@ class ListFaces extends Request
  */
 class ListAlbumPhotos extends Request
 {
-
 }/**
  * @method $this setPage($page)
  * @method int getPage()
@@ -189,7 +179,6 @@ class ListAlbumPhotos extends Request
  */
 class ListPhotoTags extends Request
 {
-
 }/**
  * @method $this setPage($page)
  * @method int getPage()
@@ -204,7 +193,6 @@ class ListPhotoTags extends Request
  */
 class ListMoments extends Request
 {
-
 }/**
  * @method $this setSize($size)
  * @method int getSize()
@@ -219,7 +207,6 @@ class ListMoments extends Request
  */
 class CreateTransaction extends Request
 {
-
 }/**
  * @method $this setFileId($fileId)
  * @method string getFileId()
@@ -230,7 +217,6 @@ class CreateTransaction extends Request
  */
 class GetVideoCover extends Request
 {
-
 }/**
  * @method $this setFileId($fileId)
  * @method string getFileId()
@@ -239,7 +225,6 @@ class GetVideoCover extends Request
  */
 class GetDownload extends Request
 {
-
 }/**
  * @method $this setId($id)
  * @method int getId()
@@ -248,7 +233,6 @@ class GetDownload extends Request
  */
 class SetMe extends Request
 {
-
 }/**
  * @method $this setIds($ids)
  * @method array getIds()
@@ -257,7 +241,6 @@ class SetMe extends Request
  */
 class DiePhotos extends Request
 {
-
 }/**
  * @method $this setFileId($fileId)
  * @method string getFileId()
@@ -272,7 +255,6 @@ class DiePhotos extends Request
  */
 class CreatePhoto extends Request
 {
-
 }/**
  * @method $this setTotal($total)
  * @method int getTotal()
@@ -281,7 +263,6 @@ class CreatePhoto extends Request
  */
 class SetQuota extends Request
 {
-
 }/**
  * @method $this setId($id)
  * @method int getId()
@@ -292,7 +273,6 @@ class SetQuota extends Request
  */
 class RemoveAlbumPhotos extends Request
 {
-
 }/**
  * @method $this setPage($page)
  * @method int getPage()
@@ -307,7 +287,6 @@ class RemoveAlbumPhotos extends Request
  */
 class ListAlbums extends Request
 {
-
 }/**
  * @method $this setId($id)
  * @method int getId()
@@ -318,7 +297,6 @@ class ListAlbums extends Request
  */
 class RemoveFacePhotos extends Request
 {
-
 }/**
  * @method $this setName($name)
  * @method string getName()
@@ -327,7 +305,6 @@ class RemoveFacePhotos extends Request
  */
 class CreateAlbum extends Request
 {
-
 }/**
  * @method $this setPage($page)
  * @method int getPage()
@@ -342,7 +319,6 @@ class CreateAlbum extends Request
  */
 class ListPhotos extends Request
 {
-
 }/**
  * @method $this setIds($ids)
  * @method array getIds()
@@ -351,7 +327,6 @@ class ListPhotos extends Request
  */
 class DeleteFaces extends Request
 {
-
 }/**
  * @method $this setId($id)
  * @method int getId()
@@ -364,14 +339,12 @@ class DeleteFaces extends Request
  */
 class MoveAlbumPhotos extends Request
 {
-
 }/**
  * @method $this setStoreName($storeName)
  * @method string getStoreName()
  */
 class DeletePhotostore extends Request
 {
-
 }/**
  * @method $this setId($id)
  * @method int getId()
@@ -384,7 +357,6 @@ class DeletePhotostore extends Request
  */
 class MoveFacePhotos extends Request
 {
-
 }/**
  * @method $this setId($id)
  * @method int getId()
@@ -395,7 +367,6 @@ class MoveFacePhotos extends Request
  */
 class RenameAlbum extends Request
 {
-
 }/**
  * @method $this setId($id)
  * @method int getId()
@@ -406,7 +377,6 @@ class RenameAlbum extends Request
  */
 class AddAlbumPhotos extends Request
 {
-
 }/**
  * @method $this setPage($page)
  * @method int getPage()
@@ -419,7 +389,6 @@ class AddAlbumPhotos extends Request
  */
 class SearchPhotos extends Request
 {
-
 }/**
  * @method $this setStoreName($storeName)
  * @method string getStoreName()
@@ -430,7 +399,6 @@ class SearchPhotos extends Request
  */
 class CreatePhotostore extends Request
 {
-
 }/**
  * @method $this setId($id)
  * @method int getId()
@@ -447,7 +415,6 @@ class CreatePhotostore extends Request
  */
 class ListFacePhotos extends Request
 {
-
 }/**
  * @method $this setIds($ids)
  * @method array getIds()
@@ -456,19 +423,16 @@ class ListFacePhotos extends Request
  */
 class RestorePhotos extends Request
 {
-
 }/**
  */
 class ListPhotostores extends Request
 {
-
 }/**
  * @method $this setStoreName($storeName)
  * @method string getStoreName()
  */
 class GetQuota extends Request
 {
-
 }/**
  * @method $this setFaceIds($faceIds)
  * @method array getFaceIds()
@@ -479,7 +443,6 @@ class GetQuota extends Request
  */
 class mergeFace extends Request
 {
-
 }/**
  * @method $this setPage($page)
  * @method int getPage()
@@ -492,5 +455,4 @@ class mergeFace extends Request
  */
 class ListTags extends Request
 {
-
 }

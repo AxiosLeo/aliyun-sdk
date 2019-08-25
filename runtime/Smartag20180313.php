@@ -79,7 +79,6 @@ class V20180313
  */
 class DescribeACLAttribute extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -98,7 +97,6 @@ class DescribeACLAttribute extends Request
  */
 class DeleteSAGLinkLevelHa extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -119,7 +117,6 @@ class DeleteSAGLinkLevelHa extends Request
  */
 class DowngradeSmartAccessGateway extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -154,7 +151,6 @@ class DowngradeSmartAccessGateway extends Request
  */
 class AddACLRule extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -173,7 +169,6 @@ class AddACLRule extends Request
  */
 class UnbindSmartAccessGateway extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -188,7 +183,6 @@ class UnbindSmartAccessGateway extends Request
  */
 class GetSmartAccessGatewayUseLimit extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -207,7 +201,6 @@ class GetSmartAccessGatewayUseLimit extends Request
  */
 class BindSmartAccessGateway extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -224,7 +217,6 @@ class BindSmartAccessGateway extends Request
  */
 class ActivateSmartAccessGateway extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -245,7 +237,6 @@ class ActivateSmartAccessGateway extends Request
  */
 class DescribeGrantRules extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -268,7 +259,6 @@ class DescribeGrantRules extends Request
  */
 class DescribeACLs extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -283,7 +273,6 @@ class DescribeACLs extends Request
  */
 class GetCloudConnectNetworkUseLimit extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -302,7 +291,6 @@ class GetCloudConnectNetworkUseLimit extends Request
  */
 class AssociateACL extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -321,7 +309,6 @@ class AssociateACL extends Request
  */
 class SwitchSAGHaState extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -348,7 +335,6 @@ class SwitchSAGHaState extends Request
  */
 class ModifySmartAccessGateway extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -363,7 +349,6 @@ class ModifySmartAccessGateway extends Request
  */
 class DescribeRegions extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -384,7 +369,6 @@ class DescribeRegions extends Request
  */
 class UpdateSmartAccessGatewayVersion extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -403,7 +387,6 @@ class UpdateSmartAccessGatewayVersion extends Request
  */
 class RebootSmartAccessGateway extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -424,7 +407,6 @@ class RebootSmartAccessGateway extends Request
  */
 class GrantInstanceToCbn extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -445,7 +427,6 @@ class GrantInstanceToCbn extends Request
  */
 class CreateCloudConnectNetwork extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -472,7 +453,6 @@ class CreateCloudConnectNetwork extends Request
  */
 class UnicomOrderConfirm extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -493,7 +473,6 @@ class UnicomOrderConfirm extends Request
  */
 class CreateDedicatedLineBackup extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -508,7 +487,6 @@ class CreateDedicatedLineBackup extends Request
  */
 class UnicomSignConfirm extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -563,7 +541,6 @@ class UnicomSignConfirm extends Request
  */
 class CreateSmartAccessGateway extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -588,7 +565,6 @@ class CreateSmartAccessGateway extends Request
  */
 class CreateSAGLinkLevelHa extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -605,7 +581,6 @@ class CreateSAGLinkLevelHa extends Request
  */
 class DescribeSmartAccessGatewayVersions extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -622,7 +597,6 @@ class DescribeSmartAccessGatewayVersions extends Request
  */
 class SwitchCloudBoxHaState extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -639,7 +613,6 @@ class SwitchCloudBoxHaState extends Request
  */
 class CreateACL extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -658,7 +631,6 @@ class CreateACL extends Request
  */
 class DeleteACLRule extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -675,7 +647,6 @@ class DeleteACLRule extends Request
  */
 class DescribeSmartAccessGatewayHa extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -712,7 +683,6 @@ class DescribeSmartAccessGatewayHa extends Request
  */
 class ModifyACLRule extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -729,7 +699,6 @@ class ModifyACLRule extends Request
  */
 class UnlockSmartAccessGateway extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -748,7 +717,6 @@ class UnlockSmartAccessGateway extends Request
  */
 class ModifyACL extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -765,7 +733,6 @@ class ModifyACL extends Request
  */
 class DeleteACL extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -784,7 +751,6 @@ class DeleteACL extends Request
  */
 class ModifySerialNumber extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -805,7 +771,6 @@ class ModifySerialNumber extends Request
  */
 class UpgradeSmartAccessGateway extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -826,7 +791,6 @@ class UpgradeSmartAccessGateway extends Request
  */
 class ModifyCloudConnectNetwork extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -843,7 +807,6 @@ class ModifyCloudConnectNetwork extends Request
  */
 class DeleteDedicatedLineBackup extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -860,7 +823,6 @@ class DeleteDedicatedLineBackup extends Request
  */
 class DeleteCloudConnectNetwork extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -885,7 +847,6 @@ class DeleteCloudConnectNetwork extends Request
  */
 class DescribeCloudConnectNetworks extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -904,7 +865,6 @@ class DescribeCloudConnectNetworks extends Request
  */
 class RevokeInstanceFromCbn extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -923,7 +883,6 @@ class RevokeInstanceFromCbn extends Request
  */
 class DisassociateACL extends Request
 {
-
 }/**
  * @method $this setOwnerAccount($ownerAccount)
  * @method string getOwnerAccount()
@@ -956,5 +915,4 @@ class DisassociateACL extends Request
  */
 class DescribeSmartAccessGateways extends Request
 {
-
 }

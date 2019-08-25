@@ -28,7 +28,6 @@ class V20181015
  */
 class GetTopicStatus extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -39,14 +38,12 @@ class GetTopicStatus extends Request
  */
 class CreateConsumerGroup extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
  */
 class GetInstanceList extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -57,7 +54,6 @@ class GetInstanceList extends Request
  */
 class GetConsumerProgress extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -70,7 +66,6 @@ class GetConsumerProgress extends Request
  */
 class GetConsumerList extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -83,7 +78,6 @@ class GetConsumerList extends Request
  */
 class GetTopicList extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -98,5 +92,4 @@ class GetTopicList extends Request
  */
 class CreateTopic extends Request
 {
-
 }

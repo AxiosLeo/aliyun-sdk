@@ -19,10 +19,8 @@ class V20160316
  */
 class GetEventsCount extends Request
 {
-
 }/**
  */
 class IsSasServiceOpening extends Request
 {
-
 }

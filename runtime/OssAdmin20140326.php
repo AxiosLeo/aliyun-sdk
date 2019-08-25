@@ -29,7 +29,6 @@ class V20140326
  */
 class stopOss extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -44,5 +43,4 @@ class stopOss extends Request
  */
 class restartOss extends Request
 {
-
 }

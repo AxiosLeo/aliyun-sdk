@@ -25,7 +25,6 @@ class V20180101
  */
 class ReleaseInstance extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -56,7 +55,6 @@ class ReleaseInstance extends Request
  */
 class CreateInstance extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -75,7 +73,6 @@ class CreateInstance extends Request
  */
 class UpgradeInstance extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -90,5 +87,4 @@ class UpgradeInstance extends Request
  */
 class RenewInstance extends Request
 {
-
 }

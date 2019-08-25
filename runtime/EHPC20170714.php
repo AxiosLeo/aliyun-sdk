@@ -59,7 +59,6 @@ class V20170714
  */
 class ListClusterLogs extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -68,7 +67,6 @@ class ListClusterLogs extends Request
  */
 class DeleteJobTemplates extends Request
 {
-
 }/**
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
@@ -77,7 +75,6 @@ class DeleteJobTemplates extends Request
  */
 class RerunJobs extends Request
 {
-
 }/**
  * @method $this setZoneId($zoneId)
  * @method string getZoneId()
@@ -146,7 +143,6 @@ class RerunJobs extends Request
  */
 class CreateCluster extends Request
 {
-
 }/**
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
@@ -155,7 +151,6 @@ class CreateCluster extends Request
  */
 class DeleteCluster extends Request
 {
-
 }/**
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
@@ -166,7 +161,6 @@ class DeleteCluster extends Request
  */
 class ListUsers extends Request
 {
-
 }/**
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
@@ -175,7 +169,6 @@ class ListUsers extends Request
  */
 class UpgradeClient extends Request
 {
-
 }/**
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
@@ -186,7 +179,6 @@ class UpgradeClient extends Request
  */
 class ModifyClusterAttributes extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -213,7 +205,6 @@ class ModifyClusterAttributes extends Request
  */
 class CreateJobTemplate extends Request
 {
-
 }/**
  * @method $this setPageNumber($pageNumber)
  * @method int getPageNumber()
@@ -222,7 +213,6 @@ class CreateJobTemplate extends Request
  */
 class ListVolumes extends Request
 {
-
 }/**
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
@@ -237,19 +227,16 @@ class ListVolumes extends Request
  */
 class ListNodes extends Request
 {
-
 }/**
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
  */
 class DescribeCluster extends Request
 {
-
 }/**
  */
 class ListCurrentClientVersion extends Request
 {
-
 }/**
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
@@ -278,7 +265,6 @@ class ListCurrentClientVersion extends Request
  */
 class SubmitJob extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -291,14 +277,12 @@ class SubmitJob extends Request
  */
 class ListJobTemplates extends Request
 {
-
 }/**
  * @method $this setEhpcVersion($ehpcVersion)
  * @method string getEhpcVersion()
  */
 class ListSoftwares extends Request
 {
-
 }/**
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
@@ -309,7 +293,6 @@ class ListSoftwares extends Request
  */
 class AddUsers extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -320,7 +303,6 @@ class AddUsers extends Request
  */
 class ListCustomImages extends Request
 {
-
 }/**
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
@@ -329,7 +311,6 @@ class ListCustomImages extends Request
  */
 class ResetNodes extends Request
 {
-
 }/**
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
@@ -340,7 +321,6 @@ class ResetNodes extends Request
  */
 class SetJobUser extends Request
 {
-
 }/**
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
@@ -349,12 +329,10 @@ class SetJobUser extends Request
  */
 class DeleteUsers extends Request
 {
-
 }/**
  */
 class ListImages extends Request
 {
-
 }/**
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
@@ -363,7 +341,6 @@ class ListImages extends Request
  */
 class DeleteJobs extends Request
 {
-
 }/**
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
@@ -374,7 +351,6 @@ class DeleteJobs extends Request
  */
 class DeleteNodes extends Request
 {
-
 }/**
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
@@ -401,7 +377,6 @@ class DeleteNodes extends Request
  */
 class SetAutoScaleConfig extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -430,7 +405,6 @@ class SetAutoScaleConfig extends Request
  */
 class EditJobTemplate extends Request
 {
-
 }/**
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
@@ -447,7 +421,6 @@ class EditJobTemplate extends Request
  */
 class AddNodes extends Request
 {
-
 }/**
  * @method $this setZoneId($zoneId)
  * @method string getZoneId()
@@ -456,14 +429,12 @@ class AddNodes extends Request
  */
 class ListPreferredEcsTypes extends Request
 {
-
 }/**
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
  */
 class GetAutoScaleConfig extends Request
 {
-
 }/**
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
@@ -472,7 +443,6 @@ class GetAutoScaleConfig extends Request
  */
 class ModifyUserGroups extends Request
 {
-
 }/**
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
@@ -489,7 +459,6 @@ class ModifyUserGroups extends Request
  */
 class ListJobs extends Request
 {
-
 }/**
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
@@ -498,7 +467,6 @@ class ListJobs extends Request
  */
 class ModifyUserPasswords extends Request
 {
-
 }/**
  * @method $this setPageNumber($pageNumber)
  * @method int getPageNumber()
@@ -507,12 +475,10 @@ class ModifyUserPasswords extends Request
  */
 class ListClusters extends Request
 {
-
 }/**
  */
 class ListRegions extends Request
 {
-
 }/**
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
@@ -525,7 +491,6 @@ class ListRegions extends Request
  */
 class ListNodesNoPaging extends Request
 {
-
 }/**
  * @method $this setClusterId($clusterId)
  * @method string getClusterId()
@@ -534,5 +499,4 @@ class ListNodesNoPaging extends Request
  */
 class StopJobs extends Request
 {
-
 }

@@ -57,7 +57,6 @@ class V20170525
  */
 class BindAxn extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -88,7 +87,6 @@ class BindAxn extends Request
  */
 class BindAxnExtension extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -107,7 +105,6 @@ class BindAxnExtension extends Request
  */
 class QueryRecordFileDownloadUrl extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -126,7 +123,6 @@ class QueryRecordFileDownloadUrl extends Request
  */
 class QuerySubscriptionDetail extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -143,7 +139,6 @@ class QuerySubscriptionDetail extends Request
  */
 class QuerySecretNoRemain extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -158,7 +153,6 @@ class QuerySecretNoRemain extends Request
  */
 class ReleaseSecretNo extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -189,7 +183,6 @@ class ReleaseSecretNo extends Request
  */
 class UpdateSubscription extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -208,7 +201,6 @@ class UpdateSubscription extends Request
  */
 class CreateAxgGroup extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -229,7 +221,6 @@ class CreateAxgGroup extends Request
  */
 class BuySecretNo extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -248,7 +239,6 @@ class BuySecretNo extends Request
  */
 class UnbindSubscription extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -265,7 +255,6 @@ class UnbindSubscription extends Request
  */
 class QueryCallStatus extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -284,7 +273,6 @@ class QueryCallStatus extends Request
  */
 class OperateAxgGroup extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -315,7 +303,6 @@ class OperateAxgGroup extends Request
  */
 class BindAxg extends Request
 {
-
 }/**
  * @method $this setOwnerId($ownerId)
  * @method int getOwnerId()
@@ -344,5 +331,4 @@ class BindAxg extends Request
  */
 class BindAxb extends Request
 {
-
 }

@@ -83,7 +83,6 @@ class V20150501
  */
 class ListVirtualMFADevices extends Request
 {
-
 }/**
  * @method $this setPolicyName($policyName)
  * @method string getPolicyName()
@@ -94,21 +93,18 @@ class ListVirtualMFADevices extends Request
  */
 class CreatePolicy extends Request
 {
-
 }/**
  * @method $this setRoleName($roleName)
  * @method string getRoleName()
  */
 class GetRole extends Request
 {
-
 }/**
  * @method $this setUserName($userName)
  * @method string getUserName()
  */
 class GetUser extends Request
 {
-
 }/**
  * @method $this setPolicyType($policyType)
  * @method string getPolicyType()
@@ -119,7 +115,6 @@ class GetUser extends Request
  */
 class GetPolicyVersion extends Request
 {
-
 }/**
  * @method $this setPolicyType($policyType)
  * @method string getPolicyType()
@@ -130,14 +125,12 @@ class GetPolicyVersion extends Request
  */
 class DetachPolicyFromRole extends Request
 {
-
 }/**
  * @method $this setGroupName($groupName)
  * @method string getGroupName()
  */
 class DeleteGroup extends Request
 {
-
 }/**
  * @method $this setPolicyType($policyType)
  * @method string getPolicyType()
@@ -148,7 +141,6 @@ class DeleteGroup extends Request
  */
 class DetachPolicyFromUser extends Request
 {
-
 }/**
  * @method $this setSerialNumber($serialNumber)
  * @method string getSerialNumber()
@@ -161,21 +153,18 @@ class DetachPolicyFromUser extends Request
  */
 class BindMFADevice extends Request
 {
-
 }/**
  * @method $this setRoleName($roleName)
  * @method string getRoleName()
  */
 class DeleteRole extends Request
 {
-
 }/**
  * @method $this setUserName($userName)
  * @method string getUserName()
  */
 class DeleteUser extends Request
 {
-
 }/**
  * @method $this setUserName($userName)
  * @method string getUserName()
@@ -186,14 +175,12 @@ class DeleteUser extends Request
  */
 class UpdatePublicKey extends Request
 {
-
 }/**
  * @method $this setSerialNumber($serialNumber)
  * @method string getSerialNumber()
  */
 class DeleteVirtualMFADevice extends Request
 {
-
 }/**
  * @method $this setPolicyName($policyName)
  * @method string getPolicyName()
@@ -204,7 +191,6 @@ class DeleteVirtualMFADevice extends Request
  */
 class CreatePolicyVersion extends Request
 {
-
 }/**
  * @method $this setMarker($marker)
  * @method string getMarker()
@@ -213,14 +199,12 @@ class CreatePolicyVersion extends Request
  */
 class ListUsers extends Request
 {
-
 }/**
  * @method $this setUserName($userName)
  * @method string getUserName()
  */
 class GetUserMFAInfo extends Request
 {
-
 }/**
  * @method $this setGroupName($groupName)
  * @method string getGroupName()
@@ -229,7 +213,6 @@ class GetUserMFAInfo extends Request
  */
 class CreateGroup extends Request
 {
-
 }/**
  * @method $this setPolicyType($policyType)
  * @method string getPolicyType()
@@ -240,7 +223,6 @@ class CreateGroup extends Request
  */
 class AttachPolicyToRole extends Request
 {
-
 }/**
  * @method $this setPolicyType($policyType)
  * @method string getPolicyType()
@@ -251,7 +233,6 @@ class AttachPolicyToRole extends Request
  */
 class AttachPolicyToUser extends Request
 {
-
 }/**
  * @method $this setUserName($userName)
  * @method string getUserName()
@@ -260,14 +241,12 @@ class AttachPolicyToUser extends Request
  */
 class UploadPublicKey extends Request
 {
-
 }/**
  * @method $this setVirtualMFADeviceName($virtualMFADeviceName)
  * @method string getVirtualMFADeviceName()
  */
 class CreateVirtualMFADevice extends Request
 {
-
 }/**
  * @method $this setPolicyType($policyType)
  * @method string getPolicyType()
@@ -276,7 +255,6 @@ class CreateVirtualMFADevice extends Request
  */
 class ListEntitiesForPolicy extends Request
 {
-
 }/**
  * @method $this setPolicyType($policyType)
  * @method string getPolicyType()
@@ -285,7 +263,6 @@ class ListEntitiesForPolicy extends Request
  */
 class GetPolicy extends Request
 {
-
 }/**
  * @method $this setGroupName($groupName)
  * @method string getGroupName()
@@ -296,7 +273,6 @@ class GetPolicy extends Request
  */
 class ListUsersForGroup extends Request
 {
-
 }/**
  * @method $this setGroupName($groupName)
  * @method string getGroupName()
@@ -307,7 +283,6 @@ class ListUsersForGroup extends Request
  */
 class UpdateGroup extends Request
 {
-
 }/**
  * @method $this setPolicyType($policyType)
  * @method string getPolicyType()
@@ -318,7 +293,6 @@ class UpdateGroup extends Request
  */
 class ListPolicies extends Request
 {
-
 }/**
  * @method $this setRoleName($roleName)
  * @method string getRoleName()
@@ -327,7 +301,6 @@ class ListPolicies extends Request
  */
 class UpdateRole extends Request
 {
-
 }/**
  * @method $this setUserName($userName)
  * @method string getUserName()
@@ -344,7 +317,6 @@ class UpdateRole extends Request
  */
 class UpdateUser extends Request
 {
-
 }/**
  * @method $this setUserName($userName)
  * @method string getUserName()
@@ -353,21 +325,18 @@ class UpdateUser extends Request
  */
 class DeleteAccessKey extends Request
 {
-
 }/**
  * @method $this setUserName($userName)
  * @method string getUserName()
  */
 class ListAccessKeys extends Request
 {
-
 }/**
  * @method $this setGroupName($groupName)
  * @method string getGroupName()
  */
 class GetGroup extends Request
 {
-
 }/**
  * @method $this setEnableSaveMFATicket($enableSaveMFATicket)
  * @method bool getEnableSaveMFATicket()
@@ -386,7 +355,6 @@ class GetGroup extends Request
  */
 class SetSecurityPreference extends Request
 {
-
 }/**
  * @method $this setOldPassword($oldPassword)
  * @method string getOldPassword()
@@ -395,12 +363,10 @@ class SetSecurityPreference extends Request
  */
 class ChangePassword extends Request
 {
-
 }/**
  */
 class GetAccountAlias extends Request
 {
-
 }/**
  * @method $this setUserName($userName)
  * @method string getUserName()
@@ -409,7 +375,6 @@ class GetAccountAlias extends Request
  */
 class AddUserToGroup extends Request
 {
-
 }/**
  * @method $this setPolicyType($policyType)
  * @method string getPolicyType()
@@ -420,14 +385,12 @@ class AddUserToGroup extends Request
  */
 class AttachPolicyToGroup extends Request
 {
-
 }/**
  * @method $this setUserName($userName)
  * @method string getUserName()
  */
 class DeleteLoginProfile extends Request
 {
-
 }/**
  * @method $this setMarker($marker)
  * @method string getMarker()
@@ -436,7 +399,6 @@ class DeleteLoginProfile extends Request
  */
 class ListRoles extends Request
 {
-
 }/**
  * @method $this setUserName($userName)
  * @method string getUserName()
@@ -449,7 +411,6 @@ class ListRoles extends Request
  */
 class CreateLoginProfile extends Request
 {
-
 }/**
  * @method $this setMarker($marker)
  * @method string getMarker()
@@ -458,7 +419,6 @@ class CreateLoginProfile extends Request
  */
 class ListGroups extends Request
 {
-
 }/**
  * @method $this setPolicyType($policyType)
  * @method string getPolicyType()
@@ -467,14 +427,12 @@ class ListGroups extends Request
  */
 class ListPolicyVersions extends Request
 {
-
 }/**
  * @method $this setGroupName($groupName)
  * @method string getGroupName()
  */
 class ListPoliciesForGroup extends Request
 {
-
 }/**
  * @method $this setUserName($userName)
  * @method string getUserName()
@@ -489,7 +447,6 @@ class ListPoliciesForGroup extends Request
  */
 class CreateUser extends Request
 {
-
 }/**
  * @method $this setRoleName($roleName)
  * @method string getRoleName()
@@ -500,7 +457,6 @@ class CreateUser extends Request
  */
 class CreateRole extends Request
 {
-
 }/**
  * @method $this setUserName($userName)
  * @method string getUserName()
@@ -509,28 +465,24 @@ class CreateRole extends Request
  */
 class DeletePublicKey extends Request
 {
-
 }/**
  * @method $this setUserName($userName)
  * @method string getUserName()
  */
 class GetLoginProfile extends Request
 {
-
 }/**
  * @method $this setUserName($userName)
  * @method string getUserName()
  */
 class ListGroupsForUser extends Request
 {
-
 }/**
  * @method $this setUserName($userName)
  * @method string getUserName()
  */
 class CreateAccessKey extends Request
 {
-
 }/**
  * @method $this setPolicyType($policyType)
  * @method string getPolicyType()
@@ -541,7 +493,6 @@ class CreateAccessKey extends Request
  */
 class DetachPolicyFromGroup extends Request
 {
-
 }/**
  * @method $this setPolicyName($policyName)
  * @method string getPolicyName()
@@ -550,7 +501,6 @@ class DetachPolicyFromGroup extends Request
  */
 class DeletePolicyVersion extends Request
 {
-
 }/**
  * @method $this setUserName($userName)
  * @method string getUserName()
@@ -559,36 +509,30 @@ class DeletePolicyVersion extends Request
  */
 class GetPublicKey extends Request
 {
-
 }/**
  * @method $this setUserName($userName)
  * @method string getUserName()
  */
 class ListPublicKeys extends Request
 {
-
 }/**
  */
 class GetPasswordPolicy extends Request
 {
-
 }/**
  */
 class ClearAccountAlias extends Request
 {
-
 }/**
  */
 class GetSecurityPreference extends Request
 {
-
 }/**
  * @method $this setRoleName($roleName)
  * @method string getRoleName()
  */
 class ListPoliciesForRole extends Request
 {
-
 }/**
  * @method $this setUserName($userName)
  * @method string getUserName()
@@ -599,21 +543,18 @@ class ListPoliciesForRole extends Request
  */
 class UpdateAccessKey extends Request
 {
-
 }/**
  * @method $this setUserName($userName)
  * @method string getUserName()
  */
 class ListPoliciesForUser extends Request
 {
-
 }/**
  * @method $this setPolicyName($policyName)
  * @method string getPolicyName()
  */
 class DeletePolicy extends Request
 {
-
 }/**
  * @method $this setUserName($userName)
  * @method string getUserName()
@@ -622,21 +563,18 @@ class DeletePolicy extends Request
  */
 class RemoveUserFromGroup extends Request
 {
-
 }/**
  * @method $this setUserName($userName)
  * @method string getUserName()
  */
 class UnbindMFADevice extends Request
 {
-
 }/**
  * @method $this setAccountAlias($accountAlias)
  * @method string getAccountAlias()
  */
 class SetAccountAlias extends Request
 {
-
 }/**
  * @method $this setUserName($userName)
  * @method string getUserName()
@@ -649,7 +587,6 @@ class SetAccountAlias extends Request
  */
 class UpdateLoginProfile extends Request
 {
-
 }/**
  * @method $this setUserName($userName)
  * @method string getUserName()
@@ -658,7 +595,6 @@ class UpdateLoginProfile extends Request
  */
 class GetAccessKeyLastUsed extends Request
 {
-
 }/**
  * @method $this setPolicyName($policyName)
  * @method string getPolicyName()
@@ -667,7 +603,6 @@ class GetAccessKeyLastUsed extends Request
  */
 class SetDefaultPolicyVersion extends Request
 {
-
 }/**
  * @method $this setMinimumPasswordLength($minimumPasswordLength)
  * @method int getMinimumPasswordLength()
@@ -690,5 +625,4 @@ class SetDefaultPolicyVersion extends Request
  */
 class SetPasswordPolicy extends Request
 {
-
 }

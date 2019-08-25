@@ -23,7 +23,6 @@ class V20150401
  */
 class GenerateSessionAccessKey extends Request
 {
-
 }/**
  * @method $this setSAMLProviderArn($sAMLProviderArn)
  * @method string getSAMLProviderArn()
@@ -38,12 +37,10 @@ class GenerateSessionAccessKey extends Request
  */
 class AssumeRoleWithSAML extends Request
 {
-
 }/**
  */
 class GetCallerIdentity extends Request
 {
-
 }/**
  * @method $this setDurationSeconds($durationSeconds)
  * @method int getDurationSeconds()
@@ -56,5 +53,4 @@ class GetCallerIdentity extends Request
  */
 class AssumeRole extends Request
 {
-
 }

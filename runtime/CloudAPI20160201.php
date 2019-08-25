@@ -137,7 +137,6 @@ class V20160201
  */
 class IsIncludedByUserWhitelist extends Request
 {
-
 }/**
  * @method $this setGroupId($groupId)
  * @method string getGroupId()
@@ -148,7 +147,6 @@ class IsIncludedByUserWhitelist extends Request
  */
 class DeleteDomainCertificate extends Request
 {
-
 }/**
  * @method $this setApiId($apiId)
  * @method string getApiId()
@@ -161,7 +159,6 @@ class DeleteDomainCertificate extends Request
  */
 class DescribeApiError extends Request
 {
-
 }/**
  * @method $this setAliUid($aliUid)
  * @method int getAliUid()
@@ -174,19 +171,16 @@ class DescribeApiError extends Request
  */
 class CreateApiGroupForInner extends Request
 {
-
 }/**
  */
 class DescribeSystemParameters extends Request
 {
-
 }/**
  * @method $this setTrafficControlId($trafficControlId)
  * @method string getTrafficControlId()
  */
 class DeleteAllTrafficSpecialControl extends Request
 {
-
 }/**
  * @method $this setOriginalVip($originalVip)
  * @method string getOriginalVip()
@@ -195,14 +189,12 @@ class DeleteAllTrafficSpecialControl extends Request
  */
 class VipMigrationByUid extends Request
 {
-
 }/**
  * @method $this setAppKey($appKey)
  * @method string getAppKey()
  */
 class ResetAppKeySecret extends Request
 {
-
 }/**
  * @method $this setGroupId($groupId)
  * @method string getGroupId()
@@ -215,7 +207,6 @@ class ResetAppKeySecret extends Request
  */
 class RecoveryApiDefineFromHistorical extends Request
 {
-
 }/**
  * @method $this setPageSize($pageSize)
  * @method int getPageSize()
@@ -224,14 +215,12 @@ class RecoveryApiDefineFromHistorical extends Request
  */
 class DescribeRaceWorksForInner extends Request
 {
-
 }/**
  * @method $this setVip($vip)
  * @method string getVip()
  */
 class DescribeAvailableVips extends Request
 {
-
 }/**
  * @method $this setAppId($appId)
  * @method string getAppId()
@@ -244,7 +233,6 @@ class DescribeAvailableVips extends Request
  */
 class VpcRegisterApp extends Request
 {
-
 }/**
  * @method $this setTrafficControlId($trafficControlId)
  * @method string getTrafficControlId()
@@ -255,7 +243,6 @@ class VpcRegisterApp extends Request
  */
 class DeleteTrafficSpecialControl extends Request
 {
-
 }/**
  * @method $this setAliuid($aliuid)
  * @method int getAliuid()
@@ -266,14 +253,12 @@ class DeleteTrafficSpecialControl extends Request
  */
 class ReactivateDomainForBackend extends Request
 {
-
 }/**
  * @method $this setSecretKeyId($secretKeyId)
  * @method string getSecretKeyId()
  */
 class DeleteSecretKey extends Request
 {
-
 }/**
  * @method $this setGroupId($groupId)
  * @method string getGroupId()
@@ -284,7 +269,6 @@ class DeleteSecretKey extends Request
  */
 class AbolishApi extends Request
 {
-
 }/**
  * @method $this setAppId($appId)
  * @method string getAppId()
@@ -295,7 +279,6 @@ class AbolishApi extends Request
  */
 class VpcQueryAppServers extends Request
 {
-
 }/**
  * @method $this setTrafficControlId($trafficControlId)
  * @method string getTrafficControlId()
@@ -314,7 +297,6 @@ class VpcQueryAppServers extends Request
  */
 class ModifyTrafficControl extends Request
 {
-
 }/**
  * @method $this setTrafficControlId($trafficControlId)
  * @method string getTrafficControlId()
@@ -333,7 +315,6 @@ class ModifyTrafficControl extends Request
  */
 class DescribeTrafficControls extends Request
 {
-
 }/**
  * @method $this setAppName($appName)
  * @method string getAppName()
@@ -346,7 +327,6 @@ class DescribeTrafficControls extends Request
  */
 class CreateAppForInner extends Request
 {
-
 }/**
  * @method $this setTrafficControlId($trafficControlId)
  * @method string getTrafficControlId()
@@ -359,7 +339,6 @@ class CreateAppForInner extends Request
  */
 class AddTrafficSpecialControl extends Request
 {
-
 }/**
  * @method $this setGroupId($groupId)
  * @method string getGroupId()
@@ -372,7 +351,6 @@ class AddTrafficSpecialControl extends Request
  */
 class SetMockIntegration extends Request
 {
-
 }/**
  * @method $this setGroupId($groupId)
  * @method string getGroupId()
@@ -389,7 +367,6 @@ class SetMockIntegration extends Request
  */
 class DescribeApis extends Request
 {
-
 }/**
  * @method $this setGroupId($groupId)
  * @method string getGroupId()
@@ -404,7 +381,6 @@ class DescribeApis extends Request
  */
 class SwitchApiForInner extends Request
 {
-
 }/**
  * @method $this setGroupId($groupId)
  * @method string getGroupId()
@@ -419,7 +395,6 @@ class SwitchApiForInner extends Request
  */
 class DescribeAppsByApi extends Request
 {
-
 }/**
  * @method $this setGroupId($groupId)
  * @method string getGroupId()
@@ -436,7 +411,6 @@ class DescribeAppsByApi extends Request
  */
 class DescribeModelsForInner extends Request
 {
-
 }/**
  * @method $this setAppId($appId)
  * @method int getAppId()
@@ -447,7 +421,6 @@ class DescribeModelsForInner extends Request
  */
 class DescribeApps extends Request
 {
-
 }/**
  * @method $this setSecretKeyId($secretKeyId)
  * @method string getSecretKeyId()
@@ -460,7 +433,6 @@ class DescribeApps extends Request
  */
 class ModifySecretKey extends Request
 {
-
 }/**
  * @method $this setGroupId($groupId)
  * @method string getGroupId()
@@ -477,7 +449,6 @@ class ModifySecretKey extends Request
  */
 class DescribeHistoryApis extends Request
 {
-
 }/**
  * @method $this setGroupId($groupId)
  * @method string getGroupId()
@@ -488,7 +459,6 @@ class DescribeHistoryApis extends Request
  */
 class DescribeRulesByApi extends Request
 {
-
 }/**
  * @method $this setSkuId($skuId)
  * @method string getSkuId()
@@ -499,7 +469,6 @@ class DescribeRulesByApi extends Request
  */
 class RefundInstance extends Request
 {
-
 }/**
  * @method $this setAppName($appName)
  * @method string getAppName()
@@ -508,7 +477,6 @@ class RefundInstance extends Request
  */
 class CreateApp extends Request
 {
-
 }/**
  * @method $this setTrafficControlName($trafficControlName)
  * @method string getTrafficControlName()
@@ -525,7 +493,6 @@ class CreateApp extends Request
  */
 class CreateTrafficControl extends Request
 {
-
 }/**
  * @method $this setGroupId($groupId)
  * @method string getGroupId()
@@ -538,14 +505,12 @@ class CreateTrafficControl extends Request
  */
 class DeployApi extends Request
 {
-
 }/**
  * @method $this setGroupId($groupId)
  * @method string getGroupId()
  */
 class DeleteApiGroup extends Request
 {
-
 }/**
  * @method $this setGroupId($groupId)
  * @method string getGroupId()
@@ -560,7 +525,6 @@ class DeleteApiGroup extends Request
  */
 class SwitchApi extends Request
 {
-
 }/**
  * @method $this setGroupId($groupId)
  * @method string getGroupId()
@@ -575,7 +539,6 @@ class SwitchApi extends Request
  */
 class SetAccessPermissions extends Request
 {
-
 }/**
  * @method $this setAliUid($aliUid)
  * @method int getAliUid()
@@ -594,7 +557,6 @@ class SetAccessPermissions extends Request
  */
 class SetAccessPermissionsForInner extends Request
 {
-
 }/**
  * @method $this setGroupName($groupName)
  * @method string getGroupName()
@@ -603,7 +565,6 @@ class SetAccessPermissionsForInner extends Request
  */
 class CreateApiGroup extends Request
 {
-
 }/**
  * @method $this setAuthAppCode($authAppCode)
  * @method string getAuthAppCode()
@@ -614,7 +575,6 @@ class CreateApiGroup extends Request
  */
 class ModifyGroupAuthAppCodeForBackend extends Request
 {
-
 }/**
  * @method $this setGroupIds($groupIds)
  * @method string getGroupIds()
@@ -625,7 +585,6 @@ class ModifyGroupAuthAppCodeForBackend extends Request
  */
 class DescribePurchasedApiGroups extends Request
 {
-
 }/**
  * @method $this setAppName($appName)
  * @method string getAppName()
@@ -638,14 +597,12 @@ class DescribePurchasedApiGroups extends Request
  */
 class CreateAppForBackend extends Request
 {
-
 }/**
  * @method $this setAppId($appId)
  * @method int getAppId()
  */
 class DeleteApp extends Request
 {
-
 }/**
  * @method $this setGroupId($groupId)
  * @method string getGroupId()
@@ -664,7 +621,6 @@ class DeleteApp extends Request
  */
 class DescribeApisForConsole extends Request
 {
-
 }/**
  * @method $this setAppId($appId)
  * @method int getAppId()
@@ -675,7 +631,6 @@ class DescribeApisForConsole extends Request
  */
 class ModifyApp extends Request
 {
-
 }/**
  * @method $this setGroupId($groupId)
  * @method string getGroupId()
@@ -692,7 +647,6 @@ class ModifyApp extends Request
  */
 class CreateRaceWorkForInner extends Request
 {
-
 }/**
  * @method $this setGroupId($groupId)
  * @method string getGroupId()
@@ -711,7 +665,6 @@ class CreateRaceWorkForInner extends Request
  */
 class DescribePurchasedApis extends Request
 {
-
 }/**
  * @method $this setAliUid($aliUid)
  * @method int getAliUid()
@@ -742,7 +695,6 @@ class DescribePurchasedApis extends Request
  */
 class CreateApiForInner extends Request
 {
-
 }/**
  * @method $this setGroupId($groupId)
  * @method string getGroupId()
@@ -755,7 +707,6 @@ class CreateApiForInner extends Request
  */
 class RecoverApiFromHistorical extends Request
 {
-
 }/**
  * @method $this setGroupId($groupId)
  * @method string getGroupId()
@@ -768,7 +719,6 @@ class RecoverApiFromHistorical extends Request
  */
 class RemoveAppsFromApi extends Request
 {
-
 }/**
  * @method $this setGroupId($groupId)
  * @method string getGroupId()
@@ -777,7 +727,6 @@ class RemoveAppsFromApi extends Request
  */
 class DescribeApi extends Request
 {
-
 }/**
  * @method $this setGroupId($groupId)
  * @method string getGroupId()
@@ -786,7 +735,6 @@ class DescribeApi extends Request
  */
 class DescribePurchasedApi extends Request
 {
-
 }/**
  * @method $this setAppId($appId)
  * @method string getAppId()
@@ -797,7 +745,6 @@ class DescribePurchasedApi extends Request
  */
 class VpcRemoveAppServer extends Request
 {
-
 }/**
  * @method $this setApiId($apiId)
  * @method string getApiId()
@@ -810,7 +757,6 @@ class VpcRemoveAppServer extends Request
  */
 class DescribeApiQps extends Request
 {
-
 }/**
  * @method $this setSecretKeyId($secretKeyId)
  * @method string getSecretKeyId()
@@ -823,7 +769,6 @@ class DescribeApiQps extends Request
  */
 class DescribeSecretKeys extends Request
 {
-
 }/**
  * @method $this setApiId($apiId)
  * @method string getApiId()
@@ -836,7 +781,6 @@ class DescribeSecretKeys extends Request
  */
 class DescribeApiLatency extends Request
 {
-
 }/**
  * @method $this setAliUid($aliUid)
  * @method int getAliUid()
@@ -845,14 +789,12 @@ class DescribeApiLatency extends Request
  */
 class IsInnerAccountForInner extends Request
 {
-
 }/**
  * @method $this setCopyList($copyList)
  * @method string getCopyList()
  */
 class CopyConsumerOpenForInner extends Request
 {
-
 }/**
  * @method $this setSkuId($skuId)
  * @method string getSkuId()
@@ -875,26 +817,22 @@ class CopyConsumerOpenForInner extends Request
  */
 class CreateInstance extends Request
 {
-
 }/**
  * @method $this setGroupId($groupId)
  * @method string getGroupId()
  */
 class DescribePurchasedApiGroupDetail extends Request
 {
-
 }/**
  */
 class DescribeSystemParams extends Request
 {
-
 }/**
  * @method $this setAppId($appId)
  * @method int getAppId()
  */
 class DescribeApp extends Request
 {
-
 }/**
  * @method $this setAppId($appId)
  * @method int getAppId()
@@ -907,14 +845,12 @@ class DescribeApp extends Request
  */
 class DescribeAppsForProvider extends Request
 {
-
 }/**
  * @method $this setLanguage($language)
  * @method string getLanguage()
  */
 class DescribeRegions extends Request
 {
-
 }/**
  * @method $this setRuleType($ruleType)
  * @method string getRuleType()
@@ -931,7 +867,6 @@ class DescribeRegions extends Request
  */
 class DescribeApiRules extends Request
 {
-
 }/**
  * @method $this setSecretKeyName($secretKeyName)
  * @method string getSecretKeyName()
@@ -942,7 +877,6 @@ class DescribeApiRules extends Request
  */
 class CreateSecretKey extends Request
 {
-
 }/**
  * @method $this setBlackType($blackType)
  * @method string getBlackType()
@@ -951,7 +885,6 @@ class CreateSecretKey extends Request
  */
 class RemoveBlackList extends Request
 {
-
 }/**
  * @method $this setGroupId($groupId)
  * @method string getGroupId()
@@ -960,7 +893,6 @@ class RemoveBlackList extends Request
  */
 class SetPurchasedApiGroupStatus extends Request
 {
-
 }/**
  * @method $this setRuleId($ruleId)
  * @method string getRuleId()
@@ -975,7 +907,6 @@ class SetPurchasedApiGroupStatus extends Request
  */
 class RemoveApiRule extends Request
 {
-
 }/**
  * @method $this setBlackType($blackType)
  * @method string getBlackType()
@@ -986,7 +917,6 @@ class RemoveApiRule extends Request
  */
 class DescribeBlackLists extends Request
 {
-
 }/**
  * @method $this setRuleId($ruleId)
  * @method string getRuleId()
@@ -1001,14 +931,12 @@ class DescribeBlackLists extends Request
  */
 class SetApiRule extends Request
 {
-
 }/**
  * @method $this setGroupId($groupId)
  * @method string getGroupId()
  */
 class DescribeApiGroupDetail extends Request
 {
-
 }/**
  * @method $this setGroupId($groupId)
  * @method string getGroupId()
@@ -1019,7 +947,6 @@ class DescribeApiGroupDetail extends Request
  */
 class ModifyApiGroup extends Request
 {
-
 }/**
  * @method $this setGroupId($groupId)
  * @method string getGroupId()
@@ -1034,7 +961,6 @@ class ModifyApiGroup extends Request
  */
 class SetDomainForBackend extends Request
 {
-
 }/**
  * @method $this setAppId($appId)
  * @method int getAppId()
@@ -1045,7 +971,6 @@ class SetDomainForBackend extends Request
  */
 class DescribeApisByApp extends Request
 {
-
 }/**
  * @method $this setAliUid($aliUid)
  * @method int getAliUid()
@@ -1056,7 +981,6 @@ class DescribeApisByApp extends Request
  */
 class DeleteApiForInner extends Request
 {
-
 }/**
  * @method $this setGroupId($groupId)
  * @method string getGroupId()
@@ -1071,7 +995,6 @@ class DeleteApiForInner extends Request
  */
 class SetDomainCertificate extends Request
 {
-
 }/**
  * @method $this setGroupId($groupId)
  * @method string getGroupId()
@@ -1082,7 +1005,6 @@ class SetDomainCertificate extends Request
  */
 class DescribeDeployedApi extends Request
 {
-
 }/**
  * @method $this setAliUid($aliUid)
  * @method int getAliUid()
@@ -1101,7 +1023,6 @@ class DescribeDeployedApi extends Request
  */
 class DescribeApiDocsForBackend extends Request
 {
-
 }/**
  * @method $this setBlackType($blackType)
  * @method string getBlackType()
@@ -1112,14 +1033,12 @@ class DescribeApiDocsForBackend extends Request
  */
 class AddBlackList extends Request
 {
-
 }/**
  * @method $this setAppKey($appKey)
  * @method string getAppKey()
  */
 class DescribeAppSecurity extends Request
 {
-
 }/**
  * @method $this setGroupId($groupId)
  * @method string getGroupId()
@@ -1128,14 +1047,12 @@ class DescribeAppSecurity extends Request
  */
 class DescribeDomainResolution extends Request
 {
-
 }/**
  * @method $this setGroupId($groupId)
  * @method string getGroupId()
  */
 class DescribeRaceWorkForInner extends Request
 {
-
 }/**
  * @method $this setGroupId($groupId)
  * @method string getGroupId()
@@ -1144,7 +1061,6 @@ class DescribeRaceWorkForInner extends Request
  */
 class SetAccessPermissionByGroupForBackend extends Request
 {
-
 }/**
  * @method $this setAliUid($aliUid)
  * @method int getAliUid()
@@ -1157,7 +1073,6 @@ class SetAccessPermissionByGroupForBackend extends Request
  */
 class AbolishApiForInner extends Request
 {
-
 }/**
  * @method $this setAppId($appId)
  * @method string getAppId()
@@ -1170,7 +1085,6 @@ class AbolishApiForInner extends Request
  */
 class VpcCreateAddressPool extends Request
 {
-
 }/**
  * @method $this setGroupId($groupId)
  * @method string getGroupId()
@@ -1219,7 +1133,6 @@ class VpcCreateAddressPool extends Request
  */
 class CreateApi extends Request
 {
-
 }/**
  * @method $this setOriginalVip($originalVip)
  * @method string getOriginalVip()
@@ -1228,14 +1141,12 @@ class CreateApi extends Request
  */
 class VipMigration extends Request
 {
-
 }/**
  * @method $this setAppCode($appCode)
  * @method string getAppCode()
  */
 class ResetAppCode extends Request
 {
-
 }/**
  * @method $this setGroupId($groupId)
  * @method string getGroupId()
@@ -1252,7 +1163,6 @@ class ResetAppCode extends Request
  */
 class DescribeApiDocs extends Request
 {
-
 }/**
  * @method $this setGroupId($groupId)
  * @method string getGroupId()
@@ -1267,7 +1177,6 @@ class DescribeApiDocs extends Request
  */
 class SetAccessPermissionByApis extends Request
 {
-
 }/**
  * @method $this setType($type)
  * @method string getType()
@@ -1280,7 +1189,6 @@ class SetAccessPermissionByApis extends Request
  */
 class DescribeUserWhiteLists extends Request
 {
-
 }/**
  * @method $this setAliUid($aliUid)
  * @method int getAliUid()
@@ -1297,7 +1205,6 @@ class DescribeUserWhiteLists extends Request
  */
 class RemoveAccessPermissionByAppsForInner extends Request
 {
-
 }/**
  * @method $this setGroupId($groupId)
  * @method string getGroupId()
@@ -1348,7 +1255,6 @@ class RemoveAccessPermissionByAppsForInner extends Request
  */
 class ModifyApi extends Request
 {
-
 }/**
  * @method $this setGroupId($groupId)
  * @method string getGroupId()
@@ -1357,7 +1263,6 @@ class ModifyApi extends Request
  */
 class DeleteApi extends Request
 {
-
 }/**
  * @method $this setAliUid($aliUid)
  * @method int getAliUid()
@@ -1390,14 +1295,12 @@ class DeleteApi extends Request
  */
 class ModifyApiForInner extends Request
 {
-
 }/**
  * @method $this setAliUid($aliUid)
  * @method int getAliUid()
  */
 class CheckAccountForInner extends Request
 {
-
 }/**
  * @method $this setGroupId($groupId)
  * @method string getGroupId()
@@ -1406,7 +1309,6 @@ class CheckAccountForInner extends Request
  */
 class DescribeDomain extends Request
 {
-
 }/**
  * @method $this setGroupId($groupId)
  * @method string getGroupId()
@@ -1419,14 +1321,12 @@ class DescribeDomain extends Request
  */
 class DescribeHistoryApi extends Request
 {
-
 }/**
  * @method $this setBlackType($blackType)
  * @method string getBlackType()
  */
 class RemoveAllBlackList extends Request
 {
-
 }/**
  * @method $this setGroupId($groupId)
  * @method string getGroupId()
@@ -1439,7 +1339,6 @@ class RemoveAllBlackList extends Request
  */
 class DescribeApiGroups extends Request
 {
-
 }/**
  * @method $this setGroupId($groupId)
  * @method string getGroupId()
@@ -1448,7 +1347,6 @@ class DescribeApiGroups extends Request
  */
 class DeleteDomain extends Request
 {
-
 }/**
  * @method $this setAliUid($aliUid)
  * @method int getAliUid()
@@ -1463,7 +1361,6 @@ class DeleteDomain extends Request
  */
 class DeployApiForInner extends Request
 {
-
 }/**
  * @method $this setGroupId($groupId)
  * @method string getGroupId()
@@ -1480,7 +1377,6 @@ class DeployApiForInner extends Request
  */
 class DescribeDeployedApis extends Request
 {
-
 }/**
  * @method $this setGroupId($groupId)
  * @method string getGroupId()
@@ -1495,7 +1391,6 @@ class DescribeDeployedApis extends Request
  */
 class SetDomain extends Request
 {
-
 }/**
  * @method $this setGroupId($groupId)
  * @method string getGroupId()
@@ -1504,7 +1399,6 @@ class SetDomain extends Request
  */
 class RefreshDomain extends Request
 {
-
 }/**
  * @method $this setGroupId($groupId)
  * @method string getGroupId()
@@ -1517,7 +1411,6 @@ class RefreshDomain extends Request
  */
 class RecoveryApiFromHistorical extends Request
 {
-
 }/**
  * @method $this setGroupId($groupId)
  * @method string getGroupId()
@@ -1532,21 +1425,18 @@ class RecoveryApiFromHistorical extends Request
  */
 class RemoveAccessPermissionByApis extends Request
 {
-
 }/**
  * @method $this setTrafficControlId($trafficControlId)
  * @method string getTrafficControlId()
  */
 class DeleteTrafficControl extends Request
 {
-
 }/**
  * @method $this setAppId($appId)
  * @method int getAppId()
  */
 class DescribeAppSecurities extends Request
 {
-
 }/**
  * @method $this setGroupId($groupId)
  * @method string getGroupId()
@@ -1557,7 +1447,6 @@ class DescribeAppSecurities extends Request
  */
 class DescribeApiDoc extends Request
 {
-
 }/**
  * @method $this setRuleId($ruleId)
  * @method string getRuleId()
@@ -1570,7 +1459,6 @@ class DescribeApiDoc extends Request
  */
 class DescribeApisByRule extends Request
 {
-
 }/**
  * @method $this setApiId($apiId)
  * @method string getApiId()
@@ -1583,14 +1471,12 @@ class DescribeApisByRule extends Request
  */
 class DescribeApiTraffic extends Request
 {
-
 }/**
  * @method $this setAliUid($aliUid)
  * @method int getAliUid()
  */
 class DescribeBidByUserIdForInner extends Request
 {
-
 }/**
  * @method $this setGroupId($groupId)
  * @method string getGroupId()
@@ -1603,7 +1489,6 @@ class DescribeBidByUserIdForInner extends Request
  */
 class RemoveAccessPermissionByApps extends Request
 {
-
 }/**
  * @method $this setAppId($appId)
  * @method string getAppId()
@@ -1616,14 +1501,12 @@ class RemoveAccessPermissionByApps extends Request
  */
 class VpcAddAppServer extends Request
 {
-
 }/**
  * @method $this setAoneAppName($aoneAppName)
  * @method string getAoneAppName()
  */
 class CheckAoneAppAudit extends Request
 {
-
 }/**
  * @method $this setAppCode($appCode)
  * @method string getAppCode()
@@ -1632,5 +1515,4 @@ class CheckAoneAppAudit extends Request
  */
 class ResetAppCodeForInner extends Request
 {
-
 }

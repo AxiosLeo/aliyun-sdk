@@ -25,7 +25,6 @@ class V20180613
  */
 class DeleteLogResource extends Request
 {
-
 }/**
  * @method $this setRegion($region)
  * @method string getRegion()
@@ -46,5 +45,4 @@ class DeleteLogResource extends Request
  */
 class AnalyzeProductLog extends Request
 {
-
 }

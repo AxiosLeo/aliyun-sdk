@@ -127,7 +127,6 @@ class V20170301
  */
 class PutMetricAlarm extends Request
 {
-
 }/**
  * @method $this setUserId($userId)
  * @method int getUserId()
@@ -140,14 +139,12 @@ class PutMetricAlarm extends Request
  */
 class ProfileSet extends Request
 {
-
 }/**
  * @method $this setUserId($userId)
  * @method int getUserId()
  */
 class AccessKeyGet extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -176,28 +173,24 @@ class AccessKeyGet extends Request
  */
 class QueryMetricList extends Request
 {
-
 }/**
  * @method $this setQueryJson($queryJson)
  * @method string getQueryJson()
  */
 class QuerySystemEventCount extends Request
 {
-
 }/**
  * @method $this setInstanceIds($instanceIds)
  * @method string getInstanceIds()
  */
 class NodeStatusList extends Request
 {
-
 }/**
  * @method $this setQueryJson($queryJson)
  * @method string getQueryJson()
  */
 class QueryCustomEventCount extends Request
 {
-
 }/**
  * @method $this setUserId($userId)
  * @method string getUserId()
@@ -208,7 +201,6 @@ class QueryCustomEventCount extends Request
  */
 class NodeInstall extends Request
 {
-
 }/**
  * @method $this setPageNumber($pageNumber)
  * @method int getPageNumber()
@@ -229,7 +221,6 @@ class NodeInstall extends Request
  */
 class NodeList extends Request
 {
-
 }/**
  * @method $this setcallby_cms_owner($callby_cms_owner)
  * @method string getcallby_cms_owner()
@@ -252,7 +243,6 @@ class NodeList extends Request
  */
 class ListAlarm extends Request
 {
-
 }/**
  * @method $this setAlertState($alertState)
  * @method string getAlertState()
@@ -273,14 +263,12 @@ class ListAlarm extends Request
  */
 class DescribeAlarmsForDimensions extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
  */
 class NodeProcesses extends Request
 {
-
 }/**
  * @method $this setTotal($total)
  * @method bool getTotal()
@@ -295,28 +283,24 @@ class NodeProcesses extends Request
  */
 class ListMyGroupInstancesDetails extends Request
 {
-
 }/**
  * @method $this setEventInfo($eventInfo)
  * @method string getEventInfo()
  */
 class PutEvent extends Request
 {
-
 }/**
  * @method $this setQueryJson($queryJson)
  * @method string getQueryJson()
  */
 class QuerySystemEventDetail extends Request
 {
-
 }/**
  * @method $this setQueryJson($queryJson)
  * @method string getQueryJson()
  */
 class QueryCustomEventDetail extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -333,7 +317,6 @@ class QueryCustomEventDetail extends Request
  */
 class GetMyGroups extends Request
 {
-
 }/**
  * @method $this setGroupId($groupId)
  * @method int getGroupId()
@@ -348,14 +331,12 @@ class GetMyGroups extends Request
  */
 class TaskConfigList extends Request
 {
-
 }/**
  * @method $this setIdList($idList)
  * @method array getIdList()
  */
 class TaskConfigDelete extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -370,21 +351,18 @@ class TaskConfigDelete extends Request
  */
 class NodeProcessCreate extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
  */
 class NodeStatus extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
  */
 class NodeUninstall extends Request
 {
-
 }/**
  * @method $this setGroupId($groupId)
  * @method string getGroupId()
@@ -397,7 +375,6 @@ class NodeUninstall extends Request
  */
 class DeleteCustomMetric extends Request
 {
-
 }/**
  * @method $this setcallby_cms_owner($callby_cms_owner)
  * @method string getcallby_cms_owner()
@@ -406,14 +383,12 @@ class DeleteCustomMetric extends Request
  */
 class PutMetricData extends Request
 {
-
 }/**
  * @method $this setEventInfo($eventInfo)
  * @method string getEventInfo()
  */
 class PutSystemEvent extends Request
 {
-
 }/**
  * @method $this setProduct($product)
  * @method string getProduct()
@@ -422,7 +397,6 @@ class PutSystemEvent extends Request
  */
 class EnableActiveAlert extends Request
 {
-
 }/**
  * @method $this setTaskType($taskType)
  * @method string getTaskType()
@@ -443,7 +417,6 @@ class EnableActiveAlert extends Request
  */
 class TaskConfigCreate extends Request
 {
-
 }/**
  * @method $this setName($name)
  * @method string getName()
@@ -480,7 +453,6 @@ class TaskConfigCreate extends Request
  */
 class CreateAlarm extends Request
 {
-
 }/**
  * @method $this setGroupId($groupId)
  * @method int getGroupId()
@@ -503,7 +475,6 @@ class CreateAlarm extends Request
  */
 class TaskConfigModify extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -514,7 +485,6 @@ class TaskConfigModify extends Request
  */
 class NodeProcessDelete extends Request
 {
-
 }/**
  * @method $this setcallby_cms_owner($callby_cms_owner)
  * @method string getcallby_cms_owner()
@@ -525,7 +495,6 @@ class NodeProcessDelete extends Request
  */
 class ListContactGroup extends Request
 {
-
 }/**
  * @method $this setAlertName($alertName)
  * @method string getAlertName()
@@ -540,7 +509,6 @@ class ListContactGroup extends Request
  */
 class ListNotifyPolicy extends Request
 {
-
 }/**
  * @method $this setGroupName($groupName)
  * @method string getGroupName()
@@ -555,28 +523,24 @@ class ListNotifyPolicy extends Request
  */
 class CreateMyGroups extends Request
 {
-
 }/**
  * @method $this setTaskIdList($taskIdList)
  * @method array getTaskIdList()
  */
 class TaskConfigUnhealthy extends Request
 {
-
 }/**
  * @method $this setMetricList($metricList)
  * @method string getMetricList()
  */
 class PutCustomMetric extends Request
 {
-
 }/**
  * @method $this setGroupId($groupId)
  * @method int getGroupId()
  */
 class ListMyGroupCategories extends Request
 {
-
 }/**
  * @method $this setGroupId($groupId)
  * @method string getGroupId()
@@ -595,14 +559,12 @@ class ListMyGroupCategories extends Request
  */
 class QueryCustomMetricList extends Request
 {
-
 }/**
  * @method $this setGroupId($groupId)
  * @method int getGroupId()
  */
 class DeleteMyGroups extends Request
 {
-
 }/**
  * @method $this setTotal($total)
  * @method bool getTotal()
@@ -617,7 +579,6 @@ class DeleteMyGroups extends Request
  */
 class ListMyGroupInstances extends Request
 {
-
 }/**
  * @method $this setUserId($userId)
  * @method string getUserId()
@@ -626,7 +587,6 @@ class ListMyGroupInstances extends Request
  */
 class ListActiveAlertRule extends Request
 {
-
 }/**
  * @method $this setSelectContactGroups($selectContactGroups)
  * @method bool getSelectContactGroups()
@@ -647,14 +607,12 @@ class ListActiveAlertRule extends Request
  */
 class ListMyGroups extends Request
 {
-
 }/**
  * @method $this setQueryJson($queryJson)
  * @method string getQueryJson()
  */
 class QuerySystemEventHistogram extends Request
 {
-
 }/**
  * @method $this setGroupId($groupId)
  * @method int getGroupId()
@@ -663,7 +621,6 @@ class QuerySystemEventHistogram extends Request
  */
 class UpdateMyGroupInstances extends Request
 {
-
 }/**
  * @method $this setProduct($product)
  * @method string getProduct()
@@ -672,7 +629,6 @@ class UpdateMyGroupInstances extends Request
  */
 class DisableActiveAlert extends Request
 {
-
 }/**
  * @method $this setGroupId($groupId)
  * @method int getGroupId()
@@ -681,7 +637,6 @@ class DisableActiveAlert extends Request
  */
 class AddMyGroupInstances extends Request
 {
-
 }/**
  * @method $this setcallby_cms_owner($callby_cms_owner)
  * @method string getcallby_cms_owner()
@@ -690,14 +645,12 @@ class AddMyGroupInstances extends Request
  */
 class DisableAlarm extends Request
 {
-
 }/**
  * @method $this setUserId($userId)
  * @method int getUserId()
  */
 class ProfileGet extends Request
 {
-
 }/**
  * @method $this setcallby_cms_owner($callby_cms_owner)
  * @method string getcallby_cms_owner()
@@ -706,7 +659,6 @@ class ProfileGet extends Request
  */
 class DeleteAlarm extends Request
 {
-
 }/**
  * @method $this setAlertName($alertName)
  * @method string getAlertName()
@@ -737,12 +689,10 @@ class DeleteAlarm extends Request
  */
 class DescribeAlarmHistory extends Request
 {
-
 }/**
  */
 class ListProductOfActiveAlert extends Request
 {
-
 }/**
  * @method $this setGroupId($groupId)
  * @method string getGroupId()
@@ -769,7 +719,6 @@ class ListProductOfActiveAlert extends Request
  */
 class DescribeAlarms extends Request
 {
-
 }/**
  * @method $this setGroupId($groupId)
  * @method int getGroupId()
@@ -778,7 +727,6 @@ class DescribeAlarms extends Request
  */
 class DeleteMyGroupInstances extends Request
 {
-
 }/**
  * @method $this setResourceOwnerId($resourceOwnerId)
  * @method int getResourceOwnerId()
@@ -807,7 +755,6 @@ class DeleteMyGroupInstances extends Request
  */
 class QueryMetricLast extends Request
 {
-
 }/**
  * @method $this setAlertName($alertName)
  * @method string getAlertName()
@@ -820,7 +767,6 @@ class QueryMetricLast extends Request
  */
 class GetNotifyPolicy extends Request
 {
-
 }/**
  * @method $this setcallby_cms_owner($callby_cms_owner)
  * @method string getcallby_cms_owner()
@@ -837,7 +783,6 @@ class GetNotifyPolicy extends Request
  */
 class ListAlarmHistory extends Request
 {
-
 }/**
  * @method $this setGroupId($groupId)
  * @method string getGroupId()
@@ -854,14 +799,12 @@ class ListAlarmHistory extends Request
  */
 class UpdateMyGroups extends Request
 {
-
 }/**
  * @method $this setQueryJson($queryJson)
  * @method string getQueryJson()
  */
 class QueryCustomEventHistogram extends Request
 {
-
 }/**
  * @method $this setIdList($idList)
  * @method array getIdList()
@@ -870,7 +813,6 @@ class QueryCustomEventHistogram extends Request
  */
 class TaskConfigEnable extends Request
 {
-
 }/**
  * @method $this setcallby_cms_owner($callby_cms_owner)
  * @method string getcallby_cms_owner()
@@ -879,7 +821,6 @@ class TaskConfigEnable extends Request
  */
 class EnableAlarm extends Request
 {
-
 }/**
  * @method $this setcallby_cms_owner($callby_cms_owner)
  * @method string getcallby_cms_owner()
@@ -912,7 +853,6 @@ class EnableAlarm extends Request
  */
 class UpdateAlarm extends Request
 {
-
 }/**
  * @method $this setDimensions($dimensions)
  * @method string getDimensions()
@@ -925,7 +865,6 @@ class UpdateAlarm extends Request
  */
 class DeleteNotifyPolicy extends Request
 {
-
 }/**
  * @method $this setDimensions($dimensions)
  * @method string getDimensions()
@@ -940,5 +879,4 @@ class DeleteNotifyPolicy extends Request
  */
 class CreateNotifyPolicy extends Request
 {
-
 }

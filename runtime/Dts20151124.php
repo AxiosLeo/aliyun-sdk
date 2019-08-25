@@ -26,21 +26,18 @@ class V20151124
  */
 class DeleteSynchronousJob extends Request
 {
-
 }/**
  * @method $this setSynchronousJobId($synchronousJobId)
  * @method string getSynchronousJobId()
  */
 class StartSynchronousJob extends Request
 {
-
 }/**
  * @method $this setSynchronousJobId($synchronousJobId)
  * @method string getSynchronousJobId()
  */
 class DescribeSynchronousJobDetails extends Request
 {
-
 }/**
  * @method $this setPageSize($pageSize)
  * @method int getPageSize()
@@ -53,7 +50,6 @@ class DescribeSynchronousJobDetails extends Request
  */
 class DescribeSynchronousJobList extends Request
 {
-
 }/**
  * @method $this setSynchronousJobName($synchronousJobName)
  * @method string getSynchronousJobName()
@@ -72,19 +68,16 @@ class DescribeSynchronousJobList extends Request
  */
 class CreateSynchronousJob extends Request
 {
-
 }/**
  * @method $this setSynchronousJobId($synchronousJobId)
  * @method string getSynchronousJobId()
  */
 class SuspendSynchronousJob extends Request
 {
-
 }/**
  * @method $this setSynchronousJobId($synchronousJobId)
  * @method string getSynchronousJobId()
  */
 class DescribeSynchronousJobConfiguration extends Request
 {
-
 }

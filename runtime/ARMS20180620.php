@@ -48,5 +48,4 @@ class V20180620
  */
 class ARMSQueryDataSet extends Request
 {
-
 }

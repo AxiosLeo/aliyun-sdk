@@ -93,7 +93,6 @@ class V20170711
  */
 class DeleteAlbums extends Request
 {
-
 }/**
  * @method $this setFaceId($faceId)
  * @method int getFaceId()
@@ -106,7 +105,6 @@ class DeleteAlbums extends Request
  */
 class RenameFace extends Request
 {
-
 }/**
  * @method $this setFaceId($faceId)
  * @method int getFaceId()
@@ -119,7 +117,6 @@ class RenameFace extends Request
  */
 class SetFaceCover extends Request
 {
-
 }/**
  * @method $this setPhotoId($photoId)
  * @method int getPhotoId()
@@ -132,7 +129,6 @@ class SetFaceCover extends Request
  */
 class GetThumbnail extends Request
 {
-
 }/**
  * @method $this setFaceId($faceId)
  * @method array getFaceId()
@@ -145,14 +141,12 @@ class GetThumbnail extends Request
  */
 class MergeFaces extends Request
 {
-
 }/**
  * @method $this setStoreName($storeName)
  * @method string getStoreName()
  */
 class GetPhotoStore extends Request
 {
-
 }/**
  * @method $this setTagId($tagId)
  * @method int getTagId()
@@ -171,7 +165,6 @@ class GetPhotoStore extends Request
  */
 class ListTagPhotos extends Request
 {
-
 }/**
  * @method $this setStoreName($storeName)
  * @method string getStoreName()
@@ -198,7 +191,6 @@ class ListTagPhotos extends Request
  */
 class CreateEvent extends Request
 {
-
 }/**
  * @method $this setPhotoId($photoId)
  * @method array getPhotoId()
@@ -209,7 +201,6 @@ class CreateEvent extends Request
  */
 class GetDownloadUrls extends Request
 {
-
 }/**
  * @method $this setPhotoId($photoId)
  * @method array getPhotoId()
@@ -228,7 +219,6 @@ class GetDownloadUrls extends Request
  */
 class EditPhotos extends Request
 {
-
 }/**
  * @method $this setAlbumId($albumId)
  * @method int getAlbumId()
@@ -245,7 +235,6 @@ class EditPhotos extends Request
  */
 class FetchAlbumTagPhotos extends Request
 {
-
 }/**
  * @method $this setPhotoId($photoId)
  * @method array getPhotoId()
@@ -260,7 +249,6 @@ class FetchAlbumTagPhotos extends Request
  */
 class GetPublicAccessUrls extends Request
 {
-
 }/**
  * @method $this setPhotoId($photoId)
  * @method array getPhotoId()
@@ -271,7 +259,6 @@ class GetPublicAccessUrls extends Request
  */
 class ActivatePhotos extends Request
 {
-
 }/**
  * @method $this setEventId($eventId)
  * @method int getEventId()
@@ -282,7 +269,6 @@ class ActivatePhotos extends Request
  */
 class DeleteEvent extends Request
 {
-
 }/**
  * @method $this setDirection($direction)
  * @method string getDirection()
@@ -297,7 +283,6 @@ class DeleteEvent extends Request
  */
 class ListEvents extends Request
 {
-
 }/**
  * @method $this setAlbumId($albumId)
  * @method int getAlbumId()
@@ -310,7 +295,6 @@ class ListEvents extends Request
  */
 class SetAlbumCover extends Request
 {
-
 }/**
  * @method $this setDirection($direction)
  * @method string getDirection()
@@ -333,7 +317,6 @@ class SetAlbumCover extends Request
  */
 class ListTimeLinePhotos extends Request
 {
-
 }/**
  * @method $this setStoreName($storeName)
  * @method string getStoreName()
@@ -362,7 +345,6 @@ class ListTimeLinePhotos extends Request
  */
 class EditEvent extends Request
 {
-
 }/**
  * @method $this setStoreName($storeName)
  * @method string getStoreName()
@@ -373,7 +355,6 @@ class EditEvent extends Request
  */
 class DeletePhotos extends Request
 {
-
 }/**
  * @method $this setPhotoId($photoId)
  * @method array getPhotoId()
@@ -384,7 +365,6 @@ class DeletePhotos extends Request
  */
 class ReactivatePhotos extends Request
 {
-
 }/**
  * @method $this setPhotoId($photoId)
  * @method array getPhotoId()
@@ -397,7 +377,6 @@ class ReactivatePhotos extends Request
  */
 class GetFramedPhotoUrls extends Request
 {
-
 }/**
  * @method $this setMomentId($momentId)
  * @method int getMomentId()
@@ -416,7 +395,6 @@ class GetFramedPhotoUrls extends Request
  */
 class ListMomentPhotos extends Request
 {
-
 }/**
  * @method $this setStoreName($storeName)
  * @method string getStoreName()
@@ -431,7 +409,6 @@ class ListMomentPhotos extends Request
  */
 class TagPhoto extends Request
 {
-
 }/**
  * @method $this setStoreName($storeName)
  * @method string getStoreName()
@@ -442,7 +419,6 @@ class TagPhoto extends Request
  */
 class ToggleFeatures extends Request
 {
-
 }/**
  * @method $this setDirection($direction)
  * @method string getDirection()
@@ -461,7 +437,6 @@ class ToggleFeatures extends Request
  */
 class ListFaces extends Request
 {
-
 }/**
  * @method $this setMomentId($momentId)
  * @method int getMomentId()
@@ -480,7 +455,6 @@ class ListFaces extends Request
  */
 class FetchMomentPhotos extends Request
 {
-
 }/**
  * @method $this setPhotoId($photoId)
  * @method int getPhotoId()
@@ -491,7 +465,6 @@ class FetchMomentPhotos extends Request
  */
 class ListPhotoFaces extends Request
 {
-
 }/**
  * @method $this setAlbumId($albumId)
  * @method int getAlbumId()
@@ -510,7 +483,6 @@ class ListPhotoFaces extends Request
  */
 class ListAlbumPhotos extends Request
 {
-
 }/**
  * @method $this setMd5($md5)
  * @method array getMd5()
@@ -523,7 +495,6 @@ class ListAlbumPhotos extends Request
  */
 class GetPhotosByMd5s extends Request
 {
-
 }/**
  * @method $this setPhotoId($photoId)
  * @method int getPhotoId()
@@ -534,7 +505,6 @@ class GetPhotosByMd5s extends Request
  */
 class GetSimilarPhotos extends Request
 {
-
 }/**
  * @method $this setEventId($eventId)
  * @method int getEventId()
@@ -545,7 +515,6 @@ class GetSimilarPhotos extends Request
  */
 class GetEvent extends Request
 {
-
 }/**
  * @method $this setPhotoId($photoId)
  * @method int getPhotoId()
@@ -556,7 +525,6 @@ class GetEvent extends Request
  */
 class GetDownloadUrl extends Request
 {
-
 }/**
  * @method $this setPhotoId($photoId)
  * @method int getPhotoId()
@@ -569,7 +537,6 @@ class GetDownloadUrl extends Request
  */
 class ListPhotoTags extends Request
 {
-
 }/**
  * @method $this setAutoCleanEnabled($autoCleanEnabled)
  * @method string getAutoCleanEnabled()
@@ -586,7 +553,6 @@ class ListPhotoTags extends Request
  */
 class EditPhotoStore extends Request
 {
-
 }/**
  * @method $this setPhotoId($photoId)
  * @method array getPhotoId()
@@ -599,7 +565,6 @@ class EditPhotoStore extends Request
  */
 class InactivatePhotos extends Request
 {
-
 }/**
  * @method $this setDirection($direction)
  * @method string getDirection()
@@ -616,7 +581,6 @@ class InactivatePhotos extends Request
  */
 class ListMoments extends Request
 {
-
 }/**
  * @method $this setSize($size)
  * @method int getSize()
@@ -633,7 +597,6 @@ class ListMoments extends Request
  */
 class CreateTransaction extends Request
 {
-
 }/**
  * @method $this setStoreName($storeName)
  * @method string getStoreName()
@@ -642,7 +605,6 @@ class CreateTransaction extends Request
  */
 class ListRegisteredTags extends Request
 {
-
 }/**
  * @method $this setPhotoId($photoId)
  * @method int getPhotoId()
@@ -655,7 +617,6 @@ class ListRegisteredTags extends Request
  */
 class GetVideoCover extends Request
 {
-
 }/**
  * @method $this setFaceId($faceId)
  * @method int getFaceId()
@@ -666,7 +627,6 @@ class GetVideoCover extends Request
  */
 class SetMe extends Request
 {
-
 }/**
  * @method $this setFileId($fileId)
  * @method string getFileId()
@@ -691,7 +651,6 @@ class SetMe extends Request
  */
 class CreatePhoto extends Request
 {
-
 }/**
  * @method $this setTotalQuota($totalQuota)
  * @method int getTotalQuota()
@@ -702,7 +661,6 @@ class CreatePhoto extends Request
  */
 class SetQuota extends Request
 {
-
 }/**
  * @method $this setAlbumId($albumId)
  * @method int getAlbumId()
@@ -715,7 +673,6 @@ class SetQuota extends Request
  */
 class RemoveAlbumPhotos extends Request
 {
-
 }/**
  * @method $this setDirection($direction)
  * @method string getDirection()
@@ -732,7 +689,6 @@ class RemoveAlbumPhotos extends Request
  */
 class ListAlbums extends Request
 {
-
 }/**
  * @method $this setPhotoId($photoId)
  * @method array getPhotoId()
@@ -745,7 +701,6 @@ class ListAlbums extends Request
  */
 class GetThumbnails extends Request
 {
-
 }/**
  * @method $this setStoreName($storeName)
  * @method string getStoreName()
@@ -758,7 +713,6 @@ class GetThumbnails extends Request
  */
 class RegisterTag extends Request
 {
-
 }/**
  * @method $this setFaceId($faceId)
  * @method int getFaceId()
@@ -771,7 +725,6 @@ class RegisterTag extends Request
  */
 class RemoveFacePhotos extends Request
 {
-
 }/**
  * @method $this setAlbumName($albumName)
  * @method string getAlbumName()
@@ -784,7 +737,6 @@ class RemoveFacePhotos extends Request
  */
 class CreateAlbum extends Request
 {
-
 }/**
  * @method $this setDirection($direction)
  * @method string getDirection()
@@ -801,7 +753,6 @@ class CreateAlbum extends Request
  */
 class ListPhotos extends Request
 {
-
 }/**
  * @method $this setFaceId($faceId)
  * @method array getFaceId()
@@ -812,7 +763,6 @@ class ListPhotos extends Request
  */
 class DeleteFaces extends Request
 {
-
 }/**
  * @method $this setSourceAlbumId($sourceAlbumId)
  * @method int getSourceAlbumId()
@@ -827,14 +777,12 @@ class DeleteFaces extends Request
  */
 class MoveAlbumPhotos extends Request
 {
-
 }/**
  * @method $this setStoreName($storeName)
  * @method string getStoreName()
  */
 class DeletePhotoStore extends Request
 {
-
 }/**
  * @method $this setSourceFaceId($sourceFaceId)
  * @method int getSourceFaceId()
@@ -849,7 +797,6 @@ class DeletePhotoStore extends Request
  */
 class MoveFacePhotos extends Request
 {
-
 }/**
  * @method $this setAlbumId($albumId)
  * @method int getAlbumId()
@@ -862,7 +809,6 @@ class MoveFacePhotos extends Request
  */
 class RenameAlbum extends Request
 {
-
 }/**
  * @method $this setState($state)
  * @method string getState()
@@ -881,7 +827,6 @@ class RenameAlbum extends Request
  */
 class FetchPhotos extends Request
 {
-
 }/**
  * @method $this setAlbumId($albumId)
  * @method int getAlbumId()
@@ -894,7 +839,6 @@ class FetchPhotos extends Request
  */
 class AddAlbumPhotos extends Request
 {
-
 }/**
  * @method $this setPhotoId($photoId)
  * @method int getPhotoId()
@@ -905,7 +849,6 @@ class AddAlbumPhotos extends Request
  */
 class LikePhoto extends Request
 {
-
 }/**
  * @method $this setName($name)
  * @method array getName()
@@ -916,7 +859,6 @@ class LikePhoto extends Request
  */
 class GetAlbumsByNames extends Request
 {
-
 }/**
  * @method $this setPage($page)
  * @method int getPage()
@@ -931,7 +873,6 @@ class GetAlbumsByNames extends Request
  */
 class SearchPhotos extends Request
 {
-
 }/**
  * @method $this setStoreName($storeName)
  * @method string getStoreName()
@@ -944,7 +885,6 @@ class SearchPhotos extends Request
  */
 class CreatePhotoStore extends Request
 {
-
 }/**
  * @method $this setPhotoId($photoId)
  * @method array getPhotoId()
@@ -957,7 +897,6 @@ class CreatePhotoStore extends Request
  */
 class GetPrivateAccessUrls extends Request
 {
-
 }/**
  * @method $this setFaceId($faceId)
  * @method int getFaceId()
@@ -976,7 +915,6 @@ class GetPrivateAccessUrls extends Request
  */
 class ListFacePhotos extends Request
 {
-
 }/**
  * @method $this setTakenAt($takenAt)
  * @method int getTakenAt()
@@ -1007,7 +945,6 @@ class ListFacePhotos extends Request
  */
 class RegisterPhoto extends Request
 {
-
 }/**
  * @method $this setDirection($direction)
  * @method string getDirection()
@@ -1030,12 +967,10 @@ class RegisterPhoto extends Request
  */
 class ListTimeLines extends Request
 {
-
 }/**
  */
 class ListPhotoStores extends Request
 {
-
 }/**
  * @method $this setPhotoId($photoId)
  * @method array getPhotoId()
@@ -1046,7 +981,6 @@ class ListPhotoStores extends Request
  */
 class GetPhotos extends Request
 {
-
 }/**
  * @method $this setStoreName($storeName)
  * @method string getStoreName()
@@ -1055,7 +989,6 @@ class GetPhotos extends Request
  */
 class GetQuota extends Request
 {
-
 }/**
  * @method $this setStoreName($storeName)
  * @method string getStoreName()
@@ -1064,7 +997,6 @@ class GetQuota extends Request
  */
 class GetLibrary extends Request
 {
-
 }/**
  * @method $this setStoreName($storeName)
  * @method string getStoreName()
@@ -1075,7 +1007,6 @@ class GetLibrary extends Request
  */
 class FetchLibraries extends Request
 {
-
 }/**
  * @method $this setLang($lang)
  * @method string getLang()
@@ -1086,5 +1017,4 @@ class FetchLibraries extends Request
  */
 class ListTags extends Request
 {
-
 }

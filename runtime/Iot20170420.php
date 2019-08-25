@@ -61,7 +61,6 @@ class V20170420
  */
 class SaveDeviceProp extends Request
 {
-
 }/**
  * @method $this setRuleId($ruleId)
  * @method int getRuleId()
@@ -80,7 +79,6 @@ class SaveDeviceProp extends Request
  */
 class UpdateRule extends Request
 {
-
 }/**
  * @method $this setDeviceName($deviceName)
  * @method string getDeviceName()
@@ -91,7 +89,6 @@ class UpdateRule extends Request
  */
 class DeleteDeviceProp extends Request
 {
-
 }/**
  * @method $this setDeviceName($deviceName)
  * @method string getDeviceName()
@@ -102,7 +99,6 @@ class DeleteDeviceProp extends Request
  */
 class UpdateDeviceShadow extends Request
 {
-
 }/**
  * @method $this setProductName($productName)
  * @method string getProductName()
@@ -119,14 +115,12 @@ class UpdateDeviceShadow extends Request
  */
 class UpdateProduct extends Request
 {
-
 }/**
  * @method $this setApplyId($applyId)
  * @method int getApplyId()
  */
 class QueryApplyStatus extends Request
 {
-
 }/**
  * @method $this setActionId($actionId)
  * @method int getActionId()
@@ -137,14 +131,12 @@ class QueryApplyStatus extends Request
  */
 class UpdateRuleAction extends Request
 {
-
 }/**
  * @method $this setActionId($actionId)
  * @method int getActionId()
  */
 class GetRuleAction extends Request
 {
-
 }/**
  * @method $this setDesc($desc)
  * @method string getDesc()
@@ -157,7 +149,6 @@ class GetRuleAction extends Request
  */
 class UpdateProductTopic extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -180,7 +171,6 @@ class UpdateProductTopic extends Request
  */
 class CreateProduct extends Request
 {
-
 }/**
  * @method $this setCurrentPage($currentPage)
  * @method int getCurrentPage()
@@ -191,7 +181,6 @@ class CreateProduct extends Request
  */
 class QueryPageByApplyId extends Request
 {
-
 }/**
  * @method $this setDeviceName($deviceName)
  * @method string getDeviceName()
@@ -200,21 +189,18 @@ class QueryPageByApplyId extends Request
  */
 class RegistDevice extends Request
 {
-
 }/**
  * @method $this setRuleId($ruleId)
  * @method int getRuleId()
  */
 class DeleteRule extends Request
 {
-
 }/**
  * @method $this setTopicId($topicId)
  * @method string getTopicId()
  */
 class DeleteProductTopic extends Request
 {
-
 }/**
  * @method $this setProductKey($productKey)
  * @method string getProductKey()
@@ -227,7 +213,6 @@ class DeleteProductTopic extends Request
  */
 class CreateProductTopic extends Request
 {
-
 }/**
  * @method $this setDeviceName($deviceName)
  * @method string getDeviceName()
@@ -238,14 +223,12 @@ class CreateProductTopic extends Request
  */
 class GetDeviceShadow extends Request
 {
-
 }/**
  * @method $this setRuleId($ruleId)
  * @method int getRuleId()
  */
 class GetRule extends Request
 {
-
 }/**
  * @method $this setCurrentPage($currentPage)
  * @method int getCurrentPage()
@@ -254,7 +237,6 @@ class GetRule extends Request
  */
 class ListRule extends Request
 {
-
 }/**
  * @method $this setProductKey($productKey)
  * @method string getProductKey()
@@ -267,19 +249,16 @@ class ListRule extends Request
  */
 class Pub extends Request
 {
-
 }/**
  * @method $this setRuleId($ruleId)
  * @method int getRuleId()
  */
 class StopRule extends Request
 {
-
 }/**
  */
 class RamAuth extends Request
 {
-
 }/**
  * @method $this setDeviceName($deviceName)
  * @method string getDeviceName()
@@ -288,14 +267,12 @@ class RamAuth extends Request
  */
 class QueryDeviceProp extends Request
 {
-
 }/**
  * @method $this setActionId($actionId)
  * @method int getActionId()
  */
 class DeleteRuleAction extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -304,21 +281,18 @@ class DeleteRuleAction extends Request
  */
 class QueryTopicReverseRouteTable extends Request
 {
-
 }/**
  * @method $this setProductKey($productKey)
  * @method string getProductKey()
  */
 class QueryProductTopic extends Request
 {
-
 }/**
  * @method $this setRuleId($ruleId)
  * @method int getRuleId()
  */
 class StartRule extends Request
 {
-
 }/**
  * @method $this setProductKey($productKey)
  * @method string getProductKey()
@@ -327,7 +301,6 @@ class StartRule extends Request
  */
 class BatchGetDeviceState extends Request
 {
-
 }/**
  * @method $this setProductKey($productKey)
  * @method string getProductKey()
@@ -338,7 +311,6 @@ class BatchGetDeviceState extends Request
  */
 class PubBroadcast extends Request
 {
-
 }/**
  * @method $this setDeviceName($deviceName)
  * @method string getDeviceName()
@@ -347,7 +319,6 @@ class PubBroadcast extends Request
  */
 class QueryDeviceByName extends Request
 {
-
 }/**
  * @method $this setProductKey($productKey)
  * @method string getProductKey()
@@ -358,14 +329,12 @@ class QueryDeviceByName extends Request
  */
 class QueryDevice extends Request
 {
-
 }/**
  * @method $this setRuleId($ruleId)
  * @method int getRuleId()
  */
 class ListRuleActions extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -374,7 +343,6 @@ class ListRuleActions extends Request
  */
 class QueryTopicRouteTable extends Request
 {
-
 }/**
  * @method $this setSelect($select)
  * @method string getSelect()
@@ -393,7 +361,6 @@ class QueryTopicRouteTable extends Request
  */
 class CreateRule extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -404,7 +371,6 @@ class CreateRule extends Request
  */
 class DeleteTopicRouteTable extends Request
 {
-
 }/**
  * @method $this setDeviceName($deviceName)
  * @method array getDeviceName()
@@ -413,7 +379,6 @@ class DeleteTopicRouteTable extends Request
  */
 class ApplyDeviceWithNames extends Request
 {
-
 }/**
  * @method $this setProductKey($productKey)
  * @method string getProductKey()
@@ -428,7 +393,6 @@ class ApplyDeviceWithNames extends Request
  */
 class RRpc extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -439,7 +403,6 @@ class RRpc extends Request
  */
 class CreateTopicRouteTable extends Request
 {
-
 }/**
  * @method $this setRuleId($ruleId)
  * @method int getRuleId()
@@ -450,5 +413,4 @@ class CreateTopicRouteTable extends Request
  */
 class CreateRuleAction extends Request
 {
-
 }

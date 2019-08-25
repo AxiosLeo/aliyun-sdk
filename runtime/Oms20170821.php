@@ -25,7 +25,6 @@ class V20170821
  */
 class CheckBeforeDeployed extends Request
 {
-
 }/**
  * @method $this setDomainCode($domainCode)
  * @method string getDomainCode()
@@ -36,7 +35,6 @@ class CheckBeforeDeployed extends Request
  */
 class GetDomainCodeByEnv extends Request
 {
-
 }/**
  * @method $this setDomainCode($domainCode)
  * @method string getDomainCode()
@@ -49,7 +47,6 @@ class GetDomainCodeByEnv extends Request
  */
 class GetDomainList extends Request
 {
-
 }/**
  * @method $this setDomainCode($domainCode)
  * @method string getDomainCode()
@@ -64,5 +61,4 @@ class GetDomainList extends Request
  */
 class GetDomainCodes extends Request
 {
-
 }

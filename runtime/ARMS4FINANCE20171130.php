@@ -39,7 +39,6 @@ class V20171130
  */
 class WhereInDimQuery extends Request
 {
-
 }/**
  * @method $this setDatasetId($datasetId)
  * @method int getDatasetId()
@@ -60,5 +59,4 @@ class WhereInDimQuery extends Request
  */
 class ARMSQueryDataSet extends Request
 {
-
 }

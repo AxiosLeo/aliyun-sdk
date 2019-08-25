@@ -24,33 +24,28 @@ class V20180115
  */
 class UploadPic extends Request
 {
-
 }/**
  * @method $this setinstanceName($instanceName)
  * @method string getinstanceName()
  */
 class AddItem extends Request
 {
-
 }/**
  * @method $this setinstanceName($instanceName)
  * @method string getinstanceName()
  */
 class ItemAdd extends Request
 {
-
 }/**
  * @method $this setinstanceName($instanceName)
  * @method string getinstanceName()
  */
 class SearchItem extends Request
 {
-
 }/**
  * @method $this setinstanceName($instanceName)
  * @method string getinstanceName()
  */
 class DeleteItem extends Request
 {
-
 }

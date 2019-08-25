@@ -63,7 +63,6 @@ class V20171118
  */
 class DeleteServiceList extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -74,7 +73,6 @@ class DeleteServiceList extends Request
  */
 class FindProjectsNameList extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -87,7 +85,6 @@ class FindProjectsNameList extends Request
  */
 class FindCredentialsList extends Request
 {
-
 }/**
  * @method $this setShowDelOrder($showDelOrder)
  * @method bool getShowDelOrder()
@@ -110,7 +107,6 @@ class FindCredentialsList extends Request
  */
 class FindOrderedList extends Request
 {
-
 }/**
  * @method $this setCsbId($csbId)
  * @method int getCsbId()
@@ -121,7 +117,6 @@ class FindOrderedList extends Request
  */
 class CreateCredentials extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -132,7 +127,6 @@ class CreateCredentials extends Request
  */
 class GetProject extends Request
 {
-
 }/**
  * @method $this setData($data)
  * @method string getData()
@@ -143,7 +137,6 @@ class GetProject extends Request
  */
 class CreateOrder extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -154,7 +147,6 @@ class CreateOrder extends Request
  */
 class DeleteService extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -167,7 +159,6 @@ class DeleteService extends Request
  */
 class DeleteCredentialsList extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -178,7 +169,6 @@ class DeleteCredentialsList extends Request
  */
 class CreateService extends Request
 {
-
 }/**
  * @method $this setCredentialId($credentialId)
  * @method int getCredentialId()
@@ -187,7 +177,6 @@ class CreateService extends Request
  */
 class ReplaceCredential extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -198,7 +187,6 @@ class ReplaceCredential extends Request
  */
 class UpdateOrder extends Request
 {
-
 }/**
  * @method $this setCasCsbName($casCsbName)
  * @method string getCasCsbName()
@@ -209,7 +197,6 @@ class UpdateOrder extends Request
  */
 class PublishCasService extends Request
 {
-
 }/**
  * @method $this setServiceName($serviceName)
  * @method string getServiceName()
@@ -230,7 +217,6 @@ class PublishCasService extends Request
  */
 class FindServiceList extends Request
 {
-
 }/**
  * @method $this setData($data)
  * @method string getData()
@@ -239,7 +225,6 @@ class FindServiceList extends Request
  */
 class DeleteOrderList extends Request
 {
-
 }/**
  * @method $this setCsbName($csbName)
  * @method string getCsbName()
@@ -250,7 +235,6 @@ class DeleteOrderList extends Request
  */
 class CommitSuccessedServices extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -265,7 +249,6 @@ class CommitSuccessedServices extends Request
  */
 class DeleteCasService extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -276,7 +259,6 @@ class DeleteCasService extends Request
  */
 class GetOrder extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -287,7 +269,6 @@ class GetOrder extends Request
  */
 class UpdateService extends Request
 {
-
 }/**
  * @method $this setCsbId($csbId)
  * @method int getCsbId()
@@ -298,7 +279,6 @@ class UpdateService extends Request
  */
 class CreateProject extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -309,7 +289,6 @@ class CreateProject extends Request
  */
 class DeleteProject extends Request
 {
-
 }/**
  * @method $this setServiceName($serviceName)
  * @method string getServiceName()
@@ -326,7 +305,6 @@ class DeleteProject extends Request
  */
 class FindOrderableList extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -337,7 +315,6 @@ class FindOrderableList extends Request
  */
 class CheckServiceExist extends Request
 {
-
 }/**
  * @method $this setCredentialId($credentialId)
  * @method int getCredentialId()
@@ -346,7 +323,6 @@ class CheckServiceExist extends Request
  */
 class RenewCredentials extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -357,7 +333,6 @@ class RenewCredentials extends Request
  */
 class DeleteProjectList extends Request
 {
-
 }/**
  * @method $this setAlias($alias)
  * @method string getAlias()
@@ -378,7 +353,6 @@ class DeleteProjectList extends Request
  */
 class FindApprovalOrderList extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -389,7 +363,6 @@ class FindApprovalOrderList extends Request
  */
 class UpdateProject extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -398,7 +371,6 @@ class UpdateProject extends Request
  */
 class GetInstance extends Request
 {
-
 }/**
  * @method $this setServiceName($serviceName)
  * @method string getServiceName()
@@ -413,7 +385,6 @@ class GetInstance extends Request
  */
 class FindServiceStatisticalData extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -424,7 +395,6 @@ class FindServiceStatisticalData extends Request
  */
 class UpdateServiceQPS extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -435,7 +405,6 @@ class UpdateServiceQPS extends Request
  */
 class UpdateProjectListStatus extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -446,7 +415,6 @@ class UpdateProjectListStatus extends Request
  */
 class UpdateServiceListStatus extends Request
 {
-
 }/**
  * @method $this setData($data)
  * @method string getData()
@@ -455,7 +423,6 @@ class UpdateServiceListStatus extends Request
  */
 class UpdateOrderList extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -466,7 +433,6 @@ class UpdateOrderList extends Request
  */
 class GetService extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -481,7 +447,6 @@ class GetService extends Request
  */
 class FindInstanceList extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -494,7 +459,6 @@ class FindInstanceList extends Request
  */
 class FindProjectList extends Request
 {
-
 }/**
  * @method $this setCasCsbName($casCsbName)
  * @method string getCasCsbName()
@@ -505,7 +469,6 @@ class FindProjectList extends Request
  */
 class PublishUnionCasService extends Request
 {
-
 }/**
  * @method $this setShowDelService($showDelService)
  * @method bool getShowDelService()
@@ -524,7 +487,6 @@ class PublishUnionCasService extends Request
  */
 class FindApproveServiceList extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -539,7 +501,6 @@ class FindApproveServiceList extends Request
  */
 class DeleteUnionCasService extends Request
 {
-
 }/**
  * @method $this setData($data)
  * @method string getData()
@@ -548,5 +509,4 @@ class DeleteUnionCasService extends Request
  */
 class ApproveOrderList extends Request
 {
-
 }

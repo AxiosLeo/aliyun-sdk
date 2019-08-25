@@ -48,7 +48,6 @@ class V20150506
  */
 class DoCheckResource extends Request
 {
-
 }/**
  * @method $this setInterrupt($interrupt)
  * @method bool getInterrupt()
@@ -75,7 +74,6 @@ class DoCheckResource extends Request
  */
 class DoPhysicalDeleteResource extends Request
 {
-
 }/**
  * @method $this setInterrupt($interrupt)
  * @method bool getInterrupt()
@@ -102,5 +100,4 @@ class DoPhysicalDeleteResource extends Request
  */
 class DoLogicalDeleteResource extends Request
 {
-
 }

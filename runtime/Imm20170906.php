@@ -114,7 +114,6 @@ class V20170906
  */
 class GetTagJob extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -149,7 +148,6 @@ class GetTagJob extends Request
  */
 class IndexVideo extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -162,7 +160,6 @@ class IndexVideo extends Request
  */
 class ListTagSets extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -177,7 +174,6 @@ class ListTagSets extends Request
  */
 class ListVideoFrames extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -188,7 +184,6 @@ class ListVideoFrames extends Request
  */
 class DeletePhotoProcessTask extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -201,7 +196,6 @@ class DeletePhotoProcessTask extends Request
  */
 class DeleteDocIndex extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -218,7 +212,6 @@ class DeleteDocIndex extends Request
  */
 class ListTagPhotos extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -229,7 +222,6 @@ class ListTagPhotos extends Request
  */
 class GetSet extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -248,7 +240,6 @@ class GetSet extends Request
  */
 class CreatePornBatchDetectJob extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -265,7 +256,6 @@ class CreatePornBatchDetectJob extends Request
  */
 class FindImagesByTagNames extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -278,7 +268,6 @@ class FindImagesByTagNames extends Request
  */
 class GetFaceSearchUser extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -295,7 +284,6 @@ class GetFaceSearchUser extends Request
  */
 class ListFaceSearchGroupImages extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -308,7 +296,6 @@ class ListFaceSearchGroupImages extends Request
  */
 class DeleteImageJob extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -345,7 +332,6 @@ class DeleteImageJob extends Request
  */
 class CreateCADConversionTask extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -358,7 +344,6 @@ class CreateCADConversionTask extends Request
  */
 class DeleteTagByUrl extends Request
 {
-
 }/**
  * @method $this setProject($project)
  * @method string getProject()
@@ -413,7 +398,6 @@ class DeleteTagByUrl extends Request
  */
 class CreateOfficeConversionTask extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -426,7 +410,6 @@ class CreateOfficeConversionTask extends Request
  */
 class ListOfficeConversionTask extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -435,7 +418,6 @@ class ListOfficeConversionTask extends Request
  */
 class GetProject extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -452,7 +434,6 @@ class GetProject extends Request
  */
 class CreateTagJob extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -465,7 +446,6 @@ class CreateTagJob extends Request
  */
 class DeleteVideoTask extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -480,7 +460,6 @@ class DeleteVideoTask extends Request
  */
 class CreateGroupFacesJob extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -499,7 +478,6 @@ class CreateGroupFacesJob extends Request
  */
 class SearchFace extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -512,7 +490,6 @@ class SearchFace extends Request
  */
 class GetVideoTask extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -529,7 +506,6 @@ class GetVideoTask extends Request
  */
 class IndexTag extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -540,7 +516,6 @@ class IndexTag extends Request
  */
 class GetTagSet extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -551,7 +526,6 @@ class GetTagSet extends Request
  */
 class ListProjects extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -562,7 +536,6 @@ class ListProjects extends Request
  */
 class DetectQRCodes extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -575,7 +548,6 @@ class DetectQRCodes extends Request
  */
 class ListFaceSearchGroups extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -586,7 +558,6 @@ class ListFaceSearchGroups extends Request
  */
 class GetPhotoProcessTask extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -597,7 +568,6 @@ class GetPhotoProcessTask extends Request
  */
 class ListSets extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -610,7 +580,6 @@ class ListSets extends Request
  */
 class ListPornBatchDetectJobs extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -639,7 +608,6 @@ class ListPornBatchDetectJobs extends Request
  */
 class IndexImage extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -658,7 +626,6 @@ class IndexImage extends Request
  */
 class FindSimilarFaces extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -673,7 +640,6 @@ class FindSimilarFaces extends Request
  */
 class ListVideoAudios extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -684,7 +650,6 @@ class ListVideoAudios extends Request
  */
 class DetectLogo extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -697,7 +662,6 @@ class DetectLogo extends Request
  */
 class DeleteFaceSearchUser extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -706,7 +670,6 @@ class DeleteFaceSearchUser extends Request
  */
 class CreateTagSet extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -753,7 +716,6 @@ class CreateTagSet extends Request
  */
 class ConvertOfficeFormat extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -768,7 +730,6 @@ class ConvertOfficeFormat extends Request
  */
 class ListVideoTasks extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -779,7 +740,6 @@ class ListVideoTasks extends Request
  */
 class GetFaceSearchGroup extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -824,7 +784,6 @@ class GetFaceSearchGroup extends Request
  */
 class SearchDocIndex extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -841,7 +800,6 @@ class SearchDocIndex extends Request
  */
 class DeleteFaceSearchImageById extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -868,7 +826,6 @@ class DeleteFaceSearchImageById extends Request
  */
 class CreateVideoAnalyseTask extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -883,7 +840,6 @@ class CreateVideoAnalyseTask extends Request
  */
 class DeleteTagSet extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -898,7 +854,6 @@ class DeleteTagSet extends Request
  */
 class DeleteTagByName extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -919,14 +874,12 @@ class DeleteTagByName extends Request
  */
 class RegistFace extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
  */
 class DescribeRegions extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -937,7 +890,6 @@ class DescribeRegions extends Request
  */
 class DeleteFaceSearchGroup extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -966,7 +918,6 @@ class DeleteFaceSearchGroup extends Request
  */
 class UpdateImage extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -975,7 +926,6 @@ class UpdateImage extends Request
  */
 class DeleteProject extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -988,7 +938,6 @@ class DeleteProject extends Request
  */
 class ListTagNames extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -999,7 +948,6 @@ class ListTagNames extends Request
  */
 class DetectImageLogos extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -1014,7 +962,6 @@ class DetectImageLogos extends Request
  */
 class DeleteVideo extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -1025,7 +972,6 @@ class DeleteVideo extends Request
  */
 class DetectImageFaces extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -1042,7 +988,6 @@ class DetectImageFaces extends Request
  */
 class GetFaceSearchImage extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -1069,7 +1014,6 @@ class GetFaceSearchImage extends Request
  */
 class UpdateDocIndexMeta extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -1082,7 +1026,6 @@ class UpdateDocIndexMeta extends Request
  */
 class DetectImageCelebrity extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -1095,7 +1038,6 @@ class DetectImageCelebrity extends Request
  */
 class DetectTag extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -1108,7 +1050,6 @@ class DetectTag extends Request
  */
 class UpdateProject extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -1121,7 +1062,6 @@ class UpdateProject extends Request
  */
 class ListPhotoProcessTasks extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -1132,7 +1072,6 @@ class ListPhotoProcessTasks extends Request
  */
 class ListSetTags extends Request
 {
-
 }/**
  * @method $this setMarker($marker)
  * @method string getMarker()
@@ -1147,7 +1086,6 @@ class ListSetTags extends Request
  */
 class ListTagJobs extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -1156,7 +1094,6 @@ class ListTagJobs extends Request
  */
 class CreateFaceSet extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -1169,7 +1106,6 @@ class CreateFaceSet extends Request
  */
 class GetImage extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -1186,7 +1122,6 @@ class GetImage extends Request
  */
 class ListImages extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -1197,7 +1132,6 @@ class ListImages extends Request
  */
 class DetectClothes extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -1210,7 +1144,6 @@ class DetectClothes extends Request
  */
 class GetDocIndex extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -1241,7 +1174,6 @@ class GetDocIndex extends Request
  */
 class CreateDocIndexTask extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -1296,7 +1228,6 @@ class CreateDocIndexTask extends Request
  */
 class FindImages extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -1309,7 +1240,6 @@ class FindImages extends Request
  */
 class DeleteImage extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -1322,7 +1252,6 @@ class DeleteImage extends Request
  */
 class DeleteTagJob extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -1335,7 +1264,6 @@ class DeleteTagJob extends Request
  */
 class CompareFace extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -1346,7 +1274,6 @@ class CompareFace extends Request
  */
 class DetectImageTags extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -1361,7 +1288,6 @@ class DetectImageTags extends Request
  */
 class ListFaceSearchGroupUsers extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -1382,7 +1308,6 @@ class ListFaceSearchGroupUsers extends Request
  */
 class PhotoProcess extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -1397,7 +1322,6 @@ class PhotoProcess extends Request
  */
 class ListImageJobs extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -1408,7 +1332,6 @@ class ListImageJobs extends Request
  */
 class DeleteOfficeConversionTask extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -1421,7 +1344,6 @@ class DeleteOfficeConversionTask extends Request
  */
 class CreateSet extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -1434,7 +1356,6 @@ class CreateSet extends Request
  */
 class GetVideo extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -1449,7 +1370,6 @@ class GetVideo extends Request
  */
 class ListVideos extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -1466,7 +1386,6 @@ class ListVideos extends Request
  */
 class PutProject extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -1479,7 +1398,6 @@ class PutProject extends Request
  */
 class DeleteFaceJob extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -1490,7 +1408,6 @@ class DeleteFaceJob extends Request
  */
 class DeletePornBatchDetectJob extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -1501,7 +1418,6 @@ class DeletePornBatchDetectJob extends Request
  */
 class GetDocIndexTask extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -1520,7 +1436,6 @@ class GetDocIndexTask extends Request
  */
 class CompareImageFaces extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -1531,7 +1446,6 @@ class CompareImageFaces extends Request
  */
 class GetOfficeConversionTask extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -1544,7 +1458,6 @@ class GetOfficeConversionTask extends Request
  */
 class UpdateSet extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -1557,7 +1470,6 @@ class UpdateSet extends Request
  */
 class GetImageJob extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -1568,7 +1480,6 @@ class GetImageJob extends Request
  */
 class DeleteSet extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -1579,7 +1490,6 @@ class DeleteSet extends Request
  */
 class GetPornBatchDetectJob extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -1590,5 +1500,4 @@ class GetPornBatchDetectJob extends Request
  */
 class DetectImageTexts extends Request
 {
-
 }

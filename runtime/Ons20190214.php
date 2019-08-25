@@ -71,7 +71,6 @@ class V20190214
  */
 class OnsMqttQueryClientByTopic extends Request
 {
-
 }/**
  * @method $this setPreventCache($preventCache)
  * @method int getPreventCache()
@@ -88,7 +87,6 @@ class OnsMqttQueryClientByTopic extends Request
  */
 class OnsMessagePush extends Request
 {
-
 }/**
  * @method $this setPreventCache($preventCache)
  * @method int getPreventCache()
@@ -107,7 +105,6 @@ class OnsMessagePush extends Request
  */
 class OnsTrendTopicInputTps extends Request
 {
-
 }/**
  * @method $this setPreventCache($preventCache)
  * @method int getPreventCache()
@@ -118,7 +115,6 @@ class OnsTrendTopicInputTps extends Request
  */
 class OnsTopicList extends Request
 {
-
 }/**
  * @method $this setPreventCache($preventCache)
  * @method int getPreventCache()
@@ -139,7 +135,6 @@ class OnsTopicList extends Request
  */
 class OnsTrendGroupOutputTps extends Request
 {
-
 }/**
  * @method $this setPreventCache($preventCache)
  * @method int getPreventCache()
@@ -148,7 +143,6 @@ class OnsTrendGroupOutputTps extends Request
  */
 class OnsTraceGetResult extends Request
 {
-
 }/**
  * @method $this setPreventCache($preventCache)
  * @method int getPreventCache()
@@ -161,7 +155,6 @@ class OnsTraceGetResult extends Request
  */
 class OnsConsumerAccumulate extends Request
 {
-
 }/**
  * @method $this setPreventCache($preventCache)
  * @method int getPreventCache()
@@ -174,7 +167,6 @@ class OnsConsumerAccumulate extends Request
  */
 class OnsInstanceUpdate extends Request
 {
-
 }/**
  * @method $this setPreventCache($preventCache)
  * @method int getPreventCache()
@@ -185,7 +177,6 @@ class OnsInstanceUpdate extends Request
  */
 class OnsGroupDelete extends Request
 {
-
 }/**
  * @method $this setPreventCache($preventCache)
  * @method int getPreventCache()
@@ -200,7 +191,6 @@ class OnsGroupDelete extends Request
  */
 class OnsMqttGroupIdCreate extends Request
 {
-
 }/**
  * @method $this setPreventCache($preventCache)
  * @method int getPreventCache()
@@ -215,7 +205,6 @@ class OnsMqttGroupIdCreate extends Request
  */
 class OnsConsumerStatus extends Request
 {
-
 }/**
  * @method $this setPreventCache($preventCache)
  * @method int getPreventCache()
@@ -236,14 +225,12 @@ class OnsConsumerStatus extends Request
  */
 class OnsDLQMessagePageQueryByGroupId extends Request
 {
-
 }/**
  * @method $this setPreventCache($preventCache)
  * @method int getPreventCache()
  */
 class OnsInstanceInServiceList extends Request
 {
-
 }/**
  * @method $this setPreventCache($preventCache)
  * @method int getPreventCache()
@@ -268,7 +255,6 @@ class OnsInstanceInServiceList extends Request
  */
 class OnsWarnCreate extends Request
 {
-
 }/**
  * @method $this setPreventCache($preventCache)
  * @method int getPreventCache()
@@ -281,7 +267,6 @@ class OnsWarnCreate extends Request
  */
 class OnsGroupConsumerUpdate extends Request
 {
-
 }/**
  * @method $this setPreventCache($preventCache)
  * @method int getPreventCache()
@@ -298,7 +283,6 @@ class OnsGroupConsumerUpdate extends Request
  */
 class OnsMessageSend extends Request
 {
-
 }/**
  * @method $this setPreventCache($preventCache)
  * @method int getPreventCache()
@@ -307,7 +291,6 @@ class OnsMessageSend extends Request
  */
 class OnsMqttGroupIdList extends Request
 {
-
 }/**
  * @method $this setPreventCache($preventCache)
  * @method int getPreventCache()
@@ -318,7 +301,6 @@ class OnsMqttGroupIdList extends Request
  */
 class OnsConsumerGetConnection extends Request
 {
-
 }/**
  * @method $this setPreventCache($preventCache)
  * @method int getPreventCache()
@@ -329,7 +311,6 @@ class OnsConsumerGetConnection extends Request
  */
 class OnsTopicStatus extends Request
 {
-
 }/**
  * @method $this setPreventCache($preventCache)
  * @method int getPreventCache()
@@ -342,7 +323,6 @@ class OnsTopicStatus extends Request
  */
 class OnsConsumerTimeSpan extends Request
 {
-
 }/**
  * @method $this setPreventCache($preventCache)
  * @method int getPreventCache()
@@ -353,7 +333,6 @@ class OnsConsumerTimeSpan extends Request
  */
 class OnsTopicDelete extends Request
 {
-
 }/**
  * @method $this setPreventCache($preventCache)
  * @method int getPreventCache()
@@ -364,7 +343,6 @@ class OnsTopicDelete extends Request
  */
 class OnsInstanceCreate extends Request
 {
-
 }/**
  * @method $this setPreventCache($preventCache)
  * @method int getPreventCache()
@@ -375,7 +353,6 @@ class OnsInstanceCreate extends Request
  */
 class OnsGroupList extends Request
 {
-
 }/**
  * @method $this setPreventCache($preventCache)
  * @method int getPreventCache()
@@ -386,7 +363,6 @@ class OnsGroupList extends Request
  */
 class OnsMqttQueryClientByClientId extends Request
 {
-
 }/**
  * @method $this setPreventCache($preventCache)
  * @method int getPreventCache()
@@ -403,7 +379,6 @@ class OnsMqttQueryClientByClientId extends Request
  */
 class OnsTraceQueryByMsgId extends Request
 {
-
 }/**
  * @method $this setPreventCache($preventCache)
  * @method int getPreventCache()
@@ -416,7 +391,6 @@ class OnsTraceQueryByMsgId extends Request
  */
 class OnsMessageTrace extends Request
 {
-
 }/**
  * @method $this setPreventCache($preventCache)
  * @method int getPreventCache()
@@ -433,7 +407,6 @@ class OnsMessageTrace extends Request
  */
 class OnsTraceQueryByMsgKey extends Request
 {
-
 }/**
  * @method $this setPreventCache($preventCache)
  * @method int getPreventCache()
@@ -454,7 +427,6 @@ class OnsTraceQueryByMsgKey extends Request
  */
 class OnsMessagePageQueryByTopic extends Request
 {
-
 }/**
  * @method $this setPreventCache($preventCache)
  * @method int getPreventCache()
@@ -467,7 +439,6 @@ class OnsMessagePageQueryByTopic extends Request
  */
 class OnsMessageGetByKey extends Request
 {
-
 }/**
  * @method $this setPreventCache($preventCache)
  * @method int getPreventCache()
@@ -482,7 +453,6 @@ class OnsMessageGetByKey extends Request
  */
 class OnsMqttQueryHistoryOnline extends Request
 {
-
 }/**
  * @method $this setPreventCache($preventCache)
  * @method int getPreventCache()
@@ -493,7 +463,6 @@ class OnsMqttQueryHistoryOnline extends Request
  */
 class OnsTopicSubDetail extends Request
 {
-
 }/**
  * @method $this setPreventCache($preventCache)
  * @method int getPreventCache()
@@ -506,7 +475,6 @@ class OnsTopicSubDetail extends Request
  */
 class OnsDLQMessageGetById extends Request
 {
-
 }/**
  * @method $this setPreventCache($preventCache)
  * @method int getPreventCache()
@@ -521,7 +489,6 @@ class OnsDLQMessageGetById extends Request
  */
 class OnsTopicCreate extends Request
 {
-
 }/**
  * @method $this setPreventCache($preventCache)
  * @method int getPreventCache()
@@ -530,7 +497,6 @@ class OnsTopicCreate extends Request
  */
 class OnsInstanceDelete extends Request
 {
-
 }/**
  * @method $this setPreventCache($preventCache)
  * @method int getPreventCache()
@@ -555,7 +521,6 @@ class OnsInstanceDelete extends Request
  */
 class OnsMqttQueryMsgTransTrend extends Request
 {
-
 }/**
  * @method $this setPreventCache($preventCache)
  * @method int getPreventCache()
@@ -568,7 +533,6 @@ class OnsMqttQueryMsgTransTrend extends Request
  */
 class OnsMessageGetByMsgId extends Request
 {
-
 }/**
  * @method $this setPreventCache($preventCache)
  * @method int getPreventCache()
@@ -579,7 +543,6 @@ class OnsMessageGetByMsgId extends Request
  */
 class OnsMqttQueryClientByGroupId extends Request
 {
-
 }/**
  * @method $this setPreventCache($preventCache)
  * @method int getPreventCache()
@@ -590,7 +553,6 @@ class OnsMqttQueryClientByGroupId extends Request
  */
 class OnsGroupSubDetail extends Request
 {
-
 }/**
  * @method $this setPreventCache($preventCache)
  * @method int getPreventCache()
@@ -603,7 +565,6 @@ class OnsGroupSubDetail extends Request
  */
 class OnsTopicUpdate extends Request
 {
-
 }/**
  * @method $this setPreventCache($preventCache)
  * @method int getPreventCache()
@@ -620,7 +581,6 @@ class OnsTopicUpdate extends Request
  */
 class OnsConsumerResetOffset extends Request
 {
-
 }/**
  * @method $this setPreventCache($preventCache)
  * @method int getPreventCache()
@@ -633,14 +593,12 @@ class OnsConsumerResetOffset extends Request
  */
 class OnsGroupCreate extends Request
 {
-
 }/**
  * @method $this setPreventCache($preventCache)
  * @method int getPreventCache()
  */
 class OnsRegionList extends Request
 {
-
 }/**
  * @method $this setPreventCache($preventCache)
  * @method int getPreventCache()
@@ -653,7 +611,6 @@ class OnsRegionList extends Request
  */
 class OnsMqttGroupIdDelete extends Request
 {
-
 }/**
  * @method $this setPreventCache($preventCache)
  * @method int getPreventCache()
@@ -666,7 +623,6 @@ class OnsMqttGroupIdDelete extends Request
  */
 class OnsDLQMessageResendById extends Request
 {
-
 }/**
  * @method $this setPreventCache($preventCache)
  * @method int getPreventCache()
@@ -679,7 +635,6 @@ class OnsDLQMessageResendById extends Request
  */
 class OnsWarnDelete extends Request
 {
-
 }/**
  * @method $this setPreventCache($preventCache)
  * @method int getPreventCache()
@@ -688,5 +643,4 @@ class OnsWarnDelete extends Request
  */
 class OnsInstanceBaseInfo extends Request
 {
-
 }

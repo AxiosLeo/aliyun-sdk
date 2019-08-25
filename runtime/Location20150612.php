@@ -29,14 +29,12 @@ class V20150612
  */
 class ListEndpoints extends Request
 {
-
 }/**
  * @method $this setIp($ip)
  * @method string getIp()
  */
 class ListEndpointsByIp extends Request
 {
-
 }/**
  * @method $this setId($id)
  * @method string getId()
@@ -47,7 +45,6 @@ class ListEndpointsByIp extends Request
  */
 class DescribeEndpoint extends Request
 {
-
 }/**
  * @method $this setId($id)
  * @method string getId()
@@ -58,14 +55,12 @@ class DescribeEndpoint extends Request
  */
 class DescribeEndpoints extends Request
 {
-
 }/**
  * @method $this setPassword($password)
  * @method string getPassword()
  */
 class DescribeRegions extends Request
 {
-
 }/**
  * @method $this setRegionId($regionId)
  * @method string getRegionId()
@@ -74,5 +69,4 @@ class DescribeRegions extends Request
  */
 class DescribeServices extends Request
 {
-
 }

@@ -25,7 +25,6 @@ class V2018124
  */
 class TransferInRefetchWhoisEmail extends Request
 {
-
 }/**
  * @method $this setAddress($address)
  * @method string getAddress()
@@ -66,5 +65,4 @@ class TransferInRefetchWhoisEmail extends Request
  */
 class SaveBatchTaskForUpdatingRegistrantExceptOrgByNewContact extends Request
 {
-
 }

@@ -27,24 +27,20 @@ class V20151103
  */
 class InsertInstance extends Request
 {
-
 }/**
  * @method $this setInstanceName($instanceName)
  * @method string getInstanceName()
  */
 class DeleteInstance extends Request
 {
-
 }/**
  */
 class ListInstance extends Request
 {
-
 }/**
  * @method $this setInstanceName($instanceName)
  * @method string getInstanceName()
  */
 class GetInstance extends Request
 {
-
 }

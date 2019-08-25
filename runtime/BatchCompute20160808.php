@@ -27,50 +27,40 @@ class V20160808
  */
 class GetProjectQuota extends Request
 {
-
 }/**
  */
 class GetProject extends Request
 {
-
 }/**
  */
 class ListProjects extends Request
 {
-
 }/**
  */
 class DeleteObject extends Request
 {
-
 }/**
  */
 class CreateProject extends Request
 {
-
 }/**
  */
 class GetObject extends Request
 {
-
 }/**
  */
 class DeleteProject extends Request
 {
-
 }/**
  */
 class ListObjects extends Request
 {
-
 }/**
  */
 class GetUploadpath extends Request
 {
-
 }/**
  */
 class CreateObject extends Request
 {
-
 }

@@ -42,7 +42,6 @@ class V20151101
  */
 class CreateOrder extends Request
 {
-
 }/**
  * @method $this setSearchTerm($searchTerm)
  * @method string getSearchTerm()
@@ -55,12 +54,10 @@ class CreateOrder extends Request
  */
 class DescribeProducts extends Request
 {
-
 }/**
  */
 class QueryMarketCategories extends Request
 {
-
 }/**
  * @method $this setOrderType($orderType)
  * @method string getOrderType()
@@ -69,7 +66,6 @@ class QueryMarketCategories extends Request
  */
 class DescribePrice extends Request
 {
-
 }/**
  * @method $this setAliUid($aliUid)
  * @method string getAliUid()
@@ -80,7 +76,6 @@ class DescribePrice extends Request
  */
 class DescribeProduct extends Request
 {
-
 }/**
  * @method $this setEcsInstanceId($ecsInstanceId)
  * @method string getEcsInstanceId()
@@ -89,7 +84,6 @@ class DescribeProduct extends Request
  */
 class BindImagePackage extends Request
 {
-
 }/**
  * @method $this setInstanceId($instanceId)
  * @method string getInstanceId()
@@ -98,14 +92,12 @@ class BindImagePackage extends Request
  */
 class DescribeInstance extends Request
 {
-
 }/**
  * @method $this setProductCode($productCode)
  * @method string getProductCode()
  */
 class SubscribeImage extends Request
 {
-
 }/**
  * @method $this setLicenseCode($licenseCode)
  * @method string getLicenseCode()
@@ -114,33 +106,28 @@ class SubscribeImage extends Request
  */
 class ActivateLicense extends Request
 {
-
 }/**
  * @method $this setParam($param)
  * @method string getParam()
  */
 class QueryMarketImages extends Request
 {
-
 }/**
  * @method $this setLicenseCode($licenseCode)
  * @method string getLicenseCode()
  */
 class DescribeLicense extends Request
 {
-
 }/**
  * @method $this setOrderId($orderId)
  * @method string getOrderId()
  */
 class DescribeOrder extends Request
 {
-
 }/**
  * @method $this setMetering($metering)
  * @method string getMetering()
  */
 class PushMeteringData extends Request
 {
-
 }
